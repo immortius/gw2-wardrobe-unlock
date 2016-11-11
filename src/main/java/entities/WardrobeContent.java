@@ -9,5 +9,8 @@ import java.util.List;
  */
 public class WardrobeContent {
 
-    public List<Integer> equipmentSkins = Lists.newArrayList();
+    public List<Integer> skins = Lists.newArrayList();
+    public List<Integer> minis = Lists.newArrayList();
+    public List<Integer> finishers = Lists.newArrayList();
+    public List<Integer> dyes = Lists.newArrayList();
 }

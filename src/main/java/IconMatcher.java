@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -33,6 +34,10 @@ public class IconMatcher {
 
 
     public Set<String> matchIcons(Path screenshotRootPath, Path iconCachePath) {
+        return matchIcons(screenshotRootPath, iconCachePath, 100);
+    }
+
+    public Set<String> matchIcons(Path screenshotRootPath, Path iconCachePath, int threshold) {
         Set<String> iconNames = Sets.newConcurrentHashSet();
         ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
         try {
@@ -46,7 +51,7 @@ public class IconMatcher {
             try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath)) {
                 for (Path screenshotPath : screenshotPaths) {
                     BufferedImage screen = ImageIO.read(screenshotPath.toFile());
-                    int startY = findStart(screen, icons);
+                    int startY = findStart(screen, icons, threshold);
 
                     int remainingHeight = screen.getHeight() - startY;
                     int columns = 1 + (screen.getWidth() - SCREENSHOT_ICON_SIZE) / (SCREENSHOT_ICON_SIZE + SCREENSHOT_BORDER_SIZE);
@@ -57,26 +62,31 @@ public class IconMatcher {
                             String imageName = "(" + i + ", " + j + ")";
                             executorService.submit(() -> {
                                 List<String> matches = Lists.newArrayList();
+                                List<BufferedImage> matchIcons = Lists.newArrayList();
                                 float currentDiffScore = Float.MAX_VALUE;
                                 for (Map.Entry<String, BufferedImage> entry : icons.entrySet()) {
-                                    float diffScore = compareImages(mapIcon, entry.getValue());
+                                    float diffScore = compareImages(mapIcon, entry.getValue(), threshold);
                                     if (diffScore < 1) {
-                                        if (Math.abs(diffScore - currentDiffScore) < 0.01) {
+                                        if (Math.abs(diffScore - currentDiffScore) < 0.00001) {
                                             matches.add(entry.getKey());
+                                            matchIcons.add(entry.getValue());
                                         } else if (diffScore < currentDiffScore) {
                                             matches.clear();
+                                            matchIcons.clear();
                                             matches.add(entry.getKey());
+                                            matchIcons.add(entry.getValue());
                                             currentDiffScore = diffScore;
                                         }
                                     }
                                 }
                                 if (matches.isEmpty()) {
-                                    System.out.println("Failed to find match for " + screenshotPath.getFileName() + " - " + imageName);
+                                    logger.warn("Failed to find match for {} - {}", screenshotPath.getFileName(), imageName);
                                 } else if (matches.size() > 1) {
-                                    System.out.println("Multiple matches for " + screenshotPath.getFileName() + " " + imageName + " - " + matches);
+                                    logger.warn("Multiple matches for {} {} - {}", screenshotPath.getFileName(), imageName, matches);
                                 } else if (currentDiffScore > 0.5f) {
-                                    System.out.println("High match - " + screenshotPath.getFileName() + " " + imageName + " to " + matches.get(0) + " - " + currentDiffScore);
-                                }
+                                    logger.warn("High match - {} {} to {} - {}", screenshotPath.getFileName(), imageName, matches.get(0), currentDiffScore);
+                                 }
+
                                 iconNames.addAll(matches);
                             });
                         }
@@ -95,7 +105,7 @@ public class IconMatcher {
         return iconNames;
     }
 
-    private int findStart(BufferedImage screen, Map<String, BufferedImage> icons) throws IOException {
+    private int findStart(BufferedImage screen, Map<String, BufferedImage> icons, int threshold) throws IOException {
         ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
 
         Map<Integer, Future<Float>> scores = Maps.newLinkedHashMap();
@@ -105,7 +115,7 @@ public class IconMatcher {
                 float offsetScore = Float.MAX_VALUE;
                 BufferedImage firstIcon = scale(screen.getSubimage(0, finalOffsetY, SCREENSHOT_ICON_SIZE, SCREENSHOT_ICON_SIZE), SCALE_FACTOR);
                 for (BufferedImage icon : icons.values()) {
-                    float diffScore = compareImages(firstIcon, icon);
+                    float diffScore = compareImages(firstIcon, icon, threshold);
                     if (diffScore < offsetScore && diffScore < 1.0) {
                         offsetScore = diffScore;
                     }
@@ -126,6 +136,7 @@ public class IconMatcher {
         } catch (InterruptedException|ExecutionException e) {
             logger.error("Failed to calculate start offset", e);
         }
+        executorService.shutdown();
         return bestOffset;
     }
 
@@ -138,18 +149,20 @@ public class IconMatcher {
         return scaled;
     }
 
-    private float compareImages(BufferedImage imageA, BufferedImage imageB) {
+    private float compareImages(BufferedImage imageA, BufferedImage imageB, float threshold) {
         float diffScore = 0;
-        for (int x = 0; x < imageA.getWidth() && diffScore < 10000; ++x) {
-            for (int y = 0; y < imageA.getHeight() && diffScore < 10000; y++) {
+        for (int x = 0; x < imageA.getWidth() && diffScore < threshold; ++x) {
+            for (int y = 0; y < imageA.getHeight() && diffScore < threshold; y++) {
                 diffScore += comparePixel(imageA.getRGB(x, y), imageB.getRGB(x, y));
             }
         }
-        return diffScore / 10000;
+        return diffScore / threshold;
     }
 
     private float comparePixel(int rgbA, int rgbB) {
         float diff = 0;
+        int aA = (rgbA & 0x80000000) >> 31;
+        int aB = (rgbB & 0x80000000) >> 31;
         int rA = (rgbA & 0x00ff0000) >> 16;
         int gA = (rgbA & 0x0000ff00) >> 8;
         int bA = rgbA & 0x000000ff;
@@ -159,6 +172,6 @@ public class IconMatcher {
         diff += (rA - rB) * (rA - rB) / 255f;
         diff += (gA - gB) * (gA - gB) / 255f;
         diff += (bA - bB) * (bA - bB) / 255f;
-        return diff;
+        return aA * aB * diff / 255f;
     }
 }
