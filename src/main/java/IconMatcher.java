@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -28,9 +27,15 @@ public class IconMatcher {
     private static final Logger logger = LoggerFactory.getLogger(IconMatcher.class);
 
     private static final int NUM_THREADS = 8;
-    private static final int SCREENSHOT_ICON_SIZE = 48;
-    private static final int SCREENSHOT_BORDER_SIZE = 10;
-    private static final int SCALE_FACTOR = 2;
+    private int iconSize = 48;
+    private int borderSize = 10;
+    private int scaleFactor = 2;
+
+    public IconMatcher(int screenshotIconSize, int borderSize, int thumbSize) {
+        this.iconSize = screenshotIconSize;
+        this.borderSize = borderSize;
+        this.scaleFactor = screenshotIconSize / thumbSize;
+    }
 
 
     public Set<String> matchIcons(Path screenshotRootPath, Path iconCachePath) {
@@ -54,11 +59,11 @@ public class IconMatcher {
                     int startY = findStart(screen, icons, threshold);
 
                     int remainingHeight = screen.getHeight() - startY;
-                    int columns = 1 + (screen.getWidth() - SCREENSHOT_ICON_SIZE) / (SCREENSHOT_ICON_SIZE + SCREENSHOT_BORDER_SIZE);
-                    int rows = 1 + (remainingHeight - SCREENSHOT_ICON_SIZE) / (SCREENSHOT_ICON_SIZE + SCREENSHOT_BORDER_SIZE);
+                    int columns = 1 + (screen.getWidth() - iconSize) / (iconSize + borderSize);
+                    int rows = 1 + (remainingHeight - iconSize) / (iconSize + borderSize);
                     for (int j = 0; j < rows; ++j) {
                         for (int i = 0; i < columns; ++i) {
-                            BufferedImage mapIcon = scale(screen.getSubimage(i * (SCREENSHOT_ICON_SIZE + SCREENSHOT_BORDER_SIZE), startY + j * (SCREENSHOT_ICON_SIZE + SCREENSHOT_BORDER_SIZE), SCREENSHOT_ICON_SIZE, SCREENSHOT_ICON_SIZE), SCALE_FACTOR);
+                            BufferedImage mapIcon = scale(screen.getSubimage(i * (iconSize + borderSize), startY + j * (iconSize + borderSize), iconSize, iconSize), scaleFactor);
                             String imageName = "(" + i + ", " + j + ")";
                             executorService.submit(() -> {
                                 List<String> matches = Lists.newArrayList();
@@ -109,11 +114,11 @@ public class IconMatcher {
         ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
 
         Map<Integer, Future<Float>> scores = Maps.newLinkedHashMap();
-        for (int offsetY = 0; offsetY < SCREENSHOT_ICON_SIZE + SCREENSHOT_BORDER_SIZE && offsetY < screen.getHeight() - SCREENSHOT_ICON_SIZE; ++ offsetY) {
+        for (int offsetY = 0; offsetY < iconSize + borderSize && offsetY < screen.getHeight() - iconSize; ++ offsetY) {
             int finalOffsetY = offsetY;
             scores.put(offsetY, executorService.submit(() -> {
                 float offsetScore = Float.MAX_VALUE;
-                BufferedImage firstIcon = scale(screen.getSubimage(0, finalOffsetY, SCREENSHOT_ICON_SIZE, SCREENSHOT_ICON_SIZE), SCALE_FACTOR);
+                BufferedImage firstIcon = scale(screen.getSubimage(0, finalOffsetY, iconSize, iconSize), scaleFactor);
                 for (BufferedImage icon : icons.values()) {
                     float diffScore = compareImages(firstIcon, icon, threshold);
                     if (diffScore < offsetScore && diffScore < 1.0) {

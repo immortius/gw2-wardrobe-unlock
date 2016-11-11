@@ -8,11 +8,11 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import entities.Common;
-import entities.Skin;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.io.Reader;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -32,27 +32,39 @@ public class IdResolver {
     private static TypeToken<Set<String>> STRING_SET_TYPE = new TypeToken<Set<String>>() {
     };
 
-    private Gson gson = new GsonBuilder().create();
+    private Gson gson;
 
-    public <T extends Common> Set<Integer> collectIds(Path dataPath, Path iconsList, Class<T> type, Predicate<T> dataFilter, Function<List<T>, List<T>> multiResolver) {
-        SetMultimap<String, T> dataMap = mapIconsToData(dataPath, type, dataFilter);
+    public IdResolver(Gson gson) {
+        this.gson = gson;
+    }
+
+    public Set<Integer> collectIds(Path dataPath, Path iconsList, Class<? extends Common> type, Set<Integer> ignoreIds, Set<Integer> iconSharingIds, Set<Integer> joinedIds, Predicate<Common> dataFilter, Function<List<Common>, List<Common>> resultFilter) {
+        SetMultimap<String, Common> dataMap = mapIconsToData(dataPath, type, ignoreIds, dataFilter);
 
         Set<Integer> collectedIds = Sets.newLinkedHashSet();
         try (JsonReader reader = new JsonReader(Files.newBufferedReader(iconsList, Charsets.UTF_8))) {
             Set<String> iconNames = gson.fromJson(reader, STRING_SET_TYPE.getType());
             for (String iconName : iconNames) {
-                List<T> data = dataMap.get(iconName).stream().collect(Collectors.toList());
+                List<Common> data = dataMap.get(iconName).stream().collect(Collectors.toList());
 
                 if (data.isEmpty()) {
                     logger.error("Matched no skins");
                 } else if (data.size() == 1) {
                     collectedIds.add(data.get(0).id);
                 } else {
-                    List<T> result = multiResolver.apply(data);
-                    if (!result.isEmpty()) {
-                        collectedIds.addAll(result.stream().map(t -> t.id).collect(Collectors.toList()));
+                    data = resultFilter.apply(data);
+                    if (data.size() == 1) {
+                        collectedIds.add(data.get(0).id);
+                    } else if (joinedIds.contains(data.get(0).id)) {
+                        collectedIds.add(data.get(0).id);
                     } else {
-                        logger.error("Unable to resolve multiple ids for {} - {}", iconName, data.stream().map(t -> t.id + " - " + t.name).collect(Collectors.toList()));
+                        for (Common item : data) {
+                            if (!iconSharingIds.contains(item.id)) {
+                                logger.error("Discovered new shared skin icon on skin '{}' {}", item.name, item.id);
+                            } else {
+                                collectedIds.add(item.id);
+                            }
+                        }
                     }
                 }
             }
@@ -62,13 +74,13 @@ public class IdResolver {
         return collectedIds;
     }
 
-    private <T extends Common> SetMultimap<String, T> mapIconsToData(Path dataPath, Class<T> type, Predicate<T> filter) {
-        SetMultimap<String, T> iconToDataMap = HashMultimap.create();
+    private SetMultimap<String, Common> mapIconsToData(Path dataPath, Class<? extends Common> type, Set<Integer> ignoreIds, Predicate<Common> filter) {
+        SetMultimap<String, Common> iconToDataMap = HashMultimap.create();
         try (DirectoryStream<Path> files = Files.newDirectoryStream(dataPath)) {
             for (Path dataFile : files) {
-                try (JsonReader reader = new JsonReader(Files.newBufferedReader(dataFile))) {
-                    T data = gson.fromJson(reader, type);
-                    if (!Strings.isNullOrEmpty(data.icon) && !Strings.isNullOrEmpty(data.name) && filter.test(data)) {
+                try (Reader reader = Files.newBufferedReader(dataFile)) {
+                    Common data = gson.fromJson(reader, type);
+                    if (!Strings.isNullOrEmpty(data.icon) && !Strings.isNullOrEmpty(data.name) && !ignoreIds.contains(data.id) && filter.test(data)) {
                         iconToDataMap.put(data.getIconName(), data);
                     }
                 } catch (IOException e) {
