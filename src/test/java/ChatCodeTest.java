@@ -7,6 +7,6 @@ public class ChatCodeTest {
 
     @Test
     public void convert() {
-        System.out.println(ChatCode.toId("[&AgGiNAEA]"));
+        System.out.println(ChatCode.toId("[&AgEjNwEA]"));
     }
 }
