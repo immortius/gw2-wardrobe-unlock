@@ -1,0 +1,9 @@
+Vague instructions:
+
+* Cropped screenshots go in the input folders (this is also where the config is)
+* Result goes into the site folders
+* Various information is cached in the cache folder. Some of it needs to be deleted to produce new results - specifically the manifests in the root. 
+  cache/api is all information from the gw2 apis, so probably shouldn't need to be deleted.
+* The java file to run is au.net.immortius.wardrobe.GuaranteedWardrobeUnlockAnalyser.
+
+Images should be cropped hard on the left side to the start of the tiles. Some leeway is allowed for on the other side - except for dyes, those need to be pretty accurate.
