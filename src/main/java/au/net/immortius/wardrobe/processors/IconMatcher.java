@@ -55,7 +55,7 @@ public class IconMatcher {
                     icons.put(iconFile.getFileName().toString(), thumb);
                 }
             }
-            try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, (x) -> x.endsWith("png"))) {
+            try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, "*.png")) {
                 for (Path screenshotPath : screenshotPaths) {
                     BufferedImage screen = ImageIO.read(screenshotPath.toFile());
                     int startY = findStart(screen, icons, threshold);

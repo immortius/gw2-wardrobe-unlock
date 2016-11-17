@@ -49,7 +49,7 @@ public class ColorMatcher {
             logger.error("Failed to load dye files", e);
         }
         Set<Integer> foundDyes = Sets.newLinkedHashSet();
-        try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, (x) -> x.endsWith("png"))) {
+        try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, "*.png")) {
             for (Path screenshotPath : screenshotPaths) {
                 BufferedImage screen = ImageIO.read(screenshotPath.toFile());
                 int columns = 1 + (screen.getWidth() - screenshotIconSize) / (screenshotIconSize + borderSize);
