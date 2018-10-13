@@ -1,0 +1,73 @@
+.icon {
+	background-size: 0;
+	background-repeat-x: no-repeat;
+	background-repeat-y: no-repeat;
+}
+
+.item {
+	display: flex;
+	flex-direction: row;
+}
+
+#selection-icon {
+	align-items: flex-end;
+	border: 2px solid white;
+	outline: 1px solid black;
+	margin: 1px;
+	position: relative;
+	width: 64px;
+	height: 64px;
+	background-size: initial;
+}
+
+#selection-icon.Junk {
+	border: 2px solid #AAA;
+}
+
+#selection-icon.Basic {
+	border: 2px solid white;
+}
+
+#selection-icon.Fine {
+	border: 2px solid #62A4DA;
+}
+
+#selection-icon.Masterwork {
+	border: 2px solid #1a9306;
+}
+
+#selection-icon.Rare {
+	border: 2px solid #fcd00b;
+}
+
+#selection-icon.Exotic {
+	border: 2px solid #ffa405;
+}
+
+#selection-icon.Ascended {
+	border: 2px solid #fb3e8d;
+}
+
+#selection-icon.Legendary {
+	border: 2px solid #4C139D;
+}
+
+#selection-icon.swatch {
+	height: 64px;
+	width: 64px;
+	z-index: -10;
+}
+
+.swatch {
+	display: none;
+	visibility: hidden;
+}
+
+#selection-swatch.swatch {
+	height: 64px;
+	width: 64px;
+	display: initial;
+    visibility: visible;
+	z-index: -10;
+}
+

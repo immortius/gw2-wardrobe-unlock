@@ -1,0 +1,21 @@
+{
+  "name": "craft",
+  "contents": [
+    // Books,
+    2325,2376,2318,2326,
+    // Fractal,
+    2378,2379,6344,
+    // Living Story 2,
+    5545,5532,5544,
+    // Player Vs Player,
+    6556,6561,
+    // Quivers,
+    2341,
+    // Spinal Blade,
+    2330,2331,2337,2335,2334,2333,2332,2328,
+    // World Vs World,
+    7248,7272,
+    // Zodiac,
+    8014,6620,5857,7069
+  ]
+}

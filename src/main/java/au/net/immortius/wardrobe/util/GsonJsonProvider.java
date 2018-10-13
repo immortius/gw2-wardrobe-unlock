@@ -11,16 +11,12 @@ import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.ext.MessageBodyReader;
 import javax.ws.rs.ext.MessageBodyWriter;
 import javax.ws.rs.ext.Provider;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Type;
 
 /**
- *
+ * A MessageBodyReader/Writer provider that delegates json handling to gson
  */
 @Provider
 @Consumes({MediaType.APPLICATION_JSON, "text/json"})

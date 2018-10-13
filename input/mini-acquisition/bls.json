@@ -1,0 +1,13 @@
+{
+  "name": "bls",
+  "contents": [
+    // Griffon Hatchling,
+    682,
+    // Jackal Pups,
+    640,
+    // Mounts,
+    648,649,652,653,655,
+    // Raptor Hatchlings,
+    589
+  ]
+}

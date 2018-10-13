@@ -1,0 +1,27 @@
+{
+  "name": "achievement",
+  "contents": [
+    // Awakened,
+    547,
+    // Fractals,
+    360,
+    // Halloween,
+    301,
+    // Heart Of Thorns,
+    350,354,396,
+    // Living Story 1,
+    195,
+    // Living Story 3,
+    582,492,424,
+    // Living Story 4,
+    720,727,
+    // Path Of Fire,
+    500,555,527,575,562,540,
+    // Sunspear,
+    573,510,
+    // Wintersday,
+    119,115,118,117,116,310,636,
+    // General,
+    651,650
+  ]
+}

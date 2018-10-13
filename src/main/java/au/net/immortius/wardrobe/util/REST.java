@@ -12,7 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 /**
- *
+ * REST utility methods
  */
 public final class REST {
 
@@ -20,6 +20,12 @@ public final class REST {
 
     private REST() {}
 
+    /**
+     * A quick and dirty download file to disk method
+     * @param client The client to use for the downlaod
+     * @param url The url to download
+     * @param toFile The path to save the download to
+     */
     public static void download(Client client, String url, Path toFile) {
         if (!Files.exists(toFile)) {
             try (InputStream in = client.target(url).request().get(InputStream.class); OutputStream out = Files.newOutputStream(toFile)) {

@@ -1,0 +1,70 @@
+.swatch {
+	height: 64px;
+	width: 64px;
+	margin-bottom: -64px;
+	z-index: -10;
+}
+
+.section-body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.name {
+	display: none;
+	visibility: hidden;
+}
+
+.item {
+	align-items: flex-end;
+	border: 2px solid white;
+	outline: 1px solid black;
+	margin: 1px;
+	position: relative;
+	width: 64px;
+	height: 64px;
+}
+
+.Junk {
+	border: 2px solid #AAA;
+}
+
+.Basic {
+	border: 2px solid white;
+}
+
+.Fine {
+	border: 2px solid #62A4DA;
+}
+
+.Masterwork {
+	border: 2px solid #1a9306;
+}
+
+.Rare {
+	border: 2px solid #fcd00b;
+}
+
+.Exotic {
+	border: 2px solid #ffa405;
+}
+
+.Ascended {
+	border: 2px solid #fb3e8d;
+}
+
+.Legendary {
+	border: 2px solid #4C139D;
+}
+
+.icon {
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+@media only screen and (max-width: 50em) {
+	.item {
+		zoom: 0.7;
+	}
+}

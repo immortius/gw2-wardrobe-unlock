@@ -1,0 +1,29 @@
+{
+  "name": "gem",
+  "contents": [
+    // Animals,
+    6745,
+    // Halloween,
+    6412,6431,
+    // Living Story 1,
+    5998,5708,2369,7047,
+    // Living Story 3,
+    6965,7000,6854,7202,
+    // Living Story 4,
+    8184,
+    // Path of Fire,
+    8038,
+    // Plush Backpack,
+    2371,2363,2355,1048,2372,
+    // Quivers,
+    6449,7012,
+    // Super Adventure Box,
+    7200,
+    // Wings,
+    5878,7743,6078,7004,6003,6132,6527,6615,6744,6774,6035,
+    // Wintersday,
+    6554,
+    // General,
+    7285,7661,7227,5654,7811
+  ]
+}
