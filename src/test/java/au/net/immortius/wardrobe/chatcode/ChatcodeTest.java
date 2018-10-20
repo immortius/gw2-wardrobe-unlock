@@ -1,5 +1,6 @@
 package au.net.immortius.wardrobe.chatcode;
 
+import au.net.immortius.wardrobe.gw2api.Chatcode;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

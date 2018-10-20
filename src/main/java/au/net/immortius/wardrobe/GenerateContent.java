@@ -1,17 +1,18 @@
 package au.net.immortius.wardrobe;
 
-import au.net.immortius.wardrobe.chatcode.Chatcode;
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
+import au.net.immortius.wardrobe.gw2api.Chatcode;
 import au.net.immortius.wardrobe.gw2api.Rarity;
+import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
+import au.net.immortius.wardrobe.imagemap.IconDetails;
+import au.net.immortius.wardrobe.imagemap.ImageMap;
 import au.net.immortius.wardrobe.inputentities.Grouping;
-import au.net.immortius.wardrobe.site.IconDetails;
-import au.net.immortius.wardrobe.site.ImageMap;
 import au.net.immortius.wardrobe.site.entities.*;
 import au.net.immortius.wardrobe.util.ColorUtil;
-import au.net.immortius.wardrobe.vendors.VendorData;
-import au.net.immortius.wardrobe.vendors.VendorItem;
+import au.net.immortius.wardrobe.vendors.entities.VendorData;
+import au.net.immortius.wardrobe.vendors.entities.VendorItem;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
@@ -28,7 +29,6 @@ import java.io.Reader;
 import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
 
 /**
@@ -51,6 +51,7 @@ public class GenerateContent {
 
     private Gson gson;
     private Config config;
+    private Unlocks unlocks;
 
     public GenerateContent() throws IOException {
         this(Config.loadConfig());
@@ -59,7 +60,9 @@ public class GenerateContent {
     public GenerateContent(Config config) {
         this.config = config;
         this.gson = new GsonFireBuilder().createGson();
+        this.unlocks = new Unlocks(config, gson);
     }
+
 
     public static void main(String... args) throws Exception {
         new GenerateContent().run();
@@ -67,8 +70,8 @@ public class GenerateContent {
 
     public void run() throws IOException {
         ContentData content = new ContentData();
-        content.iconHeight = config.imageMapper.iconHeight;
-        content.iconWidth = config.imageMapper.iconWidth;
+        content.iconHeight = config.imageMapper.iconSize;
+        content.iconWidth = config.imageMapper.iconSize;
         content.images = Lists.newArrayList();
 
         Map<String, IconDetails> iconLookup = processImageMaps(content);
@@ -112,7 +115,7 @@ public class GenerateContent {
 
     private Map<String, IconDetails> processImageMaps(ContentData content) throws IOException {
         Map<String, IconDetails> iconLookup = Maps.newHashMap();
-        for (Path imageMapFile : Files.newDirectoryStream(Paths.get(config.imageMapper.imageMapPath))) {
+        for (Path imageMapFile : Files.newDirectoryStream(config.paths.getAtlasPath())) {
             try (Reader reader = Files.newBufferedReader(imageMapFile)) {
                 ImageMap imageMap = gson.fromJson(reader, ImageMap.class);
                 ImageInfo imageInfo = new ImageInfo();
@@ -243,13 +246,17 @@ public class GenerateContent {
     }
 
     private void applyPrices(Gson gson, UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
-        try (Reader priceLookupReader = Files.newBufferedReader(config.paths.getPricesPath().resolve(unlockCategoryConfig.id + ".json"))) {
+        try (Reader priceLookupReader = Files.newBufferedReader(config.paths.getUnlockPricesPath().resolve(unlockCategoryConfig.id + ".json"))) {
             Map<Integer, Price> priceLookup = gson.fromJson(priceLookupReader, PRICE_MAP_TYPE.getType());
             for (Map.Entry<Integer, Price> entry : priceLookup.entrySet()) {
                 UnlockData unlockData = unlockDataMap.get(entry.getKey());
-                unlockData.priceData = entry.getValue();
-                unlockData.sources.add(GOLD);
-                unlockData.sources.add(TRADINGPOST);
+                if (unlockData == null) {
+                    logger.error("Found price for missing unlock {} of type {}", entry.getKey(), unlockCategoryConfig.id);
+                } else {
+                    unlockData.priceData = entry.getValue();
+                    unlockData.sources.add(GOLD);
+                    unlockData.sources.add(TRADINGPOST);
+                }
 
             }
         }
@@ -257,59 +264,37 @@ public class GenerateContent {
 
     private Map<Integer, UnlockData> addUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, Collection<Integer>> unlockItems, Map<String, IconDetails> iconLookup, Set<Integer> craftableItems) throws IOException {
         Map<Integer, UnlockData> result = Maps.newLinkedHashMap();
-        for (Path unlockSource : Files.newDirectoryStream(config.paths.getApiPath().resolve(unlockCategoryConfig.source))) {
-            try (Reader unlockSourceReader = Files.newBufferedReader(unlockSource)) {
-                ItemData itemData = gson.fromJson(unlockSourceReader, ItemData.class);
-                if (unlockCategoryConfig.typeFilter != null && !unlockCategoryConfig.typeFilter.equals(itemData.type)) {
-                    continue;
-                }
-                if (Strings.isNullOrEmpty(itemData.name)) {
-                    continue;
-                }
-                if (unlockCategoryConfig.getExcludeIds().contains(itemData.id)) {
-                    continue;
-                }
-                UnlockData unlock = new UnlockData();
-                result.put(itemData.id, unlock);
-                unlock.id = itemData.id;
-                unlock.name = itemData.name;
-                unlock.sources = Sets.newLinkedHashSet();
-                unlock.rarity = determineRarity(itemData, unlockItems);
-                if (isCraftable(itemData, unlockItems, craftableItems)) {
-                    unlock.sources.add(CRAFT);
-                }
-                if (itemData.baseRGB != null) {
-                    unlock.color = ColorUtil.rgbToHex(itemData.cloth.rgb);
-                } else if (itemData.icon != null) {
-                    IconDetails iconDetails = iconLookup.get(itemData.getIconName());
-                    if (iconDetails != null) {
-                        unlock.xOffset = iconDetails.getXOffset();
-                        unlock.yOffset = iconDetails.getYOffset();
-                        unlock.image = iconDetails.getImageId();
-                    } else {
-                        logger.warn("Unable to resolve icon {} for {} ({}) - excluding", itemData.icon, itemData.name, itemData.id);
-                        result.remove(itemData.id);
-                    }
-                }
-                determineChatcode(itemData, unlockCategoryConfig, unlockItems).ifPresent(x-> unlock.chatcode = x);
+        unlocks.forEach(unlockCategoryConfig, itemData -> {
+            UnlockData unlock = new UnlockData();
+            result.put(itemData.id, unlock);
+            unlock.id = itemData.id;
+            unlock.name = itemData.name;
+            unlock.sources = Sets.newLinkedHashSet();
+            unlock.rarity = determineRarity(itemData.id, itemData, unlockItems);
+            if (isCraftable(itemData.id, unlockItems, craftableItems)) {
+                unlock.sources.add(CRAFT);
             }
-        }
+            if (itemData.baseRGB != null) {
+                unlock.color = ColorUtil.rgbToHex(itemData.cloth.rgb);
+            } else if (itemData.icon != null) {
+                IconDetails iconDetails = iconLookup.get(itemData.getIconName());
+                if (iconDetails != null) {
+                    unlock.xOffset = iconDetails.getXOffset();
+                    unlock.yOffset = iconDetails.getYOffset();
+                    unlock.image = iconDetails.getImageId();
+                } else {
+                    logger.warn("Unable to resolve icon {} for {} ({}) - excluding", itemData.icon, itemData.name, itemData.id);
+                    result.remove(itemData.id);
+                }
+            }
+            determineChatcode(itemData, unlockCategoryConfig, unlockItems).ifPresent(x-> unlock.chatcode = x);
+        });
         return result;
     }
 
-    private boolean isCraftable(ItemData itemData, Map<Integer, Collection<Integer>> unlockItems, Set<Integer> craftableItems) {
-        if (itemData.itemId != 0 && craftableItems.contains(itemData.itemId)) {
-            return true;
-        }
-        if (itemData.unlockItems != null && itemData.unlockItems.length > 0) {
-           for (int itemId : itemData.unlockItems) {
-               if (craftableItems.contains(itemId)) {
-                   return true;
-               }
-           }
-        }
-        if (unlockItems.containsKey(itemData.id)) {
-            for (int itemId : unlockItems.get(itemData.id)) {
+    private boolean isCraftable(int id, Map<Integer, Collection<Integer>> unlockItems, Set<Integer> craftableItems) {
+        if (unlockItems.containsKey(id)) {
+            for (int itemId : unlockItems.get(id)) {
                 if (craftableItems.contains(itemId)) {
                     return true;
                 }
@@ -319,12 +304,10 @@ public class GenerateContent {
         return false;
     }
 
-    private Rarity determineRarity(ItemData itemData, Map<Integer, Collection<Integer>> unlockItems) {
-        if (itemData.itemId != 0) {
-            return getRarityFromItem(itemData.itemId).orElse(Rarity.Basic);
-        } else if (itemData.unlockItems != null && itemData.unlockItems.length > 0) {
+    private Rarity determineRarity(int id, ItemData unlock,  Map<Integer, Collection<Integer>> unlockItems) {
+        if (unlockItems.containsKey(id)) {
             Rarity rarity = null;
-            for (int itemId : itemData.unlockItems) {
+            for (int itemId : unlockItems.get(id)) {
                 Optional<Rarity> rarityFromItem = getRarityFromItem(itemId);
                 if (rarityFromItem.isPresent()) {
                     Rarity newRarity = rarityFromItem.get();
@@ -333,19 +316,12 @@ public class GenerateContent {
                     }
                 }
             }
-            return rarity;
-        } else if (unlockItems.containsKey(itemData.id)) {
-            Rarity rarity = null;
-            for (int itemId : unlockItems.get(itemData.id)) {
-                Optional<Rarity> rarityFromItem = getRarityFromItem(itemId);
-                if (rarityFromItem.isPresent()) {
-                    Rarity newRarity = rarityFromItem.get();
-                    if (rarity == null || rarity.compareTo(newRarity) > 0) {
-                        rarity = newRarity;
-                    }
-                }
+            if (rarity != null) {
+                return rarity;
             }
-            return rarity;
+        }
+        if (unlock.rarity != null) {
+            return unlock.rarity;
         }
 
         return Rarity.Basic;
@@ -367,8 +343,8 @@ public class GenerateContent {
     }
 
     private Optional<String> determineChatcode(ItemData itemData, UnlockCategoryConfig unlockCategoryConfig, Map<Integer, Collection<Integer>> unlockItems) {
-        if (!Strings.isNullOrEmpty(itemData.chatlink)) {
-            return Optional.of(itemData.chatlink);
+        if (!Strings.isNullOrEmpty(itemData.chatLink)) {
+            return Optional.of(itemData.chatLink);
         }
         if (unlockCategoryConfig.useItemForChatcode) {
             int itemId  = 0;

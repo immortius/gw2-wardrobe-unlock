@@ -2,7 +2,6 @@ package au.net.immortius.wardrobe;
 
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.gw2api.entities.RecipeData;
-import au.net.immortius.wardrobe.util.GsonPathAdapter;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 import com.google.gson.Gson;

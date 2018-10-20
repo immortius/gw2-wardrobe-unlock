@@ -22,7 +22,7 @@ public final class REST {
 
     /**
      * A quick and dirty download file to disk method
-     * @param client The client to use for the downlaod
+     * @param client The client to use for the download
      * @param url The url to download
      * @param toFile The path to save the download to
      */

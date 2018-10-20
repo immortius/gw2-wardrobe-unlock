@@ -11,14 +11,26 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
+/**
+ * Root configuration class
+ */
 public class Config {
 
     public static final Path DEFAULT_CONFIG_PATH = Paths.get("input", "config.json");
 
+    /**
+     * @return Configuration loaded from the default path
+     * @throws IOException
+     */
     public static Config loadConfig() throws IOException {
         return loadConfig(DEFAULT_CONFIG_PATH);
     }
 
+    /**
+     * @param path The path to load configuration from
+     * @return The loaded configuration
+     * @throws IOException
+     */
     public static Config loadConfig(Path path) throws IOException {
         Gson gson = new GsonFireBuilder().createGsonBuilder().registerTypeAdapter(Path.class, new GsonPathAdapter()).create();
         try (Reader configReader = Files.newBufferedReader(path)) {
@@ -35,6 +47,12 @@ public class Config {
      * Configuration for GW2 api locations to cache
      */
     public List<CacheConfig> apiCaches;
+
+    /**
+     * Configuration for obtaining prices
+     */
+    public PricesConfig prices;
+
     /**
      * Configuration for icon to image mapping
      */

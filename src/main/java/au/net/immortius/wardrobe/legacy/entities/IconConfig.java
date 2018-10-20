@@ -28,7 +28,7 @@ public class IconConfig {
         if (!Strings.isNullOrEmpty(iconId)) {
             return iconId;
         }
-        return id + "-icons";
+        return id + "-icon";
     }
 
     public String getDataId() {

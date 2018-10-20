@@ -1,4 +1,4 @@
-package au.net.immortius.wardrobe.chatcode;
+package au.net.immortius.wardrobe.gw2api;
 
 import com.google.common.primitives.UnsignedBytes;
 import com.sun.org.apache.xml.internal.security.exceptions.Base64DecodingException;

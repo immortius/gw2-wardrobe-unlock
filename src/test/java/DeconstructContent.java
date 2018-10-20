@@ -2,12 +2,12 @@ import au.net.immortius.wardrobe.gw2api.entities.ColorData;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.gw2api.entities.RecipeData;
 import au.net.immortius.wardrobe.inputentities.Grouping;
-import au.net.immortius.wardrobe.site.IconDetails;
-import au.net.immortius.wardrobe.site.ImageMap;
+import au.net.immortius.wardrobe.imagemap.IconDetails;
+import au.net.immortius.wardrobe.imagemap.ImageMap;
 import au.net.immortius.wardrobe.site.entities.*;
 import au.net.immortius.wardrobe.util.ColorUtil;
-import au.net.immortius.wardrobe.vendors.VendorData;
-import au.net.immortius.wardrobe.vendors.VendorItem;
+import au.net.immortius.wardrobe.vendors.entities.VendorData;
+import au.net.immortius.wardrobe.vendors.entities.VendorItem;
 import com.google.common.collect.*;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonWriter;
@@ -343,7 +343,7 @@ public class DeconstructContent {
     public void deconstructMissingUnlocks() throws IOException {
         Path contentPath = Paths.get("input", "content.json");
         Path outRootPath = Paths.get("cache", "extract", "api");
-        Path iconsPath = Paths.get("cache", "extract", "api", "icons");
+        Path iconsPath = Paths.get("cache", "extract", "api", "icon");
         Path expectedRootPath = Paths.get("cache", "api");
         Files.createDirectories(iconsPath);
 
@@ -388,7 +388,7 @@ public class DeconstructContent {
                             itemData.cloth = new ColorData();
                             itemData.cloth.rgb = itemData.baseRGB;
                         }
-                        itemData.chatlink = unlock.chatcode;
+                        itemData.chatLink = unlock.chatcode;
                         itemData.type = typeMapping.get(itemCategory.id);
 
                         if (unlock.image != null) {

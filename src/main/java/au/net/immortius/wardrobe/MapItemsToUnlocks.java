@@ -3,6 +3,7 @@ package au.net.immortius.wardrobe;
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.ItemDetailUnlockMapping;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
+import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import com.google.common.base.Strings;
 import com.google.common.collect.ArrayListMultimap;
@@ -18,7 +19,8 @@ import java.io.Reader;
 import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Map;
 import java.util.Objects;
 
@@ -28,11 +30,10 @@ import java.util.Objects;
 public class MapItemsToUnlocks {
 
     private static Logger logger = LoggerFactory.getLogger(MapItemsToUnlocks.class);
-    private static final String UNLOCK_TYPE = "Unlock";
-    private static final String DYE_DETAIL_TYPE = "Dye";
 
     private Gson gson;
     private Config config;
+    private Unlocks unlocks;
 
     public MapItemsToUnlocks() throws IOException {
         this(Config.loadConfig());
@@ -41,6 +42,7 @@ public class MapItemsToUnlocks {
     public MapItemsToUnlocks(Config config) {
         this.gson = new GsonFireBuilder().createGson();
         this.config = config;
+        this.unlocks = new Unlocks(config, gson);
     }
 
     public static void main(String... args) throws Exception {
@@ -50,13 +52,41 @@ public class MapItemsToUnlocks {
     public void run() throws IOException {
         Map<String, String> skinTypeMapping = Maps.newHashMap();
         Map<String, ListMultimap<Integer, Integer>> itemMappings = Maps.newLinkedHashMap();
+        for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
+            ListMultimap<Integer, Integer> itemMap = ArrayListMultimap.create();
+            itemMappings.put(unlockCategory.id, itemMap);
+            if (!Strings.isNullOrEmpty(unlockCategory.typeFilter)) {
+                skinTypeMapping.put(unlockCategory.typeFilter, unlockCategory.id);
+            }
+
+            for (Map.Entry<Integer, Collection<Integer>> itemUnlocks : unlockCategory.getItemMappings().entrySet()) {
+                itemUnlocks.getValue().forEach(unlock -> itemMap.put(unlock, itemUnlocks.getKey()));
+            }
+
+
+            unlocks.forEach(unlockCategory, itemData -> {
+                if (itemData.itemId != 0) {
+                    itemMap.put(itemData.id, itemData.itemId);
+                }
+                if (itemData.unlockItems != null && itemData.unlockItems.length > 0) {
+                    Arrays.stream(itemData.unlockItems).forEach(x -> itemMap.put(itemData.id, x));
+                }
+            });
+        }
+
+        analyseItems(skinTypeMapping, itemMappings);
+
+        Files.createDirectories(config.paths.getUnlockItemsPath());
         for (UnlockCategoryConfig itemCategory : config.unlockCategories) {
-            itemMappings.put(itemCategory.id, ArrayListMultimap.create());
-            if (!Strings.isNullOrEmpty(itemCategory.typeFilter)) {
-                skinTypeMapping.put(itemCategory.typeFilter, itemCategory.id);
+            itemCategory.getExcludeIds().forEach(id -> itemMappings.get(itemCategory.id).removeAll(id));
+            try (Writer writer = Files.newBufferedWriter(config.paths.getUnlockItemsPath().resolve(itemCategory.id + ".json"))) {
+                gson.toJson(itemMappings.get(itemCategory.id).asMap(), writer);
             }
         }
 
+    }
+
+    private void analyseItems(Map<String, String> skinTypeMapping, Map<String, ListMultimap<Integer, Integer>> itemMappings) throws IOException {
         for (Path itemFile : Files.newDirectoryStream(config.paths.getItemPath())) {
             try (Reader reader = Files.newBufferedReader(itemFile)) {
                 ItemData itemData = gson.fromJson(reader, ItemData.class);
@@ -86,13 +116,5 @@ public class MapItemsToUnlocks {
                 }
             }
         }
-
-        Files.createDirectories(config.paths.getUnlockItemsPath());
-        for (UnlockCategoryConfig itemCategory : config.unlockCategories) {
-            try (Writer writer = Files.newBufferedWriter(config.paths.getUnlockItemsPath().resolve(itemCategory.id + ".json"))) {
-                gson.toJson(itemMappings.get(itemCategory.id).asMap(), writer);
-            }
-        }
-
     }
 }

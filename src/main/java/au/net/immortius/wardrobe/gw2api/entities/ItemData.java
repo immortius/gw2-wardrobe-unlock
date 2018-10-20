@@ -1,18 +1,21 @@
 package au.net.immortius.wardrobe.gw2api.entities;
 
 import au.net.immortius.wardrobe.gw2api.Rarity;
+import com.google.common.collect.Sets;
 import com.google.gson.annotations.SerializedName;
 
-import java.util.List;
+import java.util.Set;
 
 /**
- * Information on an "Item" from the gw2 api. This is a bit of a combination of the results from multiple endpoints, to allow generic processing
+ * Information on an "Item" from the gw2 api. This is a combination of the results from multiple endpoints (skins and items), to allow generic processing.
  */
 public class ItemData extends CommonData {
     public String name;
     public String icon;
     public Rarity rarity;
-    public List<String> flags;
+
+    @SerializedName("game_types")
+    private Set<String> gameTypes;
 
     @SerializedName("base_rgb")
     public int[] baseRGB;
@@ -30,15 +33,23 @@ public class ItemData extends CommonData {
     @SerializedName("item_id")
     public int itemId;
 
-    @SerializedName("chat_link")
-    public String chatlink;
 
 
     /**
-     * @return Convers to icon path into a file name that can be used locally for caching
+     * @return Converts icon path into a file name that can be used locally for caching
      */
     public String getIconName() {
         String[] pathParts = icon.split("/");
         return pathParts[pathParts.length - 2] + "-" + pathParts[pathParts.length - 1];
+    }
+
+    /**
+     * @return The game types this item is relevant for
+     */
+    public Set<String> getGameTypes() {
+        if (gameTypes == null) {
+            gameTypes = Sets.newLinkedHashSet();
+        }
+        return gameTypes;
     }
 }

@@ -1,4 +1,4 @@
-package au.net.immortius.wardrobe.vendors;
+package au.net.immortius.wardrobe.vendors.entities;
 
 import java.util.List;
 

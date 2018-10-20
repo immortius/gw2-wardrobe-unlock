@@ -15,7 +15,9 @@ import javax.ws.rs.core.GenericType;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Collection;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -28,7 +30,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class ApiCacher {
     private static Logger logger = LoggerFactory.getLogger(ApiCacher.class);
 
-    private static GenericType<int[]> INT_ARRAY_TYPE = new GenericType<int[]>() {
+    private static GenericType<Set<Integer>> ID_COLLECTION_TYPE = new GenericType<Set<Integer>>() {
     };
 
     private static Joiner COMMA_JOINER = Joiner.on(',');
@@ -90,27 +92,28 @@ public class ApiCacher {
         }
     }
 
-    private int createCache(String apiUrl, Path toPath, boolean allSupported) throws IOException {
-        Files.createDirectories(toPath);
-        if (allSupported) {
-            logger.info("Bulk downloading {}", toPath);
-            AtomicInteger downloadCounter = new AtomicInteger();
-            retrieveAndSave(apiUrl + "?ids=all", toPath, downloadCounter);
-            logger.info("Downloaded {} new items to {}", downloadCounter.get(), toPath);
-            return downloadCounter.get();
-        } else {
-            return updateCache(apiUrl, toPath);
-        }
-
+    /**
+     * Obtain the list of ids available from an api endpoint
+     * @param apiUrl The api endpoint to collect ids from
+     * @return The list of available ids
+     */
+    public Set<Integer> availableIds(String apiUrl) {
+        return client.target(apiUrl).request().get(ID_COLLECTION_TYPE);
     }
 
-    private int updateCache(String apiUrl, Path toPath) {
+    /**
+     * Cache a set of ids from an api endpoint
+     * @param apiUrl The endpoint url
+     * @param toPath The path to cache to
+     * @param ids The ids to cache data for
+     * @return The amount of data successfully downloaded
+     */
+    public int cacheIds(String apiUrl, Path toPath, Collection<Integer> ids) {
         logger.info("Updating cache for {}", toPath);
         AtomicInteger downloadCounter = new AtomicInteger();
         ExecutorService executorService = Executors.newFixedThreadPool(concurrency);
-        int[] result = client.target(apiUrl).request().get(INT_ARRAY_TYPE);
         List<Integer> fetchPage = Lists.newArrayList();
-        for (int id : result) {
+        for (int id : ids) {
             if (!Files.exists(toPath.resolve(id + ".json"))) {
                 fetchPage.add(id);
                 if (fetchPage.size() == 50) {
@@ -132,6 +135,32 @@ public class ApiCacher {
         }
         logger.info("Downloaded {} new items to {}", downloadCounter.get(), toPath);
         return downloadCounter.get();
+    }
+
+    /**
+     * Creates a cache from scratch
+     * @param apiUrl The endpoint url to cache
+     * @param toPath The location to cache to
+     * @param allSupported Whether ids=all is supported by this endpoint
+     * @return The amount of data cached
+     * @throws IOException
+     */
+    private int createCache(String apiUrl, Path toPath, boolean allSupported) throws IOException {
+        Files.createDirectories(toPath);
+        if (allSupported) {
+            logger.info("Bulk downloading {}", toPath);
+            AtomicInteger downloadCounter = new AtomicInteger();
+            retrieveAndSave(apiUrl + "?ids=all", toPath, downloadCounter);
+            logger.info("Downloaded {} new items to {}", downloadCounter.get(), toPath);
+            return downloadCounter.get();
+        } else {
+            return updateCache(apiUrl, toPath);
+        }
+    }
+
+    private int updateCache(String apiUrl, Path toPath) {
+        Set<Integer> ids = availableIds(apiUrl);
+        return cacheIds(apiUrl, toPath, ids);
     }
 
     private void retrieveAndSave(String baseUrl, List<Integer> fetchPage, Path baseSavePath, AtomicInteger downloadCounter) {

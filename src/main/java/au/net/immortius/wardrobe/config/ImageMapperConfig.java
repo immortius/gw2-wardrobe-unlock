@@ -1,32 +1,18 @@
 package au.net.immortius.wardrobe.config;
 
 /**
- * Configuration for generating icon atlases from unlock icons
+ * Configuration for generating icon atlases from unlock icon
  */
 public class ImageMapperConfig {
 
     /**
-     * Width for icons in the image maps
+     * Width for icon in the image maps
      */
-    public int iconWidth;
-
-    /**
-     * Height for icons in the image maps
-     */
-    public int iconHeight;
-
+    public int iconSize;
     /**
      * Width for an image map
      */
-    public int atlasWidth;
+    public int mapSize;
 
-    /**
-     * Height for an image map
-     */
-    public int atlasHeight;
 
-    /**
-     * The path where image map contents is stored
-     */
-    public String imageMapPath;
 }

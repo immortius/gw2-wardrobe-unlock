@@ -24,10 +24,5 @@ public class RecipeData extends CommonData {
 
     public Set<String> disiplines;
 
-    public Set<String> flags;
-
     public List<Ingredient> ingredients;
-
-    @SerializedName("chat_link")
-    public String chatLink;
 }

@@ -11,7 +11,10 @@
     "contentFile" : "cache/content.json",
     "relativeVendorsPath" : "vendors",
     "relativeGwuPath" : "gwu",
-    "relativePricesPath" : "prices"
+    "relativePricesPath" : "prices",
+    "relativeIconCachePath" : "icons",
+    "relativeAtlasPath": "atlas",
+    "relativeImageMapPath": "imageMaps"
   },
   "apiCaches" : [
     {
@@ -65,12 +68,12 @@
       "bulkSupported" : false
     }
   ],
+  "prices" : {
+    "apiUrl" : "https://api.guildwars2.com/v2/commerce/prices"
+  },
   "imageMapper" : {
-    "iconWidth" : 64,
-    "iconHeight" : 64,
-    "atlasWidth" : 2048,
-    "atlasHeight" : 2048,
-    "imageMapPath" : "cache/imagemaps"
+    "iconSize" : 64,
+    "mapSize" : 2048
   },
   "itemUnlockMapper" : {
     "unlockDetailsMappings" : [
@@ -94,7 +97,11 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
       "chatcodeType" : 10,
       "useItemForChatcode" : false,
-      "excludeIds" : [1181, 5909, 5910, 5918, 5921, 5936]
+      "excludeIds" : [1181, 1213, 5909, 5910, 5918, 5921, 5936],
+      "itemMappings" : {
+        // Black Lion Exclusives Chest
+        "82450": [7225, 7233, 7241, 7782, 7800, 7804, 7941, 7975, 7985, 8115, 8121, 8122]
+      }
     },
     {
       "id" : "weapon",
@@ -103,7 +110,11 @@
       "typeFilter" : "Weapon",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
       "chatcodeType" : 10,
-      "useItemForChatcode" : false
+      "useItemForChatcode" : false,
+      "itemMappings" : {
+        // Black Lion Exclusives Chest
+        "82450": [6978, 6937, 7739, 8010, 8098]
+      }
     },
     {
       "id" : "back",
@@ -111,9 +122,13 @@
       "source" : "skins",
       "typeFilter" : "Back",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
-      "excludeIds" : [2327],
       "chatcodeType" : 10,
-      "useItemForChatcode" : false
+      "useItemForChatcode" : false,
+      "excludeIds" : [2329, 2339, 2327],
+      "itemMappings" : {
+        // Black Lion Exclusives Chest
+        "82450": [7308, 7755, 7811, 7996, 8021, 8141]
+      }
     },
     {
       "id" : "mini",
@@ -121,7 +136,11 @@
       "source" : "minis",
       "unlockUrl": "https://api.guildwars2.com/v2/account/minis",
       "chatcodeType" : 2,
-      "useItemForChatcode" : true
+      "useItemForChatcode" : true,
+      "itemMappings" : {
+        // Black Lion Exclusives Chest
+        "82450": [435, 493, 599, 605, 609, 610, 611, 627, 629, 631, 633, 635, 689, 691, 693, 694, 699, 657, 660, 661, 662, 663]
+      }
     },
     {
       "id" : "finisher",
@@ -138,7 +157,11 @@
       "source" : "mailcarriers",
       "unlockUrl": "https://api.guildwars2.com/v2/account/mailcarriers",
       "chatcodeType" : 2,
-      "useItemForChatcode" : true
+      "useItemForChatcode" : true,
+      "itemMappings" : {
+        // Black Lion Exclusives Chest
+        "82450": [16]
+      }
     },
     {
       "id" : "outfit",
@@ -146,7 +169,25 @@
       "source" : "outfits",
       "unlockUrl": "https://api.guildwars2.com/v2/account/outfits",
       "chatcodeType" : 11,
-      "useItemForChatcode" : false
+      "useItemForChatcode" : false,
+      "itemMappings" : {
+        // Outfit tonics
+        "36187" : [63],
+        "36200" : [66],
+        "36189" : [59],
+        "36179" : [60],
+        "36190" : [64],
+        "36183" : [70],
+        "36180" : [71],
+        "36186" : [68],
+        "36184" : [62],
+        "36191" : [67],
+        "36176" : [65],
+        "36185" : [61],
+        "36188" : [69],
+        // Black Lion Exclusives Chest
+        "82450": [57]
+      }
     },
     {
       "id" : "glider",
@@ -154,7 +195,11 @@
       "source" : "gliders",
       "unlockUrl": "https://api.guildwars2.com/v2/account/gliders",
       "chatcodeType" : 2,
-      "useItemForChatcode" : true
+      "useItemForChatcode" : true,
+      "itemMappings" : {
+        // Black Lion Exclusives Chest
+        "82450": [32, 35, 47, 54, 60]
+      }
     },
     {
       "id" : "dye",
@@ -163,7 +208,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/dyes",
       "chatcodeType" : 2,
       "useItemForChatcode" : true,
-      "excludeIds" : [1]
+      "excludeIds" : [1],
+      "colorBased": true
     },
     {
       "id" : "tool",

@@ -2,6 +2,9 @@ package au.net.immortius.wardrobe.config;
 
 import java.nio.file.Path;
 
+/**
+ * Paths for all the different files. Many paths are resolved relative to either the input path, cache path or api path
+ */
 public class PathsConfig {
 
     public Path baseInputPath;
@@ -16,6 +19,9 @@ public class PathsConfig {
     private Path relativeVendorsPath;
     private Path relativeGwuPath;
     private Path relativePricesPath;
+    private Path relativeIconCachePath;
+    private Path relativeAtlasPath;
+    private Path relativeImageMapPath;
 
     public Path getApiPath() {
         return baseCachePath.resolve(apiRelativePath);
@@ -52,4 +58,15 @@ public class PathsConfig {
     public Path getPricesPath() {
         return getApiPath().resolve(relativePricesPath);
     }
+
+    public Path getUnlockPricesPath() {
+        return baseCachePath.resolve(relativePricesPath);
+    }
+
+    public Path getIconCachePath() { return getApiPath().resolve(relativeIconCachePath); }
+
+    public Path getAtlasPath() { return baseCachePath.resolve(relativeAtlasPath); }
+
+    public Path getImageMapPath() { return baseCachePath.resolve(relativeImageMapPath); }
+
 }

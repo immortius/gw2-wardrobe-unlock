@@ -3,7 +3,7 @@ package au.net.immortius.wardrobe.gw2api.entities;
 import com.google.gson.annotations.SerializedName;
 
 /**
- * DItem details structure - combines detail structures from multiple endpoints for generic processing
+ * Item details structure - combines detail structures from multiple endpoints for generic processing
  */
 public class ItemDetailsData {
     public String type;

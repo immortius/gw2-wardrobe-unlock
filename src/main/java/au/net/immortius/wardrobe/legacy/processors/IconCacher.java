@@ -62,7 +62,7 @@ public class IconCacher {
         try {
             executorService.awaitTermination(1, TimeUnit.HOURS);
         } catch (InterruptedException e) {
-            logger.warn("Timed out downloading icons, continuing");
+            logger.warn("Timed out downloading icon, continuing");
         }
         return counter.get();
     }

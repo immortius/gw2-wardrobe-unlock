@@ -117,11 +117,11 @@ public class GuaranteedWardrobeUnlockAnalyser {
                 int downloaded = dataCacher.downloadData(iconConfig.url, dataPath, iconConfig.getIgnoreIds());
                 logger.info("Downloaded {} data files for {}.", downloaded, iconConfig.id);
 
-                logger.info("Obtaining {} icons...", iconConfig.id);
+                logger.info("Obtaining {} icon...", iconConfig.id);
                 Path iconPath = API_CACHE.resolve(iconConfig.getIconId());
                 Files.createDirectories(iconPath);
                 downloaded = iconCacher.cacheIconsForData(dataPath, iconPath, iconConfig.getJavaClass(), iconConfig.getDataFilter());
-                logger.info("Downloaded {} {} icons.", downloaded, iconConfig.id);
+                logger.info("Downloaded {} {} icon.", downloaded, iconConfig.id);
 
                 Path thumbnailPath = THUMBNAIL_PATH.resolve(iconConfig.getIconId());
                 Files.createDirectories(thumbnailPath);
