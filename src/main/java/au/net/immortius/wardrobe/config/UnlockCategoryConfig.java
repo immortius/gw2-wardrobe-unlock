@@ -58,6 +58,16 @@ public class UnlockCategoryConfig {
     private Map<Integer, Collection<Integer>> itemMappings;
 
     /**
+     * Unlock ids to ignore when determining gwu contents
+     */
+    private Set<Integer> gwuIgnoreIds;
+
+    /**
+     * Unlock ids to force include
+     */
+    private Set<Integer> gwuIncludeIds;
+
+    /**
      * @return The ids of any unlocks to exclude from consideration
      */
     public Set<Integer> getExcludeIds() {
@@ -75,5 +85,19 @@ public class UnlockCategoryConfig {
             itemMappings = Maps.newLinkedHashMap();
         }
         return itemMappings;
+    }
+
+    public Set<Integer> getGwuIncludeIds() {
+        if (gwuIncludeIds == null) {
+            gwuIncludeIds = Sets.newLinkedHashSet();
+        }
+        return gwuIncludeIds;
+    }
+
+    public Set<Integer> getGwuIgnoreIds() {
+        if (gwuIgnoreIds == null) {
+            gwuIgnoreIds = Sets.newHashSet();
+        }
+        return gwuIgnoreIds;
     }
 }

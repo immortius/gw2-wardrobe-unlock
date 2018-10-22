@@ -18,8 +18,8 @@ public class ImageCropper {
 
     @Test
     public void cropImages() throws IOException {
-        Path inputPath = Paths.get("D:\\Users\\Immortius\\Desktop\\unlocks\\raw");
-        Path outputPath = Paths.get("D:\\Users\\Immortius\\Desktop\\unlocks\\out");
+        Path inputPath = Paths.get("C:\\Users\\Immortius\\Desktop\\unlocks\\raw");
+        Path outputPath = Paths.get("C:\\Users\\Immortius\\Desktop\\unlocks\\out");
         if (!Files.exists(outputPath)) {
             Files.createDirectory(outputPath);
         }
@@ -34,7 +34,7 @@ public class ImageCropper {
             public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
                 System.out.println(file);
                 BufferedImage image = ImageIO.read(file.toFile());
-                BufferedImage subimage = image.getSubimage(1106, 525, 396, 549);
+                BufferedImage subimage = image.getSubimage(1072, 496, 396, 550);
                 String originalFileName = file.getFileName().toString();
                 String coreName = originalFileName.substring(0, originalFileName.length() - 4);
                 ImageIO.write(subimage, "png", outputPath.resolve(coreName + ".png").toFile());

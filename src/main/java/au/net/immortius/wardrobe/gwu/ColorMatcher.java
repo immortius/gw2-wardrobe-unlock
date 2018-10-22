@@ -1,9 +1,9 @@
-package au.net.immortius.wardrobe.legacy.processors;
+package au.net.immortius.wardrobe.gwu;
 
-import au.net.immortius.wardrobe.legacy.entities.Dye;
-import com.google.common.collect.Lists;
+import au.net.immortius.wardrobe.util.ColorUtil;
+import com.google.common.collect.HashMultiset;
+import com.google.common.collect.Multiset;
 import com.google.common.collect.Sets;
-import com.google.gson.Gson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,44 +11,27 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.io.Reader;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.List;
 import java.util.Set;
 
 /**
- *
+ * Matches colors from Guaranteed Wardrobe Unlock preview screenshots to a list of colors (as hex color strings)
  */
-public class ColorMatcher {
+public class ColorMatcher implements UnlockMatcher<String> {
     private static final Logger logger = LoggerFactory.getLogger(ColorMatcher.class);
 
     private final int screenshotIconSize;
     private final int borderSize;
-    private final Gson gson;
 
-    public ColorMatcher(Gson gson, int screenshotIconSize, int borderSize) {
-        this.gson = gson;
+    public ColorMatcher(int screenshotIconSize, int borderSize) {
         this.screenshotIconSize = screenshotIconSize;
         this.borderSize = borderSize;
     }
 
-    public Set<Integer> matchColors(Path screenshotRootPath, Path dataPath, Set<Integer> ignoreIds, Set<Integer> duplicateColors) {
-        List<Dye> dyes = Lists.newArrayList();
-        try (DirectoryStream<Path> dyeFiles = Files.newDirectoryStream(dataPath)) {
-            for (Path dyeFile : dyeFiles) {
-                try (Reader reader = Files.newBufferedReader(dyeFile)) {
-                    Dye dye = gson.fromJson(reader, Dye.class);
-                    if (!ignoreIds.contains(dye.id)) {
-                        dyes.add(dye);
-                    }
-                }
-            }
-        } catch (IOException e) {
-            logger.error("Failed to load dye files", e);
-        }
-        Set<Integer> foundDyes = Sets.newLinkedHashSet();
+    public Multiset<Set<String>> matchIcons(Path screenshotRootPath, Set<String> possibleMatches) {
+        Multiset<Set<String>> matches = HashMultiset.create();
         try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, "*.png")) {
             for (Path screenshotPath : screenshotPaths) {
                 BufferedImage screen = ImageIO.read(screenshotPath.toFile());
@@ -71,34 +54,26 @@ public class ColorMatcher {
                         g /= 49;
                         b /= 49;
 
-                        List<Dye> bestMatches = Lists.newArrayList();
+                        Set<String> bestMatches = Sets.newLinkedHashSet();
                         float bestScore = Integer.MAX_VALUE;
-                        for (Dye dye : dyes) {
+                        for (String color : possibleMatches) {
+                            int[] dyeColor = ColorUtil.hexToRgb(color);
                             float score = 0;
-                            score += Math.abs(dye.cloth.rgb[0] - r);
-                            score += Math.abs(dye.cloth.rgb[1] - g);
-                            score += Math.abs(dye.cloth.rgb[2] - b);
+                            score += Math.abs(dyeColor[0] - r);
+                            score += Math.abs(dyeColor[1] - g);
+                            score += Math.abs(dyeColor[2] - b);
                             if (score < bestScore && score < 6) {
                                 bestScore = score;
                                 bestMatches.clear();
-                                bestMatches.add(dye);
+                                bestMatches.add(color);
                             } else if (score == bestScore) {
-                                bestMatches.add(dye);
+                                bestMatches.add(color);
                             }
                         }
-                        if (bestMatches.size() == 1) {
-                            foundDyes.add(bestMatches.get(0).id);
-                        } else if (bestMatches.size() > 1) {
-
-                            for (Dye dye : bestMatches) {
-                                if (duplicateColors.contains(dye.id)) {
-                                    foundDyes.add(dye.id);
-                                } else {
-                                    logger.info("Multiple match for ({}, {}) from {} - {}({})", i, j, screenshotPath.getFileName(), dye.name, dye.id);
-                                }
-                            }
-                        } else {
+                        if (bestMatches.isEmpty()) {
                             logger.info("No matches for ({}, {}) on {}", i, j, screenshotPath.getFileName());
+                        } else {
+                            matches.add(bestMatches);
                         }
 
                     }
@@ -107,6 +82,6 @@ public class ColorMatcher {
         } catch (IOException e) {
             logger.error("Error matching dyes", e);
         }
-        return foundDyes;
+        return matches;
     }
 }

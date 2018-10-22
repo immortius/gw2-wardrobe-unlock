@@ -1,7 +1,8 @@
-package au.net.immortius.wardrobe.legacy.processors;
+package au.net.immortius.wardrobe.gwu;
 
-import com.google.common.collect.Lists;
+import com.google.common.collect.ConcurrentHashMultiset;
 import com.google.common.collect.Maps;
+import com.google.common.collect.Multiset;
 import com.google.common.collect.Sets;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,44 +14,37 @@ import java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.*;
 
 /**
- *
+ * Compares a set of preview window screenshots to a set of icons, determining which icons match
  */
-public class IconMatcher {
+public class IconMatcher implements UnlockMatcher<Path> {
     private static final Logger logger = LoggerFactory.getLogger(IconMatcher.class);
 
     private static final int NUM_THREADS = 8;
     private int iconSize = 48;
     private int borderSize = 10;
     private int scaleFactor = 2;
+    private int threshold = 100;
 
-    public IconMatcher(int screenshotIconSize, int borderSize, int thumbSize) {
+    public IconMatcher(int screenshotIconSize, int borderSize, int scaleFactor) {
         this.iconSize = screenshotIconSize;
         this.borderSize = borderSize;
-        this.scaleFactor = screenshotIconSize / thumbSize;
+        this.scaleFactor = scaleFactor;
     }
 
-
-    public Set<String> matchIcons(Path screenshotRootPath, Path iconCachePath) {
-        return matchIcons(screenshotRootPath, iconCachePath, 100);
-    }
-
-    public Set<String> matchIcons(Path screenshotRootPath, Path iconCachePath, int threshold) {
-        Set<String> iconNames = Sets.newConcurrentHashSet();
-        ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
+    public Multiset<Set<Path>> matchIcons(Path screenshotRootPath, Set<Path> possibleMatches) {
+        Multiset<Set<Path>> matchedPaths = ConcurrentHashMultiset.create();
         try {
-            Map<String, BufferedImage> icons = Maps.newLinkedHashMap();
-            try (DirectoryStream<Path> iconFiles = Files.newDirectoryStream(iconCachePath)) {
-                for (Path iconFile : iconFiles) {
-                    BufferedImage thumb = ImageIO.read(iconFile.toFile());
-                    icons.put(iconFile.getFileName().toString(), thumb);
-                }
+            Map<Path, BufferedImage> icons = Maps.newLinkedHashMap();
+            for (Path iconFile : possibleMatches) {
+                BufferedImage thumb = ImageIO.read(iconFile.toFile());
+                icons.put(iconFile, thumb);
             }
+            ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
             try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, "*.png")) {
                 for (Path screenshotPath : screenshotPaths) {
                     BufferedImage screen = ImageIO.read(screenshotPath.toFile());
@@ -64,20 +58,16 @@ public class IconMatcher {
                             BufferedImage mapIcon = scale(screen.getSubimage(i * (iconSize + borderSize), startY + j * (iconSize + borderSize), iconSize, iconSize), scaleFactor);
                             String imageName = "(" + i + ", " + j + ")";
                             executorService.submit(() -> {
-                                List<String> matches = Lists.newArrayList();
-                                List<BufferedImage> matchIcons = Lists.newArrayList();
+                                Set<Path> matches = Sets.newLinkedHashSet();
                                 float currentDiffScore = Float.MAX_VALUE;
-                                for (Map.Entry<String, BufferedImage> entry : icons.entrySet()) {
+                                for (Map.Entry<Path, BufferedImage> entry : icons.entrySet()) {
                                     float diffScore = compareImages(mapIcon, entry.getValue(), threshold);
                                     if (diffScore < 1) {
                                         if (Math.abs(diffScore - currentDiffScore) < 0.00001) {
                                             matches.add(entry.getKey());
-                                            matchIcons.add(entry.getValue());
                                         } else if (diffScore < currentDiffScore) {
                                             matches.clear();
-                                            matchIcons.clear();
                                             matches.add(entry.getKey());
-                                            matchIcons.add(entry.getValue());
                                             currentDiffScore = diffScore;
                                         }
                                     }
@@ -87,32 +77,37 @@ public class IconMatcher {
                                 } else if (matches.size() > 1) {
                                     logger.warn("Multiple matches for {} {} - {}", screenshotPath.getFileName(), imageName, matches);
                                 } else if (currentDiffScore > 0.5f) {
-                                    logger.warn("High match - {} {} to {} - {}", screenshotPath.getFileName(), imageName, matches.get(0), currentDiffScore);
-                                 }
+                                    logger.warn("High match - {} {} to {} - {}", screenshotPath.getFileName(), imageName, matches, currentDiffScore);
+                                }
 
-                                iconNames.addAll(matches);
+                                if (!matches.isEmpty()) {
+                                    matchedPaths.add(matches);
+                                }
                             });
                         }
                     }
                 }
             }
+
+            executorService.shutdown();
+            try {
+                executorService.awaitTermination(1, TimeUnit.HOURS);
+            } catch (InterruptedException e) {
+                logger.error("Timed out doing icon match calculations, continuing");
+            }
+
         } catch (IOException e) {
             logger.error("Failed to process icon matching", e);
         }
-        executorService.shutdown();
-        try {
-            executorService.awaitTermination(1, TimeUnit.HOURS);
-        } catch (InterruptedException e) {
-            logger.error("Timed out doing icon match calculations, continuing");
-        }
-        return iconNames;
+        return matchedPaths;
+
     }
 
-    private int findStart(BufferedImage screen, Map<String, BufferedImage> icons, int threshold) throws IOException {
+    private int findStart(BufferedImage screen, Map<Path, BufferedImage> icons, int threshold) throws IOException {
         ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
 
         Map<Integer, Future<Float>> scores = Maps.newLinkedHashMap();
-        for (int offsetY = 0; offsetY < iconSize + borderSize && offsetY < screen.getHeight() - iconSize; ++ offsetY) {
+        for (int offsetY = 0; offsetY < iconSize + borderSize && offsetY < screen.getHeight() - iconSize; ++offsetY) {
             int finalOffsetY = offsetY;
             scores.put(offsetY, executorService.submit(() -> {
                 float offsetScore = Float.MAX_VALUE;
@@ -136,7 +131,7 @@ public class IconMatcher {
                     bestOffsetScore = score;
                 }
             }
-        } catch (InterruptedException|ExecutionException e) {
+        } catch (InterruptedException | ExecutionException e) {
             logger.error("Failed to calculate start offset", e);
         }
         executorService.shutdown();

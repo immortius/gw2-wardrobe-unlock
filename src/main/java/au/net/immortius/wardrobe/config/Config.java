@@ -65,4 +65,9 @@ public class Config {
      * Configuration of unlock categories to include on the site
      */
     public List<UnlockCategoryConfig> unlockCategories;
+
+    /**
+     * Configuration for thw guaranteed wardrobe unlock analyser
+     */
+    public GuaranteedWardrobeUnlockConfig gwuAnalyser;
 }

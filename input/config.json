@@ -14,7 +14,8 @@
     "relativePricesPath" : "prices",
     "relativeIconCachePath" : "icons",
     "relativeAtlasPath": "atlas",
-    "relativeImageMapPath": "imageMaps"
+    "relativeImageMapPath": "imageMaps",
+    "relativeThumbnailsPath": "thumbs"
   },
   "apiCaches" : [
     {
@@ -101,7 +102,174 @@
       "itemMappings" : {
         // Black Lion Exclusives Chest
         "82450": [7225, 7233, 7241, 7782, 7800, 7804, 7941, 7975, 7985, 8115, 8121, 8122]
-      }
+      },
+      "gwuIncludeIds" : [1, 2, 2041, 2044],
+      "gwuIgnoreIds" : [
+        // Guild Defender bits, share icon with others
+        1561, 1824, 1675, 1830, 1671, 1714,
+        // Air Filtration Device
+        2021, 2022,
+        // Black earth aquabreathers
+        857, 859,
+        // Scarlet's Grasp
+        792,790,
+        // Fuzzy Leopard Hat
+        968, 970,
+        // Fuzzy Cat Hat
+        976, 978,
+        // Fuzzy Hylek Hat
+        972, 974,
+        // Ringmaster's Hat
+        1007, 1009,
+        // Wide Rim Glasses
+        982, 987,
+        // Southsun Mask
+        996, 998,
+        // Fuzzy Panda Hat
+        1039,1040,
+        // Wizard's Hat
+        1035, 1037,
+        // Bunny Ears
+        984, 985,
+        // Festive Hat
+        1021, 975,
+        // Fuzzy Quaggan Hat
+        1016, 966,
+        // Fuzzy Quaggan Hat with Bow
+        1004, 1005,
+        // Twisted Watchwork Shoulders
+        1072, 1077,
+        // Reading Glasses
+        1011, 1014,
+        // Magnus's Left Eye Patch
+        839, 841,
+        // Magnus's Right Eye Patch
+        842, 843,
+        // Heavy Island Shoulder
+        1141, 1143,
+        // Mask of the Jubilee
+        1185, 1186,
+        // Witch's Hat
+        980, 981,
+        // Aviator Cap
+        1023, 1030,
+        // Toxic Gauntlets
+        1328, 1329,
+        // Zephyrite Sun Helm
+        1205, 1206,
+        // Zephyrite Wind Helm
+        1202, 1203,
+        // Zephyrite Lightning Helm
+        1208, 1210,
+        // Aviator Sunglasses
+        992, 994,
+        // Glowing Crimson Mask
+        826, 832,
+        // Wintersday Earmuffs
+        1022, 1024,
+        // Scarlet's Veil
+        827, 838,
+        // Mask of the Crown
+        1191, 1192,
+        // Mask of the Queen
+        1188, 1189,
+        // Lawless Boots
+        1361, 1369,
+        // Inventor's Sunglasses
+        967, 971,
+        // Phantom's Hood
+        1026, 995,
+        // Mask of the Wanderer
+        1250, 1252,
+        // Sailor's Beanie
+        1008, 1028,
+        // Gas Mask
+        2024, 2026,
+        // Horns of the Dragon
+        2013, 2016,
+        // Monocle
+        2018, 2020,
+        // Scarlet's Spaulders
+        2032, 2035,
+        // Lawless Shoulders
+        1368, 1371,
+        // Toxic Pauldron
+        1325, 1327,
+        // Stag Helm
+        1225, 1227,
+        // Lawless Helmet
+        1364, 1367,
+        // Mask of the Silent
+        1049, 1050,
+        // Fuzzy Bear Hat
+        1017, 1032,
+        // Devil Horns
+        1027, 999,
+        // Top Hat
+        1001, 1003,
+        // Grenth Hood
+        1222, 1224,
+        // Lawless Gloves
+        1366, 1372,
+        // Lion's Mask
+        5851, 5854,
+        // Shadow of the Dragon Shoulders
+        5815, 5820,
+        // Ice Crown
+        7038, 7040,
+        // Furrocious Cat Ears
+        6972, 6974,
+        // Xera's Mask
+        6841, 6845,
+        // Abaddon's Mask
+        7309, 7326,
+        // Pirate Hook
+        6903, 6943,
+        // Braham's Wolfblood Pauldrons
+        7064, 7066,
+        // Glowing Green Mask
+        5698, 5700,
+        // Foefire Mantle
+        7258, 7263,
+        // Shadow of the Dragon Gloves
+        5817, 5822,
+        // Wreath of Cooperation
+        5541, 5543,
+        // Shattered Bloodstone Circlet
+        6888, 6900,
+        // Sworn Zaishen Helm Skin
+        7225, 7241,
+        // Fuzzy Aurene Hat
+        7280, 7283,
+        // Foefire Wraps
+        7251, 7262,
+        // Foefire Greaves
+        7725, 7726,
+        // Swaggering Hat
+        7358, 7625,
+        // Salvaged Forged Helm
+        7806, 7814,
+
+        // Pirate Corsair Hat
+        6915,6931,
+        // Salvaged Forged Gloves
+        7819,7827,
+        // Glint's Gaze Mask
+        5747, 5748,
+        // Shoulder Scarf
+        5794, 5795,
+        // Dragon's Mask
+        5852, 5853,
+        // Fallen Balthazar Helm
+        7800, 7804,
+        // Shadow of the Dragon Helmet
+        5819, 5821,
+        // Chaos Gloves
+        6727, 6732,
+        // Peg-Leg Boots
+        6909, 6916
+
+      ]
     },
     {
       "id" : "weapon",
@@ -114,7 +282,35 @@
       "itemMappings" : {
         // Black Lion Exclusives Chest
         "82450": [6978, 6937, 7739, 8010, 8098]
-      }
+      },
+      "gwuIgnoreIds" : [
+        // Ironfist hammer
+        4879,
+        // Guild Cavalier varients
+        6773, 6781, 6769, 6755, 6761, 6748, 6766, 6762, 6750, 6782, 6778, 6771, 6763, 6770, 6776, 6754,
+        // Godskill missing skins
+        4986,
+        // Black Earth Aquatic skins
+        4712,
+        // Missing wolfborn skin
+        4305,
+        // Adamant Aquatic weapons
+        4282,
+        // Guild Rifle
+        4544,
+        // Delusion
+        4728,
+        // Vigil's Honor Longbow
+        4925,
+        // The Maelstrom
+        4747,
+        // Shiverpeak Arquebus
+        5362,
+        // Flame Trident
+        4753,
+        // Shadow Assassin Short Bow
+        6072
+      ]
     },
     {
       "id" : "back",
@@ -140,7 +336,8 @@
       "itemMappings" : {
         // Black Lion Exclusives Chest
         "82450": [435, 493, 599, 605, 609, 610, 611, 627, 629, 631, 633, 635, 689, 691, 693, 694, 699, 657, 660, 661, 662, 663]
-      }
+      },
+      "gwuIgnoreIds" : [153]
     },
     {
       "id" : "finisher",
@@ -209,7 +406,11 @@
       "chatcodeType" : 2,
       "useItemForChatcode" : true,
       "excludeIds" : [1],
-      "colorBased": true
+      "colorBased": true,
+      "gwuIgnoreIds" : [1580, 1622],
+      // Have to force include Burgundy, Bloodstone Dark Coral and Daybreak as the latter two don't quite match up,
+      // and this also blocks Burgundy
+      "gwuIncludeIds" : [119, 1456, 1481]
     },
     {
       "id" : "tool",
@@ -220,5 +421,10 @@
       "chatcodeType" : 10,
       "useItemForChatcode" : false
     }
-  ]
+  ],
+  "gwuAnalyser" : {
+    "iconSize": 48,
+    "borderSize": 10,
+    "scaleFactor": 2
+  }
 }

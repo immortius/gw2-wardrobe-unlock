@@ -52,4 +52,9 @@ public class ItemData extends CommonData {
         }
         return gameTypes;
     }
+
+    @Override
+    public String toString() {
+        return name + " (" + id + ")";
+    }
 }
