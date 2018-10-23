@@ -23,6 +23,8 @@ public class PathsConfig {
     private Path relativeAtlasPath;
     private Path relativeImageMapPath;
     private Path relativeThumbnailsPath;
+    public Path siteImagePath;
+    public Path siteDataPath;
 
     public Path getApiPath() {
         return baseCachePath.resolve(apiRelativePath);
@@ -73,4 +75,5 @@ public class PathsConfig {
     public Path getThumbnailPath() {
         return baseCachePath.resolve(relativeThumbnailsPath);
     }
+
 }

@@ -50,6 +50,7 @@ public class MapItemsToUnlocks {
     }
 
     public void run() throws IOException {
+        logger.info("Mapping items to unlocks");
         Map<String, String> skinTypeMapping = Maps.newHashMap();
         Map<String, ListMultimap<Integer, Integer>> itemMappings = Maps.newLinkedHashMap();
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {

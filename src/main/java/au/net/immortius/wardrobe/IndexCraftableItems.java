@@ -42,6 +42,7 @@ public class IndexCraftableItems {
     }
 
     public void run() throws IOException {
+        logger.info("Indexing craftable items");
         Set<Integer> craftableItems = Sets.newLinkedHashSet();
         for (Path itemFile : Files.newDirectoryStream(config.paths.getRecipesPath())) {
             try (Reader reader = Files.newBufferedReader(itemFile)) {

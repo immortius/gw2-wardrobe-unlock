@@ -10,14 +10,29 @@ repositories {
 }
 
 dependencies {
+    // Gson fire, the slightly better gson, for json handling
 	compile 'io.gsonfire:gson-fire:1.8.3'
+
+    // Http handling
     compile 'org.glassfish.jersey.core:jersey-client:2.27'
 	compile 'org.glassfish.jersey.inject:jersey-hk2:2.27'
-    compile 'com.google.guava:guava:26.0-jre'
-    compile 'ch.qos.logback:logback-classic:1.2.3'
-	compile 'org.jsoup:jsoup:1.11.3'
-	compile 'commons-net:commons-net:3.6'
+
+    // Html handling
+    compile 'org.jsoup:jsoup:1.11.3'
+
+    // Ftp handling
+    compile 'commons-net:commons-net:3.6'
     compile 'com.googlecode.gentyref:gentyref:1.2.0'
 
+    // Guava for delicious fruity utility
+    compile 'com.google.guava:guava:26.0-jre'
+
+    // Command line argument handling
+    compile 'commons-cli:commons-cli:1.4'
+
+    // Logging
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+
+    // Unit Testing (I don't do enough)
     testCompile 'junit:junit:4.12'
 }

@@ -38,6 +38,7 @@ public class BuildImageMaps {
     }
 
     public void run() throws IOException {
+        logger.info("Building image maps");
         Files.createDirectories(this.config.paths.getAtlasPath());
 
         List<ImageMap> imageMaps = Lists.newArrayList();

@@ -16,7 +16,7 @@ import java.io.IOException;
 /**
  * Caches any new/missing elements from the GW2 api
  */
-public class CacheApi {
+public class CacheApi implements UpdateProcess {
 
     private static Logger logger = LoggerFactory.getLogger(CacheApi.class);
 

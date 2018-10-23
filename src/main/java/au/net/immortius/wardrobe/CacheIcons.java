@@ -20,7 +20,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * Caches all icons used by unlocks
  */
-public class CacheIcons {
+public class CacheIcons implements UpdateProcess {
     private static Logger logger = LoggerFactory.getLogger(CacheIcons.class);
 
     private final Gson gson;

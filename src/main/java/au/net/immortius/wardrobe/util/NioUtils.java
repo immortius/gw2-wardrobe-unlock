@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.Comparator;
 
 /**
@@ -42,6 +43,25 @@ public final class NioUtils {
                 } catch (IOException e) {
                     logger.error("Failed to delete {}", x, e);
                 }
+            }
+        });
+    }
+
+    public static void copyPathContents(Path path, Path toPath) throws IOException {
+        Files.walk(path, 1).forEach(x -> {
+            try {
+                if (Files.isDirectory(x)) {
+                    return;
+                }
+
+                Path targetFile = toPath.resolve(x.getFileName());
+                if (Files.exists(targetFile) && Files.getLastModifiedTime(targetFile).compareTo(Files.getLastModifiedTime(x)) >= 0) {
+                    return;
+                }
+
+                Files.copy(x, targetFile, StandardCopyOption.REPLACE_EXISTING);
+            } catch (IOException e) {
+                logger.error("Failed to copy {}", x, e);
             }
         });
     }

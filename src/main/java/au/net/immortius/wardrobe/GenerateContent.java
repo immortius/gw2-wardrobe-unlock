@@ -69,6 +69,7 @@ public class GenerateContent {
     }
 
     public void run() throws IOException {
+        logger.info("Generating content.json");
         ContentData content = new ContentData();
         content.iconHeight = config.imageMapper.iconSize;
         content.iconWidth = config.imageMapper.iconSize;

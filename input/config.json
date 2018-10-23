@@ -15,7 +15,9 @@
     "relativeIconCachePath" : "icons",
     "relativeAtlasPath": "atlas",
     "relativeImageMapPath": "imageMaps",
-    "relativeThumbnailsPath": "thumbs"
+    "relativeThumbnailsPath": "thumbs",
+    "siteImagePath" : "site/img",
+    "siteDataPath" : "site/data"
   },
   "apiCaches" : [
     {
