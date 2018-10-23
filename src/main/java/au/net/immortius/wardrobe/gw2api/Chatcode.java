@@ -1,8 +1,8 @@
 package au.net.immortius.wardrobe.gw2api;
 
 import com.google.common.primitives.UnsignedBytes;
-import com.sun.org.apache.xml.internal.security.exceptions.Base64DecodingException;
-import com.sun.org.apache.xml.internal.security.utils.Base64;
+
+import java.util.Base64;
 
 /**
  * Handling of GW2's chat link format. Can both generate and extract information from chat codes.
@@ -41,7 +41,7 @@ public final class Chatcode {
             info[3] = (byte) ((id >> 8) & 0xFF);
             info[4] = (byte) ((id >> 16) & 0xFF);
             info[5] = 0;
-            return "[&" + Base64.encode(info) + "]";
+            return "[&" + Base64.getEncoder().encodeToString(info) + "]";
         } else {
             byte[] info = new byte[5];
             info[0] = (byte) type;
@@ -49,7 +49,7 @@ public final class Chatcode {
             info[2] = (byte) ((id >> 8) & 0xFF);
             info[3] = (byte) ((id >> 16) & 0xFF);
             info[4] = 0;
-            return "[&" + Base64.encode(info) + "]";
+            return "[&" + Base64.getEncoder().encodeToString(info) + "]";
         }
     }
 
@@ -59,15 +59,11 @@ public final class Chatcode {
      * @throws IllegalArgumentException If the chat code is not valid.
      */
     public static int getId(String chatcode) {
-        try {
-            byte[] decoded = Base64.decode(chatcode.substring(2, chatcode.length() - 1));
-            if (decoded[0] == ITEM_TYPE) {
-                return (UnsignedBytes.toInt(decoded[2])) | (UnsignedBytes.toInt(decoded[3]) << 8) | (UnsignedBytes.toInt(decoded[4]) << 16);
-            } else{
-                return (UnsignedBytes.toInt(decoded[1])) | (UnsignedBytes.toInt(decoded[2]) << 8) | (UnsignedBytes.toInt(decoded[3]) << 16);
-            }
-        } catch (Base64DecodingException e) {
-            throw new IllegalArgumentException("Not a valid chat code: " + chatcode, e);
+        byte[] decoded = Base64.getDecoder().decode(chatcode.substring(2, chatcode.length() - 1));
+        if (decoded[0] == ITEM_TYPE) {
+            return (UnsignedBytes.toInt(decoded[2])) | (UnsignedBytes.toInt(decoded[3]) << 8) | (UnsignedBytes.toInt(decoded[4]) << 16);
+        } else{
+            return (UnsignedBytes.toInt(decoded[1])) | (UnsignedBytes.toInt(decoded[2]) << 8) | (UnsignedBytes.toInt(decoded[3]) << 16);
         }
     }
 }

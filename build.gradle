@@ -2,6 +2,9 @@ group 'au.net.immortius'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = "au.net.immortius.wardrobe.UpdateSite"
 
 sourceCompatibility = 1.8
 
