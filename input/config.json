@@ -1,295 +1,426 @@
 {
   "paths": {
-    "baseInputPath" : "input",
-    "baseCachePath" : "cache",
-    "apiRelativePath" : "api",
-    "relativeRecipesPath" : "recipes",
-    "relativeSkinsPath" : "skins",
-    "relativeItemPath" : "items",
+    "baseInputPath": "input",
+    "baseCachePath": "cache",
+    "apiRelativePath": "api",
+    "relativeRecipesPath": "recipes",
+    "relativeSkinsPath": "skins",
+    "relativeItemPath": "items",
     "relativeUnlockItemsPath": "unlockItems",
-    "craftableItemsFile" : "craftableItems.json",
-    "contentFile" : "cache/content.json",
-    "relativeVendorsPath" : "vendors",
-    "relativeGwuPath" : "gwu",
-    "relativePricesPath" : "prices",
-    "relativeIconCachePath" : "icons",
+    "craftableItemsFile": "craftableItems.json",
+    "contentFile": "cache/content.json",
+    "relativeVendorsPath": "vendors",
+    "relativeGwuPath": "gwu",
+    "relativePricesPath": "prices",
+    "relativeIconCachePath": "icons",
     "relativeAtlasPath": "atlas",
     "relativeImageMapPath": "imageMaps",
     "relativeThumbnailsPath": "thumbs",
-    "siteImagePath" : "site/img",
-    "siteDataPath" : "site/data"
+    "siteImagePath": "site/img",
+    "siteDataPath": "site/data",
+    "relativeWikiCachePath": "wiki"
   },
-  "apiCaches" : [
+  "apiCaches": [
     {
       "baseUrl": "https://api.guildwars2.com/v2/colors",
-      "cachePath" : "dyes",
-      "bulkSupported" : true
+      "cachePath": "dyes",
+      "bulkSupported": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/finishers",
-      "cachePath" : "finishers",
-      "bulkSupported" : true
+      "cachePath": "finishers",
+      "bulkSupported": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/gliders",
-      "cachePath" : "gliders",
-      "bulkSupported" : true
+      "cachePath": "gliders",
+      "bulkSupported": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/items",
-      "cachePath" : "items",
-      "bulkSupported" : false
+      "cachePath": "items",
+      "bulkSupported": false
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/mailcarriers",
-      "cachePath" : "mailcarriers",
-      "bulkSupported" : true
+      "cachePath": "mailcarriers",
+      "bulkSupported": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/minis",
-      "cachePath" : "minis",
-      "bulkSupported" : true
+      "cachePath": "minis",
+      "bulkSupported": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/mounts/skins",
-      "cachePath" : "mounts/skins",
-      "bulkSupported" : true
+      "cachePath": "mounts/skins",
+      "bulkSupported": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/outfits",
-      "cachePath" : "outfits",
-      "bulkSupported" : true
+      "cachePath": "outfits",
+      "bulkSupported": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/recipes",
-      "cachePath" : "recipes",
-      "bulkSupported" : false
+      "cachePath": "recipes",
+      "bulkSupported": false
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/skins",
-      "cachePath" : "skins",
-      "bulkSupported" : false
+      "cachePath": "skins",
+      "bulkSupported": false
     }
   ],
-  "prices" : {
-    "apiUrl" : "https://api.guildwars2.com/v2/commerce/prices"
+  "prices": {
+    "apiUrl": "https://api.guildwars2.com/v2/commerce/prices"
   },
-  "imageMapper" : {
-    "iconSize" : 64,
-    "mapSize" : 2048
+  "imageMapper": {
+    "iconSize": 64,
+    "mapSize": 2048
   },
-  "itemUnlockMapper" : {
-    "unlockDetailsMappings" : [
+  "itemUnlockMapper": {
+    "unlockDetailsMappings": [
       {
-        "detailTypeFilter" : "Unlock",
-        "unlockTypeFilter" : "Dye",
-        "unlockType" : "dye"
+        "detailTypeFilter": "Unlock",
+        "unlockTypeFilter": "Dye",
+        "unlockType": "dye"
       },
       {
-        "detailTypeFilter" : "Transmutation",
-        "resolveUnlockTypeFromSkin" : true
+        "detailTypeFilter": "Transmutation",
+        "resolveUnlockTypeFromSkin": true
       }
     ]
   },
-  "unlockCategories" : [
+  "unlockCategories": [
     {
-      "id" : "armor",
-      "name" : "Armor",
-      "source" : "skins",
-      "typeFilter" : "Armor",
+      "id": "armor",
+      "name": "Armor",
+      "source": "skins",
+      "typeFilter": "Armor",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
-      "chatcodeType" : 10,
-      "useItemForChatcode" : false,
-      "excludeIds" : [1181, 1213, 5909, 5910, 5918, 5921, 5936],
-      "itemMappings" : {
+      "chatcodeType": 10,
+      "useItemForChatcode": false,
+      "excludeIds": [
+        1181,
+        1213,
+        5909,
+        5910,
+        5918,
+        5921,
+        5936
+      ],
+      "itemMappings": {
         // Black Lion Exclusives Chest
-        "82450": [7225, 7233, 7241, 7782, 7800, 7804, 7941, 7975, 7985, 8115, 8121, 8122]
+        "82450": [
+          7225,
+          7233,
+          7241,
+          7782,
+          7800,
+          7804,
+          7941,
+          7975,
+          7985,
+          8115,
+          8121,
+          8122
+        ]
       },
-      "gwuIncludeIds" : [1, 2, 2041, 2044],
-      "gwuIgnoreIds" : [
+      "gwuIncludeIds": [
+        1,
+        2,
+        2041,
+        2044
+      ],
+      "gwuIgnoreIds": [
         // Guild Defender bits, share icon with others
-        1561, 1824, 1675, 1830, 1671, 1714,
+        1561,
+        1824,
+        1675,
+        1830,
+        1671,
+        1714,
         // Air Filtration Device
-        2021, 2022,
+        2021,
+        2022,
         // Black earth aquabreathers
-        857, 859,
+        857,
+        859,
         // Scarlet's Grasp
-        792,790,
+        792,
+        790,
         // Fuzzy Leopard Hat
-        968, 970,
+        968,
+        970,
         // Fuzzy Cat Hat
-        976, 978,
+        976,
+        978,
         // Fuzzy Hylek Hat
-        972, 974,
+        972,
+        974,
         // Ringmaster's Hat
-        1007, 1009,
+        1007,
+        1009,
         // Wide Rim Glasses
-        982, 987,
+        982,
+        987,
         // Southsun Mask
-        996, 998,
+        996,
+        998,
         // Fuzzy Panda Hat
-        1039,1040,
+        1039,
+        1040,
         // Wizard's Hat
-        1035, 1037,
+        1035,
+        1037,
         // Bunny Ears
-        984, 985,
+        984,
+        985,
         // Festive Hat
-        1021, 975,
+        1021,
+        975,
         // Fuzzy Quaggan Hat
-        1016, 966,
+        1016,
+        966,
         // Fuzzy Quaggan Hat with Bow
-        1004, 1005,
+        1004,
+        1005,
         // Twisted Watchwork Shoulders
-        1072, 1077,
+        1072,
+        1077,
         // Reading Glasses
-        1011, 1014,
+        1011,
+        1014,
         // Magnus's Left Eye Patch
-        839, 841,
+        839,
+        841,
         // Magnus's Right Eye Patch
-        842, 843,
+        842,
+        843,
         // Heavy Island Shoulder
-        1141, 1143,
+        1141,
+        1143,
         // Mask of the Jubilee
-        1185, 1186,
+        1185,
+        1186,
         // Witch's Hat
-        980, 981,
+        980,
+        981,
         // Aviator Cap
-        1023, 1030,
+        1023,
+        1030,
         // Toxic Gauntlets
-        1328, 1329,
+        1328,
+        1329,
         // Zephyrite Sun Helm
-        1205, 1206,
+        1205,
+        1206,
         // Zephyrite Wind Helm
-        1202, 1203,
+        1202,
+        1203,
         // Zephyrite Lightning Helm
-        1208, 1210,
+        1208,
+        1210,
         // Aviator Sunglasses
-        992, 994,
+        992,
+        994,
         // Glowing Crimson Mask
-        826, 832,
+        826,
+        832,
         // Wintersday Earmuffs
-        1022, 1024,
+        1022,
+        1024,
         // Scarlet's Veil
-        827, 838,
+        827,
+        838,
         // Mask of the Crown
-        1191, 1192,
+        1191,
+        1192,
         // Mask of the Queen
-        1188, 1189,
+        1188,
+        1189,
         // Lawless Boots
-        1361, 1369,
+        1361,
+        1369,
         // Inventor's Sunglasses
-        967, 971,
+        967,
+        971,
         // Phantom's Hood
-        1026, 995,
+        1026,
+        995,
         // Mask of the Wanderer
-        1250, 1252,
+        1250,
+        1252,
         // Sailor's Beanie
-        1008, 1028,
+        1008,
+        1028,
         // Gas Mask
-        2024, 2026,
+        2024,
+        2026,
         // Horns of the Dragon
-        2013, 2016,
+        2013,
+        2016,
         // Monocle
-        2018, 2020,
+        2018,
+        2020,
         // Scarlet's Spaulders
-        2032, 2035,
+        2032,
+        2035,
         // Lawless Shoulders
-        1368, 1371,
+        1368,
+        1371,
         // Toxic Pauldron
-        1325, 1327,
+        1325,
+        1327,
         // Stag Helm
-        1225, 1227,
+        1225,
+        1227,
         // Lawless Helmet
-        1364, 1367,
+        1364,
+        1367,
         // Mask of the Silent
-        1049, 1050,
+        1049,
+        1050,
         // Fuzzy Bear Hat
-        1017, 1032,
+        1017,
+        1032,
         // Devil Horns
-        1027, 999,
+        1027,
+        999,
         // Top Hat
-        1001, 1003,
+        1001,
+        1003,
         // Grenth Hood
-        1222, 1224,
+        1222,
+        1224,
         // Lawless Gloves
-        1366, 1372,
+        1366,
+        1372,
         // Lion's Mask
-        5851, 5854,
+        5851,
+        5854,
         // Shadow of the Dragon Shoulders
-        5815, 5820,
+        5815,
+        5820,
         // Ice Crown
-        7038, 7040,
+        7038,
+        7040,
         // Furrocious Cat Ears
-        6972, 6974,
+        6972,
+        6974,
         // Xera's Mask
-        6841, 6845,
+        6841,
+        6845,
         // Abaddon's Mask
-        7309, 7326,
+        7309,
+        7326,
         // Pirate Hook
-        6903, 6943,
+        6903,
+        6943,
         // Braham's Wolfblood Pauldrons
-        7064, 7066,
+        7064,
+        7066,
         // Glowing Green Mask
-        5698, 5700,
+        5698,
+        5700,
         // Foefire Mantle
-        7258, 7263,
+        7258,
+        7263,
         // Shadow of the Dragon Gloves
-        5817, 5822,
+        5817,
+        5822,
         // Wreath of Cooperation
-        5541, 5543,
+        5541,
+        5543,
         // Shattered Bloodstone Circlet
-        6888, 6900,
+        6888,
+        6900,
         // Sworn Zaishen Helm Skin
-        7225, 7241,
+        7225,
+        7241,
         // Fuzzy Aurene Hat
-        7280, 7283,
+        7280,
+        7283,
         // Foefire Wraps
-        7251, 7262,
+        7251,
+        7262,
         // Foefire Greaves
-        7725, 7726,
+        7725,
+        7726,
         // Swaggering Hat
-        7358, 7625,
+        7358,
+        7625,
         // Salvaged Forged Helm
-        7806, 7814,
-
+        7806,
+        7814,
         // Pirate Corsair Hat
-        6915,6931,
+        6915,
+        6931,
         // Salvaged Forged Gloves
-        7819,7827,
+        7819,
+        7827,
         // Glint's Gaze Mask
-        5747, 5748,
+        5747,
+        5748,
         // Shoulder Scarf
-        5794, 5795,
+        5794,
+        5795,
         // Dragon's Mask
-        5852, 5853,
+        5852,
+        5853,
         // Fallen Balthazar Helm
-        7800, 7804,
+        7800,
+        7804,
         // Shadow of the Dragon Helmet
-        5819, 5821,
+        5819,
+        5821,
         // Chaos Gloves
-        6727, 6732,
+        6727,
+        6732,
         // Peg-Leg Boots
-        6909, 6916
-
+        6909,
+        6916
       ]
     },
     {
-      "id" : "weapon",
-      "name" : "Weapons",
-      "source" : "skins",
-      "typeFilter" : "Weapon",
+      "id": "weapon",
+      "name": "Weapons",
+      "source": "skins",
+      "typeFilter": "Weapon",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
-      "chatcodeType" : 10,
-      "useItemForChatcode" : false,
-      "itemMappings" : {
+      "chatcodeType": 10,
+      "useItemForChatcode": false,
+      "itemMappings": {
         // Black Lion Exclusives Chest
-        "82450": [6978, 6937, 7739, 8010, 8098]
+        "82450": [
+          6978,
+          6937,
+          7739,
+          8010,
+          8098
+        ]
       },
-      "gwuIgnoreIds" : [
+      "gwuIgnoreIds": [
         // Ironfist hammer
         4879,
         // Guild Cavalier varients
-        6773, 6781, 6769, 6755, 6761, 6748, 6766, 6762, 6750, 6782, 6778, 6771, 6763, 6770, 6776, 6754,
+        6773,
+        6781,
+        6769,
+        6755,
+        6761,
+        6748,
+        6766,
+        6762,
+        6750,
+        6782,
+        6778,
+        6771,
+        6763,
+        6770,
+        6776,
+        6754,
         // Godskill missing skins
         4986,
         // Black Earth Aquatic skins
@@ -315,118 +446,345 @@
       ]
     },
     {
-      "id" : "back",
-      "name" : "Back Items",
-      "source" : "skins",
-      "typeFilter" : "Back",
+      "id": "back",
+      "name": "Back Items",
+      "source": "skins",
+      "typeFilter": "Back",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
-      "chatcodeType" : 10,
-      "useItemForChatcode" : false,
-      "excludeIds" : [2329, 2339, 2327],
-      "itemMappings" : {
+      "chatcodeType": 10,
+      "useItemForChatcode": false,
+      "excludeIds": [
+        2329,
+        2339,
+        2327
+      ],
+      "itemMappings": {
         // Black Lion Exclusives Chest
-        "82450": [7308, 7755, 7811, 7996, 8021, 8141]
+        "82450": [
+          7308,
+          7755,
+          7811,
+          7996,
+          8021,
+          8141
+        ]
       }
     },
     {
-      "id" : "mini",
-      "name" : "Miniatures",
-      "source" : "minis",
+      "id": "mini",
+      "name": "Miniatures",
+      "source": "minis",
       "unlockUrl": "https://api.guildwars2.com/v2/account/minis",
-      "chatcodeType" : 2,
-      "useItemForChatcode" : true,
-      "itemMappings" : {
+      "chatcodeType": 2,
+      "useItemForChatcode": true,
+      "itemMappings": {
         // Black Lion Exclusives Chest
-        "82450": [435, 493, 599, 605, 609, 610, 611, 627, 629, 631, 633, 635, 689, 691, 693, 694, 699, 657, 660, 661, 662, 663]
+        "82450": [
+          435,
+          493,
+          599,
+          605,
+          609,
+          610,
+          611,
+          627,
+          629,
+          631,
+          633,
+          635,
+          689,
+          691,
+          693,
+          694,
+          699,
+          657,
+          660,
+          661,
+          662,
+          663
+        ]
       },
-      "gwuIgnoreIds" : [153]
+      "gwuIgnoreIds": [
+        153
+      ]
     },
     {
-      "id" : "finisher",
-      "name" : "Finishers",
-      "source" : "finishers",
+      "id": "finisher",
+      "name": "Finishers",
+      "source": "finishers",
       "unlockUrl": "https://api.guildwars2.com/v2/account/finishers",
-      "excludeIds" : [48],
-      "chatcodeType" : 2,
-      "useItemForChatcode" : true
+      "excludeIds": [
+        48
+      ],
+      "chatcodeType": 2,
+      "useItemForChatcode": true
     },
     {
-      "id" : "mail",
-      "name" : "Mail Carriers",
-      "source" : "mailcarriers",
+      "id": "mail",
+      "name": "Mail Carriers",
+      "source": "mailcarriers",
       "unlockUrl": "https://api.guildwars2.com/v2/account/mailcarriers",
-      "chatcodeType" : 2,
-      "useItemForChatcode" : true,
-      "itemMappings" : {
+      "chatcodeType": 2,
+      "useItemForChatcode": true,
+      "itemMappings": {
         // Black Lion Exclusives Chest
-        "82450": [16]
+        "82450": [
+          16
+        ]
       }
     },
     {
-      "id" : "outfit",
-      "name" : "Outfits",
-      "source" : "outfits",
+      "id": "outfit",
+      "name": "Outfits",
+      "source": "outfits",
       "unlockUrl": "https://api.guildwars2.com/v2/account/outfits",
-      "chatcodeType" : 11,
-      "useItemForChatcode" : false,
-      "itemMappings" : {
+      "chatcodeType": 11,
+      "useItemForChatcode": false,
+      "itemMappings": {
         // Outfit tonics
-        "36187" : [63],
-        "36200" : [66],
-        "36189" : [59],
-        "36179" : [60],
-        "36190" : [64],
-        "36183" : [70],
-        "36180" : [71],
-        "36186" : [68],
-        "36184" : [62],
-        "36191" : [67],
-        "36176" : [65],
-        "36185" : [61],
-        "36188" : [69],
+        "36187": [
+          63
+        ],
+        "36200": [
+          66
+        ],
+        "36189": [
+          59
+        ],
+        "36179": [
+          60
+        ],
+        "36190": [
+          64
+        ],
+        "36183": [
+          70
+        ],
+        "36180": [
+          71
+        ],
+        "36186": [
+          68
+        ],
+        "36184": [
+          62
+        ],
+        "36191": [
+          67
+        ],
+        "36176": [
+          65
+        ],
+        "36185": [
+          61
+        ],
+        "36188": [
+          69
+        ],
         // Black Lion Exclusives Chest
-        "82450": [57]
+        "82450": [
+          57
+        ]
       }
     },
     {
-      "id" : "glider",
-      "name" : "Gliders",
-      "source" : "gliders",
+      "id": "glider",
+      "name": "Gliders",
+      "source": "gliders",
       "unlockUrl": "https://api.guildwars2.com/v2/account/gliders",
-      "chatcodeType" : 2,
-      "useItemForChatcode" : true,
-      "itemMappings" : {
+      "chatcodeType": 2,
+      "useItemForChatcode": true,
+      "itemMappings": {
         // Black Lion Exclusives Chest
-        "82450": [32, 35, 47, 54, 60]
+        "82450": [
+          32,
+          35,
+          47,
+          54,
+          60
+        ]
       }
     },
     {
-      "id" : "dye",
-      "name" : "Dyes",
-      "source" : "dyes",
+      "id": "dye",
+      "name": "Dyes",
+      "source": "dyes",
       "unlockUrl": "https://api.guildwars2.com/v2/account/dyes",
-      "chatcodeType" : 2,
-      "useItemForChatcode" : true,
-      "excludeIds" : [1],
+      "chatcodeType": 2,
+      "useItemForChatcode": true,
+      "excludeIds": [
+        1
+      ],
       "colorBased": true,
-      "gwuIgnoreIds" : [1580, 1622],
+      "gwuIgnoreIds": [
+        1580,
+        1622
+      ],
       // Have to force include Burgundy, Bloodstone Dark Coral and Daybreak as the latter two don't quite match up,
       // and this also blocks Burgundy
-      "gwuIncludeIds" : [119, 1456, 1481]
+      "gwuIncludeIds": [
+        119,
+        1456,
+        1481
+      ]
     },
     {
-      "id" : "tool",
-      "name" : "Gathering Tools",
-      "source" : "skins",
-      "typeFilter" : "Gathering",
+      "id": "tool",
+      "name": "Gathering Tools",
+      "source": "skins",
+      "typeFilter": "Gathering",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
-      "chatcodeType" : 10,
-      "useItemForChatcode" : false
+      "chatcodeType": 10,
+      "useItemForChatcode": false
     }
   ],
-  "gwuAnalyser" : {
+  "gwuAnalyser": {
     "iconSize": 48,
     "borderSize": 10,
     "scaleFactor": 2
-  }
+  },
+  "vendorCrawler": {
+    "rootUrl": "https://wiki.guildwars2.com",
+    "skinTypes": [
+      "Consumable",
+      "Back item",
+      "Medium boots",
+      "Medium coat",
+      "Medium helm",
+      "Medium gloves",
+      "Medium leggings",
+      "Medium shoulders",
+      "Heavy boots",
+      "Heavy coat",
+      "Heavy helm",
+      "Heavy gloves",
+      "Heavy leggings",
+      "Heavy shoulders",
+      "Light boots",
+      "Light coat",
+      "Light helm",
+      "Light gloves",
+      "Light leggings",
+      "Light shoulders",
+      "Axe",
+      "Dagger",
+      "Mace",
+      "Pistol",
+      "Sword",
+      "Scepter",
+      "Focus",
+      "Shield",
+      "Torch",
+      "Warhorn",
+      "Greatsword",
+      "Hammer",
+      "Longbow",
+      "Rifle",
+      "Short bow",
+      "Staff",
+      "Harpoon gun",
+      "Spear",
+      "Trident",
+      "Heavy aquatic helm",
+      "Medium aquatic helm",
+      "Light aquatic helm"
+    ],
+    "miniatureTypes" : ["Miniature"],
+    "miniId" : "mini",
+    "categoryPages": [
+      "/wiki/Category:Vendors",
+      "/wiki/Category:Festival_Merchants",
+      "/wiki/Category:Services",
+      "/wiki/Category:Guild_Initiative"
+    ],
+    "vendorPages": [
+      "/wiki/Skirmish_Supervisor",
+      "/wiki/Black_Lion_Weapons_Specialist/historical",
+      "/wiki/Charity_Corps_Seraph",
+      "/wiki/Rytlock_Brimstone"
+    ],
+    "ignorePages" : [
+      "/wiki/List_of_karma_merchant_items",
+      "/wiki/List_of_karma_merchant_items/Two-handed_weapons",
+      "/wiki/List_of_karma_merchant_items/One-handed_weapons",
+      "/wiki/List_of_karma_merchant_items/Off-hand_weapons",
+      "/wiki/List_of_karma_merchant_items/Aquatic_weapons",
+      "/wiki/List_of_karma_merchant_items/Light_armor",
+      "/wiki/List_of_karma_merchant_items/Medium_armor",
+      "/wiki/List_of_karma_merchant_items/Medium_armor/by_level",
+      "/wiki/List_of_karma_merchant_items/Heavy_armor",
+      "/wiki/List_of_karma_merchant_items/Back_items",
+      "/wiki/List_of_karma_merchant_items/Harvesting_Sickles",
+      "/wiki/List_of_karma_merchant_items/Mining_Picks",
+      "/wiki/List_of_karma_merchant_items/Logging_Axes",
+      "/wiki/Two-handed_Weapons_by_level",
+      "/wiki/One-handed_Weapons_by_level",
+      "/wiki/Kimmes_the_Historian"
+    ]
+  },
+  "supportedCurrencies" : [
+    "gold",
+    "karma",
+    "gem",
+    "laurel",
+    "boh",
+    "fractalrelic",
+    "pristinefractalrelic",
+    "goldenfractalrelic",
+    "integratedmatrix",
+    "guildcommendation",
+    "pvplt",
+    "wvwsct",
+    "memoryofbattle",
+    "bls",
+    "blt",
+    "blmt",
+    "blsprocket",
+    "ascaloniantear",
+    "deadlybloom",
+    "sealofbeetletun",
+    "manifesto",
+    "charrcarving",
+    "knowledgecrystal",
+    "symbolofkoda",
+    "shardofzhaitan",
+    "bauble",
+    "bundleofloot",
+    "festivaltoken",
+    "favorofthefestival",
+    "banditcrest",
+    "candycorncob",
+    "snowdiamond",
+    "airshippart",
+    "aurillium",
+    "leylinecrystal",
+    "chakegg",
+    "reclaimedplate",
+    "crystallineore",
+    "provisionertoken",
+    "magnetiteshard",
+    "gaeting",
+    "unboundmagic",
+    "bloodruby",
+    "petrifiedwood",
+    "winterberries",
+    "jadeshard",
+    "fireorchidblossom",
+    "orrianpearl",
+    "tradecontract",
+    "casinocoin",
+    "shadowsseal",
+    "elegymosaic",
+    "volatilemagic",
+    "kralkatiteore",
+    "difluorite",
+    "inscribedshard",
+    "swimspeedinfusion",
+    "mistonium",
+    "shardofglory",
+    "ascendedshardofglory",
+    "grandmasterartifactmark",
+    "grandmasterweaponmark",
+    "grandmasterhuntsmanmark"
+  ]
 }

@@ -1,4 +1,4 @@
-package au.net.immortius.wardrobe.inputentities;
+package au.net.immortius.wardrobe.config;
 
 import java.util.Set;
 

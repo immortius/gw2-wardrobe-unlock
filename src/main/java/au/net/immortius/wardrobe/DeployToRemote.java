@@ -7,6 +7,7 @@ import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.Options;
 import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPClient;
+import org.apache.commons.net.ftp.FTPClientConfig;
 import org.apache.commons.net.ftp.FTPFile;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -56,11 +57,16 @@ public class DeployToRemote {
 
         FTPClient ftpClient = new FTPClient();
         ftpClient.connect(address);
-        ftpClient.login(username, password);
+        if (!ftpClient.login(username, password)) {
+            logger.error("Failed to login to remote");
+            return;
+        }
         ftpClient.changeWorkingDirectory("/public_html/wardrobe-unlock-analyser/img");
 
         FTPFile[] ftpFiles = ftpClient.listFiles();
-        ftpFiles[0].getTimestamp();
+        if (ftpFiles.length == 0) {
+            logger.error("No existing images found");
+        }
         Map<String, FTPFile> existing = Arrays.stream(ftpFiles).collect(Collectors.toMap(FTPFile::getName, x -> x));
         for (Path imgPath : Files.newDirectoryStream(config.paths.getImageMapPath())) {
             FTPFile remoteFile = existing.get(imgPath.getFileName().toString());
@@ -78,6 +84,7 @@ public class DeployToRemote {
             ftpClient.setFileType(FTP.ASCII_FILE_TYPE);
             upload(ftpClient, contentStream, "content.json");
         }
+        ftpClient.disconnect();
     }
 
     private boolean upload(FTPClient ftpClient, InputStream stream, String toFile) throws IOException {

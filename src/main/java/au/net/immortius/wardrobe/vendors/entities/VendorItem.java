@@ -9,6 +9,5 @@ import java.util.List;
  */
 public class VendorItem {
     public int id;
-    public String category;
     public List<CostComponent> cost;
 }

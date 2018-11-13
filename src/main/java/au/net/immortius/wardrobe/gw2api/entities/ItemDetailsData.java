@@ -14,4 +14,6 @@ public class ItemDetailsData {
     public String unlockType;
     @SerializedName("color_id")
     public int colorId;
+    @SerializedName("minipet_id")
+    public Integer minipetId;
 }

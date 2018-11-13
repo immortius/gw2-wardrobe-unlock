@@ -1,8 +1,7 @@
-package au.net.immortius.wardrobe;
+package au.net.immortius.wardrobe.gw2api;
 
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
-import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.util.REST;
 import com.google.gson.Gson;
 import io.gsonfire.GsonFireBuilder;

@@ -1,8 +1,6 @@
-package au.net.immortius.wardrobe;
+package au.net.immortius.wardrobe.imagemap;
 
 import au.net.immortius.wardrobe.config.Config;
-import au.net.immortius.wardrobe.imagemap.IconAtlas;
-import au.net.immortius.wardrobe.imagemap.ImageMap;
 import com.google.common.collect.Lists;
 import com.google.gson.Gson;
 import io.gsonfire.GsonFireBuilder;

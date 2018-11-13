@@ -25,6 +25,7 @@ public class PathsConfig {
     private Path relativeThumbnailsPath;
     public Path siteImagePath;
     public Path siteDataPath;
+    private Path relativeWikiCachePath;
 
     public Path getApiPath() {
         return baseCachePath.resolve(apiRelativePath);
@@ -75,5 +76,7 @@ public class PathsConfig {
     public Path getThumbnailPath() {
         return baseCachePath.resolve(relativeThumbnailsPath);
     }
+
+    public Path getWikiCachePath() { return baseCachePath.resolve(relativeWikiCachePath); }
 
 }

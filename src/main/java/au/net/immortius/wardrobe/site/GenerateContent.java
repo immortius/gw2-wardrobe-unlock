@@ -1,4 +1,4 @@
-package au.net.immortius.wardrobe;
+package au.net.immortius.wardrobe.site;
 
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
@@ -8,16 +8,13 @@ import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.imagemap.IconDetails;
 import au.net.immortius.wardrobe.imagemap.ImageMap;
-import au.net.immortius.wardrobe.inputentities.Grouping;
+import au.net.immortius.wardrobe.config.Grouping;
 import au.net.immortius.wardrobe.site.entities.*;
 import au.net.immortius.wardrobe.util.ColorUtil;
 import au.net.immortius.wardrobe.vendors.entities.VendorData;
 import au.net.immortius.wardrobe.vendors.entities.VendorItem;
 import com.google.common.base.Strings;
-import com.google.common.collect.ImmutableList;
-import com.google.common.collect.Lists;
-import com.google.common.collect.Maps;
-import com.google.common.collect.Sets;
+import com.google.common.collect.*;
 import com.google.gson.Gson;
 import io.gsonfire.GsonFireBuilder;
 import org.slf4j.Logger;
@@ -30,6 +27,7 @@ import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Generates the content.json file that drives the site
@@ -172,6 +170,48 @@ public class GenerateContent {
     }
 
     private void applyVendors(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
+        addVendorsToUnlocks(unlockCategoryConfig, unlockDataMap);
+        filterVendorsToCheapest(unlockDataMap);
+
+        for (UnlockData unlock : unlockDataMap.values()) {
+            unlock.getVendors().forEach(vendorEntry -> unlock.sources.addAll(extractVendorSources(vendorEntry)));
+        }
+    }
+
+    private void filterVendorsToCheapest(Map<Integer, UnlockData> unlockDataMap) {
+        for (UnlockData unlock : unlockDataMap.values()) {
+            ListMultimap<String, VendorInfo> vendorsByCostType = ArrayListMultimap.create();
+            List<VendorInfo> finalVendors = Lists.newArrayList();
+            for (VendorInfo vendor : unlock.getVendors()) {
+                if (vendor.cost.size() > 1) {
+                    finalVendors.add(vendor);
+                } else {
+                    vendorsByCostType.put(vendor.cost.get(0).type, vendor);
+                }
+            }
+
+            for (Collection<VendorInfo> vendors : vendorsByCostType.asMap().values()) {
+                int minCost = Integer.MAX_VALUE;
+                List<VendorInfo> cheapest = Lists.newArrayList();
+                for (VendorInfo vendor : vendors) {
+                    int cost = vendor.cost.get(0).value;
+                    if (cost < minCost) {
+                        cheapest.clear();
+                        cheapest.add(vendor);
+                        minCost = vendor.cost.get(0).value;
+                    } else if (cost == minCost) {
+                        cheapest.add(vendor);
+                    }
+                }
+                finalVendors.addAll(cheapest);
+            }
+            unlock.getVendors().clear();;
+            unlock.getVendors().addAll(finalVendors);
+        }
+    }
+
+    private void addVendorsToUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
+        Set<String> allUnsupportedCurrencies = Sets.newLinkedHashSet();
         try (Reader reader = Files.newBufferedReader(config.paths.getVendorsPath().resolve(unlockCategoryConfig.id + ".json"))) {
             List<VendorData> vendors = gson.fromJson(reader, VENDOR_DATA_LIST_TYPE.getType());
             for (VendorData vendor : vendors) {
@@ -187,17 +227,22 @@ public class GenerateContent {
                         if (duplicateVendor) {
                             continue;
                         }
-                        VendorInfo vendorEntry = new VendorInfo();
-                        vendorEntry.vendorName = vendor.name;
-                        vendorEntry.vendorUrl = vendor.url;
-                        vendorEntry.cost = item.cost;
-                        unlock.getVendors().add(vendorEntry);
-
-                        unlock.sources.addAll(extractVendorSources(vendorEntry));
-
+                        List<String> unsupportedCurrencies = item.cost.stream().map(x->x.type).filter(x -> !config.supportedCurrencies.contains(x)).collect(Collectors.toList());
+                        if (unsupportedCurrencies.isEmpty()) {
+                            VendorInfo vendorEntry = new VendorInfo();
+                            vendorEntry.vendorName = vendor.name;
+                            vendorEntry.vendorUrl = vendor.url;
+                            vendorEntry.cost = item.cost;
+                            unlock.getVendors().add(vendorEntry);
+                        } else {
+                            allUnsupportedCurrencies.addAll(unsupportedCurrencies);
+                        }
                     }
                 }
             }
+        }
+        if (!allUnsupportedCurrencies.isEmpty()) {
+            logger.warn("Unsupported currencies detected for {}: {}", unlockCategoryConfig.id, allUnsupportedCurrencies);
         }
     }
 

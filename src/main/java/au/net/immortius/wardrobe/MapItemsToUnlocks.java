@@ -3,6 +3,7 @@ package au.net.immortius.wardrobe;
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.ItemDetailUnlockMapping;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
+import au.net.immortius.wardrobe.gw2api.Skins;
 import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import com.google.common.base.Strings;
@@ -34,6 +35,7 @@ public class MapItemsToUnlocks {
     private Gson gson;
     private Config config;
     private Unlocks unlocks;
+    private Skins skins;
 
     public MapItemsToUnlocks() throws IOException {
         this(Config.loadConfig());
@@ -43,6 +45,7 @@ public class MapItemsToUnlocks {
         this.gson = new GsonFireBuilder().createGson();
         this.config = config;
         this.unlocks = new Unlocks(config, gson);
+        this.skins = new Skins(config, gson);
     }
 
     public static void main(String... args) throws Exception {
@@ -103,13 +106,7 @@ public class MapItemsToUnlocks {
                                 itemMappings.get(unlockDetailsMapping.unlockType).put(itemData.details.colorId, itemData.id);
                             } else if (unlockDetailsMapping.resolveUnlockTypeFromSkin) {
                                 for (int id : itemData.details.skins) {
-                                    Path skinFile = config.paths.getSkinsPath().resolve(id + ".json");
-                                    if (Files.exists(skinFile)) {
-                                        try (Reader skinReader = Files.newBufferedReader(skinFile)) {
-                                            ItemData skin = gson.fromJson(skinReader, ItemData.class);
-                                            itemMappings.get(skinTypeMapping.get(skin.type)).put(id, itemData.id);
-                                        }
-                                    }
+                                    skins.getSkinType(id).ifPresent(x -> itemMappings.get(x).put(id, itemData.id));
                                 }
                             }
                         }

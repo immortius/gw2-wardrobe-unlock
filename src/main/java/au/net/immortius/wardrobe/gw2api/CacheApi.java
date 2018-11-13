@@ -1,8 +1,7 @@
-package au.net.immortius.wardrobe;
+package au.net.immortius.wardrobe.gw2api;
 
 import au.net.immortius.wardrobe.config.CacheConfig;
 import au.net.immortius.wardrobe.config.Config;
-import au.net.immortius.wardrobe.gw2api.ApiCacher;
 import au.net.immortius.wardrobe.util.GsonJsonProvider;
 import com.google.gson.Gson;
 import io.gsonfire.GsonFireBuilder;

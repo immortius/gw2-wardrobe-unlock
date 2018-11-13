@@ -1,11 +1,7 @@
-package au.net.immortius.wardrobe;
+package au.net.immortius.wardrobe.gw2api;
 
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
-import au.net.immortius.wardrobe.gw2api.ApiCacher;
-import au.net.immortius.wardrobe.gw2api.Items;
-import au.net.immortius.wardrobe.gw2api.Prices;
-import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.site.entities.Price;
 import au.net.immortius.wardrobe.util.GsonJsonProvider;
 import au.net.immortius.wardrobe.util.NioUtils;

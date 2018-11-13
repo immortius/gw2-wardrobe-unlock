@@ -1,16 +1,17 @@
 package au.net.immortius.wardrobe;
 
+import au.net.immortius.wardrobe.gw2api.CacheApi;
+import au.net.immortius.wardrobe.gw2api.CacheIcons;
+import au.net.immortius.wardrobe.gw2api.PullCurrentPrices;
 import au.net.immortius.wardrobe.gwu.AnalyseGWUItems;
-import com.google.common.collect.Lists;
+import au.net.immortius.wardrobe.imagemap.BuildImageMaps;
+import au.net.immortius.wardrobe.site.GenerateContent;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;
 import org.apache.commons.cli.DefaultParser;
 import org.apache.commons.cli.Options;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.IOException;
-import java.util.List;
 
 /**
  * Runs a sequence of processes to update cache data and update the site
@@ -23,7 +24,8 @@ public class UpdateSite {
         options.addOption("username", true, "The username for uploading to an ftp site");
         options.addOption("password", true, "The password for uploading to an ftp site");
         options.addOption("address", true, "The address for uploading to an ftp site");
-        options.addOption("analyseGwu", false, "The address for uploading to an ftp site");
+        options.addOption("analyseGwu", false, "Whether to rebuild the guaranteed wardrobe unlock data");
+        options.addOption("useCachedPrices", false, "Whether to use cached prices rather than obtaining fresh");
 
         CommandLineParser parser = new DefaultParser();
         CommandLine cmd = parser.parse(options, args);
@@ -33,7 +35,9 @@ public class UpdateSite {
         new MapItemsToUnlocks().run();
         new BuildImageMaps().run();
         new IndexCraftableItems().run();
-        new PullCurrentPrices().run();
+        if (!cmd.hasOption("useCachedPrices")) {
+            new PullCurrentPrices().run();
+        }
         if (cmd.hasOption("analyseGwu")) {
             new AnalyseGWUItems().run();
         }

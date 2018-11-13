@@ -10,6 +10,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Root configuration class
@@ -70,4 +71,15 @@ public class Config {
      * Configuration for thw guaranteed wardrobe unlock analyser
      */
     public GuaranteedWardrobeUnlockConfig gwuAnalyser;
+
+    /**
+     * Config for the vendor crawler
+     */
+    public VendorCrawlerConfig vendorCrawler;
+
+    /**
+     * Configuration for what currencies are supported
+     */
+    public Set<String> supportedCurrencies;
+
 }
