@@ -9,7 +9,7 @@ var unlocks = {};
 var imageMap = {};
 var acquisitionMethods = [
     { id : "tp", name : "Trading Post", hideOnIcon : true, category : "Standard Acquisition"},
-	{ id : "vendor", name : "Vendor", category : "Standard Acquisition"},
+	{ id : "vendor", name : "Vendor", category : "Standard Acquisition", hideOnIcon : true},
 	{ id : "gold", name : "Gold", category : "Standard Currency", hideOnIcon : true},
 	{ id : "karma", name : "Karma", category : "Standard Currency"},
     { id : "craft", name : "Crafting", category : "Standard Acquisition"},
@@ -17,6 +17,8 @@ var acquisitionMethods = [
 	{ id : "laurel", name : "Laurel", category : "Standard Currency"},
 	{ id : "story", name : "Story Reward", category : "Standard Acquisition"},
 	{ id : "achievement", name : "Achievement", category : "Standard Acquisition"},
+	{ id : "globofectoplasm", name : "Glob of Ectoplasm", category : "Standard Acquisition", hideOnIcon : true},
+	{ id : "karkashell", name : "Karka Shell", category : "Standard Acquisition", hideOnIcon : true},
     { id : "boh", name : "Badge of Honor", category : "World vs World"},
 	{ id : "fractalrelic", name : "Fractal Relic", category : "Fractals"},
 	{ id : "pristinefractalrelic", name : "Pristine Fractal Relic", category : "Fractals"},
@@ -88,7 +90,10 @@ var acquisitionMethods = [
 	{ id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Player vs Player"},
 	{ id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", hideOnIcon : true, category : "Craftable"},
 	{ id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", hideOnIcon : true, category : "Craftable"},
-	{ id : "grandmasterhuntsmanmark", name : "Grandmaster Huntsman's Mark", hideOnIcon : true, category : "Craftable"}];
+	{ id : "grandmasterhuntsmanmark", name : "Grandmaster Huntsman's Mark", hideOnIcon : true, category : "Craftable"},
+	{ id : "grandmastertailorsmark", name : "Grandmaster Tailor's Mark", hideOnIcon : true, category : "Craftable"},
+	{ id : "grandmasterleatherworkersmark", name : "Grandmaster Leatherworker's Mark", hideOnIcon : true, category : "Craftable"},
+	{ id : "grandmasterarmorsmithsmark", name : "Grandmaster Armorsmith's Mark", hideOnIcon : true, category : "Craftable"}];
 	
 var acquisitionMethodsLookup = {}
 for (method of acquisitionMethods) { acquisitionMethodsLookup[method.id] = method }
@@ -188,17 +193,28 @@ function storageAvailable(type) {
 function addAcquisitionFilters() {
     var acquisitionDetails = $('#advanced-filter-section')
 	var filterSections = {};
+
 	for (method of acquisitionMethods) {
 		var section = filterSections[method.category];
 		if (section == null) {
 			section = '<div class="filter-group"><h3>' + method.category + '</h3>';
 		}
-		section += '<div class="filter-option"><div class="filter-label"><img src="./img/' + method.id + '.png"/>' + method.name + '</div><div class="filter-selection"><select id="filter-' + method.id + '" name="filter-' + method.name + '"><option value="ignore"></option><option value="include">Include</option><option value="exclude">Exclude</option></select></div></div>';
+		section += '<div class="filter-option">';
+		section += '<div class="filter-label"><img src="./img/' + method.id + '.png"/>' + method.name + '</div>';
+		section += '<div class="filter-selection-div"><select id="filter-' + method.id + '" name="filter-' + method.name + '" class="filter-selection"><option value="ignore"></option><option value="include" data-id="' + method.id + '">Include</option><option value="exclude" data-id="' + method.id + '">Exclude</option></select></div></div>';
 		filterSections[method.category] = section;
 	}
+	var filterContent = "<details open='true'><summary class='advanced-filter-summary'>Advanced Filters...</summary>";
 	Object.keys(filterSections).forEach(function(key,index) {
-		acquisitionDetails.append(filterSections[key]);
+		filterContent += filterSections[key];
+		filterContent += '</div>';
 	});
+	filterContent += "</details>";
+	acquisitionDetails.append(filterContent);
+	var filter = $('.filter-selection').change(function() {
+		updateFilter($('#filter-by-acquisition')[0].value, $('#gwu-toggle')[0].checked);
+	});
+	
 }
 
 function addAcquisitionDetails(prefix) {
@@ -217,7 +233,7 @@ function buildSite(data) {
 	buildSections();
 	updateCounts();
 	setupThresholdCalculator();
-	//addAcquisitionFilters();
+	addAcquisitionFilters();
     addAcquisitionDetails('');
 	addAcquisitionDetails('analyse-');
 		
@@ -286,6 +302,7 @@ function updateFilter(displayMode, gwuOnly) {
 	$('.section-groups').toggleClass('hidden', displayMode == 'tp-buy' || displayMode == 'tp-sell' || displayMode == 'buy' || displayMode == 'sell');
 	$('.tp-buy-sorted').toggleClass('hidden', displayMode != 'tp-buy' && displayMode != 'buy');
 	$('.tp-sell-sorted').toggleClass('hidden', displayMode != 'tp-sell' && displayMode != 'sell');
+	$('#advanced-filter-section').toggleClass('hidden', displayMode != 'advanced');
 	if (displayMode == 'tp-buy' || displayMode == 'tp-sell') {
 		$('.item').not('.tp').toggleClass('hidden', true);
 	}
@@ -299,6 +316,17 @@ function updateFilter(displayMode, gwuOnly) {
 		$('.item').not('.boh').toggleClass('hidden', true);
 	} else if (displayMode == 'ls3') {
 		$('.item').not('.ls3').toggleClass('hidden', true);
+	} else if (displayMode == 'ls4') {
+		$('.item').not('.ls4').toggleClass('hidden', true);
+	} else if (displayMode == 'other') {
+		$('.item.gold').toggleClass('hidden', true);
+		$('.item.karma').toggleClass('hidden', true);
+		$('.item.craft').toggleClass('hidden', true);
+		$('.item.boh').toggleClass('hidden', true);
+		$('.item.ls3').toggleClass('hidden', true);
+		$('.item.ls4').toggleClass('hidden', true);
+	} else if (displayMode == 'advanced') {
+		processAdvancedFilter();
 	}
 	if (gwuOnly == true) {
 		$('.item').not('.gwu').toggleClass('hidden', true);
@@ -318,6 +346,16 @@ function updateFilter(displayMode, gwuOnly) {
 		localStorage.setItem('gwu-only', gwuOnly); 
 		localStorage.setItem('filter', displayMode);
 	}
+}
+
+function processAdvancedFilter() {
+	$('.item').toggleClass('hidden', true);
+	$(".filter-selection option:selected[value='include']").each(function (index, filter) { 
+		$('.item.' + $(filter).data("id")).toggleClass('hidden', false);
+	});
+	$(".filter-selection option:selected[value='exclude']").each(function (index, filter) { 
+		$('.item.' + $(filter).data("id")).toggleClass('hidden', true);
+	});
 }
 
 function filterWithApiKey(key) {
@@ -719,26 +757,18 @@ function displayItem(itemData, id) {
 	if (itemData.rarity) {
 		result += ' ' + itemData.rarity;
 	}
-	if ($.inArray("gwu", itemData.sources) != -1) {
-		result += ' gwu'
+	for (var i = 0; i < itemData.sources.length; ++i) {
+		var source = itemData.sources[i];
+		result += ' ' + source;
 	}
-	if ($.inArray("gold", itemData.sources) != -1 || $.inArray("craft", itemData.sources) != -1 || $.inArray("blt", itemData.sources) != -1) {
+	if ($.inArray("gold", itemData.sources) == -1 || $.inArray("craft", itemData.sources) != -1 || $.inArray("blt", itemData.sources) != -1) {
 		result += ' gold'
-	}
-	if ($.inArray("tp", itemData.sources) != -1) {
-		result += ' tp'
-	}
-	if ($.inArray("karma", itemData.sources) != -1) {
-		result += ' karma';	
-	}
-	if ($.inArray("craft", itemData.sources) != -1) {
-		result += ' craft';	
-	}
-	if ($.inArray("boh", itemData.sources) != -1) {
-		result += ' boh';	
 	}
 	if ($.inArray('winterberries', itemData.sources) != -1 || $.inArray('unboundmagic', itemData.sources) != -1 || $.inArray('petrifiedwood', itemData.sources) != -1 || $.inArray('fireorchidblossom', itemData.sources) != -1 || $.inArray('orrianpearl', itemData.sources) != -1 || $.inArray('jadeshard', itemData.sources) != -1) {
 		result += ' ls3';
+	}
+	if ($.inArray('volatilemagic', itemData.sources) != -1 || $.inArray('kralkatiteore', itemData.sources) != -1 || $.inArray('difluorite', itemData.sources) != -1 || $.inArray('swimspeedinfusion', itemData.sources) != -1 || $.inArray('mistonium', itemData.sources) != -1 || $.inArray('inscribedshard', itemData.sources) != -1) {
+		result += ' ls4';
 	}
 	if (itemData.image) {
 		result += ' icon';

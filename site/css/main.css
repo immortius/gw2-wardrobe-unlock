@@ -211,8 +211,13 @@ summary {
   display: flex;
 }
 
+.advanced-filter-summary {
+  font-size: 16px;
+}
+
 .filter-group {
-	display: block;
+	display: inline-block;
+	margin: 4px;
 }
 
 .entry-name,.entry-price,.filter-label,.filter-selection {

@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css?1">
+        <link rel="stylesheet" href="css/main.css?2">
 		<link id="rendering-mode" rel="stylesheet"  href="css/icon-mode.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -50,6 +50,9 @@
 					  <option value="craft">Only acquired through Crafting</option>
 					  <option value="boh">Only acquired through Badges of Honor</option>
 					  <option value="ls3">Living story 3 currency</option>
+					  <option value="ls4">Living story 4 currency</option>
+					  <option value="other">Other</option>
+					  <option value="advanced">Advanced</option>
 					</select>
 					<select id="rendering-mode-selection" name="rendering-mode">
 					  <option value="icon">Icons</option>
@@ -59,9 +62,8 @@
 					<input id="gwu-toggle" type="checkbox">
 					<label for="gwu-toggle">Guaranteed Wardrobe Unlock Skins Only</label>
 					</div>
-					<!--<details id="advanced-filter-section" class="filter-section"><summary class="filter-section-header">Advanced Filters</summary>
-						
-					</details>-->
+					<div id="advanced-filter-section" class="filter-section hidden">					
+					</div>
 				</div>
 
 				<div class="main">
@@ -197,6 +199,13 @@
 					
 					<h2>Updates</h2>
 					
+					<h3>2018-11-21</h3>
+					<ul>
+						<li>Added more filter options, including advanced mode</li>
+						<li>Added more currencies</li>
+						<li>Mount skin support</li>
+					</ul>
+					
 					<h3>2018-08-24</h3>
 					<ul>
 						<li>6th Birthday and other things</li>
@@ -320,7 +329,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js?25"></script>
+        <script src="js/main.js?26"></script>
 		
 		<script type="text/javascript">
 		    if ($(window.location.hash).length) {

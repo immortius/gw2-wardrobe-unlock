@@ -53,7 +53,7 @@
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/mounts/skins",
-      "cachePath": "mounts/skins",
+      "cachePath": "mounts",
       "bulkSupported": true
     },
     {
@@ -636,6 +636,12 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
       "chatcodeType": 10,
       "useItemForChatcode": false
+    },
+    {
+      "id": "mount",
+      "name": "Mount Skins",
+      "source": "mounts",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins"
     }
   ],
   "gwuAnalyser": {
@@ -785,6 +791,11 @@
     "ascendedshardofglory",
     "grandmasterartifactmark",
     "grandmasterweaponmark",
-    "grandmasterhuntsmanmark"
+    "grandmasterhuntsmanmark",
+    "grandmastertailorsmark",
+    "grandmasterleatherworkersmark",
+    "grandmasterarmorsmithsmark",
+    "globofectoplasm",
+    "karkashell"
   ]
 }

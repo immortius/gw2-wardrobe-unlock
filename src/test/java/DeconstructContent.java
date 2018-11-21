@@ -1,7 +1,7 @@
 import au.net.immortius.wardrobe.gw2api.entities.ColorData;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.gw2api.entities.RecipeData;
-import au.net.immortius.wardrobe.inputentities.Grouping;
+import au.net.immortius.wardrobe.config.Grouping;
 import au.net.immortius.wardrobe.imagemap.IconDetails;
 import au.net.immortius.wardrobe.imagemap.ImageMap;
 import au.net.immortius.wardrobe.site.entities.*;
@@ -210,7 +210,6 @@ public class DeconstructContent {
                                     vendors.put(vendor.vendorUrl, outVendor);
                                 }
                                 VendorItem item = new VendorItem();
-                                item.category = oldTypeToNewMapping.get(itemCategory.id);
                                 item.id = unlockData.id;
                                 item.cost = vendor.cost;
                                 outVendor.items.add(item);

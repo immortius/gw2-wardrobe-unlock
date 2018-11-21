@@ -174,7 +174,10 @@ public class GenerateContent {
         filterVendorsToCheapest(unlockDataMap);
 
         for (UnlockData unlock : unlockDataMap.values()) {
-            unlock.getVendors().forEach(vendorEntry -> unlock.sources.addAll(extractVendorSources(vendorEntry)));
+            if (!unlock.getVendors().isEmpty()) {
+                unlock.sources.add("vendor");
+                unlock.getVendors().forEach(vendorEntry -> unlock.sources.addAll(extractVendorSources(vendorEntry)));
+            }
         }
     }
 
@@ -302,6 +305,7 @@ public class GenerateContent {
                     unlockData.priceData = entry.getValue();
                     unlockData.sources.add(GOLD);
                     unlockData.sources.add(TRADINGPOST);
+                    unlockData.sources.add(TRADINGPOST);
                 }
 
             }
@@ -389,6 +393,9 @@ public class GenerateContent {
     }
 
     private Optional<String> determineChatcode(ItemData itemData, UnlockCategoryConfig unlockCategoryConfig, Map<Integer, Collection<Integer>> unlockItems) {
+        if (unlockCategoryConfig.chatcodeType == 0) {
+            return Optional.empty();
+        }
         if (!Strings.isNullOrEmpty(itemData.chatLink)) {
             return Optional.of(itemData.chatLink);
         }
