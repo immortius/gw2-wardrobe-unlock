@@ -36,7 +36,7 @@ public class GenerateContent {
 
     private static Logger logger = LoggerFactory.getLogger(GenerateContent.class);
     private static final String GENERAL_GROUP_NAME = "General";
-    private static final String UNCLASSIFIED_GROUP_NAME = "Unclassified";
+    private static final String UNCLASSIFIED_GROUP_NAME = "New";
     private static final String GOLD = "gold";
     private static final String KARMA = "karma";
     private static final String TRADINGPOST = "tp";
@@ -161,6 +161,16 @@ public class GenerateContent {
 
         // Residual group
         if (!unlockDataMap.isEmpty()) {
+            ListMultimap<String, Integer> suggestedGroups = ArrayListMultimap.create();
+            unlockDataMap.forEach((key, value) -> suggestedGroups.put(value.name.split(" ")[0], key));
+            for (String suggestedGroup : suggestedGroups.keySet()) {
+                List<Integer> ids = suggestedGroups.get(suggestedGroup);
+                if (ids.size() > 2) {
+                    logger.info("Suggested group '{}': {}", suggestedGroup, ids);
+                }
+            }
+
+
             UnlockGroupData finalGroup = new UnlockGroupData();
             finalGroup.groupName = UNCLASSIFIED_GROUP_NAME;
             finalGroup.content = ImmutableList.copyOf(unlockDataMap.values());

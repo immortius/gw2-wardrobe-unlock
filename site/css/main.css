@@ -129,11 +129,25 @@ summary {
 .main {
 	display: flex;
     overflow: hidden;
-    height: calc(100vh - 130px);
+    height: calc(100vh - 200px);
     position: relative;
     width: 100%;
     backface-visibility: hidden;
     will-change: overflow;
+}
+
+.analyse-main {
+	display: flex;
+    overflow: hidden;
+    height: calc(100vh - 240px);
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
+}
+
+.analyse-description {
+    margin: 0.3em;
 }
 
 .column {
@@ -150,6 +164,9 @@ summary {
 
 .description {
 	margin: 0.3em;
+	height: calc(100vh - 140px);
+    position: relative;
+    overflow: auto;
 }
 
 #api-bar {
@@ -197,6 +214,11 @@ summary {
 .unlocked {
 	display: none !important;
     visibility: hidden;
+}
+
+.title {
+	font-size: 20px;
+    font-weight: bold;
 }
 
 #analyse-list {

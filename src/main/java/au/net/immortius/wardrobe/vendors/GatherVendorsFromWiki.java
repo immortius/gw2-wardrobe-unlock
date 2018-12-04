@@ -92,7 +92,7 @@ public class GatherVendorsFromWiki {
     }
 
     private void scanCategory(WikiUrl category) throws IOException {
-        if (category.isUserPage() || !processed.add(category)) {
+        if (category.isInvalid() || !processed.add(category)) {
             return;
         }
 
@@ -112,7 +112,7 @@ public class GatherVendorsFromWiki {
     }
 
     private void scanVendorPage(WikiUrl url) throws IOException {
-        if (url.isUserPage() || !processed.add(url) || config.vendorCrawler.getIgnorePages().contains(url.getBaseUrl())) {
+        if (url.isInvalid() || !processed.add(url) || config.vendorCrawler.getIgnorePages().contains(url.getBaseUrl())) {
             return;
         }
 
@@ -217,6 +217,9 @@ public class GatherVendorsFromWiki {
     }
 
     private Set<Integer> getSkinId(WikiUrl itemUrl) throws IOException {
+        if (itemUrl.isInvalid()) {
+            return Collections.emptySet();
+        }
         Set<Integer> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
         Elements skinIds = doc.select("span.gamelink[data-type='skin']");

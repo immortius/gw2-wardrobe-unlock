@@ -140,22 +140,20 @@
 				</div>
 			</div>
 			<div id="analyse" class="hidden page">
-				<div class="description">
-					<h2>Cost to ensure minimum unlock value from Guaranteed Wardrobe Unlock</h2>
-					
-					<p>This is the cost to purchase all unlocks beneath a desired value, so that all Guaranteed Wardrobe Unlock uses produce a result of higher value.</p>
+				<div class="analyse-description">
+					<p>Calculates the cost to purchase all unlocks beneath a desired value, so that all Guaranteed Wardrobe Unlock uses produce a result of higher value.</p>
 					<p>Desired minimum unlock value: <input type="text" id="min-gold-value" value="0"/><img src="./img/gold.png" alt="Gold"/>
 					<select id="min-price-type" name="min-price-type">
 						  <option value="buy">Buy Price</option>
 						  <option value="sell">Sell Price</option>
 					</select></p>
-					<p>Cost: <span id="min-unlock-gold">0</span> <img src="./img/gold.png" alt="Gold"/>
+					<div class="analyse-main">
+						<div class="contents column">
+							<div class="title">Shopping List</div>
+						    <p>Cost: <span id="min-unlock-gold">0</span> <img src="./img/gold.png" alt="Gold"/>
 							 <span id="min-unlock-silver">0</span> <img src="./img/silver.png" alt="Silver"/>
 							 <span id="min-unlock-copper">0</span> <img src="./img/copper.png" alt="Copper"/></p>
-				    <p>Total Purchases: <span id="min-total">0</span></p>
-					<div class="main">
-						<div class="contents column">
-							<h3>Shopping List</h3>
+				            <p>Total Purchases: <span id="min-total">0</span></p>
 							<div id="analyse-list"></div>
 						</div>
 						<div class="details column">
@@ -194,10 +192,40 @@
 				<div class="description">
 					<h1>About</h1>
 					
+					<h2>What is this anyway?</h2>
+					
+					<p>Wardrobe Unlock Analyser is site for exploring the plethora of available aesthetic unlocks in Guild Wars 2, with a goal of helping you discover affordable unlocks to acquire - especially with a view to optimising items you can obtain from the Guaranteed Wardrobe Unlock items.</p>
+
+					<h4>Major functions:</h4>
+					<ul>
+					<li>Enter your api key (with unlock permissions) to filter out items you have already acquired.</li>
+					<li>A number of display mode are available to aid any purchasing decisions, such as filtered by acquisition method or sorting by TP price</li>
+					<li>An advanced filter is available - this allows you to select what currencies to include or exclude from the result (defaulting to empty). So you filter to "All Unlocks available with gold but not on the TP", for example.</li>
+					<li>Unlocks can be displayed as icons or text - text enables the use of "Find on this page..." if you want to find a specific unlock. You can click on the icons or text for further details.</li>
+					<li>Unlocks can be limited to those available from the Guaranteed Wardrobe Unlock items.</li>
+					<li>Major categorizations (e.g. Armor, Weapons) can be folded up by clicking on their title bar.</li>
+					<li>The analyse tab allows you to enter the minimum value you wish to gain when opening a Guaranteed Wardrobe Unlock to generate a shopping list of unlocks to purchase. The items can be clicked on to see further details. This only deals with items available from the TP -  make sure you haven't missed items available from other sources!</li>
+					</ul>
+					
+					<h4>Advice for Optimising Guaranteed Wardrobe Unlock</h4>
+					<ul>
+					<li>First of all, if you have a character slot free remake a character to unlock all the character creation skins - thief masks, engineer tools, guardian armor, and so on.</li>
+					<li>Look at what unlocks are available with currencies you have a stock pile of - a lot of unlocks can obtained with Karma or Badges of Honor, or any other currency you don't otherwise use.</li>
+					<li>Also check out what unlocks are available through achievements, or through the story.</li>
+					<li>It is also worth reviewing items you can craft as well - things like the profession back items can be crafted for cheap.</li>
+					<li>Once you have all the rest out of the way, you can sort by buy price and start looking at what you might be missing from cheapest to most expensive. I'm not going to make a recommendation on how much to spend this way - it depends on what resources you have and how comprehensive
+					your existing unlocks are - but you can use the analyse tab to get a sense of the cost of obtaining everything less than a given price point.</li>
+					</ul>
+										
 					<h2>Author</h2>
 					<p>Developed by: Divides By Zero - Immortius.4537</p>
 					
 					<h2>Updates</h2>
+					
+					<h3>2018-11-28</h3>
+					<ul>
+						<li>Racing and other additions</li>
+					</ul>
 					
 					<h3>2018-11-21</h3>
 					<ul>
@@ -329,7 +357,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js?26"></script>
+        <script src="js/main.js?27"></script>
 		
 		<script type="text/javascript">
 		    if ($(window.location.hash).length) {

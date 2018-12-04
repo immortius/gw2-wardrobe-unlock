@@ -10,6 +10,7 @@ import com.google.gson.stream.JsonWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.ws.rs.InternalServerErrorException;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.core.GenericType;
 import java.io.IOException;
@@ -98,7 +99,11 @@ public class ApiCacher {
      * @return The list of available ids
      */
     public Set<Integer> availableIds(String apiUrl) {
-        return client.target(apiUrl).request().get(ID_COLLECTION_TYPE);
+        try {
+            return client.target(apiUrl).request().get(ID_COLLECTION_TYPE);
+        }  catch (InternalServerErrorException e) {
+            throw new RuntimeException("Failed to download api ids for '" + apiUrl + "'", e);
+        }
     }
 
     /**

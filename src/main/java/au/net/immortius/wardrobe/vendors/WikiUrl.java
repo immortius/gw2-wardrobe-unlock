@@ -13,6 +13,7 @@ public class WikiUrl {
     private String url;
     private String filename;
     private boolean userPage = false;
+    private boolean missingPage = false;
 
     /**
      * Creates a wiki url
@@ -41,6 +42,10 @@ public class WikiUrl {
 
         if (relativeUrl.contains("/User:")) {
             userPage = true;
+        }
+
+        if (relativeUrl.contains("action=edit")) {
+            missingPage = true;
         }
 
         if (relativeUrl.lastIndexOf(":") != -1) {
@@ -92,8 +97,8 @@ public class WikiUrl {
     /**
      * @return Whether the url is for a user page
      */
-    public boolean isUserPage() {
-        return userPage;
+    public boolean isInvalid() {
+        return userPage || missingPage;
     }
 
     @Override

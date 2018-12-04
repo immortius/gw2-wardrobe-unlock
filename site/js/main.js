@@ -22,6 +22,7 @@ var acquisitionMethods = [
     { id : "boh", name : "Badge of Honor", category : "World vs World"},
 	{ id : "fractalrelic", name : "Fractal Relic", category : "Fractals"},
 	{ id : "pristinefractalrelic", name : "Pristine Fractal Relic", category : "Fractals"},
+	{ id : "fractalresearchpage", name : "Fractal Research Page", category: "Fractals"},
 	{ id : "goldenfractalrelic", name : "Golden Fractal Relic", category : "Fractals"},
 	{ id : "integratedmatrix", name : "Integrated Fractal Matrix", category : "Fractals"},
 	{ id : "guildcommendation", name : "Guild Commendation", category : "Standard Currency"},
@@ -86,6 +87,7 @@ var acquisitionMethods = [
 	{ id : "inscribedshard", name : "Inscribed Shard", category : "Living Story 4"},
 	{ id : "swimspeedinfusion", name : "Swim-speed Infusion", category : "Living Story 4"},
     { id : "mistonium", name : "Lump of Mistonium", category : "Living Story 4"},
+	{ id : "racingmedallion", name : "Racing Medallion", category : "Living Story 4"},
 	{ id : "shardofglory", name : "Shards of Glory", category : "Player vs Player"},
 	{ id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Player vs Player"},
 	{ id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", hideOnIcon : true, category : "Craftable"},
@@ -761,7 +763,7 @@ function displayItem(itemData, id) {
 		var source = itemData.sources[i];
 		result += ' ' + source;
 	}
-	if ($.inArray("gold", itemData.sources) == -1 || $.inArray("craft", itemData.sources) != -1 || $.inArray("blt", itemData.sources) != -1) {
+	if ($.inArray("gold", itemData.sources) == -1 && ($.inArray("craft", itemData.sources) != -1 || $.inArray("blt", itemData.sources) != -1)) {
 		result += ' gold'
 	}
 	if ($.inArray('winterberries', itemData.sources) != -1 || $.inArray('unboundmagic', itemData.sources) != -1 || $.inArray('petrifiedwood', itemData.sources) != -1 || $.inArray('fireorchidblossom', itemData.sources) != -1 || $.inArray('orrianpearl', itemData.sources) != -1 || $.inArray('jadeshard', itemData.sources) != -1) {
