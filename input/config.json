@@ -653,6 +653,7 @@
     "rootUrl": "https://wiki.guildwars2.com",
     "skinTypes": [
       "Consumable",
+      "Container",
       "Back item",
       "Medium boots",
       "Medium coat",

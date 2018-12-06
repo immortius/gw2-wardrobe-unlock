@@ -222,6 +222,7 @@ public class GatherVendorsFromWiki {
         }
         Set<Integer> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
+
         Elements skinIds = doc.select("span.gamelink[data-type='skin']");
         if (!skinIds.isEmpty()) {
             result.add(Integer.parseInt(skinIds.attr("data-id")));
@@ -232,7 +233,22 @@ public class GatherVendorsFromWiki {
                 result.addAll(getSkinId(new WikiUrl(skinLink.attr("href"))));
             }
         }
+        Elements itemType = doc.select("dt:matches(Item type)");
+        if (!itemType.isEmpty() && itemType.next().text().equals("Container")) {
+            result.addAll(getContainerSkins(doc));
+        }
 
+        return result;
+    }
+
+    private Collection<Integer> getContainerSkins(Document doc) throws IOException {
+        Set<Integer> result = Sets.newLinkedHashSet();
+        Elements contentsHeading = doc.select("h2:matches(Contents)");
+        if (!contentsHeading.isEmpty()) {
+            for (Element itemLink : contentsHeading.next().select("span ~ a")) {
+                result.addAll(getSkinId(new WikiUrl(itemLink.attr("href"))));
+            }
+        }
         return result;
     }
 
@@ -315,7 +331,9 @@ public class GatherVendorsFromWiki {
         Path pagePath = config.paths.getWikiCachePath().resolve(type.getPath()).resolve(page.getFilename());
         if (!Files.exists(pagePath)) {
             String url = config.vendorCrawler.rootUrl + page.getUrl();
-            REST.download(client, url, pagePath);
+            if (!REST.download(client, url, pagePath)) {
+                return "";
+            }
         }
         try (Reader reader = Files.newBufferedReader(pagePath)) {
             return CharStreams.toString(reader);
