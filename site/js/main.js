@@ -157,9 +157,9 @@ function updateThresholdCalculation() {
 		var gold = Math.floor(item.price / 10000);
 		var silver = Math.floor(item.price / 100) % 100;
 		var copper = item.price % 100;
-		list += '<div class="entry" id="list-entry-' + item.section + '-' + item.details.id + '"><div class="entry-name">' + item.name + '</div><div class="entry-price"><span>' + gold + '</span> <img src="./img/gold.png" alt="Gold"/>'
-		      + ' <span id="min-unlock-silver">' + silver + '</span> <img src="./img/silver.png" alt="Silver"/>'
-			  + ' <span id="min-unlock-copper">' + copper + '</span> <img src="./img/copper.png" alt="Copper"/></div></div>';
+		list += '<div class="entry" id="list-entry-' + item.section + '-' + item.details.id + '"><div class="entry-name">' + item.name + '</div><div class="entry-price"><span>' + gold + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>'
+		      + ' <span id="min-unlock-silver">' + silver + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>'
+			  + ' <span id="min-unlock-copper">' + copper + '</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></div></div>';
 	}	
 	
 	$('#min-unlock-gold').text(Math.floor(totalCost / 10000));
@@ -202,7 +202,8 @@ function addAcquisitionFilters() {
 			section = '<div class="filter-group"><h3>' + method.category + '</h3>';
 		}
 		section += '<div class="filter-option">';
-		section += '<div class="filter-label"><img src="./img/' + method.id + '.png"/>' + method.name + '</div>';
+		section += '<span class="base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"></span>';
+		section += '<div class="filter-label">' + method.name + '</div>';
 		section += '<div class="filter-selection-div"><select id="filter-' + method.id + '" name="filter-' + method.name + '" class="filter-selection"><option value="ignore"></option><option value="include" data-id="' + method.id + '">Include</option><option value="exclude" data-id="' + method.id + '">Exclude</option></select></div></div>';
 		filterSections[method.category] = section;
 	}
@@ -222,7 +223,7 @@ function addAcquisitionFilters() {
 function addAcquisitionDetails(prefix) {
     var acquisitionDetails = $('#' + prefix + 'selection-acquisition-methods')
     for (method of acquisitionMethods) {
-        acquisitionDetails.append('<div id="' + prefix + 'acquisition-' + method.id + '"><img src="./img/' + method.id + '.png"/>' + method.name + '</div>')
+        acquisitionDetails.append('<div id="' + prefix + 'acquisition-' + method.id + '"><span class="base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"/></span>' + method.name)
     }
 }
 
@@ -645,28 +646,28 @@ function buildSection(root, sectionData) {
 	} else {
 	  section += '<div class="section-counts">';
 	  section += '<p id="' + sectionData.id + '-count">Unlocked: <span id="' + sectionData.id + '-unlocked-count">0</span> / <span id="' + sectionData.id + '-total-count">' +  count + '</span></p>';
-	  section += '<p>Unlocked by buy value: <span id="' + sectionData.id + '-buy-unlocked-gold">0</span> <img src="./img/gold.png" alt="Gold"/> <span id="' + sectionData.id + '-buy-unlocked-silver">0</span> <img src="./img/silver.png" alt="Silver"/> <span id="' + sectionData.id + '-buy-unlocked-copper">0</span> <img src="./img/copper.png" alt="Copper"/> of '
-	  section += '<span id="' + sectionData.id + '-buy-total-gold">' + Math.floor(countData.totalBuyValue / 10000) + '</span> <img src="./img/gold.png" alt="Gold"/> ';
-	  section += '<span id="' + sectionData.id + '-buy-total-silver">' + (Math.floor(countData.totalBuyValue / 100) % 100) + '</span> <img src="./img/silver.png" alt="Silver"/> ';
-	  section += '<span id="' + sectionData.id + '-buy-total-copper">' + (countData.totalBuyValue % 100) + '</span> <img src="./img/copper.png" alt="Copper"/></p>';
+	  section += '<p>Unlocked by buy value: <span id="' + sectionData.id + '-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> <span id="' + sectionData.id + '-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> <span id="' + sectionData.id + '-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of '
+	  section += '<span id="' + sectionData.id + '-buy-total-gold">' + Math.floor(countData.totalBuyValue / 10000) + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> ';
+	  section += '<span id="' + sectionData.id + '-buy-total-silver">' + (Math.floor(countData.totalBuyValue / 100) % 100) + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> ';
+	  section += '<span id="' + sectionData.id + '-buy-total-copper">' + (countData.totalBuyValue % 100) + '</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></p>';
 	  
-	  section += '<p>Unlocked by sell value: <span id="' + sectionData.id + '-sell-unlocked-gold">0</span> <img src="./img/gold.png" alt="Gold"/> <span id="' + sectionData.id + '-sell-unlocked-silver">0</span> <img src="./img/silver.png" alt="Silver"/> <span id="' + sectionData.id + '-sell-unlocked-copper">0</span> <img src="./img/copper.png" alt="Copper"/> of ';
-	  section += '<span id="' + sectionData.id + '-sell-total-gold">' + Math.floor(countData.totalSellValue / 10000) + '</span> <img src="./img/gold.png" alt="Gold"/> ';
-	  section += '<span id="' + sectionData.id + '-sell-total-silver">' + (Math.floor(countData.totalSellValue / 100) % 100) + '</span> <img src="./img/silver.png" alt="Silver"/> ';
-	  section += '<span id="' + sectionData.id + '-sell-total-copper">' + (countData.totalSellValue % 100) + '</span> <img src="./img/copper.png" alt="Copper"/></p>';
+	  section += '<p>Unlocked by sell value: <span id="' + sectionData.id + '-sell-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> <span id="' + sectionData.id + '-sell-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> <span id="' + sectionData.id + '-sell-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of ';
+	  section += '<span id="' + sectionData.id + '-sell-total-gold">' + Math.floor(countData.totalSellValue / 10000) + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> ';
+	  section += '<span id="' + sectionData.id + '-sell-total-silver">' + (Math.floor(countData.totalSellValue / 100) % 100) + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> ';
+	  section += '<span id="' + sectionData.id + '-sell-total-copper">' + (countData.totalSellValue % 100) + '</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></p>';
 	  section += '</div>';
 	  
 	  section += '<div class="gwu-section-counts hidden">';
 	  section += '<p id="' + sectionData.id + '-gwu-count">Unlocked: <span id="' + sectionData.id + '-gwu-unlocked-count">0</span> / <span id="' + sectionData.id + '-gwu-total-count">' +  gwuCount + '</span></p>';
-	  section += '<p>Unlocked by buy value: <span id="' + sectionData.id + '-gwu-buy-unlocked-gold">0</span> <img src="./img/gold.png" alt="Gold"/> <span id="' + sectionData.id + '-gwu-buy-unlocked-silver">0</span> <img src="./img/silver.png" alt="Silver"/> <span id="' + sectionData.id + '-gwu-buy-unlocked-copper">0</span> <img src="./img/copper.png" alt="Copper"/> of '
-	  section += '<span id="' + sectionData.id + '-gwu-buy-total-gold">' + Math.floor(gwuCountData.totalBuyValue / 10000) + '</span> <img src="./img/gold.png" alt="Gold"/> ';
-	  section += '<span id="' + sectionData.id + '-gwu-buy-total-silver">' + (Math.floor(gwuCountData.totalBuyValue / 100) % 100) + '</span> <img src="./img/silver.png" alt="Silver"/> ';
-	  section += '<span id="' + sectionData.id + '-gwu-buy-total-copper">' + (gwuCountData.totalBuyValue % 100) + '</span> <img src="./img/copper.png" alt="Copper"/></p>';
+	  section += '<p>Unlocked by buy value: <span id="' + sectionData.id + '-gwu-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> <span id="' + sectionData.id + '-gwu-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> <span id="' + sectionData.id + '-gwu-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of '
+	  section += '<span id="' + sectionData.id + '-gwu-buy-total-gold">' + Math.floor(gwuCountData.totalBuyValue / 10000) + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> ';
+	  section += '<span id="' + sectionData.id + '-gwu-buy-total-silver">' + (Math.floor(gwuCountData.totalBuyValue / 100) % 100) + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> ';
+	  section += '<span id="' + sectionData.id + '-gwu-buy-total-copper">' + (gwuCountData.totalBuyValue % 100) + '</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></p>';
 	  
-	  section += '<p>Unlocked by sell value: <span id="' + sectionData.id + '-gwu-sell-unlocked-gold">0</span> <img src="./img/gold.png" alt="Gold"/> <span id="' + sectionData.id + '-gwu-sell-unlocked-silver">0</span> <img src="./img/silver.png" alt="Silver"/> <span id="' + sectionData.id + '-gwu-sell-unlocked-copper">0</span> <img src="./img/copper.png" alt="Copper"/> of ';
-	  section += '<span id="' + sectionData.id + '-gwu-sell-total-gold">' + Math.floor(gwuCountData.totalSellValue / 10000) + '</span> <img src="./img/gold.png" alt="Gold"/> ';
-	  section += '<span id="' + sectionData.id + '-gwu-sell-total-silver">' + (Math.floor(gwuCountData.totalSellValue / 100) % 100) + '</span> <img src="./img/silver.png" alt="Silver"/> ';
-	  section += '<span id="' + sectionData.id + '-gwu-sell-total-copper">' + (gwuCountData.totalSellValue % 100) + '</span> <img src="./img/copper.png" alt="Copper"/></p>';
+	  section += '<p>Unlocked by sell value: <span id="' + sectionData.id + '-gwu-sell-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> <span id="' + sectionData.id + '-gwu-sell-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> <span id="' + sectionData.id + '-gwu-sell-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of ';
+	  section += '<span id="' + sectionData.id + '-gwu-sell-total-gold">' + Math.floor(gwuCountData.totalSellValue / 10000) + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> ';
+	  section += '<span id="' + sectionData.id + '-gwu-sell-total-silver">' + (Math.floor(gwuCountData.totalSellValue / 100) % 100) + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> ';
+	  section += '<span id="' + sectionData.id + '-gwu-sell-total-copper">' + (gwuCountData.totalSellValue % 100) + '</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>';
 	  section += '</div>';
 	}
 	section += '<div class="section-groups">';
@@ -788,11 +789,11 @@ function displayItem(itemData, id) {
 function addSources(itemData) {
 	var result = '';
     if ($.inArray("gold", itemData.sources) != -1 && $.inArray("blt", itemData.sources) == -1) {
-		result += '<img src="./img/gold.png" class="source-icon" alt="Gold"/>';
+		result += '<span class="base-icon gold-icon" role="img" aria-label="Gold"></span>';
 	}
     for (method of acquisitionMethods) {
         if ($.inArray(method.id, itemData.sources) != -1 && !method.hideOnIcon) {
-            result += '<img src="./img/' + method.id + '.png" class="source-icon" alt="' + method.name + '"/>';
+            result += '<span class="source-icon base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"></span>';
         }
     }
 	return result;
@@ -862,7 +863,7 @@ function showDetails(item, prefix) {
 	vendorList.empty();
 	if (item.vendors) {
 		for (var i = 0; i < item.vendors.length; ++i) {
-			var entry = '<p><a href="' + item.vendors[i].vendorUrl + '" target="_blank">' + item.vendors[i].vendorName + '</a>:';
+			var entry = '<div class="vendor"><a href="' + item.vendors[i].vendorUrl + '" target="_blank">' + item.vendors[i].vendorName + '</a>:';
 			for (var j = 0; j < item.vendors[i].cost.length; ++j) {
 				if (j > 0) {
 					entry += ' +'
@@ -872,20 +873,20 @@ function showDetails(item, prefix) {
 					var silver = Math.floor(item.vendors[i].cost[j].value / 100) % 100;
 					var copper = Math.floor(item.vendors[i].cost[j].value % 100);
 					if (gold > 0) {
-						entry += ' ' + gold + ' <img src="./img/gold.png" alt="Gold"/>'
+						entry += ' ' + gold + '<span class="base-icon gold-icon" role="img" aria-label="Gold"></span>'
 					}
-					entry += ' ' + silver + ' <img src="./img/silver.png" alt="Silver"/>';
-					entry += ' ' + copper + ' <img src="./img/copper.png" alt="Copper"/>';
+					entry += ' ' + silver + '<span class="base-icon silver-icon" role="img" aria-label="Silver"></span>';
+					entry += ' ' + copper + '<span class="base-icon copper-icon" role="img" aria-label="Copper"></span>';
 				} else if (acquisitionMethodsLookup[item.vendors[i].cost[j].type] != null) {
 					method = acquisitionMethodsLookup[item.vendors[i].cost[j].type]
-					entry += ' ' + item.vendors[i].cost[j].value + ' <img src="./img/' + method.id + '.png" alt="' + method.name + '"/>'; 
+					entry += ' ' + item.vendors[i].cost[j].value + '<span class="base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"></span>'; 
 				} else if (item.vendors[i].cost[j].type == "karma") {
-					entry += ' ' + item.vendors[i].cost[j].value + '<img src="./img/karma.png" alt="Karma"/>'; 
+					entry += ' ' + item.vendors[i].cost[j].value + '<span class="base-icon karma-icon" role="img" aria-label="Karma"></span>'; 
 				} else {
 					entry += ' ' + item.vendors[i].cost[j].value + ' ' + item.vendors[i].cost[j].type; 
 				}
 			}
-			entry += '</p>';
+			entry += '</div>';
 			vendorList.append(entry);
 		}
 	}

@@ -247,6 +247,383 @@ display: table-cell;
 padding-right: 10px;
 }
 
+.base-icon {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: text-bottom;
+}
+
+/* ==========================================================================
+   Currency icons
+   ========================================================================== */
+   
+.achievement-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -0px -0px;
+}
+.adventure-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -18px -0px;
+}
+.airshippart-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -36px -0px;
+}
+.ascaloniantear-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -54px -0px;
+}
+.ascendedshardofglory-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -72px -0px;
+}
+.aurillium-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -90px -0px;
+}
+.banditcrest-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -108px -0px;
+}
+.bauble-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -126px -0px;
+}
+.birthday-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -144px -0px;
+}
+.birthday1-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -162px -0px;
+}
+.birthday3-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -180px -0px;
+}
+.birthday4-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -198px -0px;
+}
+.birthday5-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -216px -0px;
+}
+.birthday6-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -234px -0px;
+}
+.blacklionchest-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -252px -0px;
+}
+.blmt-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -270px -0px;
+}
+.bloodruby-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -288px -0px;
+}
+.bls-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -306px -0px;
+}
+.blsprocket-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -324px -0px;
+}
+.blt-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -342px -0px;
+}
+.boh-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -360px -0px;
+}
+.bundleofloot-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -378px -0px;
+}
+.candycorncob-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -396px -0px;
+}
+.casinocoin-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -414px -0px;
+}
+.chakegg-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -432px -0px;
+}
+.charrcarving-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -450px -0px;
+}
+.copper-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -468px -0px;
+}
+.craft-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -486px -0px;
+}
+.crystallineore-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -504px -0px;
+}
+.deadlybloom-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -522px -0px;
+}
+.deluxe-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -540px -0px;
+}
+.difluorite-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -558px -0px;
+}
+.elegymosaic-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -576px -0px;
+}
+.event-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -594px -0px;
+}
+.favorofthefestival-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -612px -0px;
+}
+.festivaltoken-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -630px -0px;
+}
+.fireorchidblossom-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -648px -0px;
+}
+.fractalrelic-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -666px -0px;
+}
+.fractalresearchpage-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -684px -0px;
+}
+.gaeting-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -702px -0px;
+}
+.gem-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -720px -0px;
+}
+.globofectoplasm-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -738px -0px;
+}
+.gold-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -756px -0px;
+}
+.goldenfractalrelic-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -774px -0px;
+}
+.grandmasterarmorsmithsmark-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -792px -0px;
+}
+.grandmasterartifactmark-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -810px -0px;
+}
+.grandmasterhuntsmanmark-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -828px -0px;
+}
+.grandmasterleatherworkersmark-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -846px -0px;
+}
+.grandmastertailorsmark-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -864px -0px;
+}
+.grandmasterweaponmark-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -882px -0px;
+}
+.guildcommendation-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -900px -0px;
+}
+.gwu-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -918px -0px;
+}
+.hallofmonuments-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -936px -0px;
+}
+.inscribedshard-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -954px -0px;
+}
+.integratedmatrix-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -972px -0px;
+}
+.jadeshard-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -990px -0px;
+}
+.karkashell-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1008px -0px;
+}
+.karma-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1026px -0px;
+}
+.knowledgecrystal-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1044px -0px;
+}
+.kralkatiteore-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1062px -0px;
+}
+.laurel-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1080px -0px;
+}
+.leylinecrystal-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1098px -0px;
+}
+.magnetiteshard-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1116px -0px;
+}
+.manifesto-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1134px -0px;
+}
+.memoryofbattle-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1152px -0px;
+}
+.mistonium-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1170px -0px;
+}
+.orrianpearl-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1188px -0px;
+}
+.petrifiedwood-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1206px -0px;
+}
+.pristinefractalrelic-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1224px -0px;
+}
+.provisionertoken-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1242px -0px;
+}
+.pvp-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1260px -0px;
+}
+.pvplt-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1278px -0px;
+}
+.pvptournament-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1296px -0px;
+}
+.racingmedallion-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1314px -0px;
+}
+.reclaimedplate-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1332px -0px;
+}
+.sealofbeetletun-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1350px -0px;
+}
+.shadowsseal-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1368px -0px;
+}
+.shardofglory-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1386px -0px;
+}
+.shardofzhaitan-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1404px -0px;
+}
+.silver-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1422px -0px;
+}
+.snowdiamond-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1440px -0px;
+}
+.story-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1458px -0px;
+}
+.swimspeedinfusion-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1476px -0px;
+}
+.symbolofkoda-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1494px -0px;
+}
+.tp-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1512px -0px;
+}
+.tradecontract-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1530px -0px;
+}
+.unboundmagic-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1548px -0px;
+}
+.vendor-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1566px -0px;
+}
+.volatilemagic-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1584px -0px;
+}
+.winterberries-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1602px -0px;
+}
+.wvwsct-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1620px -0px;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */

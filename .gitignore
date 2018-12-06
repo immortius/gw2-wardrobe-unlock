@@ -6,6 +6,9 @@
 *.bak
 /cache
 /input/**/*.png
+*.old
+site/img/im-*.jpg
+site/data
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
