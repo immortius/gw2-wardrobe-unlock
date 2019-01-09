@@ -328,7 +328,7 @@ public class GenerateContent {
             UnlockData unlock = new UnlockData();
             result.put(itemData.id, unlock);
             unlock.id = itemData.id;
-            unlock.name = itemData.name;
+            unlock.name = itemData.getName();
             unlock.sources = Sets.newLinkedHashSet();
             unlock.rarity = determineRarity(itemData.id, itemData, unlockItems);
             if (isCraftable(itemData.id, unlockItems, craftableItems)) {
@@ -343,7 +343,7 @@ public class GenerateContent {
                     unlock.yOffset = iconDetails.getYOffset();
                     unlock.image = iconDetails.getImageId();
                 } else {
-                    logger.warn("Unable to resolve icon {} for {} ({}) - excluding", itemData.icon, itemData.name, itemData.id);
+                    logger.warn("Unable to resolve icon {} for {} ({}) - excluding", itemData.icon, itemData.getName(), itemData.id);
                     result.remove(itemData.id);
                 }
             }

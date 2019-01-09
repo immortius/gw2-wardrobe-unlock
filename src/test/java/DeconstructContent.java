@@ -117,7 +117,7 @@ public class DeconstructContent {
                         continue;
                     }
 
-                    logger.warn("Failed to find skin for {} ({})", item.name, item.id);
+                    logger.warn("Failed to find skin for {} ({})", item.getName(), item.id);
                 }
             }
         }
@@ -379,7 +379,7 @@ public class DeconstructContent {
                         }
                         ItemData itemData = new ItemData();
                         itemData.id = unlock.id;
-                        itemData.name = unlock.name;
+                        itemData.setName(unlock.name);
                         itemData.icon = "https://example.com/file/" + itemData.id + "/" + itemData.id + ".png";
                         itemData.rarity = unlock.rarity;
                         if (unlock.color != null) {

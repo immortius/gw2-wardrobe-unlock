@@ -62,7 +62,7 @@ public class ColorMatcher implements UnlockMatcher<String> {
                             score += Math.abs(dyeColor[0] - r);
                             score += Math.abs(dyeColor[1] - g);
                             score += Math.abs(dyeColor[2] - b);
-                            if (score < bestScore && score < 6) {
+                            if (score < bestScore && score < 8) {
                                 bestScore = score;
                                 bestMatches.clear();
                                 bestMatches.add(color);

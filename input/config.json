@@ -380,7 +380,22 @@
         6732,
         // Peg-Leg Boots
         6909,
-        6916
+        6916,
+        // Jackal Rune Greaves
+        8002,
+        8003,
+        // Svanir Gauntlets
+        7975,
+        7985,
+        // Dragon Horns
+        8277,
+        8297,
+        // Exalted Gloves
+        8121,
+        8122,
+        // Winged Headpiece
+        8071,
+        8072
       ]
     },
     {
@@ -401,9 +416,8 @@
           8098
         ]
       },
+      "forceAdd" : [8355],
       "gwuIgnoreIds": [
-        // Ironfist hammer
-        4879,
         // Guild Cavalier varients
         6773,
         6781,
@@ -423,26 +437,22 @@
         6754,
         // Godskill missing skins
         4986,
-        // Black Earth Aquatic skins
-        4712,
-        // Missing wolfborn skin
-        4305,
         // Adamant Aquatic weapons
         4282,
         // Guild Rifle
         4544,
-        // Delusion
-        4728,
         // Vigil's Honor Longbow
         4925,
-        // The Maelstrom
-        4747,
         // Shiverpeak Arquebus
         5362,
-        // Flame Trident
-        4753,
         // Shadow Assassin Short Bow
-        6072
+        6072,
+        // Flame Rifle
+        5173,
+        // Sunspear
+        7862,
+        // Gladium Trident
+        5167
       ]
     },
     {
@@ -617,15 +627,14 @@
       ],
       "colorBased": true,
       "gwuIgnoreIds": [
-        1580,
         1622
       ],
-      // Have to force include Burgundy, Bloodstone Dark Coral and Daybreak as the latter two don't quite match up,
-      // and this also blocks Burgundy
       "gwuIncludeIds": [
-        119,
         1456,
-        1481
+        1594,
+        482,
+        1354,
+        1552
       ]
     },
     {

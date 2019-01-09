@@ -42,7 +42,7 @@ public class Unlocks {
                 if (category.typeFilter != null && !category.typeFilter.equals(itemData.type)) {
                     continue;
                 }
-                if (Strings.isNullOrEmpty(itemData.name)) {
+                if (Strings.isNullOrEmpty(itemData.getName()) && !category.getForceAdd().contains(itemData.id)) {
                     continue;
                 }
                 if (category.getExcludeIds().contains(itemData.id)) {
@@ -66,7 +66,7 @@ public class Unlocks {
                 if (category.typeFilter != null && !category.typeFilter.equals(itemData.type)) {
                     return Optional.empty();
                 }
-                if (Strings.isNullOrEmpty(itemData.name)) {
+                if (Strings.isNullOrEmpty(itemData.getName()) && !category.getForceAdd().contains(id)) {
                     return Optional.empty();
                 }
                 if (category.getExcludeIds().contains(itemData.id)) {

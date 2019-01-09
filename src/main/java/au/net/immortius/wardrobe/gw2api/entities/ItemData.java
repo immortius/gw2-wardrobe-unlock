@@ -1,6 +1,7 @@
 package au.net.immortius.wardrobe.gw2api.entities;
 
 import au.net.immortius.wardrobe.gw2api.Rarity;
+import com.google.common.base.Strings;
 import com.google.common.collect.Sets;
 import com.google.gson.annotations.SerializedName;
 
@@ -10,7 +11,7 @@ import java.util.Set;
  * Information on an "Item" from the gw2 api. This is a combination of the results from multiple endpoints (skins and items), to allow generic processing.
  */
 public class ItemData extends CommonData {
-    public String name;
+    private String name;
     public String icon;
     public Rarity rarity;
 
@@ -34,6 +35,13 @@ public class ItemData extends CommonData {
     public int itemId;
 
 
+    public String getName() {
+        return Strings.nullToEmpty(name);
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     /**
      * @return Converts icon path into a file name that can be used locally for caching
@@ -55,6 +63,6 @@ public class ItemData extends CommonData {
 
     @Override
     public String toString() {
-        return name + " (" + id + ")";
+        return getName() + " (" + id + ")";
     }
 }

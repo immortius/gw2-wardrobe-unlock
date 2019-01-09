@@ -63,6 +63,11 @@ public class UnlockCategoryConfig {
     private Set<Integer> gwuIgnoreIds;
 
     /**
+     * Ids to add even if they lack a name
+     */
+    private Set<Integer> forceAdd;
+
+    /**
      * Unlock ids to force include
      */
     private Set<Integer> gwuIncludeIds;
@@ -99,5 +104,12 @@ public class UnlockCategoryConfig {
             gwuIgnoreIds = Sets.newHashSet();
         }
         return gwuIgnoreIds;
+    }
+
+    public Set<Integer> getForceAdd() {
+        if (forceAdd == null) {
+            forceAdd = Sets.newHashSet();
+        }
+        return forceAdd;
     }
 }

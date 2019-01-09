@@ -7,6 +7,7 @@ import com.google.common.collect.Sets;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.imageio.IIOException;
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -41,8 +42,13 @@ public class IconMatcher implements UnlockMatcher<Path> {
         try {
             Map<Path, BufferedImage> icons = Maps.newLinkedHashMap();
             for (Path iconFile : possibleMatches) {
-                BufferedImage thumb = ImageIO.read(iconFile.toFile());
-                icons.put(iconFile, thumb);
+                try {
+                    BufferedImage thumb = ImageIO.read(iconFile.toFile());
+                    icons.put(iconFile, thumb);
+                } catch (IIOException e) {
+                    //logger.error("Failed to read " + iconFile, e);
+                    // Icon not found
+                }
             }
             ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
             try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, "*.png")) {

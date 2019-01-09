@@ -82,7 +82,7 @@ public class AnalyseGWUItems {
         matches.forEachEntry((colors, count) -> {
             List<ItemData> unlocks = colors.stream().map(unlocksByColor::get).flatMap(List::stream).collect(Collectors.toList());
             if (unlocks.size() != count) {
-                logger.warn("Occurrence mismatch - {} occurrences but {} matches - // {} {}", count, unlocks.size(), unlocks.get(0).name, unlocks.stream().map(x-> x.id).collect(Collectors.toList()));
+                logger.warn("Occurrence mismatch - {} occurrences but {} matches - // {} {}", count, unlocks.size(), unlocks.get(0).getName(), unlocks.stream().map(x-> x.id).collect(Collectors.toList()));
             } else {
                 results.addAll(unlocks.stream().map(x -> x.id).collect(Collectors.toSet()));
             }
