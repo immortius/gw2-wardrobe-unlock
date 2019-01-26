@@ -85,6 +85,7 @@ var acquisitionMethods = [
 	{ id : "kralkatiteore", name : "Kralkatite Ore", category : "Living Story 4"},
 	{ id : "difluorite", name : "Difluorite Crystal", category : "Living Story 4"},
 	{ id : "inscribedshard", name : "Inscribed Shard", category : "Living Story 4"},
+	{ id : "brandedmass", name : "Branded Mass", category : "Living Story 4"},
 	{ id : "swimspeedinfusion", name : "Swim-speed Infusion", category : "Living Story 4"},
     { id : "mistonium", name : "Lump of Mistonium", category : "Living Story 4"},
 	{ id : "racingmedallion", name : "Racing Medallion", category : "Living Story 4"},
