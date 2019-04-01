@@ -85,6 +85,7 @@ public class PullCurrentPrices {
         cacher.cacheIds(config.prices.apiUrl, config.paths.getPricesPath(), itemIds);
 
         // And now map item prices to unlock prices
+        Files.createDirectories(config.paths.getUnlockPricesPath());
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
             Map<Integer, Price> categoryPrices = Maps.newLinkedHashMap();
             try (Reader unlockToSkinMappingReader = Files.newBufferedReader(config.paths.getUnlockItemsPath().resolve(unlockCategory.id + ".json"))) {
