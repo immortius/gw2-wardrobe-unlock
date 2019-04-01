@@ -12,6 +12,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Collections;
@@ -44,10 +45,12 @@ public class IndexCraftableItems {
     public void run() throws IOException {
         logger.info("Indexing craftable items");
         Set<Integer> craftableItems = Sets.newLinkedHashSet();
-        for (Path itemFile : Files.newDirectoryStream(config.paths.getRecipesPath())) {
-            try (Reader reader = Files.newBufferedReader(itemFile)) {
-                RecipeData recipe = gson.fromJson(reader, RecipeData.class);
-                craftableItems.add(recipe.outputItemId);
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.getRecipesPath())) {
+            for (Path itemFile : ds) {
+                try (Reader reader = Files.newBufferedReader(itemFile)) {
+                    RecipeData recipe = gson.fromJson(reader, RecipeData.class);
+                    craftableItems.add(recipe.outputItemId);
+                }
             }
         }
 

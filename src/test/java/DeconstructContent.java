@@ -12,6 +12,7 @@ import com.google.common.collect.*;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonWriter;
 import io.gsonfire.GsonFireBuilder;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,6 +32,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+@Ignore
 public class DeconstructContent {
 
     private static Logger logger = LoggerFactory.getLogger(DeconstructContent.class);

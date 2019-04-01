@@ -18,6 +18,7 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
@@ -91,22 +92,24 @@ public class MapItemsToUnlocks {
     }
 
     private void analyseItems(Map<String, String> skinTypeMapping, Map<String, ListMultimap<Integer, Integer>> itemMappings) throws IOException {
-        for (Path itemFile : Files.newDirectoryStream(config.paths.getItemPath())) {
-            try (Reader reader = Files.newBufferedReader(itemFile)) {
-                ItemData itemData = gson.fromJson(reader, ItemData.class);
-                if (itemData.defaultSkin != 0) {
-                    itemMappings.get(skinTypeMapping.get(itemData.type)).put(itemData.defaultSkin, itemData.id);
-                } else if (itemData.details != null) {
-                    for (ItemDetailUnlockMapping unlockDetailsMapping : config.itemUnlockMapper.getUnlockDetailsMappings()) {
-                        if (!Objects.equals(itemData.details.type, unlockDetailsMapping.detailTypeFilter)) {
-                            continue;
-                        }
-                        if (unlockDetailsMapping.unlockTypeFilter == null || unlockDetailsMapping.unlockTypeFilter.equals(itemData.details.unlockType)) {
-                            if (unlockDetailsMapping.unlockType != null) {
-                                itemMappings.get(unlockDetailsMapping.unlockType).put(itemData.details.colorId, itemData.id);
-                            } else if (unlockDetailsMapping.resolveUnlockTypeFromSkin) {
-                                for (int id : itemData.details.skins) {
-                                    skins.getSkinType(id).ifPresent(x -> itemMappings.get(x).put(id, itemData.id));
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.getItemPath())) {
+            for (Path itemFile : ds) {
+                try (Reader reader = Files.newBufferedReader(itemFile)) {
+                    ItemData itemData = gson.fromJson(reader, ItemData.class);
+                    if (itemData.defaultSkin != 0) {
+                        itemMappings.get(skinTypeMapping.get(itemData.type)).put(itemData.defaultSkin, itemData.id);
+                    } else if (itemData.details != null) {
+                        for (ItemDetailUnlockMapping unlockDetailsMapping : config.itemUnlockMapper.getUnlockDetailsMappings()) {
+                            if (!Objects.equals(itemData.details.type, unlockDetailsMapping.detailTypeFilter)) {
+                                continue;
+                            }
+                            if (unlockDetailsMapping.unlockTypeFilter == null || unlockDetailsMapping.unlockTypeFilter.equals(itemData.details.unlockType)) {
+                                if (unlockDetailsMapping.unlockType != null) {
+                                    itemMappings.get(unlockDetailsMapping.unlockType).put(itemData.details.colorId, itemData.id);
+                                } else if (unlockDetailsMapping.resolveUnlockTypeFromSkin) {
+                                    for (int id : itemData.details.skins) {
+                                        skins.getSkinType(id).ifPresent(x -> itemMappings.get(x).put(id, itemData.id));
+                                    }
                                 }
                             }
                         }

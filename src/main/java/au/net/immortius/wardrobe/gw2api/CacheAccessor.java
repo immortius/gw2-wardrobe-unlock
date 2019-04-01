@@ -6,6 +6,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.Reader;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Optional;
@@ -45,6 +46,11 @@ public class CacheAccessor<T> {
         this.dataClass = dataClass;
         this.cachePath = cachePath;
         this.filter = filter;
+        try {
+            Files.createDirectories(cachePath);
+        } catch (IOException e) {
+            throw new RuntimeException("Failed to create cache path: " + cachePath, e);
+        }
     }
 
     /**
@@ -52,11 +58,13 @@ public class CacheAccessor<T> {
      * @throws IOException
      */
     public void forEach(Consumer<T> consumer) throws IOException {
-        for (Path itemFile : Files.newDirectoryStream(cachePath)) {
-            try (Reader itemReader = Files.newBufferedReader(itemFile)) {
-                T itemData = gson.fromJson(itemReader, dataClass);
-                if (filter.test(itemData)) {
-                    consumer.accept(itemData);
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(cachePath)) {
+            for (Path itemFile : ds) {
+                try (Reader itemReader = Files.newBufferedReader(itemFile)) {
+                    T itemData = gson.fromJson(itemReader, dataClass);
+                    if (filter.test(itemData)) {
+                        consumer.accept(itemData);
+                    }
                 }
             }
         }

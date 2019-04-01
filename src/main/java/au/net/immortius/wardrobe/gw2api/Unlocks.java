@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.Reader;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Optional;
@@ -36,19 +37,21 @@ public class Unlocks {
      * @throws IOException
      */
     public void forEach(UnlockCategoryConfig category, Consumer<ItemData> consumer) throws IOException {
-        for (Path unlockSource : Files.newDirectoryStream(config.paths.getApiPath().resolve(category.source))) {
-            try (Reader unlockSourceReader = Files.newBufferedReader(unlockSource)) {
-                ItemData itemData = gson.fromJson(unlockSourceReader, ItemData.class);
-                if (category.typeFilter != null && !category.typeFilter.equals(itemData.type)) {
-                    continue;
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.getApiPath().resolve(category.source))) {
+            for (Path unlockSource : ds) {
+                try (Reader unlockSourceReader = Files.newBufferedReader(unlockSource)) {
+                    ItemData itemData = gson.fromJson(unlockSourceReader, ItemData.class);
+                    if (category.typeFilter != null && !category.typeFilter.equals(itemData.type)) {
+                        continue;
+                    }
+                    if (Strings.isNullOrEmpty(itemData.getName()) && !category.getForceAdd().contains(itemData.id)) {
+                        continue;
+                    }
+                    if (category.getExcludeIds().contains(itemData.id)) {
+                        continue;
+                    }
+                    consumer.accept(itemData);
                 }
-                if (Strings.isNullOrEmpty(itemData.getName()) && !category.getForceAdd().contains(itemData.id)) {
-                    continue;
-                }
-                if (category.getExcludeIds().contains(itemData.id)) {
-                    continue;
-                }
-                consumer.accept(itemData);
             }
         }
     }

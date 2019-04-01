@@ -66,7 +66,7 @@ public class ColorMatcher implements UnlockMatcher<String> {
                                 bestScore = score;
                                 bestMatches.clear();
                                 bestMatches.add(color);
-                            } else if (score == bestScore) {
+                            } else if (score <= bestScore && score < 8) {
                                 bestMatches.add(color);
                             }
                         }

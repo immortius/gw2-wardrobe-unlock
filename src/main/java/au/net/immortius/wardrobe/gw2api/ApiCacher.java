@@ -184,8 +184,7 @@ public class ApiCacher {
                 int id = obj.get("id").getAsInt();
                 Path outPath = baseSavePath.resolve(id + ".json");
                 try (JsonWriter writer = new JsonWriter(Files.newBufferedWriter(outPath, Charsets.UTF_8))) {
-                    gson.toJson(obj, JsonElement.class, writer);
-                } catch (IOException e) {
+                    gson.toJson(obj, JsonElement.class, writer); } catch (IOException e) {
                     logger.error("Failed to write file {}", outPath, e);
                 }
                 downloadCounter.incrementAndGet();

@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.Reader;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
@@ -40,15 +41,19 @@ public class BuildImageMaps {
         Files.createDirectories(this.config.paths.getAtlasPath());
 
         List<ImageMap> imageMaps = Lists.newArrayList();
-        for (Path imageMapFile : Files.newDirectoryStream(this.config.paths.getAtlasPath())) {
-            try (Reader imageMapReader = Files.newBufferedReader(imageMapFile)) {
-                imageMaps.add(gson.fromJson(imageMapReader, ImageMap.class));
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(this.config.paths.getAtlasPath())) {
+            for (Path imageMapFile : ds) {
+                try (Reader imageMapReader = Files.newBufferedReader(imageMapFile)) {
+                    imageMaps.add(gson.fromJson(imageMapReader, ImageMap.class));
+                }
             }
         }
 
         IconAtlas atlas = new IconAtlas(config.imageMapper.mapSize, config.imageMapper.iconSize, imageMaps);
-        for (Path iconFile : Files.newDirectoryStream(this.config.paths.getIconCachePath())) {
-            atlas.addIfMissing(iconFile.getFileName().toString());
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(this.config.paths.getIconCachePath())) {
+            for (Path iconFile : ds) {
+                atlas.addIfMissing(iconFile.getFileName().toString());
+            }
         }
 
         Files.createDirectories(this.config.paths.getImageMapPath());

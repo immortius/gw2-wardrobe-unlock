@@ -29,6 +29,7 @@ public class DeployToLocal {
     public void run() throws IOException {
         logger.info("Deploying image maps and content to local site");
         NioUtils.copyPathContents(config.paths.getImageMapPath(), config.paths.siteImagePath);
+        Files.createDirectories(config.paths.siteDataPath);
         Files.copy(config.paths.contentFile, config.paths.siteDataPath.resolve(config.paths.contentFile.getFileName()), StandardCopyOption.REPLACE_EXISTING);
     }
 

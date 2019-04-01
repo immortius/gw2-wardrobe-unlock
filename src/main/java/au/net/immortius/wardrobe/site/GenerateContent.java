@@ -24,6 +24,7 @@ import javax.ws.rs.core.GenericType;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
@@ -114,38 +115,42 @@ public class GenerateContent {
 
     private Map<String, IconDetails> processImageMaps(ContentData content) throws IOException {
         Map<String, IconDetails> iconLookup = Maps.newHashMap();
-        for (Path imageMapFile : Files.newDirectoryStream(config.paths.getAtlasPath())) {
-            try (Reader reader = Files.newBufferedReader(imageMapFile)) {
-                ImageMap imageMap = gson.fromJson(reader, ImageMap.class);
-                ImageInfo imageInfo = new ImageInfo();
-                imageInfo.name = imageMap.getName();
-                imageInfo.image = imageMap.getImage();
-                content.images.add(imageInfo);
-                for (IconDetails iconDetails : imageMap) {
-                    iconLookup.put(iconDetails.getIconFile(), iconDetails);
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.getAtlasPath())) {
+            for (Path imageMapFile : ds) {
+                try (Reader reader = Files.newBufferedReader(imageMapFile)) {
+                    ImageMap imageMap = gson.fromJson(reader, ImageMap.class);
+                    ImageInfo imageInfo = new ImageInfo();
+                    imageInfo.name = imageMap.getName();
+                    imageInfo.image = imageMap.getImage();
+                    content.images.add(imageInfo);
+                    for (IconDetails iconDetails : imageMap) {
+                        iconLookup.put(iconDetails.getIconFile(), iconDetails);
+                    }
                 }
             }
+            return iconLookup;
         }
-        return iconLookup;
     }
 
     private List<UnlockGroupData> categorizeUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
 
         List<UnlockGroupData> groups = Lists.newArrayList();
-        for (Path groupFile : Files.newDirectoryStream(config.paths.baseInputPath.resolve(unlockCategoryConfig.id + "-groups"))) {
-            try (Reader groupReader = Files.newBufferedReader(groupFile)) {
-                Grouping groupDef = gson.fromJson(groupReader, Grouping.class);
-                UnlockGroupData itemGroup = new UnlockGroupData();
-                itemGroup.groupName = groupDef.name;
-                itemGroup.content = Lists.newArrayList();
-                for (Integer id : groupDef.contents) {
-                    UnlockData unlock = unlockDataMap.remove(id);
-                    if (unlock != null) {
-                        itemGroup.content.add(unlock);
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.baseInputPath.resolve(unlockCategoryConfig.id + "-groups"))) {
+            for (Path groupFile : ds) {
+                try (Reader groupReader = Files.newBufferedReader(groupFile)) {
+                    Grouping groupDef = gson.fromJson(groupReader, Grouping.class);
+                    UnlockGroupData itemGroup = new UnlockGroupData();
+                    itemGroup.groupName = groupDef.name;
+                    itemGroup.content = Lists.newArrayList();
+                    for (Integer id : groupDef.contents) {
+                        UnlockData unlock = unlockDataMap.remove(id);
+                        if (unlock != null) {
+                            itemGroup.content.add(unlock);
+                        }
                     }
+                    itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity).thenComparing(a -> a.name).thenComparing(a -> a.id));
+                    groups.add(itemGroup);
                 }
-                itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity).thenComparing(a -> a.name).thenComparing(a -> a.id));
-                groups.add(itemGroup);
             }
         }
 
@@ -225,7 +230,11 @@ public class GenerateContent {
 
     private void addVendorsToUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
         Set<String> allUnsupportedCurrencies = Sets.newLinkedHashSet();
-        try (Reader reader = Files.newBufferedReader(config.paths.getVendorsPath().resolve(unlockCategoryConfig.id + ".json"))) {
+        Path vendorFile = config.paths.getVendorsPath().resolve(unlockCategoryConfig.id + ".json");
+        if (!Files.exists(vendorFile)) {
+            return;
+        }
+        try (Reader reader = Files.newBufferedReader(vendorFile)) {
             List<VendorData> vendors = gson.fromJson(reader, VENDOR_DATA_LIST_TYPE.getType());
             for (VendorData vendor : vendors) {
                 for (VendorItem item : vendor.items) {
@@ -277,7 +286,11 @@ public class GenerateContent {
     }
 
     private void applyGwu(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
-        try (Reader gwuReader = Files.newBufferedReader(config.paths.getGuaranteedWardrobeUnlocksPath().resolve(unlockCategoryConfig.id + ".json"))) {
+        Path unlockFile = config.paths.getGuaranteedWardrobeUnlocksPath().resolve(unlockCategoryConfig.id + ".json");
+        if (!Files.exists(unlockFile)) {
+            return;
+        }
+        try (Reader gwuReader = Files.newBufferedReader(unlockFile)) {
             int[] contents = gson.fromJson(gwuReader, int[].class);
             for (int id : contents) {
                 UnlockData unlock = unlockDataMap.get(id);
@@ -291,13 +304,15 @@ public class GenerateContent {
     }
 
     private void applyAcquisition(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
-        for (Path acquisitionMethodFile : Files.newDirectoryStream(config.paths.baseInputPath.resolve(unlockCategoryConfig.id + "-acquisition"))) {
-            try (Reader methodReader = Files.newBufferedReader(acquisitionMethodFile)) {
-                Grouping acquisitionMethod = gson.fromJson(methodReader, Grouping.class);
-                for (int id : acquisitionMethod.contents) {
-                    UnlockData unlockData = unlockDataMap.get(id);
-                    if (unlockData != null) {
-                        unlockData.sources.add(acquisitionMethod.name);
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.baseInputPath.resolve(unlockCategoryConfig.id + "-acquisition"))) {
+            for (Path acquisitionMethodFile : ds) {
+                try (Reader methodReader = Files.newBufferedReader(acquisitionMethodFile)) {
+                    Grouping acquisitionMethod = gson.fromJson(methodReader, Grouping.class);
+                    for (int id : acquisitionMethod.contents) {
+                        UnlockData unlockData = unlockDataMap.get(id);
+                        if (unlockData != null) {
+                            unlockData.sources.add(acquisitionMethod.name);
+                        }
                     }
                 }
             }

@@ -8,6 +8,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
@@ -37,17 +38,19 @@ public class GenerateThumbnails {
         int thumbSize = config.gwuAnalyser.iconSize / config.gwuAnalyser.scaleFactor;
 
         int count = 0;
-        for (Path iconFile : Files.newDirectoryStream(this.config.paths.getIconCachePath())) {
-            Path thumbFile = this.config.paths.getThumbnailPath().resolve(iconFile.getFileName());
-            if (!Files.exists(thumbFile)) {
-                BufferedImage icon = ImageIO.read(iconFile.toFile());
-                BufferedImage thumb = new BufferedImage(thumbSize, thumbSize, BufferedImage.TYPE_INT_ARGB);
-                Graphics2D graphics = thumb.createGraphics();
-                graphics.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
-                graphics.drawImage(icon, 0, 0, thumbSize, thumbSize, 0, 0, icon.getWidth(), icon.getHeight(), null);
-                ImageIO.write(thumb, "png", thumbFile.toFile());
-                graphics.dispose();
-                count++;
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(this.config.paths.getIconCachePath())) {
+            for (Path iconFile : ds) {
+                Path thumbFile = this.config.paths.getThumbnailPath().resolve(iconFile.getFileName());
+                if (!Files.exists(thumbFile)) {
+                    BufferedImage icon = ImageIO.read(iconFile.toFile());
+                    BufferedImage thumb = new BufferedImage(thumbSize, thumbSize, BufferedImage.TYPE_INT_ARGB);
+                    Graphics2D graphics = thumb.createGraphics();
+                    graphics.setRenderingHint(RenderingHints.KEY_INTERPOLATION, RenderingHints.VALUE_INTERPOLATION_BILINEAR);
+                    graphics.drawImage(icon, 0, 0, thumbSize, thumbSize, 0, 0, icon.getWidth(), icon.getHeight(), null);
+                    ImageIO.write(thumb, "png", thumbFile.toFile());
+                    graphics.dispose();
+                    count++;
+                }
             }
         }
         logger.info("Generated {} thumbnails", count);

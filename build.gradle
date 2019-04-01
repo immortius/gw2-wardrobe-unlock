@@ -1,3 +1,7 @@
+plugins {
+  id "com.github.spotbugs" version "1.7.1" apply false
+}
+
 group 'au.net.immortius'
 version '1.0-SNAPSHOT'
 
@@ -38,4 +42,11 @@ dependencies {
 
     // Unit Testing (I don't do enough)
     testCompile 'junit:junit:4.12'
+}
+
+tasks.withType(com.github.spotbugs.SpotBugsTask) {
+  reports {
+    xml.enabled = false
+    html.enabled = true
+  }
 }

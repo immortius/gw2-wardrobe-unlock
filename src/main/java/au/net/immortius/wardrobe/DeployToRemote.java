@@ -14,6 +14,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Arrays;
@@ -68,13 +69,15 @@ public class DeployToRemote {
             logger.error("No existing images found");
         }
         Map<String, FTPFile> existing = Arrays.stream(ftpFiles).collect(Collectors.toMap(FTPFile::getName, x -> x));
-        for (Path imgPath : Files.newDirectoryStream(config.paths.getImageMapPath())) {
-            FTPFile remoteFile = existing.get(imgPath.getFileName().toString());
-            if (remoteFile == null || Files.getLastModifiedTime(imgPath).toInstant().compareTo(remoteFile.getTimestamp().toInstant()) > 0) {
-                logger.info("Uploading {} as remote file is newer or missing", imgPath.getFileName());
-                try (InputStream imgStream = Files.newInputStream(imgPath)) {
-                    ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
-                    upload(ftpClient, imgStream, imgPath.getFileName().toString());
+        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.getImageMapPath())) {
+            for (Path imgPath : ds) {
+                FTPFile remoteFile = existing.get(imgPath.getFileName().toString());
+                if (remoteFile == null || Files.getLastModifiedTime(imgPath).toInstant().compareTo(remoteFile.getTimestamp().toInstant()) > 0) {
+                    logger.info("Uploading {} as remote file is newer or missing", imgPath.getFileName());
+                    try (InputStream imgStream = Files.newInputStream(imgPath)) {
+                        ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
+                        upload(ftpClient, imgStream, imgPath.getFileName().toString());
+                    }
                 }
             }
         }
