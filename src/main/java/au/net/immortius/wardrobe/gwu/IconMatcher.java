@@ -46,7 +46,7 @@ public class IconMatcher implements UnlockMatcher<Path> {
                     BufferedImage thumb = ImageIO.read(iconFile.toFile());
                     icons.put(iconFile, thumb);
                 } catch (IIOException e) {
-                    //logger.error("Failed to read " + iconFile, e);
+                    logger.error("Failed to read " + iconFile, e);
                     // Icon not found
                 }
             }
@@ -54,7 +54,7 @@ public class IconMatcher implements UnlockMatcher<Path> {
             try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, "*.png")) {
                 for (Path screenshotPath : screenshotPaths) {
                     BufferedImage screen = ImageIO.read(screenshotPath.toFile());
-                    int startY = findStart(screen, icons, threshold);
+                    int startY = findStart(screenshotPath.getFileName().toString(), screen, icons, threshold);
 
                     int remainingHeight = screen.getHeight() - startY;
                     int columns = 1 + (screen.getWidth() - iconSize) / (iconSize + borderSize);
@@ -109,7 +109,7 @@ public class IconMatcher implements UnlockMatcher<Path> {
 
     }
 
-    private int findStart(BufferedImage screen, Map<Path, BufferedImage> icons, int threshold) throws IOException {
+    private int findStart(String name, BufferedImage screen, Map<Path, BufferedImage> icons, int threshold) throws IOException {
         ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
 
         Map<Integer, Future<Float>> scores = Maps.newLinkedHashMap();
@@ -141,6 +141,9 @@ public class IconMatcher implements UnlockMatcher<Path> {
             logger.error("Failed to calculate start offset", e);
         }
         executorService.shutdown();
+        if (bestOffset != 0) {
+            logger.info("Offset for {} determined to be {}", name, bestOffset);
+        }
         return bestOffset;
     }
 

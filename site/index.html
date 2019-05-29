@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css?4">
+        <link rel="stylesheet" href="css/main.css?5">
 		<link id="rendering-mode" rel="stylesheet"  href="css/icon-mode.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -141,7 +141,10 @@
 			</div>
 			<div id="analyse" class="hidden page">
 				<div class="analyse-description">
-					<p>Calculates the cost to purchase all unlocks beneath a desired value, so that all Guaranteed Wardrobe Unlock uses produce a result of higher value.</p>
+					<p>Calculates the cost to purchase <select id="analyse-selection" name="analyse-selection">
+					  <option value="all">Any</option>
+					  <option value="gwu">Guaranteed Wardrobe Unlock</option>
+					</select> skins beneath a desired value.</p>
 					<p>Desired minimum unlock value: <input type="text" id="min-gold-value" value="0"/><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
 					<select id="min-price-type" name="min-price-type">
 						  <option value="buy">Buy Price</option>
@@ -226,6 +229,13 @@
 					</a>
 					
 					<h2>Updates</h2>
+					
+					<h3>2019-05-29</h3>
+					<ul>
+						<li>Added LS4 episode 6 currency</li>
+						<li>Completed updates for guaranteed wardrobe unlock additions</li>
+						<li>Added option to analyse for all skins, rather than just guaranteed wardrobe unlock skins</li>
+					</ul>
 					
 					<h3>2018-11-28</h3>
 					<ul>
@@ -362,7 +372,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js?29"></script>
+        <script src="js/main.js?30"></script>
 		
 		<script type="text/javascript">
 		    if ($(window.location.hash).length) {

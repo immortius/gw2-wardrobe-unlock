@@ -25,6 +25,7 @@ var acquisitionMethods = [
 	{ id : "fractalresearchpage", name : "Fractal Research Page", category: "Fractals"},
 	{ id : "goldenfractalrelic", name : "Golden Fractal Relic", category : "Fractals"},
 	{ id : "integratedmatrix", name : "Integrated Fractal Matrix", category : "Fractals"},
+	{ id : "spiritshard", name : "Spirit Shard", category : "Standard Currency", hideOnIcon : true},
 	{ id : "guildcommendation", name : "Guild Commendation", category : "Standard Currency"},
 	{ id : "event", name : "Event", category : "Standard Acquisition"}, 
 	{ id : "pvp", name : "Reward Track", category : "Player vs Player"},
@@ -86,6 +87,7 @@ var acquisitionMethods = [
 	{ id : "difluorite", name : "Difluorite Crystal", category : "Living Story 4"},
 	{ id : "inscribedshard", name : "Inscribed Shard", category : "Living Story 4"},
 	{ id : "brandedmass", name : "Branded Mass", category : "Living Story 4"},
+	{ id : "mistbornmote", name : "Mistborn Mote", category : "Living Story 4"},
 	{ id : "swimspeedinfusion", name : "Swim-speed Infusion", category : "Living Story 4"},
     { id : "mistonium", name : "Lump of Mistonium", category : "Living Story 4"},
 	{ id : "racingmedallion", name : "Racing Medallion", category : "Living Story 4"},
@@ -116,6 +118,7 @@ function setupMenuItems() {
 function setupThresholdCalculator() {
 	$('#min-gold-value').change(updateThresholdCalculation);
 	$('#min-price-type').change(updateThresholdCalculation);
+	$('#analyse-selection').change(updateThresholdCalculation);
 }
 
 function updateThresholdCalculation() {
@@ -125,6 +128,8 @@ function updateThresholdCalculation() {
 	} else {
 		itemLookup = sellPriceLookup;
 	}
+	var allItems = ($('#analyse-selection')[0].value == 'all')
+	console.log('allItems ' + allItems)
 	
 	$("div[id*=list-entry-]").remove();
 	
@@ -138,7 +143,7 @@ function updateThresholdCalculation() {
 			for (var itemId in sectionItems) {
 				if (sectionItems.hasOwnProperty(itemId) && !isUnlocked(section, itemId)) {
 					var data = sectionItems[itemId];
-					if (!isNaN(data.price) && data.price < threshold && data.gwu) {
+					if (!isNaN(data.price) && data.price < threshold && (allItems || data.gwu)) {
 						data.section = section;
 						totalCost += data.price;
 						total++;

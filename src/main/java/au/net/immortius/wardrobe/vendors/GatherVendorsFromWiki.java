@@ -315,6 +315,7 @@ public class GatherVendorsFromWiki {
             .put("sealsofbeetletun", "sealofbeetletun")
             .put("shardsofzhaitan", "shardofzhaitan")
             .put("symbolsofkoda", "symbolofkoda")
+            .put("ectoplasm","globofectoplasm")
             .build();
 
 

@@ -627,6 +627,14 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1638px -0px;
 }
+.mistbornmote-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1656px -0px;
+}
+.spiritshard-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1674px -0px;
+}
 
 /* ==========================================================================
    Media Queries

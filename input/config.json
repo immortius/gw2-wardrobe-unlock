@@ -144,9 +144,6 @@
         // Air Filtration Device
         2021,
         2022,
-        // Black earth aquabreathers
-        857,
-        859,
         // Scarlet's Grasp
         792,
         790,
@@ -395,7 +392,55 @@
         8122,
         // Winged Headpiece
         8071,
-        8072
+        8072,
+        // Enchanted Winter Antlers
+        8524,
+        8545,
+        // Iron's Tailpipe Bandana
+        1992,
+        2011,
+        // Raven Mantle
+        8491,
+        8500,
+        // Heavy Houndskin Mantle
+        7211,
+        7213,
+        // Raven Helm
+        8488,
+        8497,
+        // Jackal Rune Gauntlets
+        7999,
+        8001,
+        // Heavy Dragonscale Epaulets
+        6964,
+        6970,
+        // Medium Mursaat Brogans
+        7299,
+        7316,
+        // Lightning Aspect Eye
+        8205,
+        8217,
+        // Sport Sunglasses
+        990,
+        991,
+        // Light Dragonscale Headdress
+        6968,
+        6969,
+        // Wind Aspect Eye
+        8213,
+        8222,
+        // Heavy Glacial Gauntlets
+        7028,
+        7032,
+        // Winter Antlers
+        8543,
+        8544,
+        // Storm Gloves
+        8186,
+        8187,
+        // Sun Aspect Eye
+        8228,
+        8230
       ]
     },
     {
@@ -416,7 +461,6 @@
           8098
         ]
       },
-      "forceAdd" : [8355],
       "gwuIgnoreIds": [
         // Guild Cavalier varients
         6773,
@@ -437,8 +481,6 @@
         6754,
         // Godskill missing skins
         4986,
-        // Adamant Aquatic weapons
-        4282,
         // Guild Rifle
         4544,
         // Vigil's Honor Longbow
@@ -452,7 +494,8 @@
         // Sunspear
         7862,
         // Gladium Trident
-        5167
+        5167,
+        8355
       ]
     },
     {
@@ -634,7 +677,10 @@
         1594,
         482,
         1354,
-        1552
+        1552,
+        1580,
+        1622,
+        119
       ]
     },
     {
@@ -809,6 +855,8 @@
     "karkashell",
     "fractalresearchpage",
     "racingmedallion",
-    "brandedmass"
+    "brandedmass",
+    "mistbornmote",
+    "spiritshard"
   ]
 }
