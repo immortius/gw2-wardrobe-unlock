@@ -11,6 +11,8 @@ public class VendorCrawlerConfig {
 
     public Set<String> skinTypes;
 
+    public Set<String> noveltyTypes;
+
     private List<String> categoryPages;
 
     private List<String> vendorPages;
@@ -20,6 +22,8 @@ public class VendorCrawlerConfig {
     private Set<String> miniatureTypes;
 
     public String miniId;
+
+    public String noveltyId;
 
     public List<String> getCategoryPages() {
         if (categoryPages == null) {
@@ -47,5 +51,12 @@ public class VendorCrawlerConfig {
             miniatureTypes = Sets.newLinkedHashSet();
         }
         return miniatureTypes;
+    }
+
+    public Set<String> getNoveltyTypes() {
+        if (noveltyTypes == null) {
+            noveltyTypes = Sets.newLinkedHashSet();
+        }
+        return noveltyTypes;
     }
 }

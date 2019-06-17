@@ -2,9 +2,12 @@ package au.net.immortius.wardrobe.gw2api.entities;
 
 import au.net.immortius.wardrobe.gw2api.Rarity;
 import com.google.common.base.Strings;
+import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -30,9 +33,11 @@ public class ItemData extends CommonData {
     public ItemDetailsData details;
 
     @SerializedName("unlock_items")
-    public int[] unlockItems;
+    private int[] unlockItems;
+    @SerializedName("unlock_item")
+    private int[] unlockItem;
     @SerializedName("item_id")
-    public int itemId;
+    private int itemId;
 
 
     public String getName() {
@@ -59,6 +64,24 @@ public class ItemData extends CommonData {
             gameTypes = Sets.newLinkedHashSet();
         }
         return gameTypes;
+    }
+
+    public List<Integer> getUnlockItems() {
+        List<Integer> unlockItems = Lists.newArrayList();
+        if (unlockItem != null) {
+            for (int i : unlockItem) {
+                unlockItems.add(i);
+            }
+        }
+        if (this.unlockItems != null) {
+            for (int i : this.unlockItems) {
+                unlockItems.add(i);
+            }
+        }
+        if (itemId != 0) {
+            unlockItems.add(itemId);
+        }
+        return unlockItems;
     }
 
     @Override

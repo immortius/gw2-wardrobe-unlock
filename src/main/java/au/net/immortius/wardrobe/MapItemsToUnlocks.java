@@ -70,11 +70,8 @@ public class MapItemsToUnlocks {
 
 
             unlocks.forEach(unlockCategory, itemData -> {
-                if (itemData.itemId != 0) {
-                    itemMap.put(itemData.id, itemData.itemId);
-                }
-                if (itemData.unlockItems != null && itemData.unlockItems.length > 0) {
-                    Arrays.stream(itemData.unlockItems).forEach(x -> itemMap.put(itemData.id, x));
+                for (int itemId : itemData.getUnlockItems()) {
+                    itemMap.put(itemData.id, itemId);
                 }
             });
         }

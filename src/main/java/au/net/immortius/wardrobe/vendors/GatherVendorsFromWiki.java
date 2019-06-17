@@ -182,6 +182,14 @@ public class GatherVendorsFromWiki {
                         });
                     }
                 }
+                if (config.vendorCrawler.noveltyTypes.contains(type)) {
+                    for (Integer noveltyId : getNoveltyId(itemUrl)) {
+                        VendorItem vendorItem = new VendorItem();
+                        vendorItem.cost = cost;
+                        vendorItem.id = noveltyId;
+                        vendorItems.put(config.vendorCrawler.noveltyId, vendorItem);
+                    }
+                }
                 if (type.isEmpty() || config.vendorCrawler.getMiniatureTypes().contains(type)) {
                     for (int miniId : getMiniId(itemUrl)) {
                         VendorItem vendorItem = new VendorItem();
@@ -211,6 +219,19 @@ public class GatherVendorsFromWiki {
                 if (item.details != null && item.details.minipetId != null) {
                     result.add(item.details.minipetId);
                 }
+            });
+        }
+        return result;
+    }
+
+    private Set<Integer> getNoveltyId(WikiUrl itemUrl) throws IOException {
+        Set<Integer> result = Sets.newLinkedHashSet();
+        Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
+        Elements itemIds = doc.select("span.gamelink[data-type='item']");
+        if (!itemIds.isEmpty()) {
+            int itemId = Integer.parseInt(itemIds.attr("data-id"));
+            items.get(itemId).ifPresent(item -> {
+                result.add(item.id);
             });
         }
         return result;

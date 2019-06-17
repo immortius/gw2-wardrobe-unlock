@@ -24,6 +24,10 @@ public class UnlockCategoryConfig {
      */
     public boolean useItemForChatcode;
     /**
+     * Whether to use the vendor id as the item id rather than unlock id
+      */
+    public boolean useItemForVendor;
+    /**
      * Display name of the category
      */
     public String name;

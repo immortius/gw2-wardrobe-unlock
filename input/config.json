@@ -70,6 +70,11 @@
       "baseUrl": "https://api.guildwars2.com/v2/skins",
       "cachePath": "skins",
       "bulkSupported": false
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/novelties",
+      "cachePath": "novelties",
+      "bulkSupported": false
     }
   ],
   "prices": {
@@ -697,6 +702,20 @@
       "name": "Mount Skins",
       "source": "mounts",
       "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins"
+    },
+    {
+      "id": "novelty",
+      "name": "Novelties",
+      "source": "novelties",
+      "useItemForVendor" : true,
+      "unlockUrl": "https://api.guildwars2.com/v2/account/novelties",
+      "chatcodeType": 2,
+      "useItemForChatcode": true,
+      "itemMappings": {
+        "38129" : [42]
+      },
+      "gwuIgnoreIds": [
+      ]
     }
   ],
   "gwuAnalyser": {
@@ -753,6 +772,8 @@
     ],
     "miniatureTypes" : ["Miniature"],
     "miniId" : "mini",
+    "noveltyTypes" : ["Novelty", "Tonic"],
+    "noveltyId" : "novelty",
     "categoryPages": [
       "/wiki/Category:Vendors",
       "/wiki/Category:Festival_Merchants",

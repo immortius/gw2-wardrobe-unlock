@@ -43,10 +43,14 @@ public class GenerateContent {
     private static final String TRADINGPOST = "tp";
     private static final String GUARANTEED_WARDROBE_UNLOCK = "gwu";
     private static final String CRAFT = "craft";
-    private static final GenericType<Map<Integer, Price>> PRICE_MAP_TYPE = new GenericType<Map<Integer, Price>>() {};
-    private static final GenericType<Map<Integer, Collection<Integer>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<Integer, Collection<Integer>>>() {};
-    private static final GenericType<List<VendorData>> VENDOR_DATA_LIST_TYPE = new GenericType<List<VendorData>>() {};
-    private static final GenericType<Set<Integer>> INTEGER_SET_TYPE = new GenericType<Set<Integer>>() {};
+    private static final GenericType<Map<Integer, Price>> PRICE_MAP_TYPE = new GenericType<Map<Integer, Price>>() {
+    };
+    private static final GenericType<Map<Integer, Collection<Integer>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<Integer, Collection<Integer>>>() {
+    };
+    private static final GenericType<List<VendorData>> VENDOR_DATA_LIST_TYPE = new GenericType<List<VendorData>>() {
+    };
+    private static final GenericType<Set<Integer>> INTEGER_SET_TYPE = new GenericType<Set<Integer>>() {
+    };
 
     private Gson gson;
     private Config config;
@@ -80,8 +84,15 @@ public class GenerateContent {
         content.items = Lists.newArrayList();
         for (UnlockCategoryConfig unlockCategoryConfig : config.unlockCategories) {
             Map<Integer, Collection<Integer>> unlockItemMap;
+            Map<Integer, Integer> itemUnlockMap;
             try (Reader unlockToSkinMappingReader = Files.newBufferedReader(config.paths.getUnlockItemsPath().resolve(unlockCategoryConfig.id + ".json"))) {
                 unlockItemMap = gson.fromJson(unlockToSkinMappingReader, UNLOCK_ITEM_MULTIMAP.getType());
+                itemUnlockMap = Maps.newHashMap();
+                unlockItemMap.entrySet().forEach(x -> {
+                    for (int item : x.getValue()) {
+                        itemUnlockMap.put(item, x.getKey());
+                    }
+                });
             }
 
             UnlockCategoryData itemCategory = new UnlockCategoryData();
@@ -93,7 +104,7 @@ public class GenerateContent {
             applyPrices(gson, unlockCategoryConfig, unlockDataMap);
             applyAcquisition(unlockCategoryConfig, unlockDataMap);
             applyGwu(unlockCategoryConfig, unlockDataMap);
-            applyVendors(unlockCategoryConfig, unlockDataMap);
+            applyVendors(unlockCategoryConfig, itemUnlockMap, unlockDataMap);
             itemCategory.groups = categorizeUnlocks(unlockCategoryConfig, unlockDataMap);
 
             content.items.add(itemCategory);
@@ -184,8 +195,8 @@ public class GenerateContent {
         return groups;
     }
 
-    private void applyVendors(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
-        addVendorsToUnlocks(unlockCategoryConfig, unlockDataMap);
+    private void applyVendors(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, Integer> itemUnlockMap, Map<Integer, UnlockData> unlockDataMap) throws IOException {
+        addVendorsToUnlocks(unlockCategoryConfig, itemUnlockMap, unlockDataMap);
         filterVendorsToCheapest(unlockDataMap);
 
         for (UnlockData unlock : unlockDataMap.values()) {
@@ -223,12 +234,13 @@ public class GenerateContent {
                 }
                 finalVendors.addAll(cheapest);
             }
-            unlock.getVendors().clear();;
+            unlock.getVendors().clear();
+            ;
             unlock.getVendors().addAll(finalVendors);
         }
     }
 
-    private void addVendorsToUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
+    private void addVendorsToUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, Integer> itemUnlockMap, Map<Integer, UnlockData> unlockDataMap) throws IOException {
         Set<String> allUnsupportedCurrencies = Sets.newLinkedHashSet();
         Path vendorFile = config.paths.getVendorsPath().resolve(unlockCategoryConfig.id + ".json");
         if (!Files.exists(vendorFile)) {
@@ -238,7 +250,15 @@ public class GenerateContent {
             List<VendorData> vendors = gson.fromJson(reader, VENDOR_DATA_LIST_TYPE.getType());
             for (VendorData vendor : vendors) {
                 for (VendorItem item : vendor.items) {
-                    UnlockData unlock = unlockDataMap.get(item.id);
+                    UnlockData unlock = null;
+                    if (unlockCategoryConfig.useItemForVendor) {
+                        Integer unlockId = itemUnlockMap.get(item.id);
+                        if (unlockId != null) {
+                            unlock = unlockDataMap.get(unlockId);
+                        }
+                    } else {
+                        unlock = unlockDataMap.get(item.id);
+                    }
                     if (unlock != null) {
                         boolean duplicateVendor = false;
                         for (VendorInfo existingVendor : unlock.getVendors()) {
@@ -249,7 +269,7 @@ public class GenerateContent {
                         if (duplicateVendor) {
                             continue;
                         }
-                        List<String> unsupportedCurrencies = item.cost.stream().map(x->x.type).filter(x -> !config.supportedCurrencies.contains(x)).collect(Collectors.toList());
+                        List<String> unsupportedCurrencies = item.cost.stream().map(x -> x.type).filter(x -> !config.supportedCurrencies.contains(x)).collect(Collectors.toList());
                         if (unsupportedCurrencies.isEmpty()) {
                             VendorInfo vendorEntry = new VendorInfo();
                             vendorEntry.vendorName = vendor.name;
@@ -304,14 +324,16 @@ public class GenerateContent {
     }
 
     private void applyAcquisition(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
-        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.baseInputPath.resolve(unlockCategoryConfig.id + "-acquisition"))) {
-            for (Path acquisitionMethodFile : ds) {
-                try (Reader methodReader = Files.newBufferedReader(acquisitionMethodFile)) {
-                    Grouping acquisitionMethod = gson.fromJson(methodReader, Grouping.class);
-                    for (int id : acquisitionMethod.contents) {
-                        UnlockData unlockData = unlockDataMap.get(id);
-                        if (unlockData != null) {
-                            unlockData.sources.add(acquisitionMethod.name);
+        if (Files.exists(config.paths.baseInputPath.resolve(unlockCategoryConfig.id + "-acquisition"))) {
+            try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.baseInputPath.resolve(unlockCategoryConfig.id + "-acquisition"))) {
+                for (Path acquisitionMethodFile : ds) {
+                    try (Reader methodReader = Files.newBufferedReader(acquisitionMethodFile)) {
+                        Grouping acquisitionMethod = gson.fromJson(methodReader, Grouping.class);
+                        for (int id : acquisitionMethod.contents) {
+                            UnlockData unlockData = unlockDataMap.get(id);
+                            if (unlockData != null) {
+                                unlockData.sources.add(acquisitionMethod.name);
+                            }
                         }
                     }
                 }
@@ -320,19 +342,21 @@ public class GenerateContent {
     }
 
     private void applyPrices(Gson gson, UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
-        try (Reader priceLookupReader = Files.newBufferedReader(config.paths.getUnlockPricesPath().resolve(unlockCategoryConfig.id + ".json"))) {
-            Map<Integer, Price> priceLookup = gson.fromJson(priceLookupReader, PRICE_MAP_TYPE.getType());
-            for (Map.Entry<Integer, Price> entry : priceLookup.entrySet()) {
-                UnlockData unlockData = unlockDataMap.get(entry.getKey());
-                if (unlockData == null) {
-                    logger.error("Found price for missing unlock {} of type {}", entry.getKey(), unlockCategoryConfig.id);
-                } else {
-                    unlockData.priceData = entry.getValue();
-                    unlockData.sources.add(GOLD);
-                    unlockData.sources.add(TRADINGPOST);
-                    unlockData.sources.add(TRADINGPOST);
-                }
+        if (Files.exists(config.paths.getUnlockPricesPath().resolve(unlockCategoryConfig.id + ".json"))) {
+            try (Reader priceLookupReader = Files.newBufferedReader(config.paths.getUnlockPricesPath().resolve(unlockCategoryConfig.id + ".json"))) {
+                Map<Integer, Price> priceLookup = gson.fromJson(priceLookupReader, PRICE_MAP_TYPE.getType());
+                for (Map.Entry<Integer, Price> entry : priceLookup.entrySet()) {
+                    UnlockData unlockData = unlockDataMap.get(entry.getKey());
+                    if (unlockData == null) {
+                        logger.error("Found price for missing unlock {} of type {}", entry.getKey(), unlockCategoryConfig.id);
+                    } else {
+                        unlockData.priceData = entry.getValue();
+                        unlockData.sources.add(GOLD);
+                        unlockData.sources.add(TRADINGPOST);
+                        unlockData.sources.add(TRADINGPOST);
+                    }
 
+                }
             }
         }
     }
@@ -362,7 +386,7 @@ public class GenerateContent {
                     result.remove(itemData.id);
                 }
             }
-            determineChatcode(itemData, unlockCategoryConfig, unlockItems).ifPresent(x-> unlock.chatcode = x);
+            determineChatcode(itemData, unlockCategoryConfig, unlockItems).ifPresent(x -> unlock.chatcode = x);
         });
         return result;
     }
@@ -379,7 +403,7 @@ public class GenerateContent {
         return false;
     }
 
-    private Rarity determineRarity(int id, ItemData unlock,  Map<Integer, Collection<Integer>> unlockItems) {
+    private Rarity determineRarity(int id, ItemData unlock, Map<Integer, Collection<Integer>> unlockItems) {
         if (unlockItems.containsKey(id)) {
             Rarity rarity = null;
             for (int itemId : unlockItems.get(id)) {
@@ -425,12 +449,12 @@ public class GenerateContent {
             return Optional.of(itemData.chatLink);
         }
         if (unlockCategoryConfig.useItemForChatcode) {
-            int itemId  = 0;
-            if (itemData.itemId != 0) {
-                itemId = itemData.itemId;
-            } else if (itemData.unlockItems != null && itemData.unlockItems.length > 0) {
-                itemId = itemData.unlockItems[0];
-            } else if (unlockItems.containsKey(itemData.id)) {
+            int itemId = 0;
+            Optional<Integer> id = itemData.getUnlockItems().stream().findFirst();
+            if (id.isPresent()) {
+                itemId = id.get();
+            }
+            if (itemId == 0 && unlockItems.containsKey(itemData.id)) {
                 itemId = unlockItems.get(itemData.id).stream().findFirst().get();
             }
             if (itemId != 0) {
