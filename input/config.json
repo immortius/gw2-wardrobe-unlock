@@ -712,7 +712,30 @@
       "chatcodeType": 2,
       "useItemForChatcode": true,
       "itemMappings": {
-        "38129" : [42]
+        "38129" : [42],
+        "66896" : [11],
+        "87126" : [103],
+        "72203" : [102],
+        "81823" : [115],
+        "67783" : [117],
+        "86723" : [133],
+        "72072" : [135],
+        "66893" : [14],
+        "67386" : [170],
+        "66926" : [195],
+        "73194" : [198],
+        "68065" : [201],
+        "73663" : [214],
+        "85137" : [218],
+        "73150" : [228],
+        "79034" : [191],
+        "75615" : [234],
+        "75214" : [267],
+        "73677" : [96],
+        "68512" : [81],
+        "86645" : [75],
+        "85653" : [50],
+        "66895" : [48]
       },
       "gwuIgnoreIds": [
       ]
@@ -772,7 +795,7 @@
     ],
     "miniatureTypes" : ["Miniature"],
     "miniId" : "mini",
-    "noveltyTypes" : ["Novelty", "Tonic"],
+    "noveltyTypes" : ["Novelty", "Tonic", "Gizmo"],
     "noveltyId" : "novelty",
     "categoryPages": [
       "/wiki/Category:Vendors",
@@ -784,7 +807,8 @@
       "/wiki/Skirmish_Supervisor",
       "/wiki/Black_Lion_Weapons_Specialist/historical",
       "/wiki/Charity_Corps_Seraph",
-      "/wiki/Rytlock_Brimstone"
+      "/wiki/Rytlock_Brimstone",
+      "/wiki/Black_Lion_Commemorative_Sprocket"
     ],
     "ignorePages" : [
       "/wiki/List_of_karma_merchant_items",
@@ -802,7 +826,8 @@
       "/wiki/List_of_karma_merchant_items/Logging_Axes",
       "/wiki/Two-handed_Weapons_by_level",
       "/wiki/One-handed_Weapons_by_level",
-      "/wiki/Kimmes_the_Historian"
+      "/wiki/Kimmes_the_Historian",
+      "/wiki/Sarettokk"
     ]
   },
   "supportedCurrencies" : [
@@ -815,6 +840,7 @@
     "pristinefractalrelic",
     "goldenfractalrelic",
     "integratedmatrix",
+    "unstablecosmicessence",
     "guildcommendation",
     "pvplt",
     "wvwsct",
@@ -822,6 +848,7 @@
     "bls",
     "blt",
     "blmt",
+    "blacklioncommemorativesprocket",
     "blsprocket",
     "ascaloniantear",
     "deadlybloom",
@@ -838,6 +865,8 @@
     "banditcrest",
     "candycorncob",
     "snowdiamond",
+    "snowflake",
+    "enchantedsnowball",
     "airshippart",
     "aurillium",
     "leylinecrystal",

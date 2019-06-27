@@ -635,6 +635,18 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1674px -0px;
 }
+.unstablecosmicessence-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1692px -0px;
+}
+.enchantedsnowball-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1710px -0px;
+}
+.snowflake-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1728px -0px;
+}
 
 /* ==========================================================================
    Media Queries

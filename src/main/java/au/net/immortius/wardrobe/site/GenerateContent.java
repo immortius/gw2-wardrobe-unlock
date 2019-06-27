@@ -16,6 +16,7 @@ import au.net.immortius.wardrobe.vendors.entities.VendorItem;
 import com.google.common.base.Strings;
 import com.google.common.collect.*;
 import com.google.gson.Gson;
+import com.google.gson.JsonSyntaxException;
 import io.gsonfire.GsonFireBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -161,6 +162,8 @@ public class GenerateContent {
                     }
                     itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity).thenComparing(a -> a.name).thenComparing(a -> a.id));
                     groups.add(itemGroup);
+                } catch (JsonSyntaxException e) {
+                    logger.error("Failed to read {}", groupFile, e);
                 }
             }
         }

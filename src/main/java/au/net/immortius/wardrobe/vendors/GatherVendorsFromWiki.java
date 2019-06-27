@@ -182,7 +182,7 @@ public class GatherVendorsFromWiki {
                         });
                     }
                 }
-                if (config.vendorCrawler.noveltyTypes.contains(type)) {
+                if (type.isEmpty() || config.vendorCrawler.noveltyTypes.contains(type)) {
                     for (Integer noveltyId : getNoveltyId(itemUrl)) {
                         VendorItem vendorItem = new VendorItem();
                         vendorItem.cost = cost;
@@ -337,6 +337,7 @@ public class GatherVendorsFromWiki {
             .put("shardsofzhaitan", "shardofzhaitan")
             .put("symbolsofkoda", "symbolofkoda")
             .put("ectoplasm","globofectoplasm")
+            .put("blacklioncommemorativesprocket", "blsprocket")
             .build();
 
 
