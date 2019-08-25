@@ -39,6 +39,9 @@ dependencies {
 
     // Logging
     compile 'ch.qos.logback:logback-classic:1.2.3'
+	
+	// For Java 9+
+	runtime 'javax.activation:activation:1.1.1'
 
     // Unit Testing (I don't do enough)
     testCompile 'junit:junit:4.12'

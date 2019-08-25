@@ -338,6 +338,7 @@ public class GatherVendorsFromWiki {
             .put("symbolsofkoda", "symbolofkoda")
             .put("ectoplasm","globofectoplasm")
             .put("blacklioncommemorativesprocket", "blsprocket")
+            .put("blacklionminiatureclaimticket", "blmt")
             .build();
 
 

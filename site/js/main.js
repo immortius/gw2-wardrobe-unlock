@@ -64,6 +64,7 @@ var acquisitionMethods = [
     { id : "birthday4", name : "Forth Birthday", category : "Birthday"},
     { id : "birthday5", name : "Fifth Birthday", category : "Birthday"},
 	{ id : "birthday6", name : "Sixth Birthday", category : "Birthday"},
+	{ id : "birthday7", name : "Seventh Birthday", category : "Birthday"},
     { id : "airshippart", name : "Airship Part", category : "Heart of Thorns"},
 	{ id : "aurillium", name : "Lump of Aurillium", category : "Heart of Thorns"},
 	{ id : "leylinecrystal", name : "Ley Line Crystal", category : "Heart of Thorns"},
@@ -237,6 +238,9 @@ function addAcquisitionDetails(prefix) {
 }
 
 function buildSite(data) {
+	
+	$('.lds-container').remove()
+	
 	metadata = data;
 	for (o of metadata.images) {
 		imageMap[o.name] = o.image;
