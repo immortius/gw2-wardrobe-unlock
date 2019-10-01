@@ -95,6 +95,7 @@ var acquisitionMethods = [
 	{ id : "swimspeedinfusion", name : "Swim-speed Infusion", category : "Living Story 4"},
     { id : "mistonium", name : "Lump of Mistonium", category : "Living Story 4"},
 	{ id : "racingmedallion", name : "Racing Medallion", category : "Living Story 4"},
+	{ id : "hatchedchili", name : "Hatched Chili", category : "Prologue"},
 	{ id : "shardofglory", name : "Shards of Glory", category : "Player vs Player"},
 	{ id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Player vs Player"},
 	{ id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", hideOnIcon : true, category : "Craftable"},

@@ -651,6 +651,10 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1746px -0px;
 }
+.hatchedchili-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1764px -0px;
+}
 
 /* ==========================================================================
    Media Queries

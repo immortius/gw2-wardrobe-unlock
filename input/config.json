@@ -130,6 +130,14 @@
           8115,
           8121,
           8122
+        ],
+        // Visage of the Khan-Ur
+        "91924": [
+          8921, 8925, 8941
+        ],
+        // Shoulders of the Ebon Vanguard
+        "91945": [
+          8928, 8944, 8946
         ]
       },
       "gwuIncludeIds": [
@@ -735,7 +743,9 @@
         "68512" : [81],
         "86645" : [75],
         "85653" : [50],
-        "66895" : [48]
+        "66895" : [48],
+        "91971" : [292],
+        "91910" : [293]
       },
       "gwuIgnoreIds": [
       ]
@@ -801,7 +811,8 @@
       "/wiki/Category:Vendors",
       "/wiki/Category:Festival_Merchants",
       "/wiki/Category:Services",
-      "/wiki/Category:Guild_Initiative"
+      "/wiki/Category:Guild_Initiative",
+      "/wiki/Category:The_Icebrood_Saga_content"
     ],
     "vendorPages": [
       "/wiki/Skirmish_Supervisor",
@@ -910,6 +921,7 @@
     "racingmedallion",
     "brandedmass",
     "mistbornmote",
-    "spiritshard"
+    "spiritshard",
+    "hatchedchili"
   ]
 }
