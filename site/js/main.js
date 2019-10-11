@@ -471,6 +471,7 @@ function updateCountsType(type, countData) {
 		if (countData.hasOwnProperty(section)) {
             $('#' + section + '-' + type + 'total').text(countData[section].total);
             $('#' + section + '-' + type + 'unlocked-count').text(countData[section].unlocked);
+            $('#' + section + '-' + type + 'total-percentage').text(Math.floor(countData[section].unlocked * 100 / countData[section].total));
             $('#' + section + '-' + type + 'total-buy-gold').text(Math.floor(countData[section].totalBuyValue / 10000));
             $('#' + section + '-' + type + 'total-buy-silver').text(Math.floor(countData[section].totalBuyValue / 100) % 100);
             $('#' + section + '-' + type + 'total-buy-copper').text(countData[section].totalBuyValue % 100);
@@ -494,6 +495,7 @@ function updateCountsType(type, countData) {
     }
 	$('#' + type + 'total').text(totalCount);
 	$('#' + type + 'total-unlocked').text(unlockedCount);
+	$('#' + type + 'total-percentage').text(Math.floor(unlockedCount * 100 / totalCount));
 	$('#' + type + 'total-buy-gold').text(Math.floor(totalBuyValue / 10000));
 	$('#' + type + 'total-buy-silver').text(Math.floor(totalBuyValue / 100) % 100);
 	$('#' + type + 'total-buy-copper').text(totalBuyValue % 100);
@@ -659,7 +661,7 @@ function buildSection(root, sectionData) {
 	  section += '<p>Note: Account unlock information not available for this section</p>';
 	} else {
 	  section += '<div class="section-counts">';
-	  section += '<p id="' + sectionData.id + '-count">Unlocked: <span id="' + sectionData.id + '-unlocked-count">0</span> / <span id="' + sectionData.id + '-total-count">' +  count + '</span></p>';
+	  section += '<p id="' + sectionData.id + '-count">Unlocked: <span id="' + sectionData.id + '-unlocked-count">0</span> / <span id="' + sectionData.id + '-total-count">' +  count + '</span> (<span id="' + sectionData.id + '-total-percentage">0</span>%)</p>';
 	  section += '<p>Unlocked by buy value: <span id="' + sectionData.id + '-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> <span id="' + sectionData.id + '-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> <span id="' + sectionData.id + '-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of '
 	  section += '<span id="' + sectionData.id + '-buy-total-gold">' + Math.floor(countData.totalBuyValue / 10000) + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> ';
 	  section += '<span id="' + sectionData.id + '-buy-total-silver">' + (Math.floor(countData.totalBuyValue / 100) % 100) + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> ';
@@ -672,7 +674,7 @@ function buildSection(root, sectionData) {
 	  section += '</div>';
 	  
 	  section += '<div class="gwu-section-counts hidden">';
-	  section += '<p id="' + sectionData.id + '-gwu-count">Unlocked: <span id="' + sectionData.id + '-gwu-unlocked-count">0</span> / <span id="' + sectionData.id + '-gwu-total-count">' +  gwuCount + '</span></p>';
+	  section += '<p id="' + sectionData.id + '-gwu-count">Unlocked: <span id="' + sectionData.id + '-gwu-unlocked-count">0</span> / <span id="' + sectionData.id + '-gwu-total-count">' +  gwuCount + '</span> (<span id="' + sectionData.id + '-gwu-percentage">0</span>%)</p>';
 	  section += '<p>Unlocked by buy value: <span id="' + sectionData.id + '-gwu-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> <span id="' + sectionData.id + '-gwu-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> <span id="' + sectionData.id + '-gwu-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of '
 	  section += '<span id="' + sectionData.id + '-gwu-buy-total-gold">' + Math.floor(gwuCountData.totalBuyValue / 10000) + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> ';
 	  section += '<span id="' + sectionData.id + '-gwu-buy-total-silver">' + (Math.floor(gwuCountData.totalBuyValue / 100) % 100) + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> ';
