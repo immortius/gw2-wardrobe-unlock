@@ -183,7 +183,8 @@ function updateThresholdCalculation() {
 		$('#list-entry-' + item.section + '-' + item.details.id).click(function(item) {
 			showDetails(item, 'analyse-');
 		}.bind(null, item.details));
-	}	
+	}
+	updateSectionFolding();
 }
 
 function isUnlocked(section, id) {
@@ -359,6 +360,7 @@ function updateFilter(displayMode, gwuOnly) {
 	}
 	updateGroupVisibility();
 	updateCounts();
+	updateSectionFolding();
 	if (storageAvailable('localStorage')) {
 		localStorage.setItem('gwu-only', gwuOnly); 
 		localStorage.setItem('filter', displayMode);
@@ -453,6 +455,17 @@ function filterWithApiKey(key) {
 			});		
 		}
 	}
+}
+
+function updateSectionFolding() {
+  var sections = $(".section");
+  for (var i = 0; i < sections.length; ++i) {
+    if( $('#' + sections[i].id +' .item:not(.hidden):not(.unlocked)').length == 0) {
+      $(sections[i]).removeAttr("open");
+    } else {
+      $(sections[i]).attr("open", "open");
+    }
+  }
 }
 
 function updateCounts() {
