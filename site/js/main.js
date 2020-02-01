@@ -95,7 +95,9 @@ var acquisitionMethods = [
 	{ id : "swimspeedinfusion", name : "Swim-speed Infusion", category : "Living Story 4"},
     { id : "mistonium", name : "Lump of Mistonium", category : "Living Story 4"},
 	{ id : "racingmedallion", name : "Racing Medallion", category : "Living Story 4"},
-	{ id : "hatchedchili", name : "Hatched Chili", category : "Prologue"},
+	{ id : "hatchedchili", name : "Hatched Chili", category : "The Icebrood Saga"},
+    { id : "eternaliceshard", name : "Eternal Ice Shard", category : "The Icebrood Saga"},
+	{ id : "eitriteingot", name: "Eitrite Ingot", category : "The Icebrood Saga"},
 	{ id : "shardofglory", name : "Shards of Glory", category : "Player vs Player"},
 	{ id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Player vs Player"},
 	{ id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", hideOnIcon : true, category : "Craftable"},
@@ -321,10 +323,19 @@ function updateFilter(displayMode, gwuOnly) {
 	$('.tp-buy-sorted').toggleClass('hidden', displayMode != 'tp-buy' && displayMode != 'buy');
 	$('.tp-sell-sorted').toggleClass('hidden', displayMode != 'tp-sell' && displayMode != 'sell');
 	$('#advanced-filter-section').toggleClass('hidden', displayMode != 'advanced');
+	
+	if (displayMode == 'setbuy') {
+	    sortGroupsByBuyTotal();
+	} else if (displayMode == 'setsell') {
+		sortGroupsBySellTotal();
+	} else {
+		sortGroupsByName();
+	}
+	
 	if (displayMode == 'tp-buy' || displayMode == 'tp-sell') {
 		$('.item').not('.tp').toggleClass('hidden', true);
 	}
-	if (displayMode == 'gold') {
+	if (displayMode == 'gold' || displayMode == 'setbuy' || displayMode == 'setsell') {
 		$('.item').not('.gold').toggleClass('hidden', true);
 	} else if (displayMode == 'karma') {
 		$('.item').not('.karma').toggleClass('hidden', true);
@@ -365,6 +376,26 @@ function updateFilter(displayMode, gwuOnly) {
 		localStorage.setItem('gwu-only', gwuOnly); 
 		localStorage.setItem('filter', displayMode);
 	}
+}
+
+function sortGroupsByBuyTotal() {
+	$('.section-groups').each(function (index, section) {
+		$(section.children).sort(function (a, b) { return parseInt(a.dataset.buyTotal) - parseInt(b.dataset.buyTotal); }).appendTo(section)
+	});
+	
+}
+
+function sortGroupsBySellTotal() {
+	$('.section-groups').each(function (index, section) {
+		$(section.children).sort(function (a, b) { return parseInt(a.dataset.sellTotal) - parseInt(b.dataset.sellTotal); }).appendTo(section)
+	});
+	
+}
+
+function sortGroupsByName() {
+	$('.section-groups').each(function (index, section) {
+		$(section.children).sort(function (a, b) { return a.dataset.ordering - b.dataset.ordering; }).appendTo(section)
+	});
 }
 
 function processAdvancedFilter() {
@@ -728,7 +759,10 @@ function buildSectionGroups(sectionData) {
 	if (sectionData.groups.length > 1) {
 		for (var groupIndex = 0; groupIndex < sectionData.groups.length; ++groupIndex) {
 			var groupData = sectionData.groups[groupIndex];
-			var group = '<div class="group"><h3>' + groupData.groupName + '</h3>';
+			var buyTotal = calculateTotalValue(groupData.content, getBuyPrice);
+			var sellTotal = calculateTotalValue(groupData.content, getSellPrice);
+
+			var group = '<div class="group" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + groupIndex + '"><h3>' + groupData.groupName + '</h3>';
 			group += '<div class="section-body">';
 			group += populateContent(groupData.content, sectionData.id);
 			group += '</div></div>';
@@ -790,9 +824,6 @@ function displayItem(itemData, id) {
 	for (var i = 0; i < itemData.sources.length; ++i) {
 		var source = itemData.sources[i];
 		result += ' ' + source;
-	}
-	if ($.inArray("gold", itemData.sources) == -1 && ($.inArray("craft", itemData.sources) != -1 || $.inArray("blt", itemData.sources) != -1)) {
-		result += ' gold'
 	}
 	if ($.inArray('winterberries', itemData.sources) != -1 || $.inArray('unboundmagic', itemData.sources) != -1 || $.inArray('petrifiedwood', itemData.sources) != -1 || $.inArray('fireorchidblossom', itemData.sources) != -1 || $.inArray('orrianpearl', itemData.sources) != -1 || $.inArray('jadeshard', itemData.sources) != -1) {
 		result += ' ls3';

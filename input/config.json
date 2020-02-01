@@ -453,7 +453,49 @@
         8187,
         // Sun Aspect Eye
         8228,
-        8230
+        8230,
+        // Skyscale Horns
+        8822,
+        8841,
+        // Enchanted Dragon Crown
+        8238,
+        8253,
+        // Pyre Gloves
+        8866,
+        8873,
+        // Dragon's Eye Circlet
+        8289,
+        8296,
+        // Olmakhan Mantle
+        8032,
+        8028,
+        // Etherbound Greaves
+        8659,
+        8672,
+        // Etherbound Pauldrons
+        8960,
+        8961,
+        // Luminous Skyscale Horns
+        8834,
+        8837,
+        // Freezie Crown
+        7979,
+        7994,
+        // Racing Helmet
+        8513,
+        8515,
+        // Shrine Guardian Ears
+        8727,
+        8741,
+        // Racing Goggles
+        8510,
+        8514,
+        // Revered Shrine Guardian Ears
+        8743,
+        8751,
+        // Etherbound Gauntlets
+        8669,
+        8678
       ]
     },
     {
@@ -472,7 +514,9 @@
           7739,
           8010,
           8098
-        ]
+        ],
+        // Royal flame coffer
+        "92128" : [8973, 8974, 8975, 8976, 8977, 8980, 8983, 8990, 8992, 8994, 8996, 8998, 9001, 9002, 9003, 9004]
       },
       "gwuIgnoreIds": [
         // Guild Cavalier varients
@@ -508,7 +552,9 @@
         7862,
         // Gladium Trident
         5167,
-        8355
+        8355,
+        // Sunder, same icon as dreadwing
+        8776
       ]
     },
     {
@@ -841,7 +887,8 @@
       "/wiki/Two-handed_Weapons_by_level",
       "/wiki/One-handed_Weapons_by_level",
       "/wiki/Kimmes_the_Historian",
-      "/wiki/Sarettokk"
+      "/wiki/Sarettokk",
+      "/wiki/Eternal_Ice_Shard"
     ]
   },
   "supportedCurrencies" : [
@@ -922,6 +969,8 @@
     "brandedmass",
     "mistbornmote",
     "spiritshard",
-    "hatchedchili"
+    "hatchedchili",
+    "eternaliceshard",
+    "eitriteingot"
   ]
 }

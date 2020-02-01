@@ -655,6 +655,15 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1764px -0px;
 }
+.eternaliceshard-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1782px -0px;
+}
+.eitriteingot-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1800px -0px;
+}
+
 
 /* ==========================================================================
    Media Queries
