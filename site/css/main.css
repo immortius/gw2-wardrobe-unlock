@@ -663,7 +663,10 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1800px -0px;
 }
-
+.strike-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1818px -0px;
+}
 
 /* ==========================================================================
    Media Queries

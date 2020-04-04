@@ -144,7 +144,15 @@
         // Raven Garb
         "92790": [9168, 9182, 9193],
         // Ice Golem's Hat
-        "92785": [9146, 9149, 9184]
+        "92785": [9146, 9149, 9184],
+        // Stone Summit Shoulder Box
+        "93182": [9284, 9259, 9311],
+        // Stone Summit Boot Box
+        "93259": [9307, 9316, 9327],
+        // Stone Summit Helm Box
+        "93080": [9248, 9258, 9277],
+        // Stone Summit Glove Box
+        "93202": [9262, 9276, 9279]
       },
       "gwuIncludeIds": [
         1,
@@ -929,6 +937,7 @@
     "knowledgecrystal",
     "symbolofkoda",
     "shardofzhaitan",
+    "strike",
     "bauble",
     "bundleofloot",
     "festivaltoken",

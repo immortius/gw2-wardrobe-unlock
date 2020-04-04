@@ -50,6 +50,7 @@ var acquisitionMethods = [
 	{ id : "knowledgecrystal", name : "Knowledge Crystal", category : "Dungeon"},
 	{ id : "symbolofkoda", name : "Symbol of Koda", category : "Dungeon"},
 	{ id : "shardofzhaitan", name : "Shard of Zhaitan", category : "Dungeon"},
+	{ id : "strike", name : "Strike Mission", category : "Strike Mission"},
 	{ id : "bauble", name : "Bauble Bubbles", category : "Seasonal Event"},
     { id : "bundleofloot", name : "Bundle Of Loot", category : "Seasonal Event"},
 	{ id : "festivaltoken", name : "Festival Token", category : "Seasonal Event"},
