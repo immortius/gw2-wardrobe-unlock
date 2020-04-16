@@ -53,6 +53,7 @@ public class WikiUrl {
         } else {
             filename = baseUrl.substring(relativeUrl.lastIndexOf("/") + 1) + "-" + pageFrom + ".html";
         }
+        filename = filename.replace(':', '-');
     }
 
     /**

@@ -509,7 +509,20 @@
         8751,
         // Etherbound Gauntlets
         8669,
-        8678
+        8678,
+        // Pumpkin Crown
+        8968, 8966,
+        // Exalted Shoulders
+        8618, 8621,
+        // Searing Chain Gloves
+        8986, 8989,
+        // Light Corsair Turban
+        7836, 7844,
+        // Festive Sweater
+        9087, 9089,
+        // Dragonrender Medium Helm
+        9037, 9016
+
       ]
     },
     {
@@ -565,8 +578,6 @@
         6072,
         // Flame Rifle
         5173,
-        // Sunspear
-        7862,
         // Gladium Trident
         5167,
         8355,
@@ -746,17 +757,17 @@
       ],
       "colorBased": true,
       "gwuIgnoreIds": [
-        1622
+        //1622
       ],
       "gwuIncludeIds": [
-        1456,
-        1594,
-        482,
-        1354,
-        1552,
-        1580,
-        1622,
-        119
+        //1456,
+        //1594,
+        //482,
+        //1354,
+        //1552,
+        //1580,
+        //1622,
+        //119
       ]
     },
     {
