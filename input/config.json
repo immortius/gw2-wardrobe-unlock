@@ -152,7 +152,19 @@
         // Stone Summit Helm Box
         "93080": [9248, 9258, 9277],
         // Stone Summit Glove Box
-        "93202": [9262, 9276, 9279]
+        "93202": [9262, 9276, 9279],
+        // Reliquary of the Bear Garb
+        "93585": [9365, 9416, 9369],
+        // Reliquary of the Bear Gown
+        "93506": [9368, 9389, 9408],
+        // Reliquary of the Bear Hood
+        "93569": [9382, 9401, 9412],
+        // Reliquary of the Bear Shoes
+        "93395": [9385, 9390, 9433],
+        // Charr War Mask
+        "93487": [9421, 9428, 9443],
+        // Blood Legion Soldier Helm Box
+        "93653": [9429, 9436, 9439]
       },
       "gwuIncludeIds": [
         1,
@@ -917,7 +929,8 @@
       "/wiki/One-handed_Weapons_by_level",
       "/wiki/Kimmes_the_Historian",
       "/wiki/Sarettokk",
-      "/wiki/Eternal_Ice_Shard"
+      "/wiki/Eternal_Ice_Shard",
+      "/wiki/Black_Lion_Exchange_Specialist"
     ]
   },
   "supportedCurrencies" : [
