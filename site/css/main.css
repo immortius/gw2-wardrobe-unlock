@@ -242,7 +242,7 @@ summary {
 	margin: 4px;
 }
 
-.entry-name,.entry-price,.filter-label,.filter-selection {
+.entry-name,.entry-price,.entry-checkbox,.filter-label,.filter-selection {
 display: table-cell;
 padding-right: 10px;
 }

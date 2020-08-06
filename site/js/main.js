@@ -171,7 +171,8 @@ function updateThresholdCalculation() {
 		var gold = Math.floor(item.price / 10000);
 		var silver = Math.floor(item.price / 100) % 100;
 		var copper = item.price % 100;
-		list += '<div class="entry" id="list-entry-' + item.section + '-' + item.details.id + '"><div class="entry-name">' + item.name + '</div><div class="entry-price"><span>' + gold + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>'
+		list += '<div class="entry" id="list-entry-' + item.section + '-' + item.details.id + '"><div class="entry-checkbox"><input type="checkbox" /></div>'
+			  + '<div class="entry-name">' + item.name + '</div><div class="entry-price"><span>' + gold + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>'
 		      + ' <span id="min-unlock-silver">' + silver + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>'
 			  + ' <span id="min-unlock-copper">' + copper + '</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></div></div>';
 	}	
