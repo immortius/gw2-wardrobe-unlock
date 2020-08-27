@@ -533,8 +533,27 @@
         // Festive Sweater
         9087, 9089,
         // Dragonrender Medium Helm
-        9037, 9016
-
+        9037, 9016,
+        // Raven Ceremonial Sandals
+        9181, 9170,
+        // Raven Ceremonial Garb
+        9168, 9182,
+        // Raven Ceremonial Hood
+        9158, 9162,
+        // Holographic Dragon Helm
+        8817, 8826,
+        // Raven Ceremonial Bracers
+        9139, 9180,
+        // Maguuma's Mantle
+        9222, 9224,
+        // Maguuma's Grasp
+        9219, 9228,
+        // Raven Ceremonial Gown
+        9143, 9148,
+        // Toxic Boots
+        9334, 9332,
+        // Ice Golem's Cowl
+        9184, 9146
       ]
     },
     {
@@ -772,14 +791,8 @@
         //1622
       ],
       "gwuIncludeIds": [
-        //1456,
-        //1594,
-        //482,
-        //1354,
-        //1552,
-        //1580,
-        //1622,
-        //119
+        1456,
+        119
       ]
     },
     {
@@ -1014,6 +1027,7 @@
     "spiritshard",
     "hatchedchili",
     "eternaliceshard",
-    "eitriteingot"
+    "eitriteingot",
+    "jorbreaker"
   ]
 }

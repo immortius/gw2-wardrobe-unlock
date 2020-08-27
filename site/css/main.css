@@ -667,6 +667,14 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1818px -0px;
 }
+.jorbreaker-icon {
+	background-image: url('../img/currencies.png');
+  background-position: -1836px -0px;
+}
+.birthday8-icon {
+	background-image: url('../img/currencies.png');
+  background-position: -1854px -0px;
+}
 
 /* ==========================================================================
    Media Queries
