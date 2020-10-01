@@ -225,6 +225,11 @@ summary {
     display: table;
 }
 
+#analyse-caption {
+    display: table-header-group;
+    font-weight: bold;
+}
+
 .entry,.filter-option {
   display: table-row;
 }

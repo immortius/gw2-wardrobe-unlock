@@ -192,15 +192,20 @@ function updateThresholdCalculation() {
 		var silver = Math.floor(item.price / 100) % 100;
 		var copper = item.price % 100;
 		list += '<div class="entry" id="list-entry-' + item.section + '-' + item.details.id + '"><div class="entry-checkbox"><input type="checkbox" /></div>'
-			  + '<div class="entry-name">' + item.name + '</div><div class="entry-price"><span>' + gold + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>'
-		      + ' <span id="min-unlock-silver">' + silver + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>'
-			  + ' <span id="min-unlock-copper">' + copper + '</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></div></div>';
-	}	
-	
+			  + '<div class="entry-name">' + item.name +'</div><div class="entry-name">' + capitalizeFirstLetter(item.section) + '</div><div class="entry-price"><span>' + gold + '</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>'
+		      + ' <span id="min-unlock-silver">' + formatCurrency(silver) + '</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>'
+			  + ' <span id="min-unlock-copper">' + formatCurrency(copper) + '</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></div></div>';
+	}
+
 	$('#min-unlock-gold').text(Math.floor(totalCost / 10000));
-	$('#min-unlock-silver').text(Math.floor(totalCost / 100) % 100);
-	$('#min-unlock-copper').text(totalCost % 100);
+	$('#min-unlock-silver').text(formatCurrency(Math.floor(totalCost / 100) % 100));
+	$('#min-unlock-copper').text(formatCurrency(totalCost % 100));
 	$('#min-total').text(total);
+	if(list != '') {
+	  $('#analyse-caption').html('<div class="entry"><div class="entry-name"/><div class="entry-name">Name</div><div class="entry-name">Type</div><div class="entry-name">Price</div>');
+	} else {
+	  $('#analyse-caption').html('');
+	}
 	$('#analyse-list').append(list);
 	
 	for (var item of items) {
@@ -209,6 +214,14 @@ function updateThresholdCalculation() {
 		}.bind(null, item.details));
 	}
 	updateSectionFolding();
+}
+
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function formatCurrency(input) {
+  return (input < 10) ? ("0" + input) : input;
 }
 
 function isUnlocked(section, id) {
