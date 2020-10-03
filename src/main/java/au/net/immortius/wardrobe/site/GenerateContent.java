@@ -1,6 +1,7 @@
 package au.net.immortius.wardrobe.site;
 
 import au.net.immortius.wardrobe.config.Config;
+import au.net.immortius.wardrobe.config.Grouping;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
 import au.net.immortius.wardrobe.gw2api.Chatcode;
 import au.net.immortius.wardrobe.gw2api.Rarity;
@@ -8,7 +9,6 @@ import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.imagemap.IconDetails;
 import au.net.immortius.wardrobe.imagemap.ImageMap;
-import au.net.immortius.wardrobe.config.Grouping;
 import au.net.immortius.wardrobe.site.entities.*;
 import au.net.immortius.wardrobe.util.ColorUtil;
 import au.net.immortius.wardrobe.vendors.entities.VendorData;
@@ -36,7 +36,6 @@ import java.util.stream.Collectors;
  */
 public class GenerateContent {
 
-    private static Logger logger = LoggerFactory.getLogger(GenerateContent.class);
     private static final String GENERAL_GROUP_NAME = "General";
     private static final String UNCLASSIFIED_GROUP_NAME = "New";
     private static final String GOLD = "gold";
@@ -44,7 +43,7 @@ public class GenerateContent {
     private static final String TRADINGPOST = "tp";
     private static final String GUARANTEED_WARDROBE_UNLOCK = "gwu";
     private static final String CRAFT = "craft";
-    private static final GenericType<Map<Integer, Price>> PRICE_MAP_TYPE = new GenericType<Map<Integer, Price>>() {
+    private static final GenericType<Map<Integer, TradingPostEntry>> PRICE_MAP_TYPE = new GenericType<Map<Integer, TradingPostEntry>>() {
     };
     private static final GenericType<Map<Integer, Collection<Integer>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<Integer, Collection<Integer>>>() {
     };
@@ -52,7 +51,7 @@ public class GenerateContent {
     };
     private static final GenericType<Set<Integer>> INTEGER_SET_TYPE = new GenericType<Set<Integer>>() {
     };
-
+    private static Logger logger = LoggerFactory.getLogger(GenerateContent.class);
     private Gson gson;
     private Config config;
     private Unlocks unlocks;
@@ -89,9 +88,9 @@ public class GenerateContent {
             try (Reader unlockToSkinMappingReader = Files.newBufferedReader(config.paths.getUnlockItemsPath().resolve(unlockCategoryConfig.id + ".json"))) {
                 unlockItemMap = gson.fromJson(unlockToSkinMappingReader, UNLOCK_ITEM_MULTIMAP.getType());
                 itemUnlockMap = Maps.newHashMap();
-                unlockItemMap.entrySet().forEach(x -> {
-                    for (int item : x.getValue()) {
-                        itemUnlockMap.put(item, x.getKey());
+                unlockItemMap.forEach((key, value) -> {
+                    for (int item : value) {
+                        itemUnlockMap.put(item, key);
                     }
                 });
             }
@@ -160,7 +159,9 @@ public class GenerateContent {
                             itemGroup.content.add(unlock);
                         }
                     }
-                    itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity).thenComparing(a -> a.name).thenComparing(a -> a.id));
+                    itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity)
+                            .thenComparing(a -> a.name)
+                            .thenComparing(a -> a.id));
                     groups.add(itemGroup);
                 } catch (JsonSyntaxException e) {
                     logger.error("Failed to read {}", groupFile, e);
@@ -238,7 +239,6 @@ public class GenerateContent {
                 finalVendors.addAll(cheapest);
             }
             unlock.getVendors().clear();
-            ;
             unlock.getVendors().addAll(finalVendors);
         }
     }
@@ -267,6 +267,7 @@ public class GenerateContent {
                         for (VendorInfo existingVendor : unlock.getVendors()) {
                             if (existingVendor.vendorName.equals(vendor.name)) {
                                 duplicateVendor = true;
+                                break;
                             }
                         }
                         if (duplicateVendor) {
@@ -347,20 +348,35 @@ public class GenerateContent {
     private void applyPrices(Gson gson, UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
         if (Files.exists(config.paths.getUnlockPricesPath().resolve(unlockCategoryConfig.id + ".json"))) {
             try (Reader priceLookupReader = Files.newBufferedReader(config.paths.getUnlockPricesPath().resolve(unlockCategoryConfig.id + ".json"))) {
-                Map<Integer, Price> priceLookup = gson.fromJson(priceLookupReader, PRICE_MAP_TYPE.getType());
-                for (Map.Entry<Integer, Price> entry : priceLookup.entrySet()) {
-                    UnlockData unlockData = unlockDataMap.get(entry.getKey());
+                Map<Integer, TradingPostEntry> priceLookup = gson.fromJson(priceLookupReader, PRICE_MAP_TYPE.getType());
+                for (Map.Entry<Integer, TradingPostEntry> entry : priceLookup.entrySet()) {
+                    Integer itemId = entry.getKey();
+                    UnlockData unlockData = unlockDataMap.get(itemId);
                     if (unlockData == null) {
-                        logger.error("Found price for missing unlock {} of type {}", entry.getKey(), unlockCategoryConfig.id);
+                        logger.error("Found price for missing unlock {} of type {}", itemId, unlockCategoryConfig.id);
                     } else {
-                        unlockData.priceData = entry.getValue();
+                        TradingPostEntry tpEntry = entry.getValue();
+                        PriceEntry bestBuyPrice = tpEntry.getBestBuyPrice();
+                        readItem(bestBuyPrice.getItemId())
+                                .ifPresent(i -> bestBuyPrice.setItemName(i.getName()));
+                        PriceEntry bestSellPrice = tpEntry.getBestSellPrice();
+                        readItem(bestSellPrice.getItemId())
+                                .ifPresent(i -> bestSellPrice.setItemName(i.getName()));
+                        unlockData.priceData = tpEntry;
                         unlockData.sources.add(GOLD);
-                        unlockData.sources.add(TRADINGPOST);
                         unlockData.sources.add(TRADINGPOST);
                     }
 
                 }
             }
+        }
+    }
+
+    private Optional<ItemData> readItem(Integer id) {
+        try (Reader itemReader = Files.newBufferedReader(config.paths.getItemPath().resolve(id + ".json"))) {
+            return Optional.ofNullable(gson.fromJson(itemReader, ItemData.class));
+        } catch (IOException ex) {
+            return Optional.empty();
         }
     }
 

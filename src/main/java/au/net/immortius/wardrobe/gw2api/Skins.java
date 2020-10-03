@@ -4,13 +4,9 @@ import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import com.google.common.base.Strings;
-import com.google.common.collect.ArrayListMultimap;
-import com.google.common.collect.ListMultimap;
 import com.google.common.collect.Maps;
 import com.google.gson.Gson;
 
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.Map;
 import java.util.Optional;
 
@@ -33,11 +29,7 @@ public class Skins extends CacheAccessor<ItemData> {
 
     public Optional<String> getSkinType(int id) {
         Optional<ItemData> itemData = get(id);
-        if (itemData.isPresent()) {
-            return Optional.of(getSkinType(itemData.get()));
-        } else {
-            return Optional.empty();
-        }
+        return itemData.map(this::getSkinType);
     }
 
     public String getSkinType(ItemData itemData) {
