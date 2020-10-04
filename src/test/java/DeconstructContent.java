@@ -241,7 +241,7 @@ public class DeconstructContent {
         try (Reader reader = Files.newBufferedReader(contentPath)) {
             ContentData data = gson.fromJson(reader, ContentData.class);
             for (UnlockCategoryData itemCategory : data.items) {
-                Map<Integer, Price> categoryLookup = Maps.newLinkedHashMap();
+                Map<Integer, TradingPostEntry> categoryLookup = Maps.newLinkedHashMap();
                 for (UnlockGroupData groupData : itemCategory.groups) {
                     for (UnlockData unlockData : groupData.content) {
                         if (unlockData.priceData != null) {

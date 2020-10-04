@@ -2,7 +2,9 @@ package au.net.immortius.wardrobe.gw2api;
 
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
-import au.net.immortius.wardrobe.site.entities.Price;
+import au.net.immortius.wardrobe.gw2api.entities.PriceData;
+import au.net.immortius.wardrobe.site.entities.TradingPostEntry;
+import au.net.immortius.wardrobe.site.entities.PriceEntry;
 import au.net.immortius.wardrobe.util.GsonJsonProvider;
 import au.net.immortius.wardrobe.util.NioUtils;
 import com.google.common.collect.Maps;
@@ -22,16 +24,15 @@ import java.nio.file.Files;
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
-import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * Obtain the current TP prices of all unlock items
  */
 public class PullCurrentPrices {
 
+    private static final GenericType<Map<Integer, Collection<Integer>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<Integer, Collection<Integer>>>() {
+    };
     private static Logger logger = LoggerFactory.getLogger(PullCurrentPrices.class);
-    private static final GenericType<Map<Integer, Collection<Integer>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<Integer, Collection<Integer>>>() {};
-
     private final Client client;
     private final Gson gson;
     private final Config config;
@@ -53,7 +54,7 @@ public class PullCurrentPrices {
         this.prices = new Prices(config, gson);
     }
 
-    public PullCurrentPrices(Config config, Client client){
+    public PullCurrentPrices(Config config, Client client) {
         this.client = client;
         this.config = config;
         this.gson = new GsonFireBuilder().createGson();
@@ -62,7 +63,7 @@ public class PullCurrentPrices {
         this.prices = new Prices(config, gson);
     }
 
-    public static void main(String ... args) throws Exception {
+    public static void main(String... args) throws Exception {
         new PullCurrentPrices().run();
     }
 
@@ -74,9 +75,7 @@ public class PullCurrentPrices {
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
             try (Reader unlockToSkinMappingReader = Files.newBufferedReader(config.paths.getUnlockItemsPath().resolve(unlockCategory.id + ".json"))) {
                 Map<Integer, Collection<Integer>> unlockItems = gson.fromJson(unlockToSkinMappingReader, UNLOCK_ITEM_MULTIMAP.getType());
-                unlockItems.values().stream().forEach(x -> {
-                    unlockItemIds.addAll(x);
-                });
+                unlockItems.values().forEach(unlockItemIds::addAll);
             }
         }
 
@@ -87,33 +86,26 @@ public class PullCurrentPrices {
         // And now map item prices to unlock prices
         Files.createDirectories(config.paths.getUnlockPricesPath());
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
-            Map<Integer, Price> categoryPrices = Maps.newLinkedHashMap();
+            Map<Integer, TradingPostEntry> categoryPrices = Maps.newLinkedHashMap();
             try (Reader unlockToSkinMappingReader = Files.newBufferedReader(config.paths.getUnlockItemsPath().resolve(unlockCategory.id + ".json"))) {
                 Map<Integer, Collection<Integer>> unlockItems = gson.fromJson(unlockToSkinMappingReader, UNLOCK_ITEM_MULTIMAP.getType());
-                unlockItems.entrySet().stream().forEach(unlock -> {
-                    int unlockId = unlock.getKey();
-                    AtomicInteger minBuyPrice = new AtomicInteger();
-                    AtomicInteger minSellPrice = new AtomicInteger();
-                    for (int itemId : unlock.getValue()) {
-                        prices.get(itemId).ifPresent(x -> {
-                            if (x.buys != null && (minBuyPrice.get() == 0 || x.buys.unitPrice < minBuyPrice.get())) {
-                                minBuyPrice.set(x.buys.unitPrice);
+                unlockItems.forEach((key, value) -> {
+                    int unlockId = key;
+                    PriceEntry minSellPrice = null;
+                    PriceEntry minBuyPrice = null;
+                    for (int itemId : value) {
+                        if (prices.get(itemId).isPresent()) {
+                            PriceData x = prices.get(itemId).get();
+                            if (x.buys != null && (minBuyPrice == null || x.buys.unitPrice < minBuyPrice.getPrice())) {
+                                minBuyPrice = new PriceEntry(itemId, x.buys.unitPrice);
                             }
-                            if (x.sells != null && (minSellPrice.get() == 0 || x.sells.unitPrice < minSellPrice.get())) {
-                                minSellPrice.set(x.sells.unitPrice);
+                            if (x.sells != null && (minSellPrice == null || x.sells.unitPrice < minSellPrice.getPrice())) {
+                                minSellPrice = new PriceEntry(itemId, x.sells.unitPrice);
                             }
-
-                        });
+                        }
                     }
-                    Price price = new Price();
-                    if (minBuyPrice.get() > 0) {
-                        price.buyPrice = minBuyPrice.get();
-                    }
-                    if (minSellPrice.get() > 0) {
-                        price.sellPrice = minSellPrice.get();
-                    }
-                    if (price.sellPrice != null || price.buyPrice != null) {
-                        categoryPrices.put(unlockId, price);
+                    if (minSellPrice != null || minBuyPrice != null) {
+                        categoryPrices.put(unlockId, new TradingPostEntry(minSellPrice, minBuyPrice));
                     }
                 });
                 try (Writer writer = Files.newBufferedWriter(config.paths.getUnlockPricesPath().resolve(unlockCategory.id + ".json"))) {
@@ -122,8 +114,4 @@ public class PullCurrentPrices {
             }
         }
     }
-
-
-
-
 }

@@ -20,7 +20,7 @@ public class UnlockData {
     public String chatcode;
     public Set<String> sources;
     private List<VendorInfo> vendors;
-    public Price priceData;
+    public TradingPostEntry priceData;
 
     /**
      * @return The list of vendors from which this unlock can be purchased
