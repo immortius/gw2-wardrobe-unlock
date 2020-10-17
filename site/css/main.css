@@ -635,7 +635,7 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1674px -0px;
 }
-.unstablecosmicessence-icon {
+.unstablefractalessence-icon {
   background-image: url('../img/currencies.png');
   background-position: -1692px -0px;
 }
@@ -674,6 +674,10 @@ padding-right: 10px;
 .birthday8-icon {
 	background-image: url('../img/currencies.png');
   background-position: -1854px -0px;
+}
+.fractaljournal-icon {
+	background-image: url('../img/currencies.png');
+  background-position: -1872px -0px;
 }
 
 /* ==========================================================================

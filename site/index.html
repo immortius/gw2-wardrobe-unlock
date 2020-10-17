@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css?11">
+        <link rel="stylesheet" href="css/main.css?12">
 		<link id="rendering-mode" rel="stylesheet"  href="css/icon-mode.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -53,6 +53,7 @@
 					  <option value="setsell">Sets sorted by sell price</option>
 					  <option value="ls3">Living story 3 currency</option>
 					  <option value="ls4">Living story 4 currency</option>
+            <option value="ibs">Icebrood Saga currency</option>
 					  <option value="other">Other</option>
 					  <option value="advanced">Advanced</option>
 					</select>
@@ -150,6 +151,8 @@
 					<p>Calculates the cost to purchase <select id="analyse-selection" name="analyse-selection">
 					  <option value="all">Any</option>
 					  <option value="gwu">Guaranteed Wardrobe Unlock</option>
+            <option value="weapon">Guaranteed Weapon Unlock</option>
+            <option value="armor">Guaranteed Armor Unlock</option>
 					</select> skins beneath a desired value.</p>
 					<p>Desired minimum unlock value: <input type="text" id="min-gold-value" value="0"/><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
 					<select id="min-price-type" name="min-price-type">
@@ -409,7 +412,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js?39"></script>
+        <script src="js/main.js?41"></script>
 		
 		<script type="text/javascript">
 		    if ($(window.location.hash).length) {
