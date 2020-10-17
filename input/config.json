@@ -912,6 +912,7 @@
       "/wiki/Category:Festival_Merchants",
       "/wiki/Category:Services",
       "/wiki/Category:Guild_Initiative",
+      "/wiki/Category:Lunatic_Court",
       "/wiki/Category:The_Icebrood_Saga_content"
     ],
     "vendorPages": [
@@ -955,8 +956,9 @@
     "fractalrelic",
     "pristinefractalrelic",
     "goldenfractalrelic",
+    "fractaljournal",
     "integratedmatrix",
-    "unstablecosmicessence",
+    "unstablefractalessence",
     "guildcommendation",
     "pvplt",
     "wvwsct",

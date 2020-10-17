@@ -23,9 +23,10 @@ var acquisitionMethods = [
 	{ id : "fractalrelic", name : "Fractal Relic", category : "Fractals"},
 	{ id : "pristinefractalrelic", name : "Pristine Fractal Relic", category : "Fractals"},
 	{ id : "fractalresearchpage", name : "Fractal Research Page", category: "Fractals"},
+  { id : "fractaljournal", name : "Fractal Journal", category: "Fractals"},
 	{ id : "goldenfractalrelic", name : "Golden Fractal Relic", category : "Fractals"},
 	{ id : "integratedmatrix", name : "Integrated Fractal Matrix", category : "Fractals"},
-	{ id : "unstablecosmicessence", name : "Unstable Cosmic Essence", category : "Fractals"},
+	{ id : "unstablefractalessence", name : "Unstable Fractal Essence", category : "Fractals"},
 	{ id : "spiritshard", name : "Spirit Shard", category : "Standard Currency", hideOnIcon : true},
 	{ id : "guildcommendation", name : "Guild Commendation", category : "Standard Currency"},
 	{ id : "event", name : "Event", category : "Standard Acquisition"}, 
@@ -351,6 +352,8 @@ function updateFilter(displayMode, gwuOnly) {
 		$('.item').not('.ls3').toggleClass('hidden', true);
 	} else if (displayMode == 'ls4') {
 		$('.item').not('.ls4').toggleClass('hidden', true);
+  } else if (displayMode == 'ibs') {
+    $('.item').not('.ibs').toggleClass('hidden', true);
 	} else if (displayMode == 'other') {
 		$('.item.gold').toggleClass('hidden', true);
 		$('.item.karma').toggleClass('hidden', true);
@@ -358,6 +361,7 @@ function updateFilter(displayMode, gwuOnly) {
 		$('.item.boh').toggleClass('hidden', true);
 		$('.item.ls3').toggleClass('hidden', true);
 		$('.item.ls4').toggleClass('hidden', true);
+    $('.item.ibs').toggleClass('hidden', true);
 	} else if (displayMode == 'advanced') {
 		processAdvancedFilter();
 	}
@@ -834,6 +838,9 @@ function displayItem(itemData, id) {
 	}
 	if ($.inArray('volatilemagic', itemData.sources) != -1 || $.inArray('kralkatiteore', itemData.sources) != -1 || $.inArray('difluorite', itemData.sources) != -1 || $.inArray('swimspeedinfusion', itemData.sources) != -1 || $.inArray('mistonium', itemData.sources) != -1 || $.inArray('inscribedshard', itemData.sources) != -1) {
 		result += ' ls4';
+	}
+  if ($.inArray('hatchedchili', itemData.sources) != -1 || $.inArray('eternaliceshard', itemData.sources) != -1 || $.inArray('eitriteingot', itemData.sources) != -1) {
+		result += ' ibs';
 	}
 	if (itemData.image) {
 		result += ' icon';
