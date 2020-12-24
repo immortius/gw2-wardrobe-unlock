@@ -905,7 +905,7 @@
     ],
     "miniatureTypes" : ["Miniature"],
     "miniId" : "mini",
-    "noveltyTypes" : ["Novelty", "Tonic", "Gizmo"],
+    "noveltyTypes" : ["Novelty", "Tonic", "Gizmo", "Tonic, Novelty"],
     "noveltyId" : "novelty",
     "categoryPages": [
       "/wiki/Category:Vendors",
@@ -1030,6 +1030,7 @@
     "hatchedchili",
     "eternaliceshard",
     "eitriteingot",
-    "jorbreaker"
+    "jorbreaker",
+    "tyriandefenseseal"
   ]
 }

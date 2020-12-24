@@ -102,6 +102,7 @@ var acquisitionMethods = [
 	{ id : "hatchedchili", name : "Hatched Chili", category : "The Icebrood Saga"},
     { id : "eternaliceshard", name : "Eternal Ice Shard", category : "The Icebrood Saga"},
 	{ id : "eitriteingot", name: "Eitrite Ingot", category : "The Icebrood Saga"},
+  { id : "tyriandefenseseal", name: "Tyrian Defense Seal", category : "The Icebrood Saga"},
 	{ id : "shardofglory", name : "Shards of Glory", category : "Player vs Player"},
 	{ id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Player vs Player"},
 	{ id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", hideOnIcon : true, category : "Craftable"},
@@ -839,7 +840,7 @@ function displayItem(itemData, id) {
 	if ($.inArray('volatilemagic', itemData.sources) != -1 || $.inArray('kralkatiteore', itemData.sources) != -1 || $.inArray('difluorite', itemData.sources) != -1 || $.inArray('swimspeedinfusion', itemData.sources) != -1 || $.inArray('mistonium', itemData.sources) != -1 || $.inArray('inscribedshard', itemData.sources) != -1) {
 		result += ' ls4';
 	}
-  if ($.inArray('hatchedchili', itemData.sources) != -1 || $.inArray('eternaliceshard', itemData.sources) != -1 || $.inArray('eitriteingot', itemData.sources) != -1) {
+  if ($.inArray('hatchedchili', itemData.sources) != -1 || $.inArray('eternaliceshard', itemData.sources) != -1 || $.inArray('eitriteingot', itemData.sources) != -1 || $.inArray('tyriandefenseseal', itemData.sources) != -1) {
 		result += ' ibs';
 	}
 	if (itemData.image) {
