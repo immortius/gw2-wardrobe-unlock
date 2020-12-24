@@ -679,6 +679,10 @@ padding-right: 10px;
 	background-image: url('../img/currencies.png');
   background-position: -1872px -0px;
 }
+.tyriandefenseseal-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1890px -0px;
+}
 
 /* ==========================================================================
    Media Queries
