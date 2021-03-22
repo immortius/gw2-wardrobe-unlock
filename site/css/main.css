@@ -683,6 +683,14 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1890px -0px;
 }
+.exoticluck-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1908px -0px;
+}
+.legendaryluck-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1926px -0px;
+}
 
 /* ==========================================================================
    Media Queries
