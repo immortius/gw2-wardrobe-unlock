@@ -553,7 +553,41 @@
         // Toxic Boots
         9334, 9332,
         // Ice Golem's Cowl
-        9184, 9146
+        9184, 9146,
+        // Seven Reapers Grasps
+        9376, 9384,
+        // Immortal Fire Halo
+        9578, 9582,
+        // Bear Ceremonial Sandals
+        9385, 9390,
+        // Bear Ceremonial Leggings
+        9408, 9368,
+        // Aurene's Crystalline Diadem
+        9452, 9458,
+        // Blood Legion Soldier Helm
+        9429, 9436,
+        // Charr War Mask
+        9421, 9428,
+        // Stone Summit Pauldrons
+        9284, 9311,
+        // Bear Ceremonial Hood
+        9412, 9401,
+        // Immortal Light Halo
+        9570, 9574,
+        // Stone Summit Gauntlets
+        9262, 9279,
+        // Maguuma's Treads
+        9339, 9343,
+        // Sto,ne Summit Helmet
+        9277, 9248,
+        // Ice Reaver Pauldrons
+        9551, 9554,
+        // Ebon Vanguard Elite Shoulders Skin
+        9577, 9580,
+        // Stone Summit Boots
+        9327, 9316,
+        // Bear Ceremonial Garb
+        9369, 9365
       ]
     },
     {
@@ -792,7 +826,8 @@
       ],
       "gwuIncludeIds": [
         1456,
-        119
+        119,
+        586
       ]
     },
     {
@@ -1031,6 +1066,8 @@
     "eternaliceshard",
     "eitriteingot",
     "jorbreaker",
-    "tyriandefenseseal"
+    "tyriandefenseseal",
+    "exoticluck",
+    "legendaryluck"
   ]
 }

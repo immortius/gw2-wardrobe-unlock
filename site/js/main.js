@@ -19,6 +19,8 @@ var acquisitionMethods = [
 	{ id : "achievement", name : "Achievement", category : "Standard Acquisition"},
 	{ id : "globofectoplasm", name : "Glob of Ectoplasm", category : "Standard Acquisition", hideOnIcon : true},
 	{ id : "karkashell", name : "Karka Shell", category : "Standard Acquisition", hideOnIcon : true},
+    { id : "exoticluck", name: "Essence of Luck (Exotic)", category: "Standard Currency"},
+      { id : "legendaryluck", name: "Essence of Luck (Legendary)", category: "Standard Currency"},
     { id : "boh", name : "Badge of Honor", category : "World vs World"},
 	{ id : "fractalrelic", name : "Fractal Relic", category : "Fractals"},
 	{ id : "pristinefractalrelic", name : "Pristine Fractal Relic", category : "Fractals"},
@@ -213,7 +215,7 @@ function storageAvailable(type) {
 }
 
 function addAcquisitionFilters() {
-    var acquisitionDetails = $('#advanced-filter-section')
+  var acquisitionDetails = $('#advanced-filter-section')
 	var filterSections = {};
 
 	for (method of acquisitionMethods) {
@@ -228,6 +230,7 @@ function addAcquisitionFilters() {
 		filterSections[method.category] = section;
 	}
 	var filterContent = "<details open='true'><summary class='advanced-filter-summary'>Advanced Filters...</summary>";
+  filterContent += '<div class="filter-option"><div class="filter-label">Base Filter</div><div class="filter-selection-div"><select id="filter-base" name="filter-base" class="filter-selection-base"><option value="include" data-id="base">Include</option><option value="exclude" data-id="base" selected="selected">Exclude</option></select></div></div>'
 	Object.keys(filterSections).forEach(function(key,index) {
 		filterContent += filterSections[key];
 		filterContent += '</div>';
@@ -237,6 +240,10 @@ function addAcquisitionFilters() {
 	var filter = $('.filter-selection').change(function() {
 		updateFilter($('#filter-by-acquisition')[0].value, $('#gwu-toggle')[0].checked);
 	});
+  var filter = $('.filter-selection-base').change(function() {
+		updateFilter($('#filter-by-acquisition')[0].value, $('#gwu-toggle')[0].checked);
+	});
+  
 	
 }
 
@@ -260,7 +267,7 @@ function buildSite(data) {
 	updateCounts();
 	setupThresholdCalculator();
 	addAcquisitionFilters();
-    addAcquisitionDetails('');
+  addAcquisitionDetails('');
 	addAcquisitionDetails('analyse-');
 		
 	$('#api-key').change(function(event) {
@@ -408,13 +415,23 @@ function sortGroupsByName() {
 }
 
 function processAdvancedFilter() {
-	$('.item').toggleClass('hidden', true);
-	$(".filter-selection option:selected[value='include']").each(function (index, filter) { 
-		$('.item.' + $(filter).data("id")).toggleClass('hidden', false);
-	});
-	$(".filter-selection option:selected[value='exclude']").each(function (index, filter) { 
-		$('.item.' + $(filter).data("id")).toggleClass('hidden', true);
-	});
+  if ($(".filter-selection-base option:selected")[0].value == "include") {
+    $('.item').toggleClass('hidden', false);
+    $(".filter-selection option:selected[value='exclude']").each(function (index, filter) { 
+      $('.item.' + $(filter).data("id")).toggleClass('hidden', true);
+    });
+    $(".filter-selection option:selected[value='include']").each(function (index, filter) { 
+      $('.item.' + $(filter).data("id")).toggleClass('hidden', false);
+    });
+  } else {
+    $('.item').toggleClass('hidden', true);
+    $(".filter-selection option:selected[value='include']").each(function (index, filter) { 
+      $('.item.' + $(filter).data("id")).toggleClass('hidden', false);
+    });
+    $(".filter-selection option:selected[value='exclude']").each(function (index, filter) { 
+      $('.item.' + $(filter).data("id")).toggleClass('hidden', true);
+    });
+  }
 }
 
 function filterWithApiKey(key) {

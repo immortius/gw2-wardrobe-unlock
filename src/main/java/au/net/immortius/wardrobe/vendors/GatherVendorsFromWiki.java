@@ -279,7 +279,7 @@ public class GatherVendorsFromWiki {
             String costString = cost.attr("data-sort-value");
             Matcher matches = valueMatcher.matcher(costString);
             while (matches.find()) {
-                result.add(new CostComponent(convertCurrency(matches.group(1)), Integer.parseInt(matches.group(2), 10)));
+                convertCurrency(matches.group(1), Integer.parseInt(matches.group(2), 10)).ifPresent(result::add);
             }
         } else {
             Elements childDivs = cost.select("div");
@@ -296,14 +296,28 @@ public class GatherVendorsFromWiki {
 
     private Optional<CostComponent> extractCostComponent(Element cost) {
         try {
-            String type = convertCurrency(cost.select("a").attr("title"));
             String rawCost = cost.text().trim().split("&nbsp")[0].replace(",", "");
             int quantity = Integer.parseInt(rawCost);
-            return Optional.of(new CostComponent(type, quantity));
+            return convertCurrency(cost.select("a").attr("title"), quantity);
         } catch (NumberFormatException e) {
             logger.error("Not a valid cost string? \"{}\" of {}", cost.text(), cost.parent().text());
             return Optional.empty();
         }
+    }
+
+    private Optional<CostComponent> convertCurrency(String currency, int amount) {
+        String rawCurrency = currency.replaceAll(" ", "").replaceAll("'", "").toLowerCase(Locale.ENGLISH);
+        if ("gold".equals(rawCurrency)) {
+            amount *= 10000;
+            rawCurrency = "coin";
+        } else if ("silver".equals(rawCurrency)) {
+            amount *= 100;
+            rawCurrency = "coin";
+        }
+        if (currencyMap.containsKey(rawCurrency)) {
+            return Optional.of(new CostComponent(currencyMap.get(rawCurrency), amount));
+        }
+        return Optional.of(new CostComponent(rawCurrency, amount));
     }
 
     private Map<String, String> currencyMap = ImmutableMap.<String, String>builder()
@@ -339,16 +353,9 @@ public class GatherVendorsFromWiki {
             .put("ectoplasm","globofectoplasm")
             .put("blacklioncommemorativesprocket", "blsprocket")
             .put("blacklionminiatureclaimticket", "blmt")
+            .put("essenceofluck(exotic)", "exoticluck")
+            .put("essenceofluck(legendary)", "legendaryluck")
             .build();
-
-
-    private String convertCurrency(String currency) {
-        String rawCurrency = currency.replaceAll(" ", "").replaceAll("'", "").toLowerCase(Locale.ENGLISH);
-        if (currencyMap.containsKey(rawCurrency)) {
-            return currencyMap.get(rawCurrency);
-        }
-        return rawCurrency;
-    }
 
 
     private String getPage(PageType type, WikiUrl page) throws IOException {
