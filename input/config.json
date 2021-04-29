@@ -587,7 +587,17 @@
         // Stone Summit Boots
         9327, 9316,
         // Bear Ceremonial Garb
-        9369, 9365
+        9369, 9365,
+        // Fireworks Spaulders
+        9101, 9108,
+        // Conjured Starlight Hat
+        9695, 9699,
+        // Ice Reaver Gauntlets
+        9655, 9657,
+        // Bat Wings Headpiece
+        9640, 9649,
+        // Cat-Ear Hood
+        9613, 9614
       ]
     },
     {
