@@ -135,6 +135,20 @@ function setupThresholdCalculator() {
 	$('#analyse-selection').change(updateThresholdCalculation);
 }
 
+function loadTheme() {
+  if (storageAvailable('localStorage')) {
+    if (localStorage.getItem('theme')) {
+      let theme = localStorage.getItem('theme');
+      $('#rendering-theme-selection')[0].value = theme;
+      if (theme == 'light') {
+        $('#rendering-theme').attr('href', 'css/light-theme.css');
+      } else {
+        $('#rendering-theme').attr('href', 'css/dark-theme.css');
+      }
+    }
+  }
+}
+
 function updateThresholdCalculation() {
 	var itemLookup;
 	if ($('#min-price-type')[0].value == 'buy') {
@@ -305,6 +319,15 @@ function buildSite(data) {
 			$('#rendering-mode').attr('href', 'css/text-mode.css');
 		}
 	});
+  
+  $('#rendering-theme-selection').change(function() {
+    if (this.value == 'light') {
+      $('#rendering-theme').attr('href', 'css/light-theme.css');
+    } else {
+      $('#rendering-theme').attr('href', 'css/dark-theme.css');
+    }
+    localStorage.setItem('theme', this.value);
+  });
 	
 	$('#gwu-toggle').change(function() {
 		updateFilter($('#filter-by-acquisition')[0].value, this.checked);
@@ -327,6 +350,7 @@ function buildSite(data) {
 		$('#filter-by-acquisition')[0].value = filter;
 		$('#gwu-toggle')[0].checked = gwuOnly;
 		updateFilter(filter, gwuOnly)
+    
 	}
 }
 

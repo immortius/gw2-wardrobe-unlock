@@ -10,7 +10,8 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css?13">
-		<link id="rendering-mode" rel="stylesheet"  href="css/icon-mode.css">
+        <link id="rendering-mode" rel="stylesheet"  href="css/icon-mode.css">
+        <link id="rendering-theme" rel="stylesheet"  href="css/light-theme.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -60,6 +61,10 @@
 					<select id="rendering-mode-selection" name="rendering-mode">
 					  <option value="icon">Icons</option>
 					  <option value="text">Text</option>
+					</select>
+          <select id="rendering-theme-selection" name="rendering-theme">
+					  <option value="light">Light Theme</option>
+					  <option value="dark">Dark Theme</option>
 					</select>
 					<div>
 					<input id="gwu-toggle" type="checkbox">
@@ -423,6 +428,7 @@
 			}
 		 
 			$(function() {
+        loadTheme();
 				$.get('./data/content.json', function(responseText) {
 					buildSite(responseText);
 				});
