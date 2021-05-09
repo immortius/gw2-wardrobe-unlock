@@ -1,0 +1,12 @@
+html {
+    color: #DDD;
+    background-color: #222;
+}
+
+:link {
+  color: #ADF;
+}
+
+:visited {
+  color: #CAF;
+}
