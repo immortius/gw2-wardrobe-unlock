@@ -578,7 +578,7 @@
         9262, 9279,
         // Maguuma's Treads
         9339, 9343,
-        // Sto,ne Summit Helmet
+        // Stone Summit Helmet
         9277, 9248,
         // Ice Reaver Pauldrons
         9551, 9554,
@@ -597,7 +597,23 @@
         // Bat Wings Headpiece
         9640, 9649,
         // Cat-Ear Hood
-        9613, 9614
+        9613, 9614,
+        // Holographic Dragon Shoulders
+        9457, 9460,
+        // Seven Reapers Pauldrons
+        9890, 9891,
+        // Virtual Box
+        9349, 9355,
+        // Aurene's Crystalline Claws
+        9954, 9960,
+        // Tempest Gaze
+        9789, 9790,
+        // Ice Reaver Greaves
+        9794, 9823,
+        // Stylish Shoes
+        9733, 9757,
+        // Dusk and Dawn Shoulders
+        9796, 9817
       ]
     },
     {

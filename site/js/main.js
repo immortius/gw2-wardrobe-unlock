@@ -37,7 +37,7 @@ var acquisitionMethods = [
 	{ id : "pvptournament", name : "PvP Automated Tournament", category : "Player vs Player"},
 	{ id : "wvwsct", name : "WvW Skirmish Claim Ticket", category : "World vs World"},
 	{ id : "memoryofbattle", name : "Memory of Battle", category : "World vs World"},
-	{ id : 'deluxe', name : "Deluxe Edition", category : "Purchase"},
+	{ id : 'deluxe', name : "Edition Bonus", category : "Purchase"},
     { id : 'hallofmonuments', name : "Hall of Monuments (GW1)", category : "Purchase"},
     { id : 'blacklionchest', name : "Black Lion Chest", category : "Black Lion"},
 	{ id : "bls", name : "Black Lion Statuette", category : "Black Lion"},
@@ -156,8 +156,15 @@ function updateThresholdCalculation() {
 	} else {
 		itemLookup = sellPriceLookup;
 	}
-	var allItems = ($('#analyse-selection')[0].value == 'all')
-	console.log('allItems ' + allItems)
+  
+  var filter = function (data) {return true;}
+	if ($('#analyse-selection')[0].value == 'gwu') {
+    filter = function(data) {return data.gwu;}
+  } else if ($('#analyse-selection')[0].value == 'armor') {
+    filter = function(data) {return data.gwu && data.section == 'armor';}
+  } else if ($('#analyse-selection')[0].value == 'weapon') {   
+    filter = function(data) {return data.gwu && data.section == 'weapon';}
+  }
 	
 	$("div[id*=list-entry-]").remove();
 	
@@ -171,7 +178,7 @@ function updateThresholdCalculation() {
 			for (var itemId in sectionItems) {
 				if (sectionItems.hasOwnProperty(itemId) && !isUnlocked(section, itemId)) {
 					var data = sectionItems[itemId];
-					if (!isNaN(data.price) && data.price < threshold && (allItems || data.gwu)) {
+					if (!isNaN(data.price) && data.price < threshold && filter(data)) {
 						data.section = section;
 						totalCost += data.price;
 						total++;
