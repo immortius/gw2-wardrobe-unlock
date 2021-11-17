@@ -71,6 +71,7 @@ var acquisitionMethods = [
 	{ id : "birthday6", name : "Sixth Birthday", category : "Birthday"},
 	{ id : "birthday7", name : "Seventh Birthday", category : "Birthday"},
   { id : "birthday8", name : "Eighth Birthday", category : "Birthday"},
+  { id : "birthday9", name : "Ninth Birthday", category : "Birthday"},
     { id : "airshippart", name : "Airship Part", category : "Heart of Thorns"},
 	{ id : "aurillium", name : "Lump of Aurillium", category : "Heart of Thorns"},
 	{ id : "leylinecrystal", name : "Ley Line Crystal", category : "Heart of Thorns"},
