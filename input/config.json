@@ -613,7 +613,23 @@
         // Stylish Shoes
         9733, 9757,
         // Dusk and Dawn Shoulders
-        9796, 9817
+        9796, 9817,
+        // Ice Reaver Chestguard 
+        10002, 10004,
+        // Ice Reaver Legguards 
+        10000, 10001,
+        // Shatterspark Shoulders 
+        10006, 10007,
+        // Sun-Blessed Vision 
+        9544, 9546,
+        // Pyre Horns 
+        10019, 10020,
+        // Festive Winter Hood 
+        9731, 9742,
+        // Ice Reaver Helm 
+        9989, 9996,
+        // Shatterspark Gloves 
+        10016, 10018
       ]
     },
     {
@@ -848,7 +864,7 @@
       ],
       "colorBased": true,
       "gwuIgnoreIds": [
-        //1622
+        1682, 1683, 1684, 1685, 1686, 1688,
       ],
       "gwuIncludeIds": [
         1456,

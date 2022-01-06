@@ -3,6 +3,7 @@ package au.net.immortius.wardrobe.gw2api;
 import au.net.immortius.wardrobe.util.NioUtils;
 import com.google.common.base.Charsets;
 import com.google.common.base.Joiner;
+import com.google.common.collect.EvictingQueue;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.Lists;
 import com.google.gson.*;
@@ -10,12 +11,14 @@ import com.google.gson.stream.JsonWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.ws.rs.ClientErrorException;
 import javax.ws.rs.InternalServerErrorException;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.core.GenericType;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.LocalDateTime;
 import java.util.Collection;
 import java.util.List;
 import java.util.Set;
@@ -29,17 +32,22 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Will do concurrent downloads where multiple pages are needed.
  */
 public class ApiCacher {
+    public static final int MINUTE_MS = 60000;
     private static Logger logger = LoggerFactory.getLogger(ApiCacher.class);
 
     private static GenericType<Set<Integer>> ID_COLLECTION_TYPE = new GenericType<Set<Integer>>() {
     };
 
+    private static final int RATE_LIMIT = 300;
+
     private static Joiner COMMA_JOINER = Joiner.on(',');
 
     private Gson gson;
     private Client client;
-    private int concurrency = 4;
+    private int concurrency = 2;
     private int pageSize = 50;
+
+    private static final EvictingQueue<Long> callTimes = EvictingQueue.create(RATE_LIMIT);
 
     /**
      * @param gson The gson instance to use to load the data
@@ -100,9 +108,12 @@ public class ApiCacher {
      */
     public Set<Integer> availableIds(String apiUrl) {
         try {
+            applyRateLimit();
             return client.target(apiUrl).request().get(ID_COLLECTION_TYPE);
         }  catch (InternalServerErrorException e) {
             throw new RuntimeException("Failed to download api ids for '" + apiUrl + "'", e);
+        } catch (InterruptedException e) {
+            throw new RuntimeException("Interrupted downloading api ids for '" + apiUrl + "'", e);
         }
     }
 
@@ -175,6 +186,7 @@ public class ApiCacher {
 
     private void retrieveAndSave(String url, Path baseSavePath, AtomicInteger downloadCounter) {
         try {
+            applyRateLimit();
             String json = client.target(url).request().get(String.class);
             JsonParser parser = new JsonParser();
             JsonElement root = parser.parse(json);
@@ -191,6 +203,22 @@ public class ApiCacher {
             }
         } catch (RuntimeException e) {
             logger.error("Failed bulk retrieval of {}", url, e);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
+
+    private void applyRateLimit() throws InterruptedException {
+        synchronized (callTimes) {
+            if (callTimes.size() == RATE_LIMIT) {
+                long earliestCall = callTimes.peek();
+                long diff = System.currentTimeMillis() - earliestCall;
+                while (diff < MINUTE_MS) {
+                    Thread.sleep(MINUTE_MS - diff);
+                    diff = System.currentTimeMillis() - earliestCall;
+                }
+            }
+            callTimes.add(System.currentTimeMillis());
         }
     }
 

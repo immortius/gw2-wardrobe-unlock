@@ -392,6 +392,8 @@ function updateFilter(displayMode, gwuOnly) {
 		$('.item').not('.ls3').toggleClass('hidden', true);
 	} else if (displayMode == 'ls4') {
 		$('.item').not('.ls4').toggleClass('hidden', true);
+	} else if (displayMode == 'free') {
+		$('.item').not('.story,.achievement').toggleClass('hidden', true);
   } else if (displayMode == 'ibs') {
     $('.item').not('.ibs').toggleClass('hidden', true);
 	} else if (displayMode == 'other') {
