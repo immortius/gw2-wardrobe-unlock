@@ -888,7 +888,7 @@ function displayItem(itemData, id) {
 	if ($.inArray('winterberries', itemData.sources) != -1 || $.inArray('unboundmagic', itemData.sources) != -1 || $.inArray('petrifiedwood', itemData.sources) != -1 || $.inArray('fireorchidblossom', itemData.sources) != -1 || $.inArray('orrianpearl', itemData.sources) != -1 || $.inArray('jadeshard', itemData.sources) != -1) {
 		result += ' ls3';
 	}
-	if ($.inArray('volatilemagic', itemData.sources) != -1 || $.inArray('kralkatiteore', itemData.sources) != -1 || $.inArray('difluorite', itemData.sources) != -1 || $.inArray('swimspeedinfusion', itemData.sources) != -1 || $.inArray('mistonium', itemData.sources) != -1 || $.inArray('inscribedshard', itemData.sources) != -1) {
+	if ($.inArray('volatilemagic', itemData.sources) != -1 || $.inArray('kralkatiteore', itemData.sources) != -1 || $.inArray('difluorite', itemData.sources) != -1 || $.inArray('swimspeedinfusion', itemData.sources) != -1 || $.inArray('mistonium', itemData.sources) != -1 || $.inArray('inscribedshard', itemData.sources) != -1 || $.inArray('brandedmass', itemData.sources) != -1 || $.inArray('mistbornmote', itemData.sources) != -1) {
 		result += ' ls4';
 	}
   if ($.inArray('hatchedchili', itemData.sources) != -1 || $.inArray('eternaliceshard', itemData.sources) != -1 || $.inArray('eitriteingot', itemData.sources) != -1 || $.inArray('tyriandefenseseal', itemData.sources) != -1) {
