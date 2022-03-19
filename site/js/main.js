@@ -106,6 +106,16 @@ var acquisitionMethods = [
     { id : "eternaliceshard", name : "Eternal Ice Shard", category : "The Icebrood Saga"},
 	{ id : "eitriteingot", name: "Eitrite Ingot", category : "The Icebrood Saga"},
   { id : "tyriandefenseseal", name: "Tyrian Defense Seal", category : "The Icebrood Saga"},
+	{ id : "imperialfavor", name: "Imperial Favor", category : "End of Dragons"},
+	{ id : "researchnote", name: "Research Note", category : "End of Dragons"},
+	{ id : "writofseitungprovince", name: "Writ of Seitung Province", category : "End of Dragons"},
+	{ id : "writofnewkainengcity", name: "Writ of Kaineng City", category : "End of Dragons"},
+	{ id : "writofechovaldwilds", name: "Writ of Echovald Wilds", category : "End of Dragons"},
+	{ id : "greenprophetshard", name: "Green Prophet Shard", category : "End of Dragons"},
+	{ id : "unusualcoin", name: "Unusual Coin", category : "End of Dragons"},
+	{ id : "canachcoin", name: "Canach Coin", category : "End of Dragons"},
+	{ id : "pieceofcrustaceanmeat", name: "Piece of Crustacean Meat", category : "End of Dragons"},
+	{ id : "flawlessfishfillet", name: "Flawless Fish Fillet", category : "End of Dragons"},
 	{ id : "shardofglory", name : "Shards of Glory", category : "Player vs Player"},
 	{ id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Player vs Player"},
 	{ id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", hideOnIcon : true, category : "Craftable"},
@@ -113,7 +123,9 @@ var acquisitionMethods = [
 	{ id : "grandmasterhuntsmanmark", name : "Grandmaster Huntsman's Mark", hideOnIcon : true, category : "Craftable"},
 	{ id : "grandmastertailorsmark", name : "Grandmaster Tailor's Mark", hideOnIcon : true, category : "Craftable"},
 	{ id : "grandmasterleatherworkersmark", name : "Grandmaster Leatherworker's Mark", hideOnIcon : true, category : "Craftable"},
-	{ id : "grandmasterarmorsmithsmark", name : "Grandmaster Armorsmith's Mark", hideOnIcon : true, category : "Craftable"}];
+	{ id : "grandmasterarmorsmithsmark", name : "Grandmaster Armorsmith's Mark", hideOnIcon : true, category : "Craftable"},
+	{ id : "eod", name : "End Of Dragons", hideOnIcon : true, hideOnDetails : true, category : "Highlights"}]
+	;
 	
 var acquisitionMethodsLookup = {}
 for (method of acquisitionMethods) { acquisitionMethodsLookup[method.id] = method }
@@ -241,16 +253,18 @@ function addAcquisitionFilters() {
 	var filterSections = {};
 
 	for (method of acquisitionMethods) {
-		var section = filterSections[method.category];
-		if (section == null) {
-			section = '<div class="filter-group"><h3>' + method.category + '</h3>';
-		}
-		section += '<div class="filter-option">';
-		section += '<span class="base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"></span>';
-		section += '<div class="filter-label">' + method.name + '</div>';
-		section += '<div class="filter-selection-div"><select id="filter-' + method.id + '" name="filter-' + method.name + '" class="filter-selection"><option value="ignore"></option><option value="include" data-id="' + method.id + '">Include</option><option value="exclude" data-id="' + method.id + '">Exclude</option></select></div></div>';
-		filterSections[method.category] = section;
-	}
+      if (!method.hideOnDetails) {
+        var section = filterSections[method.category];
+        if (section == null) {
+          section = '<div class="filter-group"><h3>' + method.category + '</h3>';
+        }
+        section += '<div class="filter-option">';
+        section += '<span class="base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"></span>';
+        section += '<div class="filter-label">' + method.name + '</div>';
+        section += '<div class="filter-selection-div"><select id="filter-' + method.id + '" name="filter-' + method.name + '" class="filter-selection"><option value="ignore"></option><option value="include" data-id="' + method.id + '">Include</option><option value="exclude" data-id="' + method.id + '">Exclude</option></select></div></div>';
+        filterSections[method.category] = section;
+      }
+}
 	var filterContent = "<details open='true'><summary class='advanced-filter-summary'>Advanced Filters...</summary>";
   filterContent += '<div class="filter-option"><div class="filter-label">Base Filter</div><div class="filter-selection-div"><select id="filter-base" name="filter-base" class="filter-selection-base"><option value="include" data-id="base">Include</option><option value="exclude" data-id="base" selected="selected">Exclude</option></select></div></div>'
 	Object.keys(filterSections).forEach(function(key,index) {
@@ -272,7 +286,9 @@ function addAcquisitionFilters() {
 function addAcquisitionDetails(prefix) {
     var acquisitionDetails = $('#' + prefix + 'selection-acquisition-methods')
     for (method of acquisitionMethods) {
-        acquisitionDetails.append('<div id="' + prefix + 'acquisition-' + method.id + '"><span class="base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"/></span>' + method.name)
+		if (!method.hideOnDetails) {
+          acquisitionDetails.append('<div id="' + prefix + 'acquisition-' + method.id + '"><span class="base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"/></span>' + method.name)
+		}
     }
 }
 
@@ -394,8 +410,10 @@ function updateFilter(displayMode, gwuOnly) {
 		$('.item').not('.ls4').toggleClass('hidden', true);
 	} else if (displayMode == 'free') {
 		$('.item').not('.story,.achievement').toggleClass('hidden', true);
-  } else if (displayMode == 'ibs') {
-    $('.item').not('.ibs').toggleClass('hidden', true);
+    } else if (displayMode == 'ibs') {
+        $('.item').not('.ibs').toggleClass('hidden', true);
+	} else if (displayMode == 'eod') {
+		$('.item').not('.eod').toggleClass('hidden', true);
 	} else if (displayMode == 'other') {
 		$('.item.gold').toggleClass('hidden', true);
 		$('.item.karma').toggleClass('hidden', true);
@@ -403,7 +421,7 @@ function updateFilter(displayMode, gwuOnly) {
 		$('.item.boh').toggleClass('hidden', true);
 		$('.item.ls3').toggleClass('hidden', true);
 		$('.item.ls4').toggleClass('hidden', true);
-    $('.item.ibs').toggleClass('hidden', true);
+        $('.item.ibs').toggleClass('hidden', true);
 	} else if (displayMode == 'advanced') {
 		processAdvancedFilter();
 	}
@@ -822,7 +840,7 @@ function buildSectionGroups(sectionData) {
 			var buyTotal = calculateTotalValue(groupData.content, getBuyPrice);
 			var sellTotal = calculateTotalValue(groupData.content, getSellPrice);
 
-			var group = '<div class="group" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + groupIndex + '"><h3>' + groupData.groupName + '</h3>';
+			var group = '<div class="group" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + groupIndex + '"><h3>' + htmlEscape(groupData.groupName) + '</h3>';
 			group += '<div class="section-body">';
 			group += populateContent(groupData.content, sectionData.id);
 			group += '</div></div>';
@@ -928,7 +946,7 @@ function populateContent(content, typeId) {
 		if (itemData.color) {
 			item += '<div class="swatch" style="background-color: ' + itemData.color + ';"></div>';
 		}
-		item += '<div class="name">' + itemData.name + '</div>';
+		item += '<div class="name">' + htmlEscape(itemData.name) + '</div>';
 		item += '<div class="sources">';
 		item += addSources(itemData);
 		item += '</div>';
@@ -1042,4 +1060,8 @@ function showDetails(item, prefix) {
 			$('#' + prefix + 'selection-sell-copper').text('-');
 		}
 	}
+}
+
+function htmlEscape(text) {
+	return text.replace('<', '&lt;');
 }

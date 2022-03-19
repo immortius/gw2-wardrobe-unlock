@@ -62,7 +62,7 @@
       "bulkSupported": true
     },
     {
-      "baseUrl": "https://api.guildwars2.com/v2/recipes",
+      "baseUrl": "",
       "cachePath": "recipes",
       "bulkSupported": false
     },
@@ -1002,7 +1002,9 @@
       "/wiki/Black_Lion_Commemorative_Sprocket",
       "/wiki/Mercenary_(Skirmish_Merchant)",
       "/wiki/Black_Lion_Statuette",
-      "/wiki/Black_Lion_Miniature_Claim_Ticket"
+      "/wiki/Black_Lion_Miniature_Claim_Ticket",
+      "/wiki/Black_Lion_Claim_Ticket",
+      "/wiki/Myung-Hee"
     ],
     "ignorePages" : [
       "/wiki/List_of_karma_merchant_items",
@@ -1112,6 +1114,16 @@
     "jorbreaker",
     "tyriandefenseseal",
     "exoticluck",
-    "legendaryluck"
+    "legendaryluck",
+    "imperialfavor",
+    "unusualcoin",
+    "canachcoin",
+    "greenprophetshard",
+    "writofseitungprovince",
+    "writofnewkainengcity",
+    "writofechovaldwilds",
+    "pieceofcrustaceanmeat",
+    "flawlessfishfillet",
+    "researchnote"
   ]
 }

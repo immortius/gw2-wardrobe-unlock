@@ -21,8 +21,8 @@ dependencies {
 	implementation 'io.gsonfire:gson-fire:1.8.3'
 
     // Http handling
-    implementation 'org.glassfish.jersey.core:jersey-client:2.27'
-	implementation 'org.glassfish.jersey.inject:jersey-hk2:2.27'
+    implementation 'org.glassfish.jersey.core:jersey-client:2.35'
+	implementation 'org.glassfish.jersey.inject:jersey-hk2:2.35'
 
     // Html handling
     implementation 'org.jsoup:jsoup:1.11.3'

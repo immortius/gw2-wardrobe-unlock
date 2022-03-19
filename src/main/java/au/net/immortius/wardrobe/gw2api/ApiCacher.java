@@ -13,6 +13,8 @@ import org.slf4j.LoggerFactory;
 
 import javax.ws.rs.ClientErrorException;
 import javax.ws.rs.InternalServerErrorException;
+import javax.ws.rs.ProcessingException;
+import javax.ws.rs.ServiceUnavailableException;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.core.GenericType;
 import java.io.IOException;
@@ -20,6 +22,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.time.LocalDateTime;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
@@ -114,6 +117,12 @@ public class ApiCacher {
             throw new RuntimeException("Failed to download api ids for '" + apiUrl + "'", e);
         } catch (InterruptedException e) {
             throw new RuntimeException("Interrupted downloading api ids for '" + apiUrl + "'", e);
+        } catch (ServiceUnavailableException e) {
+            logger.info("API current disabled for {}", apiUrl);
+            return Collections.emptySet();
+        } catch (ProcessingException e) {
+            logger.info("Failed to parse result for {}", apiUrl);
+            throw new RuntimeException(e);
         }
     }
 

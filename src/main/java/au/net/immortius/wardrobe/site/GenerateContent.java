@@ -182,7 +182,7 @@ public class GenerateContent {
         // Residual group
         if (!unlockDataMap.isEmpty()) {
             ListMultimap<String, Integer> suggestedGroups = ArrayListMultimap.create();
-            unlockDataMap.forEach((key, value) -> suggestedGroups.put(value.name.split(" ")[0], key));
+            unlockDataMap.forEach((key, value) -> suggestedGroups.put(value.name.split(" ")[0] + value.name.split(" ")[1], key));
             for (String suggestedGroup : suggestedGroups.keySet()) {
                 List<Integer> ids = suggestedGroups.get(suggestedGroup);
                 if (ids.size() > 2) {
@@ -263,23 +263,15 @@ public class GenerateContent {
                         unlock = unlockDataMap.get(item.id);
                     }
                     if (unlock != null) {
-                        boolean duplicateVendor = false;
-                        for (VendorInfo existingVendor : unlock.getVendors()) {
-                            if (existingVendor.vendorName.equals(vendor.name)) {
-                                duplicateVendor = true;
-                                break;
-                            }
-                        }
-                        if (duplicateVendor) {
-                            continue;
-                        }
                         List<String> unsupportedCurrencies = item.cost.stream().map(x -> x.type).filter(x -> !config.supportedCurrencies.contains(x)).collect(Collectors.toList());
                         if (unsupportedCurrencies.isEmpty()) {
                             VendorInfo vendorEntry = new VendorInfo();
                             vendorEntry.vendorName = vendor.name;
                             vendorEntry.vendorUrl = vendor.url;
                             vendorEntry.cost = item.cost;
-                            unlock.getVendors().add(vendorEntry);
+                            if (!unlock.getVendors().contains(vendorEntry)) {
+                                unlock.getVendors().add(vendorEntry);
+                            }
                         } else {
                             allUnsupportedCurrencies.addAll(unsupportedCurrencies);
                         }

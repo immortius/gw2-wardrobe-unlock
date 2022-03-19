@@ -3,6 +3,7 @@ package au.net.immortius.wardrobe.gw2api;
 import au.net.immortius.wardrobe.config.CacheConfig;
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.util.GsonJsonProvider;
+import com.google.common.base.Strings;
 import com.google.gson.Gson;
 import io.gsonfire.GsonFireBuilder;
 import org.slf4j.Logger;
@@ -30,6 +31,7 @@ public class CacheApi {
     public CacheApi(Config config) {
         this.client = ClientBuilder.newClient();
         this.client.register(GsonJsonProvider.class);
+
         this.gson = new GsonFireBuilder().createGson();
         this.config = config;
     }
@@ -48,7 +50,9 @@ public class CacheApi {
         ApiCacher cacher = new ApiCacher(gson, client);
 
         for (CacheConfig apiCache : config.apiCaches) {
-            cacher.cache(apiCache.getBaseUrl(), config.paths.getApiPath().resolve(apiCache.getCachePath()), apiCache.isBulkSupported());
+            if (!Strings.isNullOrEmpty(apiCache.getBaseUrl())) {
+                cacher.cache(apiCache.getBaseUrl(), config.paths.getApiPath().resolve(apiCache.getCachePath()), apiCache.isBulkSupported());
+            }
         }
     }
 }

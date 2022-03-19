@@ -695,6 +695,50 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1944px -0px;
 }
+.imperialfavor-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1962px -0px;
+}
+.pieceofcrustaceanmeat-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1980px -0px;
+}
+.flawlessfishfillet-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1998px -0px;
+}
+.canachcoin-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -2016px -0px;
+}
+.writofseitungprovince-icon {
+  background-image: url('../img/currencies.png');
+  background-position: 0px -18px;
+}
+.writofnewkainengcity-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -18px -18px;
+}
+.writofechovaldwilds-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -36px -18px;
+}
+.writofdragonsend-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -54px -18px;
+}
+.greenprophetshard-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -72px -18px;
+}
+.unusualcoin-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -90px -18px;
+}
+.researchnote-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -108px -18px;
+}
 
 /* ==========================================================================
    Media Queries
