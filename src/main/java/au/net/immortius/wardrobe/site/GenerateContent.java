@@ -182,7 +182,13 @@ public class GenerateContent {
         // Residual group
         if (!unlockDataMap.isEmpty()) {
             ListMultimap<String, Integer> suggestedGroups = ArrayListMultimap.create();
-            unlockDataMap.forEach((key, value) -> suggestedGroups.put(value.name.split(" ")[0] + value.name.split(" ")[1], key));
+            unlockDataMap.forEach((key, value) -> {
+                String[] words = value.name.split(" ");
+                if (words.length > 1) {
+                    suggestedGroups.put(words[0] + " " + words[1], key);
+                }
+                suggestedGroups.put(words[0], key);
+            });
             for (String suggestedGroup : suggestedGroups.keySet()) {
                 List<Integer> ids = suggestedGroups.get(suggestedGroup);
                 if (ids.size() > 2) {
