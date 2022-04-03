@@ -1,5 +1,6 @@
 package au.net.immortius.wardrobe.site;
 
+import au.net.immortius.wardrobe.config.CategoryDefinitions;
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.Grouping;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
@@ -145,27 +146,31 @@ public class GenerateContent {
 
     private List<UnlockGroupData> categorizeUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
 
+        Path groupsFile = config.paths.getGroupsPath().resolve(unlockCategoryConfig.id + ".json");
+
         List<UnlockGroupData> groups = Lists.newArrayList();
-        try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.baseInputPath.resolve(unlockCategoryConfig.id + "-groups"))) {
-            for (Path groupFile : ds) {
-                try (Reader groupReader = Files.newBufferedReader(groupFile)) {
-                    Grouping groupDef = gson.fromJson(groupReader, Grouping.class);
-                    UnlockGroupData itemGroup = new UnlockGroupData();
-                    itemGroup.groupName = groupDef.name;
-                    itemGroup.content = Lists.newArrayList();
-                    for (Integer id : groupDef.contents) {
-                        UnlockData unlock = unlockDataMap.remove(id);
-                        if (unlock != null) {
-                            itemGroup.content.add(unlock);
+        if (Files.exists(groupsFile)) {
+            try (Reader reader = Files.newBufferedReader(groupsFile)) {
+                CategoryDefinitions categoryDefinitions = gson.fromJson(reader, CategoryDefinitions.class);
+                if (categoryDefinitions.directGroups != null) {
+                    for (Grouping grouping : categoryDefinitions.directGroups) {
+                        UnlockGroupData itemGroup = new UnlockGroupData();
+                        itemGroup.groupName = grouping.name;
+                        itemGroup.content = Lists.newArrayList();
+                        for (Integer id : grouping.contents) {
+                            UnlockData unlock = unlockDataMap.remove(id);
+                            if (unlock != null) {
+                                itemGroup.content.add(unlock);
+                            }
                         }
+                        itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity)
+                                .thenComparing(a -> a.name)
+                                .thenComparing(a -> a.id));
+                        groups.add(itemGroup);
                     }
-                    itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity)
-                            .thenComparing(a -> a.name)
-                            .thenComparing(a -> a.id));
-                    groups.add(itemGroup);
-                } catch (JsonSyntaxException e) {
-                    logger.error("Failed to read {}", groupFile, e);
                 }
+            } catch (JsonSyntaxException e) {
+                logger.error("Failed to read {}", groupsFile, e);
             }
         }
 

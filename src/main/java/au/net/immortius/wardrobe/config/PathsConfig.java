@@ -26,6 +26,7 @@ public class PathsConfig {
     public Path siteImagePath;
     public Path siteDataPath;
     private Path relativeWikiCachePath;
+    private Path relativeGroupsPath;
 
     public Path getApiPath() {
         return baseCachePath.resolve(apiRelativePath);
@@ -78,5 +79,7 @@ public class PathsConfig {
     }
 
     public Path getWikiCachePath() { return baseCachePath.resolve(relativeWikiCachePath); }
+
+    public Path getGroupsPath() { return baseInputPath.resolve(relativeGroupsPath); }
 
 }
