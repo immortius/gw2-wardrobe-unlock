@@ -191,6 +191,13 @@ summary {
   background: #600;
 }
 
+.category-header { 
+  padding: .25rem;
+  color: #fff;
+  width: 95%;
+  font-size: 24px;
+}
+
 .color {
 	//background-image: url("../img/splat.png");
 	//background-repeat: no-repeat;

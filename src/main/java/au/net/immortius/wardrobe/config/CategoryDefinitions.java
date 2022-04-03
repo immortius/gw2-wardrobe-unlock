@@ -1,8 +1,24 @@
 package au.net.immortius.wardrobe.config;
 
-import java.util.List;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Set;
 
 public class CategoryDefinitions {
-    public List<Category> topLevelCategories;
-    public List<Grouping> directGroups;
+    private Map<String, Map<String, Set<Integer>>> topLevelCategories;
+    private Map<String, Set<Integer>> directGroups;
+
+    public Map<String, Map<String, Set<Integer>>> getTopLevelCategories() {
+        if (topLevelCategories == null) {
+            topLevelCategories = new LinkedHashMap<>();
+        }
+        return topLevelCategories;
+    }
+
+    public Map<String, Set<Integer>> getDirectGroups() {
+        if (directGroups == null) {
+            directGroups = new LinkedHashMap<>();
+        }
+        return directGroups;
+    }
 }

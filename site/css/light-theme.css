@@ -10,3 +10,7 @@ html {
 :visited {
   color: #551A8B;
 }
+
+.category-header { 
+  color: #000;
+}

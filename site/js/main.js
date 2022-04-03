@@ -279,8 +279,6 @@ function addAcquisitionFilters() {
   var filter = $('.filter-selection-base').change(function() {
 		updateFilter($('#filter-by-acquisition')[0].value, $('#gwu-toggle')[0].checked);
 	});
-  
-	
 }
 
 function addAcquisitionDetails(prefix) {
@@ -450,18 +448,25 @@ function sortGroupsByBuyTotal() {
 	$('.section-groups').each(function (index, section) {
 		$(section.children).sort(function (a, b) { return parseInt(a.dataset.buyTotal) - parseInt(b.dataset.buyTotal); }).appendTo(section)
 	});
-	
+	$('.category-groups').each(function (index, section) {
+		$(section.children).sort(function (a, b) { return parseInt(a.dataset.buyTotal) - parseInt(b.dataset.buyTotal); }).appendTo(section)
+	});	
 }
 
 function sortGroupsBySellTotal() {
 	$('.section-groups').each(function (index, section) {
 		$(section.children).sort(function (a, b) { return parseInt(a.dataset.sellTotal) - parseInt(b.dataset.sellTotal); }).appendTo(section)
 	});
-	
+	$('.category-groups').each(function (index, section) {
+		$(section.children).sort(function (a, b) { return parseInt(a.dataset.sellTotal) - parseInt(b.dataset.sellTotal); }).appendTo(section)
+	});
 }
 
 function sortGroupsByName() {
 	$('.section-groups').each(function (index, section) {
+		$(section.children).sort(function (a, b) { return a.dataset.ordering - b.dataset.ordering; }).appendTo(section)
+	});
+	$('.category-groups').each(function (index, section) {
 		$(section.children).sort(function (a, b) { return a.dataset.ordering - b.dataset.ordering; }).appendTo(section)
 	});
 }
@@ -680,10 +685,14 @@ function buildSections() {
 }
 
 function populateGroupNames(sectionData) {
-	for (var groupIndex = 0; groupIndex < sectionData.groups.length; ++groupIndex) {
-		var groupName = sectionData.groups[groupIndex].groupName;
-		for (var itemIndex = 0; itemIndex < sectionData.groups[groupIndex].content.length; ++itemIndex) {
-			sectionData.groups[groupIndex].content[itemIndex].groupName = groupName;
+	for (var categoryIndex = 0; categoryIndex < sectionData.categories.length; ++categoryIndex) {
+		var categoryName = sectionData.categories[categoryIndex].name;
+		for (var groupIndex = 0; groupIndex < sectionData.categories[categoryIndex].groups.length; ++groupIndex) {
+			var groupName = sectionData.categories[categoryIndex].groups[groupIndex].groupName;
+			for (var itemIndex = 0; itemIndex < sectionData.categories[categoryIndex].groups[groupIndex].content.length; ++itemIndex) {
+				sectionData.categories[categoryIndex].groups[groupIndex].content[itemIndex].categoryName = categoryName;
+				sectionData.categories[categoryIndex].groups[groupIndex].content[itemIndex].groupName = groupName;
+			}
 		}
 	}
 }
@@ -748,9 +757,11 @@ function buildSection(root, sectionData) {
 	var section = '<details id="' + sectionData.id + '-section" class="section" open="true"><summary class="section-header">' + sectionData.name + '</summary>';
 	var count = 0;
 	var gwuCount = 0;
-	for (var groupIndex = 0; groupIndex < sectionData.groups.length; ++groupIndex) {
-		count += sectionData.groups[groupIndex].content.length;
-		gwuCount += sectionData.groups[groupIndex].content.filter(gwuFilter).length;
+	for (var categoryIndex = 0; categoryIndex < sectionData.categories.length; ++categoryIndex) {
+		for (var groupIndex = 0; groupIndex < sectionData.categories[categoryIndex].groups.length; ++groupIndex) {
+			count += sectionData.categories[categoryIndex].groups[groupIndex].content.length;
+			gwuCount += sectionData.categories[categoryIndex].groups[groupIndex].content.filter(gwuFilter).length;
+		}
 	}
 	var countData = {};
 	countData.total = count;
@@ -763,7 +774,7 @@ function buildSection(root, sectionData) {
 	
 	var tpItems = extractTPItems(sectionData);
 	
-	var groups = buildSectionGroups(sectionData);
+	var groups = buildCategories(sectionData);
 	var sellSection = buildTPSorted(sectionData.id, tpItems, sellPriceLookup, getSellPrice, 'sell');
 	var buySection = buildTPSorted(sectionData.id, tpItems, buyPriceLookup, getBuyPrice, 'buy');
 	
@@ -820,35 +831,59 @@ function buildSection(root, sectionData) {
 	section += '</details>';
 	root.append(section);
 	
-	if (sectionData.groups.length > 1) {
-		for (var groupIndex = 0; groupIndex < sectionData.groups.length; ++groupIndex) {
-			var groupData = sectionData.groups[groupIndex];
+	
+	for (var categoryIndex = 0; categoryIndex < sectionData.categories.length; ++categoryIndex) {
+		for (var groupIndex = 0; groupIndex < sectionData.categories[categoryIndex].groups.length; ++groupIndex) {
+			var groupData = sectionData.categories[categoryIndex].groups[groupIndex];
 			setupClickHandlers(sectionData.id, groupData.content)									
 		}
-	} else {
-		setupClickHandlers(sectionData.id, sectionData.groups[0].content)
 	}
+	
 	setupClickHandlers(sectionData.id + '-buy-tp', tpItems);
 	setupClickHandlers(sectionData.id + '-sell-tp', tpItems);
 }
 
-function buildSectionGroups(sectionData) {
+function buildCategories(sectionData) {
+	var categories = '';
+	if (sectionData.categories.length > 1) {
+		for (var categoryIndex = 0; categoryIndex < sectionData.categories.length; ++categoryIndex) {
+			var buyTotal = 0;
+			var sellTotal = 0;
+			for (var groupIndex = 0; groupIndex < sectionData.categories[categoryIndex].groups.length; ++groupIndex) {
+			  buyTotal += calculateTotalValue(sectionData.categories[categoryIndex].groups[groupIndex].content, getBuyPrice);
+			  sellTotal += calculateTotalValue(sectionData.categories[categoryIndex].groups[groupIndex].content, getSellPrice);	
+			}			
+			
+			categories += '<details id="' + sectionData.id + '-' + sectionData.categories[categoryIndex].name + '" class="category" open="open" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + categoryIndex + '">';
+			categories += '<summary class="category-header">' + sectionData.categories[categoryIndex].name + '</summary>';
+			categories += '<div class="category-groups">';
+			categories += buildSectionGroups(sectionData.categories[categoryIndex], sectionData.id);
+			categories += '</div></details>';
+		}
+	} else {
+		categories += buildSectionGroups(sectionData.categories[0], sectionData.id);
+	}		
+	
+	return categories;
+}
+
+function buildSectionGroups(groupsData, typeId) {
 	var groups = '';
-	if (sectionData.groups.length > 1) {
-		for (var groupIndex = 0; groupIndex < sectionData.groups.length; ++groupIndex) {
-			var groupData = sectionData.groups[groupIndex];
+	if (groupsData.groups.length > 1) {
+		for (var groupIndex = 0; groupIndex < groupsData.groups.length; ++groupIndex) {
+			var groupData = groupsData.groups[groupIndex];
 			var buyTotal = calculateTotalValue(groupData.content, getBuyPrice);
 			var sellTotal = calculateTotalValue(groupData.content, getSellPrice);
 
 			var group = '<div class="group" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + groupIndex + '"><h3>' + htmlEscape(groupData.groupName) + '</h3>';
 			group += '<div class="section-body">';
-			group += populateContent(groupData.content, sectionData.id);
+			group += populateContent(groupData.content, typeId);
 			group += '</div></div>';
 			groups += group;
 		}
 	} else {
 		var contentSection = '<div class="section-body">';
-		contentSection += populateContent(sectionData.groups[0].content, sectionData.id);
+		contentSection += populateContent(groupsData.groups[0].content, typeId);
 		contentSection += '</div>';
 		groups += contentSection;
 	}
@@ -857,11 +892,13 @@ function buildSectionGroups(sectionData) {
 
 function extractTPItems(sectionData) {
 	var tpItems = [];	
-	for (var groupIndex = 0; groupIndex < sectionData.groups.length; ++groupIndex) {
-		var groupData = sectionData.groups[groupIndex];
-		for (var itemIndex = 0; itemIndex < groupData.content.length; ++itemIndex) {
-			if (groupData.content[itemIndex].priceData || !isNaN(getVendorPrice(groupData.content[itemIndex]))) {
-				tpItems.push(groupData.content[itemIndex]);
+	for (var categoryIndex = 0; categoryIndex < sectionData.categories.length; ++categoryIndex) {
+		for (var groupIndex = 0; groupIndex < sectionData.categories[categoryIndex].groups.length; ++groupIndex) {
+			var groupData = sectionData.categories[categoryIndex].groups[groupIndex];
+			for (var itemIndex = 0; itemIndex < groupData.content.length; ++itemIndex) {
+				if (groupData.content[itemIndex].priceData || !isNaN(getVendorPrice(groupData.content[itemIndex]))) {
+					tpItems.push(groupData.content[itemIndex]);
+				}
 			}
 		}
 	}

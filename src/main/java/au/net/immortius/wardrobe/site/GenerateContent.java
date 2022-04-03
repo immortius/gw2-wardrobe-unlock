@@ -1,9 +1,6 @@
 package au.net.immortius.wardrobe.site;
 
-import au.net.immortius.wardrobe.config.CategoryDefinitions;
-import au.net.immortius.wardrobe.config.Config;
-import au.net.immortius.wardrobe.config.Grouping;
-import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
+import au.net.immortius.wardrobe.config.*;
 import au.net.immortius.wardrobe.gw2api.Chatcode;
 import au.net.immortius.wardrobe.gw2api.Rarity;
 import au.net.immortius.wardrobe.gw2api.Unlocks;
@@ -106,7 +103,7 @@ public class GenerateContent {
             applyAcquisition(unlockCategoryConfig, unlockDataMap);
             applyGwu(unlockCategoryConfig, unlockDataMap);
             applyVendors(unlockCategoryConfig, itemUnlockMap, unlockDataMap);
-            itemCategory.groups = categorizeUnlocks(unlockCategoryConfig, unlockDataMap);
+            categorizeUnlocks(unlockCategoryConfig, unlockDataMap, itemCategory);
 
             content.items.add(itemCategory);
         }
@@ -144,20 +141,23 @@ public class GenerateContent {
         }
     }
 
-    private List<UnlockGroupData> categorizeUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
+    private void categorizeUnlocks(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap, UnlockCategoryData unlockCategoryData) throws IOException {
 
         Path groupsFile = config.paths.getGroupsPath().resolve(unlockCategoryConfig.id + ".json");
 
+        List<UnlockCategoryGroupData> categories = Lists.newArrayList();
         List<UnlockGroupData> groups = Lists.newArrayList();
         if (Files.exists(groupsFile)) {
             try (Reader reader = Files.newBufferedReader(groupsFile)) {
                 CategoryDefinitions categoryDefinitions = gson.fromJson(reader, CategoryDefinitions.class);
-                if (categoryDefinitions.directGroups != null) {
-                    for (Grouping grouping : categoryDefinitions.directGroups) {
+                for (Map.Entry<String, Map<String, Set<Integer>>> topLevelCategory : categoryDefinitions.getTopLevelCategories().entrySet()) {
+                    UnlockCategoryGroupData categoryData = new UnlockCategoryGroupData();
+                    categoryData.name = topLevelCategory.getKey();
+                    for (Map.Entry<String, Set<Integer>> group : topLevelCategory.getValue().entrySet()) {
                         UnlockGroupData itemGroup = new UnlockGroupData();
-                        itemGroup.groupName = grouping.name;
+                        itemGroup.groupName = group.getKey();
                         itemGroup.content = Lists.newArrayList();
-                        for (Integer id : grouping.contents) {
+                        for (Integer id : group.getValue()) {
                             UnlockData unlock = unlockDataMap.remove(id);
                             if (unlock != null) {
                                 itemGroup.content.add(unlock);
@@ -166,23 +166,39 @@ public class GenerateContent {
                         itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity)
                                 .thenComparing(a -> a.name)
                                 .thenComparing(a -> a.id));
-                        groups.add(itemGroup);
+                        categoryData.groups.add(itemGroup);
                     }
+                    categories.add(categoryData);
+                }
+                for (Map.Entry<String, Set<Integer>> grouping : categoryDefinitions.getDirectGroups().entrySet()) {
+                    UnlockGroupData itemGroup = new UnlockGroupData();
+                    itemGroup.groupName = grouping.getKey();
+                    itemGroup.content = Lists.newArrayList();
+                    for (Integer id : grouping.getValue()) {
+                        UnlockData unlock = unlockDataMap.remove(id);
+                        if (unlock != null) {
+                            itemGroup.content.add(unlock);
+                        }
+                    }
+                    itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity)
+                            .thenComparing(a -> a.name)
+                            .thenComparing(a -> a.id));
+                    groups.add(itemGroup);
                 }
             } catch (JsonSyntaxException e) {
                 logger.error("Failed to read {}", groupsFile, e);
             }
         }
 
-        groups.sort((o1, o2) -> {
-            if (GENERAL_GROUP_NAME.equals(o1.groupName)) {
-                return 1;
-            } else if (GENERAL_GROUP_NAME.equals(o2.groupName)) {
-                return -1;
-            } else {
-                return o1.groupName.compareTo(o2.groupName);
-            }
-        });
+//        groups.sort((o1, o2) -> {
+//            if (GENERAL_GROUP_NAME.equals(o1.groupName)) {
+//                return 1;
+//            } else if (GENERAL_GROUP_NAME.equals(o2.groupName)) {
+//                return -1;
+//            } else {
+//                return o1.groupName.compareTo(o2.groupName);
+//            }
+//        });
 
         // Residual group
         if (!unlockDataMap.isEmpty()) {
@@ -207,7 +223,12 @@ public class GenerateContent {
             finalGroup.content = ImmutableList.copyOf(unlockDataMap.values());
             groups.add(finalGroup);
         }
-        return groups;
+        UnlockCategoryGroupData general = new UnlockCategoryGroupData();
+        general.name = "General";
+        general.groups = groups;
+        categories.add(general);
+        unlockCategoryData.categories = categories;
+        unlockCategoryData.groups = new ArrayList<>();
     }
 
     private void applyVendors(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, Integer> itemUnlockMap, Map<Integer, UnlockData> unlockDataMap) throws IOException {

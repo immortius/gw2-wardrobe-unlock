@@ -9,5 +9,6 @@ public class UnlockCategoryData {
     public String id;
     public String name;
     public String unlockUrl;
+    public List<UnlockCategoryGroupData> categories;
     public List<UnlockGroupData> groups;
 }

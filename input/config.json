@@ -19,7 +19,7 @@
     "siteImagePath": "site/img",
     "siteDataPath": "site/data",
     "relativeWikiCachePath": "wiki",
-    "relativeGroupsPath" : "groups"
+    "relativeGroupsPath": "groups"
   },
   "apiCaches": [
     {
@@ -63,7 +63,7 @@
       "bulkSupported": true
     },
     {
-      "baseUrl": "https://api.guildwars2.com/v2/recipes",
+      "baseUrl": "",
       "cachePath": "recipes",
       "bulkSupported": false
     },
