@@ -379,6 +379,7 @@ function buildSite(data) {
 function updateFilter(displayMode, gwuOnly) {
 	$('.item').toggleClass('hidden', false);
 	$('.section-groups').toggleClass('hidden', displayMode == 'tp-buy' || displayMode == 'tp-sell' || displayMode == 'buy' || displayMode == 'sell');
+	$('.category').toggleClass('hidden', false);
 	$('.tp-buy-sorted').toggleClass('hidden', displayMode != 'tp-buy' && displayMode != 'buy');
 	$('.tp-sell-sorted').toggleClass('hidden', displayMode != 'tp-sell' && displayMode != 'sell');
 	$('#advanced-filter-section').toggleClass('hidden', displayMode != 'advanced');
@@ -909,6 +910,10 @@ function updateGroupVisibility() {
 	var groups = $('.group');
 	for (var i = 0; i < groups.length; ++i) {
 		$(groups[i]).toggle($(groups[i]).find('.item').not('.unlocked').not('.hidden').length > 0);
+	}
+	var categories = $('.category');
+	for (var i = 0; i < categories.length; ++i) {
+		$(categories[i]).toggle($(categories[i]).find('.item').not('.unlocked').not('.hidden').length > 0);
 	}
 }
 
