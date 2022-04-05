@@ -191,6 +191,10 @@ summary {
   background: #600;
 }
 
+.category {
+  padding-bottom: 20px;
+}
+
 .category-header { 
   padding: .25rem;
   color: #fff;

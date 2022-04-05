@@ -161,6 +161,8 @@ public class GenerateContent {
                             UnlockData unlock = unlockDataMap.remove(id);
                             if (unlock != null) {
                                 itemGroup.content.add(unlock);
+                            } else {
+                                logger.warn("Did not find {}:{}, possibly double-categorised", unlockCategoryConfig.id, id);
                             }
                         }
                         itemGroup.content.sort(Comparator.comparing((UnlockData a) -> a.rarity)
@@ -223,10 +225,12 @@ public class GenerateContent {
             finalGroup.content = ImmutableList.copyOf(unlockDataMap.values());
             groups.add(finalGroup);
         }
-        UnlockCategoryGroupData general = new UnlockCategoryGroupData();
-        general.name = "General";
-        general.groups = groups;
-        categories.add(general);
+        if (groups.size() > 0) {
+            UnlockCategoryGroupData general = new UnlockCategoryGroupData();
+            general.name = "General";
+            general.groups = groups;
+            categories.add(general);
+        }
         unlockCategoryData.categories = categories;
         unlockCategoryData.groups = new ArrayList<>();
     }
