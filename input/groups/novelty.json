@@ -14,6 +14,7 @@
         222,
         231,
         236,
+        237,
         271,
         272,
         273,
@@ -28,21 +29,23 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
+      "Quaggan Tonic": [
+        88,
+        131,
+        184,
+        200,
+        215
+      ],
       "Standalone": [
         28,
         64,
         58,
-        88,
         112,
-        131,
         140,
         149,
         156,
         173,
-        175,
-        184,
-        200,
-        215
+        175
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -57,25 +60,26 @@
         195,
         201,
         230,
-        237,
         243
       ]
     },
     "Heart of Thorns": {
-      "Standalone": [
+      "Mushroom Tonic": [
         96,
+        135,
+        266,
+        267
+      ],
+      "Standalone": [
         102,
         106,
         110,
-        135,
         186,
         198,
         214,
         228,
         234,
-        241,
-        266,
-        267
+        241
       ]
     },
     "Living World Season 3: Glint's Legacy": {
@@ -140,14 +144,16 @@
         147
       ]
     },
-    "Festival": {
-      "Super Adventure Festival": [
+    "Festival: Super Adventure Festival": {
+      "Boom Box": [
         3,
         23,
         25,
         30
-      ],
-      "Festival of the Four Winds": [
+      ]
+    },
+    "Festival: Festival of the Four Winds": {
+      "Standalone": [
         1,
         31,
         47,
@@ -156,42 +162,41 @@
         142,
         150,
         223
-      ],
-      "Halloween": [
+      ]
+    },
+    "Festival: Halloween": {
+      "Standalone": [
         84,
         94,
         166,
         170,
         178,
         180
-      ],
-      "Wintersday": [
-        38,
-        42,
-        75,
-        93,
-        119,
-        133,
+      ]
+    },
+    "Festival: Wintersday": {
+      "Toy Tonic": [
         136,
         145,
         151,
         171,
         188,
         206,
+        257
+      ],
+      "Standalone": [
+        38,
+        42,
+        75,
+        93,
+        119,
+        133,
         217,
-        257,
         277
       ]
     },
     "Gem Store": {
-      "Standalone: Glider Combos": [
-        16,
-        27,
-        33,
-        286,
-        311
-      ],
-      "Standalone: Outfit Combos": [
+      "Combo: Outfits": [
         78,
         111,
         126,
@@ -200,37 +205,15 @@
         226,
         265
       ],
-      "Standalone: Other": [
-        2,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        13,
-        15,
-        18,
-        19,
-        20,
-        21,
+      "Combo: Gliders": [
+        16,
+        27,
+        33,
+        286,
+        311
+      ],
+      "Standalone: Chairs": [
         24,
-        32,
-        35,
-        36,
-        37,
-        40,
-        44,
-        45,
-        52,
-        53,
-        54,
-        55,
-        80,
-        103,
-        159,
-        172,
-        185,
         262,
         268,
         269,
@@ -240,7 +223,6 @@
         284,
         287,
         294,
-        300,
         301,
         302,
         303,
@@ -249,6 +231,44 @@
         310,
         312,
         314
+      ],
+      "Standalone: Musical Instruments": [
+        2,
+        6,
+        8,
+        18,
+        35,
+        37,
+        45
+      ],
+      "Standalone: Held Items": [
+        7,
+        13,
+        15,
+        21,
+        32,
+        36,
+        40,
+        53
+      ],
+      "Standalone: Toys": [
+        4,
+        5,
+        9,
+        19,
+        20,
+        44,
+        52,
+        54,
+        55,
+        300
+      ],
+      "Standalone: Tonics": [
+        80,
+        103,
+        159,
+        172,
+        185
       ]
     }
   }

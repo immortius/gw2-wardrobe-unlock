@@ -77,18 +77,18 @@
       "Standalone: Foraging Tools": [
         2384,
         2387,
-        2389,
         5655,
         7068,
-        8086,
         8095,
         8103,
         8509
       ],
       "Standalone: Logging Tools": [
+        2389,
         2391,
         2392,
         8083,
+        8086,
         8460
       ],
       "Standalone: Mining Tools": [
