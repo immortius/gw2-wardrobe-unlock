@@ -1,31 +1,27 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Anniversary": [
-        6898,
-        6902,
-        6890,
-        6892,
-        6895
-      ],
-      "Guild": [
-        2342,
-        2343,
-        2344,
-        9051
-      ],
       "Standalone": [
         2318,
         2325,
         2326,
         2341,
+        2342,
+        2343,
+        2344,
         2376,
         5653,
         6242,
         6253,
         6353,
         6618,
-        6621
+        6621,
+        6890,
+        6892,
+        6895,
+        6898,
+        6902,
+        9051
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -57,21 +53,21 @@
       ]
     },
     "Heart of Thorns": {
-      "Auric": [
+      "Auric Backplate": [
         6149,
         6279
       ],
-      "Durmand Priory": [
+      "Durmand Priory's Pack": [
         6296,
         6170,
         6379
       ],
-      "Order of Whispers": [
+      "Order of Whispers's Pack": [
         6416,
         6398,
         6159
       ],
-      "Vigil": [
+      "Vigil's Pack": [
         6243,
         6246,
         6304
@@ -123,28 +119,31 @@
       ]
     },
     "Living World Season 5: The Icebrood Saga": {
-      "General": [
+      "Banner": [
         8924,
         8931,
         8933,
         8937,
-        9017,
-        9249,
-        9252,
+        9252
+      ],
+      "Legion Backpack": [
         9387,
         9407,
         9413,
-        9431,
+        9431
+      ],
+      "Standalone": [
+        9017,
+        9249,
         9991
       ]
     },
     "End of Dragons": {
-      "Echovald": [
+      "Echovald Backpiece": [
         10457,
         10647
       ],
       "Standalone": [
-        10059,
         10231,
         10247,
         10271,
@@ -156,77 +155,93 @@
         10675
       ]
     },
-    "Profession": {
-      "Engineer": [
+    "Profession: Engineer": {
+      "Standalone": [
         2340
       ]
     },
-    "Discipline": {
-      "Armorsmith": [
+    "Discipline: Armorsmith": {
+      "Armorsmith's Backpack": [
         2304,
         2305,
         2308,
         2279,
         2301,
         2303
-      ],
-      "Artificer": [
+      ]
+    },
+    "Discipline: Artificer": {
+      "Artificer's Backpack": [
         2320,
         2297,
         2298,
         2299,
         2284,
         2300
-      ],
-      "Chef": [
+      ]
+    },
+    "Discipline: Chef": {
+      "Chef's Backpack": [
         2289,
         2324,
         2277,
         2314,
         2302,
         2319
-      ],
-      "Huntsman": [
+      ]
+    },
+    "Discipline: Huntsman": {
+      "Huntsman's Backpack": [
         2321,
         2322,
         2323,
         2310,
         2311,
         2312
-      ],
-      "Jeweler": [
+      ]
+    },
+    "Discipline: Jeweler": {
+      "Jeweler's Backpack": [
         2276,
         2278,
         2280,
         2281,
         2313,
         2285
-      ],
-      "Leatherworker": [
+      ]
+    },
+    "Discipline: Leatherworker": {
+      "Leatherworker's Backpack": [
         2292,
         2293,
         2294,
         2295,
         2296,
         2315
-      ],
-      "Scribe": [
+      ]
+    },
+    "Discipline: Scribe": {
+      "Scribe's Backpack": [
         6512,
         6402,
         6341,
         6503,
         6361,
         6495
-      ],
-      "Tailor": [
+      ]
+    },
+    "Discipline: Tailor": {
+      "Tailor's Backpack": [
         2307,
         2309,
         2282,
         2283,
         2316,
         2286
-      ],
-      "Weaponsmith": [
+      ]
+    },
+    "Discipline: Weaponsmith": {
+      "Weaponsmith's Backpack": [
         2288,
         2290,
         2306,
@@ -249,7 +264,7 @@
       ]
     },
     "Raid": {
-      "General": [
+      "Standalone": [
         6135,
         6809,
         7114
@@ -276,58 +291,76 @@
         2380
       ]
     },
-    "Festival": {
-      "Lunar New Year": [
+    "Festival: Lunar New Year": {
+      "Lucky Celestial Lantern": [
         5856,
-        5857,
-        8006,
-        7065,
         6619,
+        7065,
+        8006,
+        8623,
+        9097,
+        9883,
+        10206
+      ],
+      "Lucky Celestial Lantern > Lucky Great Celestial Lantern": [
+        5857,
         6620,
         7069,
         8014,
-        8623,
         8624,
-        9097,
         9120,
         9838,
-        9883,
-        10183,
-        10206
-      ],
-      "Super Adventure Festival": [
+        10183
+      ]
+    },
+    "Festival: Super Adventure Festival": {
+      "Standalone": [
         2359,
         2360,
         2361,
         2362,
         6668,
         7201
-      ],
-      "Dragon Bash": [
+      ]
+    },
+    "Festival: Dragon Bash": {
+      "Standalone": [
         2351,
         2352,
         8833
-      ],
-      "Festival of the Four Winds": [
+      ]
+    },
+    "Festival: Festival of the Four Winds": {
+      "Aspect Catcher": [
         2346,
         2347,
-        2348,
+        2348
+      ],
+      "Grand Aspect Catcher": [
+        8216,
+        8218,
+        8223
+      ],
+      "Standalone": [
         2349,
         2350,
         5456,
-        8216,
-        8218,
-        8223,
         8861
-      ],
-      "Halloween": [
+      ]
+    },
+    "Festival: Halloween": {
+      "Mad Memoires": [
         2336,
         7760,
         2338,
-        7775,
-        9638
+        7775
       ],
-      "Wintersday": [
+      "Standalone": [
+        9638
+      ]
+    },
+    "Festival: Wintersday": {
+      "Standalone": [
         2374,
         2375,
         2382,
@@ -341,34 +374,9 @@
         10159,
         10161
       ],
-      "Standalone: Capes": [
-        9050,
-        9072,
-        9131,
-        9185,
-        9240,
-        9272,
-        9333,
-        9363,
-        9400,
-        9462,
-        9483,
-        9590,
-        9597,
-        9717,
-        9732,
-        9918,
-        10005,
-        10084,
-        10088,
-        10104,
-        10164,
-        10192
-      ],
-      "Standalone: Glider Combos": [
+      "Combo: Gliders": [
         5878,
         6035,
-        6132,
         6527,
         6412,
         6615,
@@ -409,7 +417,6 @@
         8184,
         8638,
         8647,
-        8649,
         8725,
         8807,
         8930,
@@ -417,12 +424,37 @@
         9211,
         9474,
         9671,
+        9732,
         9769,
         9893,
         9969,
         10010,
         10219,
         10503
+      ],
+      "Standalone: Capes": [
+        9050,
+        9072,
+        9131,
+        9185,
+        9240,
+        9272,
+        9333,
+        9363,
+        9400,
+        9462,
+        9483,
+        9590,
+        9597,
+        9717,
+        9918,
+        10005,
+        10059,
+        10084,
+        10088,
+        10104,
+        10164,
+        10192
       ],
       "Standalone: Quivers": [
         2369,
@@ -447,6 +479,7 @@
         5998,
         6003,
         6078,
+        6132,
         6431,
         6554,
         6745,
@@ -454,7 +487,8 @@
         7047,
         7227,
         7755,
-        8319
+        8319,
+        8649
       ]
     }
   }
