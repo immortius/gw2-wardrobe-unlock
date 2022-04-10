@@ -10,6 +10,8 @@
         120,
         122,
         179,
+        191,
+        202,
         219,
         222,
         231,
@@ -29,23 +31,19 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Quaggan Tonic": [
-        88,
-        131,
-        184,
-        200,
-        215
-      ],
       "Standalone": [
-        28,
         64,
         58,
+        88,
         112,
-        140,
+        131,
         149,
         156,
         173,
-        175
+        175,
+        184,
+        200,
+        215
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -64,22 +62,20 @@
       ]
     },
     "Heart of Thorns": {
-      "Mushroom Tonic": [
-        96,
-        135,
-        266,
-        267
-      ],
       "Standalone": [
+        96,
         102,
         106,
         110,
+        135,
         186,
         198,
         214,
         228,
         234,
-        241
+        241,
+        266,
+        267
       ]
     },
     "Living World Season 3: Glint's Legacy": {
@@ -87,8 +83,6 @@
         92,
         132,
         158,
-        191,
-        202,
         255
       ]
     },
@@ -145,7 +139,7 @@
       ]
     },
     "Festival: Super Adventure Festival": {
-      "Boom Box": [
+      "Standalone": [
         3,
         23,
         25,
@@ -155,10 +149,12 @@
     "Festival: Festival of the Four Winds": {
       "Standalone": [
         1,
+        28,
         31,
         47,
         49,
         46,
+        140,
         142,
         150,
         223
@@ -175,15 +171,6 @@
       ]
     },
     "Festival: Wintersday": {
-      "Toy Tonic": [
-        136,
-        145,
-        151,
-        171,
-        188,
-        206,
-        257
-      ],
       "Standalone": [
         38,
         42,
@@ -191,7 +178,14 @@
         93,
         119,
         133,
+        136,
+        145,
+        151,
+        171,
+        188,
+        206,
         217,
+        257,
         277
       ]
     },
