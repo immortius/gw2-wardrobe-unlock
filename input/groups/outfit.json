@@ -12,16 +12,7 @@
       ]
     },
     "Gem Store": {
-      "Combo: Novelties": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
-      ],
-      "Standalone: Clothing": [
+      "Clothing": [
         59,
         61,
         62,
@@ -34,14 +25,22 @@
         69,
         70,
         71,
-        72,
         73,
         89,
         90,
         95,
         113
       ],
-      "Standalone: Other": [
+      "Combo: Novelties": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "Standalone": [
         8,
         9,
         10,
@@ -91,6 +90,7 @@
         56,
         57,
         58,
+        72,
         74,
         75,
         76,
