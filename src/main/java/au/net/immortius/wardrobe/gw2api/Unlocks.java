@@ -50,10 +50,6 @@ public class Unlocks {
                     if (category.getExcludeIds().contains(itemData.id)) {
                         continue;
                     }
-                    // Exclude fishing skins (as they're not really wardrobe skins yet...)
-                    if (itemData.details != null && "Foo".equals(itemData.details.type)) {
-                        continue;
-                    }
                     consumer.accept(itemData);
                 }
             }

@@ -219,7 +219,6 @@ public class GenerateContent {
                 }
             }
 
-
             UnlockGroupData finalGroup = new UnlockGroupData();
             finalGroup.groupName = UNCLASSIFIED_GROUP_NAME;
             finalGroup.content = ImmutableList.copyOf(unlockDataMap.values());
@@ -227,7 +226,7 @@ public class GenerateContent {
         }
         if (groups.size() > 0) {
             UnlockCategoryGroupData general = new UnlockCategoryGroupData();
-            general.name = "General";
+            general.name = UNCLASSIFIED_GROUP_NAME;
             general.groups = groups;
             categories.add(general);
         }

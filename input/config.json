@@ -882,7 +882,10 @@
       "typeFilter": "Gathering",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
       "chatcodeType": 10,
-      "useItemForChatcode": false
+      "useItemForChatcode": false,
+      "excludeIds": [
+        10313, 10440
+      ]
     },
     {
       "id": "mount",
@@ -985,7 +988,7 @@
     ],
     "miniatureTypes" : ["Miniature"],
     "miniId" : "mini",
-    "noveltyTypes" : ["Novelty", "Tonic", "Gizmo", "Tonic, Novelty"],
+    "noveltyTypes" : ["Novelty", "Tonic", "Gizmo", "Tonic, Novelty", "Gizmo, Novelty"],
     "noveltyId" : "novelty",
     "categoryPages": [
       "/wiki/Category:Vendors",
