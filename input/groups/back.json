@@ -1,6 +1,81 @@
 {
   "topLevelCategories": {
     "Core": {
+      "Starter": [
+        2340
+      ],
+      "Armorsmith's Backpack": [
+        2304,
+        2305,
+        2308,
+        2279,
+        2301,
+        2303
+      ],
+      "Artificer's Backpack": [
+        2320,
+        2297,
+        2298,
+        2299,
+        2284,
+        2300
+      ],
+      "Chef's Backpack": [
+        2289,
+        2324,
+        2277,
+        2314,
+        2302,
+        2319
+      ],
+      "Huntsman's Backpack": [
+        2321,
+        2322,
+        2323,
+        2310,
+        2311,
+        2312
+      ],
+      "Jeweler's Backpack": [
+        2276,
+        2278,
+        2280,
+        2281,
+        2313,
+        2285
+      ],
+      "Leatherworker's Backpack": [
+        2292,
+        2293,
+        2294,
+        2295,
+        2296,
+        2315
+      ],
+      "Scribe's Backpack": [
+        6512,
+        6402,
+        6341,
+        6503,
+        6361,
+        6495
+      ],
+      "Tailor's Backpack": [
+        2307,
+        2309,
+        2282,
+        2283,
+        2316,
+        2286
+      ],
+      "Weaponsmith's Backpack": [
+        2288,
+        2290,
+        2306,
+        2291,
+        2317,
+        2287
+      ],
       "Standalone": [
         2318,
         2325,
@@ -153,101 +228,6 @@
         10458,
         10524,
         10675
-      ]
-    },
-    "Profession: Engineer": {
-      "Standalone": [
-        2340
-      ]
-    },
-    "Discipline: Armorsmith": {
-      "Armorsmith's Backpack": [
-        2304,
-        2305,
-        2308,
-        2279,
-        2301,
-        2303
-      ]
-    },
-    "Discipline: Artificer": {
-      "Artificer's Backpack": [
-        2320,
-        2297,
-        2298,
-        2299,
-        2284,
-        2300
-      ]
-    },
-    "Discipline: Chef": {
-      "Chef's Backpack": [
-        2289,
-        2324,
-        2277,
-        2314,
-        2302,
-        2319
-      ]
-    },
-    "Discipline: Huntsman": {
-      "Huntsman's Backpack": [
-        2321,
-        2322,
-        2323,
-        2310,
-        2311,
-        2312
-      ]
-    },
-    "Discipline: Jeweler": {
-      "Jeweler's Backpack": [
-        2276,
-        2278,
-        2280,
-        2281,
-        2313,
-        2285
-      ]
-    },
-    "Discipline: Leatherworker": {
-      "Leatherworker's Backpack": [
-        2292,
-        2293,
-        2294,
-        2295,
-        2296,
-        2315
-      ]
-    },
-    "Discipline: Scribe": {
-      "Scribe's Backpack": [
-        6512,
-        6402,
-        6341,
-        6503,
-        6361,
-        6495
-      ]
-    },
-    "Discipline: Tailor": {
-      "Tailor's Backpack": [
-        2307,
-        2309,
-        2282,
-        2283,
-        2316,
-        2286
-      ]
-    },
-    "Discipline: Weaponsmith": {
-      "Weaponsmith's Backpack": [
-        2288,
-        2290,
-        2306,
-        2291,
-        2317,
-        2287
       ]
     },
     "Fractals of the Mists": {
