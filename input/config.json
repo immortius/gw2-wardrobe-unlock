@@ -63,7 +63,7 @@
       "bulkSupported": true
     },
     {
-      "baseUrl": "",
+      "baseUrl": "https://api.guildwars2.com/v2/recipes",
       "cachePath": "recipes",
       "bulkSupported": false
     },
