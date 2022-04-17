@@ -12,11 +12,6 @@
       ]
     },
     "Competitive": {
-      "Dolyak": [
-        30,
-        31,
-        32
-      ],
       "Rank": [
         1,
         2,
@@ -39,14 +34,21 @@
         70,
         71
       ],
-      "Standalone": [
+      "Trophy": [
         22,
         23,
-        47,
+        47
+      ],
+      "World Tournament Series": [
         53,
         54,
         55,
         56
+      ],
+      "WvW Dolyak": [
+        30,
+        31,
+        32
       ]
     },
     "Gem Store": {
