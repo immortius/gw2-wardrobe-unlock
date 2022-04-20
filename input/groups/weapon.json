@@ -1986,11 +1986,6 @@
         7866,
         7899
       ],
-      "Corsair": [
-        7841,
-        7878,
-        7892
-      ],
       "Dragonsblood": [
         8554,
         8555,
@@ -2027,11 +2022,6 @@
         8609,
         8616
       ],
-      "Inquest": [
-        8039,
-        8059,
-        8060
-      ],
       "Scion": [
         8684,
         8690,
@@ -2053,13 +2043,25 @@
         8749,
         8756
       ],
-      "Standalone": [
+      "Standalone: Domain of Istan": [
+        7841,
         7862,
+        7878,
         7888,
-        7913,
+        7892,
+        7913
+      ],
+      "Standalone: Sandswept Isles": [
+        8039,
         8040,
+        8059,
+        8060
+      ],
+      "Standalone: Jahai Bluffs": [
         8347,
-        8406,
+        8406
+      ],
+      "Standalone: Thunderhead Peaks": [
         8577,
         8587
       ]
@@ -2119,19 +2121,40 @@
         9183,
         9192
       ],
-      "Ash Legion": [
-        9241,
-        9245,
-        9290,
-        9308,
-        9329
-      ],
       "Blood Legion": [
         9244,
         9295,
         9310,
         9313,
         9324
+      ],
+      "Blood Legion > Ash Legion": [
+        9241,
+        9245,
+        9290,
+        9308,
+        9329
+      ],
+      "Blood Legion > Ash Legion > Iron Legion": [
+        9242,
+        9265,
+        9274,
+        9315,
+        9326
+      ],
+      "Blood Legion > Ash Legion > Iron Legion > Flame Legion": [
+        9283,
+        9289,
+        9301,
+        9305,
+        9306
+      ],
+      "Blood Legion > Ash Legion > Iron Legion > Flame Legion > Steel Warband": [
+        9250,
+        9275,
+        9282,
+        9304,
+        9325
       ],
       "Boneskinner": [
         9138,
@@ -2178,13 +2201,6 @@
         9533,
         9534,
         9536
-      ],
-      "Dominion Tribune": [
-        9479,
-        9480,
-        9494,
-        9505,
-        9522
       ],
       "Dragon Slayer": [
         9661,
@@ -2276,33 +2292,6 @@
         9942,
         9946
       ],
-      "Flame Legion": [
-        9283,
-        9289,
-        9301,
-        9305,
-        9306
-      ],
-      "Imperator": [
-        8918,
-        8927,
-        8929,
-        8954
-      ],
-      "Iron Legion": [
-        9242,
-        9265,
-        9274,
-        9315,
-        9326
-      ],
-      "Steel Warband": [
-        9250,
-        9275,
-        9282,
-        9304,
-        9325
-      ],
       "Stormcaller": [
         9371,
         9388,
@@ -2375,16 +2364,33 @@
         9710,
         9712
       ],
-      "Standalone": [
+      "Standalone: Grothmar Valley": [
+        8918,
+        8927,
+        8929,
         8942,
+        8954
+      ],
+      "Standalone: Bjora Marches": [
         9014,
-        9172,
+        9172
+      ],
+      "Standalone: Drizzlewood Coast": [
         9386,
         9397,
+        9479,
+        9480,
+        9494,
         9500,
+        9505,
+        9522
+      ],
+      "Standalone: Dragon Response Missions": [
         9713,
         9800,
-        9943,
+        9943
+      ],
+      "Standalone: Dragonstorm": [
         9993
       ]
     },
@@ -2592,7 +2598,8 @@
         10665,
         10699,
         10732,
-        10751
+        10751,
+        10803
       ]
     },
     "Dungeon": {
@@ -4816,6 +4823,24 @@
         6710,
         6681,
         6714
+      ],
+      "Steel Lotus": [
+        10800,
+        10802,
+        10804,
+        10806,
+        10807,
+        10808,
+        10809,
+        10810,
+        10812,
+        10813,
+        10819,
+        10820,
+        10826,
+        10827,
+        10829,
+        10830
       ],
       "Tempest": [
         5570,

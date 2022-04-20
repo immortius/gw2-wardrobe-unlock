@@ -58,7 +58,7 @@
         102,
         278
       ],
-      "Bioluminescent": [
+      "Bioluminescent / Lucent": [
         47,
         196,
         247,
@@ -152,6 +152,10 @@
         180,
         300
       ],
+      "Sand Souled": [
+        146,
+        171
+      ],
       "Shiverpeaks": [
         153,
         154,
@@ -171,15 +175,6 @@
         391,
         396
       ],
-      "Vital Geode": [
-        218,
-        276,
-        310
-      ],
-      "Sand Souled": [
-        146,
-        171
-      ],
       "Star": [
         12,
         27,
@@ -197,6 +192,11 @@
         142,
         241,
         366
+      ],
+      "Vital Geode": [
+        218,
+        276,
+        310
       ],
       "Standalone: Raptor Skins": [
         17,
