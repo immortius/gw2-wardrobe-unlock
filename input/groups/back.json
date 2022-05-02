@@ -84,6 +84,7 @@
         2342,
         2343,
         2344,
+        2358,
         2376,
         5653,
         6242,
@@ -116,8 +117,7 @@
         2353,
         2354,
         2356,
-        2357,
-        2358
+        2357
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -128,10 +128,6 @@
       ]
     },
     "Heart of Thorns": {
-      "Auric Backplate": [
-        6149,
-        6279
-      ],
       "Durmand Priory Series - Pack": [
         6296,
         6170,
@@ -146,6 +142,10 @@
         6243,
         6246,
         6304
+      ],
+      "Auric Backplate": [
+        6149,
+        6279
       ]
     },
     "Living World Season 3: Glint's Legacy": {
@@ -410,7 +410,9 @@
         9969,
         10010,
         10219,
-        10503
+        10503,
+        10805,
+        10823
       ],
       "Standalone: Capes": [
         9050,

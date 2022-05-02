@@ -2,14 +2,23 @@
   "topLevelCategories": {
     "Core": {
       "Standalone": [
-        2,
-        11,
-        22
+        2
       ]
     },
     "Heart of Thorns": {
       "Standalone": [
         78
+      ]
+    },
+    "Fractals of the Mists": {
+      "Standalone": [
+        22
+      ]
+    },
+    "Competitive": {
+      "Standalone": [
+        11,
+        43
       ]
     },
     "Gem Store": {
@@ -69,7 +78,9 @@
         107,
         108,
         109,
-        110
+        110,
+        111,
+        112
       ],
       "Combo: Novelties": [
         16,

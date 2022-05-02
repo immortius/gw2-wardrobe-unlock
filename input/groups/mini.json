@@ -30,9 +30,6 @@
     },
     "Living World Season 1: Scarlet's War": {
       "Standalone": [
-        112,
-        113,
-        114,
         136,
         137,
         138,
@@ -299,7 +296,7 @@
         802,
         803
       ],
-      "Standalone: Eye of the North": [
+      "Standalone: Forging Steel": [
         805,
         806,
         807,
@@ -334,12 +331,14 @@
       ]
     },
     "Fractals of the Mists": {
-      "Standalone": [
+      "Old Tom": [
         344,
         352,
         355,
         360,
-        361,
+        361
+      ],
+      "Standalone": [
         494
       ]
     },
@@ -537,6 +536,12 @@
         628,
         634
       ],
+      "Foostivoo the Merry": [
+        120,
+        121,
+        122,
+        123
+      ],
       "Gift Skritt": [
         381,
         382,
@@ -555,10 +560,6 @@
         119
       ],
       "Standalone": [
-        120,
-        121,
-        122,
-        123,
         213,
         310,
         625,
@@ -730,6 +731,11 @@
         252,
         253,
         254
+      ],
+      "The Lost Shores Series": [
+        112,
+        113,
+        114
       ],
       "Awakened": [
         689,

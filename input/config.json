@@ -101,7 +101,7 @@
   "unlockCategories": [
     {
       "id": "armor",
-      "name": "Armor",
+      "name": "Wardrobe: Armor",
       "source": "skins",
       "typeFilter": "Armor",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
@@ -635,7 +635,7 @@
     },
     {
       "id": "weapon",
-      "name": "Weapons",
+      "name": "Wardrobe: Weapons",
       "source": "skins",
       "typeFilter": "Weapon",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
@@ -697,7 +697,7 @@
     },
     {
       "id": "back",
-      "name": "Back Items",
+      "name": "Wardrobe: Back Items",
       "source": "skins",
       "typeFilter": "Back",
       "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
@@ -719,6 +719,156 @@
           8141
         ]
       }
+    },
+    {
+      "id": "tool",
+      "name": "Wardrobe: Gathering Tools",
+      "source": "skins",
+      "typeFilter": "Gathering",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
+      "chatcodeType": 10,
+      "useItemForChatcode": false,
+      "excludeIds": [
+        10313, 10440
+      ]
+    },
+    {
+      "id": "outfit",
+      "name": "Outfits",
+      "source": "outfits",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/outfits",
+      "chatcodeType": 11,
+      "useItemForChatcode": false,
+      "itemMappings": {
+        // Outfit tonics
+        "36187": [
+          63
+        ],
+        "36200": [
+          66
+        ],
+        "36189": [
+          59
+        ],
+        "36179": [
+          60
+        ],
+        "36190": [
+          64
+        ],
+        "36183": [
+          70
+        ],
+        "36180": [
+          71
+        ],
+        "36186": [
+          68
+        ],
+        "36184": [
+          62
+        ],
+        "36191": [
+          67
+        ],
+        "36176": [
+          65
+        ],
+        "36185": [
+          61
+        ],
+        "36188": [
+          69
+        ],
+        // Black Lion Exclusives Chest
+        "82450": [
+          57
+        ]
+      }
+    },
+    {
+      "id": "dye",
+      "name": "Dyes",
+      "source": "dyes",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/dyes",
+      "chatcodeType": 2,
+      "useItemForChatcode": true,
+      "excludeIds": [
+        1
+      ],
+      "colorBased": true,
+      "gwuIgnoreIds": [
+        1682, 1683, 1684, 1685, 1686, 1688,
+      ],
+      "gwuIncludeIds": [
+        1456,
+        119,
+        586
+      ]
+    },
+    {
+      "id": "glider",
+      "name": "Glider Skins",
+      "source": "gliders",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/gliders",
+      "chatcodeType": 2,
+      "useItemForChatcode": true,
+      "itemMappings": {
+        // Black Lion Exclusives Chest
+        "82450": [
+          32,
+          35,
+          47,
+          54,
+          60
+        ]
+      }
+    },
+    {
+      "id": "mount",
+      "name": "Mount Skins",
+      "source": "mounts",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins"
+    },
+    {
+      "id": "novelty",
+      "name": "Novelties",
+      "source": "novelties",
+      "useItemForVendor" : true,
+      "unlockUrl": "https://api.guildwars2.com/v2/account/novelties",
+      "chatcodeType": 2,
+      "useItemForChatcode": true,
+      "itemMappings": {
+        "38129" : [42],
+        "66896" : [11],
+        "87126" : [103],
+        "72203" : [102],
+        "81823" : [115],
+        "67783" : [117],
+        "86723" : [133],
+        "72072" : [135],
+        "66893" : [14],
+        "67386" : [170],
+        "66926" : [195],
+        "73194" : [198],
+        "68065" : [201],
+        "73663" : [214],
+        "85137" : [218],
+        "73150" : [228],
+        "79034" : [191],
+        "75615" : [234],
+        "75214" : [267],
+        "73677" : [96],
+        "68512" : [81],
+        "86645" : [75],
+        "85653" : [50],
+        "66895" : [48],
+        "91971" : [292],
+        "91910" : [293],
+        "92773" : [299]
+      },
+      "gwuIgnoreIds": [
+      ]
     },
     {
       "id": "mini",
@@ -782,156 +932,6 @@
           16
         ]
       }
-    },
-    {
-      "id": "outfit",
-      "name": "Outfits",
-      "source": "outfits",
-      "unlockUrl": "https://api.guildwars2.com/v2/account/outfits",
-      "chatcodeType": 11,
-      "useItemForChatcode": false,
-      "itemMappings": {
-        // Outfit tonics
-        "36187": [
-          63
-        ],
-        "36200": [
-          66
-        ],
-        "36189": [
-          59
-        ],
-        "36179": [
-          60
-        ],
-        "36190": [
-          64
-        ],
-        "36183": [
-          70
-        ],
-        "36180": [
-          71
-        ],
-        "36186": [
-          68
-        ],
-        "36184": [
-          62
-        ],
-        "36191": [
-          67
-        ],
-        "36176": [
-          65
-        ],
-        "36185": [
-          61
-        ],
-        "36188": [
-          69
-        ],
-        // Black Lion Exclusives Chest
-        "82450": [
-          57
-        ]
-      }
-    },
-    {
-      "id": "glider",
-      "name": "Gliders",
-      "source": "gliders",
-      "unlockUrl": "https://api.guildwars2.com/v2/account/gliders",
-      "chatcodeType": 2,
-      "useItemForChatcode": true,
-      "itemMappings": {
-        // Black Lion Exclusives Chest
-        "82450": [
-          32,
-          35,
-          47,
-          54,
-          60
-        ]
-      }
-    },
-    {
-      "id": "dye",
-      "name": "Dyes",
-      "source": "dyes",
-      "unlockUrl": "https://api.guildwars2.com/v2/account/dyes",
-      "chatcodeType": 2,
-      "useItemForChatcode": true,
-      "excludeIds": [
-        1
-      ],
-      "colorBased": true,
-      "gwuIgnoreIds": [
-        1682, 1683, 1684, 1685, 1686, 1688,
-      ],
-      "gwuIncludeIds": [
-        1456,
-        119,
-        586
-      ]
-    },
-    {
-      "id": "tool",
-      "name": "Gathering Tools",
-      "source": "skins",
-      "typeFilter": "Gathering",
-      "unlockUrl": "https://api.guildwars2.com/v2/account/skins",
-      "chatcodeType": 10,
-      "useItemForChatcode": false,
-      "excludeIds": [
-        10313, 10440
-      ]
-    },
-    {
-      "id": "mount",
-      "name": "Mount Skins",
-      "source": "mounts",
-      "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins"
-    },
-    {
-      "id": "novelty",
-      "name": "Novelties",
-      "source": "novelties",
-      "useItemForVendor" : true,
-      "unlockUrl": "https://api.guildwars2.com/v2/account/novelties",
-      "chatcodeType": 2,
-      "useItemForChatcode": true,
-      "itemMappings": {
-        "38129" : [42],
-        "66896" : [11],
-        "87126" : [103],
-        "72203" : [102],
-        "81823" : [115],
-        "67783" : [117],
-        "86723" : [133],
-        "72072" : [135],
-        "66893" : [14],
-        "67386" : [170],
-        "66926" : [195],
-        "73194" : [198],
-        "68065" : [201],
-        "73663" : [214],
-        "85137" : [218],
-        "73150" : [228],
-        "79034" : [191],
-        "75615" : [234],
-        "75214" : [267],
-        "73677" : [96],
-        "68512" : [81],
-        "86645" : [75],
-        "85653" : [50],
-        "66895" : [48],
-        "91971" : [292],
-        "91910" : [293],
-        "92773" : [299]
-      },
-      "gwuIgnoreIds": [
-      ]
     }
   ],
   "gwuAnalyser": {
