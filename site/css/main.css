@@ -750,6 +750,10 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -108px -18px;
 }
+.crimsonassassintoken-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -126px -18px;
+}
 
 /* ==========================================================================
    Media Queries

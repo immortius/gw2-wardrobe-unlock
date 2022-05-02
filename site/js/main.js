@@ -55,6 +55,7 @@ var acquisitionMethods = [
 	{ id : "shardofzhaitan", name : "Shard of Zhaitan", category : "Dungeon"},
 	{ id : "strike", name : "Strike Mission", category : "Strike Mission"},
 	{ id : "bauble", name : "Bauble Bubbles", category : "Seasonal Event"},
+	{ id : "crimsonassassintoken", name : "Crimson Assassin Token", category : "Seasonal Event"},
     { id : "bundleofloot", name : "Bundle Of Loot", category : "Seasonal Event"},
 	{ id : "festivaltoken", name : "Festival Token", category : "Seasonal Event"},
 	{ id : "favorofthefestival", name : "Favor of the Festival", category : "Seasonal Event"},	
