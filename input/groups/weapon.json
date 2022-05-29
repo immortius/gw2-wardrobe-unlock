@@ -1295,7 +1295,7 @@
         8652,
         8655
       ],
-      "Spirit": [
+      "Spirit Weapon": [
         4784,
         4819,
         4883,
@@ -1583,7 +1583,8 @@
       "Standalone": [
         5423,
         5425,
-        10825
+        10825,
+        10843
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -2450,6 +2451,32 @@
         10745,
         10756
       ],
+      "Legendary Series 3 - Dragon > Aurene > Jormag": [
+      ],
+      "Legendary Series 3 - Dragon > Aurene > Mordremoth": [
+      ],
+      "Legendary Series 3 - Dragon > Aurene > Primordus": [
+      ],
+      "Legendary Series 3 - Dragon > Aurene > Soo-Won": [
+      ],
+      "Legendary Series 3 - Dragon > Aurene > Zhaitan": [
+        98091,
+        98098,
+        98099,
+        98104,
+        98109,
+        98116,
+        98118,
+        98120,
+        98138,
+        98142,
+        98143,
+        98144,
+        98146,
+        98158,
+        98160,
+        98162
+      ],
       "Flame Serpent": [
         10047,
         10048,
@@ -2598,7 +2625,9 @@
         10751
       ],
       "Standalone: Other": [
-        10803
+        10803,
+        10831,
+        10837
       ]
     },
     "Dungeon": {
@@ -5112,7 +5141,9 @@
         10510,
         10763,
         10786,
-        10789
+        10789,
+        10818,
+        10824
       ]
     }
   }
