@@ -55,7 +55,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   
+
 body {
 	padding: 0;
 	margin: 0;
@@ -94,18 +94,18 @@ summary {
   display: inline-block;
   margin-right: -4px;
 }
- 
+
 .nav a {
   text-decoration: none;
   color: #fff;
   display: block;
   transition: .1s background-color;
 }
- 
+
 .nav a:hover {
   background-color: #077;
 }
- 
+
 .nav a.active {
   background: #900;
   color: #fff;
@@ -184,7 +184,7 @@ summary {
 	width: 440px;
 }
 
-.section-header { 
+.section-header {
   padding: .5rem;
   color: #fff;
   width: 95%;
@@ -195,7 +195,7 @@ summary {
   padding-bottom: 20px;
 }
 
-.category-header { 
+.category-header {
   padding: .25rem;
   color: #fff;
   width: 95%;
@@ -211,8 +211,8 @@ summary {
 .icon-text {
 	color: #ffffff;
 	font-size: 0px;
-	text-shadow: 
-	  -1px -1px 0 #000,  
+	text-shadow:
+	  -1px -1px 0 #000,
       1px -1px 0 #000,
       -1px 1px 0 #000,
       1px 1px 0 #000;
@@ -269,7 +269,7 @@ padding-right: 10px;
 /* ==========================================================================
    Currency icons
    ========================================================================== */
-   
+
 .achievement-icon {
   background-image: url('../img/currencies.png');
   background-position: -0px -0px;
@@ -754,6 +754,10 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -126px -18px;
 }
+.fragmentofprismaticshadows-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -144px -18px;
+}
 
 /* ==========================================================================
    Media Queries
@@ -817,11 +821,11 @@ padding-right: 10px;
 /* ==========================================================================
    Loading Spinner
    ========================================================================== */
- 
+
 .lds-container {
   text-align: center
 }
- 
+
 .lds-spinner {
   color: official;
   display: inline-block;
@@ -900,7 +904,7 @@ padding-right: 10px;
     opacity: 0;
   }
 }
-   
+
 
 /* ==========================================================================
    Print styles
