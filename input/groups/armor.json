@@ -783,6 +783,26 @@
         5597,
         5598
       ],
+      "Heritage": [
+        801,
+        803,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        817,
+        818,
+        819,
+        796,
+        797,
+        798,
+        799
+      ],
       "Luminous": [
         8288,
         8290,
@@ -849,49 +869,7 @@
         1998,
         1999
       ],
-      "Standalone": [
-        854,
-        855,
-        856,
-        857,
-        858,
-        859,
-        1991,
-        1992,
-        1993,
-        1994,
-        1995,
-        2011,
-        8117,
-        8120,
-        8123,
-        8657,
-        8670,
-        8677
-      ]
-    },
-    "Hall of Monuments": {
-      "Heritage": [
-        801,
-        803,
-        805,
-        806,
-        807,
-        808,
-        809,
-        810,
-        811,
-        812,
-        813,
-        817,
-        818,
-        819,
-        796,
-        797,
-        798,
-        799
-      ],
-      "Standalone": [
+      "Standalone: Hall of Monuments": [
         800,
         816,
         802,
@@ -904,6 +882,28 @@
         825,
         814,
         815
+      ],
+      "Standalone: World Boss": [
+        1993,
+        1994,
+        1995
+      ],
+      "Standalone: Other": [
+        854,
+        855,
+        856,
+        857,
+        858,
+        859,
+        1991,
+        1992,
+        2011,
+        8117,
+        8120,
+        8123,
+        8657,
+        8670,
+        8677
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -922,6 +922,12 @@
         827,
         830,
         838,
+        1072,
+        1075,
+        1077,
+        2018,
+        2019,
+        2020,
         2021,
         2022,
         2023,
@@ -1066,7 +1072,10 @@
       "Standalone": [
         6283,
         6456,
-        6484
+        6484,
+        6891,
+        6893,
+        6896
       ]
     },
     "Living World Season 3: Glint's Legacy": {
@@ -1078,25 +1087,30 @@
         6969,
         6970
       ],
-      "Standalone": [
+      "Standalone: Bloodstone Fen": [
         6856,
         6858,
-        6881,
-        6891,
-        6893,
-        6896,
+        6881
+      ],
+      "Standalone: Bitterfrost Frontier": [
         7006,
         7028,
-        7032,
+        7032
+      ],
+      "Standalone: Lake Doric": [
         7073,
         7074,
         7102,
         7106,
         7119,
-        7139,
+        7139
+      ],
+      "Standalone: Draconis Mons": [
         7210,
         7211,
-        7213,
+        7213
+      ],
+      "Standalone: Siren's Landing": [
         7297,
         7299,
         7316
@@ -1310,7 +1324,7 @@
         8753,
         8754
       ],
-      "Standalone": [
+      "Standalone: Sandswept Isles": [
         8028,
         8030,
         8032
@@ -1382,22 +1396,26 @@
         9316,
         9327
       ],
-      "Standalone": [
+      "Standalone: Grothmar Valley": [
         8921,
+        8923,
         8925,
         8941,
-        8923,
         8943,
         8947,
         8928,
         8944,
-        8946,
+        8946
+      ],
+      "Standalone: Bjora Marches": [
         9016,
         9034,
         9037,
         9146,
         9149,
-        9184,
+        9184
+      ],
+      "Standalone: Drizzlewood Coast": [
         9429,
         9436,
         9439,
@@ -1540,7 +1558,12 @@
         10705,
         10718
       ],
-      "Standalone": [
+      "Standalone: Strike Mission": [
+        10330,
+        10357,
+        10471
+      ],
+      "Standalone: Other": [
         10261,
         10500,
         10528,
@@ -1550,9 +1573,6 @@
         10290,
         10488,
         10516,
-        10330,
-        10357,
-        10471,
         10455,
         10549,
         10656
@@ -1795,7 +1815,7 @@
         7156,
         7157
       ],
-      "Standalone": [
+      "Standalone: Bastion of the Penitent": [
         7121,
         7077,
         7115
@@ -2074,7 +2094,7 @@
       ]
     },
     "Festival: Dragon Bash": {
-      "Holographic": [
+      "Holographic Dragon": [
         8817,
         8826,
         8829,
@@ -2083,19 +2103,19 @@
         9472,
         10021,
         10026,
-        10028
+        10028,
+        10851,
+        10866,
+        10875
       ],
       "Standalone": [
         2013,
         2014,
-        2016,
-        2018,
-        2019,
-        2020
+        2016
       ]
     },
     "Festival: Festival of the Four Winds": {
-      "Aspect-Touched": [
+      "Aspect-Touched Zephyrite": [
         8189,
         8190,
         8191,
@@ -2106,7 +2126,7 @@
         8226,
         8229
       ],
-      "Aspect-Touched > Aspect-Blessed": [
+      "Aspect-Touched Zephyrite > Aspect-Blessed Zephyrite": [
         8193,
         8198,
         8199,
@@ -2117,10 +2137,7 @@
         8214,
         8227
       ],
-      "Standalone": [
-        1072,
-        1075,
-        1077,
+      "Zephyrite Aspect": [
         1202,
         1203,
         1204,
@@ -2129,7 +2146,9 @@
         1207,
         1208,
         1209,
-        1210,
+        1210
+      ],
+      "Standalone": [
         9544,
         9546,
         9555,
@@ -2161,19 +2180,21 @@
         7773,
         7774
       ],
-      "Standalone": [
+      "Standalone: Mystic Forge": [
+        6161,
+        6252,
+        6306
+      ],
+      "Standalone: Other": [
         979,
         980,
         981,
         2027,
         2028,
         2029,
-        6161,
         6217,
         6249,
-        6252,
         6273,
-        6306,
         6414,
         6487,
         6493,
@@ -2197,13 +2218,15 @@
         9742,
         9765
       ],
-      "Standalone": [
+      "Standalone: Mystic Forge": [
+        7966,
+        7970,
+        7991
+      ],
+      "Standalone: Other": [
         6577,
         6583,
         6586,
-        7966,
-        7970,
-        7991,
         9063,
         9071,
         9083
@@ -2809,7 +2832,10 @@
         10765,
         10833,
         10834,
-        10835
+        10835,
+        10847,
+        10849,
+        10867
       ],
       "Standalone: Shoulder Armor": [
         5793,
@@ -2827,6 +2853,8 @@
         10043,
         10044,
         10046
+      ],
+      "Standalone: Chest Armor": [
       ],
       "Standalone: Hand Armor": [
         6700,
@@ -2848,10 +2876,14 @@
         10584,
         10641
       ],
+      "Standalone: Leg Armor": [
+      ],
       "Standalone: Foot Armor": [
         9733,
         9757,
         9779
+      ],
+      "Standalone: Aquatic Head Armor": [
       ]
     }
   }

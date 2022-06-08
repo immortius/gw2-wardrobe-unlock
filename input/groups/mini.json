@@ -1,10 +1,24 @@
 {
   "topLevelCategories": {
     "Core": {
+      "Standalone: Anniversary": [
+        177
+      ],
+      "Standalone: Hall of Monuments": [
+        2,
+        3,
+        4,
+        5
+      ],
       "Standalone: Mount": [
         504,
         521,
         734
+      ],
+      "Standalone: World Boss": [
+        193,
+        194,
+        217
       ],
       "Standalone: Other": [
         124,
@@ -13,20 +27,8 @@
         130,
         131,
         132,
-        177,
-        193,
-        194,
-        217,
         289,
         582
-      ]
-    },
-    "Hall of Monuments": {
-      "Standalone": [
-        2,
-        3,
-        4,
-        5
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -47,9 +49,11 @@
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
-      "Standalone": [
+      "Standalone: Dry Top": [
+        298
+      ],
+      "Standalone: The Silverwastes": [
         292,
-        298,
         303,
         311,
         312
@@ -212,7 +216,7 @@
         523,
         552
       ],
-      "Standalone": [
+      "Standalone: Other": [
         498,
         500,
         501,
@@ -237,6 +241,12 @@
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik": {
+      "Hydra": [
+        658,
+        668,
+        669,
+        672
+      ],
       "Standalone: Domain of Istan": [
         617,
         618,
@@ -246,13 +256,9 @@
       ],
       "Standalone: Sandswept Isles": [
         656,
-        658,
-        664,
         659,
-        668,
-        669,
-        670,
-        672
+        664,
+        670
       ],
       "Standalone: Domain of Kourna": [
         690,
@@ -484,7 +490,9 @@
         162,
         771,
         819,
-        820
+        820,
+        870,
+        871
       ]
     },
     "Festival: Festival of the Four Winds": {
@@ -509,7 +517,10 @@
         732,
         733
       ],
-      "Standalone": [
+      "Standalone: Mystic Forge": [
+        607
+      ],
+      "Standalone: Other": [
         196,
         202,
         300,
@@ -523,7 +534,6 @@
         418,
         600,
         603,
-        607,
         608,
         614,
         730,
@@ -740,6 +750,11 @@
         113,
         114
       ],
+      "Avian": [
+        237,
+        238,
+        239
+      ],
       "Awakened Mount": [
         689,
         691,
@@ -747,25 +762,24 @@
         694,
         699
       ],
-      "Baby": [
+      "Baby - Set 1": [
         139,
         140,
-        141,
         143,
+        148,
+        154
+      ],
+      "Baby - Set 2": [
+        141,
         144,
         147,
-        148,
         149,
-        151,
-        154,
-        209,
-        210,
-        211,
-        212,
-        324,
-        326,
-        327,
-        328
+        151
+      ],
+      "Bazaar Quaggan": [
+        164,
+        165,
+        166
       ],
       "Branded Mount": [
         657,
@@ -774,6 +788,12 @@
         662,
         663
       ],
+      "Costumed": [
+        197,
+        198,
+        199,
+        200
+      ],
       "Cozy Wintersday Mount": [
         627,
         629,
@@ -781,23 +801,17 @@
         633,
         635
       ],
+      "Creepy": [
+        208,
+        229,
+        299
+      ],
       "Exo-Suit Mount": [
         709,
         713,
         714,
         715,
         717
-      ],
-      "Extra Life": [
-        181,
-        785,
-        816,
-        835
-      ],
-      "Funko POP!": [
-        792,
-        793,
-        795
       ],
       "Great Jungle Wurm": [
         215,
@@ -840,13 +854,7 @@
         589,
         590
       ],
-      "Risen": [
-        189,
-        190,
-        191,
-        192
-      ],
-      "Scarlet's Alliance": [
+      "Scarlet's Champions": [
         220,
         224,
         225,
@@ -888,6 +896,12 @@
         775,
         776
       ],
+      "Spooky": [
+        107,
+        109,
+        110,
+        111
+      ],
       "Spooky Mount": [
         599,
         605,
@@ -908,23 +922,35 @@
         712,
         716
       ],
-      "Super": [
+      "Super - Set 1": [
         133,
         134,
         135,
+        457
+      ],
+      "Super - Set 2": [
         185,
         186,
         187,
-        188,
+        188
+      ],
+      "Super - Set 3": [
         455,
         456,
-        457,
         458,
-        459,
+        459
+      ],
+      "Super - Set 4": [
         675,
         676,
         677,
         678
+      ],
+      "Tequatl Rising": [
+        189,
+        190,
+        191,
+        192
       ],
       "Tigris Cub": [
         860,
@@ -938,6 +964,23 @@
         868,
         869
       ],
+      "Wintersday": [
+        209,
+        210,
+        211,
+        212
+      ],
+      "Standalone: Extra Life": [
+        181,
+        785,
+        816,
+        835
+      ],
+      "Standalone: Funko POP!": [
+        792,
+        793,
+        795
+      ],
       "Standalone: Mount": [
         648,
         649,
@@ -949,32 +992,15 @@
       ],
       "Standalone: Other": [
         1,
-        107,
-        109,
-        110,
-        111,
-        164,
-        165,
-        166,
         182,
-        197,
-        198,
-        199,
-        200,
         201,
         203,
-        208,
         222,
-        229,
-        237,
-        238,
-        239,
         293,
         294,
         297,
         295,
         296,
-        299,
         304,
         305,
         306,
@@ -989,6 +1015,10 @@
         318,
         319,
         320,
+        324,
+        326,
+        327,
+        328,
         329,
         330,
         331,

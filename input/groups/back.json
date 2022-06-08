@@ -76,27 +76,33 @@
         2317,
         2287
       ],
-      "Standalone": [
+      "Standalone: Anniversary": [
+        6890,
+        6892,
+        6895,
+        6898,
+        6902
+      ],
+      "Standalone: Mystic Forge": [
         2318,
         2325,
         2326,
         2341,
+        2376
+      ],
+      "Standalone: World Boss": [
+        2358,
+        6621
+      ],
+      "Standalone: Other": [
         2342,
         2343,
         2344,
-        2358,
-        2376,
         5653,
         6242,
         6253,
         6353,
         6618,
-        6621,
-        6890,
-        6892,
-        6895,
-        6898,
-        6902,
         9051
       ]
     },
@@ -163,15 +169,21 @@
         7321,
         7323
       ],
-      "Standalone": [
-        6875,
-        6956,
-        7017,
+      "Standalone: Bloodstone Fen": [
+        6875
+      ],
+      "Standalone: Ember Bay": [
+        6956
+      ],
+      "Standalone: Bitterfrost Frontier": [
+        7017
+      ],
+      "Standalone: Lake Doric": [
         7089
       ]
     },
     "Path of Fire": {
-      "Banners": [
+      "Standalone": [
         7458,
         7464,
         7692,
@@ -189,27 +201,31 @@
         8149,
         8165
       ],
-      "Standalone": [
+      "Standalone: Domain of Kourna": [
         8169
       ]
     },
     "Living World Season 5: The Icebrood Saga": {
-      "Banner": [
+      "Standalone: Grothmar Valley": [
         8924,
         8931,
         8933,
-        8937,
+        8937
+      ],
+      "Standalone: Bjora Marches": [
+        9017
+      ],
+      "Standalone: Forging Steel": [
+        9249,
         9252
       ],
-      "Legion Backpack": [
+      "Standalone: Drizzlewood Coast": [
         9387,
         9407,
         9413,
         9431
       ],
-      "Standalone": [
-        9017,
-        9249,
+      "Standalone: Dragonstorm": [
         9991
       ]
     },
@@ -244,9 +260,13 @@
       ]
     },
     "Raid": {
-      "Standalone": [
-        6135,
-        6809,
+      "Standalone: Spirit Vale": [
+        6135
+      ],
+      "Standalone: Stronghold of the Faithful": [
+        6809
+      ],
+      "Standalone: Bastion of the Penitent": [
         7114
       ]
     },
@@ -304,7 +324,7 @@
       ]
     },
     "Festival: Dragon Bash": {
-      "Holographic": [
+      "Standalone": [
         2351,
         2352,
         8833
@@ -349,7 +369,7 @@
       ]
     },
     "Gem Store": {
-      "Forest Archer": [
+      "Forest": [
         10156,
         10159,
         10161
