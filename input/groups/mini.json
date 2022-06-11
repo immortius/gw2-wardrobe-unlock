@@ -32,18 +32,32 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Standalone": [
-        136,
+      "Standalone: Molten Facility": [
+        136
+      ],
+      "Standalone: Southsun Cove": [
         137,
         138,
-        156,
-        163,
+        156
+      ],
+      "Standalone: Aetherblade Retreat": [
+        163
+      ],
+      "Standalone: Labyrinthine Cliffs": [
         167,
-        168,
-        195,
+        168
+      ],
+      "Standalone: Twilight Arbor": [
+        195
+      ],
+      "Standalone: Tower of Nightmares": [
         205,
-        206,
-        214,
+        206
+      ],
+      "Standalone: The Twisted Marionette": [
+        214
+      ],
+      "Standalone: Lion's Arch": [
         219,
         223
       ]

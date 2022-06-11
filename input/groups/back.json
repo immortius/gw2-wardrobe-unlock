@@ -117,13 +117,19 @@
         2334,
         2335
       ],
-      "Standalone": [
-        2345,
-        2381,
+      "Standalone: Molten Facility": [
+        2345
+      ],
+      "Standalone: Southsun Cove": [
         2353,
-        2354,
-        2356,
+        2354
+      ],
+      "Standalone: Twilight Arbor": [
         2357
+      ],
+      "Standalone: Tower of Nightmares": [
+        2356,
+        2381
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -134,17 +140,17 @@
       ]
     },
     "Heart of Thorns": {
-      "Durmand Priory Series - Pack": [
+      "Order Series 1: Durmand Priory - Pack": [
         6296,
         6170,
         6379
       ],
-      "Order of Whispers Series - Pack": [
+      "Order Series 2: Order of Whispers - Pack": [
         6416,
         6398,
         6159
       ],
-      "Vigil Series - Pack": [
+      "Order Series 3: Vigil - Pack": [
         6243,
         6246,
         6304
