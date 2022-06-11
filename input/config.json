@@ -1054,14 +1054,6 @@
     "blmt",
     "blacklioncommemorativesprocket",
     "blsprocket",
-    "ascaloniantear",
-    "deadlybloom",
-    "sealofbeetletun",
-    "manifesto",
-    "charrcarving",
-    "knowledgecrystal",
-    "symbolofkoda",
-    "shardofzhaitan",
     "strike",
     "bauble",
     "bundleofloot",
@@ -1130,6 +1122,7 @@
     "pieceofcrustaceanmeat",
     "flawlessfishfillet",
     "researchnote",
-    "crimsonassassintoken"
+    "crimsonassassintoken",
+    "taleofdungeondelving"
   ]
 }

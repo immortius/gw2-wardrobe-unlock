@@ -251,7 +251,12 @@ public class GatherVendorsFromWiki {
         Elements skinsTitle = doc.select("dt:matches(Skin)");
         if (!skinsTitle.isEmpty()) {
             for (Element skinLink : skinsTitle.next().select("a")) {
-                result.addAll(getSkinId(new WikiUrl(skinLink.attr("href"))));
+                WikiUrl href = new WikiUrl(skinLink.attr("href"));
+                if (!itemUrl.equals(href)) {
+                    result.addAll(getSkinId(href));
+                } else {
+                    logger.warn("Page {} links to itself", href);
+                }
             }
         }
         Elements itemType = doc.select("dt:matches(Item type)");
@@ -355,6 +360,7 @@ public class GatherVendorsFromWiki {
             .put("blacklionminiatureclaimticket", "blmt")
             .put("essenceofluck(exotic)", "exoticluck")
             .put("essenceofluck(legendary)", "legendaryluck")
+            .put("talesofdungeondelving", "taleofdungeondelving")
             .build();
 
 
