@@ -31,44 +31,6 @@
       ]
     },
     "Gem Store": {
-      "Theme: Arctic / Ice": [
-        31,
-        88,
-        89,
-        113,
-        181,
-        209,
-        280,
-        236
-      ],
-      "Theme: Bioluminescent / Lucent": [
-        47,
-        196,
-        247,
-        273,
-        347,
-        373
-      ],
-      "Theme: Blaze / Flame": [
-        23,
-        30,
-        41,
-        48,
-        116,
-        166,
-        211,
-        268,
-        365
-      ],
-      "Theme: Storm / Thunder": [
-        24,
-        79,
-        109,
-        142,
-        203,
-        241,
-        366
-      ],
       "Alloyed": [
         145,
         169,
@@ -212,6 +174,44 @@
         276,
         310
       ],
+      "Theme: Arctic / Ice / Glacial": [
+        31,
+        88,
+        89,
+        113,
+        181,
+        209,
+        280,
+        236
+      ],
+      "Theme: Bioluminescent / Lucent": [
+        47,
+        196,
+        247,
+        273,
+        347,
+        373
+      ],
+      "Theme: Blazing / Flame": [
+        23,
+        30,
+        41,
+        48,
+        116,
+        166,
+        211,
+        268,
+        365
+      ],
+      "Theme: Heavenly Thunder / Storm": [
+        24,
+        79,
+        109,
+        142,
+        203,
+        241,
+        366
+      ],
       "Standalone: Raptor Skins": [
         17,
         21,
@@ -233,8 +233,10 @@
         308,
         329,
         344,
-        360,
         367
+      ],
+      "Standalone: Raptor Skins - Canthan": [
+        360
       ],
       "Standalone: Springer Skins": [
         20,
@@ -257,6 +259,8 @@
         299,
         331,
         351
+      ],
+      "Standalone: Springer Skins - Cuckoo": [
       ],
       "Standalone: Skimmer Skins": [
         26,
@@ -301,6 +305,8 @@
         372,
         406
       ],
+      "Standalone: Jackal Skins - Vulpine": [
+      ],
       "Standalone: Griffon Skins": [
         25,
         34,
@@ -321,6 +327,8 @@
         271,
         346,
         361
+      ],
+      "Standalone: Griffon Skins - Tigris": [
       ],
       "Standalone: Roller Beetle Skins": [
         104,
@@ -347,6 +355,8 @@
         364,
         380
       ],
+      "Standalone: Warclaw Skins - Nian": [
+      ],
       "Standalone: Skyscale Skins": [
         191,
         193,
@@ -363,6 +373,8 @@
         306,
         336,
         357
+      ],
+      "Standalone: Skyscale Skins - Noble": [
       ],
       "Standalone: Siege Turtle Skins": [
       ]
