@@ -43,6 +43,10 @@
       "Standalone: Aetherblade Retreat": [
         163
       ],
+      "Standalone: Labyrinthine Cliffs": [
+        167,
+        168
+      ],
       "Standalone: Twilight Arbor": [
         195
       ],
@@ -507,8 +511,6 @@
     },
     "Festival: Festival of the Four Winds": {
       "Standalone": [
-        167,
-        168,
         169,
         170,
         291,

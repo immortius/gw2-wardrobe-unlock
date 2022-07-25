@@ -124,6 +124,10 @@
         2353,
         2354
       ],
+      "Standalone: Labyrinthine Cliffs": [
+        2349,
+        2350,
+      ],
       "Standalone: Twilight Arbor": [
         2357
       ],
@@ -351,8 +355,6 @@
         8223
       ],
       "Standalone": [
-        2349,
-        2350,
         5456,
         8861
       ]
