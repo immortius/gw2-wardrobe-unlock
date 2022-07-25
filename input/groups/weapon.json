@@ -1774,6 +1774,11 @@
       "Standalone: Aetherblade Retreat": [
         10843
       ],
+      "Standalone: The Crown Pavilion": [
+      	10903
+      ],
+      "Standalone: Tower of Nightmares": [
+      ],
       "Standalone: Lion's Arch": [
         5423,
         5425
@@ -2650,6 +2655,22 @@
       "Legendary Series 3 - Dragon > Aurene > Jormag": [
       ],
       "Legendary Series 3 - Dragon > Aurene > Mordremoth": [
+        10320,
+        10347,
+        10353,
+        10358,
+        10381,
+        10415,
+        10436,
+        10472,
+        10481,
+        10499,
+        10537,
+        10539,
+        10541,
+        10552,
+        10630,
+        10711
       ],
       "Legendary Series 3 - Dragon > Aurene > Primordus": [
       ],
@@ -4241,6 +4262,24 @@
         9964,
         9965,
         9966
+      ],
+      "Fox Fire": [
+        10876,
+        10877,
+        10878,
+        10879,
+        10882,
+        10883,
+        10884,
+        10885,
+        10887,
+        10889,
+        10890,
+        10891,
+        10892,
+        10893,
+        10894,
+        10895
       ],
       "Frostforged": [
         7041,
