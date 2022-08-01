@@ -126,7 +126,7 @@
       ],
       "Standalone: Labyrinthine Cliffs": [
         2349,
-        2350,
+        2350
       ],
       "Standalone: Twilight Arbor": [
         2357
@@ -284,7 +284,7 @@
       ]
     },
     "Competitive": {
-      "Wings of Glory": [
+      "Wings of Glory / The Ascension": [
         6560,
         6561,
         6562,
@@ -292,7 +292,7 @@
         6573,
         6558
       ],
-      "Wings of War": [
+      "Wings of War / Warbringer": [
         7248,
         7252,
         7256,
@@ -380,6 +380,9 @@
       ]
     },
     "Gem Store": {
+      "Combo: Weapons": [
+        8021
+      ],
       "Combo: Gliders": [
         5878,
         6035,
@@ -441,7 +444,7 @@
         10823,
         10888
       ],
-      "Package: Forest": [
+      "Package: Forest Archer": [
         10156,
         10159,
         10161
@@ -474,8 +477,7 @@
       "Standalone: Quivers": [
         2369,
         6449,
-        7012,
-        8021
+        7012
       ],
       "Standalone: Other": [
         1048,

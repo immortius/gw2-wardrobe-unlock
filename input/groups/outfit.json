@@ -12,6 +12,15 @@
       ]
     },
     "Gem Store": {
+      "Crystal Savant / Crystal Nomad / Crystal Arbiter": [
+        18,
+        29,
+        35
+      ],
+      "Combo: Armor": [
+        57,
+        101
+      ],
       "Combo: Novelties": [
         1,
         2,
@@ -20,11 +29,6 @@
         5,
         6,
         7
-      ],
-      "Crystal Savant / Crystal Nomad / Crystal Arbiter": [
-        18,
-        29,
-        35
       ],
       "Standalone": [
         8,
@@ -71,7 +75,6 @@
         54,
         55,
         56,
-        57,
         58,
         72,
         74,
@@ -97,7 +100,6 @@
         98,
         99,
         100,
-        101,
         102,
         103,
         104,
