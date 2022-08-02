@@ -47,6 +47,9 @@
         167,
         168
       ],
+      "Standalone: The Crown Pavilion": [
+        169
+      ],
       "Standalone: Twilight Arbor Aetherpath": [
         195
       ],
@@ -511,7 +514,6 @@
     },
     "Festival: Festival of the Four Winds": {
       "Standalone": [
-        169,
         170,
         291,
         700,
@@ -861,8 +863,14 @@
         868,
         869
       ],
+      "Combo: Back Items": [
+        342
+      ],
       "Combo: Gliders": [
         383
+      ],
+      "Combo: Novelties": [
+        796
       ],
       "Package: Angry Chest": [
         333,
@@ -1046,7 +1054,6 @@
         332,
         335,
         336,
-        342,
         378,
         380,
         384,
@@ -1081,7 +1088,6 @@
         630,
         654,
         781,
-        796,
         815
       ]
     }
