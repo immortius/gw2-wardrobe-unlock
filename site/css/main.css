@@ -762,6 +762,10 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -162px -18px;
 }
+.fragmentofprismaticplant-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -180px -18px;
+}
 
 /* ==========================================================================
    Media Queries

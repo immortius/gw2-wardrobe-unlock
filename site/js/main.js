@@ -75,7 +75,6 @@ var acquisitionMethods = [
 	{ id : "crystallineore", name : "Crystalline Ore", category : "Heart of Thorns"},
 	{ id : "provisionertoken", name : "Provisioner Token", category : "Heart of Thorns"},
 	{ id : "magnetiteshard", name : "Magnetite Shard", category : "Raid"},
-	{ id : "gaeting", name : "Gaeting Crystal", category : "Raid"},
 	{ id : "unboundmagic", name : "Unbound Magic", category : "Living Story 3"},
 	{ id : "bloodruby", name : "Blood Ruby", category : "Living Story 3"},
     { id : "petrifiedwood", name : "Petrified Wood", category : "Living Story 3"},
@@ -119,6 +118,7 @@ var acquisitionMethods = [
 	{ id : "grandmasterleatherworkersmark", name : "Grandmaster Leatherworker's Mark", hideOnIcon : true, category : "Craftable"},
 	{ id : "grandmasterarmorsmithsmark", name : "Grandmaster Armorsmith's Mark", hideOnIcon : true, category : "Craftable"},
 	{ id : "fragmentofprismaticshadows", name : "Fragment of Prismatic Shadows", hideOnIcon : false, category : "Aurene's Facets"},
+	{ id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", hideOnIcon : false, category : "Aurene's Facets"},
 	{ id : "eod", name : "End Of Dragons", hideOnIcon : true, hideOnDetails : true, category : "Highlights"}]
 	;
 
