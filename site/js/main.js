@@ -66,6 +66,7 @@ var acquisitionMethods = [
 	{ id : "birthday7", name : "Seventh Birthday", category : "Birthday"},
   { id : "birthday8", name : "Eighth Birthday", category : "Birthday"},
   { id : "birthday9", name : "Ninth Birthday", category : "Birthday"},
+  { id : "birthday10", name : "Tenth Birthday", category : "Birthday"},
     { id : "airshippart", name : "Airship Part", category : "Heart of Thorns"},
 	{ id : "aurillium", name : "Lump of Aurillium", category : "Heart of Thorns"},
 	{ id : "leylinecrystal", name : "Ley Line Crystal", category : "Heart of Thorns"},
@@ -119,6 +120,7 @@ var acquisitionMethods = [
 	{ id : "grandmasterarmorsmithsmark", name : "Grandmaster Armorsmith's Mark", hideOnIcon : true, category : "Craftable"},
 	{ id : "fragmentofprismaticshadows", name : "Fragment of Prismatic Shadows", hideOnIcon : false, category : "Aurene's Facets"},
 	{ id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", hideOnIcon : false, category : "Aurene's Facets"},
+	{ id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", hideOnIcon : false, category : "Aurene's Facets"},
 	{ id : "eod", name : "End Of Dragons", hideOnIcon : true, hideOnDetails : true, category : "Highlights"}]
 	;
 
