@@ -4,6 +4,11 @@
       "Standalone: Anniversary": [
         177
       ],
+      "Standalone: Guild": [
+        130,
+        131,
+        132
+      ],
       "Standalone: Hall of Monuments": [
         2,
         3,
@@ -24,9 +29,6 @@
         124,
         125,
         129,
-        130,
-        131,
-        132,
         289,
         582
       ]
@@ -77,17 +79,20 @@
       ]
     },
     "Heart of Thorns": {
-      "Guild Initiative": [
+      "Standalone: Guild": [
+        337,
         338,
         339,
+        340,
         347,
         348,
         349,
+        359,
+        363,
+        364,
         365
       ],
-      "Standalone": [
-        337,
-        340,
+      "Standalone: Other": [
         341,
         343,
         346,
@@ -95,9 +100,6 @@
         351,
         354,
         358,
-        359,
-        363,
-        364,
         367,
         396
       ]

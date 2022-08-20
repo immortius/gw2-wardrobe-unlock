@@ -83,6 +83,12 @@
         6898,
         6902
       ],
+      "Standalone: Guild": [
+        2342,
+        2343,
+        2344,
+        9051
+      ],
       "Standalone: Mystic Forge": [
         2318,
         2325,
@@ -95,15 +101,11 @@
         6621
       ],
       "Standalone: Other": [
-        2342,
-        2343,
-        2344,
         5653,
         6242,
         6253,
         6353,
-        6618,
-        9051
+        6618
       ]
     },
     "Living World Season 1: Scarlet's War": {
