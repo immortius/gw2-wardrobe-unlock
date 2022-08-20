@@ -364,7 +364,7 @@
         360,
         361
       ],
-      "Standalone": [
+      "Standalone: Shattered Observatory": [
         494
       ]
     },
@@ -417,7 +417,7 @@
         765
       ]
     },
-    "Competitive": {
+    "Player vs. Player / World vs. World": {
       "Black Llama": [
         427,
         429,
@@ -460,12 +460,14 @@
         482,
         487
       ],
-      "Standalone": [
-        204,
+      "Standalone: Player vs. Player": [
         362,
         366,
         379,
-        388,
+        388
+      ],
+      "Standalone: World vs. World": [
+        204,
         571,
         543
       ]
