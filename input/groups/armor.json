@@ -1727,12 +1727,7 @@
         10705,
         10718
       ],
-      "Standalone: Strike Mission": [
-        10330,
-        10357,
-        10471
-      ],
-      "Standalone: Other": [
+      "Standalone: Renown Heart": [
         10261,
         10500,
         10528,
@@ -1745,6 +1740,11 @@
         10455,
         10549,
         10656
+      ],
+      "Standalone: Strike Mission": [
+        10330,
+        10357,
+        10471
       ]
     },
     "Raid": {
