@@ -83,6 +83,12 @@
         6898,
         6902
       ],
+      "Standalone: Guild": [
+        2342,
+        2343,
+        2344,
+        9051
+      ],
       "Standalone: Mystic Forge": [
         2318,
         2325,
@@ -95,15 +101,11 @@
         6621
       ],
       "Standalone: Other": [
-        2342,
-        2343,
-        2344,
         5653,
         6242,
         6253,
         6353,
-        6618,
-        9051
+        6618
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -124,7 +126,11 @@
         2353,
         2354
       ],
-      "Standalone: Twilight Arbor": [
+      "Standalone: Labyrinthine Cliffs": [
+        2349,
+        2350
+      ],
+      "Standalone: Twilight Arbor Aetherpath": [
         2357
       ],
       "Standalone: Tower of Nightmares": [
@@ -133,7 +139,7 @@
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
-      "Vine": [
+      "Vine / Mawdrey": [
         5544,
         5545,
         5532
@@ -161,7 +167,7 @@
       ]
     },
     "Living World Season 3: Glint's Legacy": {
-      "Druid Stone": [
+      "Druid Stone / The Wayfarer's Henge": [
         7209,
         7216,
         7214,
@@ -197,7 +203,7 @@
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik": {
-      "Inquest": [
+      "Inquest / Mark Y Golem": [
         8057,
         8049,
         8058,
@@ -279,8 +285,8 @@
         7114
       ]
     },
-    "Competitive": {
-      "Wings of Glory": [
+    "Player vs. Player / World vs. World": {
+      "Wings of Glory / The Ascension": [
         6560,
         6561,
         6562,
@@ -288,7 +294,7 @@
         6573,
         6558
       ],
-      "Wings of War": [
+      "Wings of War / Warbringer": [
         7248,
         7252,
         7256,
@@ -296,7 +302,7 @@
         7276,
         7246
       ],
-      "Standalone": [
+      "Standalone: Player vs. Player": [
         2380
       ]
     },
@@ -351,8 +357,6 @@
         8223
       ],
       "Standalone": [
-        2349,
-        2350,
         5456,
         8861
       ]
@@ -378,6 +382,9 @@
       ]
     },
     "Gem Store": {
+      "Combo: Weapons": [
+        8021
+      ],
       "Combo: Gliders": [
         5878,
         6035,
@@ -437,9 +444,14 @@
         10503,
         10805,
         10823,
-        10888
+        10888,
+        10912,
+        10941
       ],
-      "Package: Forest": [
+      "Combo: Miniatures": [
+        6431
+      ],
+      "Package: Forest Archer": [
         10156,
         10159,
         10161
@@ -472,8 +484,7 @@
       "Standalone: Quivers": [
         2369,
         6449,
-        7012,
-        8021
+        7012
       ],
       "Standalone: Other": [
         1048,
@@ -483,7 +494,6 @@
         6003,
         6078,
         6132,
-        6431,
         6554,
         6745,
         7000,

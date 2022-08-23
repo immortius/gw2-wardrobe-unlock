@@ -15,7 +15,7 @@
         22
       ]
     },
-    "Competitive": {
+    "Player vs. Player / World vs. World": {
       "Standalone": [
         11,
         43
@@ -81,7 +81,9 @@
         110,
         111,
         112,
-        114
+        114,
+        115,
+        116
       ],
       "Combo: Novelties": [
         16,
@@ -90,13 +92,15 @@
         73,
         97
       ],
+      "Combo: Miniatures": [
+        12
+      ],
       "Standalone": [
         4,
         5,
         7,
         9,
         10,
-        12,
         14,
         17,
         18,

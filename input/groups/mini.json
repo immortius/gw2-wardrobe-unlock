@@ -4,16 +4,20 @@
       "Standalone: Anniversary": [
         177
       ],
+      "Standalone: Guild": [
+        130,
+        131,
+        132
+      ],
       "Standalone: Hall of Monuments": [
         2,
         3,
         4,
         5
       ],
-      "Standalone: Mount": [
+      "Standalone: Renown Heart": [
         504,
-        521,
-        734
+        521
       ],
       "Standalone: World Boss": [
         193,
@@ -24,11 +28,9 @@
         124,
         125,
         129,
-        130,
-        131,
-        132,
         289,
-        582
+        582,
+        734
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -43,7 +45,14 @@
       "Standalone: Aetherblade Retreat": [
         163
       ],
-      "Standalone: Twilight Arbor": [
+      "Standalone: Labyrinthine Cliffs": [
+        167,
+        168
+      ],
+      "Standalone: The Crown Pavilion": [
+        169
+      ],
+      "Standalone: Twilight Arbor Aetherpath": [
         195
       ],
       "Standalone: Tower of Nightmares": [
@@ -70,17 +79,20 @@
       ]
     },
     "Heart of Thorns": {
-      "Guild Initiative": [
+      "Standalone: Guild": [
+        337,
         338,
         339,
+        340,
         347,
         348,
         349,
+        359,
+        363,
+        364,
         365
       ],
-      "Standalone": [
-        337,
-        340,
+      "Standalone: Other": [
         341,
         343,
         346,
@@ -88,9 +100,6 @@
         351,
         354,
         358,
-        359,
-        363,
-        364,
         367,
         396
       ]
@@ -148,7 +157,85 @@
       ]
     },
     "Path of Fire": {
-      "Elite Specialization Series": [
+      "Standalone: Renown Heart": [
+        498,
+        502,
+        507,
+        511,
+        515,
+        516,
+        517,
+        520,
+        523,
+        526,
+        528,
+        529,
+        542,
+        544,
+        546,
+        551,
+        553,
+        559,
+        570,
+        576,
+        578,
+        580,
+        583,
+        584
+      ],
+      "Standalone: Sunspear Redemption Wish": [
+        499,
+        512,
+        513,
+        514,
+        519,
+        530,
+        533,
+        538,
+        548,
+        550,
+        554,
+        556,
+        561,
+        564,
+        568,
+        577,
+        581
+      ],
+      "Standalone: Other": [
+        500,
+        501,
+        508,
+        509,
+        510,
+        522,
+        524,
+        525,
+        532,
+        534,
+        535,
+        536,
+        537,
+        539,
+        540,
+        547,
+        549,
+		552,
+        555,
+        560,
+        573,
+        574,
+        579,
+        585,
+        595
+      ],
+      "Standalone: Other - Djinn": [
+        503,
+        505,
+        563,
+        572
+      ],
+      "Standalone: Other - Elite Specialization": [
         506,
         518,
         531,
@@ -159,95 +246,11 @@
         566,
         569
       ],
-      "Cavaliers of Amnoon": [
-        526,
-        574,
-        576,
-        580
-      ],
-      "Choya": [
-        502,
-        508,
-        551,
-        595
-      ],
-      "Djinn": [
-        503,
-        505,
-        563,
-        572
-      ],
-      "Mordant Crescent": [
-        507,
-        511,
-        524,
-        528,
-        535,
-        539,
-        542,
-        547,
-        559,
-        560,
-        570,
-        579,
-        585
-      ],
-      "Primeval Kings": [
+      "Standalone: Other - Primeval Kings": [
         527,
         557,
         562,
         575
-      ],
-      "Sunspear Order": [
-        499,
-        510,
-        512,
-        513,
-        514,
-        519,
-        530,
-        533,
-        538,
-        548,
-        549,
-        550,
-        554,
-        555,
-        556,
-        561,
-        564,
-        568,
-        573,
-        577,
-        581
-      ],
-      "Standalone: Mount": [
-        517,
-        523,
-        552
-      ],
-      "Standalone: Other": [
-        498,
-        500,
-        501,
-        509,
-        515,
-        516,
-        520,
-        522,
-        525,
-        529,
-        532,
-        534,
-        536,
-        537,
-        540,
-        544,
-        546,
-        553,
-        578,
-        583,
-        584
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik": {
@@ -333,19 +336,21 @@
       ]
     },
     "End of Dragons": {
-      "Standalone": [
+      "Standalone: Renown Heart": [
         838,
-        844,
-        845,
         846,
-        847,
         848,
         850,
-        853,
         854,
         855,
         856,
-        858,
+        858
+      ],
+      "Standalone: Other": [
+        844,
+        845,
+        847,
+        853,
         859
       ]
     },
@@ -357,7 +362,7 @@
         360,
         361
       ],
-      "Standalone": [
+      "Standalone: Shattered Observatory": [
         494
       ]
     },
@@ -410,7 +415,7 @@
         765
       ]
     },
-    "Competitive": {
+    "Player vs. Player / World vs. World": {
       "Black Llama": [
         427,
         429,
@@ -453,12 +458,14 @@
         482,
         487
       ],
-      "Standalone": [
-        204,
+      "Standalone: Player vs. Player": [
         362,
         366,
         379,
-        388,
+        388
+      ],
+      "Standalone: World vs. World": [
+        204,
         571,
         543
       ]
@@ -507,15 +514,14 @@
     },
     "Festival: Festival of the Four Winds": {
       "Standalone": [
-        167,
-        168,
-        169,
         170,
         291,
         700,
         701,
         831,
-        832
+        832,
+		872,
+		873
       ]
     },
     "Festival: Halloween": {
@@ -762,74 +768,6 @@
         113,
         114
       ],
-      "Avian": [
-        237,
-        238,
-        239
-      ],
-      "Awakened Mount": [
-        689,
-        691,
-        693,
-        694,
-        699
-      ],
-      "Baby - Set 1": [
-        139,
-        140,
-        143,
-        148,
-        154
-      ],
-      "Baby - Set 2": [
-        141,
-        144,
-        147,
-        149,
-        151
-      ],
-      "Bazaar Quaggan": [
-        164,
-        165,
-        166
-      ],
-      "Branded Mount": [
-        657,
-        660,
-        661,
-        662,
-        663
-      ],
-      "Costumed": [
-        197,
-        198,
-        199,
-        200
-      ],
-      "Cozy Wintersday Mount": [
-        627,
-        629,
-        631,
-        633,
-        635
-      ],
-      "Creepy": [
-        208,
-        229,
-        299
-      ],
-      "Exo-Suit Mount": [
-        709,
-        713,
-        714,
-        715,
-        717
-      ],
-      "Great Jungle Wurm": [
-        215,
-        216,
-        218
-      ],
       "Griffon Hatchling": [
         679,
         680,
@@ -865,12 +803,6 @@
         588,
         589,
         590
-      ],
-      "Scarlet's Champions": [
-        220,
-        224,
-        225,
-        226
       ],
       "Shiba Inu": [
         821,
@@ -908,19 +840,6 @@
         775,
         776
       ],
-      "Spooky": [
-        107,
-        109,
-        110,
-        111
-      ],
-      "Spooky Mount": [
-        599,
-        605,
-        609,
-        610,
-        611
-      ],
       "Springer Kit": [
         702,
         703,
@@ -934,36 +853,6 @@
         712,
         716
       ],
-      "Super - Set 1": [
-        133,
-        134,
-        135,
-        457
-      ],
-      "Super - Set 2": [
-        185,
-        186,
-        187,
-        188
-      ],
-      "Super - Set 3": [
-        455,
-        456,
-        458,
-        459
-      ],
-      "Super - Set 4": [
-        675,
-        676,
-        677,
-        678
-      ],
-      "Tequatl Rising": [
-        189,
-        190,
-        191,
-        192
-      ],
       "Tigris Cub": [
         860,
         861,
@@ -976,7 +865,137 @@
         868,
         869
       ],
-      "Wintersday": [
+      "Combo: Back Items": [
+        342
+      ],
+      "Combo: Gliders": [
+        383
+      ],
+      "Combo: Novelties": [
+        796
+      ],
+      "Package: Angry Chest": [
+        333,
+        369
+      ],
+      "Package: Avian": [
+        237,
+        238,
+        239
+      ],
+      "Package: Awakened Mounts": [
+        689,
+        691,
+        693,
+        694,
+        699
+      ],
+      "Package: Baby - Set 1": [
+        139,
+        140,
+        143,
+        148,
+        154
+      ],
+      "Package: Baby - Set 2": [
+        141,
+        144,
+        147,
+        149,
+        151
+      ],
+      "Package: Bazaar Quaggan": [
+        164,
+        165,
+        166
+      ],
+      "Package: Branded Mounts": [
+        657,
+        660,
+        661,
+        662,
+        663
+      ],
+      "Package: Costumed": [
+        197,
+        198,
+        199,
+        200
+      ],
+      "Package: Cozy Wintersday Mounts": [
+        627,
+        629,
+        631,
+        633,
+        635
+      ],
+      "Package: Creepy": [
+        208,
+        229,
+        299
+      ],
+      "Package: Exo-Suit Mounts": [
+        709,
+        713,
+        714,
+        715,
+        717
+      ],
+      "Package: Great Jungle Wurm": [
+        215,
+        216,
+        218
+      ],
+      "Package: Scarlet's Champions": [
+        220,
+        224,
+        225,
+        226
+      ],
+      "Package: Spooky": [
+        107,
+        109,
+        110,
+        111
+      ],
+      "Package: Spooky Mounts": [
+        599,
+        605,
+        609,
+        610,
+        611
+      ],
+      "Package: Super - Set 1": [
+        133,
+        134,
+        135,
+        457
+      ],
+      "Package: Super - Set 2": [
+        185,
+        186,
+        187,
+        188
+      ],
+      "Package: Super - Set 3": [
+        455,
+        456,
+        458,
+        459
+      ],
+      "Package: Super - Set 4": [
+        675,
+        676,
+        677,
+        678
+      ],
+      "Package: Tequatl Rising": [
+        189,
+        190,
+        191,
+        192
+      ],
+      "Package: Wintersday": [
         209,
         210,
         211,
@@ -992,15 +1011,6 @@
         792,
         793,
         795
-      ],
-      "Standalone: Mount": [
-        648,
-        649,
-        652,
-        653,
-        655,
-        736,
-        747
       ],
       "Standalone: Other": [
         1,
@@ -1035,14 +1045,10 @@
         330,
         331,
         332,
-        333,
         335,
         336,
-        342,
-        369,
         378,
         380,
-        383,
         384,
         386,
         387,
@@ -1075,8 +1081,16 @@
         630,
         654,
         781,
-        796,
         815
+      ],
+      "Standalone: Other - Mount": [
+        648,
+        649,
+        652,
+        653,
+        655,
+        736,
+        747
       ]
     }
   }

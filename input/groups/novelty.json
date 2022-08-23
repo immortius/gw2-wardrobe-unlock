@@ -32,11 +32,17 @@
     },
     "Living World Season 1: Scarlet's War": {
       "Standalone": [
+        28,
+        47,
+        49,
         64,
         58,
         88,
+        112,
         131,
+        140,
         149,
+        156,
         173,
         175,
         184,
@@ -117,10 +123,6 @@
     },
     "End of Dragons": {
       "Standalone": [
-        
-        
-        
-        
       ]
     },
     "Fractals of the Mists": {
@@ -139,7 +141,7 @@
         258
       ]
     },
-    "Competitive": {
+    "World vs. World": {
       "Standalone": [
         147
       ]
@@ -155,16 +157,10 @@
     "Festival: Festival of the Four Winds": {
       "Standalone": [
         1,
-        28,
         31,
-        47,
-        49,
         46,
-        112,
-        140,
         142,
         150,
-        156,
         223
       ]
     },
@@ -213,6 +209,8 @@
         33,
         286,
         311
+      ],
+      "Combo: Miniatures": [
       ],
       "Standalone: Chairs": [
         24,
