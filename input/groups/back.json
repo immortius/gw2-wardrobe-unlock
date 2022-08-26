@@ -386,6 +386,11 @@
       ]
     },
     "Gem Store": {
+      "Forest Archer": [
+        10156,
+        10159,
+        10161
+      ],
       "Combo: Weapons": [
         8021
       ],
@@ -454,11 +459,6 @@
       ],
       "Combo: Miniatures": [
         6431
-      ],
-      "Package: Forest Archer": [
-        10156,
-        10159,
-        10161
       ],
       "Standalone: Capes": [
         9050,
