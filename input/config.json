@@ -932,13 +932,13 @@
           16
         ]
       }
-    }/*,
-    {
-      "id": "heroes",
-      "name": "Other: Mist Champion Skins",
-      "source": "heroes",
-      "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes"
-    }
+    }//,
+//    {
+//      "id": "heroes",
+//      "name": "Other: Mist Champion Skins",
+//      "source": "heroes",
+//      "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes"
+//    }
   ],
   "gwuAnalyser": {
     "iconSize": 48,
