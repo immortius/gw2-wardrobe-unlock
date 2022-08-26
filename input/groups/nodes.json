@@ -1,0 +1,121 @@
+{
+  "topLevelCategories": {
+    "Core": {
+      "Standalone": [
+        "enchanted_treasure_chest"
+      ]
+    },
+    "Living World Season 1: Scarlet's War": {
+      "Standalone": [
+        "krait_obelisk",
+        "quartz_node",
+        "sprocket_generator"
+      ]
+    },
+    "Living World Season 2: Glint's Prophecy": {
+      "Standalone": [
+        "bandit_chest"
+      ]
+    },
+    "Heart of Thorns": {
+      "Standalone": [
+        "airship_cargo",
+        "aurilium_node",
+        "crystallized_supply_cache",
+        "exalted_chest"
+      ]
+    },
+    "Living World Season 3: Glint's Legacy": {
+      "Standalone": [
+        "bloodstone_crystals",
+        "jade_fragment",
+        "orrian_oyster_node",
+        "petrified_stump",
+        "primordial_orchid",
+        "winterberry_bush"
+      ]
+    },
+    "Living World Season 4: Rise of Kralkatorrik": {
+      "Standalone": [
+        "brandstone_node",
+        "difluorite_crystal_cluster_node",
+        "dragon_crystal",
+        "kournan_supply_cache",
+        "mistborn_mote",
+        "mistonium_node"
+      ]
+    },
+    "Living World Season 5: The Icebrood Saga": {
+      "Standalone": [
+        "bound_hatched_chili_pepper_node",
+        "eternal_ice_shard_node",
+        "prismaticite_node",
+        "salvage_pile"
+      ]
+    },
+    "Festival: Super Adventure Festival": {
+      "Standalone": [
+        "bauble_gathering_system"
+      ]
+    },
+    "Festival: Dragon Bash": {
+      "Standalone": [
+        "commemorative_dragon_pinata"
+      ]
+    },
+    "Festival: Halloween": {
+      "Standalone": [
+        "candy_corn_node",
+        "king_sized_candy_corn"
+      ]
+    },
+    "Festival: Wintersday": {
+      "Standalone": [
+        "wintersday_tree"
+      ]
+    },
+    "Gem Store": {
+      "Black Lion Board": [
+        "black_lion_expedition_board",
+        "black_lion_expedition_board_s4",
+        "black_lion_hunters_board",
+        "black_lion_industry_board"
+      ],
+      "Garden Plot": [
+        "garden_plot_01",
+        "garden_plot_02",
+        "garden_plot_03"
+      ],
+      "Standalone: Harvesting Nodes": [
+        "basic_harvesting_nodes",
+        "flaxseed_node",
+        "ghost_pepper_node",
+        "lotus_node",
+        "omnomberry_node",
+        "orrian_truffle_node",
+        "snow_truffle_node"
+      ],
+      "Standalone: Logging Nodes": [
+        "ancient_wood_node",
+        "basic_lumber_nodes",
+        "elder_wood_node",
+        "hard_wood_node"
+      ],
+      "Standalone: Mining Nodes": [
+        "basic_ore_nodes",
+        "iron_ore_node",
+        "mithril_ore_node",
+        "orichalcum_ore_node",
+        "platinum_ore_node"
+      ],
+      "Standalone: Fishing Nodes": [
+      ],
+      "Standalone: Other": [
+        "advanced_cloth_rack",
+        "advanced_leather_rack",
+        "basic_cloth_rack",
+        "basic_leather_rack"
+      ]
+    }
+  }
+}

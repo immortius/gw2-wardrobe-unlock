@@ -934,6 +934,12 @@
       }
     }//,
 //    {
+//      "id": "nodes",
+//      "name": "Other: Home Instance Nodes",
+//      "source": "nodes",
+//      "unlockUrl": "https://api.guildwars2.com/v2/account/home/nodes"
+//    }//,
+//    {
 //      "id": "heroes",
 //      "name": "Other: Mist Champion Skins",
 //      "source": "heroes",
