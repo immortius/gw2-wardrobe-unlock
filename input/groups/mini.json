@@ -220,7 +220,7 @@
         540,
         547,
         549,
-		552,
+        552,
         555,
         560,
         573,
@@ -235,7 +235,7 @@
         563,
         572
       ],
-      "Standalone: Other - Elite Specialization": [
+      "Standalone: Other - Elite Specialization Mentor": [
         506,
         518,
         531,
@@ -415,7 +415,7 @@
         765
       ]
     },
-    "Player vs. Player / World vs. World": {
+    "Competitive: Player vs. Player / World vs. World": {
       "Black Llama": [
         427,
         429,

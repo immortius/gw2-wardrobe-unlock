@@ -15,7 +15,6 @@
         219,
         222,
         231,
-        236,
         237,
         271,
         272,
@@ -141,7 +140,7 @@
         258
       ]
     },
-    "World vs. World": {
+    "Competitive: Player vs. Player / World vs. World": {
       "Standalone": [
         147
       ]
@@ -268,7 +267,8 @@
         103,
         159,
         172,
-        185
+        185,
+        236
       ]
     }
   }
