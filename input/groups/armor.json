@@ -763,7 +763,7 @@
         957,
         959
       ],
-      "Crafted Series 1 - Embroidered / Seeker / Chain": [
+      "Crafting Series 1 - Embroidered / Seeker / Chain": [
         165,
         153,
         170,
@@ -783,7 +783,7 @@
         207,
         223
       ],
-      "Crafted Series 2 - Student / Outlaw / Scale": [
+      "Crafting Series 2 - Student / Outlaw / Scale": [
         145,
         166,
         154,
@@ -803,7 +803,7 @@
         210,
         227
       ],
-      "Crafted Series 3 - Acolyte / Leather / Splint": [
+      "Crafting Series 3 - Acolyte / Leather / Splint": [
         160,
         146,
         147,
@@ -823,7 +823,7 @@
         125,
         126
       ],
-      "Crafted Series 4 - Winged / Rascal / Tempered Scale": [
+      "Crafting Series 4 - Winged / Rascal / Tempered Scale": [
         183,
         167,
         168,
@@ -843,7 +843,7 @@
         137,
         139
       ],
-      "Crafted Series 5 - Feathered / Prowler / Barbaric": [
+      "Crafting Series 5 - Feathered / Prowler / Barbaric": [
         177,
         163,
         164,
@@ -863,7 +863,7 @@
         235,
         206
       ],
-      "Crafted Series 6 - Masquerade / Noble / Gladiator": [
+      "Crafting Series 6 - Masquerade / Noble / Gladiator": [
         228,
         213,
         247,
@@ -883,7 +883,7 @@
         212,
         229
       ],
-      "Crafted Series 7 - Exalted / Emblazoned / Draconic": [
+      "Crafting Series 7 - Exalted / Emblazoned / Draconic": [
         161,
         162,
         178,
@@ -2684,14 +2684,6 @@
         10965,
         10967
       ],
-      "Combo: Outfits": [
-        7782,
-        7800,
-        7804,
-        9577,
-        9580,
-        9581
-      ],
       "Standalone: Head Armor": [
         833,
         839,
@@ -2771,6 +2763,9 @@
         7309,
         7326,
         7336,
+        7782,
+        7800,
+        7804,
         7960,
         7979,
         7994,
@@ -2907,6 +2902,9 @@
         7064,
         7066,
         7071,
+        9577,
+        9580,
+        9581,
         9796,
         9817,
         9820,

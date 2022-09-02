@@ -259,24 +259,6 @@
       ]
     },
     "Gem Store": {
-      "Combo: Outfits": [
-        78,
-        111,
-        126,
-        128,
-        144,
-        226,
-        265
-      ],
-      "Combo: Gliders": [
-        16,
-        27,
-        33,
-        286,
-        311
-      ],
-      "Combo: Miniatures": [
-      ],
       "Standalone: Chairs": [
         24,
         262,
@@ -296,6 +278,10 @@
         310,
         312,
         314
+      ],
+      "Standalone: Chairs + Glider Combo": [
+        286,
+        311
       ],
       "Standalone: Musical Instruments": [
         2,
@@ -327,6 +313,20 @@
         54,
         55,
         300
+      ],
+      "Standalone: Toys + Outfit Combo": [
+        78,
+        111,
+        126,
+        128,
+        144,
+        226,
+        265
+      ],
+      "Standalone: Toys + Glider Combo": [
+        16,
+        27,
+        33
       ],
       "Standalone: Tonics": [
         80,

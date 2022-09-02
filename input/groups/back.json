@@ -4,7 +4,7 @@
       "Starter": [
         2340
       ],
-      "Armorsmith's Backpack": [
+      "Crafting Series 1: Armorsmith": [
         2304,
         2305,
         2308,
@@ -12,7 +12,7 @@
         2301,
         2303
       ],
-      "Artificer's Backpack": [
+      "Crafting Series 2: Artificer": [
         2320,
         2297,
         2298,
@@ -20,7 +20,7 @@
         2284,
         2300
       ],
-      "Chef's Backpack": [
+      "Crafting Series 3: Chef": [
         2289,
         2324,
         2277,
@@ -28,11 +28,7 @@
         2302,
         2319
       ],
-      "Decade": [
-        11025,
-        11027
-      ],
-      "Huntsman's Backpack": [
+      "Crafting Series 4: Huntsman": [
         2321,
         2322,
         2323,
@@ -40,7 +36,7 @@
         2311,
         2312
       ],
-      "Jeweler's Backpack": [
+      "Crafting Series 5: Jeweler": [
         2276,
         2278,
         2280,
@@ -48,7 +44,7 @@
         2313,
         2285
       ],
-      "Leatherworker's Backpack": [
+      "Crafting Series 6: Leatherworker": [
         2292,
         2293,
         2294,
@@ -56,15 +52,7 @@
         2296,
         2315
       ],
-      "Scribe's Backpack": [
-        6512,
-        6402,
-        6341,
-        6503,
-        6361,
-        6495
-      ],
-      "Tailor's Backpack": [
+      "Crafting Series 7: Tailor": [
         2307,
         2309,
         2282,
@@ -72,13 +60,25 @@
         2316,
         2286
       ],
-      "Weaponsmith's Backpack": [
+      "Crafting Series 8: Weaponsmith": [
         2288,
         2290,
         2306,
         2291,
         2317,
         2287
+      ],
+      "Crafting Series 9: Scribe": [
+        6512,
+        6402,
+        6341,
+        6503,
+        6361,
+        6495
+      ],
+      "Decade": [
+        11025,
+        11027
       ],
       "Standalone: Anniversary": [
         6890,
@@ -150,17 +150,17 @@
       ]
     },
     "Heart of Thorns": {
-      "Order Series 1: Durmand Priory - Pack": [
+      "Order Series 1: Durmand Priory": [
         6296,
         6170,
         6379
       ],
-      "Order Series 2: Order of Whispers - Pack": [
+      "Order Series 2: Order of Whispers": [
         6416,
         6398,
         6159
       ],
-      "Order Series 3: Vigil - Pack": [
+      "Order Series 3: Vigil": [
         6243,
         6246,
         6304
@@ -391,75 +391,6 @@
         10159,
         10161
       ],
-      "Combo: Weapons": [
-        8021
-      ],
-      "Combo: Gliders": [
-        5878,
-        6035,
-        6527,
-        6412,
-        6615,
-        6744,
-        6774,
-        6965,
-        7004,
-        7202,
-        7661,
-        7743,
-        8434,
-        8627,
-        8883,
-        8915,
-        8979,
-        9061,
-        9298,
-        9364,
-        9450,
-        9481,
-        9617,
-        9659,
-        9992,
-        9999,
-        10045,
-        10079,
-        10105,
-        10149,
-        10200,
-        6854,
-        7200,
-        7308,
-        7285,
-        7811,
-        7996,
-        8038,
-        8141,
-        8184,
-        8638,
-        8647,
-        8725,
-        8807,
-        8930,
-        9021,
-        9211,
-        9474,
-        9671,
-        9732,
-        9769,
-        9893,
-        9969,
-        10010,
-        10219,
-        10503,
-        10805,
-        10823,
-        10888,
-        10912,
-        10941
-      ],
-      "Combo: Miniatures": [
-        6431
-      ],
       "Standalone: Capes": [
         9050,
         9072,
@@ -485,19 +416,63 @@
         10192,
         10902
       ],
+      "Standalone: Capes + Glider Combo": [
+        9732,
+        10888
+      ],
       "Standalone: Quivers": [
         2369,
         6449,
-        7012
+        7012,
+        8021
+      ],
+      "Standalone: Quivers + Glider Combo": [
+      ],
+      "Standalone: Wings": [
+        6003,
+        6078,
+        6132
+      ],
+      "Standalone: Wings + Glider Combo": [
+        5878,
+        6035,
+        6527,
+        6412,
+        6615,
+        6744,
+        6774,
+        6965,
+        7004,
+        7202,
+        7743,
+        8434,
+        8627,
+        8883,
+        8915,
+        8979,
+        9061,
+        9298,
+        9364,
+        9450,
+        9481,
+        9617,
+        9659,
+        9992,
+        9999,
+        10045,
+        10079,
+        10105,
+        10149,
+        10200,
+        10823,
+        10912
       ],
       "Standalone: Other": [
         1048,
         5654,
         5708,
         5998,
-        6003,
-        6078,
-        6132,
+        6431,
         6554,
         6745,
         7000,
@@ -522,6 +497,35 @@
         2367,
         2370,
         2372
+      ],
+      "Standalone: Other + Glider Combo": [
+        6854,
+        7200,
+        7285,
+        7308,
+        7661,
+        7811,
+        7996,
+        8038,
+        8141,
+        8184,
+        8638,
+        8647,
+        8725,
+        8807,
+        8930,
+        9021,
+        9211,
+        9474,
+        9671,
+        9769,
+        9893,
+        9969,
+        10010,
+        10219,
+        10503,
+        10805,
+        10941
       ]
     }
   }

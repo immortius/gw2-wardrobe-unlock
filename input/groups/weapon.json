@@ -625,7 +625,7 @@
         4957,
         4926
       ],
-      "Crafted Series 1 - Bronze / Green Wood": [
+      "Crafting Series 1 - Bronze / Green Wood": [
         4048,
         4004,
         4005,
@@ -646,7 +646,7 @@
         3883,
         3900
       ],
-      "Crafted Series 2 - Iron / Soft Wood": [
+      "Crafting Series 2 - Iron / Soft Wood": [
         4000,
         3875,
         4009,
@@ -668,7 +668,7 @@
         3887,
         4156
       ],
-      "Crafted Series 3 - Steel / Seasoned Wood": [
+      "Crafting Series 3 - Steel / Seasoned Wood": [
         5696,
         5697,
         5682,
@@ -689,7 +689,7 @@
         5688,
         5679
       ],
-      "Crafted Series 4 - Darksteel / Hard Wood": [
+      "Crafting Series 4 - Darksteel / Hard Wood": [
         4049,
         4034,
         4006,
@@ -710,7 +710,7 @@
         3998,
         3919
       ],
-      "Crafted Series 5 - Mithril / Elder Wood": [
+      "Crafting Series 5 - Mithril / Elder Wood": [
         4081,
         4114,
         4083,
@@ -731,7 +731,7 @@
         3965,
         3950
       ],
-      "Crafted Series 6 - Bandit": [
+      "Crafting Series 6 - Bandit": [
         4096,
         3905,
         4066,
@@ -753,7 +753,7 @@
         4029,
         3903
       ],
-      "Crafted Series 7 - Dredge": [
+      "Crafting Series 7 - Dredge": [
         3936,
         3937,
         4002,
@@ -774,7 +774,7 @@
         4028,
         3966
       ],
-      "Crafted Series 8 - Ogre": [
+      "Crafting Series 8 - Ogre": [
         4064,
         4033,
         4065,
@@ -795,7 +795,7 @@
         3993,
         4095
       ],
-      "Crafted Series 9 - Krait": [
+      "Crafting Series 9 - Krait": [
         3973,
         4106,
         4108,
@@ -817,7 +817,7 @@
         4063,
         4712
       ],
-      "Crafted Series 10 - Pearl": [
+      "Crafting Series 10 - Pearl": [
         4097,
         4098,
         4099,
@@ -5188,9 +5188,6 @@
         3742,
         3743
       ],
-      "Combo: Back Items": [
-        8010
-      ],
       "Standalone": [
         3713,
         3722,
@@ -5206,6 +5203,7 @@
         6884,
         7021,
         7208,
+        8010,
         8113,
         8135,
         8397,

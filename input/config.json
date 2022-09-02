@@ -932,19 +932,7 @@
           16
         ]
       }
-    }//,
-//    {
-//      "id": "nodes",
-//      "name": "Other: Home Instance Nodes",
-//      "source": "nodes",
-//      "unlockUrl": "https://api.guildwars2.com/v2/account/home/nodes"
-//    }//,
-//    {
-//      "id": "heroes",
-//      "name": "Other: Mist Champion Skins",
-//      "source": "heroes",
-//      "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes"
-//    }
+    }
   ],
   "gwuAnalyser": {
     "iconSize": 48,
@@ -1041,8 +1029,7 @@
       "/wiki/Kimmes_the_Historian",
       "/wiki/Sarettokk",
       "/wiki/Eternal_Ice_Shard",
-      "/wiki/Black_Lion_Exchange_Specialist",
-      "/wiki/Black_Lion_Representative_(Exchange_Specialist)"
+      "/wiki/Black_Lion_Exchange_Specialist"
     ]
   },
   "supportedCurrencies" : [
@@ -1066,6 +1053,14 @@
     "blmt",
     "blacklioncommemorativesprocket",
     "blsprocket",
+    "ascaloniantear",
+    "deadlybloom",
+    "sealofbeetletun",
+    "manifesto",
+    "charrcarving",
+    "knowledgecrystal",
+    "symbolofkoda",
+    "shardofzhaitan",
     "strike",
     "bauble",
     "bundleofloot",
@@ -1133,8 +1128,6 @@
     "writofechovaldwilds",
     "pieceofcrustaceanmeat",
     "flawlessfishfillet",
-    "researchnote",
-    "crimsonassassintoken",
-    "taleofdungeondelving"
+    "researchnote"
   ]
 }

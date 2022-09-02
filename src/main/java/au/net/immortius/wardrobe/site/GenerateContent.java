@@ -35,7 +35,7 @@ import java.util.stream.Collectors;
 public class GenerateContent {
 
     private static final String GENERAL_GROUP_NAME = "General";
-    private static final String UNCLASSIFIED_GROUP_NAME = "New";
+    private static final String UNCLASSIFIED_GROUP_NAME = "New releases";
     private static final String GOLD = "gold";
     private static final String KARMA = "karma";
     private static final String TRADINGPOST = "tp";
