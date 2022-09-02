@@ -1,11 +1,20 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone": [
+      "Standalone: Chairs": [
         12,
-        29,
+        289
+      ],
+      "Standalone: Musical Instruments": [
         34,
-        41,
+        41
+      ],
+      "Standalone: Held Items": [
+      ],
+      "Standalone: Toys": [
+        29
+      ],
+      "Standalone: Tonics": [
         72,
         120,
         122,
@@ -24,171 +33,228 @@
         276,
         283,
         288,
-        289,
         304,
         308
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Standalone": [
-        28,
-        47,
-        49,
-        64,
-        58,
+      "Quaggan Tonic": [
         88,
-        112,
         131,
-        140,
-        149,
-        156,
-        173,
-        175,
         184,
         200,
         215
+      ],
+      "Standalone: Molten Facility": [
+        175
+      ],
+      "Standalone: Aetherblade Retreat": [
+        173
+      ],
+      "Standalone: Labyrinthine Cliffs": [
+        28,
+        112,
+        156
+      ],
+      "Standalone: The Crown Pavilion": [
+        47,
+        49,
+        140
+      ],
+      "Standalone: Tower of Nightmares": [
+        149
+      ],
+      "Standalone: Lion's Arch": [
+        64,
+        58
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
-      "Standalone": [
+      "Standalone: Dry Top": [
         11,
         14,
         48,
+        195
+      ],
+      "Standalone: The Silverwastes": [
         81,
         90,
         117,
         138,
-        195,
         201,
         230,
         243
       ]
     },
     "Heart of Thorns": {
-      "Standalone": [
+      "Mushroom Tonic": [
         96,
+        135,
+        266,
+        267
+      ],
+      "Standalone: Tonics": [
         102,
         106,
         110,
-        135,
         186,
         198,
         214,
         228,
         234,
-        241,
-        266,
-        267
+        241
       ]
     },
     "Living World Season 3: Glint's Legacy": {
-      "Standalone": [
-        92,
-        132,
-        158,
+      "Standalone: Ember Bay": [
+        132
+      ],
+      "Standalone: Bitterfrost Frontier": [
+        158
+      ],
+      "Standalone: Lake Doric": [
         255
+      ],
+      "Standalone: Draconis Mons": [
+        92
       ]
     },
     "Path of Fire": {
-      "Standalone": [
+      "Standalone: Held Items": [
         10,
         17,
         22,
         26,
         39,
         43,
-        51,
+        51
+      ],
+      "Standalone: Tonics": [
         218
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik": {
-      "Standalone": [
+      "Standalone: Domain of Istan": [
+        248
+      ],
+      "Standalone: Sandswept Isles": [
+        246
+      ],
+      "Standalone: Domain of Kourna": [
         86,
-        89,
-        233,
-        246,
-        248,
-        282,
-        281
+        89
+      ],
+      "Standalone: Jahai Bluffs": [
+        233
+      ],
+      "Standalone: Dragonfall": [
+        281,
+        282
       ]
     },
     "Living World Season 5: The Icebrood Saga": {
-      "Standalone": [
+      "Standalone: Grothmar Valley": [
         292,
-        293,
+        293
+      ],
+      "Standalone: Bjora Marches": [
         297,
         299
       ]
     },
     "End of Dragons": {
-      "Standalone": [
+      "Standalone: Chairs": [
+      ],
+      "Standalone: Tonics": [
       ]
     },
     "Fractals of the Mists": {
-      "Standalone": [
+      "Standalone: Shattered Observatory": [
         115,
-        121,
-        141,
+        141
+      ],
+      "Standalone: Sunqua Peak": [
         307
+      ],
+      "Standalone: Other": [
+        121
       ]
     },
     "Raid": {
-      "Standalone": [
-        50,
-        69,
-        285,
+      "Standalone: Salvation Pass": [
         258
+      ],
+      "Standalone: Hall of Chains": [
+        50
+      ],
+      "Standalone: Mythwright Gambit": [
+        69
+      ],
+      "Standalone: The Key of Ahdashim": [
+        285
       ]
     },
     "Competitive: Player vs. Player / World vs. World": {
-      "Standalone": [
+      "Champion": [
+      ],
+      "Standalone: World vs. World": [
         147
       ]
     },
     "Festival: Super Adventure Festival": {
-      "Standalone": [
+      "Duskk's Super Boom Box": [
         3,
-        23,
-        25,
         30
+      ],
+      "Super Boom Box": [
+        23,
+        25
       ]
     },
     "Festival: Festival of the Four Winds": {
-      "Standalone": [
+      "Standalone: Held Items": [
         1,
         31,
-        46,
+        46
+      ],
+      "Standalone: Tonics": [
         142,
         150,
         223
       ]
     },
     "Festival: Halloween": {
-      "Standalone": [
+      "Ignited Wraith Tonic": [
         84,
         94,
         166,
+        178
+      ],
+      "Standalone: Tonics": [
         170,
-        178,
         180
       ]
     },
     "Festival: Wintersday": {
-      "Standalone": [
-        38,
-        42,
-        75,
-        93,
+      "Gift Box Tonic / Gift Dolyak Tonic / Toymaker's Tonic": [
         119,
-        133,
         136,
         145,
         151,
         171,
         188,
         206,
+        257
+      ],
+      "Standalone: Musical Instruments": [
+        38,
+        42
+      ],
+      "Standalone: Tonics": [
+        75,
+        93,
+        133,
         217,
-        257,
         277
       ]
     },
