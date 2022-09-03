@@ -220,7 +220,7 @@
         540,
         547,
         549,
-		552,
+        552,
         555,
         560,
         573,
@@ -235,7 +235,7 @@
         563,
         572
       ],
-      "Standalone: Other - Elite Specialization": [
+      "Standalone: Other - Elite Specialization Mentor": [
         506,
         518,
         531,
@@ -415,7 +415,7 @@
         765
       ]
     },
-    "Player vs. Player / World vs. World": {
+    "Competitive: Player vs. Player / World vs. World": {
       "Black Llama": [
         427,
         429,
@@ -768,6 +768,74 @@
         113,
         114
       ],
+      "Avian": [
+        237,
+        238,
+        239
+      ],
+      "Awakened Mounts": [
+        689,
+        691,
+        693,
+        694,
+        699
+      ],
+      "Baby - Set 1": [
+        139,
+        140,
+        143,
+        148,
+        154
+      ],
+      "Baby - Set 2": [
+        141,
+        144,
+        147,
+        149,
+        151
+      ],
+      "Bazaar Quaggan": [
+        164,
+        165,
+        166
+      ],
+      "Branded Mounts": [
+        657,
+        660,
+        661,
+        662,
+        663
+      ],
+      "Costumed": [
+        197,
+        198,
+        199,
+        200
+      ],
+      "Cozy Wintersday Mounts": [
+        627,
+        629,
+        631,
+        633,
+        635
+      ],
+      "Creepy": [
+        208,
+        229,
+        299
+      ],
+      "Exo-Suit Mounts": [
+        709,
+        713,
+        714,
+        715,
+        717
+      ],
+      "Great Jungle Wurm": [
+        215,
+        216,
+        218
+      ],
       "Griffon Hatchling": [
         679,
         680,
@@ -803,6 +871,12 @@
         588,
         589,
         590
+      ],
+      "Scarlet's Champions": [
+        220,
+        224,
+        225,
+        226
       ],
       "Shiba Inu": [
         821,
@@ -840,6 +914,19 @@
         775,
         776
       ],
+      "Spooky": [
+        107,
+        109,
+        110,
+        111
+      ],
+      "Spooky Mounts": [
+        599,
+        605,
+        609,
+        610,
+        611
+      ],
       "Springer Kit": [
         702,
         703,
@@ -853,6 +940,36 @@
         712,
         716
       ],
+      "Super - Set 1": [
+        133,
+        134,
+        135,
+        457
+      ],
+      "Super - Set 2": [
+        185,
+        186,
+        187,
+        188
+      ],
+      "Super - Set 3": [
+        455,
+        456,
+        458,
+        459
+      ],
+      "Super - Set 4": [
+        675,
+        676,
+        677,
+        678
+      ],
+      "Tequatl Rising": [
+        189,
+        190,
+        191,
+        192
+      ],
       "Tigris Cub": [
         860,
         861,
@@ -865,137 +982,7 @@
         868,
         869
       ],
-      "Combo: Back Items": [
-        342
-      ],
-      "Combo: Gliders": [
-        383
-      ],
-      "Combo: Novelties": [
-        796
-      ],
-      "Package: Angry Chest": [
-        333,
-        369
-      ],
-      "Package: Avian": [
-        237,
-        238,
-        239
-      ],
-      "Package: Awakened Mounts": [
-        689,
-        691,
-        693,
-        694,
-        699
-      ],
-      "Package: Baby - Set 1": [
-        139,
-        140,
-        143,
-        148,
-        154
-      ],
-      "Package: Baby - Set 2": [
-        141,
-        144,
-        147,
-        149,
-        151
-      ],
-      "Package: Bazaar Quaggan": [
-        164,
-        165,
-        166
-      ],
-      "Package: Branded Mounts": [
-        657,
-        660,
-        661,
-        662,
-        663
-      ],
-      "Package: Costumed": [
-        197,
-        198,
-        199,
-        200
-      ],
-      "Package: Cozy Wintersday Mounts": [
-        627,
-        629,
-        631,
-        633,
-        635
-      ],
-      "Package: Creepy": [
-        208,
-        229,
-        299
-      ],
-      "Package: Exo-Suit Mounts": [
-        709,
-        713,
-        714,
-        715,
-        717
-      ],
-      "Package: Great Jungle Wurm": [
-        215,
-        216,
-        218
-      ],
-      "Package: Scarlet's Champions": [
-        220,
-        224,
-        225,
-        226
-      ],
-      "Package: Spooky": [
-        107,
-        109,
-        110,
-        111
-      ],
-      "Package: Spooky Mounts": [
-        599,
-        605,
-        609,
-        610,
-        611
-      ],
-      "Package: Super - Set 1": [
-        133,
-        134,
-        135,
-        457
-      ],
-      "Package: Super - Set 2": [
-        185,
-        186,
-        187,
-        188
-      ],
-      "Package: Super - Set 3": [
-        455,
-        456,
-        458,
-        459
-      ],
-      "Package: Super - Set 4": [
-        675,
-        676,
-        677,
-        678
-      ],
-      "Package: Tequatl Rising": [
-        189,
-        190,
-        191,
-        192
-      ],
-      "Package: Wintersday": [
+      "Wintersday": [
         209,
         210,
         211,
@@ -1045,10 +1032,14 @@
         330,
         331,
         332,
+        333,
         335,
         336,
+        342,
+        369,
         378,
         380,
+        383,
         384,
         386,
         387,
@@ -1081,6 +1072,7 @@
         630,
         654,
         781,
+        796,
         815
       ],
       "Standalone: Other - Mount": [

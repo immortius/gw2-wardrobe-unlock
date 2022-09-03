@@ -24,7 +24,7 @@
         397
       ]
     },
-    "World vs. World": {
+    "Competitive: Player vs. Player / World vs. World": {
       "Standalone": [
         161,
         251
@@ -212,8 +212,7 @@
         241,
         366
       ],
-      "Standalone: Raptor Skins": [
-        17,
+      "Standalone: Raptor Skins - Common": [
         21,
         29,
         32,
@@ -221,117 +220,127 @@
         81,
         86,
         111,
-        126,
         136,
         175,
         179,
-        200,
         240,
-        264,
         266,
-        294,
         308,
-        329,
         344,
         367
       ],
       "Standalone: Raptor Skins - Canthan": [
         360
       ],
-      "Standalone: Springer Skins": [
+      "Standalone: Raptor Skins - Exclusive": [
+        17,
+        126,
+        200,
+        264,
+        294,
+        329
+      ],
+      "Standalone: Springer Skins - Common": [
         20,
         38,
         42,
         43,
-        61,
         78,
         106,
         118,
         139,
         140,
-        152,
         178,
         182,
         208,
         215,
-        231,
         243,
         299,
-        331,
         351
       ],
       "Standalone: Springer Skins - Cuckoo": [
       ],
-      "Standalone: Skimmer Skins": [
+      "Standalone: Springer Skins - Exclusive": [
+        61,
+        152,
+        231,
+        331
+      ],
+      "Standalone: Skimmer Skins - Common": [
         26,
         36,
         37,
         44,
         45,
-        57,
         83,
         84,
         112,
         137,
-        168,
         174,
-        311,
         312,
         345,
-        358,
         368,
         375
       ],
-      "Standalone: Jackal Skins": [
+      "Standalone: Skimmer Skins - Exclusive": [
+        57,
+        168,
+        311,
+        358
+      ],
+      "Standalone: Jackal Skins - Common": [
         22,
         28,
         33,
         39,
-        46,
         90,
-        97,
         107,
         117,
         149,
         183,
         213,
-        220,
         272,
-        287,
-        332,
         343,
         355,
-        359,
-        372,
-        406
+        372
       ],
       "Standalone: Jackal Skins - Vulpine": [
       ],
-      "Standalone: Griffon Skins": [
+      "Standalone: Jackal Skins - Exclusive": [
+        46,
+        97,
+        220,
+        287,
+        332,
+        359,
+        406
+      ],
+      "Standalone: Griffon Skins - Common": [
         25,
         34,
         40,
         50,
-        62,
         77,
         80,
         110,
         115,
-        129,
         141,
         150,
         177,
         210,
         246,
-        250,
         271,
         346,
         361
       ],
       "Standalone: Griffon Skins - Tigris": [
       ],
-      "Standalone: Roller Beetle Skins": [
-        104,
+      "Standalone: Griffon Skins - Exclusive": [
+        62,
+        129,
+        250
+      ],
+      "Standalone: Roller Beetle Skins - Common": [
         105,
         114,
         144,
@@ -341,24 +350,28 @@
         239,
         348
       ],
-      "Standalone: Warclaw Skins": [
+      "Standalone: Roller Beetle Skins - Exclusive": [
+        104
+      ],
+      "Standalone: Warclaw Skins - Common": [
         162,
         163,
         165,
         204,
-        252,
         279,
         301,
-        316,
         354,
         363,
-        364,
-        380
+        364
       ],
       "Standalone: Warclaw Skins - Nian": [
       ],
-      "Standalone: Skyscale Skins": [
-        191,
+      "Standalone: Warclaw Skins - Exclusive": [
+        252,
+        316,
+        380
+      ],
+      "Standalone: Skyscale Skins - Common": [
         193,
         194,
         198,
@@ -368,15 +381,20 @@
         242,
         265,
         275,
-        292,
         305,
         306,
-        336,
         357
       ],
       "Standalone: Skyscale Skins - Noble": [
       ],
-      "Standalone: Siege Turtle Skins": [
+      "Standalone: Skyscale Skins - Exclusive": [
+        191,
+        292,
+        336
+      ],
+      "Standalone: Siege Turtle Skins - Common": [
+      ],
+      "Standalone: Siege Turtle Skins - Exclusive": [
       ]
     }
   }

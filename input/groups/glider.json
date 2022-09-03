@@ -5,24 +5,65 @@
         2
       ]
     },
-    "Heart of Thorns": {
-      "Standalone": [
-        78
-      ]
-    },
     "Fractals of the Mists": {
       "Standalone": [
         22
       ]
     },
-    "Player vs. Player / World vs. World": {
+    "Competitive: Player vs. Player / World vs. World": {
       "Standalone": [
         11,
         43
       ]
     },
     "Gem Store": {
-      "Combo: Back Items": [
+      "Standalone": [
+        4,
+        5,
+        7,
+        9,
+        10,
+        12,
+        14,
+        17,
+        18,
+        19,
+        20,
+        21,
+        25,
+        26,
+        27,
+        31,
+        32,
+        33,
+        35,
+        36,
+        37,
+        38,
+        41,
+        46,
+        49,
+        50,
+        53,
+        55,
+        58,
+        59,
+        61,
+        62,
+        64,
+        65,
+        66,
+        67,
+        71,
+        74,
+        76,
+        78,
+        82,
+        84,
+        88,
+        104
+      ],
+      "Standalone + Back Item Combo": [
         1,
         3,
         6,
@@ -83,61 +124,15 @@
         112,
         114,
         115,
-        116
+        116,
+        117
       ],
-      "Combo: Novelties": [
+      "Standalone + Novelty Combo": [
         16,
         39,
         44,
         73,
         97
-      ],
-      "Combo: Miniatures": [
-        12
-      ],
-      "Standalone": [
-        4,
-        5,
-        7,
-        9,
-        10,
-        14,
-        17,
-        18,
-        19,
-        20,
-        21,
-        25,
-        26,
-        27,
-        31,
-        32,
-        33,
-        35,
-        36,
-        37,
-        38,
-        41,
-        46,
-        49,
-        50,
-        53,
-        55,
-        58,
-        59,
-        61,
-        62,
-        64,
-        65,
-        66,
-        67,
-        71,
-        74,
-        76,
-        82,
-        84,
-        88,
-        104
       ]
     }
   }

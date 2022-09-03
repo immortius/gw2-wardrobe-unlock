@@ -763,7 +763,7 @@
         957,
         959
       ],
-      "Crafted Series 1 - Embroidered / Seeker / Chain": [
+      "Crafting Series 1 - Embroidered / Seeker / Chain": [
         165,
         153,
         170,
@@ -783,7 +783,7 @@
         207,
         223
       ],
-      "Crafted Series 2 - Student / Outlaw / Scale": [
+      "Crafting Series 2 - Student / Outlaw / Scale": [
         145,
         166,
         154,
@@ -803,7 +803,7 @@
         210,
         227
       ],
-      "Crafted Series 3 - Acolyte / Leather / Splint": [
+      "Crafting Series 3 - Acolyte / Leather / Splint": [
         160,
         146,
         147,
@@ -823,7 +823,7 @@
         125,
         126
       ],
-      "Crafted Series 4 - Winged / Rascal / Tempered Scale": [
+      "Crafting Series 4 - Winged / Rascal / Tempered Scale": [
         183,
         167,
         168,
@@ -843,7 +843,7 @@
         137,
         139
       ],
-      "Crafted Series 5 - Feathered / Prowler / Barbaric": [
+      "Crafting Series 5 - Feathered / Prowler / Barbaric": [
         177,
         163,
         164,
@@ -863,7 +863,7 @@
         235,
         206
       ],
-      "Crafted Series 6 - Masquerade / Noble / Gladiator": [
+      "Crafting Series 6 - Masquerade / Noble / Gladiator": [
         228,
         213,
         247,
@@ -883,7 +883,7 @@
         212,
         229
       ],
-      "Crafted Series 7 - Exalted / Emblazoned / Draconic": [
+      "Crafting Series 7 - Exalted / Emblazoned / Draconic": [
         161,
         162,
         178,
@@ -922,6 +922,26 @@
         122,
         123,
         124
+      ],
+      "Decade": [
+        10974,
+        10976,
+        10978,
+        10981,
+        10982,
+        10986,
+        10991,
+        10994,
+        10995,
+        10996,
+        11005,
+        11008,
+        11009,
+        11012,
+        11018,
+        11026,
+        11028,
+        11031
       ],
       "Hellfire": [
         768,
@@ -1060,10 +1080,7 @@
         2011,
         8117,
         8120,
-        8123,
-        8657,
-        8670,
-        8677
+        8123
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -1828,7 +1845,7 @@
         7115
       ]
     },
-    "Player vs. Player / World vs. World": {
+    "Competitive: Player vs. Player / World vs. World": {
       "Apostle / Stalwart / Heavy Scale": [
         1619,
         1587,
@@ -2407,6 +2424,17 @@
         1143,
         1141
       ],
+      "Aspect Eye": [
+        8208,
+        8194,
+        8195,
+        8228,
+        8213,
+        8230,
+        8217,
+        8205,
+        8222
+      ],
       "Aurene's Crystalline": [
         9452,
         9458,
@@ -2414,6 +2442,17 @@
         9954,
         9960,
         9961
+      ],
+      "Enchanted Dragon Crown": [
+        8234,
+        8238,
+        8253,
+        8260,
+        8277,
+        8278,
+        8289,
+        8296,
+        8297
       ],
       "Etherbound": [
         8658,
@@ -2425,6 +2464,12 @@
         8959,
         8960,
         8961
+        10980,
+        11001,
+        11010,
+        11011,
+        11029,
+        11030
       ],
       "Exalted": [
         8115,
@@ -2473,6 +2518,26 @@
         9996,
         9997,
         9998
+      ],
+      "Immortal Fire / Immortal Light": [
+        9570,
+        9574,
+        9575,
+        9578,
+        9582,
+        9586,
+        10074,
+        10080,
+        10081,
+        10086,
+        10094,
+        10097,
+        10109,
+        10111,
+        10112,
+        10115,
+        10116,
+        10117
       ],
       "Jackal Rune": [
         8000,
@@ -2625,101 +2690,13 @@
         10965,
         10967
       ],
-      "Combo: Outfits": [
-        7782,
-        7800,
-        7804,
-        9577,
-        9580,
-        9581
-      ],
-      "Package: Aspect Eye": [
-        8208,
-        8194,
-        8195,
-        8228,
-        8213,
-        8230,
-        8217,
-        8205,
-        8222
-      ],
-      "Package: Enchanted Dragon Crown": [
-        8234,
-        8238,
-        8253,
-        8260,
-        8277,
-        8278,
-        8289,
-        8296,
-        8297
-      ],
-      "Package: Immortal Halo": [
-        9570,
-        9574,
-        9575,
-        9578,
-        9582,
-        9586
-      ],
-      "Package: Immortal Nimbus": [
-        10074,
-        10080,
-        10081,
-        10086,
-        10094,
-        10097
-      ],
-      "Package: Immortal Ring": [
-        10109,
-        10111,
-        10112,
-        10115,
-        10116,
-        10117
-      ],
-      "Package: Magnus's Eye Patch": [
+      "Standalone: Head Armor": [
         833,
         839,
         840,
         841,
         842,
-        843
-      ],
-      "Package: Shrine Guardian Ears": [
-        8685,
-        8718,
-        8727,
-        8741,
-        8743,
-        8751
-      ],
-      "Package: Skyscale Horns": [
-        8814,
-        8834,
-        8837,
-        8816,
-        8822,
-        8841
-      ],
-      "Package: Unicorn Horn": [
-        10846,
-        10852,
-        10853,
-        10854,
-        10862,
-        10865
-      ],
-      "Package: Winter Antlers": [
-        8518,
-        8524,
-        8545,
-        8538,
-        8543,
-        8544
-      ],
-      "Standalone: Head Armor": [
+        843,
         975,
         983,
         984,
@@ -2792,12 +2769,33 @@
         7309,
         7326,
         7336,
+        7782,
+        7800,
+        7804,
         7960,
         7979,
         7994,
         8068,
         8071,
         8072,
+        8518,
+        8524,
+        8545,
+        8538,
+        8543,
+        8544,
+        8685,
+        8718,
+        8727,
+        8741,
+        8743,
+        8751,
+        8814,
+        8834,
+        8837,
+        8816,
+        8822,
+        8841,
         9613,
         9614,
         9616,
@@ -2825,8 +2823,14 @@
         10833,
         10834,
         10835,
+        10846,
         10847,
         10849,
+        10852,
+        10853,
+        10854,
+        10862,
+        10865,
         10867
       ],
       "Standalone: Head Armor - Fuzzy Hat": [
@@ -2881,7 +2885,10 @@
         5700,
         5746,
         5747,
-        5748
+        5748,
+        8657,
+        8670,
+        8677
       ],
       "Standalone: Head Armor - Mask of the Jubilee": [
         1184,
@@ -2901,6 +2908,9 @@
         7064,
         7066,
         7071,
+        9577,
+        9580,
+        9581,
         9796,
         9817,
         9820,
