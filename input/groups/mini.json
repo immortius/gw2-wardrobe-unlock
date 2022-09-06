@@ -157,6 +157,9 @@
       ]
     },
     "Path of Fire": {
+      "Standalone: Adventure": [
+        552
+      ],
       "Standalone: Renown Heart": [
         498,
         502,
@@ -220,7 +223,6 @@
         540,
         547,
         549,
-        552,
         555,
         560,
         573,
@@ -590,18 +592,20 @@
         118,
         119
       ],
-      "Standalone": [
+      "Standalone: Strike Mission": [
+        737,
+        836
+      ],
+      "Standalone: Other": [
         213,
         310,
         625,
         632,
         636,
         735,
-        737,
         738,
         791,
-        794,
-        836
+        794
       ]
     },
     "Gem Store": {
