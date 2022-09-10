@@ -13,9 +13,9 @@ var acquisitionMethods = [
     { id : "vendor", name : "Vendor", category : "General", hideOnIcon : true},
     { id : "craft", name : "Crafting", category : "General"},
     { id : "achievement", name : "Achievement", category : "General"},
-    { id : 'hallofmonuments', name : "Hall of Monuments", category : "Core"},
+    { id : 'hallofmonuments', name : "Hall of Monuments", category : "General"},
     { id : "story", name : "Story Reward", category : "General"},
-    { id : "event", name : "Bound Loot Exclusive", category : "General"},
+    { id : "event", name : "Bound Loot", category : "General"},
 
     { id : "birthday1", name : "First Birthday", category : "General - Anniversary"},
     { id : "birthday3", name : "Third Birthday", category : "General - Anniversary"},
@@ -73,9 +73,9 @@ var acquisitionMethods = [
     { id : "kralkatiteore", name : "Kralkatite Ore", category : "Living World Season 4"},
     { id : "difluorite", name : "Difluorite Crystal", category : "Living World Season 4"},
     { id : "inscribedshard", name : "Inscribed Shard", category : "Living World Season 4"},
+    { id : "mistonium", name : "Lump of Mistonium", category : "Living World Season 4"},
     { id : "brandedmass", name : "Branded Mass", category : "Living World Season 4"},
     { id : "mistbornmote", name : "Mistborn Mote", category : "Living World Season 4"},
-    { id : "mistonium", name : "Lump of Mistonium", category : "Living World Season 4"},
 
     { id : "hatchedchili", name : "Hatched Chili", category : "Living World Season 5"},
     { id : "eternaliceshard", name : "Eternal Ice Shard", category : "Living World Season 5"},
