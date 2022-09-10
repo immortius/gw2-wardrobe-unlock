@@ -3263,7 +3263,7 @@
         7166,
         7167
       ],
-      "Crimson Assassin > Crimson Vanquisher": [
+      "Crimson Assassin / Kaiser Snake > Crimson Vanquisher": [
         9967,
         9968,
         9970,
@@ -3741,9 +3741,11 @@
         9787,
         9788
       ],
-      "Standalone": [
+      "Standalone: Strike Mission": [
+        10194
+      ],
+      "Standalone: Other": [
         10185,
-        10194,
         10208,
         10217
       ]
