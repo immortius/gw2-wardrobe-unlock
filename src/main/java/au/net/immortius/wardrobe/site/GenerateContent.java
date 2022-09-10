@@ -15,6 +15,7 @@ import com.google.common.base.Strings;
 import com.google.common.collect.*;
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
+import com.google.gson.stream.MalformedJsonException;
 import io.gsonfire.GsonFireBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -366,6 +367,8 @@ public class GenerateContent {
                                 unlockData.sources.add(acquisitionMethod.name);
                             }
                         }
+                    } catch (JsonSyntaxException | MalformedJsonException e) {
+                        logger.error("Failed to process acquisition for {}", acquisitionMethodFile, e);
                     }
                 }
             }

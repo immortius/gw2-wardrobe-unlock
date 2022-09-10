@@ -106,14 +106,14 @@ var acquisitionMethods = [
     { id : "unstablefractalessence", name : "Unstable Fractal Essence", category : "Dungeon / Fractals of the Mists"},
 
     { id : "magnetiteshard", name : "Magnetite Shard", category : "Raid / Strike Mission"},
-    //{ id : "blueprophetshard", name: "Blue Prophet Shard", category : "Raid / Strike Mission"},
+    { id : "blueprophetshard", name: "Blue Prophet Shard", category : "Raid / Strike Mission"},
     { id : "greenprophetshard", name: "Green Prophet Shard", category : "Raid / Strike Mission"},
 
     { id : "pvp", name : "Reward Track", category : "Competitive"},
     { id : "pvplt", name : "PvP League Ticket", category : "Competitive"},
     { id : "shardofglory", name : "Shards of Glory", category : "Competitive"},
     { id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Competitive"},
-    { id : "pvptournament", name : "PvP Tournament Voucher", category : "Competitive"},
+    { id : "pvptournamentvoucher", name : "PvP Tournament Voucher", category : "Competitive"},
     { id : "boh", name : "Badge of Honor", category : "Competitive"},
     { id : "wvwsct", name : "WvW Skirmish Claim Ticket", category : "Competitive"},
     { id : "memoryofbattle", name : "Memory of Battle", category : "Competitive"},
