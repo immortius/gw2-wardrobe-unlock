@@ -1,33 +1,35 @@
 {
   "name": "achievement",
   "contents": [
-    // Auric,
+    // Auric
     6279,6149,
     // Cape
     9991,
-	// Dragon Bash
-	8833,
-    // Druid Stones,
+    // Dragon Bash
+    8833,
+    // Druid Stones
     7214,7209,7216,7218,
-	// Four wind,
-	8861,
-    // Halloween,
+    // Four Winds
+    8861,
+    // Halloween
     2336,2338,7775,7760,9638,
-    // Inquest,
+    // Inquest
     8049,8058,8052,
-    // Order Backpacks,
+    // Order Backpacks
     6159,6246,6379,6398,6296,6304,
-    // Relics,
+    // Relics
     7319,
-    // Super Adventure Box,
+    // Super Adventure Box
     7201,6668,2361,2360,
-	// The Icebrood Sage
-	9017,9249,9252,
-	// End of Dragons
-	10231, 10247, 10271, 10399, 10458,
-    // General,
+    // The Icebrood Sage
+    9017,9249,9252,
+    // End of Dragons
+    10231, 10247, 10271, 10399, 10458,
+    // General
     6618,6621,6253,6353,5653,
-	9387,9407,9413,9431,
-    10218
+    9387,9407,9413,9431,
+    10218,
+    // Decade
+    11025,11027
   ]
 }
