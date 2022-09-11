@@ -1,0 +1,73 @@
+{
+  "name": "elementalist",
+  "contents": [
+    // Conjure
+    4882,4885,4855,4823,4859,4861,
+    // Elite Specialization
+    6320,6065,7718,7368,10442,10228
+  ]
+},
+{
+  "name": "mesmer",
+  "contents": [
+    // Phantasm
+    4705,4706,4851,4709,4695,4715,4731,4860,
+    // Elite Specialization
+    6222,6066,7402,7719,10466,10691
+  ]
+},
+{
+  "name": "necromancer",
+  "contents": [
+    // Elite Specialization
+    6313,6054,7699,7439,10642,10595
+  ]
+},
+{
+  "name": "engineer",
+  "contents": [
+    // Engineering Kit
+    4768,
+    // Elite Specialization
+    6447,6062,7533,7681,10463,10680
+  ]
+},
+{
+  "name": "ranger",
+  "contents": [
+    // Elite Specialization
+    6250,6069,7370,7593,10424,10372
+  ]
+},
+{
+  "name": "thief",
+  "contents": [
+    // Elite Specialization
+    6515,6049,7433,7591,10246,10470
+  ]
+},
+{
+  "name": "guardian",
+  "contents": [
+    // Spirit Weapon
+    4784,4819,4883,4884,4727,
+    // Elite Specialization
+    6411,6041,7485,7599,10634,10403
+  ]
+},
+{
+  "name": "revenant",
+  "contents": [
+    // Mist
+    8114,8116,8118,
+    // Elite Specialization
+    6471,6074,7401,7362,10566,10240
+  ]
+},
+{
+  "name": "warrior",
+  "contents": [
+    // Elite Specialization
+    6173,6047,7397,7569,10245,10438
+  ]
+}
