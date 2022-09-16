@@ -18,6 +18,7 @@ public class PathsConfig {
     public Path contentFile;
     private Path relativeVendorsPath;
     private Path relativeGwuPath;
+    private Path relativeBountyPath;
     private Path relativePricesPath;
     private Path relativeIconCachePath;
     private Path relativeAtlasPath;
@@ -58,6 +59,10 @@ public class PathsConfig {
 
     public Path getGuaranteedWardrobeUnlocksPath() {
         return baseCachePath.resolve(relativeGwuPath);
+    }
+
+    public Path getBountyUnlocksPath() {
+        return baseCachePath.resolve(relativeBountyPath);
     }
 
     public Path getPricesPath() {

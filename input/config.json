@@ -11,6 +11,7 @@
     "contentFile": "cache/content.json",
     "relativeVendorsPath": "vendors",
     "relativeGwuPath": "gwu",
+    "relativeBountyPath": "bounty",
     "relativePricesPath": "prices",
     "relativeIconCachePath": "icons",
     "relativeAtlasPath": "atlas",
@@ -630,7 +631,81 @@
         // Ice Reaver Helm 
         9989, 9996,
         // Shatterspark Gloves 
-        10016, 10018
+        10016, 10018,
+        // Aetherblade Blindfold
+        10330, 10357,
+        // Aether Visor
+        10836, 10841,
+        // Swaggering Boots
+        10052, 10055,
+        // Ghost of the Deep Spaulders
+        10043, 10044,
+        // Immortal Light Ring
+        10109, 10111,
+        // Medium Monastery Coat
+        10695, 10703,
+        // Angler Hat
+        10255, 10312,
+        // Raven Gloves
+        10167, 10193,
+        // Heavy Monastery Shoulderpads
+        10243, 10492,
+        // Prayer Bead Wraps
+        10454, 10584,
+        // Vermilion Pauldrons
+        10814, 10817,
+        // Holographic Dragon Gloves
+        10021, 10026,
+        // Heavy Monastery Leggings
+        10237, 10314,
+        // Immortal Light Nimbus
+        10080, 10086,
+        // Martial Artist's Handwraps
+        10299, 10386,
+        // Seven Reapers Greaves
+        10098, 10100,
+        // Saltspray Dragon Scarf
+        10261, 10500,
+        // Foefire Chestguard
+        10123, 10125,
+        // Icy Demon Horns
+        10173, 10201,
+        // Pyre Circlet
+        10155, 10157,
+        // Fused Shoulders
+        10811, 10815,
+        // Jade Tech Eye Piece
+        10833, 10834,
+        // Canthan Sun Hat
+        10761, 10764,
+        // Right Oni Arm
+        10290, 10488,
+        // Martial Artist's Headband
+        10292, 10565,
+        // Foefire Legwraps
+        10120, 10127,
+        // Light Monastery Gloves
+        10293, 10338,
+        // Kuunavang Festival Mask
+        10455, 10549,
+        // Medium Monastery Headband
+        10483, 10530,
+        // Medium Monastery Shoes
+        10365, 10419,
+        // Immortal Fire Nimbus
+        10074, 10081,
+        // Seven Reapers Helm
+        10124, 10129,
+        // Martial Artist's Footwraps
+        10300, 10404,
+        // Watchknight Greaves
+        10901, 10904,
+        // Foefire Mask
+        10182, 10198,
+        // Angler Vest
+        10291, 10484,
+        // Immortal Fire Ring
+        10115, 10116
       ]
     },
     {
@@ -798,12 +873,13 @@
       ],
       "colorBased": true,
       "gwuIgnoreIds": [
-        1682, 1683, 1684, 1685, 1686, 1688,
+      ],
+      "bountyIgnoreIds" : [
+        482
       ],
       "gwuIncludeIds": [
         1456,
-        119,
-        586
+        119
       ]
     },
     {

@@ -139,7 +139,7 @@ var acquisitionMethods = [
     { id : 'blt',  name : "Black Lion Ticket", category : "Gem Store"},
     { id : "blmt", name : "Black Lion Miniature Claim Ticket", category : "Gem Store"},
     { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
-    //{ id : "knifetailgang", name : "Knife Tail Gang Hunting Bond", category : "Gem Store"},
+    { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store"},
 
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}
 

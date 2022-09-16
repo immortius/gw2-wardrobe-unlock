@@ -39,6 +39,9 @@ public class IconMatcher implements UnlockMatcher<Path> {
 
     public Multiset<Set<Path>> matchIcons(Path screenshotRootPath, Set<Path> possibleMatches) {
         Multiset<Set<Path>> matchedPaths = ConcurrentHashMultiset.create();
+        if (!Files.exists(screenshotRootPath)) {
+            return matchedPaths;
+        }
         try {
             Map<Path, BufferedImage> icons = Maps.newLinkedHashMap();
             for (Path iconFile : possibleMatches) {

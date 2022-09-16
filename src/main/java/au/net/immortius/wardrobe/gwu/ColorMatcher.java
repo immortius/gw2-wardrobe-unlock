@@ -32,6 +32,9 @@ public class ColorMatcher implements UnlockMatcher<String> {
 
     public Multiset<Set<String>> matchIcons(Path screenshotRootPath, Set<String> possibleMatches) {
         Multiset<Set<String>> matches = HashMultiset.create();
+        if (!Files.exists(screenshotRootPath)) {
+            return matches;
+        }
         try (DirectoryStream<Path> screenshotPaths = Files.newDirectoryStream(screenshotRootPath, "*.png")) {
             for (Path screenshotPath : screenshotPaths) {
                 BufferedImage screen = ImageIO.read(screenshotPath.toFile());
