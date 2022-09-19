@@ -67,6 +67,11 @@ public class UnlockCategoryConfig {
     private Set<Integer> gwuIgnoreIds;
 
     /**
+     * Unlock ids to ignore when determining bounty contents
+     */
+    private Set<Integer> bountyIgnoreIds;
+
+    /**
      * Ids to add even if they lack a name
      */
     private Set<Integer> forceAdd;
@@ -108,6 +113,13 @@ public class UnlockCategoryConfig {
             gwuIgnoreIds = Sets.newHashSet();
         }
         return gwuIgnoreIds;
+    }
+
+    public Set<Integer> getBountyIgnoreIds() {
+        if (bountyIgnoreIds == null) {
+            bountyIgnoreIds = Sets.newHashSet();
+        }
+        return bountyIgnoreIds;
     }
 
     public Set<Integer> getForceAdd() {

@@ -41,6 +41,7 @@ public class GenerateContent {
     private static final String KARMA = "karma";
     private static final String TRADINGPOST = "tp";
     private static final String GUARANTEED_WARDROBE_UNLOCK = "gwu";
+    private static final String BOUNTY = "bounty";
     private static final String CRAFT = "craft";
     private static final GenericType<Map<Integer, TradingPostEntry>> PRICE_MAP_TYPE = new GenericType<Map<Integer, TradingPostEntry>>() {
     };
@@ -103,6 +104,7 @@ public class GenerateContent {
             applyPrices(gson, unlockCategoryConfig, unlockDataMap);
             applyAcquisition(unlockCategoryConfig, unlockDataMap);
             applyGwu(unlockCategoryConfig, unlockDataMap);
+            applyBounty(unlockCategoryConfig, unlockDataMap);
             applyVendors(unlockCategoryConfig, itemUnlockMap, unlockDataMap);
             categorizeUnlocks(unlockCategoryConfig, unlockDataMap, itemCategory);
 
@@ -350,6 +352,24 @@ public class GenerateContent {
                     unlock.sources.add(GUARANTEED_WARDROBE_UNLOCK);
                 } else {
                     logger.warn("Unlock {} of {} not found, should be in guaranteed wardrobe unlock", id, unlockCategoryConfig.id);
+                }
+            }
+        }
+    }
+
+    private void applyBounty(UnlockCategoryConfig unlockCategoryConfig, Map<Integer, UnlockData> unlockDataMap) throws IOException {
+        Path unlockFile = config.paths.getBountyUnlocksPath().resolve(unlockCategoryConfig.id + ".json");
+        if (!Files.exists(unlockFile)) {
+            return;
+        }
+        try (Reader reader = Files.newBufferedReader(unlockFile)) {
+            int[] contents = gson.fromJson(reader, int[].class);
+            for (int id : contents) {
+                UnlockData unlock = unlockDataMap.get(id);
+                if (unlock != null) {
+                    unlock.sources.add(BOUNTY);
+                } else {
+                    logger.warn("Unlock {} of {} not found, should be in bounty unlock", id, unlockCategoryConfig.id);
                 }
             }
         }
