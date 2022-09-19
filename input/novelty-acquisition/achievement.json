@@ -1,6 +1,15 @@
 {
   "name": "achievement",
   "contents": [
-    202, 230, 69, 119, 285, 12
+    // Core
+    12,202,283,288,304,308,
+    // Living World Season 1: Scarlet's War
+    47,
+    // Living World Season 2: Glint's Prophecy
+    230,
+    // Raid
+    69,285,
+    // Festival: Wintersday
+    119
   ]
 }
