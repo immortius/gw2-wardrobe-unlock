@@ -1,33 +1,37 @@
 {
   "name": "achievement",
   "contents": [
-    // Auric,
-    6279,6149,
-    // Cape
-    9991,
-	// Dragon Bash
-	8833,
-    // Druid Stones,
+    // Core
+    11025,11027,
+    2358,6621,
+    5653,6253,6353,6618,
+    // Heart of Thorns
+    6296,6379,
+    6159,6398,
+    6246,6304,
+    6149,6279,
+    // Living World Season 3: Glint's Legacy
     7214,7209,7216,7218,
-	// Four wind,
-	8861,
-    // Halloween,
-    2336,2338,7775,7760,9638,
-    // Inquest,
-    8049,8058,8052,
-    // Order Backpacks,
-    6159,6246,6379,6398,6296,6304,
-    // Relics,
     7319,
-    // Super Adventure Box,
+    // Living World Season 4: Rise of Kralkatorrik
+    8049,8052,8058,
+    // Living World Season 5: The Icebrood Saga
+    9017,
+    9249,9252,
+    9387,9407,9413,9431,
+    9991,
+    // End of Dragons
+    10231,10247,10271,10399,10458,
+    // Festival: Super Adventure Festival
     7201,6668,2361,2360,
-	// The Icebrood Sage
-	9017,9249,9252,
-	// End of Dragons
-	10231, 10247, 10271, 10399, 10458,
-    // General,
-    6618,6621,6253,6353,5653,
-	9387,9407,9413,9431,
+    // Festival: Dragon Bash
+    8833,
+    // Festival: Festival of the Four Winds
+    8861,
+    // Festival: Halloween
+    2336,2338,7760,7775,
+    9638,
+    // Festival: Wintersday
     10218
   ]
 }

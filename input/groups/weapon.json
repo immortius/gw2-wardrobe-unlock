@@ -1789,16 +1789,17 @@
         4540,
         4541
       ],
-      "Standalone: Molten Facility": [
+      "Standalone: Molten Furnace": [
         10825
       ],
       "Standalone: Aetherblade Retreat": [
         10843
       ],
       "Standalone: The Crown Pavilion": [
-      	10903
+        10903
       ],
-      "Standalone: Tower of Nightmares": [
+      "Standalone: The Tower of Nightmares": [
+        11037
       ],
       "Standalone: Lion's Arch": [
         5423,
@@ -5279,7 +5280,8 @@
         10818,
         10824,
         10856,
-        10961
+        10961,
+        11036
       ]
     }
   }

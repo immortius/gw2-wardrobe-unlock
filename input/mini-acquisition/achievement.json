@@ -1,31 +1,29 @@
 {
   "name": "achievement",
   "contents": [
-    // Awakened,
-    547,
-    // Fractals,
-    360,
-    // Halloween,
-    301,733,730,834,
-    // Heart Of Thorns,
+    // Living World Season 1
+    163,195,
+    // Heart Of Thorns
     350,354,396,
-    // Living Story 1,
-    195,
-    // Living Story 3,
+    // Living World Season 3
     582,492,424,
-    // Living Story 4,
-    720,727,796,
-    // Path Of Fire,
-    500,555,527,575,562,540,
-    // Sunspear,
-    573,510,
-	// Super Adventure Box,
-	749,810,
-    // Wintersday,
+    // Path Of Fire
+    500,510,527,540,547,555,562,573,575,
+    // Living World Season 4
+    720,727,
+    // Fractals of the Mists
+    360,
+    // Festival: Lunar New Year
+    651,650,748,
+    // Festival: Super Adventure Festival
+    749,810,
+    // Festival: Festival of the Four Winds
+    170,
+    // Festival: Halloween
+    301,733,730,834,
+    // Festival: Wintersday
     119,115,118,117,116,310,636,738,
-    // Lunar,
-    651,650, 748,
-	// The Icebrood Saga
-	790, 805, 806, 807, 808, 809
+    // Gem Store
+    181,796
   ]
 }

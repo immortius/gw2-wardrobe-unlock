@@ -1,37 +1,39 @@
 {
   "name": "craft",
   "contents": [
-    // Cute Animals,
-    212,
-    // Fractals,
+    // Fractals of the Mists
     361,355,344,
-    // Griffon Hatchling,
+    // Griffon Hatchling
     685,686,680,683,681,688,687,684,679,
     // Halloween,
     607,729,732,
-    // Jackal Pups,
+    // Jackal Pups
     639,638,637,643,644,645,641,646,642,
-    // Living Story 1,
-    179,178,180,
-    // Living Story 4,
+    // Living World Season 1
+    163,179,178,180,
+    // Living World Season 4
     669,
-    // Llama,
-    431,483,453,481,321,473,487,429,479,449,480,322,471,477,486,427,485,451,484,323,472,482,
-	// Lunar New Year
-	745, 746,
-    // Raptor Hatchlings,
+    // Llama
+    431,483,453,481,321,473,487,429,479,449,480,322,471,477,427,485,451,484,323,472,482,
+    // Lunar New Year
+    745, 746,
+    // Raptor Hatchlings
     593,598,592,588,587,586,591,590,596,
-    // Springer Kit,
+    // Springer Kit
     703,711,702,716,708,706,705,707,704,
-    // Super Adventure Box,
+    // Super Adventure Box
     675,458,457,
-    // Wintersday,
+    // Wintersday
     122,634,382,628,428,385,433,
     // Shiba Inu
     821, 822, 823, 825, 826, 827, 828, 829, 830,
     // Tigris Cub
     861, 862, 863, 864, 865, 866, 867, 868, 869,
-	// General
-	712
+    // Dragon Bash
+    160,
+    // General
+    712,
+    // Gem Store
+    111,188,192,200,212,226
   ]
 }

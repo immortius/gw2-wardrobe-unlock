@@ -15,26 +15,30 @@
         29
       ],
       "Standalone: Tonics": [
-        72,
-        120,
         122,
-        179,
         191,
         202,
         219,
         222,
-        231,
         237,
         271,
         272,
         273,
         274,
         275,
-        276,
+        276
+      ],
+      "Standalone: Tonics - Community Goal Reward": [
         283,
         288,
         304,
         308
+      ],
+      "Standalone: Tonics - Elemental": [
+        72,
+        120,
+        179,
+        231
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -45,7 +49,7 @@
         200,
         215
       ],
-      "Standalone: Molten Facility": [
+      "Standalone: Molten Furnace": [
         175
       ],
       "Standalone: Aetherblade Retreat": [
@@ -61,7 +65,7 @@
         49,
         140
       ],
-      "Standalone: Tower of Nightmares": [
+      "Standalone: The Tower of Nightmares": [
         149
       ],
       "Standalone: Lion's Arch": [

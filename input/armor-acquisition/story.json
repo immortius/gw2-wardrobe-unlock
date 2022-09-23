@@ -1,65 +1,62 @@
 {
   "name": "story",
   "contents": [
-    // Adept,
-    273,
-    // Apostle,
-    1589,
-    // Arborist,
-    500,
-    // Bladed,
-    6247,6338,6275,
-    // Carapace,
-    5736,5742,5735,5711,
-    // Commander's,
-    381,
-    // Dolyak,
-    445,
-    // Drover,
-    333,
-    // Elementalist Eye,
+    // Starter
     2049,2048,2050,2051,
-    // Elonian,
-    7536,7586,7512,7541,7672,7475,7604,7396,7522,7713,7696,7432,7375,7486,7399,7400,7430,7662,
-    // Engineer Tool,
-    2054,2053,
-    // Evergreen,
-    493,
-    // Galvanic,
-    281,
-    // Guardian Starter,
-    2044,2043,2052,
-    // Heavy Scale,
-    1501,
-    // Invoker's,
-    337,
-    // Leystone,
-    6148,6185,6339,6426,6308,6420,6248,6154,6146,6332,6317,6436,6151,6315,6354,6241,6232,6433,
-    // Marauder,
-    105,1699,1697,1733,
-    // Mesmer Mask,
-    2060,2058,2059,
-    // Necromancer Masque,
+    2058,2059,2060,
     2045,2046,2047,
-    // Protean,
-    276,
-    // Researcher's,
-    387,
-    // Revenant Blindfolds,
-    5920,5891,5885,
-    // Scout's,
-    392,
-    // Sheepskin,
-    438,
-    // Snapdragon,
-    490,
-    // Stalwart,
-    1704,
-    // Thief Headgear,
+    2053,2054,
     2055,2056,2057,
-    // Warband,
+    2043,2044,2052,
+    5920,5891,5885,
+    224,257,258,
+    // Adept
+    273,
+    // Apostle
+    1589,
+    // Arborist
+    500,
+    // Bladed
+    6247,6338,6275,
+    // Carapace
+    5711,5714,5724,5735,5736,5742,
+    // Commander
+    381,
+    // Dolyak
+    445,
+    // Drover
+    333,
+    // Elonian
+    7536,7586,7512,7541,7672,7475,7604,7396,7522,7713,7696,7432,7375,7486,7399,7400,7430,7662,
+    // Evergreen
+    493,
+    // Galvanic
+    281,
+    // Heavy Scale
+    1501,
+    // Invoker
+    337,
+    // Leystone
+    6148,6185,6339,6426,6308,6420,6248,6154,6146,6332,6317,6436,6151,6315,6354,6241,6232,6433,
+    // Embroidered / Marauder / Barbaric
+    141,142,153,170,
+    105,1699,1697,1733,
+    197,199,206,235,
+    // Protean
+    276,
+    // Researcher
+    387,
+    // Scout
+    392,
+    // Sheepskin
+    438,
+    // Snapdragon
+    490,
+    // Stalwart
+    1704,
+    // Warband
     328,
-    // Wolfborn,
+    // Wolfborn
     437
   ]
 }

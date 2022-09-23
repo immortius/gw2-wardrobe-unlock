@@ -1108,13 +1108,16 @@
         10904,
         10905
       ],
-      "Standalone: Tower of Nightmares": [
+      "Standalone: The Tower of Nightmares": [
         2021,
         2022,
         2023,
         2024,
         2025,
-        2026
+        2026,
+        11034,
+        11043,
+        11046
       ],
       "Standalone: Lion's Arch": [
         827,
@@ -2583,6 +2586,8 @@
         6910,
         6943
       ],
+      "Pointed Ears": [
+      ],
       "Raven": [
         8463,
         8469,
@@ -2688,7 +2693,10 @@
         10953,
         10964,
         10965,
-        10967
+        10967,
+        10969,
+        10992,
+        10993
       ],
       "Standalone: Head Armor": [
         833,
@@ -2890,7 +2898,7 @@
         8670,
         8677
       ],
-      "Standalone: Head Armor - Mask of the Jubilee": [
+      "Standalone: Head Armor - Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
         1184,
         1185,
         1186,
