@@ -10,53 +10,45 @@
     2043,2044,2052,
     5920,5891,5885,
     224,257,258,
-    // Adept
-    273,
-    // Apostle
-    1589,
-    // Arborist
-    500,
-    // Bladed
-    6247,6338,6275,
+    // Asura Series 1 - Adept / Protean / Galvanic
+    273,276,281,
+    // Charr Series 1 - Invoker / Drover / Warband
+    337,333,328,
+    // Human Series 1 - Researcher / Scout / Commander
+    387,392,381,
+    // Norn Series 1 - Sheepskin / Wolfborn / Dolyak
+    438,437,445,
+    // Sylvari Series 1 - Snapdragon / Evergreen / Arborist
+    490,493,500,
+    // Loot Series 1 - Apprentice / Rawhide / Chainmail
+    5,6,19,1,2,2041,
+    // Loot Series 2 - Country / Studded / Worn Chain
+    13,18,53,
+    // Loot Series 3 - Magician / Swindler / Worn Scale
+    37,34,70,31,28,60,24,23,66,
+    // Loot Series 4 - Cabalist / Privateer / Reinforced Scale
+    49,82,103,78,80,102,75,44,101,41,74,77,
+    // Loot Series 5 - Conjurer / Marauder / Banded
+    54,63,83,90,104,106,
+    // Loot Series 6 - Seer / Sneakthief / Scallywag
+    39,9,10,45,30,94,35,43,11,12,95,47,33,38,7,8,27,92,
+    // Karma Series 1 - Devout / Rogue / Militia
+    58,86,
+    // Standalone: Other
+    854,855,856,
+    // Apostle / Stalwart / Heavy Scale
+    1501,1589,1704,
     // Carapace
     5711,5714,5724,5735,5736,5742,
-    // Commander
-    381,
-    // Dolyak
-    445,
-    // Drover
-    333,
-    // Elonian
-    7536,7586,7512,7541,7672,7475,7604,7396,7522,7713,7696,7432,7375,7486,7399,7400,7430,7662,
-    // Evergreen
-    493,
-    // Galvanic
-    281,
-    // Heavy Scale
-    1501,
-    // Invoker
-    337,
+    // Bladed
+    6247,6338,6275,
     // Leystone
     6148,6185,6339,6426,6308,6420,6248,6154,6146,6332,6317,6436,6151,6315,6354,6241,6232,6433,
+    // Elonian
+    7536,7586,7512,7541,7672,7475,7604,7396,7522,7713,7696,7432,7375,7486,7399,7400,7430,7662,
     // Embroidered / Marauder / Barbaric
     141,142,153,170,
     105,1699,1697,1733,
-    197,199,206,235,
-    // Protean
-    276,
-    // Researcher
-    387,
-    // Scout
-    392,
-    // Sheepskin
-    438,
-    // Snapdragon
-    490,
-    // Stalwart
-    1704,
-    // Warband
-    328,
-    // Wolfborn
-    437
+    197,199,206,235
   ]
 }

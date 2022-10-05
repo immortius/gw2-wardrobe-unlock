@@ -338,6 +338,12 @@
       ]
     },
     "End of Dragons": {
+      "Standalone: Fishing": [
+        844,
+        845,
+        853,
+        859
+      ],
       "Standalone: Renown Heart": [
         838,
         846,
@@ -349,11 +355,7 @@
         858
       ],
       "Standalone: Other": [
-        844,
-        845,
-        847,
-        853,
-        859
+        847
       ]
     },
     "Fractals of the Mists": {

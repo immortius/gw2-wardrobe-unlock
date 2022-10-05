@@ -1101,7 +1101,7 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Fused": [
+      "Standalone: Molten Furnace": [
         2012,
         2015,
         2017,
@@ -1285,18 +1285,18 @@
       ]
     },
     "Living World Season 3: Glint's Legacy": {
-      "Dragonscale": [
+      "Standalone: Bloodstone Fen": [
+        6856,
+        6858,
+        6881
+      ],
+      "Standalone: Ember Bay": [
         6951,
         6955,
         6964,
         6968,
         6969,
         6970
-      ],
-      "Standalone: Bloodstone Fen": [
-        6856,
-        6858,
-        6881
       ],
       "Standalone: Bitterfrost Frontier": [
         7006,
@@ -1685,14 +1685,6 @@
         10369,
         10622
       ],
-      "Angler": [
-        10255,
-        10291,
-        10312,
-        10377,
-        10484,
-        10643
-      ],
       "Antique": [
         10326,
         10373,
@@ -1763,6 +1755,14 @@
         10703,
         10705,
         10718
+      ],
+      "Standalone: Fishing": [
+        10255,
+        10291,
+        10312,
+        10377,
+        10484,
+        10643
       ],
       "Standalone: Renown Heart": [
         10261,

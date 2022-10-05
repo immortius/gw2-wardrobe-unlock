@@ -17,22 +17,6 @@ var acquisitionMethods = [
     { id : "story", name : "Story Reward", category : "General"},
     { id : "event", name : "Bound Loot", category : "General"},
 
-    //{ id : "asura", name : "Asura", category : "Race"},
-    //{ id : "charr", name : "Charr", category : "Race"},
-    //{ id : "human", name : "Human", category : "Race"},
-    //{ id : "norn", name : "Norn", category : "Race"},
-    //{ id : "sylvari", name : "Sylvari", category : "Race"},
-
-    //{ id : "elementalist", name : "Elementalist", category : "Profession"},
-    //{ id : "mesmer", name : "Mesmer", category : "Profession"},
-    //{ id : "necromancer", name : "Necromancer", category : "Profession"},
-    //{ id : "engineer", name : "Engineer", category : "Profession"},
-    //{ id : "ranger", name : "Ranger", category : "Profession"},
-    //{ id : "thief", name : "Thief", category : "Profession"},
-    //{ id : "guardian", name : "Guardian", category : "Profession"},
-    //{ id : "revenant", name : "Revenant", category : "Profession"},
-    //{ id : "warrior", name : "Warrior", category : "Profession"},
-
     { id : "birthday1", name : "First Birthday", category : "Anniversary"},
     { id : "birthday3", name : "Third Birthday", category : "Anniversary"},
     { id : "birthday4", name : "Forth Birthday", category : "Anniversary"},
@@ -110,6 +94,7 @@ var acquisitionMethods = [
     { id : "fragmentofprismaticshadows", name : "Fragment of Prismatic Shadows", category : "Legendary Variant"},
     { id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", category : "Legendary Variant"},
     { id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", category : "Legendary Variant"},
+    { id : "fragmentofprismaticpersuasion", name : "Fragment of Prismatic Persuasion", category : "Legendary Variant"},
 
     { id : "taleofdungeondelving", name : "Tales of Dungeon Delving", category : "Dungeon / Fractals of the Mists"},
     { id : "fractalrelic", name : "Fractal Relic", category : "Dungeon / Fractals of the Mists"},
@@ -154,7 +139,7 @@ var acquisitionMethods = [
     { id : 'blt', name : "Black Lion Ticket", category : "Gem Store"},
     { id : "blmt", name : "Black Lion Miniature Claim Ticket", category : "Gem Store"},
     { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
-    { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store"},
+    { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store", hideOnIcon : true},
 
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}
 
