@@ -1021,20 +1021,6 @@
         8284,
         8254
       ],
-      "Racing": [
-        8505,
-        8506,
-        8507,
-        8508,
-        8510,
-        8512,
-        8513,
-        8514,
-        8515,
-        8504,
-        8511,
-        8516
-      ],
       "Radiant": [
         5587,
         5588,
@@ -1080,21 +1066,37 @@
         814,
         815
       ],
+      "Standalone: Racing": [
+        8505,
+        8506,
+        8507,
+        8508,
+        8510,
+        8512,
+        8513,
+        8514,
+        8515,
+        8504,
+        8511,
+        8516
+      ],
       "Standalone: World Boss": [
         1993,
         1994,
         1995
       ],
-      "Standalone: Other": [
+      "Standalone: Other - Head Armor": [
+        1991,
+        1992,
+        2011
+      ],
+      "Standalone: Other - Aquatic Head Armor": [
         854,
         855,
         856,
         857,
         858,
         859,
-        1991,
-        1992,
-        2011,
         8117,
         8120,
         8123
@@ -2707,7 +2709,7 @@
         10992,
         10993
       ],
-      "Standalone: Head Armor": [
+      "Standalone - Head Armor": [
         833,
         839,
         840,
@@ -2850,7 +2852,7 @@
         10865,
         10867
       ],
-      "Standalone: Head Armor - Fuzzy Hat": [
+      "Standalone - Head Armor - Fuzzy Hat": [
         1029,
         966,
         1032,
@@ -2876,7 +2878,7 @@
         1016,
         1017
       ],
-      "Standalone: Head Armor - Glasses / Sunglasses": [
+      "Standalone - Head Armor - Glasses / Sunglasses": [
         967,
         971,
         982,
@@ -2893,7 +2895,7 @@
         1014,
         1018
       ],
-      "Standalone: Head Armor - Glowing Mask": [
+      "Standalone - Head Armor - Glowing Mask": [
         826,
         831,
         832,
@@ -2907,7 +2909,7 @@
         8670,
         8677
       ],
-      "Standalone: Head Armor - Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
+      "Standalone - Head Armor - Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
         1184,
         1185,
         1186,
@@ -2918,7 +2920,7 @@
         1191,
         1192
       ],
-      "Standalone: Shoulder Armor": [
+      "Standalone - Shoulder Armor": [
         5793,
         5794,
         5795,
@@ -2935,9 +2937,9 @@
         10044,
         10046
       ],
-      "Standalone: Chest Armor": [
+      "Standalone - Chest Armor": [
       ],
-      "Standalone: Hand Armor": [
+      "Standalone - Hand Armor": [
         6700,
         6727,
         6732,
@@ -2960,14 +2962,14 @@
         10896,
         10897
       ],
-      "Standalone: Leg Armor": [
+      "Standalone - Leg Armor": [
       ],
-      "Standalone: Foot Armor": [
+      "Standalone - Foot Armor": [
         9733,
         9757,
         9779
       ],
-      "Standalone: Aquatic Head Armor": [
+      "Standalone - Aquatic Head Armor": [
       ]
     }
   }

@@ -107,6 +107,15 @@
         118,
         119
       ],
+      "Standalone + Novelty Combo": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
       "Standalone - Clothing": [
         59,
         61,
@@ -127,15 +136,6 @@
         90,
         95,
         113
-      ],
-      "Standalone + Novelty Combo": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7
       ]
     }
   }
