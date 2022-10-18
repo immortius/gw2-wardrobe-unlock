@@ -159,16 +159,6 @@
         391,
         396
       ],
-      "Star": [
-        12,
-        27,
-        49,
-        85,
-        148,
-        170,
-        207,
-        349
-      ],
       "Vital Geode": [
         218,
         276,
@@ -212,7 +202,17 @@
         241,
         366
       ],
-      "Standalone - Raptor - Common": [
+      "Theme: Star": [
+        12,
+        27,
+        49,
+        85,
+        148,
+        170,
+        207,
+        349
+      ],
+      "Standalone - Raptor": [
         21,
         29,
         32,
@@ -240,7 +240,7 @@
         294,
         329
       ],
-      "Standalone - Springer - Common": [
+      "Standalone - Springer": [
         20,
         38,
         42,
@@ -266,7 +266,7 @@
         231,
         331
       ],
-      "Standalone - Skimmer - Common": [
+      "Standalone - Skimmer": [
         26,
         36,
         37,
@@ -288,7 +288,7 @@
         311,
         358
       ],
-      "Standalone - Jackal - Common": [
+      "Standalone - Jackal": [
         22,
         28,
         33,
@@ -315,7 +315,7 @@
         359,
         406
       ],
-      "Standalone - Griffon - Common": [
+      "Standalone - Griffon": [
         25,
         34,
         40,
@@ -340,7 +340,7 @@
         129,
         250
       ],
-      "Standalone - Roller Beetle - Common": [
+      "Standalone - Roller Beetle": [
         105,
         114,
         144,
@@ -353,7 +353,7 @@
       "Standalone - Roller Beetle - Exclusive": [
         104
       ],
-      "Standalone - Warclaw - Common": [
+      "Standalone - Warclaw": [
         162,
         163,
         165,
@@ -371,7 +371,7 @@
         316,
         380
       ],
-      "Standalone - Skyscale - Common": [
+      "Standalone - Skyscale": [
         193,
         194,
         198,
@@ -392,7 +392,7 @@
         292,
         336
       ],
-      "Standalone - Siege Turtle - Common": [
+      "Standalone - Siege Turtle": [
       ],
       "Standalone - Siege Turtle - Exclusive": [
       ]
