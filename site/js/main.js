@@ -112,6 +112,7 @@ var acquisitionMethods = [
     { id : "fragmentofprismaticshadows", name : "Fragment of Prismatic Shadows", category : "End of Dragons - Legendary"},
     { id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", category : "End of Dragons - Legendary"},
     { id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", category : "End of Dragons - Legendary"},
+	{ id : "fragmentofprismaticpursuasion", name : "Fragment of Prismatic Pursuasion", category : "End of Dragons - Legendary"},
 
     { id : "taleofdungeondelving", name : "Tales of Dungeon Delving", category : "Dungeon / Fractals of the Mists"},
     { id : "fractalrelic", name : "Fractal Relic", category : "Dungeon / Fractals of the Mists"},
