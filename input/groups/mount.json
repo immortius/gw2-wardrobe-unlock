@@ -159,6 +159,16 @@
         391,
         396
       ],
+      "Star": [
+        12,
+        27,
+        49,
+        85,
+        148,
+        170,
+        207,
+        349
+      ],
       "Vital Geode": [
         218,
         276,
@@ -202,17 +212,7 @@
         241,
         366
       ],
-      "Theme: Star": [
-        12,
-        27,
-        49,
-        85,
-        148,
-        170,
-        207,
-        349
-      ],
-      "Standalone - Raptor": [
+      "Standalone: Raptor Skins - Common": [
         21,
         29,
         32,
@@ -229,10 +229,10 @@
         344,
         367
       ],
-      "Standalone - Raptor - Canthan": [
+      "Standalone: Raptor Skins - Canthan": [
         360
       ],
-      "Standalone - Raptor - Exclusive": [
+      "Standalone: Raptor Skins - Exclusive": [
         17,
         126,
         200,
@@ -240,7 +240,7 @@
         294,
         329
       ],
-      "Standalone - Springer": [
+      "Standalone: Springer Skins - Common": [
         20,
         38,
         42,
@@ -258,15 +258,15 @@
         299,
         351
       ],
-      "Standalone - Springer - Cuckoo": [
+      "Standalone: Springer Skins - Cuckoo": [
       ],
-      "Standalone - Springer - Exclusive": [
+      "Standalone: Springer Skins - Exclusive": [
         61,
         152,
         231,
         331
       ],
-      "Standalone - Skimmer": [
+      "Standalone: Skimmer Skins - Common": [
         26,
         36,
         37,
@@ -282,13 +282,13 @@
         368,
         375
       ],
-      "Standalone - Skimmer - Exclusive": [
+      "Standalone: Skimmer Skins - Exclusive": [
         57,
         168,
         311,
         358
       ],
-      "Standalone - Jackal": [
+      "Standalone: Jackal Skins - Common": [
         22,
         28,
         33,
@@ -304,9 +304,9 @@
         355,
         372
       ],
-      "Standalone - Jackal - Vulpine": [
+      "Standalone: Jackal Skins - Vulpine": [
       ],
-      "Standalone - Jackal - Exclusive": [
+      "Standalone: Jackal Skins - Exclusive": [
         46,
         97,
         220,
@@ -315,7 +315,7 @@
         359,
         406
       ],
-      "Standalone - Griffon": [
+      "Standalone: Griffon Skins - Common": [
         25,
         34,
         40,
@@ -333,14 +333,14 @@
         346,
         361
       ],
-      "Standalone - Griffon - Tigris": [
+      "Standalone: Griffon Skins - Tigris": [
       ],
-      "Standalone - Griffon - Exclusive": [
+      "Standalone: Griffon Skins - Exclusive": [
         62,
         129,
         250
       ],
-      "Standalone - Roller Beetle": [
+      "Standalone: Roller Beetle Skins - Common": [
         105,
         114,
         144,
@@ -350,10 +350,10 @@
         239,
         348
       ],
-      "Standalone - Roller Beetle - Exclusive": [
+      "Standalone: Roller Beetle Skins - Exclusive": [
         104
       ],
-      "Standalone - Warclaw": [
+      "Standalone: Warclaw Skins - Common": [
         162,
         163,
         165,
@@ -364,14 +364,14 @@
         363,
         364
       ],
-      "Standalone - Warclaw - Nian": [
+      "Standalone: Warclaw Skins - Nian": [
       ],
-      "Standalone - Warclaw - Exclusive": [
+      "Standalone: Warclaw Skins - Exclusive": [
         252,
         316,
         380
       ],
-      "Standalone - Skyscale": [
+      "Standalone: Skyscale Skins - Common": [
         193,
         194,
         198,
@@ -385,16 +385,16 @@
         306,
         357
       ],
-      "Standalone - Skyscale - Noble": [
+      "Standalone: Skyscale Skins - Noble": [
       ],
-      "Standalone - Skyscale - Exclusive": [
+      "Standalone: Skyscale Skins - Exclusive": [
         191,
         292,
         336
       ],
-      "Standalone - Siege Turtle": [
+      "Standalone: Siege Turtle Skins - Common": [
       ],
-      "Standalone - Siege Turtle - Exclusive": [
+      "Standalone: Siege Turtle Skins - Exclusive": [
       ]
     }
   }
