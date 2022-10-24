@@ -137,7 +137,7 @@
       "Standalone: Twilight Arbor Aetherpath": [
         2357
       ],
-      "Standalone: Tower of Nightmares": [
+      "Standalone: The Tower of Nightmares": [
         2356,
         2381
       ]
@@ -250,6 +250,12 @@
         10457,
         10647
       ],
+      "Standalone: Club Canach": [
+        10344,
+        10426,
+        10524,
+        10675
+      ],
       "Standalone: Strike Mission": [
         10898
       ],
@@ -258,11 +264,7 @@
         10247,
         10271,
         10399,
-        10344,
-        10426,
-        10458,
-        10524,
-        10675
+        10458
       ]
     },
     "Fractals of the Mists": {
@@ -391,7 +393,55 @@
         10159,
         10161
       ],
-      "Standalone: Capes": [
+      "Standalone: Extra Life": [
+        11070
+      ],
+      "Standalone: Other": [
+        5654,
+        5708,
+        5998,
+        6431,
+        6554,
+        6745,
+        7047,
+        7227,
+        7755,
+        8319,
+        8649,
+        10816,
+        10881
+      ],
+      "Standalone: Other + Glider Combo": [
+        6854,
+        7200,
+        7285,
+        7308,
+        7661,
+        7811,
+        7996,
+        8038,
+        8141,
+        8184,
+        8638,
+        8647,
+        8725,
+        8807,
+        8930,
+        9021,
+        9211,
+        9474,
+        9671,
+        9769,
+        9893,
+        9969,
+        10010,
+        10219,
+        10503,
+        10805,
+        10941,
+        11051
+      ],
+      "Standalone: Other - Cape": [
         9050,
         9072,
         9131,
@@ -416,24 +466,40 @@
         10192,
         10902
       ],
-      "Standalone: Capes + Glider Combo": [
+      "Standalone: Other - Cape + Glider Combo": [
         9732,
         10888
       ],
-      "Standalone: Quivers": [
+      "Standalone: Other - Plush": [
+        2363,
+        2364,
+        2366,
+        2368,
+        2371,
+        2355,
+        2365,
+        2367,
+        2370,
+        2372,
+        1048,
+        7000
+      ],
+      "Standalone: Other - Plush + Glider Combo": [
+      ],
+      "Standalone: Other - Quiver": [
         2369,
         6449,
         7012,
         8021
       ],
-      "Standalone: Quivers + Glider Combo": [
+      "Standalone: Other - Quiver + Glider Combo": [
       ],
-      "Standalone: Wings": [
+      "Standalone: Other - Wings": [
         6003,
         6078,
         6132
       ],
-      "Standalone: Wings + Glider Combo": [
+      "Standalone: Other - Wings + Glider Combo": [
         5878,
         6035,
         6527,
@@ -466,66 +532,6 @@
         10200,
         10823,
         10912
-      ],
-      "Standalone: Other": [
-        1048,
-        5654,
-        5708,
-        5998,
-        6431,
-        6554,
-        6745,
-        7000,
-        7047,
-        7227,
-        7755,
-        8319,
-        8649,
-        10816,
-        10881
-      ],
-      "Standalone: Other - Plush Charr": [
-        2363,
-        2364,
-        2366,
-        2368,
-        2371
-      ],
-      "Standalone: Other - Plush Quaggan": [
-        2355,
-        2365,
-        2367,
-        2370,
-        2372
-      ],
-      "Standalone: Other + Glider Combo": [
-        6854,
-        7200,
-        7285,
-        7308,
-        7661,
-        7811,
-        7996,
-        8038,
-        8141,
-        8184,
-        8638,
-        8647,
-        8725,
-        8807,
-        8930,
-        9021,
-        9211,
-        9474,
-        9671,
-        9769,
-        9893,
-        9969,
-        10010,
-        10219,
-        10503,
-        10805,
-        10941
       ]
     }
   }
