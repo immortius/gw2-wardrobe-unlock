@@ -15,6 +15,9 @@
         4,
         5
       ],
+      "Standalone: Racing": [
+        734
+      ],
       "Standalone: Renown Heart": [
         504,
         521
@@ -25,12 +28,12 @@
         217
       ],
       "Standalone: Other": [
+        66,
         124,
         125,
         129,
         289,
-        582,
-        734
+        582
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -157,8 +160,9 @@
       ]
     },
     "Path of Fire": {
-      "Standalone: Adventure": [
-        552
+      "Standalone: Casino Blitz": [
+        537,
+        595
       ],
       "Standalone: Renown Heart": [
         498,
@@ -208,34 +212,35 @@
       "Standalone: Other": [
         500,
         501,
+        503,
+        505,
         508,
         509,
         510,
         522,
         524,
         525,
+        527,
         532,
         534,
         535,
         536,
-        537,
         539,
         540,
         547,
         549,
+        552,
         555,
+        557,
         560,
+        562,
+        563,
+        572,
         573,
         574,
+        575,
         579,
-        585,
-        595
-      ],
-      "Standalone: Other - Djinn": [
-        503,
-        505,
-        563,
-        572
+        585
       ],
       "Standalone: Other - Elite Specialization Mentor": [
         506,
@@ -247,16 +252,10 @@
         565,
         566,
         569
-      ],
-      "Standalone: Other - Primeval Kings": [
-        527,
-        557,
-        562,
-        575
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik": {
-      "Hydra": [
+      "Hydra Head / Elemental Hydra": [
         658,
         668,
         669,
@@ -338,6 +337,12 @@
       ]
     },
     "End of Dragons": {
+      "Standalone: Fishing": [
+        844,
+        845,
+        853,
+        859
+      ],
       "Standalone: Renown Heart": [
         838,
         846,
@@ -349,11 +354,8 @@
         858
       ],
       "Standalone: Other": [
-        844,
-        845,
         847,
-        853,
-        859
+        875
       ]
     },
     "Fractals of the Mists": {
@@ -497,7 +499,7 @@
       ]
     },
     "Festival: Dragon Bash": {
-      "Holographic": [
+      "Holographic Dragon Minion": [
         158,
         157,
         159,
@@ -505,7 +507,6 @@
         161
       ],
       "Standalone": [
-        66,
         162,
         771,
         819,
@@ -515,15 +516,17 @@
       ]
     },
     "Festival: Festival of the Four Winds": {
-      "Standalone": [
+      "Standalone: Treasure Hunt": [
+        701
+      ],
+      "Standalone: Other": [
         170,
         291,
         700,
-        701,
         831,
         832,
-		872,
-		873
+        872,
+        873
       ]
     },
     "Festival: Halloween": {
@@ -560,7 +563,9 @@
         731,
         787,
         834,
-        833
+        833,
+        874,
+        876
       ]
     },
     "Festival: Wintersday": {
@@ -594,6 +599,8 @@
       ],
       "Standalone: Strike Mission": [
         737,
+        791,
+        794,
         836
       ],
       "Standalone: Other": [
@@ -603,9 +610,7 @@
         632,
         636,
         735,
-        738,
-        791,
-        794
+        738
       ]
     },
     "Gem Store": {

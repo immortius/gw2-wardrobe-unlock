@@ -1,26 +1,23 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone: Chairs": [
-        12,
+      "Standalone: Anniversary": [
         289
       ],
-      "Standalone: Musical Instruments": [
+      "Standalone: Community Goal Reward": [
+        283,
+        288,
+        304,
+        308
+      ],
+      "Standalone: Guild": [
+        122
+      ],
+      "Standalone: Mystic Forge": [
         34,
         41
       ],
-      "Standalone: Held Items": [
-      ],
-      "Standalone: Toys": [
-        29
-      ],
-      "Standalone: Tonics": [
-        122,
-        191,
-        202,
-        219,
-        222,
-        237,
+      "Standalone: Racing": [
         271,
         272,
         273,
@@ -28,17 +25,18 @@
         275,
         276
       ],
-      "Standalone: Tonics - Community Goal Reward": [
-        283,
-        288,
-        304,
-        308
-      ],
-      "Standalone: Tonics - Elemental": [
+      "Standalone: Other": [
+        12,
+        29,
         72,
         120,
         179,
-        231
+        191,
+        202,
+        219,
+        222,
+        231,
+        237
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -97,7 +95,7 @@
         266,
         267
       ],
-      "Standalone: Tonics": [
+      "Standalone": [
         102,
         106,
         110,
@@ -124,17 +122,17 @@
       ]
     },
     "Path of Fire": {
-      "Standalone: Held Items": [
+      "Standalone: Casino Blitz": [
         10,
         17,
         22,
         26,
         39,
         43,
-        51
-      ],
-      "Standalone: Tonics": [
+        51,
         218
+      ],
+      "Standalone: Other": [
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik": {
@@ -167,9 +165,11 @@
       ]
     },
     "End of Dragons": {
-      "Standalone: Chairs": [
+      "Standalone: Fishing": [
       ],
-      "Standalone: Tonics": [
+      "Standalone: Strike Mission": [
+      ],
+      "Standalone: Other": [
       ]
     },
     "Fractals of the Mists": {
@@ -216,12 +216,12 @@
       ]
     },
     "Festival: Festival of the Four Winds": {
-      "Standalone: Held Items": [
+      "Standalone: Treasure Hunt": [
         1,
         31,
         46
       ],
-      "Standalone: Tonics": [
+      "Standalone: Other": [
         142,
         150,
         223
@@ -234,7 +234,7 @@
         166,
         178
       ],
-      "Standalone: Tonics": [
+      "Standalone": [
         170,
         180
       ]
@@ -250,11 +250,9 @@
         206,
         257
       ],
-      "Standalone: Musical Instruments": [
+      "Standalone": [
         38,
-        42
-      ],
-      "Standalone: Tonics": [
+        42,
         75,
         93,
         133,
@@ -263,7 +261,10 @@
       ]
     },
     "Gem Store": {
-      "Standalone: Chairs": [
+      "Standalone: Extra Life": [
+        236
+      ],
+      "Standalone: Other - Chair": [
         24,
         262,
         268,
@@ -283,11 +284,11 @@
         312,
         314
       ],
-      "Standalone: Chairs + Glider Combo": [
+      "Standalone: Other - Chair + Glider Combo": [
         286,
         311
       ],
-      "Standalone: Musical Instruments": [
+      "Standalone: Other - Musical Instrument": [
         2,
         6,
         8,
@@ -296,7 +297,7 @@
         37,
         45
       ],
-      "Standalone: Held Items": [
+      "Standalone: Other - Held Item": [
         7,
         13,
         15,
@@ -306,7 +307,7 @@
         40,
         53
       ],
-      "Standalone: Toys": [
+      "Standalone: Other - Toy": [
         4,
         5,
         9,
@@ -318,7 +319,7 @@
         55,
         300
       ],
-      "Standalone: Toys + Outfit Combo": [
+      "Standalone: Other - Toy + Outfit Combo": [
         78,
         111,
         126,
@@ -327,18 +328,17 @@
         226,
         265
       ],
-      "Standalone: Toys + Glider Combo": [
+      "Standalone: Other - Toy + Glider Combo": [
         16,
         27,
         33
       ],
-      "Standalone: Tonics": [
+      "Standalone: Other - Tonic": [
         80,
         103,
         159,
         172,
-        185,
-        236
+        185
       ]
     }
   }

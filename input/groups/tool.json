@@ -74,7 +74,7 @@
         8156,
         8161
       ],
-      "Standalone: Harvesting Tools": [
+      "Standalone - Harvesting Tool": [
         2384,
         2387,
         5655,
@@ -83,7 +83,7 @@
         8103,
         8509
       ],
-      "Standalone: Logging Tools": [
+      "Standalone - Logging Tool": [
         2389,
         2391,
         2392,
@@ -91,18 +91,20 @@
         8086,
         8460
       ],
-      "Standalone: Mining Tools": [
+      "Standalone - Mining Tool": [
         2396,
         2398,
         8090,
         8459
       ],
-      "Standalone: Fishing Tools": [
+      "Standalone - Fishing Tool": [
         10766,
         10791,
         10832,
         10886,
-        10957
+        10957,
+        11033,
+        11087
       ]
     }
   }
