@@ -480,7 +480,7 @@
         746,
         748
       ],
-      "Standalone": [
+      "Standalone: Other": [
         647,
         650,
         651,
@@ -490,11 +490,13 @@
       ]
     },
     "Festival: Super Adventure Festival": {
-      "Super": [
+      "Standalone: Annual Customs": [
+        749,
+        810
+      ],
+      "Standalone: Other": [
         183,
         184,
-        749,
-        810,
         811
       ]
     },
@@ -506,7 +508,7 @@
         160,
         161
       ],
-      "Standalone": [
+      "Standalone: Other": [
         162,
         771,
         819,
@@ -540,6 +542,9 @@
         732,
         733
       ],
+      "Standalone: Annual Customs": [
+        730
+      ],
       "Standalone: Mystic Forge": [
         607
       ],
@@ -559,11 +564,10 @@
         603,
         608,
         614,
-        730,
         731,
         787,
-        834,
         833,
+        834,
         874,
         876
       ]
@@ -597,6 +601,9 @@
         118,
         119
       ],
+      "Standalone: Annual Customs": [
+        738
+      ],
       "Standalone: Strike Mission": [
         737,
         791,
@@ -609,8 +616,7 @@
         625,
         632,
         636,
-        735,
-        738
+        735
       ]
     },
     "Gem Store": {

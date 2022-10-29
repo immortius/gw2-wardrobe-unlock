@@ -199,7 +199,7 @@
       ]
     },
     "Path of Fire": {
-      "Standalone": [
+      "Standalone: Other": [
         7458,
         7464,
         7692,
@@ -335,7 +335,7 @@
       ]
     },
     "Festival: Super Adventure Festival": {
-      "Standalone": [
+      "Standalone: Other": [
         2359,
         2360,
         2361,
@@ -345,7 +345,7 @@
       ]
     },
     "Festival: Dragon Bash": {
-      "Standalone": [
+      "Standalone: Other": [
         2351,
         2352,
         8833
@@ -362,9 +362,11 @@
         8218,
         8223
       ],
-      "Standalone": [
-        5456,
+      "Standalone: Annual Customs": [
         8861
+      ],
+      "Standalone: Other": [
+        5456
       ]
     },
     "Festival: Halloween": {
@@ -374,17 +376,19 @@
         2338,
         7775
       ],
-      "Standalone": [
+      "Standalone: Annual Customs": [
         9638
       ]
     },
     "Festival: Wintersday": {
-      "Standalone": [
+      "Standalone: Annual Customs": [
+        10218
+      ],
+      "Standalone: Other": [
         2374,
         2375,
         2382,
-        2383,
-        10218
+        2383
       ]
     },
     "Gem Store": {

@@ -1277,7 +1277,7 @@
         6334,
         6302
       ],
-      "Standalone": [
+      "Standalone: Other": [
         6283,
         6456,
         6484,
@@ -2090,7 +2090,7 @@
         9876,
         9880
       ],
-      "Standalone": [
+      "Standalone: Annual Customs": [
         9101,
         9108,
         9111,
@@ -2115,7 +2115,7 @@
         10778,
         10779
       ],
-      "Standalone": [
+      "Standalone: Annual Customs": [
         9335,
         9337,
         9349,
@@ -2139,7 +2139,7 @@
         10866,
         10875
       ],
-      "Standalone": [
+      "Standalone: Other": [
         2013,
         2014,
         2016
@@ -2179,7 +2179,7 @@
         1209,
         1210
       ],
-      "Standalone": [
+      "Standalone: Annual Customs": [
         9544,
         9546,
         9555,
@@ -2214,6 +2214,17 @@
         7773,
         7774
       ],
+      "Standalone: Annual Customs": [
+        8964,
+        8966,
+        8968,
+        10122,
+        10128,
+        10134,
+        11053,
+        11065,
+        11069
+      ],
       "Standalone: Mystic Forge": [
         6161,
         6252,
@@ -2236,20 +2247,11 @@
         6273,
         6414,
         6487,
-        6493,
-        8964,
-        8966,
-        8968,
-        10122,
-        10128,
-        10134,
-        11053,
-        11065,
-        11069
+        6493
       ]
     },
     "Festival: Wintersday": {
-      "Festive": [
+      "Standalone: Annual Customs": [
         9062,
         9087,
         9089,
@@ -2720,7 +2722,12 @@
         10992,
         10993
       ],
-      "Standalone - Head Armor": [
+      "Standalone: Extra Life": [
+        1034,
+        1036,
+        1038
+      ],
+      "Standalone: Other - Head Armor": [
         833,
         839,
         840,
@@ -2755,11 +2762,8 @@
         1028,
         1030,
         1031,
-        1034,
         1035,
-        1036,
         1037,
-        1038,
         1049,
         1050,
         1051,
@@ -2866,7 +2870,7 @@
         11078,
         11097
       ],
-      "Standalone - Head Armor - Fuzzy Hat": [
+      "Standalone: Other - Head Armor - Fuzzy Hat": [
         1029,
         966,
         1032,
@@ -2892,7 +2896,7 @@
         1016,
         1017
       ],
-      "Standalone - Head Armor - Glasses / Sunglasses": [
+      "Standalone: Other - Head Armor - Glasses / Sunglasses": [
         967,
         971,
         982,
@@ -2909,7 +2913,7 @@
         1014,
         1018
       ],
-      "Standalone - Head Armor - Glowing Mask": [
+      "Standalone: Other - Head Armor - Glowing Mask": [
         826,
         831,
         832,
@@ -2923,7 +2927,7 @@
         8670,
         8677
       ],
-      "Standalone - Head Armor - Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
+      "Standalone: Other - Head Armor - Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
         1184,
         1185,
         1186,
@@ -2934,7 +2938,7 @@
         1191,
         1192
       ],
-      "Standalone - Shoulder Armor": [
+      "Standalone: Other - Shoulder Armor": [
         5793,
         5794,
         5795,
@@ -2951,9 +2955,9 @@
         10044,
         10046
       ],
-      "Standalone - Chest Armor": [
+      "Standalone: Other - Chest Armor": [
       ],
-      "Standalone - Hand Armor": [
+      "Standalone: Other - Hand Armor": [
         6700,
         6727,
         6732,
@@ -2976,14 +2980,14 @@
         10896,
         10897
       ],
-      "Standalone - Leg Armor": [
+      "Standalone: Other - Leg Armor": [
       ],
-      "Standalone - Foot Armor": [
+      "Standalone: Other - Foot Armor": [
         9733,
         9757,
         9779
       ],
-      "Standalone - Aquatic Head Armor": [
+      "Standalone: Other - Aquatic Head Armor": [
       ]
     }
   }
