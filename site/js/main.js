@@ -132,7 +132,7 @@ var acquisitionMethods = [
     { id : "enchantedsnowball", name : "Enchanted Snowball", category : "Festival"},
 
     { id : 'gem', name : "Gems", category : "Gem Store"},
-    { id : 'deluxe', name : "Edition Bonus", category : "Gem Store"},
+    { id : 'deluxe', name : "Purchase Bonus", category : "Gem Store"},
     { id : 'blacklionchest', name : "Black Lion Chest Exclusive", category : "Gem Store"},
     { id : "bls", name : "Black Lion Statuette", category : "Gem Store"},
     { id : "gwu", name : "Guaranteed Wardrobe Unlock", category : "Gem Store", hideOnIcon : true},

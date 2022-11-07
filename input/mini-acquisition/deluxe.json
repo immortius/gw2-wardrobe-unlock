@@ -1,11 +1,13 @@
 {
   "name": "deluxe",
   "contents": [
-    // Heart Of Thorns,
-    319,
-    // Path Of Fire,
-    497,
-    // General,
-    1
+    // Standalone: Deluxe Upgrade
+    1,319,
+    // Standalone: Extra Life
+    181,
+    // Standalone: Funko POP!
+    792,793,795,
+    // Standalone: Other
+    497
   ]
 }

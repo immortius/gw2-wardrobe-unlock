@@ -1,13 +1,15 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone": [
-        48,
+      "Starter": [
+        48
+      ],
+      "Standalone: Anniversary": [
         62
       ]
     },
     "Path of Fire": {
-      "Standalone": [
+      "Standalone: Other": [
         72
       ]
     },
@@ -52,7 +54,7 @@
       ]
     },
     "Festival: Wintersday": {
-      "Standalone": [
+      "Standalone: Other": [
         20,
         21,
         33
@@ -64,7 +66,10 @@
         50,
         52
       ],
-      "Standalone": [
+      "Standalone: Deluxe Upgrade": [
+        60
+      ],
+      "Standalone: Other": [
         10,
         11,
         12,
@@ -95,7 +100,6 @@
         57,
         58,
         59,
-        60,
         73,
         74
       ]

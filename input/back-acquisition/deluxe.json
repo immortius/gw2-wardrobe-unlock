@@ -1,6 +1,9 @@
 {
   "name": "deluxe",
   "contents": [
-    10059
+    // Standalone: Other - Cape
+    10059,10084,
+    // Standalone: Other - Plush
+    2370
   ]
 }

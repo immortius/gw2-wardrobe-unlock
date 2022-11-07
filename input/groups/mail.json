@@ -1,13 +1,15 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone": [
-        4,
+      "Starter": [
+        4
+      ],
+      "Standalone: Anniversary": [
         15
       ]
     },
     "Gem Store": {
-      "Standalone": [
+      "Standalone: Other": [
         1,
         2,
         3,
