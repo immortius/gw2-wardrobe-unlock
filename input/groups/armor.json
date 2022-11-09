@@ -1138,10 +1138,13 @@
         11043,
         11046
       ],
-      "Standalone: Lion's Arch": [
+      "Standalone: The Battle for Lion's Arch": [
         827,
         830,
-        838
+        838,
+        11102,
+        11122,
+        11132
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -2628,6 +2631,14 @@
         7821,
         7806
       ],
+      "Savage Scale": [
+        11100,
+        11106,
+        11124,
+        11129,
+        11133,
+        11142
+      ],
       "Scarlet": [
         790,
         792,
@@ -2651,7 +2662,10 @@
         10131,
         11059,
         11068,
-        11080
+        11080,
+        11110,
+        11113,
+        11134
       ],
       "Shadow of the Dragon": [
         5815,

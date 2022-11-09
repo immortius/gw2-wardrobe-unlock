@@ -1771,6 +1771,21 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
+      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion > Aetherized Arsenite": [
+        11114,
+        11138,
+        11140
+      ],
+      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion > Aetherized Indigo": [
+        11107,
+        11127,
+        11131
+      ],
+      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion > Aetherized Vermilion": [
+        11103,
+        11130,
+        11139
+      ],
       "Aetherized Nightmare Court": [
         4513,
         4419,
@@ -1789,6 +1804,24 @@
         4540,
         4541
       ],
+      "Lion's Champion": [
+        11101,
+        11104,
+        11105,
+        11108,
+        11109,
+        11111,
+        11112,
+        11115,
+        11117,
+        11119,
+        11121,
+        11123,
+        11128,
+        11135,
+        11136,
+        11141
+      ],
       "Standalone: Molten Furnace": [
         10825
       ],
@@ -1801,9 +1834,10 @@
       "Standalone: The Tower of Nightmares": [
         11037
       ],
-      "Standalone: Lion's Arch": [
+      "Standalone: The Battle for Lion's Arch": [
         5423,
-        5425
+        5425,
+        11126
       ]
     },
     "Living World Season 2: Glint's Prophecy": {

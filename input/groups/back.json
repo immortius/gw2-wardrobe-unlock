@@ -140,6 +140,9 @@
       "Standalone: The Tower of Nightmares": [
         2356,
         2381
+      ],
+      "Standalone: The Battle for Lion's Arch": [
+        11118
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -468,7 +471,8 @@
         10104,
         10164,
         10192,
-        10902
+        10902,
+        11116
       ],
       "Standalone: Other - Cape + Glider Combo": [
         9732,
@@ -535,7 +539,8 @@
         10149,
         10200,
         10823,
-        10912
+        10912,
+        11125
       ]
     }
   }

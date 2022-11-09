@@ -43,6 +43,7 @@ var acquisitionMethods = [
     { id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", category : "Ascended Equipment"},
 
     { id : "karkashell", name : "Karka Shell", category : "Core / Season 1 / Season 2"},
+    //{ id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
     { id : 'banditcrest', name : "Bandit Crest", category : "Core / Season 1 / Season 2"},
     { id : "swimspeedinfusion", name : "Swim-Speed Infusion", category : "Core / Season 1 / Season 2"},
     { id : "racingmedallion", name : "Racing Medallion", category : "Core / Season 1 / Season 2"},
