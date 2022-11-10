@@ -1649,7 +1649,6 @@
         8781
       ],
       "Standalone: World Boss": [
-        4690,
         4696,
         4717,
         4718,
@@ -1822,22 +1821,17 @@
         11136,
         11141
       ],
-      "Standalone: Molten Furnace": [
-        10825
+      "Standalone: Living World Return": [
+        10825,
+        10843,
+        10903,
+        11037,
+        11126
       ],
-      "Standalone: Aetherblade Retreat": [
-        10843
-      ],
-      "Standalone: The Crown Pavilion": [
-        10903
-      ],
-      "Standalone: The Tower of Nightmares": [
-        11037
-      ],
-      "Standalone: The Battle for Lion's Arch": [
+      "Standalone: World Boss": [
         5423,
         5425,
-        11126
+        4690
       ]
     },
     "Living World Season 2: Glint's Prophecy": {

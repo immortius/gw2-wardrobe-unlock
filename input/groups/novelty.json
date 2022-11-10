@@ -47,28 +47,18 @@
         200,
         215
       ],
-      "Standalone: Molten Furnace": [
-        175
-      ],
-      "Standalone: Aetherblade Retreat": [
-        173
-      ],
-      "Standalone: Labyrinthine Cliffs": [
+      "Standalone: Other": [
         28,
-        112,
-        156
-      ],
-      "Standalone: The Crown Pavilion": [
         47,
         49,
-        140
-      ],
-      "Standalone: The Tower of Nightmares": [
-        149
-      ],
-      "Standalone: The Battle for Lion's Arch": [
+        58,
         64,
-        58
+        112,
+        140,
+        149,
+        156,
+        173,
+        175
       ]
     },
     "Living World Season 2: Glint's Prophecy": {

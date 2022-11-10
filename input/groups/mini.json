@@ -24,8 +24,7 @@
       ],
       "Standalone: World Boss": [
         193,
-        194,
-        217
+        194
       ],
       "Standalone: Other": [
         66,
@@ -37,35 +36,25 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Standalone: Molten Furnace": [
-        136
+      "Standalone: Strike Mission": [
+        877,
+        878,
+        879
       ],
-      "Standalone: Southsun Cove": [
-        137,
-        138,
-        156
+      "Standalone: World Boss": [
+        214,
+        217
       ],
-      "Standalone: Aetherblade Retreat": [
-        163
-      ],
-      "Standalone: Labyrinthine Cliffs": [
+      "Standalone: Other": [
+        136,
+        156,
+        163,
         167,
-        168
-      ],
-      "Standalone: The Crown Pavilion": [
-        169
-      ],
-      "Standalone: Twilight Arbor Aetherpath": [
-        195
-      ],
-      "Standalone: The Tower of Nightmares": [
+        168,
+        169,
+        195,
         205,
-        206
-      ],
-      "Standalone: The Twisted Marionette": [
-        214
-      ],
-      "Standalone: The Battle for Lion's Arch": [
+        206,
         223
       ]
     },
@@ -1019,6 +1008,8 @@
         795
       ],
       "Standalone: Other": [
+        137,
+        138,
         182,
         201,
         203,

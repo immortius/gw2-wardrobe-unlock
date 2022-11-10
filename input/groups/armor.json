@@ -1103,48 +1103,42 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Standalone: Molten Furnace": [
-        2012,
-        2015,
-        2017,
+      "Standalone: Living World Return": [
         10811,
         10815,
-        10828
-      ],
-      "Standalone: Aetherblade Retreat": [
-        2018,
-        2019,
-        2020,
+        10828,
         10836,
         10841,
-        10842
+        10842,
+        10901,
+        10904,
+        10905,
+        11034,
+        11043,
+        11046,
+        11102,
+        11122,
+        11132
       ],
-      "Standalone: The Crown Pavilion": [
+      "Standalone: Other": [
+        827,
+        830,
+        838,
         1072,
         1075,
         1077,
-        10901,
-        10904,
-        10905
-      ],
-      "Standalone: The Tower of Nightmares": [
+        2012,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
         2021,
         2022,
         2023,
         2024,
         2025,
         2026,
-        11034,
-        11043,
-        11046
-      ],
-      "Standalone: The Battle for Lion's Arch": [
-        827,
-        830,
-        838,
-        11102,
-        11122,
-        11132
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
