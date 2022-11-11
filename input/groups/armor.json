@@ -1041,17 +1041,6 @@
         766,
         767
       ],
-      "Wurmslayer": [
-        2000,
-        2001,
-        2002,
-        2003,
-        2004,
-        1996,
-        1997,
-        1998,
-        1999
-      ],
       "Standalone: Hall of Monuments": [
         800,
         816,
@@ -1103,6 +1092,17 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
+      "Wurmslayer": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        1996,
+        1997,
+        1998,
+        1999
+      ],
       "Standalone: Living World Return": [
         10811,
         10815,
