@@ -77,22 +77,25 @@
       "baseUrl": "https://api.guildwars2.com/v2/novelties",
       "cachePath": "novelties",
       "bulkSupported": false
-    }//,
-//    {
-//      "baseUrl": "https://api.guildwars2.com/v2/emotes",
-//      "cachePath": "emotes",
-//      "bulkSupported": false
-//    },
-//    {
-//      "baseUrl": "https://api.guildwars2.com/v2/pvp/heroes",
-//      "cachePath": "heroes",
-//      "bulkSupported": false
-//    },
-//    {
-//      "baseUrl": "https://api.guildwars2.com/v2/home/nodes",
-//      "cachePath": "nodes",
-//      "bulkSupported": false
-//    }
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/emotes",
+      "cachePath": "emotes",
+      "bulkSupported": false,
+      "stringIds": true
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/pvp/heroes",
+      "cachePath": "heroes",
+      "bulkSupported": false,
+      "stringIds": true
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/home/nodes",
+      "cachePath": "nodes",
+      "bulkSupported": false,
+      "stringIds": true
+    }
   ],
   "prices": {
     "apiUrl": "https://api.guildwars2.com/v2/commerce/prices"
@@ -993,6 +996,10 @@
           661,
           662,
           663
+        ],
+        // Prototype Assault Knight
+        "99154" : [
+          877,878,879
         ]
       },
       "excludeIds": [
@@ -1095,7 +1102,7 @@
       "Medium aquatic helm",
       "Light aquatic helm"
     ],
-    "miniatureTypes" : ["Miniature"],
+    "miniatureTypes" : ["Miniature", "Container"],
     "miniId" : "mini",
     "noveltyTypes" : ["Novelty", "Tonic", "Gizmo", "Tonic, Novelty", "Gizmo, Novelty"],
     "noveltyId" : "novelty",

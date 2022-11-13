@@ -213,6 +213,7 @@ public class GatherVendorsFromWiki {
         Set<Integer> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
         Elements miniItemIds = doc.select("span.gamelink[data-type='item']");
+
         if (!miniItemIds.isEmpty()) {
             int itemId = Integer.parseInt(miniItemIds.attr("data-id"));
             items.get(itemId).ifPresent(item -> {
@@ -220,6 +221,11 @@ public class GatherVendorsFromWiki {
                     result.add(item.details.minipetId);
                 }
             });
+        }
+
+        Elements itemType = doc.select("dt:matches(Item type)");
+        if (!itemType.isEmpty() && itemType.next().text().equals("Container")) {
+            result.addAll(getContainerMinis(doc));
         }
         return result;
     }
@@ -233,6 +239,24 @@ public class GatherVendorsFromWiki {
             items.get(itemId).ifPresent(item -> {
                 result.add(item.id);
             });
+        }
+        Elements itemType = doc.select("dt:matches(Item type)");
+        if (!itemType.isEmpty() && itemType.next().text().equals("Container")) {
+            result.addAll(getContainerMinis(doc));
+        }
+        return result;
+    }
+
+    private Collection<Integer> getContainerMinis(Document doc) throws IOException {
+        Set<Integer> result = Sets.newLinkedHashSet();
+        Elements contentsHeading = doc.select("h2:matches(Contents)");
+        if (!contentsHeading.isEmpty()) {
+            for (Element itemLink : contentsHeading.next().select("span ~ a")) {
+                String href = itemLink.attr("href");
+                if (!href.contains("?")) {
+                    result.addAll(getMiniId(new WikiUrl(href)));
+                }
+            }
         }
         return result;
     }

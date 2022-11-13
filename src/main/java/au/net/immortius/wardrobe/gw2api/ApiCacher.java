@@ -41,6 +41,9 @@ public class ApiCacher {
     private static GenericType<Set<Integer>> ID_COLLECTION_TYPE = new GenericType<Set<Integer>>() {
     };
 
+    private static GenericType<Set<String>> STRING_ID_COLLECTION_TYPE = new GenericType<Set<String>>() {
+    };
+
     private static final int RATE_LIMIT = 300;
 
     private static Joiner COMMA_JOINER = Joiner.on(',');
@@ -94,13 +97,14 @@ public class ApiCacher {
      * @param apiUrl The api url
      * @param toPath The path to save the data
      * @param allSupported Whether ids=all is supported for this endpoint
+     * @param stringIds Whether ids are strings rather than ints.
      * @throws IOException
      */
-    public int cache(String apiUrl, Path toPath, boolean allSupported) throws IOException {
+    public int cache(String apiUrl, Path toPath, boolean allSupported, boolean stringIds) throws IOException {
         if (Files.exists(toPath) && !NioUtils.isDirectoryEmpty(toPath)) {
-            return updateCache(apiUrl, toPath);
+            return updateCache(apiUrl, toPath, stringIds);
         } else {
-            return createCache(apiUrl, toPath, allSupported);
+            return createCache(apiUrl, toPath, allSupported, stringIds);
         }
     }
 
@@ -127,22 +131,44 @@ public class ApiCacher {
     }
 
     /**
+     * Obtain the list of ids available from an api endpoint
+     * @param apiUrl The api endpoint to collect ids from
+     * @return The list of available ids
+     */
+    public Set<String> availableStringIds(String apiUrl) {
+        try {
+            applyRateLimit();
+            return client.target(apiUrl).request().get(STRING_ID_COLLECTION_TYPE);
+        }  catch (InternalServerErrorException e) {
+            throw new RuntimeException("Failed to download api ids for '" + apiUrl + "'", e);
+        } catch (InterruptedException e) {
+            throw new RuntimeException("Interrupted downloading api ids for '" + apiUrl + "'", e);
+        } catch (ServiceUnavailableException e) {
+            logger.info("API current disabled for {}", apiUrl);
+            return Collections.emptySet();
+        } catch (ProcessingException e) {
+            logger.info("Failed to parse result for {}", apiUrl);
+            throw new RuntimeException(e);
+        }
+    }
+
+    /**
      * Cache a set of ids from an api endpoint
      * @param apiUrl The endpoint url
      * @param toPath The path to cache to
      * @param ids The ids to cache data for
      * @return The amount of data successfully downloaded
      */
-    public int cacheIds(String apiUrl, Path toPath, Collection<Integer> ids) {
+    public int cacheIds(String apiUrl, Path toPath, Collection<? extends Object> ids) {
         logger.info("Updating cache for {}", toPath);
         AtomicInteger downloadCounter = new AtomicInteger();
         ExecutorService executorService = Executors.newFixedThreadPool(concurrency);
-        List<Integer> fetchPage = Lists.newArrayList();
-        for (int id : ids) {
+        List<Object> fetchPage = Lists.newArrayList();
+        for (Object id : ids) {
             if (!Files.exists(toPath.resolve(id + ".json"))) {
                 fetchPage.add(id);
                 if (fetchPage.size() == 50) {
-                    ImmutableList<Integer> fetchIds = ImmutableList.copyOf(fetchPage);
+                    ImmutableList<Object> fetchIds = ImmutableList.copyOf(fetchPage);
                     executorService.submit(() -> retrieveAndSave(apiUrl, fetchIds, toPath, downloadCounter));
                     fetchPage.clear();
                 }
@@ -167,10 +193,11 @@ public class ApiCacher {
      * @param apiUrl The endpoint url to cache
      * @param toPath The location to cache to
      * @param allSupported Whether ids=all is supported by this endpoint
+     * @param stringIds Whether ids are strings rather than ints
      * @return The amount of data cached
      * @throws IOException
      */
-    private int createCache(String apiUrl, Path toPath, boolean allSupported) throws IOException {
+    private int createCache(String apiUrl, Path toPath, boolean allSupported, boolean stringIds) throws IOException {
         Files.createDirectories(toPath);
         if (allSupported) {
             logger.info("Bulk downloading {}", toPath);
@@ -179,16 +206,21 @@ public class ApiCacher {
             logger.info("Downloaded {} new items to {}", downloadCounter.get(), toPath);
             return downloadCounter.get();
         } else {
-            return updateCache(apiUrl, toPath);
+            return updateCache(apiUrl, toPath, stringIds);
         }
     }
 
-    private int updateCache(String apiUrl, Path toPath) {
-        Set<Integer> ids = availableIds(apiUrl);
-        return cacheIds(apiUrl, toPath, ids);
+    private int updateCache(String apiUrl, Path toPath, boolean stringIds) {
+        if (stringIds) {
+            Set<String> ids = availableStringIds(apiUrl);
+            return cacheIds(apiUrl, toPath, ids);
+        } else{
+            Set<Integer> ids = availableIds(apiUrl);
+            return cacheIds(apiUrl, toPath, ids);
+        }
     }
 
-    private void retrieveAndSave(String baseUrl, List<Integer> fetchPage, Path baseSavePath, AtomicInteger downloadCounter) {
+    private void retrieveAndSave(String baseUrl, List<Object> fetchPage, Path baseSavePath, AtomicInteger downloadCounter) {
         String url = baseUrl + "?ids=" + COMMA_JOINER.join(fetchPage);
         retrieveAndSave(url, baseSavePath, downloadCounter);
     }
@@ -202,7 +234,7 @@ public class ApiCacher {
             JsonArray rootArray = root.getAsJsonArray();
             for (JsonElement element : rootArray) {
                 JsonObject obj = element.getAsJsonObject();
-                int id = obj.get("id").getAsInt();
+                String id = obj.get("id").getAsString();
                 Path outPath = baseSavePath.resolve(id + ".json");
                 try (JsonWriter writer = new JsonWriter(Files.newBufferedWriter(outPath, Charsets.UTF_8))) {
                     gson.toJson(obj, JsonElement.class, writer); } catch (IOException e) {

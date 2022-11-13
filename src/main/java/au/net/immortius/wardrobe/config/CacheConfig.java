@@ -9,6 +9,7 @@ public class CacheConfig {
     private String baseUrl;
     private Path cachePath;
     private boolean bulkSupported;
+    private boolean stringIds;
 
     /**
      * @return The gw2 api url for the endpoint
@@ -29,5 +30,9 @@ public class CacheConfig {
      */
     public boolean isBulkSupported() {
         return bulkSupported;
+    }
+
+    public boolean isStringIds() {
+        return stringIds;
     }
 }

@@ -51,7 +51,7 @@ public class CacheApi {
 
         for (CacheConfig apiCache : config.apiCaches) {
             if (!Strings.isNullOrEmpty(apiCache.getBaseUrl())) {
-                cacher.cache(apiCache.getBaseUrl(), config.paths.getApiPath().resolve(apiCache.getCachePath()), apiCache.isBulkSupported());
+                cacher.cache(apiCache.getBaseUrl(), config.paths.getApiPath().resolve(apiCache.getCachePath()), apiCache.isBulkSupported(), apiCache.isStringIds());
             }
         }
     }
