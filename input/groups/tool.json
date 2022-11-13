@@ -8,7 +8,7 @@
       ]
     },
     "End of Dragons": {
-      "Standalone": [
+      "Standalone: Other": [
         10602,
         10687,
         10721
@@ -74,7 +74,7 @@
         8156,
         8161
       ],
-      "Standalone - Harvesting Tool": [
+      "Standalone: Other - Harvesting Tool": [
         2384,
         2387,
         5655,
@@ -83,7 +83,7 @@
         8103,
         8509
       ],
-      "Standalone - Logging Tool": [
+      "Standalone: Other - Logging Tool": [
         2389,
         2391,
         2392,
@@ -91,13 +91,13 @@
         8086,
         8460
       ],
-      "Standalone - Mining Tool": [
+      "Standalone: Other - Mining Tool": [
         2396,
         2398,
         8090,
         8459
       ],
-      "Standalone - Fishing Tool": [
+      "Standalone: Other - Fishing Tool": [
         10766,
         10791,
         10832,

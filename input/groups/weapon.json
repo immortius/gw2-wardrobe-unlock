@@ -1770,17 +1770,13 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion > Aetherized Arsenite": [
+      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion": [
         11114,
         11138,
-        11140
-      ],
-      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion > Aetherized Indigo": [
+        11140,
         11107,
         11127,
-        11131
-      ],
-      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion > Aetherized Vermilion": [
+        11131,
         11103,
         11130,
         11139
@@ -3298,13 +3294,13 @@
         9886,
         9889
       ],
-      "Standalone: Champion Bag": [
+      "Standalone: Mystic Forge": [
+        6295
+      ],
+      "Standalone: Sparking Stone": [
         8769,
         10195,
         10226
-      ],
-      "Standalone: Mystic Forge": [
-        6295
       ]
     },
     "Festival: Super Adventure Festival": {
@@ -3518,7 +3514,7 @@
         9471,
         9473
       ],
-      "Standalone: Champion Bag": [
+      "Standalone: Sparking Stone": [
         10023,
         10032,
         10033
@@ -3615,7 +3611,7 @@
         9557,
         9558
       ],
-      "Standalone: Champion Bag": [
+      "Standalone: Sparking Stone": [
         10099,
         10101,
         10108
@@ -3694,14 +3690,6 @@
         9003,
         9004
       ],
-      "Standalone: Champion Bag": [
-        10121,
-        10130,
-        10132,
-        11055,
-        11062,
-        11071
-      ],
       "Standalone: Mystic Forge": [
         4686,
         4688,
@@ -3709,6 +3697,14 @@
         7778,
         7802,
         8454
+      ],
+      "Standalone: Sparking Stone": [
+        10121,
+        10130,
+        10132,
+        11055,
+        11062,
+        11071
       ],
       "Standalone: Other": [
         6152,
@@ -3827,7 +3823,7 @@
         9787,
         9788
       ],
-      "Standalone: Champion Bag": [
+      "Standalone: Sparking Stone": [
         10185,
         10208,
         10217
