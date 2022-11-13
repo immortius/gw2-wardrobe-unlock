@@ -2,7 +2,7 @@
   "name": "achievement",
   "contents": [
     // Living World Season 1
-    163,195,
+    163,167,168,169,195,206,
     // Heart Of Thorns
     350,354,396,
     // Living World Season 3
@@ -25,7 +25,9 @@
     301,733,730,834,
     // Festival: Wintersday
     119,115,118,117,116,310,636,738,
+    // Standalone: Extra Life
+    181,
     // Gem Store
-    181,796
+    796
   ]
 }

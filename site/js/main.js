@@ -43,6 +43,7 @@ var acquisitionMethods = [
     { id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", category : "Ascended Equipment"},
 
     { id : "karkashell", name : "Karka Shell", category : "Core / Season 1 / Season 2"},
+    //{ id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
     { id : 'banditcrest', name : "Bandit Crest", category : "Core / Season 1 / Season 2"},
     { id : "swimspeedinfusion", name : "Swim-Speed Infusion", category : "Core / Season 1 / Season 2"},
     { id : "racingmedallion", name : "Racing Medallion", category : "Core / Season 1 / Season 2"},
@@ -132,7 +133,7 @@ var acquisitionMethods = [
     { id : "enchantedsnowball", name : "Enchanted Snowball", category : "Festival"},
 
     { id : 'gem', name : "Gems", category : "Gem Store"},
-    { id : 'deluxe', name : "Edition Bonus", category : "Gem Store"},
+    { id : 'deluxe', name : "Purchase Bonus", category : "Gem Store"},
     { id : 'blacklionchest', name : "Black Lion Chest Exclusive", category : "Gem Store"},
     { id : "bls", name : "Black Lion Statuette", category : "Gem Store"},
     { id : "gwu", name : "Guaranteed Wardrobe Unlock", category : "Gem Store", hideOnIcon : true},

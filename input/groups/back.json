@@ -123,21 +123,11 @@
         2334,
         2335
       ],
-      "Standalone: Molten Furnace": [
-        2345
+      "Standalone: Living World Return": [
+        11118
       ],
-      "Standalone: Southsun Cove": [
-        2353,
-        2354
-      ],
-      "Standalone: Labyrinthine Cliffs": [
-        2349,
-        2350
-      ],
-      "Standalone: Twilight Arbor Aetherpath": [
-        2357
-      ],
-      "Standalone: The Tower of Nightmares": [
+      "Standalone: Other": [
+        2345,
         2356,
         2381
       ]
@@ -199,7 +189,7 @@
       ]
     },
     "Path of Fire": {
-      "Standalone": [
+      "Standalone: Other": [
         7458,
         7464,
         7692,
@@ -335,7 +325,7 @@
       ]
     },
     "Festival: Super Adventure Festival": {
-      "Standalone": [
+      "Standalone: Other": [
         2359,
         2360,
         2361,
@@ -345,7 +335,7 @@
       ]
     },
     "Festival: Dragon Bash": {
-      "Standalone": [
+      "Standalone: Other": [
         2351,
         2352,
         8833
@@ -362,9 +352,16 @@
         8218,
         8223
       ],
-      "Standalone": [
-        5456,
+      "Standalone: Annual Customs": [
         8861
+      ],
+      "Standalone: Other": [
+        2349,
+        2350,
+        2353,
+        2354,
+        2357,
+        5456
       ]
     },
     "Festival: Halloween": {
@@ -374,17 +371,19 @@
         2338,
         7775
       ],
-      "Standalone": [
+      "Standalone: Annual Customs": [
         9638
       ]
     },
     "Festival: Wintersday": {
-      "Standalone": [
+      "Standalone: Annual Customs": [
+        10218
+      ],
+      "Standalone: Other": [
         2374,
         2375,
         2382,
-        2383,
-        10218
+        2383
       ]
     },
     "Gem Store": {
@@ -464,7 +463,8 @@
         10104,
         10164,
         10192,
-        10902
+        10902,
+        11116
       ],
       "Standalone: Other - Cape + Glider Combo": [
         9732,
@@ -531,7 +531,8 @@
         10149,
         10200,
         10823,
-        10912
+        10912,
+        11125
       ]
     }
   }

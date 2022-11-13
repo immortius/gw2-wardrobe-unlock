@@ -47,28 +47,18 @@
         200,
         215
       ],
-      "Standalone: Molten Furnace": [
-        175
+      "Standalone: Strike Mission": [
       ],
-      "Standalone: Aetherblade Retreat": [
-        173
-      ],
-      "Standalone: Labyrinthine Cliffs": [
-        28,
-        112,
-        156
-      ],
-      "Standalone: The Crown Pavilion": [
+      "Standalone: Other": [
         47,
-        49,
-        140
-      ],
-      "Standalone: The Tower of Nightmares": [
-        149
-      ],
-      "Standalone: Lion's Arch": [
+        58,
         64,
-        58
+        112,
+        140,
+        149,
+        156,
+        173,
+        175
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -95,7 +85,7 @@
         266,
         267
       ],
-      "Standalone": [
+      "Standalone: Other": [
         102,
         106,
         110,
@@ -222,6 +212,8 @@
         46
       ],
       "Standalone: Other": [
+        28,
+        49,
         142,
         150,
         223
@@ -234,7 +226,7 @@
         166,
         178
       ],
-      "Standalone": [
+      "Standalone: Other": [
         170,
         180
       ]
@@ -250,7 +242,7 @@
         206,
         257
       ],
-      "Standalone": [
+      "Standalone: Other": [
         38,
         42,
         75,

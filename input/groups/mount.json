@@ -1,31 +1,35 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone": [
-        1,
-        3,
+      "Starter": [
+        1
+      ],
+      "Standalone: Renown Heart": [
+        3
       ]
     },
     "Path of Fire": {
-      "Standalone": [
+      "Standalone: Renown Heart": [
         2,
-        4,
         6
+      ],
+      "Standalone: Other": [
+        4
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik": {
-      "Standalone": [
+      "Standalone: Other": [
         103,
         186
       ]
     },
     "End of Dragons": {
-      "Standalone": [
+      "Standalone: Other": [
         397
       ]
     },
     "Competitive: Player vs. Player / World vs. World": {
-      "Standalone": [
+      "Standalone: Other": [
         161,
         251
       ]
@@ -212,7 +216,10 @@
         207,
         349
       ],
-      "Standalone - Raptor": [
+      "Standalone: Deluxe Upgrade": [
+        360
+      ],
+      "Standalone: Other - Raptor": [
         21,
         29,
         32,
@@ -229,10 +236,9 @@
         344,
         367
       ],
-      "Standalone - Raptor - Canthan": [
-        360
+      "Standalone: Other - Raptor - Canthan": [
       ],
-      "Standalone - Raptor - Exclusive": [
+      "Standalone: Other - Raptor - Exclusive": [
         17,
         126,
         200,
@@ -240,7 +246,7 @@
         294,
         329
       ],
-      "Standalone - Springer": [
+      "Standalone: Other - Springer": [
         20,
         38,
         42,
@@ -258,15 +264,15 @@
         299,
         351
       ],
-      "Standalone - Springer - Cuckoo": [
+      "Standalone: Other - Springer - Cuckoo": [
       ],
-      "Standalone - Springer - Exclusive": [
+      "Standalone: Other - Springer - Exclusive": [
         61,
         152,
         231,
         331
       ],
-      "Standalone - Skimmer": [
+      "Standalone: Other - Skimmer": [
         26,
         36,
         37,
@@ -282,13 +288,13 @@
         368,
         375
       ],
-      "Standalone - Skimmer - Exclusive": [
+      "Standalone: Other - Skimmer - Exclusive": [
         57,
         168,
         311,
         358
       ],
-      "Standalone - Jackal": [
+      "Standalone: Other - Jackal": [
         22,
         28,
         33,
@@ -304,9 +310,9 @@
         355,
         372
       ],
-      "Standalone - Jackal - Vulpine": [
+      "Standalone: Other - Jackal - Vulpine": [
       ],
-      "Standalone - Jackal - Exclusive": [
+      "Standalone: Other - Jackal - Exclusive": [
         46,
         97,
         220,
@@ -315,7 +321,7 @@
         359,
         406
       ],
-      "Standalone - Griffon": [
+      "Standalone: Other - Griffon": [
         25,
         34,
         40,
@@ -333,14 +339,14 @@
         346,
         361
       ],
-      "Standalone - Griffon - Tigris": [
+      "Standalone: Other - Griffon - Tigris": [
       ],
-      "Standalone - Griffon - Exclusive": [
+      "Standalone: Other - Griffon - Exclusive": [
         62,
         129,
         250
       ],
-      "Standalone - Roller Beetle": [
+      "Standalone: Other - Roller Beetle": [
         105,
         114,
         144,
@@ -350,10 +356,10 @@
         239,
         348
       ],
-      "Standalone - Roller Beetle - Exclusive": [
+      "Standalone: Other - Roller Beetle - Exclusive": [
         104
       ],
-      "Standalone - Warclaw": [
+      "Standalone: Other - Warclaw": [
         162,
         163,
         165,
@@ -364,14 +370,14 @@
         363,
         364
       ],
-      "Standalone - Warclaw - Nian": [
+      "Standalone: Other - Warclaw - Nian": [
       ],
-      "Standalone - Warclaw - Exclusive": [
+      "Standalone: Other - Warclaw - Exclusive": [
         252,
         316,
         380
       ],
-      "Standalone - Skyscale": [
+      "Standalone: Other - Skyscale": [
         193,
         194,
         198,
@@ -385,16 +391,16 @@
         306,
         357
       ],
-      "Standalone - Skyscale - Noble": [
+      "Standalone: Other - Skyscale - Noble": [
       ],
-      "Standalone - Skyscale - Exclusive": [
+      "Standalone: Other - Skyscale - Exclusive": [
         191,
         292,
         336
       ],
-      "Standalone - Siege Turtle": [
+      "Standalone: Other - Siege Turtle": [
       ],
-      "Standalone - Siege Turtle - Exclusive": [
+      "Standalone: Other - Siege Turtle - Exclusive": [
       ]
     }
   }

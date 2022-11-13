@@ -1,12 +1,12 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone": [
+      "Standalone: Other": [
         60
       ]
     },
     "Festival: Halloween": {
-      "Standalone": [
+      "Standalone: Other": [
         12
       ]
     },
@@ -16,7 +16,10 @@
         29,
         35
       ],
-      "Standalone": [
+      "Standalone: Deluxe Upgrade": [
+        52
+      ],
+      "Standalone: Other": [
         8,
         9,
         10,
@@ -57,7 +60,6 @@
         49,
         50,
         51,
-        52,
         53,
         54,
         55,
@@ -105,9 +107,10 @@
         116,
         117,
         118,
-        119
+        119,
+        120
       ],
-      "Standalone + Novelty Combo": [
+      "Standalone: Other + Toy Novelty Combo": [
         1,
         2,
         3,
@@ -116,7 +119,7 @@
         6,
         7
       ],
-      "Standalone - Clothing": [
+      "Standalone: Other - Clothing": [
         59,
         61,
         62,
@@ -130,7 +133,7 @@
         70,
         71
       ],
-      "Standalone - Clothing - Emblem": [
+      "Standalone: Other - Clothing - Emblem": [
         73,
         89,
         90,

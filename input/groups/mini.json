@@ -24,8 +24,7 @@
       ],
       "Standalone: World Boss": [
         193,
-        194,
-        217
+        194
       ],
       "Standalone: Other": [
         66,
@@ -37,36 +36,23 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Standalone: Molten Furnace": [
-        136
+      "Standalone: Strike Mission": [
+        877,
+        878,
+        879
       ],
-      "Standalone: Southsun Cove": [
-        137,
-        138,
-        156
+      "Standalone: World Boss": [
+        214,
+        217
       ],
-      "Standalone: Aetherblade Retreat": [
-        163
-      ],
-      "Standalone: Labyrinthine Cliffs": [
-        167,
-        168
-      ],
-      "Standalone: The Crown Pavilion": [
-        169
-      ],
-      "Standalone: Twilight Arbor Aetherpath": [
-        195
-      ],
-      "Standalone: The Tower of Nightmares": [
+      "Standalone: Other": [
+        136,
+        156,
+        163,
+        169,
+        195,
         205,
-        206
-      ],
-      "Standalone: The Twisted Marionette": [
-        214
-      ],
-      "Standalone: Lion's Arch": [
-        219,
+        206,
         223
       ]
     },
@@ -480,7 +466,7 @@
         746,
         748
       ],
-      "Standalone": [
+      "Standalone: Other": [
         647,
         650,
         651,
@@ -490,11 +476,13 @@
       ]
     },
     "Festival: Super Adventure Festival": {
-      "Super": [
+      "Standalone: Annual Customs": [
+        749,
+        810
+      ],
+      "Standalone: Other": [
         183,
         184,
-        749,
-        810,
         811
       ]
     },
@@ -506,7 +494,7 @@
         160,
         161
       ],
-      "Standalone": [
+      "Standalone: Other": [
         162,
         771,
         819,
@@ -520,6 +508,8 @@
         701
       ],
       "Standalone: Other": [
+        167,
+        168,
         170,
         291,
         700,
@@ -540,6 +530,9 @@
         732,
         733
       ],
+      "Standalone: Annual Customs": [
+        730
+      ],
       "Standalone: Mystic Forge": [
         607
       ],
@@ -559,11 +552,10 @@
         603,
         608,
         614,
-        730,
         731,
         787,
-        834,
         833,
+        834,
         874,
         876
       ]
@@ -597,6 +589,9 @@
         118,
         119
       ],
+      "Standalone: Annual Customs": [
+        738
+      ],
       "Standalone: Strike Mission": [
         737,
         791,
@@ -609,8 +604,7 @@
         625,
         632,
         636,
-        735,
-        738
+        735
       ]
     },
     "Gem Store": {
@@ -882,6 +876,7 @@
         590
       ],
       "Scarlet's Champions": [
+        219,
         220,
         224,
         225,
@@ -997,6 +992,10 @@
         211,
         212
       ],
+      "Standalone: Deluxe Upgrade": [
+        1,
+        319
+      ],
       "Standalone: Extra Life": [
         181,
         785,
@@ -1009,7 +1008,8 @@
         795
       ],
       "Standalone: Other": [
-        1,
+        137,
+        138,
         182,
         201,
         203,
@@ -1031,7 +1031,6 @@
         316,
         317,
         318,
-        319,
         320,
         324,
         326,

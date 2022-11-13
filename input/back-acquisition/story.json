@@ -1,13 +1,15 @@
 {
   "name": "story",
   "contents": [
-    // Inquest,
-    8057,
-    // Order Backpacks,
+    // Starter
+    2340,
+    // Living World Season 1: Scarlet's War
+    2381,
+    // Heart of Thorns
     6416,6170,6243,
-    // Path of Fire,
+    // Path of Fire
     7464,7458,7631,7692,
-    // General,
-    2340
+    // Living World Season 4: Rise of Kralkatorrik
+    8057
   ]
 }
