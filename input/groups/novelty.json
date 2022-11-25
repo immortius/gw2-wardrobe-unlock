@@ -253,9 +253,6 @@
       ]
     },
     "Gem Store": {
-      "Standalone: Extra Life": [
-        236
-      ],
       "Standalone: Other - Chair": [
         24,
         262,
@@ -330,7 +327,8 @@
         103,
         159,
         172,
-        185
+        185,
+        236
       ]
     }
   }

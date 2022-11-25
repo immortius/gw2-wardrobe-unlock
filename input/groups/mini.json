@@ -992,12 +992,7 @@
         211,
         212
       ],
-      "Standalone: Deluxe Upgrade": [
-        1,
-        319
-      ],
-      "Standalone: Extra Life": [
-        181,
+      "Standalone: Extra Life Donation Bundle": [
         785,
         816,
         835
@@ -1008,8 +1003,10 @@
         795
       ],
       "Standalone: Other": [
+        1,
         137,
         138,
+        181,
         182,
         201,
         203,
@@ -1031,6 +1028,7 @@
         316,
         317,
         318,
+        319,
         320,
         324,
         326,

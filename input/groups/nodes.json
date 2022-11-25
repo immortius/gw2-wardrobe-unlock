@@ -1,18 +1,13 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone": [
+      "Standalone: Other": [
         "enchanted_treasure_chest"
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Standalone: Labyrinthine Cliffs": [
-        "quartz_node",
-      ],
-      "Standalone: The Tower of Nightmares": [
+      "Standalone: Other": [
         "krait_obelisk",
-      ],
-      "Standalone: The Twisted Marionette": [
         "sprocket_generator"
       ]
     },
@@ -22,7 +17,7 @@
       ]
     },
     "Heart of Thorns": {
-      "Standalone": [
+      "Standalone: Other": [
         "airship_cargo",
         "aurilium_node",
         "crystallized_supply_cache",
@@ -84,23 +79,28 @@
       ]
     },
     "Festival: Super Adventure Festival": {
-      "Standalone": [
+      "Standalone: Other": [
         "bauble_gathering_system"
       ]
     },
     "Festival: Dragon Bash": {
-      "Standalone": [
+      "Standalone: Other": [
         "commemorative_dragon_pinata"
       ]
     },
+    "Festival: Festival of the Four Winds": {
+      "Standalone: Annual Customs": [
+        "quartz_node",
+      ],
+    },
     "Festival: Halloween": {
-      "Standalone": [
+      "Standalone: Other": [
         "candy_corn_node",
         "king_sized_candy_corn"
       ]
     },
     "Festival: Wintersday": {
-      "Standalone": [
+      "Standalone: Other": [
         "wintersday_tree"
       ]
     },
@@ -116,13 +116,13 @@
         "garden_plot_02",
         "garden_plot_03"
       ],
-      "Standalone": [
+      "Standalone: Other": [
         "advanced_cloth_rack",
         "advanced_leather_rack",
         "basic_cloth_rack",
         "basic_leather_rack"
       ],
-      "Standalone - Harvesting Node": [
+      "Standalone: Other - Harvesting Node": [
         "basic_harvesting_nodes",
         "flaxseed_node",
         "ghost_pepper_node",
@@ -131,20 +131,20 @@
         "orrian_truffle_node",
         "snow_truffle_node"
       ],
-      "Standalone - Logging Node": [
+      "Standalone: Other - Logging Node": [
         "ancient_wood_node",
         "basic_lumber_nodes",
         "elder_wood_node",
         "hard_wood_node"
       ],
-      "Standalone - Mining Node": [
+      "Standalone: Other - Mining Node": [
         "basic_ore_nodes",
         "iron_ore_node",
         "mithril_ore_node",
         "orichalcum_ore_node",
         "platinum_ore_node"
       ],
-      "Standalone - Fishing Node": [
+      "Standalone: Other - Fishing Node": [
       ]
     }
   }

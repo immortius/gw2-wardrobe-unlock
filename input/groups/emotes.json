@@ -16,7 +16,7 @@
       ]
     },
     "End of Dragons": {
-      "Standalone": [
+      "Standalone: Other": [
         "Paper",
         "Rock",
         "Scissors"
@@ -28,7 +28,7 @@
         "shuffle",
         "step"
       ],
-      "Standalone": [
+      "Standalone: Other": [
         "Serve"
       ]
     }
