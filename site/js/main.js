@@ -137,9 +137,10 @@ var acquisitionMethods = [
     { id : 'blacklionchest', name : "Black Lion Chest Exclusive", category : "Gem Store"},
     { id : "bls", name : "Black Lion Statuette", category : "Gem Store"},
     { id : "gwu", name : "Guaranteed Wardrobe Unlock", category : "Gem Store", hideOnIcon : true},
-    { id : 'blt', name : "Black Lion Ticket", category : "Gem Store"},
+    { id : 'blt', name : "Black Lion Claim Ticket", category : "Gem Store"},
     { id : "blmt", name : "Black Lion Miniature Claim Ticket", category : "Gem Store"},
     { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
+    //{ id : "mountlicense", name : "Mount License", category : "Gem Store"},
     { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store", hideOnIcon : true},
 
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}

@@ -1,52 +1,59 @@
 {
   "name": "gem",
   "contents": [
+    // Spooky
+    13,14,15,16,19,
+    // Cozy Wintersday
+    52,53,56,58,60,
+    // Branded
+    66,68,70,75,76,
+    // Exo-Suit
+    92,93,94,95,96,
     // Awakened
-	100, 101, 102, 98, 99,
-	// Ascension
-	193, 194, 195, 196, 198,
-	// Branded
-	66, 68, 70, 75, 76,
-	// Cozy
-	52, 53, 56, 58, 60,
-	// Exo-suit
-	92, 93, 94, 95, 96,
-	// Spooky
-	13, 14, 15, 16, 19,
-	// Desert Racer
-	118, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 12, 126, 129,
-	// Mount Adoption 
-	20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 30, 34, 35, 36, 48, 37, 38, 39, 40, 41, 42, 43, 44, 45, 47, 49, 50,
-	// Istani Isles
-	77, 78, 79, 80, 81,
-	82, 83, 84, 85, 86,
-	87, 88, 89, 90, 91,
-	// General
-	104, 17, 46, 57, 61, 62, 97, 152, 191, 220, 231, 250, 252, 264, 292, 287, 293, 294, 311, 316, 329, 359, 358, 336, 332, 330, 331,406,
-	// Mad Realm
-	130, 131, 132, 133, 134,
-	// Distant Lands
-	136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150,
-	// Shiverpeaks
-	153, 154, 155, 157, 158,
-	// Warclaw Frontline
-	162, 163, 164, 165, 166,
-	// Exotic Breeds
-	169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183,
-	// New Horizons
-	202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 213, 215, 216, 217, 218,
-	// Curious Creatures
-	265, 266, 267, 268, 269, 270, 271, 272, 273, 275, 276, 277, 278, 279, 280,
-  // Mad King
-  222, 223, 224, 225, 226,
-  // Mistborn
-  234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248,
-  // Bizarre Beasts
-  298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 312, 313,
-  // Deep Wilds
-  375, 374, 373, 372, 371, 370, 369, 368, 367, 366, 365, 364, 363, 362, 361,
-  // Lost Era
-  357, 356, 355, 354, 353, 352, 351, 350, 349, 348, 347, 346, 345, 344, 343,
-  391, 380, 396, 403
+    100,101,102,98,99,
+    // Mad Realm
+    130,131,132,133,134,
+    // Shiverpeaks
+    153,154,155,157,158,
+    // Warclaw Frontline
+    162,163,164,165,166,
+    // Skyscale Ascension
+    193,194,195,196,198,
+    // Mad King
+    222,223,224,225,226,
+    // Siege Turtle Advent
+
+    // Canthan Vulpine Jackal
+
+    // Canthan Cuckoo Springer
+
+    // Canthan Tigris Griffon
+
+    // Canthan Nian Warclaw
+
+    // Canthan Noble Skyscale
+
+    // Plush
+    330,403,
+    // Synergetics
+    293,391,396,
+    // Standalone: Other - Raptor
+    17,126,200,264,294,329,
+    // Standalone: Other - Springer
+    61,152,231,331,
+    // Standalone: Other - Skimmer
+    57,168,311,358,
+    // Standalone: Other - Jackal
+    46,97,220,287,332,359,406,
+    // Standalone: Other - Griffon
+    62,129,250,
+    // Standalone: Other - Roller Beetle
+    104,
+    // Standalone: Other - Warclaw
+    252,316,380,
+    // Standalone: Other - Skyscale
+    191,292,336
+    // Standalone: Other - Siege Turtle
+
   ]
 }

@@ -1,6 +1,27 @@
 {
   "name": "blacklionchest",
   "contents": [
-    126, 129, 168, 200, 220, 231, 250, 252, 264, 292, 294, 311, 316, 329, 358, 336, 332, 330, 331, 391, 380, 403
+    // Plush
+    330,403,
+    // Synergetics
+    391,
+    // Standalone: Other - Raptor
+    126,200,264,294,329,
+    // Standalone: Other - Springer
+    152,231,331,
+    // Standalone: Other - Skimmer
+    168,311,358,
+    // Standalone: Other - Jackal
+    97,220,332,
+    // Standalone: Other - Griffon
+    129,250,
+    // Standalone: Other - Roller Beetle
+    
+    // Standalone: Other - Warclaw
+    252,316,380,
+    // Standalone: Other - Skyscale
+    292,336
+    // Standalone: Other - Siege Turtle
+
   ]
 }
