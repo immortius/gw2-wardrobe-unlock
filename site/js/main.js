@@ -96,6 +96,7 @@ var acquisitionMethods = [
     { id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", category : "Legendary Variant"},
     { id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", category : "Legendary Variant"},
     { id : "fragmentofprismaticpersuasion", name : "Fragment of Prismatic Persuasion", category : "Legendary Variant"},
+    //{ id : "fragmentofprismaticfire", name : "Fragment of Prismatic Fire", category : "Legendary Variant"},
 
     { id : "taleofdungeondelving", name : "Tales of Dungeon Delving", category : "Dungeon / Fractals of the Mists"},
     { id : "fractalrelic", name : "Fractal Relic", category : "Dungeon / Fractals of the Mists"},
