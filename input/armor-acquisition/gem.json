@@ -26,7 +26,7 @@
     // Aspect Eye
     8195,8205,8217,8208,8228,8230,8194,8213,8222,
     // Aurene's Crystalline
-    9954,9960,9961,9452,9458,9464,
+    9954,9960,9961,9452,9458,9464,11182,11188,11192,
     // Enchanted Dragon Crown
     8260,8277,8297,8278,8289,8296,8234,8238,8253,
     // Ears
@@ -91,6 +91,9 @@
     967,989,990,991,982,986,987,971,992,993,994,1011,1013,1014,1018,
     // Standalone - Head Armor - Glowing Mask
     826,831,832,5698,5699,5700,5746,5747,5748,
+    // Standalone - Head Armor - Battlelord
+    11151,11162,11167,
+    11143,11150,11158,
     // Standalone - Head Armor - Magnus's Eye Patch
     833,839,841,840,842,843,
     // Standalone - Head Armor - Mask of the Crown / Mask of the Jubilee / Mask of the Queen

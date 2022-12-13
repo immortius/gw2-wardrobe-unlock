@@ -123,15 +123,17 @@
         2334,
         2335
       ],
+      "Standalone: Dungeon": [
+        2345,
+        2357
+      ],
       "Standalone: Living World Return": [
         11118
       ],
       "Standalone: Other": [
-        2345,
         2353,
         2354,
         2356,
-        2357,
         2381
       ]
     },
@@ -466,7 +468,8 @@
         10164,
         10192,
         10902,
-        11116
+        11116,
+        11144
       ],
       "Standalone: Other - Cape + Glider Combo": [
         9732,

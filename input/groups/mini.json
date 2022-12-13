@@ -36,6 +36,10 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
+      "Standalone: Dungeon": [
+        136,
+        195
+      ],
       "Standalone: Strike Mission": [
         877,
         878,
@@ -46,13 +50,11 @@
         217
       ],
       "Standalone: Other": [
-        136,
         156,
         163,
         167,
         168,
         169,
-        195,
         205,
         206,
         223
@@ -354,7 +356,7 @@
         360,
         361
       ],
-      "Standalone: Shattered Observatory": [
+      "Standalone: Other": [
         494
       ]
     },
@@ -506,11 +508,13 @@
       ]
     },
     "Festival: Festival of the Four Winds": {
+      "Queen's Gauntlet": [
+        170
+      ],
       "Standalone: Treasure Hunt": [
         701
       ],
       "Standalone: Other": [
-        170,
         291,
         700,
         831,
@@ -604,7 +608,9 @@
         625,
         632,
         636,
-        735
+        735,
+        880,
+        881
       ]
     },
     "Gem Store": {

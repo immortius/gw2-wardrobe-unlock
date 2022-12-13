@@ -47,6 +47,10 @@
         200,
         215
       ],
+      "Standalone: Dungeon": [
+        173,
+        175
+      ],
       "Standalone: Strike Mission": [
       ],
       "Standalone: Other": [
@@ -57,9 +61,7 @@
         112,
         140,
         149,
-        156,
-        173,
-        175
+        156
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -164,11 +166,9 @@
       ]
     },
     "Fractals of the Mists": {
-      "Standalone: Shattered Observatory": [
+      "Standalone: Challenge Mode": [
         115,
-        141
-      ],
-      "Standalone: Sunqua Peak": [
+        141,
         307
       ],
       "Standalone: Other": [
