@@ -123,11 +123,16 @@
         2334,
         2335
       ],
+      "Standalone: Dungeon": [
+        2345,
+        2357
+      ],
       "Standalone: Living World Return": [
         11118
       ],
       "Standalone: Other": [
-        2345,
+        2353,
+        2354,
         2356,
         2381
       ]
@@ -335,9 +340,11 @@
       ]
     },
     "Festival: Dragon Bash": {
+      "Standalone: Annual Customs": [
+        2352
+      ],
       "Standalone: Other": [
         2351,
-        2352,
         8833
       ]
     },
@@ -358,9 +365,6 @@
       "Standalone: Other": [
         2349,
         2350,
-        2353,
-        2354,
-        2357,
         5456
       ]
     },
@@ -392,7 +396,7 @@
         10159,
         10161
       ],
-      "Standalone: Extra Life": [
+      "Standalone: Extra Life Donation Bundle": [
         11070
       ],
       "Standalone: Other": [
@@ -464,7 +468,8 @@
         10164,
         10192,
         10902,
-        11116
+        11116,
+        11144
       ],
       "Standalone: Other - Cape + Glider Combo": [
         9732,

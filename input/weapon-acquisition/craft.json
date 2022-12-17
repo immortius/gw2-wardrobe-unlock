@@ -2,9 +2,9 @@
   "name": "craft",
   "contents": [
     // Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion
-    11114,11138,11140,
-    11107,11127,11131,
-    11103,11130,11139,
+    11114,11138,
+    11107,11131,
+    11103,11130,
     // Conjured
     4855,4885,4861,4882,4823,4859,
     // Ectoplasmic

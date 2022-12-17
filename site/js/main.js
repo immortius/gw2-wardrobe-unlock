@@ -96,6 +96,7 @@ var acquisitionMethods = [
     { id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", category : "Legendary Variant"},
     { id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", category : "Legendary Variant"},
     { id : "fragmentofprismaticpersuasion", name : "Fragment of Prismatic Persuasion", category : "Legendary Variant"},
+    //{ id : "fragmentofprismaticfire", name : "Fragment of Prismatic Fire", category : "Legendary Variant"},
 
     { id : "taleofdungeondelving", name : "Tales of Dungeon Delving", category : "Dungeon / Fractals of the Mists"},
     { id : "fractalrelic", name : "Fractal Relic", category : "Dungeon / Fractals of the Mists"},
@@ -137,9 +138,10 @@ var acquisitionMethods = [
     { id : 'blacklionchest', name : "Black Lion Chest Exclusive", category : "Gem Store"},
     { id : "bls", name : "Black Lion Statuette", category : "Gem Store"},
     { id : "gwu", name : "Guaranteed Wardrobe Unlock", category : "Gem Store", hideOnIcon : true},
-    { id : 'blt', name : "Black Lion Ticket", category : "Gem Store"},
+    { id : 'blt', name : "Black Lion Claim Ticket", category : "Gem Store"},
     { id : "blmt", name : "Black Lion Miniature Claim Ticket", category : "Gem Store"},
     { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
+    //{ id : "mountlicense", name : "Mount License", category : "Gem Store"},
     { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store", hideOnIcon : true},
 
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}

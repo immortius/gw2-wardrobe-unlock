@@ -40,10 +40,22 @@
         169,
         176
       ],
+      "Arctic / Glacial / Ice": [
+        31,
+        88,
+        89,
+        113,
+        181,
+        209,
+        280,
+        236
+      ],
       "Aurene's Prismatic": [
         298,
         353,
         370
+      ],
+      "Aurora Blessed": [
       ],
       "Awakened": [
         98,
@@ -52,6 +64,25 @@
         101,
         102,
         278
+      ],
+      "Bioluminescent / Lucent": [
+        47,
+        196,
+        247,
+        273,
+        347,
+        373
+      ],
+      "Blazing / Flame": [
+        23,
+        30,
+        41,
+        48,
+        116,
+        166,
+        211,
+        268,
+        365
       ],
       "Branded": [
         66,
@@ -96,6 +127,15 @@
         303,
         371
       ],
+      "Heavenly Thunder / Storm": [
+        24,
+        79,
+        109,
+        142,
+        203,
+        241,
+        366
+      ],
       "Kintsugi": [
         302,
         374
@@ -128,6 +168,8 @@
         134,
         304
       ],
+      "Oceanic": [
+      ],
       "Plush": [
         330,
         403
@@ -158,6 +200,16 @@
         16,
         19
       ],
+      "Star / Star Blessed": [
+        12,
+        27,
+        49,
+        85,
+        148,
+        170,
+        207,
+        349
+      ],
       "Synergetics": [
         293,
         391,
@@ -168,58 +220,8 @@
         276,
         310
       ],
-      "Theme: Arctic / Ice / Glacial": [
-        31,
-        88,
-        89,
-        113,
-        181,
-        209,
-        280,
-        236
-      ],
-      "Theme: Bioluminescent / Lucent": [
-        47,
-        196,
-        247,
-        273,
-        347,
-        373
-      ],
-      "Theme: Blazing / Flame": [
-        23,
-        30,
-        41,
-        48,
-        116,
-        166,
-        211,
-        268,
-        365
-      ],
-      "Theme: Heavenly Thunder / Storm": [
-        24,
-        79,
-        109,
-        142,
-        203,
-        241,
-        366
-      ],
-      "Theme: Star": [
-        12,
-        27,
-        49,
-        85,
-        148,
-        170,
-        207,
-        349
-      ],
-      "Standalone: Deluxe Upgrade": [
-        360
-      ],
       "Standalone: Other - Raptor": [
+        17,
         21,
         29,
         32,
@@ -227,50 +229,42 @@
         81,
         86,
         111,
+        126,
         136,
         175,
         179,
-        240,
-        266,
-        308,
-        344,
-        367
-      ],
-      "Standalone: Other - Raptor - Canthan": [
-      ],
-      "Standalone: Other - Raptor - Exclusive": [
-        17,
-        126,
         200,
+        240,
         264,
+        266,
         294,
-        329
+        308,
+        329,
+        344,
+        360,
+        367
       ],
       "Standalone: Other - Springer": [
         20,
         38,
         42,
         43,
+        61,
         78,
         106,
         118,
         139,
         140,
+        152,
         178,
         182,
         208,
         215,
+        231,
         243,
         299,
+        331,
         351
-      ],
-      "Standalone: Other - Springer - Cuckoo": [
-      ],
-      "Standalone: Other - Springer - Exclusive": [
-        61,
-        152,
-        231,
-        331
       ],
       "Standalone: Other - Skimmer": [
         26,
@@ -278,47 +272,41 @@
         37,
         44,
         45,
+        57,
         83,
         84,
         112,
         137,
+        168,
         174,
+        311,
         312,
         345,
+        358,
         368,
         375
-      ],
-      "Standalone: Other - Skimmer - Exclusive": [
-        57,
-        168,
-        311,
-        358
       ],
       "Standalone: Other - Jackal": [
         22,
         28,
         33,
         39,
+        46,
         90,
+        97,
         107,
         117,
         149,
         183,
         213,
-        272,
-        343,
-        355,
-        372
-      ],
-      "Standalone: Other - Jackal - Vulpine": [
-      ],
-      "Standalone: Other - Jackal - Exclusive": [
-        46,
-        97,
         220,
+        272,
         287,
         332,
+        343,
+        355,
         359,
+        372,
         406
       ],
       "Standalone: Other - Griffon": [
@@ -326,27 +314,24 @@
         34,
         40,
         50,
+        62,
         77,
         80,
         110,
         115,
+        129,
         141,
         150,
         177,
         210,
         246,
+        250,
         271,
         346,
         361
       ],
-      "Standalone: Other - Griffon - Tigris": [
-      ],
-      "Standalone: Other - Griffon - Exclusive": [
-        62,
-        129,
-        250
-      ],
       "Standalone: Other - Roller Beetle": [
+        104,
         105,
         114,
         144,
@@ -356,28 +341,22 @@
         239,
         348
       ],
-      "Standalone: Other - Roller Beetle - Exclusive": [
-        104
-      ],
       "Standalone: Other - Warclaw": [
         162,
         163,
         165,
         204,
+        252,
         279,
         301,
+        316,
         354,
         363,
-        364
-      ],
-      "Standalone: Other - Warclaw - Nian": [
-      ],
-      "Standalone: Other - Warclaw - Exclusive": [
-        252,
-        316,
+        364,
         380
       ],
       "Standalone: Other - Skyscale": [
+        191,
         193,
         194,
         198,
@@ -387,20 +366,13 @@
         242,
         265,
         275,
+        292,
         305,
         306,
+        336,
         357
       ],
-      "Standalone: Other - Skyscale - Noble": [
-      ],
-      "Standalone: Other - Skyscale - Exclusive": [
-        191,
-        292,
-        336
-      ],
       "Standalone: Other - Siege Turtle": [
-      ],
-      "Standalone: Other - Siege Turtle - Exclusive": [
       ]
     }
   }

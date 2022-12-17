@@ -36,6 +36,10 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
+      "Standalone: Dungeon": [
+        136,
+        195
+      ],
       "Standalone: Strike Mission": [
         877,
         878,
@@ -46,11 +50,11 @@
         217
       ],
       "Standalone: Other": [
-        136,
         156,
         163,
+        167,
+        168,
         169,
-        195,
         205,
         206,
         223
@@ -352,7 +356,7 @@
         360,
         361
       ],
-      "Standalone: Shattered Observatory": [
+      "Standalone: Other": [
         494
       ]
     },
@@ -504,13 +508,13 @@
       ]
     },
     "Festival: Festival of the Four Winds": {
+      "Standalone: Queen's Gauntlet": [
+        170
+      ],
       "Standalone: Treasure Hunt": [
         701
       ],
       "Standalone: Other": [
-        167,
-        168,
-        170,
         291,
         700,
         831,
@@ -531,6 +535,7 @@
         733
       ],
       "Standalone: Annual Customs": [
+        202,
         730
       ],
       "Standalone: Mystic Forge": [
@@ -538,7 +543,6 @@
       ],
       "Standalone: Other": [
         196,
-        202,
         300,
         301,
         302,
@@ -604,7 +608,9 @@
         625,
         632,
         636,
-        735
+        735,
+        880,
+        881
       ]
     },
     "Gem Store": {
@@ -992,12 +998,7 @@
         211,
         212
       ],
-      "Standalone: Deluxe Upgrade": [
-        1,
-        319
-      ],
-      "Standalone: Extra Life": [
-        181,
+      "Standalone: Extra Life Donation Bundle": [
         785,
         816,
         835
@@ -1008,8 +1009,10 @@
         795
       ],
       "Standalone: Other": [
+        1,
         137,
         138,
+        181,
         182,
         201,
         203,
@@ -1031,6 +1034,7 @@
         316,
         317,
         318,
+        319,
         320,
         324,
         326,
