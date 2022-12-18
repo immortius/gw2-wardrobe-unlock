@@ -782,6 +782,18 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -252px -18px;
 }
+.fragmentofprismaticfire-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -270px -18px;
+}
+.foundheirloom-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -288px -18px;
+}
+.proofoflegend-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -306px -18px;
+}
 
 /* ==========================================================================
    Media Queries

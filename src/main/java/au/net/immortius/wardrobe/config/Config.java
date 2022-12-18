@@ -82,4 +82,14 @@ public class Config {
      */
     public Set<String> supportedCurrencies;
 
+    /**
+     * Deprecated or otherwise ignorable currencies
+     */
+    public Set<String> ignoreCurrencies;
+
+    /**
+     * Containers to ignore from wiki - either obsolete or not a choice chest
+     */
+    public Set<String> ignoreContainers;
+
 }

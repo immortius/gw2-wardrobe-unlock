@@ -164,6 +164,8 @@ public class GenerateContent {
                             UnlockData unlock = unlockDataMap.remove(id);
                             if (unlock != null) {
                                 itemGroup.content.add(unlock);
+                            } else if (id == null) {
+                                logger.warn("Null item in group: {}", itemGroup.groupName);
                             } else {
                                 logger.warn("Did not find {}:{}, possibly double-categorised", unlockCategoryConfig.id, id);
                             }
@@ -317,6 +319,7 @@ public class GenerateContent {
                 }
             }
         }
+        allUnsupportedCurrencies = allUnsupportedCurrencies.stream().filter(x -> !config.ignoreCurrencies.contains(x)).collect(Collectors.toSet());
         if (!allUnsupportedCurrencies.isEmpty()) {
             logger.warn("Unsupported currencies detected for {}: {}", unlockCategoryConfig.id, allUnsupportedCurrencies);
         }

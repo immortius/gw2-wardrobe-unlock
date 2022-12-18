@@ -43,11 +43,11 @@ var acquisitionMethods = [
     { id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", category : "Ascended Equipment"},
 
     { id : "karkashell", name : "Karka Shell", category : "Core / Season 1 / Season 2"},
-    //{ id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
+    { id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
     { id : 'banditcrest', name : "Bandit Crest", category : "Core / Season 1 / Season 2"},
     { id : "swimspeedinfusion", name : "Swim-Speed Infusion", category : "Core / Season 1 / Season 2"},
     { id : "racingmedallion", name : "Racing Medallion", category : "Core / Season 1 / Season 2"},
-    //{ id : "proofoflegend", name : "Proof of Legend", category : "Core / Season 1 / Season 2"},
+    { id : "proofoflegend", name : "Proof of Legend", category : "Core / Season 1 / Season 2"},
 
     { id : "airshippart", name : "Airship Part", category : "Heart of Thorns"},
     { id : "aurillium", name : "Lump of Aurillium", category : "Heart of Thorns"},
@@ -96,7 +96,7 @@ var acquisitionMethods = [
     { id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", category : "Legendary Variant"},
     { id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", category : "Legendary Variant"},
     { id : "fragmentofprismaticpersuasion", name : "Fragment of Prismatic Persuasion", category : "Legendary Variant"},
-    //{ id : "fragmentofprismaticfire", name : "Fragment of Prismatic Fire", category : "Legendary Variant"},
+    { id : "fragmentofprismaticfire", name : "Fragment of Prismatic Fire", category : "Legendary Variant"},
 
     { id : "taleofdungeondelving", name : "Tales of Dungeon Delving", category : "Dungeon / Fractals of the Mists"},
     { id : "fractalrelic", name : "Fractal Relic", category : "Dungeon / Fractals of the Mists"},

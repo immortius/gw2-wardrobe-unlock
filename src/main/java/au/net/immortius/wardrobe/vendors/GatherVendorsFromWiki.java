@@ -49,6 +49,7 @@ public class GatherVendorsFromWiki {
     private ListMultimap<String, VendorData> vendorData = ArrayListMultimap.create();
     private final Skins skins;
     private final Items items;
+    private final Set<String> containers = Sets.newLinkedHashSet();
 
     private Pattern valueMatcher = Pattern.compile("(.+?) (\\d{8})");
 
@@ -88,6 +89,10 @@ public class GatherVendorsFromWiki {
                 gson.toJson(vendorData.get(unlockCategory.id), writer);
             }
         }
+        Path saveToPath = config.paths.getVendorsPath().resolve("containers.json");
+        try (BufferedWriter writer = Files.newBufferedWriter(saveToPath)) {
+            gson.toJson(containers, writer);
+        }
 
     }
 
@@ -117,6 +122,13 @@ public class GatherVendorsFromWiki {
         }
 
         Document vendorDoc = Jsoup.parse(getPage(PageType.VENDOR, url));
+
+        for (Element element : vendorDoc.select(".notice.metadata")) {
+            if ("Historical content".equals(element.attr("title"))) {
+                return;
+            }
+        }
+
         ListMultimap<String, VendorItem> vendorItems = ArrayListMultimap.create();
 
         String vendorType = "";
@@ -154,6 +166,10 @@ public class GatherVendorsFromWiki {
             Elements rows = table.select("tbody tr");
             for (Element row : rows) {
                 if (!row.select("th").isEmpty()) {
+                    continue;
+                }
+
+                if (row.hasClass("gray")) {
                     continue;
                 }
 
@@ -284,8 +300,12 @@ public class GatherVendorsFromWiki {
             }
         }
         Elements itemType = doc.select("dt:matches(Item type)");
-        if (!itemType.isEmpty() && itemType.next().text().equals("Container")) {
-            result.addAll(getContainerSkins(doc));
+        if (!itemType.isEmpty() && itemType.next().text().equals("Container") && !config.ignoreContainers.contains(itemUrl.getUrl())) {
+            Collection<Integer> containerSkins = getContainerSkins(doc);
+            if (!containerSkins.isEmpty()) {
+                result.addAll(containerSkins);
+                containers.add(itemUrl.getUrl());
+            }
         }
 
         return result;
