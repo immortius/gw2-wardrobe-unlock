@@ -20,423 +20,453 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-		<div class="top">
-			<h1>Wardrobe Unlock Analyser</h1>
-			<div class="nav">
-				<ul>
-				  <li><a href="#browse" id="browse-menu-item" class="active">Browse</a></li>
-				  <li><a href="#analyse" id="analyse-menu-item">Analyse</a></li>
-				  <li><a href="#about" id="about-menu-item">About</a></li>
-				</ul>
-			</div>
-			<div id="api-bar">
-				<p>
-					<a href="https://account.arena.net/applications" target="_blank">API Key</a>  (needs unlocks permission):  <input type="text" id="api-key"/>
-					<span id="api-error" class="hidden">Failed to obtain unlocks</span>
-				</p>
-			</div>
-		</div>
+        <div class="top">
+            <h1>Wardrobe Unlock Analyser</h1>
+            <div class="nav">
+                <ul>
+                  <li><a href="#browse" id="browse-menu-item" class="active">Browse</a></li>
+                  <li><a href="#analyse" id="analyse-menu-item">Analyse</a></li>
+                  <li><a href="#about" id="about-menu-item">About</a></li>
+                </ul>
+            </div>
+            <div id="api-bar">
+                <p>
+                    <a href="https://account.arena.net/applications" target="_blank">API Key</a>  (needs unlocks permission):  <input type="text" id="api-key"/>
+                    <span id="api-error" class="hidden">Failed to obtain unlocks</span>
+                </p>
+            </div>
+        </div>
 
-		<div id="page">
-			<div id="browse" class="page">
-				<div id="filter-bar" class="bar">Display Mode: 
-					<select id="filter-by-acquisition" name="filter-by-acquisition">
-					  <option value="all">Full</option>
-					  <option value="buy">Sorted by buy price</option>
-					  <option value="sell">Sorted by sell price</option>
-					  <option value="tp-buy">Sorted by TP buy price</option>
-					  <option value="tp-sell">Sorted by TP sell price</option>
-					  <option value="gold">Only acquired through Gold</option>
-					  <option value="karma">Only acquired through Karma</option>
-					  <option value="craft">Only acquired through Crafting</option>
-					  <option value="boh">Only acquired through Badges of Honor</option>
-					  <option value="free">Acquired for free</option>
-					  <option value="setbuy">Sets sorted by buy price</option>
-					  <option value="setsell">Sets sorted by sell price</option>
-					  <option value="ls3">Living story 3 currency</option>
-					  <option value="ls4">Living story 4 currency</option>
+        <div id="page">
+            <div id="browse" class="page">
+                <div id="filter-bar" class="bar">Display Mode: 
+                    <select id="filter-by-acquisition" name="filter-by-acquisition">
+                      <option value="all">Full</option>
+                      <option value="buy">Sorted by buy price</option>
+                      <option value="sell">Sorted by sell price</option>
+                      <option value="tp-buy">Sorted by TP buy price</option>
+                      <option value="tp-sell">Sorted by TP sell price</option>
+                      <option value="gold">Only acquired through Gold</option>
+                      <option value="karma">Only acquired through Karma</option>
+                      <option value="craft">Only acquired through Crafting</option>
+                      <option value="boh">Only acquired through Badges of Honor</option>
+                      <option value="free">Acquired for free</option>
+                      <option value="setbuy">Sets sorted by buy price</option>
+                      <option value="setsell">Sets sorted by sell price</option>
+                      <option value="ls3">Living story 3 currency</option>
+                      <option value="ls4">Living story 4 currency</option>
                       <option value="ibs">Icebrood Saga currency</option>
-					  <option value="eod">End of Dragons</option>
-					  <option value="other">Other</option>
-					  <option value="advanced">Advanced</option>
-					</select>
-					<select id="rendering-mode-selection" name="rendering-mode">
-					  <option value="icon">Icons</option>
-					  <option value="text">Text</option>
-					</select>
-          <select id="rendering-theme-selection" name="rendering-theme">
-					  <option value="light">Light Theme</option>
-					  <option value="dark">Dark Theme</option>
-					</select>
-					<div>
-					<input id="gwu-toggle" type="checkbox">
-					<label for="gwu-toggle">Guaranteed Wardrobe Unlock Skins Only</label>
-					</div>
-					<div id="advanced-filter-section" class="filter-section hidden">					
-					</div>
-				</div>
+                      <option value="eod">End of Dragons</option>
+                      <option value="other">Other</option>
+                      <option value="advanced">Advanced</option>
+                    </select>
+                    <select id="rendering-mode-selection" name="rendering-mode">
+                      <option value="icon">Icons</option>
+                      <option value="text">Text</option>
+                    </select>
+                    <select id="rendering-theme-selection" name="rendering-theme">
+                      <option value="light">Light Theme</option>
+                      <option value="dark">Dark Theme</option>
+                    </select>
+                    <div>
+                    <label for="skins">Skins:</label>
+                    <select id="filter-by-container" name="filter-by-container">
+                      <option value="all">All</option>
+                      <option value="gwu">Guaranteed Wardrobe Unlock</option>
+                      <option value="bounty">Knife Tail Gang Hunting Bond</option>
+                    </select>
+                    
+                    </div>
+                    <div id="advanced-filter-section" class="filter-section hidden">                    
+                    </div>
+                </div>
 
-				<div class="main">
-					<div class="contents column">
-						<div id="totals">
-							<p>Total Unlocked: <span id="total-unlocked">0</span>/<span id="total">0</span></p> 
-							<p>Unlocked by buy value:
-								<span id="total-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
-								<span id="total-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
-								<span id="total-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
-								<span id="total-buy-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
-								<span id="total-buy-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
-								<span id="total-buy-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
-							</p>
-							<p>Unlocked by sell value:
-								<span id="total-sell-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
-								<span id="total-sell-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
-								<span id="total-sell-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
-								<span id="total-sell-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
-								<span id="total-sell-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
-								<span id="total-sell-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
-							</p>
-						</div>
-						<div id="gwu-totals" class="hidden">
-							<p>Total Unlocked: <span id="gwu-total-unlocked">0</span>/<span id="gwu-total">0</span></p> 
-							<p>Unlocked by buy value:
-								<span id="gwu-total-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
-								<span id="gwu-total-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
-								<span id="gwu-total-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
-								<span id="gwu-total-buy-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
-								<span id="gwu-total-buy-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
-								<span id="gwu-total-buy-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
-							</p>
-							<p>Unlocked by sell value:
-								<span id="gwu-total-sell-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
-								<span id="gwu-total-sell-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
-								<span id="gwu-total-sell-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
-								<span id="gwu-total-sell-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
-								<span id="gwu-total-sell-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
-								<span id="gwu-total-sell-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
-							</p>
-						</div>
-						<div id="sectioned-content">
-						<div class="lds-container"><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
-						</div>
-					</div>
-					<div class="details column">
-						<div id="selection-icon"></div>
-						<div id="selection-name"><strong>Name:</strong> <span></span></div>
-						<div id="selection-group"><strong>Group:</strong> <span></span></div>
-						<div id="selection-rarity"><strong>Rarity:</strong> <span></span></div>
-						<div id="selection-chat-code"><strong>Chat code:</strong> <span></span></div>
-						<div id="selection-id"><strong>Id:</strong> <span></span></div>
-						<div id="selection-wiki-link"><a target="_blank">Wiki Link</a></div>
-						<div id="selection-tp-info">
-							<h3>Trading Post Price</h3>
-							<div id="selection-buy-pricing">Buy Price: 
-							<span id="selection-buy-gold"></span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
-							<span id="selection-buy-silver"></span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
-							<span id="selection-buy-copper"></span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
-							<span id="selection-buy-name"></span>
-							</div>
-							<div id="selection-sell-pricing">Sell Price: 
-							<span id="selection-sell-gold"></span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
-							<span id="selection-sell-silver"></span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
-							<span id="selection-sell-copper"></span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                <div class="main">
+                    <div class="contents column">
+                        <div id="totals">
+                            <p>Total Unlocked: <span id="total-unlocked">0</span>/<span id="total">0</span></p> 
+                            <p>Unlocked by buy value:
+                                <span id="total-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="total-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="total-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
+                                <span id="total-buy-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="total-buy-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="total-buy-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                            </p>
+                            <p>Unlocked by sell value:
+                                <span id="total-sell-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="total-sell-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="total-sell-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
+                                <span id="total-sell-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="total-sell-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="total-sell-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                            </p>
+                        </div>
+                        <div id="gwu-totals" class="hidden">
+                            <p>Total Unlocked: <span id="gwu-total-unlocked">0</span>/<span id="gwu-total">0</span></p> 
+                            <p>Unlocked by buy value:
+                                <span id="gwu-total-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="gwu-total-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="gwu-total-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
+                                <span id="gwu-total-buy-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="gwu-total-buy-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="gwu-total-buy-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                            </p>
+                            <p>Unlocked by sell value:
+                                <span id="gwu-total-sell-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="gwu-total-sell-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="gwu-total-sell-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
+                                <span id="gwu-total-sell-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="gwu-total-sell-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="gwu-total-sell-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                            </p>
+                        </div>
+                        <div id="bounty-totals" class="hidden">
+                            <p>Total Unlocked: <span id="bounty-total-unlocked">0</span>/<span id="bounty-total">0</span></p> 
+                            <p>Unlocked by buy value:
+                                <span id="bounty-total-buy-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="bounty-total-buy-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="bounty-total-buy-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
+                                <span id="bounty-total-buy-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="bounty-total-buy-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="bounty-total-buy-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                            </p>
+                            <p>Unlocked by sell value:
+                                <span id="bounty-total-sell-unlocked-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="bounty-total-sell-unlocked-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="bounty-total-sell-unlocked-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span> of 
+                                <span id="bounty-total-sell-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span> 
+                                <span id="bounty-total-sell-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span> 
+                                <span id="bounty-total-sell-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                            </p>
+                        </div>
+                        <div id="sectioned-content">
+                        <div class="lds-container"><div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>
+                        </div>
+                    </div>
+                    <div class="details column">
+                        <div id="selection-icon"></div>
+                        <div id="selection-name"><strong>Name:</strong> <span></span></div>
+                        <div id="selection-group"><strong>Group:</strong> <span></span></div>
+                        <div id="selection-rarity"><strong>Rarity:</strong> <span></span></div>
+                        <div id="selection-chat-code"><strong>Chat code:</strong> <span></span></div>
+                        <div id="selection-id"><strong>Id:</strong> <span></span></div>
+                        <div id="selection-wiki-link"><a target="_blank">Wiki Link</a></div>
+                        <div id="selection-tp-info">
+                            <h3>Trading Post Price</h3>
+                            <div id="selection-buy-pricing">Buy Price: 
+                            <span id="selection-buy-gold"></span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
+                            <span id="selection-buy-silver"></span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
+                            <span id="selection-buy-copper"></span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                            <span id="selection-buy-name"></span>
+                            </div>
+                            <div id="selection-sell-pricing">Sell Price: 
+                            <span id="selection-sell-gold"></span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
+                            <span id="selection-sell-silver"></span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
+                            <span id="selection-sell-copper"></span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
               <span id="selection-sell-name"></span>
               </div>
-						</div>
-						<div id="selection-vendors">
-						 <h3>Vendors</h3>
-						 <div id="selection-vendor-list"></div>
-						</div>
-						<div id="selection-acquisition-methods">
-							<h3>Acquisition</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="analyse" class="hidden page">
-				<div class="analyse-description">
-					<p>Calculates the cost to purchase <select id="analyse-selection" name="analyse-selection">
-					  <option value="all">Any</option>
-					  <option value="gwu">Guaranteed Wardrobe Unlock</option>
-            <option value="weapon">Guaranteed Weapon Unlock</option>
-            <option value="armor">Guaranteed Armor Unlock</option>
-					</select> skins beneath a desired value. Note: This doesn't include free skins or skins acquired through non-gold currencies.</p>
-					<p>Desired minimum unlock value: <input type="text" id="min-gold-value" value="0"/><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
-					<select id="min-price-type" name="min-price-type">
-						  <option value="buy">Buy Price</option>
-						  <option value="sell">Sell Price</option>
-					</select></p>
-					<div class="analyse-main">
-						<div class="contents column">
-							<div class="title">Shopping List</div>
-						    <p>Cost: <span id="min-unlock-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
-							 <span id="min-unlock-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
-							 <span id="min-unlock-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></p>
-				            <p>Total Purchases: <span id="min-total">0</span></p>
-							<div id="analyse-list"></div>
-						</div>
-						<div class="details column">
-							<div id="analyse-selection-icon"></div>
-							<div id="analyse-selection-name"><strong>Name:</strong> <span></span></div>
-							<div id="analyse-selection-group"><strong>Group:</strong> <span></span></div>
-							<div id="analyse-selection-rarity"><strong>Rarity:</strong> <span></span></div>
-							<div id="analyse-selection-chat-code"><strong>Chat code:</strong> <span></span></div>
-							<div id="analyse-selection-id"><strong>Id:</strong> <span></span></div>
-							<div id="analyse-selection-wiki-link"><a target="_blank">Wiki Link</a></div>
-							<div id="analyse-selection-tp-info">
-								<h3>Trading Post Price</h3>
-								<div id="analyse-selection-buy-pricing">Buy Price: 
-								<span id="analyse-selection-buy-gold"></span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
-								<span id="analyse-selection-buy-silver"></span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
-								<span id="analyse-selection-buy-copper"></span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                        </div>
+                        <div id="selection-vendors">
+                         <h3>Vendors</h3>
+                         <div id="selection-vendor-list"></div>
+                        </div>
+                        <div id="selection-acquisition-methods">
+                            <h3>Acquisition</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="analyse" class="hidden page">
+                <div class="analyse-description">
+                    <p>Calculates the cost to purchase <select id="analyse-selection" name="analyse-selection">
+                      <option value="all">Any</option>
+                      <option value="gwu">Guaranteed Wardrobe Unlock</option>
+                      <option value="weapon">Guaranteed Weapon Unlock</option>
+                      <option value="armor">Guaranteed Armor Unlock</option>
+                      <option value="bounty">Knife Tail Gang Hunting Bond</option>
+                    </select> skins beneath a desired value. Note: This doesn't include free skins or skins acquired through non-gold currencies.</p>
+                    <p>Desired minimum unlock value: <input type="text" id="min-gold-value" value="0"/><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
+                    <select id="min-price-type" name="min-price-type">
+                          <option value="buy">Buy Price</option>
+                          <option value="sell">Sell Price</option>
+                    </select></p>
+                    <div class="analyse-main">
+                        <div class="contents column">
+                            <div class="title">Shopping List</div>
+                            <p>Cost: <span id="min-unlock-gold">0</span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
+                             <span id="min-unlock-silver">0</span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
+                             <span id="min-unlock-copper">0</span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span></p>
+                            <p>Total Purchases: <span id="min-total">0</span></p>
+                            <div id="analyse-list"></div>
+                        </div>
+                        <div class="details column">
+                            <div id="analyse-selection-icon"></div>
+                            <div id="analyse-selection-name"><strong>Name:</strong> <span></span></div>
+                            <div id="analyse-selection-group"><strong>Group:</strong> <span></span></div>
+                            <div id="analyse-selection-rarity"><strong>Rarity:</strong> <span></span></div>
+                            <div id="analyse-selection-chat-code"><strong>Chat code:</strong> <span></span></div>
+                            <div id="analyse-selection-id"><strong>Id:</strong> <span></span></div>
+                            <div id="analyse-selection-wiki-link"><a target="_blank">Wiki Link</a></div>
+                            <div id="analyse-selection-tp-info">
+                                <h3>Trading Post Price</h3>
+                                <div id="analyse-selection-buy-pricing">Buy Price: 
+                                <span id="analyse-selection-buy-gold"></span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
+                                <span id="analyse-selection-buy-silver"></span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
+                                <span id="analyse-selection-buy-copper"></span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
                 <span id="analyse-selection-buy-name"></span>
                 </div>
-								<div id="analyse-selection-sell-pricing">Sell Price:
-								<span id="analyse-selection-sell-gold"></span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
-								<span id="analyse-selection-sell-silver"></span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
-								<span id="analyse-selection-sell-copper"></span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
+                                <div id="analyse-selection-sell-pricing">Sell Price:
+                                <span id="analyse-selection-sell-gold"></span><span class="base-icon gold-icon" role="img" aria-label="Gold"></span>
+                                <span id="analyse-selection-sell-silver"></span><span class="base-icon silver-icon" role="img" aria-label="Silver"></span>
+                                <span id="analyse-selection-sell-copper"></span><span class="base-icon copper-icon" role="img" aria-label="Copper"></span>
                 <span id="analyse-selection-sell-name"></span>
                 </div>
-							</div>
-							<div id="analyse-selection-vendors">
-							 <h3>Vendors</h3>
-							 <div id="analyse-selection-vendor-list"></div>
-							</div>
-							<div id="analyse-selection-acquisition-methods">
-								<h3>Acquisition</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="about" class="hidden page">
-				<div class="description">
-					<h1>About</h1>
-										
-					<p>Wardrobe Unlock Analyser is site for exploring the plethora of available aesthetic unlocks in Guild Wars 2, with a goal of helping you discover affordable unlocks to acquire - especially with a view to optimising items you can obtain from the Guaranteed Wardrobe Unlock items.</p>
+                            </div>
+                            <div id="analyse-selection-vendors">
+                             <h3>Vendors</h3>
+                             <div id="analyse-selection-vendor-list"></div>
+                            </div>
+                            <div id="analyse-selection-acquisition-methods">
+                                <h3>Acquisition</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="about" class="hidden page">
+                <div class="description">
+                    <h1>About</h1>
+                                        
+                    <p>Wardrobe Unlock Analyser is site for exploring the plethora of available aesthetic unlocks in Guild Wars 2, with a goal of helping you discover affordable unlocks to acquire - especially with a view to optimising items you can obtain from the Guaranteed Wardrobe Unlock items.</p>
 
-					<h4>Major functions:</h4>
-					<ul>
-					<li>Enter your api key (with unlock permissions) to filter out items you have already acquired.</li>
-					<li>A number of display mode are available to aid any purchasing decisions, such as filtered by acquisition method or sorting by TP price</li>
-					<li>An advanced filter is available - this allows you to select what currencies to include or exclude from the result (defaulting to empty). So you filter to "All Unlocks available with gold but not on the TP", for example.</li>
-					<li>Unlocks can be displayed as icons or text - text enables the use of "Find on this page..." if you want to find a specific unlock. You can click on the icons or text for further details.</li>
-					<li>Unlocks can be limited to those available from the Guaranteed Wardrobe Unlock items.</li>
-					<li>Major categorizations (e.g. Armor, Weapons) can be folded up by clicking on their title bar.</li>
-					<li>The analyse tab allows you to enter the minimum value you wish to gain when opening a Guaranteed Wardrobe Unlock to generate a shopping list of unlocks to purchase. The items can be clicked on to see further details. This only deals with items available from the TP -  make sure you haven't missed items available from other sources!</li>
-					</ul>
-					
-					<h4>Advice for Optimising Guaranteed Wardrobe Unlock</h4>
-					<ul>
-					<li>First of all, if you have a character slot free remake a character to unlock all the character creation skins - thief masks, engineer tools, guardian armor, and so on.</li>
-					<li>Look at what unlocks are available with currencies you have a stock pile of - a lot of unlocks can obtained with Karma or Badges of Honor, or any other currency you don't otherwise use.</li>
-					<li>Also check out what unlocks are available through achievements, or through the story.</li>
-					<li>It is also worth reviewing items you can craft as well - things like the profession back items can be crafted for cheap.</li>
-					<li>Once you have all the rest out of the way, you can sort by buy price and start looking at what you might be missing from cheapest to most expensive. I'm not going to make a recommendation on how much to spend this way - it depends on what resources you have and how comprehensive
-					your existing unlocks are - but you can use the analyse tab to get a sense of the cost of obtaining everything less than a given price point.</li>
-					</ul>
-										
-					<h2>Author</h2>
-					<p>Developed by: Divides By Zero - Immortius.4537</p>
-					<p>With contributions from:</p>
-					<ul>
-					<li>Blackgen</li>
+                    <h4>Major functions:</h4>
+                    <ul>
+                    <li>Enter your api key (with unlock permissions) to filter out items you have already acquired.</li>
+                    <li>A number of display mode are available to aid any purchasing decisions, such as filtered by acquisition method or sorting by TP price</li>
+                    <li>An advanced filter is available - this allows you to select what currencies to include or exclude from the result (defaulting to empty). So you filter to "All Unlocks available with gold but not on the TP", for example.</li>
+                    <li>Unlocks can be displayed as icons or text - text enables the use of "Find on this page..." if you want to find a specific unlock. You can click on the icons or text for further details.</li>
+                    <li>Unlocks can be limited to those available from the Guaranteed Wardrobe Unlock items.</li>
+                    <li>Major categorizations (e.g. Armor, Weapons) can be folded up by clicking on their title bar.</li>
+                    <li>The analyse tab allows you to enter the minimum value you wish to gain when opening a Guaranteed Wardrobe Unlock to generate a shopping list of unlocks to purchase. The items can be clicked on to see further details. This only deals with items available from the TP -  make sure you haven't missed items available from other sources!</li>
+                    </ul>
+                    
+                    <h4>Advice for Optimising Guaranteed Wardrobe Unlock</h4>
+                    <ul>
+                    <li>First of all, if you have a character slot free remake a character to unlock all the character creation skins - thief masks, engineer tools, guardian armor, and so on.</li>
+                    <li>Look at what unlocks are available with currencies you have a stock pile of - a lot of unlocks can obtained with Karma or Badges of Honor, or any other currency you don't otherwise use.</li>
+                    <li>Also check out what unlocks are available through achievements, or through the story.</li>
+                    <li>It is also worth reviewing items you can craft as well - things like the profession back items can be crafted for cheap.</li>
+                    <li>Once you have all the rest out of the way, you can sort by buy price and start looking at what you might be missing from cheapest to most expensive. I'm not going to make a recommendation on how much to spend this way - it depends on what resources you have and how comprehensive
+                    your existing unlocks are - but you can use the analyse tab to get a sense of the cost of obtaining everything less than a given price point.</li>
+                    </ul>
+                                        
+                    <h2>Author</h2>
+                    <p>Developed by: Divides By Zero - Immortius.4537</p>
+                    <p>With contributions from:</p>
+                    <ul>
+                    <li>Blackgen</li>
                     <li>Greaka</li>
-					<li>Lon-ami</li>
-					</ul>
-					
-					<a href="https://github.com/immortius/gw2-wardrobe-unlock">
-					<img src="img/GitHub-Mark-64px.png" alt="GitHub"></img>
-					<p>Source code and data available on GitHub!</p>
-					</a>
-					
-					<h2>Updates</h2>
-					
-          <h3>2020-08-27</h3>
-					<ul>
-						<li>Added 8th birthday acquisition information</li>
-            <li>Updated for latest Guaranteed Wardrobe Unlock update</li>
-					</ul>
+                    <li>Lon-ami</li>
+                    </ul>
+                    
+                    <a href="https://github.com/immortius/gw2-wardrobe-unlock">
+                    <img src="img/GitHub-Mark-64px.png" alt="GitHub"></img>
+                    <p>Source code and data available on GitHub!</p>
+                    </a>
+                    
+                    <h2>Updates</h2>
+                    
+                    <h3>2023-01-02</h3>
+                    <ul>
+                        <li>Added full support for Kite Tail Gang Hunting Bond items</li>
+                    </ul>
+                    
+                    <h3>2020-08-27</h3>
+                    <ul>
+                        <li>Added 8th birthday acquisition information</li>
+                        <li>Updated for latest Guaranteed Wardrobe Unlock update</li>
+                    </ul>
           
-          <h3>2020-08-05</h3>
-					<ul>
-						<li>Added check boxes to the analysis page items, to aid tracking of purchased skins</li>
-					</ul>
+                    <h3>2020-08-05</h3>
+                    <ul>
+                        <li>Added check boxes to the analysis page items, to aid tracking of purchased skins</li>
+                    </ul>
           
-					<h3>2020-02-01</h3>
-					<ul>
-						<li>Added sort sets by buy/sell price display modes, to aid determining cheaper sets</li>
-					</ul>
-					
-					<h3>2019-11-24</h3>
-					<ul>
-						<li>Updated for chapter 1 of The Icebrood Saga</li>
-					</ul>
-					
-					<h3>2019-06-27</h3>
-					<ul>
-						<li>Added support for novelties</li>
-					</ul>
-					
-					<h3>2019-05-29</h3>
-					<ul>
-						<li>Added LS4 episode 6 currency</li>
-						<li>Completed updates for guaranteed wardrobe unlock additions</li>
-						<li>Added option to analyse for all skins, rather than just guaranteed wardrobe unlock skins</li>
-					</ul>
-					
-					<h3>2018-11-28</h3>
-					<ul>
-						<li>Racing and other additions</li>
-					</ul>
-					
-					<h3>2018-11-21</h3>
-					<ul>
-						<li>Added more filter options, including advanced mode</li>
-						<li>Added more currencies</li>
-						<li>Mount skin support</li>
-					</ul>
-					
-					<h3>2018-08-24</h3>
-					<ul>
-						<li>6th Birthday and other things</li>
-					</ul>
-					
-					<h3>2018-06-30</h3>
-					<ul>
-						<li>Updated for Living Story 4 Chapter 3</li>
-					</ul>
-					
-					<h3>2018-03-11</h3>
-					<ul>
-						<li>Updated for Living Story 4 Chapter 2</li>
-					</ul>
-					
-					<h3>2018-01-11</h3>
-					<ul>
-						<li>Changed to Wardrobe Unlock Analyser with support for all skins</li>
-					</ul>
-					
-					<h3>2017-09-30</h3>
-					<ul>
-						<li>Added filters for tp-only buy and sell prices</li>
-						<li>Added shopping list to analyse page</li>
-						<li>Added handling for spaces at the start/end of api keys</li>
-					</ul>
-					
-					<h3>2017-09-29</h3>
-					<ul>
-						<li>Added filter by Living Story 3 currency</li>
-					</ul>
-					
-					<h3>2017-09-26</h3>
-					<ul>
-						<li>Updated for PoF release</li>
-					</ul>
-					
-					<h3>2017-09-02</h3>
-					<ul>
-						<li>Changed sorting by buy/sell price to also include gold vendor price, if any.</li>
-						<li>Changed total values to include non-tp items if they are available for gold from a vendor.</li>
-					</ul>
-					
-					<h3>2017-08-24</h3>
-					<ul>
-						<li>Added content of 5th birthday dye pack</li>
-					</ul>
-					
-					<h3>2017-08-10</h3>
-					<ul>
-						<li>Corrected finishers now that non-permanent finishers with uses remaining don't count as unlocked</li>
-					</ul>
-					
-					<h3>2017-06-10</h3>
-					<ul>
-						<li>Tracked down the one missing skin (Steam Speargun)</li>
-					</ul>
-					
-					<h3>2017-06-09</h3>
-					<ul>
-						<li>Categorisation and acquisition is now done. Everything should be correct but I think I am missing one skin. Full review to follow.</li>
-					</ul>
-					
-					<h3>2017-06-08</h3>
-					<ul>
-						<li>Added missing Badges of Honor + Coin vendors for racial skins</li>
-						<li>Worked out how to force recache of image maps</li>
-						<li>Fixed a bug that caused the wrong dye color to appear in the details pane</li>
-						<li>Did a review of skins, mostly done. Discovered ArenaNet miscategorised an outfit as a skin, and a couple of other oddities.</li>
-						<li>Started categorising and adding acquisition methods to skins<li>
-					</ul>
-					
-					<h3>2017-06-07</h3>
-					<ul>
-						<li>Added new unlocks. The process of double checking correctness is still in process, and many unlocks still need to be correctly grouped and marked with acquisition method.</li>
-						<li>Dyes are done</li>
-						<li>Gliders are done, although Black Lion Chest only items still need to be marked.</li>
-						<li>Outfits are done.</li>
-						<li>Mail carriers are done.</li>
-						<li>Minis largely done, but need to mark those acquired using Living Story 3 currencies</li>
-					</ul>
-					
-					<h3>2017-02-17</h3>
-					<ul>
-						<li>Added text vs icon view modes</li>
-						<li>Added newest Black Lion Miniature Claim Ticket acquisitions</li>
-					</ul>
-					
-					<h3>2017-01-15</h3>
-					<ul>
-						<li>Added a couple of missing Chainmail skins (I had previously missed these because my level 1 new account guardian had them unlocked from creation).</li>
-					</ul>
-					
-					<h3>2017-01-07</h3>
-					<ul>
-						<li>Improved api key entry, and added storage of the key across sessions.</li>
-						<li>Improved display on mobile devices.</li>
-						<li>Improved ordering of items.</li>
-					</ul>
-					
-					<h3>2017-01-06</h3>
-					<ul>
-						<li>Added vendor prices. This is experimental, and some information may be incorrect or missing.</li>
-					</ul>
-					
-					<h3>2017-01-02</h3>
-					<ul>
-						<li>Added a tool for calculating the cost to achieve a desired minimum unlock value.</li>
-						<li>Various site layout improvements.</li>
-					</ul>
-					
-					<h2>Assests</h2>
-					<p>Data and skin icon assets are obtained through the GW2 API and are property of ArenaNet</p>
-					<h2>ArenaNet Copyright</h2>
-					<p>© 2014 ArenaNet, Inc. All rights reserved. NCsoft, the interlocking NC logo, ArenaNet, Arena.net, Guild Wars, Guild Wars Factions, Factions, Guild Wars Nightfall, Nightfall, Guild Wars: Eye of the North, Eye of the North, Guild Wars 2, and all associated logos and designs are trademarks or registered trademarks of NCsoft Corporation. All other trademarks are the property of their respective owners.</p>
-				</div>
-			</div>
-		</div>
-				
+                    <h3>2020-02-01</h3>
+                    <ul>
+                        <li>Added sort sets by buy/sell price display modes, to aid determining cheaper sets</li>
+                    </ul>
+                    
+                    <h3>2019-11-24</h3>
+                    <ul>
+                        <li>Updated for chapter 1 of The Icebrood Saga</li>
+                    </ul>
+                    
+                    <h3>2019-06-27</h3>
+                    <ul>
+                        <li>Added support for novelties</li>
+                    </ul>
+                    
+                    <h3>2019-05-29</h3>
+                    <ul>
+                        <li>Added LS4 episode 6 currency</li>
+                        <li>Completed updates for guaranteed wardrobe unlock additions</li>
+                        <li>Added option to analyse for all skins, rather than just guaranteed wardrobe unlock skins</li>
+                    </ul>
+                    
+                    <h3>2018-11-28</h3>
+                    <ul>
+                        <li>Racing and other additions</li>
+                    </ul>
+                    
+                    <h3>2018-11-21</h3>
+                    <ul>
+                        <li>Added more filter options, including advanced mode</li>
+                        <li>Added more currencies</li>
+                        <li>Mount skin support</li>
+                    </ul>
+                    
+                    <h3>2018-08-24</h3>
+                    <ul>
+                        <li>6th Birthday and other things</li>
+                    </ul>
+                    
+                    <h3>2018-06-30</h3>
+                    <ul>
+                        <li>Updated for Living Story 4 Chapter 3</li>
+                    </ul>
+                    
+                    <h3>2018-03-11</h3>
+                    <ul>
+                        <li>Updated for Living Story 4 Chapter 2</li>
+                    </ul>
+                    
+                    <h3>2018-01-11</h3>
+                    <ul>
+                        <li>Changed to Wardrobe Unlock Analyser with support for all skins</li>
+                    </ul>
+                    
+                    <h3>2017-09-30</h3>
+                    <ul>
+                        <li>Added filters for tp-only buy and sell prices</li>
+                        <li>Added shopping list to analyse page</li>
+                        <li>Added handling for spaces at the start/end of api keys</li>
+                    </ul>
+                    
+                    <h3>2017-09-29</h3>
+                    <ul>
+                        <li>Added filter by Living Story 3 currency</li>
+                    </ul>
+                    
+                    <h3>2017-09-26</h3>
+                    <ul>
+                        <li>Updated for PoF release</li>
+                    </ul>
+                    
+                    <h3>2017-09-02</h3>
+                    <ul>
+                        <li>Changed sorting by buy/sell price to also include gold vendor price, if any.</li>
+                        <li>Changed total values to include non-tp items if they are available for gold from a vendor.</li>
+                    </ul>
+                    
+                    <h3>2017-08-24</h3>
+                    <ul>
+                        <li>Added content of 5th birthday dye pack</li>
+                    </ul>
+                    
+                    <h3>2017-08-10</h3>
+                    <ul>
+                        <li>Corrected finishers now that non-permanent finishers with uses remaining don't count as unlocked</li>
+                    </ul>
+                    
+                    <h3>2017-06-10</h3>
+                    <ul>
+                        <li>Tracked down the one missing skin (Steam Speargun)</li>
+                    </ul>
+                    
+                    <h3>2017-06-09</h3>
+                    <ul>
+                        <li>Categorisation and acquisition is now done. Everything should be correct but I think I am missing one skin. Full review to follow.</li>
+                    </ul>
+                    
+                    <h3>2017-06-08</h3>
+                    <ul>
+                        <li>Added missing Badges of Honor + Coin vendors for racial skins</li>
+                        <li>Worked out how to force recache of image maps</li>
+                        <li>Fixed a bug that caused the wrong dye color to appear in the details pane</li>
+                        <li>Did a review of skins, mostly done. Discovered ArenaNet miscategorised an outfit as a skin, and a couple of other oddities.</li>
+                        <li>Started categorising and adding acquisition methods to skins<li>
+                    </ul>
+                    
+                    <h3>2017-06-07</h3>
+                    <ul>
+                        <li>Added new unlocks. The process of double checking correctness is still in process, and many unlocks still need to be correctly grouped and marked with acquisition method.</li>
+                        <li>Dyes are done</li>
+                        <li>Gliders are done, although Black Lion Chest only items still need to be marked.</li>
+                        <li>Outfits are done.</li>
+                        <li>Mail carriers are done.</li>
+                        <li>Minis largely done, but need to mark those acquired using Living Story 3 currencies</li>
+                    </ul>
+                    
+                    <h3>2017-02-17</h3>
+                    <ul>
+                        <li>Added text vs icon view modes</li>
+                        <li>Added newest Black Lion Miniature Claim Ticket acquisitions</li>
+                    </ul>
+                    
+                    <h3>2017-01-15</h3>
+                    <ul>
+                        <li>Added a couple of missing Chainmail skins (I had previously missed these because my level 1 new account guardian had them unlocked from creation).</li>
+                    </ul>
+                    
+                    <h3>2017-01-07</h3>
+                    <ul>
+                        <li>Improved api key entry, and added storage of the key across sessions.</li>
+                        <li>Improved display on mobile devices.</li>
+                        <li>Improved ordering of items.</li>
+                    </ul>
+                    
+                    <h3>2017-01-06</h3>
+                    <ul>
+                        <li>Added vendor prices. This is experimental, and some information may be incorrect or missing.</li>
+                    </ul>
+                    
+                    <h3>2017-01-02</h3>
+                    <ul>
+                        <li>Added a tool for calculating the cost to achieve a desired minimum unlock value.</li>
+                        <li>Various site layout improvements.</li>
+                    </ul>
+                    
+                    <h2>Assests</h2>
+                    <p>Data and skin icon assets are obtained through the GW2 API and are property of ArenaNet</p>
+                    <h2>ArenaNet Copyright</h2>
+                    <p>© 2014 ArenaNet, Inc. All rights reserved. NCsoft, the interlocking NC logo, ArenaNet, Arena.net, Guild Wars, Guild Wars Factions, Factions, Guild Wars Nightfall, Nightfall, Guild Wars: Eye of the North, Eye of the North, Guild Wars 2, and all associated logos and designs are trademarks or registered trademarks of NCsoft Corporation. All other trademarks are the property of their respective owners.</p>
+                </div>
+            </div>
+        </div>
+                
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js?65"></script>
-		
-		<script type="text/javascript">
-		    if ($(window.location.hash).length) {
-				$('.page').toggleClass('hidden', true);
-				$(window.location.hash).toggleClass('hidden', false);
-				$('.nav a').toggleClass('active', false);
-				$(window.location.hash + "-menu-item").toggleClass('active', true);
-			}
-		 
-			$(function() {
+        <script src="js/main.js?66"></script>
+        
+        <script type="text/javascript">
+            if ($(window.location.hash).length) {
+                $('.page').toggleClass('hidden', true);
+                $(window.location.hash).toggleClass('hidden', false);
+                $('.nav a').toggleClass('active', false);
+                $(window.location.hash + "-menu-item").toggleClass('active', true);
+            }
+         
+            $(function() {
         loadTheme();
-				$.get('./data/content.json', function(responseText) {
-					buildSite(responseText);
-				});
-			});
-		</script>
+                $.get('./data/content.json', function(responseText) {
+                    buildSite(responseText);
+                });
+            });
+        </script>
 
     </body>
 </html>

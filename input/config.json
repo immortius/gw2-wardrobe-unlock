@@ -723,7 +723,36 @@
         // Angler Vest
         10291, 10484,
         // Immortal Fire Ring
-        10115, 10116
+        10115, 10116,
+        // Water Dragon Pauldrons
+        10916, 10925,
+        // Etherbound Chestplate
+        11029, 11030,
+        // Zephyrite Traveling Boots
+        10102, 10103,
+        // Water Dragon Crest
+        10969, 10992,
+        // Magical Unicorn Horn
+        10854, 10862,
+        // Water Dragon Greaves
+        10927, 10932,
+        // Water Dragon Chestguard
+        10920, 10928,
+        // Grasping Gaze Shoulders
+        10122, 10128,
+        // Vermilion Vambraces
+        10838, 10839,
+        // Etherbound Legguard
+        11001, 11010,
+        // Jade Prosthesis Gauntlet
+        10880, 10896,
+        // Water Dragon Gauntlets
+        10907, 10943,
+        // Water Dragon Helm
+        10918, 10924,
+        // Water Dragon Legguards
+        10950, 10952
+
       ]
     },
     {
@@ -785,8 +814,11 @@
         5167,
         8355,
         // Sunder, same icon as dreadwing
-        8776
-      ]
+        8776,
+        // Living Water Longbow, similar icon to Saltspray Longbow
+        10590
+      ],
+      "gwuIncludeIds": [ 10275]
     },
     {
       "id": "back",
