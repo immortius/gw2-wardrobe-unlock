@@ -30,14 +30,12 @@ import java.util.Set;
  */
 public class PullCurrentPrices {
 
-    private static final GenericType<Map<Integer, Collection<Integer>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<Integer, Collection<Integer>>>() {
+    private static final GenericType<Map<String, Collection<String>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<String, Collection<String>>>() {
     };
-    private static Logger logger = LoggerFactory.getLogger(PullCurrentPrices.class);
+    private static final Logger logger = LoggerFactory.getLogger(PullCurrentPrices.class);
     private final Client client;
     private final Gson gson;
     private final Config config;
-    private final Unlocks unlocks;
-    private final Items items;
     private final Prices prices;
 
     public PullCurrentPrices() throws IOException {
@@ -49,17 +47,6 @@ public class PullCurrentPrices {
         this.client.register(GsonJsonProvider.class);
         this.gson = new GsonFireBuilder().createGson();
         this.config = config;
-        this.unlocks = new Unlocks(config, gson);
-        this.items = new Items(config, gson);
-        this.prices = new Prices(config, gson);
-    }
-
-    public PullCurrentPrices(Config config, Client client) {
-        this.client = client;
-        this.config = config;
-        this.gson = new GsonFireBuilder().createGson();
-        this.unlocks = new Unlocks(config, gson);
-        this.items = new Items(config, gson);
         this.prices = new Prices(config, gson);
     }
 
@@ -86,14 +73,13 @@ public class PullCurrentPrices {
         // And now map item prices to unlock prices
         Files.createDirectories(config.paths.getUnlockPricesPath());
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
-            Map<Integer, TradingPostEntry> categoryPrices = Maps.newLinkedHashMap();
+            Map<String, TradingPostEntry> categoryPrices = Maps.newLinkedHashMap();
             try (Reader unlockToSkinMappingReader = Files.newBufferedReader(config.paths.getUnlockItemsPath().resolve(unlockCategory.id + ".json"))) {
-                Map<Integer, Collection<Integer>> unlockItems = gson.fromJson(unlockToSkinMappingReader, UNLOCK_ITEM_MULTIMAP.getType());
+                Map<String, Collection<String>> unlockItems = gson.fromJson(unlockToSkinMappingReader, UNLOCK_ITEM_MULTIMAP.getType());
                 unlockItems.forEach((key, value) -> {
-                    int unlockId = key;
                     PriceEntry minSellPrice = null;
                     PriceEntry minBuyPrice = null;
-                    for (int itemId : value) {
+                    for (String itemId : value) {
                         if (prices.get(itemId).isPresent()) {
                             PriceData x = prices.get(itemId).get();
                             if (x.buys != null && (minBuyPrice == null || x.buys.unitPrice < minBuyPrice.getPrice())) {
@@ -105,7 +91,7 @@ public class PullCurrentPrices {
                         }
                     }
                     if (minSellPrice != null || minBuyPrice != null) {
-                        categoryPrices.put(unlockId, new TradingPostEntry(minSellPrice, minBuyPrice));
+                        categoryPrices.put(key, new TradingPostEntry(minSellPrice, minBuyPrice));
                     }
                 });
                 try (Writer writer = Files.newBufferedWriter(config.paths.getUnlockPricesPath().resolve(unlockCategory.id + ".json"))) {

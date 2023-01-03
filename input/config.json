@@ -1062,13 +1062,18 @@
           16
         ]
       }
+    },
+    {
+      "id": "emote",
+      "name": "Emotes",
+      "source": "emotes",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/emotes",
+      "linkToItem" : true,
+      "useItemForChatcode" : true,
+      "useItemForVendor" : true,
+      "nonStandardId" : true,
+      "chatcodeType": 2
     }//,
-//    {
-//      "id": "emotes",
-//      "name": "Other: Emotes",
-//      "source": "emotes",
-//      "unlockUrl": "https://api.guildwars2.com/v2/account/emotes"
-//    }//,
 //    {
 //      "id": "nodes",
 //      "name": "Other: Home Instance Nodes",

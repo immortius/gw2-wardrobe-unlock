@@ -44,6 +44,8 @@ public class UnlockCategoryConfig {
      */
     public String unlockUrl;
 
+    public boolean nonStandardId;
+
     /**
      * Is this unlock color based (dyes, basically)
      */
@@ -53,38 +55,38 @@ public class UnlockCategoryConfig {
      * Any ids to exclude from the category (typically because they are bugged or are something trivial like the default
      * unlock skin)
      */
-    private Set<Integer> excludeIds;
+    private Set<String> excludeIds;
 
     /**
      * Mappings of items producing unlocks, for items where the api does not indicate this - allows tp prices to be
      * obtained for the unlocks
      */
-    private Map<Integer, Collection<Integer>> itemMappings;
+    private Map<String, Collection<String>> itemMappings;
 
     /**
      * Unlock ids to ignore when determining gwu contents
      */
-    private Set<Integer> gwuIgnoreIds;
+    private Set<String> gwuIgnoreIds;
 
     /**
      * Unlock ids to ignore when determining bounty contents
      */
-    private Set<Integer> bountyIgnoreIds;
+    private Set<String> bountyIgnoreIds;
 
     /**
      * Ids to add even if they lack a name
      */
-    private Set<Integer> forceAdd;
+    private Set<String> forceAdd;
 
     /**
      * Unlock ids to force include
      */
-    private Set<Integer> gwuIncludeIds;
+    private Set<String> gwuIncludeIds;
 
     /**
      * @return The ids of any unlocks to exclude from consideration
      */
-    public Set<Integer> getExcludeIds() {
+    public Set<String> getExcludeIds() {
         if (excludeIds == null) {
             excludeIds = Sets.newLinkedHashSet();
         }
@@ -94,35 +96,35 @@ public class UnlockCategoryConfig {
     /**
      * @return A mapping from items to unlocks they provide in this category
      */
-    public Map<Integer, Collection<Integer>> getItemMappings() {
+    public Map<String, Collection<String>> getItemMappings() {
         if (itemMappings == null) {
             itemMappings = Maps.newLinkedHashMap();
         }
         return itemMappings;
     }
 
-    public Set<Integer> getGwuIncludeIds() {
+    public Set<String> getGwuIncludeIds() {
         if (gwuIncludeIds == null) {
             gwuIncludeIds = Sets.newLinkedHashSet();
         }
         return gwuIncludeIds;
     }
 
-    public Set<Integer> getGwuIgnoreIds() {
+    public Set<String> getGwuIgnoreIds() {
         if (gwuIgnoreIds == null) {
             gwuIgnoreIds = Sets.newHashSet();
         }
         return gwuIgnoreIds;
     }
 
-    public Set<Integer> getBountyIgnoreIds() {
+    public Set<String> getBountyIgnoreIds() {
         if (bountyIgnoreIds == null) {
             bountyIgnoreIds = Sets.newHashSet();
         }
         return bountyIgnoreIds;
     }
 
-    public Set<Integer> getForceAdd() {
+    public Set<String> getForceAdd() {
         if (forceAdd == null) {
             forceAdd = Sets.newHashSet();
         }

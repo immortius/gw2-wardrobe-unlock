@@ -8,7 +8,7 @@ import java.util.Set;
  * Common components across multiple multiple return types
  */
 public class CommonData {
-    public int id;
+    public String id;
     public String type;
     public Set<String> flags;
     @SerializedName("chat_link")

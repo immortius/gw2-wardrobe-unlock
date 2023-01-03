@@ -952,7 +952,7 @@ function buildCategories(sectionData) {
 
 function buildSectionGroups(groupsData, typeId) {
     var groups = '';
-    if (groupsData.groups.length > 1) {
+    if (groupsData.groups && groupsData.groups.length > 1) {
         for (var groupIndex = 0; groupIndex < groupsData.groups.length; ++groupIndex) {
             var groupData = groupsData.groups[groupIndex];
             var buyTotal = calculateTotalValue(groupData.content, getBuyPrice);

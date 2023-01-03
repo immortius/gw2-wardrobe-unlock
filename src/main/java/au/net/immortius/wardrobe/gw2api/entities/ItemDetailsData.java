@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class ItemDetailsData {
     public String type;
-    public int[] skins;
+    public String[] skins;
     @SerializedName("guild_upgrade_id")
     public int guildUpgradeId;
     @SerializedName("unlock_type")
@@ -15,5 +15,5 @@ public class ItemDetailsData {
     @SerializedName("color_id")
     public int colorId;
     @SerializedName("minipet_id")
-    public Integer minipetId;
+    public String minipetId;
 }

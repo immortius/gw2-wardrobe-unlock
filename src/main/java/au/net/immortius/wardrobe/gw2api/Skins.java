@@ -27,7 +27,7 @@ public class Skins extends CacheAccessor<ItemData> {
         }
     }
 
-    public Optional<String> getSkinType(int id) {
+    public Optional<String> getSkinType(String id) {
         Optional<ItemData> itemData = get(id);
         return itemData.map(this::getSkinType);
     }

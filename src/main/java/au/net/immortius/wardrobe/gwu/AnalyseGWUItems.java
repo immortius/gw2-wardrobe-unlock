@@ -55,7 +55,7 @@ public class AnalyseGWUItems {
 
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
             logger.info("Analysing {} gwu images", unlockCategory.id);
-            Set<Integer> gwuUnlocks = Sets.newLinkedHashSet();
+            Set<String> gwuUnlocks = Sets.newLinkedHashSet();
             if (unlockCategory.colorBased) {
                 gwuUnlocks.addAll(determineUnlocks(unlockCategory, x -> ColorUtil.rgbToHex(x.cloth.rgb), colorMatcher));
             } else {
@@ -70,14 +70,14 @@ public class AnalyseGWUItems {
 
     }
 
-    private <T> Set<Integer> determineUnlocks(UnlockCategoryConfig unlockCategory, Function<ItemData, T> idFunction, UnlockMatcher<T> unlockMatcher) throws IOException {
+    private <T> Set<String> determineUnlocks(UnlockCategoryConfig unlockCategory, Function<ItemData, T> idFunction, UnlockMatcher<T> unlockMatcher) throws IOException {
         ListMultimap<T, ItemData> unlocksByColor = ArrayListMultimap.create();
         unlocks.forEach(unlockCategory, unlock -> {
             if (!unlockCategory.getGwuIgnoreIds().contains(unlock.id)) {
                 unlocksByColor.put(idFunction.apply(unlock), unlock);
             }
         });
-        Set<Integer> results = Sets.newLinkedHashSet();
+        Set<String> results = Sets.newLinkedHashSet();
         Multiset<Set<T>> matches = unlockMatcher.matchIcons(config.paths.baseInputPath.resolve(unlockCategory.id + "-gwu"), unlocksByColor.keySet());
         matches.forEachEntry((colors, count) -> {
             List<ItemData> unlocks = colors.stream().map(unlocksByColor::get).flatMap(List::stream).collect(Collectors.toList());

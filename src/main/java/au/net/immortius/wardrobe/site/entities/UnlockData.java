@@ -10,7 +10,7 @@ import java.util.Set;
  * Information on a single unlock
  */
 public class UnlockData {
-    public int id;
+    public String id;
     public String name;
     public String image;
     public String color;

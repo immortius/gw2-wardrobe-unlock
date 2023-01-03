@@ -40,18 +40,56 @@ public class GatherVendorsFromWiki {
      * to skip them for error logging
      */
     private static final String ARMORSMITH = "Armorsmith";
-    private static Logger logger = LoggerFactory.getLogger(GatherVendorsFromWiki.class);
+    private static final Logger logger = LoggerFactory.getLogger(GatherVendorsFromWiki.class);
 
     private final Gson gson;
     private final Config config;
     private final Client client;
-    private Set<WikiUrl> processed = Sets.newHashSet();
-    private ListMultimap<String, VendorData> vendorData = ArrayListMultimap.create();
+    private final Set<WikiUrl> processed = Sets.newHashSet();
+    private final ListMultimap<String, VendorData> vendorData = ArrayListMultimap.create();
     private final Skins skins;
     private final Items items;
     private final Set<String> containers = Sets.newLinkedHashSet();
 
-    private Pattern valueMatcher = Pattern.compile("(.+?) (\\d{8})");
+    private final Pattern valueMatcher = Pattern.compile("(.+?) (\\d{8})");
+
+    private final Map<String, String> currencyMap = ImmutableMap.<String, String>builder()
+            .put("badgeofhonor", "boh")
+            .put("blacklionstatuette", "bls")
+            .put("coin", "gold")
+            .put("copper", "gold")
+            .put("coppercoin", "gold")
+            .put("ascaloniantears", "ascaloniantear")
+            .put("deadlyblooms", "deadlybloom")
+            .put("flamelegioncharrcarving", "charrcarving")
+            .put("flamelegioncharrcarvings", "charrcarving")
+            .put("freshwinterberry", "winterberries")
+            .put("baublebubble", "bauble")
+            .put("difluoritecrystal","difluorite")
+            .put("gaetingcrystal", "gaeting")
+            .put("integratedfractalmatrix", "integratedmatrix")
+            .put("lumpofaurillium","aurillium")
+            .put("lumpofmistonium", "mistonium")
+            .put("wvwskirmishclaimticket", "wvwsct")
+            .put("tradecontracts", "tradecontract")
+            .put("blacklionclaimticket", "blt")
+            .put("manifestoofthemoletariate","manifesto")
+            .put("reclaimedmetalplate","reclaimedplate")
+            .put("grandmasterartificersmark", "grandmasterartifactmark")
+            .put("grandmasterhuntsmansmark","grandmasterhuntsmanmark")
+            .put("grandmasterweaponsmithsmark", "grandmasterweaponmark")
+            .put("knowledgecrystals", "knowledgecrystal")
+            .put("manifestosofthemoletariate", "manifesto")
+            .put("sealsofbeetletun", "sealofbeetletun")
+            .put("shardsofzhaitan", "shardofzhaitan")
+            .put("symbolsofkoda", "symbolofkoda")
+            .put("ectoplasm","globofectoplasm")
+            .put("blacklioncommemorativesprocket", "blsprocket")
+            .put("blacklionminiatureclaimticket", "blmt")
+            .put("essenceofluck(exotic)", "exoticluck")
+            .put("essenceofluck(legendary)", "legendaryluck")
+            .put("talesofdungeondelving", "taleofdungeondelving")
+            .build();
 
     public GatherVendorsFromWiki() throws IOException {
         this(Config.loadConfig());
@@ -159,7 +197,7 @@ public class GatherVendorsFromWiki {
                 }
             }
             if (itemColumn == -1 || costColumn == -1) {
-                logger.warn("Missing columns on url {}", url, table);
+                logger.warn("Missing columns on url {}", url);
                 continue;
             }
 
@@ -189,17 +227,15 @@ public class GatherVendorsFromWiki {
                 }
                 WikiUrl itemUrl = new WikiUrl(row.child(itemColumn).select("a").attr("href"));
                 if (type.isEmpty() || config.vendorCrawler.skinTypes.contains(type)) {
-                    for (Integer skinId : getSkinId(itemUrl)) {
+                    for (String skinId : getSkinId(itemUrl)) {
                         VendorItem vendorItem = new VendorItem();
                         vendorItem.cost = cost;
                         vendorItem.id = skinId;
-                        skins.getSkinType(skinId).ifPresent(skinType -> {
-                            vendorItems.put(skinType, vendorItem);
-                        });
+                        skins.getSkinType(skinId).ifPresent(skinType -> vendorItems.put(skinType, vendorItem));
                     }
                 }
                 if (type.isEmpty() || config.vendorCrawler.noveltyTypes.contains(type)) {
-                    for (Integer noveltyId : getNoveltyId(itemUrl)) {
+                    for (String noveltyId : getNoveltyId(itemUrl)) {
                         VendorItem vendorItem = new VendorItem();
                         vendorItem.cost = cost;
                         vendorItem.id = noveltyId;
@@ -207,7 +243,7 @@ public class GatherVendorsFromWiki {
                     }
                 }
                 if (type.isEmpty() || config.vendorCrawler.getMiniatureTypes().contains(type)) {
-                    for (int miniId : getMiniId(itemUrl)) {
+                    for (String miniId : getMiniId(itemUrl)) {
                         VendorItem vendorItem = new VendorItem();
                         vendorItem.cost = cost;
                         vendorItem.id = miniId;
@@ -225,13 +261,13 @@ public class GatherVendorsFromWiki {
         }
     }
 
-    private Set<Integer> getMiniId(WikiUrl itemUrl) throws IOException {
-        Set<Integer> result = Sets.newLinkedHashSet();
+    private Set<String> getMiniId(WikiUrl itemUrl) throws IOException {
+        Set<String> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
         Elements miniItemIds = doc.select("span.gamelink[data-type='item']");
 
         if (!miniItemIds.isEmpty()) {
-            int itemId = Integer.parseInt(miniItemIds.attr("data-id"));
+            String itemId = miniItemIds.attr("data-id");
             items.get(itemId).ifPresent(item -> {
                 if (item.details != null && item.details.minipetId != null) {
                     result.add(item.details.minipetId);
@@ -246,15 +282,13 @@ public class GatherVendorsFromWiki {
         return result;
     }
 
-    private Set<Integer> getNoveltyId(WikiUrl itemUrl) throws IOException {
-        Set<Integer> result = Sets.newLinkedHashSet();
+    private Set<String> getNoveltyId(WikiUrl itemUrl) throws IOException {
+        Set<String> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
         Elements itemIds = doc.select("span.gamelink[data-type='item']");
         if (!itemIds.isEmpty()) {
-            int itemId = Integer.parseInt(itemIds.attr("data-id"));
-            items.get(itemId).ifPresent(item -> {
-                result.add(item.id);
-            });
+            String itemId = itemIds.attr("data-id");
+            items.get(itemId).ifPresent(item -> result.add(item.id));
         }
         Elements itemType = doc.select("dt:matches(Item type)");
         if (!itemType.isEmpty() && itemType.next().text().equals("Container")) {
@@ -263,8 +297,8 @@ public class GatherVendorsFromWiki {
         return result;
     }
 
-    private Collection<Integer> getContainerMinis(Document doc) throws IOException {
-        Set<Integer> result = Sets.newLinkedHashSet();
+    private Collection<String> getContainerMinis(Document doc) throws IOException {
+        Set<String> result = Sets.newLinkedHashSet();
         Elements contentsHeading = doc.select("h2:matches(Contents)");
         if (!contentsHeading.isEmpty()) {
             for (Element itemLink : contentsHeading.next().select("span ~ a")) {
@@ -277,16 +311,16 @@ public class GatherVendorsFromWiki {
         return result;
     }
 
-    private Set<Integer> getSkinId(WikiUrl itemUrl) throws IOException {
+    private Set<String> getSkinId(WikiUrl itemUrl) throws IOException {
         if (itemUrl.isInvalid()) {
             return Collections.emptySet();
         }
-        Set<Integer> result = Sets.newLinkedHashSet();
+        Set<String> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
 
         Elements skinIds = doc.select("span.gamelink[data-type='skin']");
         if (!skinIds.isEmpty()) {
-            result.add(Integer.parseInt(skinIds.attr("data-id")));
+            result.add(skinIds.attr("data-id"));
         }
         Elements skinsTitle = doc.select("dt:matches(Skin)");
         if (!skinsTitle.isEmpty()) {
@@ -301,7 +335,7 @@ public class GatherVendorsFromWiki {
         }
         Elements itemType = doc.select("dt:matches(Item type)");
         if (!itemType.isEmpty() && itemType.next().text().equals("Container") && !config.ignoreContainers.contains(itemUrl.getUrl())) {
-            Collection<Integer> containerSkins = getContainerSkins(doc);
+            Collection<String> containerSkins = getContainerSkins(doc);
             if (!containerSkins.isEmpty()) {
                 result.addAll(containerSkins);
                 containers.add(itemUrl.getUrl());
@@ -311,8 +345,8 @@ public class GatherVendorsFromWiki {
         return result;
     }
 
-    private Collection<Integer> getContainerSkins(Document doc) throws IOException {
-        Set<Integer> result = Sets.newLinkedHashSet();
+    private Collection<String> getContainerSkins(Document doc) throws IOException {
+        Set<String> result = Sets.newLinkedHashSet();
         Elements contentsHeading = doc.select("h2:matches(Contents)");
         if (!contentsHeading.isEmpty()) {
             for (Element itemLink : contentsHeading.next().select("span ~ a")) {
@@ -368,45 +402,6 @@ public class GatherVendorsFromWiki {
         }
         return Optional.of(new CostComponent(rawCurrency, amount));
     }
-
-    private Map<String, String> currencyMap = ImmutableMap.<String, String>builder()
-            .put("badgeofhonor", "boh")
-            .put("blacklionstatuette", "bls")
-            .put("coin", "gold")
-            .put("copper", "gold")
-            .put("coppercoin", "gold")
-            .put("ascaloniantears", "ascaloniantear")
-            .put("deadlyblooms", "deadlybloom")
-            .put("flamelegioncharrcarving", "charrcarving")
-            .put("flamelegioncharrcarvings", "charrcarving")
-            .put("freshwinterberry", "winterberries")
-            .put("baublebubble", "bauble")
-            .put("difluoritecrystal","difluorite")
-            .put("gaetingcrystal", "gaeting")
-            .put("integratedfractalmatrix", "integratedmatrix")
-            .put("lumpofaurillium","aurillium")
-            .put("lumpofmistonium", "mistonium")
-            .put("wvwskirmishclaimticket", "wvwsct")
-            .put("tradecontracts", "tradecontract")
-            .put("blacklionclaimticket", "blt")
-            .put("manifestoofthemoletariate","manifesto")
-            .put("reclaimedmetalplate","reclaimedplate")
-            .put("grandmasterartificersmark", "grandmasterartifactmark")
-            .put("grandmasterhuntsmansmark","grandmasterhuntsmanmark")
-            .put("grandmasterweaponsmithsmark", "grandmasterweaponmark")
-            .put("knowledgecrystals", "knowledgecrystal")
-            .put("manifestosofthemoletariate", "manifesto")
-            .put("sealsofbeetletun", "sealofbeetletun")
-            .put("shardsofzhaitan", "shardofzhaitan")
-            .put("symbolsofkoda", "symbolofkoda")
-            .put("ectoplasm","globofectoplasm")
-            .put("blacklioncommemorativesprocket", "blsprocket")
-            .put("blacklionminiatureclaimticket", "blmt")
-            .put("essenceofluck(exotic)", "exoticluck")
-            .put("essenceofluck(legendary)", "legendaryluck")
-            .put("talesofdungeondelving", "taleofdungeondelving")
-            .build();
-
 
     private String getPage(PageType type, WikiUrl page) throws IOException {
         Path pagePath = config.paths.getWikiCachePath().resolve(type.getPath()).resolve(page.getFilename());

@@ -2,6 +2,7 @@ package au.net.immortius.wardrobe.gw2api;
 
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
+import au.net.immortius.wardrobe.gw2api.entities.EmoteData;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import com.google.common.base.Strings;
 import com.google.gson.Gson;
@@ -14,21 +15,19 @@ import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Optional;
-import java.util.function.Consumer;
+import java.util.function.BiConsumer;
 
-/**
- * Provides access to unlocks. Takes care of mapping and filtering from gw2 api caches for a given category
- */
-public class Unlocks {
-
+public class Emotes {
     private static final Logger logger = LoggerFactory.getLogger(Unlocks.class);
 
     private Config config;
     private Gson gson;
+    private Items items;
 
-    public Unlocks(Config config, Gson gson) {
+    public Emotes(Config config, Gson gson) {
         this.config = config;
         this.gson = gson;
+        this.items = new Items(config, gson);
     }
 
     /**
@@ -36,21 +35,28 @@ public class Unlocks {
      * @param consumer Comsumes all unlocks of the category
      * @throws IOException
      */
-    public void forEach(UnlockCategoryConfig category, Consumer<ItemData> consumer) throws IOException {
+    public void forEach(UnlockCategoryConfig category, BiConsumer<EmoteData, ItemData> consumer) throws IOException {
         try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.getApiPath().resolve(category.source))) {
             for (Path unlockSource : ds) {
                 try (Reader unlockSourceReader = Files.newBufferedReader(unlockSource)) {
-                    ItemData itemData = gson.fromJson(unlockSourceReader, ItemData.class);
-                    if (category.typeFilter != null && !category.typeFilter.equals(itemData.type)) {
-                        continue;
+                    EmoteData emoteData = gson.fromJson(unlockSourceReader, EmoteData.class);
+
+                    for (String itemId : emoteData.unlockItems) {
+                        Optional<ItemData> itemData = items.get(itemId);
+                        if (!itemData.isPresent()) {
+                            continue;
+                        }
+                        if (category.typeFilter != null && !category.typeFilter.equals(itemData.get().type)) {
+                            continue;
+                        }
+                        if (Strings.isNullOrEmpty(itemData.get().getName()) && !category.getForceAdd().contains(itemData.get().id)) {
+                            continue;
+                        }
+                        if (category.getExcludeIds().contains(itemData.get().id)) {
+                            continue;
+                        }
+                        consumer.accept(emoteData, itemData.get());
                     }
-                    if (Strings.isNullOrEmpty(itemData.getName()) && !category.getForceAdd().contains(itemData.id)) {
-                        continue;
-                    }
-                    if (category.getExcludeIds().contains(itemData.id)) {
-                        continue;
-                    }
-                    consumer.accept(itemData);
                 }
             }
         }
@@ -61,7 +67,7 @@ public class Unlocks {
      * @param id The id to obtain data for
      * @return The requested unlock, or {@link Optional#empty()}
      */
-    public Optional<ItemData> get(UnlockCategoryConfig category, String id) {
+    public Optional<ItemData> get(UnlockCategoryConfig category, int id) {
         Path itemFile = config.paths.getApiPath().resolve(category.source).resolve(id + ".json");
         if (Files.exists(itemFile)) {
             try (Reader itemReader = Files.newBufferedReader(itemFile)) {

@@ -21,7 +21,7 @@ public final class Chatcode {
      * @param id The id of the link
      * @return The requested chat code
      */
-    public static String create(int type, int id) {
+    public static String create(int type, String id) {
         return create(type, id, 1);
     }
 
@@ -32,22 +32,23 @@ public final class Chatcode {
      * @param quantity The quantity of the item to link (ignored for types that don't support quantity)
      * @return The requested chat code
      */
-    public static String create(int type, int id, int quantity) {
+    public static String create(int type, String id, int quantity) {
+        int idValue = Integer.parseInt(id);
         if (type == ITEM_TYPE) {
             byte[] info = new byte[6];
             info[0] = (byte) type;
             info[1] = (byte) quantity;
-            info[2] = (byte) (id & 0xFF);
-            info[3] = (byte) ((id >> 8) & 0xFF);
-            info[4] = (byte) ((id >> 16) & 0xFF);
+            info[2] = (byte) (idValue & 0xFF);
+            info[3] = (byte) ((idValue >> 8) & 0xFF);
+            info[4] = (byte) ((idValue >> 16) & 0xFF);
             info[5] = 0;
             return "[&" + Base64.getEncoder().encodeToString(info) + "]";
         } else {
             byte[] info = new byte[5];
             info[0] = (byte) type;
-            info[1] = (byte) (id & 0xFF);
-            info[2] = (byte) ((id >> 8) & 0xFF);
-            info[3] = (byte) ((id >> 16) & 0xFF);
+            info[1] = (byte) (idValue & 0xFF);
+            info[2] = (byte) ((idValue >> 8) & 0xFF);
+            info[3] = (byte) ((idValue >> 16) & 0xFF);
             info[4] = 0;
             return "[&" + Base64.getEncoder().encodeToString(info) + "]";
         }
@@ -58,12 +59,12 @@ public final class Chatcode {
      * @return The id from the chatcode
      * @throws IllegalArgumentException If the chat code is not valid.
      */
-    public static int getId(String chatcode) {
+    public static String getId(String chatcode) {
         byte[] decoded = Base64.getDecoder().decode(chatcode.substring(2, chatcode.length() - 1));
         if (decoded[0] == ITEM_TYPE) {
-            return (UnsignedBytes.toInt(decoded[2])) | (UnsignedBytes.toInt(decoded[3]) << 8) | (UnsignedBytes.toInt(decoded[4]) << 16);
+            return Integer.toString((UnsignedBytes.toInt(decoded[2])) | (UnsignedBytes.toInt(decoded[3]) << 8) | (UnsignedBytes.toInt(decoded[4]) << 16));
         } else{
-            return (UnsignedBytes.toInt(decoded[1])) | (UnsignedBytes.toInt(decoded[2]) << 8) | (UnsignedBytes.toInt(decoded[3]) << 16);
+            return Integer.toString((UnsignedBytes.toInt(decoded[1])) | (UnsignedBytes.toInt(decoded[2]) << 8) | (UnsignedBytes.toInt(decoded[3]) << 16));
         }
     }
 }

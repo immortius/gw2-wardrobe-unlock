@@ -2,6 +2,7 @@ package au.net.immortius.wardrobe.gw2api;
 
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
+import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.util.REST;
 import com.google.gson.Gson;
 import io.gsonfire.GsonFireBuilder;
@@ -20,11 +21,12 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Caches all icons used by unlocks
  */
 public class CacheIcons {
-    private static Logger logger = LoggerFactory.getLogger(CacheIcons.class);
+    private static final Logger logger = LoggerFactory.getLogger(CacheIcons.class);
 
     private final Gson gson;
     private final Config config;
     private final Unlocks unlocks;
+    private final Emotes emotes;
 
     public CacheIcons() throws IOException {
         this(Config.loadConfig());
@@ -34,6 +36,7 @@ public class CacheIcons {
         this.gson = new GsonFireBuilder().createGson();
         this.config = config;
         this.unlocks = new Unlocks(config, gson);
+        this.emotes = new Emotes(config, gson);
     }
 
     public static void main(String... args) throws Exception {
@@ -49,20 +52,35 @@ public class CacheIcons {
             if (unlockCategory.colorBased) {
                 continue;
             }
-            unlocks.forEach(unlockCategory, itemData -> {
-                Path iconName = config.paths.getIconCachePath().resolve(itemData.getIconName());
-                if (!Files.exists(iconName)) {
-                    try {
-                        REST.download(client, itemData.icon, config.paths.getIconCachePath().resolve(itemData.getIconName()));
-                    } catch (NotFoundException e) {
-                        logger.warn("Unable to download {}", itemData.icon, e);
+            if (unlockCategory.nonStandardId) {
+                emotes.forEach(unlockCategory, (emotesData, itemData) -> {
+                    if (cacheIconForItem(config, itemData, client)) {
+                        count.incrementAndGet();
                     }
-                    count.incrementAndGet();
-                }
-            });
+                });
+            } else {
+                unlocks.forEach(unlockCategory, itemData -> {
+                    if (cacheIconForItem(config, itemData, client)) {
+                        count.incrementAndGet();
+                    }
+                });
+            }
         }
 
         logger.info("Downloaded {} new icons", count.get());
 
+    }
+
+    private boolean cacheIconForItem(Config config, ItemData itemData, Client client) {
+        Path iconName = config.paths.getIconCachePath().resolve(itemData.getIconName());
+        if (!Files.exists(iconName)) {
+            try {
+                REST.download(client, itemData.icon, config.paths.getIconCachePath().resolve(itemData.getIconName()));
+            } catch (NotFoundException e) {
+                logger.warn("Unable to download {}", itemData.icon, e);
+            }
+            return true;
+        }
+        return false;
     }
 }

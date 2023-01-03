@@ -8,6 +8,6 @@ import java.util.List;
  * Entity for serializing an individual item sold by a vendor
  */
 public class VendorItem {
-    public int id;
+    public String id;
     public List<CostComponent> cost;
 }

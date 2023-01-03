@@ -8,5 +8,5 @@ import java.util.Set;
  */
 public class Grouping {
     public String name;
-    public Set<Integer> contents;
+    public Set<String> contents;
 }

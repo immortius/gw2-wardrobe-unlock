@@ -6,17 +6,17 @@ import javax.annotation.Nullable;
  * Trading post price information for an unlock
  */
 public class PriceEntry {
-    private final Integer itemId; //Actual item, since some items share skins
+    private final String itemId; //Actual item, since some items share skins
     private final Integer price;
     @Nullable
     private String itemName;
 
-    public PriceEntry(Integer itemId, Integer price) {
+    public PriceEntry(String itemId, Integer price) {
         this.itemId = itemId;
         this.price = price;
     }
 
-    public Integer getItemId() {
+    public String getItemId() {
         return itemId;
     }
 

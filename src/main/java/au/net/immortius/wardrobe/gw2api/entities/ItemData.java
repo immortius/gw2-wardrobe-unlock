@@ -33,11 +33,11 @@ public class ItemData extends CommonData {
     public ItemDetailsData details;
 
     @SerializedName("unlock_items")
-    private int[] unlockItems;
+    private String[] unlockItems;
     @SerializedName("unlock_item")
-    private int[] unlockItem;
+    private String[] unlockItem;
     @SerializedName("item_id")
-    private int itemId;
+    private String itemId;
 
 
     public String getName() {
@@ -66,19 +66,15 @@ public class ItemData extends CommonData {
         return gameTypes;
     }
 
-    public List<Integer> getUnlockItems() {
-        List<Integer> unlockItems = Lists.newArrayList();
+    public List<String> getUnlockItems() {
+        List<String> unlockItems = Lists.newArrayList();
         if (unlockItem != null) {
-            for (int i : unlockItem) {
-                unlockItems.add(i);
-            }
+            unlockItems.addAll(Arrays.asList(unlockItem));
         }
         if (this.unlockItems != null) {
-            for (int i : this.unlockItems) {
-                unlockItems.add(i);
-            }
+            unlockItems.addAll(Arrays.asList(this.unlockItems));
         }
-        if (itemId != 0) {
+        if (itemId != null && !itemId.isEmpty() && !itemId.equals("0")) {
             unlockItems.add(itemId);
         }
         return unlockItems;

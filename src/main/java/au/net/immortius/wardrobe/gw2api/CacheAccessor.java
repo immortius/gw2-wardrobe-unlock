@@ -74,7 +74,7 @@ public class CacheAccessor<T> {
      * @param id
      * @return Retrieves the data for the given id, or {@link Optional#empty)
      */
-    public Optional<T> get(int id) {
+    public Optional<T> get(String id) {
         Path itemFile = cachePath.resolve(id + ".json");
         if (Files.exists(itemFile)) {
             try (Reader itemReader = Files.newBufferedReader(itemFile)) {

@@ -51,14 +51,14 @@ public class AnalyseBountyItems {
 
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
             logger.info("Analysing {} bounty images", unlockCategory.id);
-            Set<Integer> unlocks = Sets.newLinkedHashSet();
+            Set<String> unlocks = Sets.newLinkedHashSet();
             if (unlockCategory.colorBased) {
                 unlocks.addAll(determineUnlocks(unlockCategory, x -> ColorUtil.rgbToHex(x.cloth.rgb), colorMatcher));
             } else {
                 unlocks.addAll(determineUnlocks(unlockCategory, x -> config.paths.getThumbnailPath().resolve(x.getIconName()), iconMatcher));
             }
             //unlocks.addAll(unlockCategory.getGwuIncludeIds());
-            List<Integer> sortedUnlocks = unlocks.stream().sorted().collect(Collectors.toList());
+            List<String> sortedUnlocks = unlocks.stream().sorted().collect(Collectors.toList());
             try (Writer writer = Files.newBufferedWriter(config.paths.getBountyUnlocksPath().resolve(unlockCategory.id + ".json"))) {
                 gson.toJson(sortedUnlocks, writer);
             }
@@ -66,14 +66,14 @@ public class AnalyseBountyItems {
 
     }
 
-    private <T> Set<Integer> determineUnlocks(UnlockCategoryConfig unlockCategory, Function<ItemData, T> idFunction, UnlockMatcher<T> unlockMatcher) throws IOException {
+    private <T> Set<String> determineUnlocks(UnlockCategoryConfig unlockCategory, Function<ItemData, T> idFunction, UnlockMatcher<T> unlockMatcher) throws IOException {
         ListMultimap<T, ItemData> unlocksByColor = ArrayListMultimap.create();
         unlocks.forEach(unlockCategory, unlock -> {
             if (!unlockCategory.getBountyIgnoreIds().contains(unlock.id)) {
                 unlocksByColor.put(idFunction.apply(unlock), unlock);
             }
         });
-        Set<Integer> results = Sets.newLinkedHashSet();
+        Set<String> results = Sets.newLinkedHashSet();
         Multiset<Set<T>> matches = unlockMatcher.matchIcons(config.paths.baseInputPath.resolve(unlockCategory.id + "-bounty"), unlocksByColor.keySet());
         matches.forEachEntry((colors, count) -> {
             List<ItemData> unlocks = colors.stream().map(unlocksByColor::get).flatMap(List::stream).collect(Collectors.toList());
