@@ -1280,7 +1280,18 @@
     "fragmentofprismaticfury",
     "fragmentofprismaticfire",
     "foundheirloom",
-    "proofoflegend"
+    "proofoflegend",
+    "pristinefangofthewhisper",
+    "frozensparkoflife",
+    "ancientdeldrimorgear",
+    "blessedravenstatuette",
+    "icepearl",
+    "essentialoilofshadows",
+    "writofdragonsend",
+    "circusvoucher",
+    "spoolofsilkthread",
+    "mithrilband",
+    "spiritwoodplank"
   ],
   "ignoreCurrencies" : [
     "ascaloniantear",
@@ -1317,7 +1328,8 @@
     "executionersoutfit",
     "cooksoutfit",
     "piratecaptainsoutfit",
-    "fancywinteroutfit"
+    "fancywinteroutfit",
+    "racetrackvoucher"
   ],
   "ignoreContainers" : [
     "/wiki/Bounty_of_New_Kaineng_City",

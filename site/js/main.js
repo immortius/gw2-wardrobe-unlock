@@ -42,6 +42,9 @@ var acquisitionMethods = [
     { id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", category : "Ascended Equipment"},
     { id : "grandmasterhuntsmanmark", name : "Grandmaster Huntsman's Mark", category : "Ascended Equipment"},
     { id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", category : "Ascended Equipment"},
+    { id : "spoolofsilkthread", name : "Spool of Silk Thread", category : "Ascended Equipment"},
+    { id : "mithrilband", name : "Mithril Band", category : "Ascended Equipment"},
+    { id : "spiritwoodplank", name : "Spiritwood Plank", category : "Ascended Equipment"},
 
     { id : "karkashell", name : "Karka Shell", category : "Core / Season 1 / Season 2"},
     { id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
@@ -64,6 +67,7 @@ var acquisitionMethods = [
     { id : "jadeshard", name : "Jade Shard", category : "Living World Season 3"},
     { id : "fireorchidblossom", name : "Fire Orchid Blossom", category : "Living World Season 3"},
     { id : "orrianpearl", name : "Orrian Pearl", category : "Living World Season 3"},
+    { id : "circusvoucher", name : "Circus Voucher", category : "Living World Season 3"},
 
     { id : "tradecontract", name : "Trade Contract", category : "Path of Fire"},
     { id : "elegymosaic", name : "Elegy Mosaic", category : "Path of Fire"},
@@ -90,6 +94,7 @@ var acquisitionMethods = [
     { id : "writofseitungprovince", name: "Writ of Seitung Province", category : "End of Dragons"},
     { id : "writofnewkainengcity", name: "Writ of New Kaineng City", category : "End of Dragons"},
     { id : "writofechovaldwilds", name: "Writ of Echovald Wilds", category : "End of Dragons"},
+    { id : "writofdragonsend", name: "Writ of Dragon's End", category : "End of Dragons"},
     { id : "pieceofcrustaceanmeat", name: "Piece of Crustacean Meat", category : "End of Dragons"},
     { id : "flawlessfishfillet", name: "Flawless Fish Fillet", category : "End of Dragons"},
 
@@ -111,6 +116,12 @@ var acquisitionMethods = [
     { id : "magnetiteshard", name : "Magnetite Shard", category : "Raid / Strike Mission"},
     { id : "blueprophetshard", name: "Blue Prophet Shard", category : "Raid / Strike Mission"},
     { id : "greenprophetshard", name: "Green Prophet Shard", category : "Raid / Strike Mission"},
+    { id : "pristinefangofthewhisper", name: "Pristine Fang of the Whisper", category : "Raid / Strike Mission"},
+    { id : "frozensparkoflife", name: "Frozen Spark of Life", category : "Raid / Strike Mission"},
+    { id : "ancientdeldrimorgear", name: "Ancient Deldrimor Gear", category : "Raid / Strike Mission"},
+    { id : "blessedravenstatuette", name: "Blessed Raven Statuette", category : "Raid / Strike Mission"},
+    { id : "icepearl", name: "Ice Pearl", category : "Raid / Strike Mission"},
+    { id : "essentialoilofshadows", name: "Essential Oil of Shadows", category : "Raid / Strike Mission"},
 
     { id : "pvp", name : "Reward Track", category : "Competitive"},
     { id : "pvplt", name : "PvP League Ticket", category : "Competitive"},
