@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName;
  */
 public class Ingredient {
     @SerializedName("itemId")
-    public int itemId;
+    public String itemId;
 
     public int count;
 }

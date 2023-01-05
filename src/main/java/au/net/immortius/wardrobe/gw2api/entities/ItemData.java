@@ -29,7 +29,7 @@ public class ItemData extends CommonData {
     public ColorData fur;
 
     @SerializedName("default_skin")
-    public int defaultSkin;
+    public String defaultSkin;
     public ItemDetailsData details;
 
     @SerializedName("unlock_items")

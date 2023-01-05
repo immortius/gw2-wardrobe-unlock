@@ -44,7 +44,7 @@ public class IndexCraftableItems {
 
     public void run() throws IOException {
         logger.info("Indexing craftable items");
-        Set<Integer> craftableItems = Sets.newLinkedHashSet();
+        Set<String> craftableItems = Sets.newLinkedHashSet();
         try (DirectoryStream<Path> ds = Files.newDirectoryStream(config.paths.getRecipesPath())) {
             for (Path itemFile : ds) {
                 try (Reader reader = Files.newBufferedReader(itemFile)) {
@@ -54,7 +54,7 @@ public class IndexCraftableItems {
             }
         }
 
-        List<Integer> items = Lists.newArrayList(craftableItems);
+        List<String> items = Lists.newArrayList(craftableItems);
         Collections.sort(items);
 
         try (Writer writer = Files.newBufferedWriter(config.paths.getCraftableItemsFile())) {

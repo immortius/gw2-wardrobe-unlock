@@ -11,7 +11,7 @@ import java.util.Set;
 public class RecipeData extends CommonData {
 
     @SerializedName("output_item_id")
-    public int outputItemId;
+    public String outputItemId;
 
     @SerializedName("output_item_count")
     public int outputItemCount;

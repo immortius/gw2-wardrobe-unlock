@@ -38,7 +38,7 @@ public class ApiCacher {
     public static final int MINUTE_MS = 60000;
     private static Logger logger = LoggerFactory.getLogger(ApiCacher.class);
 
-    private static GenericType<Set<Integer>> ID_COLLECTION_TYPE = new GenericType<Set<Integer>>() {
+    private static GenericType<Set<String>> ID_COLLECTION_TYPE = new GenericType<Set<String>>() {
     };
 
     private static GenericType<Set<String>> STRING_ID_COLLECTION_TYPE = new GenericType<Set<String>>() {
@@ -113,7 +113,7 @@ public class ApiCacher {
      * @param apiUrl The api endpoint to collect ids from
      * @return The list of available ids
      */
-    public Set<Integer> availableIds(String apiUrl) {
+    public Set<String> availableIds(String apiUrl) {
         try {
             applyRateLimit();
             return client.target(apiUrl).request().get(ID_COLLECTION_TYPE);
@@ -215,7 +215,7 @@ public class ApiCacher {
             Set<String> ids = availableStringIds(apiUrl);
             return cacheIds(apiUrl, toPath, ids);
         } else{
-            Set<Integer> ids = availableIds(apiUrl);
+            Set<String> ids = availableIds(apiUrl);
             return cacheIds(apiUrl, toPath, ids);
         }
     }

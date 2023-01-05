@@ -58,16 +58,16 @@ public class PullCurrentPrices {
         Files.createDirectories(config.paths.getPricesPath());
         NioUtils.deleteContents(config.paths.getPricesPath());
 
-        Set<Integer> unlockItemIds = Sets.newLinkedHashSet();
+        Set<String> unlockItemIds = Sets.newLinkedHashSet();
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
             try (Reader unlockToSkinMappingReader = Files.newBufferedReader(config.paths.getUnlockItemsPath().resolve(unlockCategory.id + ".json"))) {
-                Map<Integer, Collection<Integer>> unlockItems = gson.fromJson(unlockToSkinMappingReader, UNLOCK_ITEM_MULTIMAP.getType());
+                Map<String, Collection<String>> unlockItems = gson.fromJson(unlockToSkinMappingReader, UNLOCK_ITEM_MULTIMAP.getType());
                 unlockItems.values().forEach(unlockItemIds::addAll);
             }
         }
 
         ApiCacher cacher = new ApiCacher(gson, client);
-        Set<Integer> itemIds = Sets.intersection(unlockItemIds, cacher.availableIds(config.prices.apiUrl));
+        Set<String> itemIds = Sets.intersection(unlockItemIds, cacher.availableIds(config.prices.apiUrl));
         cacher.cacheIds(config.prices.apiUrl, config.paths.getPricesPath(), itemIds);
 
         // And now map item prices to unlock prices
