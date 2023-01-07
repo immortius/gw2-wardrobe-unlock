@@ -29,7 +29,8 @@
         "step"
       ],
       "Standalone: Other": [
-        "Serve"
+        "Serve",
+        "Hiss"
       ]
     }
   }

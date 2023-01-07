@@ -1,0 +1,23 @@
+{
+  "name": "gem",
+  "contents": [
+    // Black Lion Board
+    "black_lion_expedition_board",
+    "black_lion_expedition_board_s4",
+    "black_lion_hunters_board",
+    "black_lion_industry_board",
+    // Garden Plot
+    "garden_plot_01",
+    "garden_plot_02",
+    "garden_plot_03",
+    // Standalone: Other
+    "basic_cloth_rack",
+    "basic_leather_rack",
+    // Standalone: Other - Harvesting Node
+    "basic_harvesting_nodes",
+    // Standalone: Other - Logging Node
+    "basic_lumber_nodes",
+    // Standalone: Other - Mining Node
+    "basic_ore_nodes"
+  ]
+}

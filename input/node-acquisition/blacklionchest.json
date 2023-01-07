@@ -1,0 +1,24 @@
+{
+  "name": "blacklionchest",
+  "contents": [
+    // Standalone: Other
+    "advanced_cloth_rack",
+    "advanced_leather_rack",
+    // Standalone: Other - Harvesting Node
+    "flaxseed_node",
+    "ghost_pepper_node",
+    "lotus_node",
+    "omnomberry_node",
+    "orrian_truffle_node",
+    "snow_truffle_node",
+    // Standalone: Other - Logging Node
+    "ancient_wood_node",
+    "elder_wood_node",
+    "hard_wood_node",
+    // Standalone: Other - Mining Node
+    "iron_ore_node",
+    "mithril_ore_node",
+    "orichalcum_ore_node",
+    "platinum_ore_node"
+  ]
+}
