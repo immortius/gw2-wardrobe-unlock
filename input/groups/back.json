@@ -468,7 +468,9 @@
         10164,
         10192,
         10902,
-        11116,
+        11116
+      ],
+      "Standalone: Other - Cape + Armor Combo - Head": [
         11144
       ],
       "Standalone: Other - Cape + Glider Combo": [
@@ -489,15 +491,13 @@
         1048,
         7000
       ],
-      "Standalone: Other - Plush + Glider Combo": [
-      ],
       "Standalone: Other - Quiver": [
         2369,
         6449,
-        7012,
-        8021
+        7012
       ],
-      "Standalone: Other - Quiver + Glider Combo": [
+      "Standalone: Other - Quiver + Weapon Combo": [
+        8021
       ],
       "Standalone: Other - Wings": [
         6003,

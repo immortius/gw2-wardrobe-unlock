@@ -1770,16 +1770,18 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion": [
+      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion - Tier 1": [
+        11140,
+        11127,
+        11139
+      ],
+      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion - Tier 1 > Tier 2": [
         11114,
         11138,
-        11140,
         11107,
-        11127,
         11131,
         11103,
-        11130,
-        11139
+        11130
       ],
       "Aetherized Nightmare Court": [
         4513,
@@ -1817,7 +1819,7 @@
         11136,
         11141
       ],
-      "Standalone: Living World Return": [
+      "Standalone: Mystic Forge": [
         10825,
         10843,
         10903,
@@ -5337,20 +5339,6 @@
         10620,
         10638
       ],
-      "Shadow of the Mad King Series": [
-        3687,
-        3693,
-        3696,
-        3711,
-        3825,
-        4694
-      ],
-      "The Lost Shores Series": [
-        3764,
-        3782,
-        3805,
-        3832
-      ],
       "Dreamwalker": [
         9049,
         9331,
@@ -5362,6 +5350,20 @@
         9701,
         10072,
         10078
+      ],
+      "Standalone: Consortium Chest / Southsun Supply Crate": [
+        3764,
+        3782,
+        3805,
+        3832
+      ],
+      "Standalone: Mad King Chest": [
+        3687,
+        3693,
+        3696,
+        3711,
+        3825,
+        4694
       ],
       "Standalone: Other": [
         3713,
@@ -5378,7 +5380,6 @@
         6884,
         7021,
         7208,
-        8010,
         8113,
         8135,
         8397,
@@ -5399,10 +5400,6 @@
         7165,
         7204,
         7231,
-        7281,
-        7284,
-        7450,
-        7651,
         7739,
         7746,
         7997,
@@ -5420,16 +5417,10 @@
         9476,
         9477,
         9553,
-        9594,
-        9596,
         9615,
         9656,
-        9741,
-        9748,
         9791,
         9839,
-        9842,
-        9851,
         9892,
         9956,
         9974,
@@ -5449,14 +5440,29 @@
         10763,
         10786,
         10789,
-        10818,
-        10824,
         10856,
         10961,
         11036,
         11042,
         11160,
         11187
+      ],
+      "Standalone: Other + Combo": [
+        7281,
+        7284,
+        7450,
+        7651,
+        9594,
+        9596,
+        9741,
+        9748,
+        9842,
+        9851,
+        10818,
+        10824
+      ],
+      "Standalone: Other + Back Item Combo - Quiver": [
+        8010
       ]
     }
   }

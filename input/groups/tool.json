@@ -8,10 +8,12 @@
       ]
     },
     "End of Dragons": {
-      "Standalone: Other": [
-        10602,
-        10687,
+      "Starter": [
         10721
+      ],
+      "Standalone: Fishing": [
+        10602,
+        10687
       ]
     },
     "Gem Store": {

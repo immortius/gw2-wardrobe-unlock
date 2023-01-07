@@ -480,13 +480,15 @@
       ]
     },
     "Festival: Super Adventure Festival": {
+      "Princess Miya": [
+        183,
+        184
+      ],
       "Standalone: Annual Customs": [
         749,
         810
       ],
       "Standalone: Other": [
-        183,
-        184,
         811
       ]
     },
@@ -772,11 +774,6 @@
         253,
         254
       ],
-      "The Lost Shores Series": [
-        112,
-        113,
-        114
-      ],
       "Avian": [
         237,
         238,
@@ -998,6 +995,11 @@
         211,
         212
       ],
+      "Standalone: Consortium Chest": [
+        112,
+        113,
+        114
+      ],
       "Standalone: Extra Life Donation Bundle": [
         785,
         816,
@@ -1008,10 +1010,12 @@
         793,
         795
       ],
+      "Standalone: Southsun Supply Crate": [
+        137,
+        138
+      ],
       "Standalone: Other": [
         1,
-        137,
-        138,
         181,
         182,
         201,

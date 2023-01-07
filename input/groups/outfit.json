@@ -62,7 +62,6 @@
         54,
         55,
         56,
-        57,
         58,
         72,
         74,
@@ -88,7 +87,6 @@
         98,
         99,
         100,
-        101,
         102,
         103,
         104,
@@ -108,6 +106,12 @@
         119,
         120,
         121
+      ],
+      "Standalone: Other + Armor Combo - Head": [
+        57
+      ],
+      "Standalone: Other + Armor Combo - Shoulder": [
+        101
       ],
       "Standalone: Other + Novelty Combo - Toy": [
         1,
