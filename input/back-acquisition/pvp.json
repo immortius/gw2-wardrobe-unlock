@@ -1,10 +1,11 @@
 {
   "name": "pvp",
   "contents": [
-    // Human God,
+    // Living World Season 5: The Icebrood Saga
+    9387,9407,9413,9431,
+    // Competitive: Player vs. Player / World vs. World
     2380,
-    // Wintersday,
-    2375,
-	9387,9407,9413,9431
+    // Festival: Wintersday
+    2375
   ]
 }

@@ -44,7 +44,7 @@ var acquisitionMethods = [
     { id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", category : "Crafting Component"},
     { id : "spoolofsilkthread", name : "Spool of Silk Thread", category : "Crafting Component"},
     { id : "spiritwoodplank", name : "Spiritwood Plank", category : "Crafting Component"},
-    { id : "mithrilband", name : "Mithril Band", category : "Crafting Component"},    
+    { id : "mithrilband", name : "Mithril Band", category : "Crafting Component"},
 
     { id : "karkashell", name : "Karka Shell", category : "Core / Season 1 / Season 2"},
     { id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
@@ -68,7 +68,7 @@ var acquisitionMethods = [
     { id : "jadeshard", name : "Jade Shard", category : "Living World Season 3"},
     { id : "fireorchidblossom", name : "Fire Orchid Blossom", category : "Living World Season 3"},
     { id : "orrianpearl", name : "Orrian Pearl", category : "Living World Season 3"},
-    
+
     { id : "tradecontract", name : "Trade Contract", category : "Path of Fire"},
     { id : "elegymosaic", name : "Elegy Mosaic", category : "Path of Fire"},
     { id : "casinocoin", name : "Casino Coin", category : "Path of Fire"},
@@ -153,7 +153,6 @@ var acquisitionMethods = [
     { id : 'blt', name : "Black Lion Claim Ticket", category : "Gem Store"},
     { id : "blmt", name : "Black Lion Miniature Claim Ticket", category : "Gem Store"},
     { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
-    //{ id : "mountlicense", name : "Mount License", category : "Gem Store"},
     { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store", hideOnIcon : true},
 
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}
