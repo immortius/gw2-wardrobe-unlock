@@ -1,13 +1,13 @@
 {
-  "name": "blacklionchest",
+  "name": "craft",
   "contents": [
     // Black Lion Dye Canister—Blue
-    1651,
+    1652,1653,1654,
     // Black Lion Dye Canister—Green
-    1658,
+    1655,1656,1657,
     // Black Lion Dye Canister—Red
-    1661,
+    1659,1660,1662,
     // Black Lion Dye Canister—Yellow
-    1663
+    1664,1665,1666
   ]
 }

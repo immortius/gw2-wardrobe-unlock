@@ -1,7 +1,11 @@
 {
   "name": "blacklionchest",
   "contents": [
-    // General,
-    57, 87, 101
+    // Standalone: Other
+    87,
+    // Standalone: Other + Armor Combo - Head
+    57,
+    // Standalone: Other + Armor Combo - Shoulder
+    101
   ]
 }

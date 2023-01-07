@@ -1,6 +1,11 @@
 {
   "name": "blacklionchest",
   "contents": [
-    103, 269, 309, 311
+    // Standalone: Other - Chair
+    269,309,
+    // Standalone: Other - Chair + Glider Combo
+    311,
+    // Standalone: Other - Tonic
+    80,103,159,172,185
   ]
 }
