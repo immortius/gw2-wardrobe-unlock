@@ -2419,28 +2419,6 @@
         1274,
         1275
       ],
-      "Shadow of the Mad King Series": [
-        1116,
-        1119,
-        1120,
-        1121,
-        1123,
-        1126,
-        1128,
-        1131,
-        1136
-      ],
-      "The Lost Shores Series": [
-        996,
-        997,
-        998,
-        1041,
-        1044,
-        1045,
-        1137,
-        1143,
-        1141
-      ],
       "Aurene's Crystalline": [
         9452,
         9458,
@@ -2708,13 +2686,29 @@
         10992,
         10993
       ],
-      "Standalone: Other - Head Armor": [
-        833,
-        839,
-        840,
-        841,
-        842,
-        843,
+      "Standalone: Consortium Chest / Southsun Supply Crate": [
+        996,
+        997,
+        998,
+        1041,
+        1044,
+        1045,
+        1137,
+        1143,
+        1141
+      ],
+      "Standalone: Mad King Chest": [
+        1116,
+        1119,
+        1120,
+        1121,
+        1123,
+        1126,
+        1128,
+        1131,
+        1136
+      ],
+      "Standalone: Other - Head": [
         975,
         983,
         984,
@@ -2787,33 +2781,12 @@
         7309,
         7326,
         7336,
-        7782,
-        7800,
-        7804,
         7960,
         7979,
         7994,
         8068,
         8071,
         8072,
-        8518,
-        8524,
-        8545,
-        8538,
-        8543,
-        8544,
-        8685,
-        8718,
-        8727,
-        8741,
-        8743,
-        8751,
-        8814,
-        8834,
-        8837,
-        8816,
-        8822,
-        8841,
         9613,
         9614,
         9616,
@@ -2841,18 +2814,46 @@
         10833,
         10834,
         10835,
-        10846,
         10847,
         10849,
+        10867,
+        11063,
+        11078,
+        11097
+      ],
+      "Standalone: Other - Head + Combo": [
+        833,
+        839,
+        840,
+        841,
+        842,
+        843,
+        8518,
+        8524,
+        8538,
+        8543,
+        8544,
+        8545,
+        8685,
+        8718,
+        8727,
+        8741,
+        8743,
+        8751,
+        8814,
+        8816,
+        8822,
+        8834,
+        8837,
+        8841,
+        10846,
         10852,
         10853,
         10854,
         10862,
-        10865,
-        10867,
-        11063,
-        11078,
-        11097,
+        10865
+      ],
+      "Standalone: Other - Head + Back Item Combo - Cape": [
         11143,
         11150,
         11151,
@@ -2860,7 +2861,12 @@
         11162,
         11167
       ],
-      "Standalone: Other - Head Armor - Aspect Eye": [
+      "Standalone: Other - Head + Outfit Combo": [
+        7782,
+        7800,
+        7804
+      ],
+      "Standalone: Other - Head - Aspect Eye": [
         8208,
         8194,
         8195,
@@ -2871,7 +2877,7 @@
         8205,
         8222
       ],
-      "Standalone: Other - Head Armor - Enchanted Dragon Crown": [
+      "Standalone: Other - Head - Enchanted Dragon Crown": [
         8234,
         8238,
         8253,
@@ -2882,7 +2888,7 @@
         8296,
         8297
       ],
-      "Standalone: Other - Head Armor - Fuzzy Hat": [
+      "Standalone: Other - Head - Fuzzy Hat": [
         1029,
         966,
         1032,
@@ -2908,7 +2914,7 @@
         1016,
         1017
       ],
-      "Standalone: Other - Head Armor - Glasses / Sunglasses": [
+      "Standalone: Other - Head - Glasses / Sunglasses": [
         967,
         971,
         982,
@@ -2925,7 +2931,7 @@
         1014,
         1018
       ],
-      "Standalone: Other - Head Armor - Glowing Mask": [
+      "Standalone: Other - Head - Glowing Mask": [
         826,
         831,
         832,
@@ -2939,7 +2945,7 @@
         8670,
         8677
       ],
-      "Standalone: Other - Head Armor - Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
+      "Standalone: Other - Head - Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
         1184,
         1185,
         1186,
@@ -2950,7 +2956,7 @@
         1191,
         1192
       ],
-      "Standalone: Other - Head Armor - Pointed Ears": [
+      "Standalone: Other - Head - Pointed Ears": [
         11032,
         11035,
         11038,
@@ -2961,16 +2967,13 @@
         11045,
         11047
       ],
-      "Standalone: Other - Shoulder Armor": [
+      "Standalone: Other - Shoulder": [
         5793,
         5794,
         5795,
         7064,
         7066,
         7071,
-        9577,
-        9580,
-        9581,
         9796,
         9817,
         9820,
@@ -2978,9 +2981,14 @@
         10044,
         10046
       ],
-      "Standalone: Other - Chest Armor": [
+      "Standalone: Other - Shoulder + Outfit Combo": [
+        9577,
+        9580,
+        9581
       ],
-      "Standalone: Other - Hand Armor": [
+      "Standalone: Other - Chest": [
+      ],
+      "Standalone: Other - Hand": [
         6700,
         6727,
         6732,
@@ -3003,14 +3011,14 @@
         10896,
         10897
       ],
-      "Standalone: Other - Leg Armor": [
+      "Standalone: Other - Leg": [
       ],
-      "Standalone: Other - Foot Armor": [
+      "Standalone: Other - Foot": [
         9733,
         9757,
         9779
       ],
-      "Standalone: Other - Aquatic Head Armor": [
+      "Standalone: Other - Aquatic Head": [
       ]
     }
   }

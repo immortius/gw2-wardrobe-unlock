@@ -1,11 +1,15 @@
 {
   "name": "gem",
   "contents": [
-    // Halloween,
-    17,18,19,
-    // World Tournament,
-    52,49,50,
-    // General,
-    27,45,51,73,10,28,39,34,46,38,40,44,42,16,41,57,59,58,14,74,29,13,11,15,26,24,25,12,43
+    // Festival: Super Adventure Festival
+    11,
+    // Festival: Halloween
+    18,19,
+    // Festival: Wintersday
+    20,21,33,
+    // World Tournament
+    49,50,52,
+    // Standalone: Other
+    40,41,42,58,73,74
   ]
 }

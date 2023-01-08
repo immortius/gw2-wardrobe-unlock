@@ -1,0 +1,24 @@
+{
+  "name": "achievement",
+  "contents": [
+    // Core
+    "enchanted_treasure_chest",
+    // Living World Season 1: Scarlet's War
+    "krait_obelisk",
+    "sprocket_generator",
+    // Living World Season 2: Glint's Prophecy
+    "bandit_chest",
+    // Heart of Thorns
+    "aurilium_node",
+    // Festival: Festival of the Four Winds
+    "quartz_node",
+    // Festival: Halloween
+    "candy_corn_node",
+    // Festival: Wintersday
+    "wintersday_tree",
+    // Gem Store
+    "garden_plot_01",
+    "garden_plot_02",
+    "garden_plot_03"
+  ]
+}

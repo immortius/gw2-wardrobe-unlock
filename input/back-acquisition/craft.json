@@ -1,23 +1,23 @@
 {
   "name": "craft",
   "contents": [
-    // Books
-    2325,2376,2318,2326,
-    // Fractals of the Mists
-    2378,2379,6344,
+    // Standalone: Mystic Forge
+    2318,2325,2326,2341,2376,
+    // Spinal Blades
+    2330,2331,2332,2333,2334,2335,2337,2328,
     // Vine / Mawdrey
-    5545,5532,5544,
+    5532,5544,5545,
+    // Echovald Backpiece
+    10647,
+    // Fractal Capacitor
+    2378,2379,
+    // Ad Infinitum
+    6344,
     // Wings of Glory / The Ascension
     6556,6561,
-    // Quivers
-    2341,
-    // Spinal Blades
-    2330,2331,2337,2335,2334,2333,2332,2328,
     // Wings of War / Warbringer
     7248,7272,
     // Lucky Great Celestial Lantern
-    5857,6620,7069,8014,8624,9120,9838,10183,
-    // End of Dragons
-    10647
+    5857,6620,7069,8014,8624,9120,9838,10183
   ]
 }

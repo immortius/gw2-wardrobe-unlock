@@ -1,6 +1,9 @@
 {
   "name": "gem",
   "contents": [
-    "geargrind", "shuffle", "step"
+    // How to Dance, Volume 1
+    "geargrind","shuffle","step",
+    // Standalone: Other
+    "Serve","Hiss"
   ]
 }

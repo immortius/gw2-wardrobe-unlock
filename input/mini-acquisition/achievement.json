@@ -1,17 +1,17 @@
 {
   "name": "achievement",
   "contents": [
-    // Living World Season 1
+    // Living World Season 1: Scarlet's War
     163,167,168,169,195,206,
     // Heart Of Thorns
     350,354,396,
-    // Living World Season 3
+    // Living World Season 3: Glint's Legacy
     582,492,424,
     // Path Of Fire
     500,510,527,540,547,555,562,573,575,
-    // Living World Season 4
+    // Living World Season 4: Rise of Kralkatorrik
     720,727,
-    // Living World Season 5
+    // Living World Season 5: The Icebrood Saga
     790,
     // Fractals of the Mists
     360,
@@ -25,9 +25,7 @@
     301,733,730,834,
     // Festival: Wintersday
     119,115,118,117,116,310,636,738,
-    // Standalone: Extra Life
-    181,
     // Gem Store
-    796
+    181,796
   ]
 }

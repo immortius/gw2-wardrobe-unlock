@@ -1,6 +1,9 @@
 {
   "name": "tradecontract",
   "contents": [
-    2,3,6
+    // Core
+    3,
+    // Path of Fire
+    2,6
   ]
 }

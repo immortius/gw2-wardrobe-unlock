@@ -1,7 +1,15 @@
 {
   "name": "blacklionchest",
   "contents": [
-    // General,
-    47,32,56,35,60,66,68,70,72,77,83,84,86,91,96,97,100,103,109,112,116
+    // Standalone: Other
+    32,35,54,66,84,
+    // Standalone: Other + Back Item Combo
+    47,56,60,68,70,72,109,116,
+    // Standalone: Other + Back Item Combo - Cape
+    96,
+    // Standalone: Other + Back Item Combo - Wings
+    77,83,86,91,100,103,112,
+    // Standalone: Other + Novelty Combo - Chair
+    97
   ]
 }

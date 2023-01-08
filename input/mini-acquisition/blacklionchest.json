@@ -1,27 +1,35 @@
 {
   "name": "blacklionchest",
   "contents": [
-    // Griffon Hatchling,
+    // Awakened Mounts
+    689,691,693,694,699,
+    // Branded Mounts
+    657,660,661,662,663,
+    // Cozy Wintersday Mounts
+    627,629,631,633,635,
+    // Exo-Suit Mounts
+    709,713,714,715,717,
+    // Griffon Hatchling
     682,
-    // Jackal Pups,
+    // Jackal Pup
     640,
-    // Living Story 3,
-    493,
-    // Mounts,
-    599,605,609,610,611,627,629,631,633,635,657,660,661,662,663,689,691,693,694,699,709,713,714,715,717,
-    // Raptor Hatchlings,
+    // Raptor Hatchling
     589,
-	// Skimmer pups,
-	759,
-	// Skyscale hatchling
-	773,
-    // Springer Kit,
-    710,
+    // Scarlet's Champions
+    219,
     // Shiba Inu
     824,
+    // Skimmer Pup
+    759,
+    // Skyscale Hatchling
+    773,
+    // Spooky Mounts
+    599,605,609,610,611,
+    // Springer Kit
+    710,
     // Tigris Cub
     860,
-    // General,
-    435
+    // Standalone: Other
+    201,203,222,316,435,493
   ]
 }
