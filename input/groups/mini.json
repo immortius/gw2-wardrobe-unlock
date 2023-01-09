@@ -1051,7 +1051,6 @@
         333,
         335,
         336,
-        342,
         369,
         378,
         380,
@@ -1090,6 +1089,9 @@
         781,
         796,
         815
+      ],
+      "Standalone: Other + Back Item Combo": [
+        342
       ],
       "Standalone: Other - Mount": [
         648,

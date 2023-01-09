@@ -127,14 +127,12 @@
         2345,
         2357
       ],
-      "Standalone: Living World Return": [
-        11118
-      ],
       "Standalone: Other": [
         2353,
         2354,
         2356,
-        2381
+        2381,
+        11118
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -403,7 +401,6 @@
         5654,
         5708,
         5998,
-        6431,
         6554,
         6745,
         7047,
@@ -443,6 +440,9 @@
         10805,
         10941,
         11051
+      ],
+      "Standalone: Other + Miniature Combo": [
+        6431
       ],
       "Standalone: Other - Cape": [
         9050,
