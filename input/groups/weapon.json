@@ -985,7 +985,7 @@
         4158,
         4127
       ],
-      "Legendary Series 1 - Experimental": [
+      "Legendary Series 1 - Experiment": [
         6157,
         6182,
         6238,
@@ -1007,11 +1007,11 @@
         6494,
         6525
       ],
-      "Legendary Series 1 - Experimental > Perfected": [
+      "Legendary Series 1 - Experiment > Perfected": [
         4693,
         4737
       ],
-      "Legendary Series 1 - Experimental > Perfected > Precursor": [
+      "Legendary Series 1 - Experiment > Perfected > Precursor": [
         6199,
         6284,
         6286,
@@ -1033,7 +1033,7 @@
         6509,
         6514
       ],
-      "Legendary Series 1 - Experimental > Perfected > Precursor > Legendary": [
+      "Legendary Series 1 - Experiment > Perfected > Precursor > Legendary": [
         4664,
         4665,
         4666,
@@ -1056,7 +1056,7 @@
         4683,
         4684
       ],
-      "Legendary Series 2 - Experimental": [
+      "Legendary Series 2 - Experiment": [
         7318,
         7335,
         7207,
@@ -1074,7 +1074,7 @@
         8598,
         8696
       ],
-      "Legendary Series 2 - Experimental > Perfected": [
+      "Legendary Series 2 - Experiment > Perfected": [
         7298,
         6285,
         8339,
@@ -1092,7 +1092,7 @@
         8589,
         8729
       ],
-      "Legendary Series 2 - Experimental > Perfected > Precursor": [
+      "Legendary Series 2 - Experiment > Perfected > Precursor": [
         7306,
         7312,
         8341,
@@ -1110,7 +1110,7 @@
         8600,
         8692
       ],
-      "Legendary Series 2 - Experimental > Perfected > Precursor > Legendary": [
+      "Legendary Series 2 - Experiment > Perfected > Precursor > Legendary": [
         6276,
         7300,
         7206,
@@ -1770,18 +1770,16 @@
       ]
     },
     "Living World Season 1: Scarlet's War": {
-      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion - Tier 1": [
-        11140,
-        11127,
-        11139
-      ],
-      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion - Tier 1 > Tier 2": [
-        11114,
-        11138,
-        11107,
-        11131,
+      "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion": [
         11103,
-        11130
+        11107,
+        11114,
+        11127,
+        11130,
+        11131,
+        11138,
+        11139,
+        11140
       ],
       "Aetherized Nightmare Court": [
         4513,
@@ -1827,9 +1825,9 @@
         11126
       ],
       "Standalone: World Boss": [
-        5423,
-        5425,
         4690
+        5423,
+        5425
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -3258,6 +3256,24 @@
       ]
     },
     "Festival: Lunar New Year": {
+      "Firework": [
+        11201,
+        11202,
+        11203,
+        11207,
+        11208,
+        11211,
+        11213,
+        11214,
+        11215,
+        11217,
+        11218,
+        11219,
+        11220,
+        11225,
+        11230,
+        11232
+      ],
       "Shining Aureate": [
         9095,
         9096,
@@ -3318,7 +3334,10 @@
       "Standalone: Sparking Stone": [
         8769,
         10195,
-        10226
+        10226,
+        11222,
+        11227,
+        11233
       ]
     },
     "Festival: Super Adventure Festival": {
@@ -5445,7 +5464,8 @@
         11036,
         11042,
         11160,
-        11187
+        11187,
+        11223
       ],
       "Standalone: Other + Combo": [
         7281,
