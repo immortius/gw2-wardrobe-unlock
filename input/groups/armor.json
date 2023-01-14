@@ -2087,18 +2087,19 @@
       ]
     },
     "Festival: Lunar New Year": {
-      "Lunar-Enchanted Feathered / Lunar-Enchanted Prowler / Lunar-Enchanted Scale": [
-        9845,
-        9876,
-        9880
-      ],
       "Standalone: Annual Customs": [
         9101,
         9108,
         9111,
+        9845,
+        9876,
+        9880,
         10168,
         10175,
-        10216
+        10216,
+        11205, 
+        11212, 
+        11226
       ]
     },
     "Festival: Super Adventure Festival": {
@@ -2539,6 +2540,14 @@
         1371,
         1372,
         1373
+      ],
+      "Lunar Rabbit": [
+        11200, 
+        11216, 
+        11221, 
+        11224, 
+        11228, 
+        11231
       ],
       "Maguuma": [
         9219,
