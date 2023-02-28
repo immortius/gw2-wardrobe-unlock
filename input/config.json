@@ -146,10 +146,16 @@
           7941,7975,7985,
           // Exalted
           8115,8121,8122,8617,8618,8621,
+          // Searing Chain Gloves
+          8967,8986,8989,
           // Seven Reapers
           9376,9384,9447,9890,9891,9894,10098,10100,10106,10124,10129,10131,
           // Ebon Vanguard Elite Shoulders
-          9577,9580,9581
+          9577,9580,9581,
+          // Tempest Gaze
+          9789,9790,9792,
+          // Mystical Dragon Horns
+          10847,10849,10867
         ],
         // Southsun Remembrance Package
         "84207": [996,997,998,1137,1143,1141],
@@ -712,6 +718,16 @@
           // Standalone: Other - Wings + Glider Combo
           8915,9061,9298,9481,9992,10045,10823
         ],
+        // Pink Quaggan Backpack Set
+        "39495": [2365],
+        // Cheetah Charr Backpack Set
+        "39503": [2366],
+        // Tiger Charr Backpack Set
+        "39507": [2364],
+        // Quaggan Killer Whale Backpack Set
+        "39524": [2367],
+        // Plush Tybalt Backpack Set
+        "39527": [2368],
         // Zephyrite Box of Dreams
         "82562": [2346,2347,2348]
       }
@@ -968,11 +984,7 @@
           599,605,609,610,611,
           // Standalone: Other
           435,493
-        ],
-        // Southsun Beach Mini Container
-        "82553": [137,138],
-        // Prototype Assault Knight
-        "99154": [877,878,879]
+        ]
       },
       "excludeIds": [
         153

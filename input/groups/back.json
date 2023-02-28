@@ -259,7 +259,8 @@
         10247,
         10271,
         10399,
-        10458
+        10458,
+        11322
       ]
     },
     "Fractals of the Mists": {
@@ -329,9 +330,15 @@
         9838,
         10183,
         11206
+      ],
+      "Standalone: Annual Customs": [
+      ],
+      "Standalone: Other": [
       ]
     },
     "Festival: Super Adventure Festival": {
+      "Standalone: Annual Customs": [
+      ],
       "Standalone: Other": [
         2359,
         2360,
@@ -379,6 +386,8 @@
       ],
       "Standalone: Annual Customs": [
         9638
+      ],
+      "Standalone: Other": [
       ]
     },
     "Festival: Wintersday": {
@@ -405,7 +414,6 @@
         5654,
         5708,
         5998,
-        6431,
         6554,
         6745,
         7047,
@@ -446,6 +454,9 @@
         10941,
         11051
       ],
+      "Standalone: Other + Miniature Combo": [
+        6431
+      ],
       "Standalone: Other - Cape": [
         9050,
         9072,
@@ -471,7 +482,8 @@
         10192,
         10902,
         11116,
-        11247
+        11247,
+        11257
       ],
       "Standalone: Other - Cape + Armor Combo - Head": [
         11144
@@ -541,7 +553,8 @@
         10823,
         10912,
         11125,
-        11246
+        11246,
+        11253
       ]
     }
   }

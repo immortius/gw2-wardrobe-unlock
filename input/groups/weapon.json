@@ -985,7 +985,7 @@
         4158,
         4127
       ],
-      "Legendary Series 1 - Experimental": [
+      "Legendary Series 1 - Experiment": [
         6157,
         6182,
         6238,
@@ -1007,11 +1007,11 @@
         6494,
         6525
       ],
-      "Legendary Series 1 - Experimental > Perfected": [
+      "Legendary Series 1 - Experiment > Perfected": [
         4693,
         4737
       ],
-      "Legendary Series 1 - Experimental > Perfected > Precursor": [
+      "Legendary Series 1 - Experiment > Perfected > Precursor": [
         6199,
         6284,
         6286,
@@ -1033,7 +1033,7 @@
         6509,
         6514
       ],
-      "Legendary Series 1 - Experimental > Perfected > Precursor > Legendary": [
+      "Legendary Series 1 - Experiment > Perfected > Precursor > Legendary": [
         4664,
         4665,
         4666,
@@ -1056,7 +1056,7 @@
         4683,
         4684
       ],
-      "Legendary Series 2 - Experimental": [
+      "Legendary Series 2 - Experiment": [
         7318,
         7335,
         7207,
@@ -1074,7 +1074,7 @@
         8598,
         8696
       ],
-      "Legendary Series 2 - Experimental > Perfected": [
+      "Legendary Series 2 - Experiment > Perfected": [
         7298,
         6285,
         8339,
@@ -1092,7 +1092,7 @@
         8589,
         8729
       ],
-      "Legendary Series 2 - Experimental > Perfected > Precursor": [
+      "Legendary Series 2 - Experiment > Perfected > Precursor": [
         7306,
         7312,
         8341,
@@ -1110,7 +1110,7 @@
         8600,
         8692
       ],
-      "Legendary Series 2 - Experimental > Perfected > Precursor > Legendary": [
+      "Legendary Series 2 - Experiment > Perfected > Precursor > Legendary": [
         6276,
         7300,
         7206,
@@ -1827,9 +1827,9 @@
         11126
       ],
       "Standalone: World Boss": [
+        4690,
         5423,
-        5425,
-        4690
+        5425
       ]
     },
     "Living World Season 2: Glint's Prophecy": {
@@ -2770,6 +2770,22 @@
         10696
       ],
       "Legendary Series 3 - Dragon > Aurene > Soo-Won": [
+        10244,
+        10259,
+        10309,
+        10324,
+        10448,
+        10490,
+        10496,
+        10511,
+        10521,
+        10550,
+        10564,
+        10570,
+        10596,
+        10623,
+        10716,
+        10720
       ],
       "Legendary Series 3 - Dragon > Aurene > Zhaitan": [
         10260,
@@ -2879,6 +2895,24 @@
         10717,
         10741
       ],
+      "Luxon Hunter": [
+        11271,
+        11278,
+        11283,
+        11292,
+        11295,
+        11296,
+        11298,
+        11303,
+        11306,
+        11311,
+        11312,
+        11313,
+        11320,
+        11321,
+        11333,
+        11339
+      ],
       "Saltspray": [
         10229,
         10275,
@@ -2914,6 +2948,16 @@
         10582,
         10673,
         10681
+      ],
+      "Tahkayun": [
+        11325,
+        11340,
+        11344
+      ],
+      "Xunlai": [
+        11299,
+        11316,
+        11324
       ],
       "Standalone: Champion Bag": [
         10233,
@@ -3259,21 +3303,21 @@
     },
     "Festival: Lunar New Year": {
       "Firework": [
-        11201, 
-        11202, 
-        11203, 
-        11207, 
-        11208, 
-        11211, 
-        11213, 
-        11214, 
-        11215, 
-        11217, 
-        11218, 
-        11219, 
-        11220, 
-        11225, 
-        11230, 
+        11201,
+        11202,
+        11203,
+        11207,
+        11208,
+        11211,
+        11213,
+        11214,
+        11215,
+        11217,
+        11218,
+        11219,
+        11220,
+        11225,
+        11230,
         11232
       ],
       "Shining Aureate": [
@@ -3340,6 +3384,8 @@
         11222,
         11227,
         11233
+      ],
+      "Standalone: Other": [
       ]
     },
     "Festival: Super Adventure Festival": {
@@ -3491,6 +3537,10 @@
         5307,
         5309,
         5342
+      ],
+      "Standalone: Sparking Stone": [
+      ],
+      "Standalone: Other": [
       ]
     },
     "Festival: Dragon Bash": {
@@ -3557,6 +3607,8 @@
         10023,
         10032,
         10033
+      ],
+      "Standalone: Other": [
       ]
     },
     "Festival: Festival of the Four Winds": {
@@ -3654,6 +3706,8 @@
         10099,
         10101,
         10108
+      ],
+      "Standalone: Other": [
       ]
     },
     "Festival: Halloween": {
@@ -3890,6 +3944,8 @@
       ],
       "Standalone: Strike Mission": [
         10194
+      ],
+      "Standalone: Other": [
       ]
     },
     "Gem Store": {
@@ -5273,7 +5329,22 @@
         11170
       ],
       "Black Lion Claim Ticket Series 77 - Reflective Koi": [
-      11234, 11235, 11237, 11238, 11239, 11240, 11241, 11242, 11243, 11244, 11245, 11248, 11249, 11250, 11251, 11252
+        11234,
+        11235,
+        11237,
+        11238,
+        11239,
+        11240,
+        11241,
+        11242,
+        11243,
+        11244,
+        11245,
+        11248,
+        11249,
+        11250,
+        11251,
+        11252
       ],
       "Gem Store Series 1 - Immortal": [
         6081,
@@ -5468,11 +5539,12 @@
         10961,
         11036,
         11042,
-        11160,
         11086,
+        11160,
         11187,
         11204,
-        11236
+        11236,
+        11300
       ],
       "Standalone: Other + Combo": [
         7281,
