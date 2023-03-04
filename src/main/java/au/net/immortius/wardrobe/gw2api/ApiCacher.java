@@ -44,7 +44,7 @@ public class ApiCacher {
     private static GenericType<Set<String>> STRING_ID_COLLECTION_TYPE = new GenericType<Set<String>>() {
     };
 
-    private static final int RATE_LIMIT = 300;
+    private static final int RATE_LIMIT = 200;
 
     private static Joiner COMMA_JOINER = Joiner.on(',');
 
