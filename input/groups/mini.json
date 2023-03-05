@@ -343,6 +343,13 @@
         856,
         858
       ],
+      "Standalone: What Lies Beneath" : [
+        849,
+        851,
+        875,
+        884,
+        885
+      ],
       "Standalone: Other": [
         847,
         875
@@ -1053,7 +1060,6 @@
         333,
         335,
         336,
-        342,
         369,
         378,
         380,
@@ -1092,6 +1098,9 @@
         781,
         796,
         815
+      ],
+      "Standalone: Other - Back Item Combo" : [
+        342
       ],
       "Standalone: Other - Mount": [
         648,
