@@ -156,6 +156,20 @@ var acquisitionMethods = [
     { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
     { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store", hideOnIcon : true},
 
+    //{ id : 'mountlicense01', name : "Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense02', name : "Istani Isles Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense03', name : "Desert Racer Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense04', name : "Distant Lands Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense05', name : "Exotic Breeds Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense06', name : "New Horizons Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense07', name : "Mistborn Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense08', name : "Curious Creatures Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense09', name : "Bizarre Beasts Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense10', name : "Lost Era Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense11', name : "Deep Wilds Mount Adoption License", category : "Mount Adoption License"},
+    ////{ id : 'mountlicense12', name : "Canthan Menagerie Mount Adoption License", category : "Mount Adoption License"},
+    ////{ id : 'mountlicense13', name : "Imperial Wonders Mount Adoption License", category : "Mount Adoption License"},
+
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}
 
 ];
