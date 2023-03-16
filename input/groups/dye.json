@@ -423,114 +423,7 @@
       ]
     },
     "Gem Store": {
-      "Aurene": [
-        1667,
-        1668,
-        1669,
-        1670,
-        1671,
-        1672
-      ],
-      "Awakened": [
-        1600,
-        1601,
-        1602,
-        1597,
-        1598,
-        1599
-      ],
-      "Black Lion Dye Canister—Blue": [
-        1651,
-        1652,
-        1653,
-        1654
-      ],
-      "Black Lion Dye Canister—Green": [
-        1655,
-        1656,
-        1657,
-        1658
-      ],
-      "Black Lion Dye Canister—Red": [
-        1659,
-        1660,
-        1661,
-        1662
-      ],
-      "Black Lion Dye Canister—Yellow": [
-        1663,
-        1664,
-        1665,
-        1666
-      ],
-      "Bloodstone": [
-        1456,
-        1457,
-        1458,
-        1453,
-        1454,
-        1455
-      ],
-      "Blue Shift": [
-        1376,
-        1377,
-        1378,
-        1379,
-        1380,
-        1381,
-        1382,
-        1383,
-        1384
-      ],
-      "Charr": [
-        1639,
-        1640,
-        1641,
-        1642,
-        1643,
-        1644
-      ],
-      "Crimson Lion": [
-        1333,
-        1334,
-        1335,
-        1336,
-        1337,
-        1338
-      ],
-      "Darkest Abyss": [
-        1682,
-        1683,
-        1684,
-        1685,
-        1686,
-        1688
-      ],
-      "Deathly": [
-        1248,
-        1243,
-        1244,
-        1245,
-        1246,
-        1247
-      ],
-      "Elonian Beasts": [
-        1592,
-        1593,
-        1594,
-        1578,
-        1595,
-        1596
-      ],
-      "Elonian Landscape": [
-        1573,
-        1574,
-        1575,
-        1576,
-        1577,
-        1579
-      ],
-      "Flame": [
+      "Gem Store Series 1 - Flame": [
         1237,
         1238,
         1239,
@@ -538,7 +431,7 @@
         1241,
         1242
       ],
-      "Frost": [
+      "Gem Store Series 2 - Frost": [
         1231,
         1232,
         1233,
@@ -546,71 +439,23 @@
         1235,
         1236
       ],
-      "Glint's Winter": [
-        1312,
-        1307,
-        1308,
-        1309,
-        1310,
-        1311
+      "Gem Store Series 3 - Deathly": [
+        1248,
+        1243,
+        1244,
+        1245,
+        1246,
+        1247
       ],
-      "Jade": [
-        1679,
-        1680,
-        1681,
-        1687,
-        1689,
-        1690
+      "Gem Store Series 4 - Toxic": [
+        1249,
+        1250,
+        1251,
+        1252,
+        1253,
+        1254
       ],
-      "Jormag": [
-        1552,
-        1553,
-        1554,
-        1549,
-        1550,
-        1551
-      ],
-      "Kralkatorrik": [
-        1623,
-        1624,
-        1625,
-        1627,
-        1628,
-        1629
-      ],
-      "Lion's Arch Commemorative": [
-        1280,
-        1281,
-        1282,
-        1277,
-        1278,
-        1279
-      ],
-      "Lion's Arch Rebuild": [
-        1360,
-        1361,
-        1362,
-        1363,
-        1358,
-        1359
-      ],
-      "Lion's Arch Survivors": [
-        1271,
-        1272,
-        1273,
-        1274,
-        1275,
-        1276
-      ],
-      "Mad King": [
-        1370,
-        1371,
-        1372,
-        1373,
-        1374,
-        1375
-      ],
-      "Metallurgic": [
+      "Gem Store Series 5 - Metallurgic": [
         1265,
         1266,
         1267,
@@ -618,39 +463,47 @@
         1269,
         1270
       ],
-      "Mordremoth": [
-        1617,
-        1618,
-        1619,
-        1620,
-        1621,
-        1622
+      "Gem Store Series 6 - Lion's Arch Survivors": [
+        1271,
+        1272,
+        1273,
+        1274,
+        1275,
+        1276
       ],
-      "Norn": [
-        1645,
-        1646,
-        1647,
-        1648,
-        1649,
-        1650
+      "Gem Store Series 7 - Lion's Arch Commemorative": [
+        1280,
+        1281,
+        1282,
+        1277,
+        1278,
+        1279
       ],
-      "Primordus": [
-        1537,
-        1538,
-        1539,
-        1540,
-        1541,
-        1542
+      "Gem Store Series 8 - Taimi": [
+        1301,
+        1302,
+        1303,
+        1304,
+        1305,
+        1306
       ],
-      "Sacred": [
-        1633,
-        1634,
-        1635,
-        1636,
-        1637,
-        1638
+      "Gem Store Series 9 - Glint's Winter": [
+        1312,
+        1307,
+        1308,
+        1309,
+        1310,
+        1311
       ],
-      "Shadow": [
+      "Gem Store Series 10 - Crimson Lion": [
+        1333,
+        1334,
+        1335,
+        1336,
+        1337,
+        1338
+      ],
+      "Gem Store Series 11 - Shadow": [
         1348,
         1349,
         1350,
@@ -662,47 +515,23 @@
         1356,
         1357
       ],
-      "Solar and Lunar": [
-        1489,
-        1478,
-        1481,
-        1498,
-        1499,
-        1485
+      "Gem Store Series 12 - Lion's Arch Rebuild": [
+        1360,
+        1361,
+        1362,
+        1363,
+        1358,
+        1359
       ],
-      "Soo-Won": [
-        1691,
-        1692,
-        1693,
-        1694,
-        1696,
-        1698
+      "Gem Store Series 13 - Mad King": [
+        1370,
+        1371,
+        1372,
+        1373,
+        1374,
+        1375
       ],
-      "Taimi's": [
-        1301,
-        1302,
-        1303,
-        1304,
-        1305,
-        1306
-      ],
-      "Toxic": [
-        1249,
-        1250,
-        1251,
-        1252,
-        1253,
-        1254
-      ],
-      "Vibrant": [
-        1490,
-        1493,
-        1477,
-        1495,
-        1497,
-        1486
-      ],
-      "Winter Chimes": [
+      "Gem Store Series 14 - Winter Chimes": [
         1364,
         1365,
         1366,
@@ -710,13 +539,184 @@
         1368,
         1369
       ],
-      "Zhaitan": [
+      "Gem Store Series 15 - Blue Shift": [
+        1376,
+        1377,
+        1378,
+        1379,
+        1380,
+        1381,
+        1382,
+        1383,
+        1384
+      ],
+      "Gem Store Series 16 - Bloodstone": [
+        1456,
+        1457,
+        1458,
+        1453,
+        1454,
+        1455
+      ],
+      "Gem Store Series 17 - Vibrant": [
+        1490,
+        1493,
+        1477,
+        1495,
+        1497,
+        1486
+      ],
+      "Gem Store Series 18 - Solar and Lunar": [
+        1489,
+        1478,
+        1481,
+        1498,
+        1499,
+        1485
+      ],
+      "Gem Store Series 19 - Jormag": [
+        1552,
+        1553,
+        1554,
+        1549,
+        1550,
+        1551
+      ],
+      "Gem Store Series 20 - Primordus": [
+        1537,
+        1538,
+        1539,
+        1540,
+        1541,
+        1542
+      ],
+      "Gem Store Series 21 - Elonian Landscape": [
+        1573,
+        1574,
+        1575,
+        1576,
+        1577,
+        1579
+      ],
+      "Gem Store Series 22 - Zhaitan": [
         1584,
         1585,
         1580,
         1581,
         1582,
         1583
+      ],
+      "Gem Store Series 23 - Elonian Beasts": [
+        1592,
+        1593,
+        1594,
+        1578,
+        1595,
+        1596
+      ],
+      "Gem Store Series 24 - Awakened": [
+        1597,
+        1598,
+        1599,
+        1600,
+        1601,
+        1602
+      ],
+      "Gem Store Series 25 - Mordremoth": [
+        1617,
+        1618,
+        1619,
+        1620,
+        1621,
+        1622
+      ],
+      "Gem Store Series 26 - Kralkatorrik": [
+        1623,
+        1624,
+        1625,
+        1627,
+        1628,
+        1629
+      ],
+      "Gem Store Series 27 - Sacred": [
+        1633,
+        1634,
+        1635,
+        1636,
+        1637,
+        1638
+      ],
+      "Gem Store Series 28 - Charr": [
+        1639,
+        1640,
+        1641,
+        1642,
+        1643,
+        1644
+      ],
+      "Gem Store Series 29 - Norn": [
+        1645,
+        1646,
+        1647,
+        1648,
+        1649,
+        1650
+      ],
+      "Gem Store Series 30 - Aurene": [
+        1667,
+        1668,
+        1669,
+        1670,
+        1671,
+        1672
+      ],
+      "Gem Store Series 31 - Darkest Abyss": [
+        1682,
+        1683,
+        1684,
+        1685,
+        1686,
+        1688
+      ],
+      "Gem Store Series 32 - Soo-Won": [
+        1691,
+        1692,
+        1693,
+        1694,
+        1696,
+        1698
+      ],
+      "Gem Store Series 33 - Jade": [
+        1679,
+        1680,
+        1681,
+        1687,
+        1689,
+        1690
+      ],
+      "Black Lion Series 1 - Black Lion Dye Canister—Blue": [
+        1651,
+        1652,
+        1653,
+        1654
+      ],
+      "Black Lion Series 2 - Black Lion Dye Canister—Green": [
+        1655,
+        1656,
+        1657,
+        1658
+      ],
+      "Black Lion Series 3 - Black Lion Dye Canister—Red": [
+        1659,
+        1660,
+        1661,
+        1662
+      ],
+      "Black Lion Series 4 - Black Lion Dye Canister—Yellow": [
+        1663,
+        1664,
+        1665,
+        1666
       ]
     }
   }
