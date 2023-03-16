@@ -76,16 +76,20 @@
         6361,
         6495
       ],
-      "Decade": [
-        11025,
-        11027
-      ],
-      "Standalone: Anniversary": [
+      "Anniversary Series": [
         6890,
         6892,
         6895,
         6898,
         6902
+      ],
+      "Decade": [
+        11025,
+        11027
+      ],
+      "Standalone: Achievement Point": [
+        6253,
+        6353
       ],
       "Standalone: Guild": [
         2342,
@@ -107,8 +111,6 @@
       "Standalone: Other": [
         5653,
         6242,
-        6253,
-        6353,
         6618
       ]
     },
@@ -226,7 +228,7 @@
       "Standalone: Bjora Marches": [
         9017
       ],
-      "Standalone: Forging Steel": [
+      "Standalone: Eye of the North": [
         9249,
         9252
       ],
