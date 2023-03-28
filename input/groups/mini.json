@@ -498,7 +498,9 @@
         810
       ],
       "Standalone: Other": [
-        811
+        811,
+        886,
+        887
       ]
     },
     "Festival: Dragon Bash": {
@@ -924,35 +926,35 @@
         216,
         218
       ],
-      "Mount - Set 1: Spooky": [
+      "Mounts - Set 1: Spooky": [
         599,
         605,
         609,
         610,
         611
       ],
-      "Mount - Set 2: Cozy Wintersday": [
+      "Mounts - Set 2: Cozy Wintersday": [
         627,
         629,
         631,
         633,
         635
       ],
-      "Mount - Set 3: Branded": [
+      "Mounts - Set 3: Branded": [
         657,
         660,
         661,
         662,
         663
       ],
-      "Mount - Set 4: Awakened": [
+      "Mounts - Set 4: Awakened": [
         689,
         691,
         693,
         694,
         699
       ],
-      "Mount - Set 5: Exo-Suit": [
+      "Mounts - Set 5: Exo-Suit": [
         709,
         713,
         714,

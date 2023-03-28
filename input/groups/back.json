@@ -76,13 +76,6 @@
         6361,
         6495
       ],
-      "Anniversary Series": [
-        6890,
-        6892,
-        6895,
-        6898,
-        6902
-      ],
       "Decade": [
         11025,
         11027
@@ -90,6 +83,13 @@
       "Standalone: Achievement Point": [
         6253,
         6353
+      ],
+      "Standalone: Anniversary": [
+        6890,
+        6892,
+        6895,
+        6898,
+        6902
       ],
       "Standalone: Guild": [
         2342,
@@ -492,7 +492,8 @@
       ],
       "Standalone: Other - Cape + Glider Combo": [
         9732,
-        10888
+        10888,
+        11400
       ],
       "Standalone: Other - Plush": [
         2363,

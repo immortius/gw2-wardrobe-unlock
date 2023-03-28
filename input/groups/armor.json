@@ -2142,17 +2142,24 @@
       ]
     },
     "Festival: Super Adventure Festival": {
-      "Reality Rig Mk1": [
+      "Powered": [
+        11367,
+        11371,
+        11374,
+        11379,
+        11380,
+        11382,
+        11389,
+        11404,
+        11406
+      ],
+      "Reality Rig": [
         10790,
         10795,
-        10797
-      ],
-      "Reality Rig Mk1 > Reality Rig Mk2": [
+        10797,
         10781,
         10782,
-        10792
-      ],
-      "Reality Rig Mk1 > Reality Rig Mk2 > Reality Rig Mk3": [
+        10792,
         10770,
         10778,
         10779
@@ -2465,6 +2472,17 @@
         1274,
         1275
       ],
+      "Aspect Eye": [
+        8208,
+        8194,
+        8195,
+        8228,
+        8213,
+        8230,
+        8217,
+        8205,
+        8222
+      ],
       "Aurene's Crystalline": [
         9452,
         9458,
@@ -2495,6 +2513,17 @@
         11307,
         11308,
         11349
+      ],
+      "Enchanted Dragon Crown": [
+        8234,
+        8238,
+        8253,
+        8260,
+        8277,
+        8278,
+        8289,
+        8296,
+        8297
       ],
       "Etherbound": [
         8658,
@@ -2636,6 +2665,17 @@
         6910,
         6943
       ],
+      "Pointed Ears": [
+        11032,
+        11035,
+        11038,
+        11039,
+        11040,
+        11041,
+        11044,
+        11045,
+        11047
+      ],
       "Raven": [
         8463,
         8469,
@@ -2755,10 +2795,7 @@
         10953,
         10964,
         10965,
-        10967,
-        10969,
-        10992,
-        10993
+        10967
       ],
       "Standalone: Consortium Chest / Southsun Supply Crate": [
         996,
@@ -2896,11 +2933,14 @@
         10847,
         10849,
         10867,
+        10969,
+        10992,
+        10993,
         11063,
         11078,
         11097
       ],
-      "Standalone: Other - Head + Combo": [
+      "Standalone: Other - Head + Armor Combo": [
         833,
         839,
         840,
@@ -2932,7 +2972,7 @@
         10862,
         10865
       ],
-      "Standalone: Other - Head + Back Item Combo - Cape": [
+      "Standalone: Other - Head + Armor / Back Item Combo - Cape": [
         11143,
         11150,
         11151,
@@ -2944,28 +2984,6 @@
         7782,
         7800,
         7804
-      ],
-      "Standalone: Other - Head - Aspect Eye": [
-        8208,
-        8194,
-        8195,
-        8228,
-        8213,
-        8230,
-        8217,
-        8205,
-        8222
-      ],
-      "Standalone: Other - Head - Enchanted Dragon Crown": [
-        8234,
-        8238,
-        8253,
-        8260,
-        8277,
-        8278,
-        8289,
-        8296,
-        8297
       ],
       "Standalone: Other - Head - Fuzzy Hat": [
         1029,
@@ -3034,17 +3052,6 @@
         1190,
         1191,
         1192
-      ],
-      "Standalone: Other - Head - Pointed Ears": [
-        11032,
-        11035,
-        11038,
-        11039,
-        11040,
-        11041,
-        11044,
-        11045,
-        11047
       ],
       "Standalone: Other - Shoulder": [
         5793,
