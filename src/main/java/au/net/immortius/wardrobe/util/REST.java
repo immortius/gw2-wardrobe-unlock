@@ -41,7 +41,7 @@ public final class REST {
                 logger.error("Failed to download file '{}'", url, e);
                 return false;
             } catch (NotFoundException e) {
-                logger.error("Failed to download file '{}'", url, e);
+                logger.error("Failed to download file '{}'", url);
                 return false;
             }
         }

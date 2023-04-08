@@ -335,7 +335,7 @@ public class GatherVendorsFromWiki {
         }
         Elements itemType = doc.select("dt:matches(Item type)");
         if (!itemType.isEmpty() && itemType.next().text().equals("Container") && !config.ignoreContainers.contains(itemUrl.getUrl())) {
-            Collection<String> containerSkins = getContainerSkins(doc);
+            Collection<String> containerSkins = getContainerSkins(itemUrl, doc);
             if (!containerSkins.isEmpty()) {
                 result.addAll(containerSkins);
                 containers.add(itemUrl.getUrl());
@@ -345,13 +345,29 @@ public class GatherVendorsFromWiki {
         return result;
     }
 
-    private Collection<String> getContainerSkins(Document doc) throws IOException {
+    private Collection<String> getContainerSkins(WikiUrl itemUrl, Document doc) throws IOException {
         Set<String> result = Sets.newLinkedHashSet();
-        Elements contentsHeading = doc.select("h2:matches(Contents)");
+        Elements contentsHeading = doc.select("h2:matches(Contents):not(#mw-toc-heading)");
+        int level = 0;
         if (!contentsHeading.isEmpty()) {
             for (Element itemLink : contentsHeading.next().select("span ~ a")) {
                 result.addAll(getSkinId(new WikiUrl(itemLink.attr("href"))));
             }
+            if (result.isEmpty()) {
+                level = 1;
+                for (Element itemLink : contentsHeading.next().next().select("span ~ a")) {
+                    result.addAll(getSkinId(new WikiUrl(itemLink.attr("href"))));
+                }
+            }
+            if (result.isEmpty()) {
+                level = 2;
+                for (Element itemLink : contentsHeading.next().next().next().select("span ~ a")) {
+                    result.addAll(getSkinId(new WikiUrl(itemLink.attr("href"))));
+                }
+            }
+        }
+        if (!result.isEmpty()) {
+            System.out.println("Found level " + level + " list of contents for " + itemUrl);
         }
         return result;
     }

@@ -348,7 +348,8 @@
         851,
         875,
         884,
-        885
+        885,
+        842
       ],
       "Standalone: Other": [
         847,
@@ -498,7 +499,9 @@
         810
       ],
       "Standalone: Other": [
-        811
+        811,
+        886,
+        887
       ]
     },
     "Festival: Dragon Bash": {
