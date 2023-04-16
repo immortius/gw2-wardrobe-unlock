@@ -167,8 +167,9 @@ var acquisitionMethods = [
     //{ id : 'mountlicense09', name : "Bizarre Beasts Mount Adoption License", category : "Mount Adoption License"},
     //{ id : 'mountlicense10', name : "Lost Era Mount Adoption License", category : "Mount Adoption License"},
     //{ id : 'mountlicense11', name : "Deep Wilds Mount Adoption License", category : "Mount Adoption License"},
-    ////{ id : 'mountlicense12', name : "Canthan Menagerie Mount Adoption License", category : "Mount Adoption License"},
-    ////{ id : 'mountlicense13', name : "Imperial Wonders Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense12', name : "Canthan Menagerie Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense13', name : "Imperial Wonders Mount Adoption License", category : "Mount Adoption License"},
+    //{ id : 'mountlicense14', name : "Eternal Crossings Mount Adoption License", category : "Mount Adoption License"},
 
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}
 

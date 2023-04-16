@@ -967,7 +967,11 @@
         // Endless Smoke Shaman Tonic
         "91971": [292],
         // Endless Cloudseeker Tonic Container
-        "92773": [299]
+        "92773": [299],
+        // Replica of the Jade Throne
+        "97424": [317],
+        // Mining Rig Operator's Seat
+        "99419": [330]
       }
     },
     {

@@ -15,6 +15,9 @@
         4,
         5
       ],
+      "Standalone: Lost Orrian Jewelry Box": [
+        129
+      ],
       "Standalone: Racing": [
         734
       ],
@@ -30,7 +33,6 @@
         66,
         124,
         125,
-        129,
         289,
         582
       ]
@@ -555,9 +557,6 @@
         202,
         730
       ],
-      "Standalone: Mystic Forge": [
-        607
-      ],
       "Standalone: Other": [
         196,
         300,
@@ -571,6 +570,7 @@
         418,
         600,
         603,
+        607,
         608,
         614,
         731,
