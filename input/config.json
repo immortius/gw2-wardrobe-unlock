@@ -945,7 +945,9 @@
         // Endless Smoke Shaman Tonic
         "91971": [292],
         // Endless Cloudseeker Tonic Container
-        "92773": [299]
+        "92773": [299],
+        // Mining Rig Operator's Seat
+        "99419": [330]
       }
     },
     {
@@ -1084,7 +1086,7 @@
     ],
     "miniatureTypes": ["Miniature","Container"],
     "miniId": "mini",
-    "noveltyTypes": ["Novelty","Tonic","Gizmo","Tonic, Novelty","Gizmo, Novelty"],
+    "noveltyTypes": ["Novelty","Tonic","Gizmo","Tonic, Novelty","Gizmo, Novelty","Novelty, Gizmo"],
     "noveltyId": "novelty",
     "categoryPages": [
       "/wiki/Category:Vendors",

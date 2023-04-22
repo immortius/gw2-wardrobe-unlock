@@ -44,42 +44,46 @@
     // Deep Wilds
     361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,
     // Siege Turtle Advent
-
+    415,416,417,418,419,
     // Canthan Vulpine Jackal
-
+    429,430,431,
     // Canthan Cuckoo Springer
-
+    422,423,426,
     // Canthan Tigris Griffon
-
+    432,433,434,
     // Canthan Nian Warclaw
-
+    437,440,441,
     // Canthan Noble Skyscale
-
+    443,444,445,
     // Canthan Menagerie
-
+    447,448,449,450,452,453,454,455,456,457,458,459,460,461,
+    // Eternal Crossings
+    513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,
     // Imperial Wonders
-
+    475,476,477,478,481,483,485,487,488,491,492,495,496,497,498,
+    // Jade Tech Appearance
+    462,
     // Plush
     330,403,
     // Synergetics
     293,391,396,
     // Standalone: Other - Raptor
-    17,126,200,264,294,329,360,
+    17,126,200,264,294,329,360,505,
     // Standalone: Other - Springer
-    61,152,231,331,
+    61,152,231,331,499,
     // Standalone: Other - Skimmer
     57,168,311,358,
     // Standalone: Other - Jackal
-    46,97,220,287,332,359,406,
+    46,97,220,287,332,359,406,467,512,
     // Standalone: Other - Griffon
-    62,129,250,
+    62,129,250,473,
     // Standalone: Other - Roller Beetle
     104,
     // Standalone: Other - Warclaw
-    252,316,380,
+    252,316,380,484,
     // Standalone: Other - Skyscale
-    191,292,336
+    191,292,336,472,
     // Standalone: Other - Siege Turtle
-
+    471,504,528
   ]
 }
