@@ -98,6 +98,7 @@
         9051
       ],
       "Standalone: World Boss": [
+        2358,
         6621
       ],
       "Standalone: Other": [
@@ -105,7 +106,6 @@
         2325,
         2326,
         2341,
-        2358,
         2376,
         5653,
         6242,
@@ -260,7 +260,8 @@
         10271,
         10399,
         10458,
-        11322
+        11322,
+        11268
       ]
     },
     "Fractals of the Mists": {
@@ -452,7 +453,8 @@
         10503,
         10805,
         10941,
-        11051
+        11051,
+        11428
       ],
       "Standalone: Other + Miniature Combo": [
         6431
@@ -486,7 +488,8 @@
         11257
       ],
       "Standalone: Other - Cape + Armor Combo - Head": [
-        11144
+        11144,
+        11435
       ],
       "Standalone: Other - Cape + Glider Combo": [
         9732,
