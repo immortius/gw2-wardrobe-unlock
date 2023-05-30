@@ -630,7 +630,47 @@
         // Water Dragon Helm
         10918,10924,
         // Water Dragon Legguards
-        10950,10952
+        10950,10952,
+        // Battlelord's Hood Helm
+        11151, 11162,
+        // Reality Rig Mk2
+        10781, 10782,
+        // Minister's Hat
+        11261, 11276,
+        // Lambent Battlelord's Hood Helm
+        11143, 11150,
+        // Royal Pointed Ears
+        11039, 11044,
+        // Etherbound Helm
+        10987, 10997,
+        // Processing Line Control Bracers
+        11275, 11317,
+        // Elegant Silk Scarf
+        11199, 11223,
+        // Noble Pointed Ears
+        11038, 11040,
+        // Lunar Rabbit Helm
+        11216, 11221,
+        // Replica Oni Arms
+        11288, 11293,
+        // Grinning Tahkayun Mask
+        11266, 11290,
+        // Reality Rig Mk3
+        10770, 10778,
+        // Savage Scale Chest
+        11106, 11129,
+        // Reality Rig Mk1
+        10790, 10795,
+        // Pointed Ears
+        11032, 11035,
+        // Aurene's Crystalline Pauldrons
+        11182, 11188,
+        // Lunar Rabbit Stompers
+        11200, 11224,
+        // Savage Scale Loincloth
+        11100, 11124,
+        // Rift Warden Helm
+        11063, 11078
       ]
     },
     {
@@ -658,7 +698,8 @@
         // Rimed Verdant Wintersday Gift
         "92586": [9052,9053,9058,9060,9065,9066,9067,9069,9074,9075,9077,9079,9080,9088,9091,9092],
         // Luxon Hunter's Weapon Cache
-        "97435": [11271, 11278, 11283, 11292, 11295, 11296, 11298, 11303, 11306, 11311, 11312, 11313, 11320, 11321, 11333, 11339]
+        "97435": [11271, 11278, 11283, 11292, 11295, 11296, 11298, 11303, 11306, 11311, 11312, 11313, 11320, 11321, 11333, 11339],
+        "99666" : [11440, 11441, 11442, 11443, 11444, 11446, 11450, 11452, 11454, 11455, 11456, 11457, 11463, 11464, 11466, 11468]
       },
       "excludeIds": [5898,8350],
       "gwuIgnoreIds": [

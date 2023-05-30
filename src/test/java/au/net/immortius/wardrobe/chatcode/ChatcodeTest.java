@@ -37,6 +37,6 @@ public class ChatcodeTest {
 
     @Test
     public void test() {
-        assertEquals(testName, expected, Chatcode.create(type, id));
+        assertEquals(testName, expected, Chatcode.create(type, Integer.toString(id)));
     }
 }

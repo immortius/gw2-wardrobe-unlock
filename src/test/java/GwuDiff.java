@@ -21,7 +21,7 @@ public class GwuDiff {
 
     private static Logger logger = LoggerFactory.getLogger(GenerateContent.class);
 
-    private static final GenericType<Set<Integer>> ID_SET = new GenericType<Set<Integer>>() {
+    private static final GenericType<Set<String>> ID_SET = new GenericType<Set<String>>() {
     };
 
     private Gson gson;
@@ -52,8 +52,8 @@ public class GwuDiff {
             CacheAccessor<ItemData> cache = new CacheAccessor<ItemData>(gson, ItemData.class, config.paths.getApiPath().resolve(unlockCategoryConfig.source));
 
             if (Files.exists(newGwuFile) && Files.exists(oldGwuFile)) {
-                Set<Integer> newIds;
-                Set<Integer> oldIds;
+                Set<String> newIds;
+                Set<String> oldIds;
                 try (Reader newGwus = Files.newBufferedReader(newGwuFile)) {
                     newIds = gson.fromJson(newGwus, ID_SET.getType());
                 }
@@ -62,17 +62,17 @@ public class GwuDiff {
                 }
                 logger.info("Total added: ({})", newIds.size() - oldIds.size());
                 if (unlockCategoryConfig.source.equals("skins")) {
-                    for (Integer id : Sets.difference(newIds, oldIds)) {
+                    for (String id : Sets.difference(newIds, oldIds)) {
                         logger.info("+{} ({})", skins.get(id).get().getName(), id);
                     }
-                    for (Integer id : Sets.difference(oldIds, newIds)) {
+                    for (String id : Sets.difference(oldIds, newIds)) {
                         logger.info("-{} ({})", skins.get(id).get().getName(), id);
                     }
                 } else {
-                    for (Integer id : Sets.difference(newIds, oldIds)) {
+                    for (String id : Sets.difference(newIds, oldIds)) {
                         logger.info("+{} ({})", cache.get(id).get().getName(), id);
                     }
-                    for (Integer id : Sets.difference(oldIds, newIds)) {
+                    for (String id : Sets.difference(oldIds, newIds)) {
                         logger.info("-{} ({})", cache.get(id).get().getName(), id);
                     }
                 }
