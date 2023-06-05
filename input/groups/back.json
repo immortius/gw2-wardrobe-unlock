@@ -80,10 +80,6 @@
         11025,
         11027
       ],
-      "Standalone: Achievement Point": [
-        6253,
-        6353
-      ],
       "Standalone: Anniversary": [
         6890,
         6892,
@@ -97,19 +93,19 @@
         2344,
         9051
       ],
-      "Standalone: World Boss": [
-        2358,
-        6621
-      ],
       "Standalone: Other": [
         2318,
         2325,
         2326,
         2341,
+        2358,
         2376,
         5653,
         6242,
-        6618
+        6253,
+        6353,
+        6618,
+        6621
       ]
     },
     "Living World Season 1: Scarlet's War": {
@@ -194,7 +190,7 @@
       ]
     },
     "Path of Fire": {
-      "Standalone: Other": [
+      "Banners of Ancient Elona": [
         7458,
         7464,
         7692,
@@ -372,9 +368,11 @@
       "Standalone: Annual Customs": [
         8861
       ],
-      "Standalone: Other": [
+      "Standalone: Zephyrite Supply Box": [
         2349,
-        2350,
+        2350
+      ],
+      "Standalone: Other": [
         5456
       ]
     },

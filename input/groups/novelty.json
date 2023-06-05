@@ -221,11 +221,13 @@
         31,
         46
       ],
+      "Standalone: Zephyrite Supply Box": [
+        223
+      ],
       "Standalone: Other": [
         28,
         142,
-        150,
-        223
+        150
       ]
     },
     "Festival: Halloween": {
@@ -235,7 +237,7 @@
         166,
         178
       ],
-      "Standalone: Other": [
+      "Standalone: Trick-or-Treat Bag": [
         170,
         180
       ]
@@ -255,11 +257,13 @@
         206,
         257
       ],
-      "Standalone: Other": [
+      "Standalone: Wintersday Gift": [
         38,
         42,
         75,
-        133,
+        133
+      ],
+      "Standalone: Other": [
         277
       ]
     },

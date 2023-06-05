@@ -1,7 +1,11 @@
 {
   "name": "pvptournament",
   "contents": [
-    // Llama,
-    476,478
+    // Bronze Llama
+    476,
+    // Silver Llama
+    478,
+    // Gold Llama
+    486
   ]
 }
