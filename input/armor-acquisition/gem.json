@@ -78,9 +78,7 @@
     // Water Dragon
     10906,10907,10916,10918,10920,10924,10925,10927,10928,10932,10943,10950,10951,10952,10953,10964,10965,10967,
     10969,10992,10993,
-    // Standalone: Extra Life
-    1034,1036,1038,
-    // Standalone - Head Armor
+    // Standalone: Other - Head
     975,988,995,999,
     1000,1001,1002,1003,1007,1008,1009,1010,1012,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1030,1031,1035,1037,1049,1050,1051,
     1222,1223,1224,1225,1226,1227,1250,1251,1252,
@@ -91,36 +89,38 @@
     9551,9554,9559,9570,9574,9575,9578,9582,9586,9613,9614,9616,9640,9649,9651,9695,9699,9707,
     10019,10020,10038,10155,10157,10160,10167,10173,10193,10201,10212,10214,10761,10764,10765,10814,10817,10822,10833,10834,10835,
     11063,11078,11097,
-    // Standalone - Head Armor - Fuzzy Hat
+    // Standalone: Other - Head - Fuzzy Hat
     966,968,969,970,972,973,974,976,977,978,1004,1005,1006,1015,1016,1017,1029,1032,1033,1039,1040,7280,7283,7286,
-    // Standalone - Head Armor - Glasses / Sunglasses
+    // Standalone: Other - Head - Glasses / Sunglasses
     967,989,990,991,982,986,987,971,992,993,994,1011,1013,1014,1018,
-    // Standalone - Head Armor - Glowing Mask
+    // Standalone: Other - Head - Glowing Mask
     826,831,832,5698,5699,5700,5746,5747,5748,
-    // Standalone - Head Armor - Battlelord
+    // Standalone: Other - Head - Battlelord
     11151,11162,11167,
     11143,11150,11158,
-    // Standalone - Head Armor - Magnus's Eye Patch
+    // Standalone: Other - Head - Magnus's Eye Patch
     833,839,841,840,842,843,
-    // Standalone - Head Armor - Mask of the Crown / Mask of the Jubilee / Mask of the Queen
+    // Standalone: Other - Head - Mask of the Crown / Mask of the Jubilee / Mask of the Queen
     1184,1185,1186,1187,1188,1189,1190,1191,1192,
-    // Standalone - Head Armor - Shrine Guardian Ears
+    // Standalone: Other - Head - Shrine Guardian Ears
     8685,8727,8741,
     8718,8743,8751,
-    // Standalone - Head Armor - Skyscale Horns
+    // Standalone: Other - Head - Skyscale Horns
     8816,8822,8841,
     8814,8834,8837,
-    // Standalone - Head Armor - Unicorn Horn
+    // Standalone: Other - Head - Unicorn Horn
     10854,10862,10865,
     10846,10852,10853,
-    // Standalone - Head Armor - Winter Antlers
+    // Standalone: Other - Head - Winter Antlers
     8538,8543,8544,
     8518,8524,8545,
-    // Standalone - Shoulder Armor
+    // Standalone: Other - Shoulder
     5793,5794,5795,7064,7066,7071,9796,9817,9820,10043,10044,10046,11199,11223,11229,
-    // Standalone - Hand Armor
+    // Standalone: Other - Hand
     6700,6727,6732,8185,8186,8187,8858,8866,8873,10454,10584,10641,10880,10896,10897,
-    // Standalone - Foot Armor
+    // Standalone: Other - Chest
+    11479,11499,11505,
+    // Standalone: Other - Foot
     9733,9757,9779,
     11350,11354,11355,11357,11360,11363
   ]
