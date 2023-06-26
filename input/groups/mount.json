@@ -8,7 +8,7 @@
         3
       ]
     },
-    "Path of Fire": {
+    "(X2) Guild Wars 2: Path of Fire": {
       "Standalone: Renown Heart": [
         2,
         6
@@ -17,13 +17,13 @@
         4
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik": {
+    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
       "Standalone: Other": [
         103,
         186
       ]
     },
-    "End of Dragons": {
+    "(X3) Guild Wars 2: End of Dragons": {
       "Standalone: Other": [
         397
       ]
@@ -155,6 +155,9 @@
         447,
         517
       ],
+      "Jade Tech": [
+        462
+      ],
       "Kintsugi": [
         302,
         374
@@ -276,7 +279,6 @@
         367,
         450,
         456,
-        462,
         496,
         498,
         505,

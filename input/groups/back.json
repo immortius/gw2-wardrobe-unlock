@@ -108,7 +108,7 @@
         6621
       ]
     },
-    "Living World Season 1: Scarlet's War": {
+    "(LW1) Living World Season 1: Scarlet's War": {
       "Spinal Blades": [
         2337,
         2328,
@@ -133,14 +133,14 @@
         2381
       ]
     },
-    "Living World Season 2: Glint's Prophecy": {
+    "(LW2) Living World Season 2: Glint's Prophecy": {
       "Vine / Mawdrey": [
         5544,
         5545,
         5532
       ]
     },
-    "Heart of Thorns": {
+    "(X1) Guild Wars 2: Heart of Thorns": {
       "Order Series 1: Durmand Priory": [
         6296,
         6170,
@@ -161,7 +161,7 @@
         6279
       ]
     },
-    "Living World Season 3: Glint's Legacy": {
+    "(LW3) Living World Season 3: Glint's Legacy": {
       "Druid Stone / The Wayfarer's Henge": [
         7209,
         7216,
@@ -189,7 +189,7 @@
         7089
       ]
     },
-    "Path of Fire": {
+    "(X2) Guild Wars 2: Path of Fire": {
       "Banners of Ancient Elona": [
         7458,
         7464,
@@ -197,7 +197,7 @@
         7631
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik": {
+    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
       "Inquest / Mark Y Golem": [
         8057,
         8049,
@@ -212,7 +212,7 @@
         8169
       ]
     },
-    "Living World Season 5: The Icebrood Saga": {
+    "(LW5) Living World Season 5: The Icebrood Saga": {
       "Standalone: Grothmar Valley": [
         8924,
         8931,
@@ -236,7 +236,7 @@
         9991
       ]
     },
-    "End of Dragons": {
+    "(X3) Guild Wars 2: End of Dragons": {
       "Echovald Backpiece": [
         10457,
         10647
@@ -260,7 +260,11 @@
         11268
       ]
     },
-    "Fractals of the Mists": {
+    "(X4) Guild Wars 2: Secrets of the Obscure": {
+      "Standalone: Other": [
+      ]
+    },
+    "Cooperative: Fractals of the Mists": {
       "Fractal Capacitor": [
         2377,
         2378,
@@ -273,7 +277,7 @@
         6474
       ]
     },
-    "Raid": {
+    "Cooperative: Raid": {
       "Standalone: Spirit Vale": [
         6135
       ],

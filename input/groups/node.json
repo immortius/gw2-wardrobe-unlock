@@ -5,18 +5,18 @@
         "enchanted_treasure_chest"
       ]
     },
-    "Living World Season 1: Scarlet's War": {
+    "(LW1) Living World Season 1: Scarlet's War": {
       "Standalone: Other": [
         "krait_obelisk",
         "sprocket_generator"
       ]
     },
-    "Living World Season 2: Glint's Prophecy": {
+    "(LW2) Living World Season 2: Glint's Prophecy": {
       "Standalone: The Silverwastes": [
         "bandit_chest"
       ]
     },
-    "Heart of Thorns": {
+    "(X1) Guild Wars 2: Heart of Thorns": {
       "Standalone: Other": [
         "airship_cargo",
         "aurilium_node",
@@ -24,7 +24,7 @@
         "exalted_chest"
       ]
     },
-    "Living World Season 3: Glint's Legacy": {
+    "(LW3) Living World Season 3: Glint's Legacy": {
       "Standalone: Bloodstone Fen": [
         "bloodstone_crystals"
       ],
@@ -44,7 +44,7 @@
         "orrian_oyster_node"
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik": {
+    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
       "Standalone: Domain of Istan": [
         "brandstone_node"
       ],
@@ -64,7 +64,7 @@
         "mistonium_node"
       ]
     },
-    "Living World Season 5: The Icebrood Saga": {
+    "(LW5) Living World Season 5: The Icebrood Saga": {
       "Standalone: Grothmar Valley": [
         "bound_hatched_chili_pepper_node"
       ],

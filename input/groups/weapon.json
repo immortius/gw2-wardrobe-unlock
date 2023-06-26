@@ -1768,7 +1768,7 @@
         8781
       ]
     },
-    "Living World Season 1: Scarlet's War": {
+    "(LW1) Living World Season 1: Scarlet's War": {
       "Living World Return Series - Lion's Champion": [
         11101,
         11104,
@@ -1831,7 +1831,7 @@
         5425
       ]
     },
-    "Living World Season 2: Glint's Prophecy": {
+    "(LW2) Living World Season 2: Glint's Prophecy": {
       "Ambrite": [
         5516,
         5517,
@@ -1855,7 +1855,7 @@
         5790
       ]
     },
-    "Heart of Thorns": {
+    "(X1) Guild Wars 2: Heart of Thorns": {
       "Elite Specialization Series 1 - Tier 1": [
         6471,
         6313,
@@ -2040,7 +2040,7 @@
         6491
       ]
     },
-    "Living World Season 3: Glint's Legacy": {
+    "(LW3) Living World Season 3: Glint's Legacy": {
       "Carnival": [
         6944,
         6945,
@@ -2067,7 +2067,7 @@
         7135
       ]
     },
-    "Path of Fire": {
+    "(X2) Guild Wars 2: Path of Fire": {
       "Elite Specialization Series 2 - Tier 1": [
         7397,
         7718,
@@ -2195,7 +2195,7 @@
         7422
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik": {
+    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
       "Astral": [
         7840,
         7842,
@@ -2312,7 +2312,7 @@
         8587
       ]
     },
-    "Living World Season 5: The Icebrood Saga": {
+    "(LW5) Living World Season 5: The Icebrood Saga": {
       "Ancient Boreal": [
         9010,
         9012,
@@ -2638,7 +2638,7 @@
         9993
       ]
     },
-    "End of Dragons": {
+    "(X3) Guild Wars 2: End of Dragons": {
       "Elite Specialization Series 3 - Tier 1": [
         10245,
         10246,
@@ -3007,7 +3007,11 @@
         10837
       ]
     },
-    "Fractals of the Mists": {
+    "(X4) Guild Wars 2: Secrets of the Obscure": {
+      "Standalone: Other": [
+      ]
+    },
+    "Cooperative: Fractals of the Mists": {
       "Abyssal Fractal": [
         9587,
         9588,
@@ -3087,7 +3091,7 @@
         6864
       ]
     },
-    "Raid": {
+    "Cooperative: Raid": {
       "Shiny": [
         8782,
         8787,

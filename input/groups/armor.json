@@ -1086,7 +1086,7 @@
         8123
       ]
     },
-    "Living World Season 1: Scarlet's War": {
+    "(LW1) Living World Season 1: Scarlet's War": {
       "Wurmslayer": [
         2000,
         2001,
@@ -1143,7 +1143,7 @@
         2026
       ]
     },
-    "Living World Season 2: Glint's Prophecy": {
+    "(LW2) Living World Season 2: Glint's Prophecy": {
       "Adventurer": [
         5488,
         5480,
@@ -1196,7 +1196,7 @@
         5727
       ]
     },
-    "Heart of Thorns": {
+    "(X1) Guild Wars 2: Heart of Thorns": {
       "Elite Specialization Series 1": [
         6418,
         6050,
@@ -1285,7 +1285,7 @@
         6896
       ]
     },
-    "Living World Season 3: Glint's Legacy": {
+    "(LW3) Living World Season 3: Glint's Legacy": {
       "Standalone: Bloodstone Fen": [
         6856,
         6858,
@@ -1323,7 +1323,7 @@
         7316
       ]
     },
-    "Path of Fire": {
+    "(X2) Guild Wars 2: Path of Fire": {
       "Elite Specialization Series 2": [
         7441,
         7411,
@@ -1436,7 +1436,7 @@
         7679
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik": {
+    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
       "Corsair": [
         7836,
         7844,
@@ -1537,7 +1537,7 @@
         8032
       ]
     },
-    "Living World Season 5: The Icebrood Saga": {
+    "(LW5) Living World Season 5: The Icebrood Saga": {
       "Bear Ceremonial": [
         9365,
         9368,
@@ -1634,7 +1634,7 @@
         9526
       ]
     },
-    "End of Dragons": {
+    "(X3) Guild Wars 2: End of Dragons": {
       "Elite Specialization Series 3": [
         10297,
         10321,
@@ -1824,7 +1824,11 @@
         11323
       ]
     },
-    "Raid": {
+    "(X4) Guild Wars 2: Secrets of the Obscure": {
+      "Standalone: Other": [
+      ]
+    },
+    "Cooperative: Raid": {
       "Dhuum": [
         7872,
         7905,
