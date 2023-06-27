@@ -1,16 +1,10 @@
 {
   "topLevelCategories": {
-    "Core": {
-      "Starter": [
-        1
-      ],
-      "Standalone: Renown Heart": [
-        3
-      ]
-    },
     "(X2) Guild Wars 2: Path of Fire": {
       "Standalone: Renown Heart": [
+        1,
         2,
+        3,
         6
       ],
       "Standalone: Other": [
@@ -26,6 +20,10 @@
     "(X3) Guild Wars 2: End of Dragons": {
       "Standalone: Other": [
         397
+      ]
+    },
+    "(X4) Guild Wars 2: Secrets of the Obscure": {
+      "Standalone: Other": [
       ]
     },
     "Competitive: Player vs. Player / World vs. World": {
