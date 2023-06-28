@@ -21,12 +21,14 @@
       "Standalone: Racing": [
         734
       ],
+      "Standalone: World Boss": [
+        193,
+        194
+      ],
       "Standalone: Other": [
         66,
         124,
         125,
-        193,
-        194,
         289,
         582
       ]
@@ -41,6 +43,10 @@
         878,
         879
       ],
+      "Standalone: World Boss": [
+        214,
+        217
+      ],
       "Standalone: Other": [
         156,
         163,
@@ -49,8 +55,6 @@
         169,
         205,
         206,
-        214,
-        217,
         223
       ]
     },
@@ -199,8 +203,6 @@
       "Standalone: Other": [
         500,
         501,
-        503,
-        505,
         508,
         509,
         510,
@@ -220,13 +222,17 @@
         557,
         560,
         562,
-        563,
-        572,
         573,
         574,
         575,
         579,
         585
+      ],
+      "Standalone: Other - Djinn": [
+        503,
+        505,
+        563,
+        572
       ],
       "Standalone: Other - Elite Specialization Mentor": [
         506,

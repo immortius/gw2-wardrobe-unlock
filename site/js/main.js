@@ -17,8 +17,8 @@ var acquisitionMethods = [
     //{ id : "achievementpoint", name : "Achievement Point", category : "General"},
     { id : 'hallofmonuments', name : "Hall of Monuments", category : "General"},
     { id : "story", name : "Story Reward", category : "General"},
-    //{ id : "worldboss", name : "World Boss", category : "General"},
-    { id : "adventure", name : "Adventure", category : "General"},
+    //{ id : "event", name : "Event Reward", category : "General"},
+    { id : "adventure", name : "Adventure Reward", category : "General"},
 
     { id : "birthday1", name : "First Birthday", category : "General - Anniversary"},
     { id : "birthday3", name : "Third Birthday", category : "General - Anniversary"},

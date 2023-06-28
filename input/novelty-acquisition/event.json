@@ -1,9 +1,17 @@
 {
   "name": "event",
   "contents": [
-    // Fractals of the Mists
-    121,
-    // Festival: Wintersday
-    145,151,171,188,206
+    // Core
+    122,191,
+    // Living World Season 2: Glint's Prophecy
+    195,
+    // Heart of Thorns
+    102,214,234,
+    // Path of Fire
+    218,
+    // Living World Season 4: Rise of Kralkatorrik
+    233,
+    // Living World Season 5: The Icebrood Saga
+    292,299
   ]
 }

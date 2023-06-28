@@ -2,17 +2,24 @@
   "name": "event",
   "contents": [
     // Core
+    193,194,
+    // Core - Siege Golem
     130,131,132,
-    129,289,
-    // Raid
-    368,370,371,372,373,375,376,377,
-    389,390,391,392,393,394,
-    401,402,403,
-    436,438,440,441,442,
-    621,622,623,
-    721,722,723,725,
-    763,764,765,
-    // Festival: Dragon Bash
-    157,158,159
+    // Living World Season 1: Scarlet's War
+    214,217,
+    // Living World Season 2: Glint's Prophecy
+    298,
+    // Path of Fire
+    508,509,525,535,549,579,
+    // Path of Fire - Djinn
+    503,505,563,572,
+    // Path of Fire - Elite Specialization Mentor
+    506,518,531,541,545,558,565,566,569,
+    // Living World Season 4: Rise of Kralkatorrik - Elemental Hydra Head
+    658,668,672,
+    // Living World Season 5: The Icebrood Saga
+    778,780,814,817,818,
+    // End of Dragons
+    884
   ]
 }
