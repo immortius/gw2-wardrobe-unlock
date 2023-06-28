@@ -2,10 +2,10 @@
   "name": "event",
   "contents": [
     // Core
-    1991,1992,1993,1994,1995,2011,
-    // Living World Season 1: Scarlet's War - Wurmslayer
+    1993,1994,1995,
+    // Living World Season 1 - Wurmslayer
     1998,2003,2001,1999,2000,2004,2002,1997,1996,
-    // Living World Season 2: Glint's Prophecy - Carapace
+    // Living World Season 2 - Carapace
     5710,5737,5743,
     // Heart of Thorns - Bladed
     6244,6254,6381,
@@ -15,7 +15,7 @@
     6283,6456,6484,
     // Path of Fire - Bounty Hunter
     7648,7426,7493,7653,7467,7695,7504,7570,7635,7701,7509,7703,7639,7640,7675,7390,7550,7455,
-    // Living World Season 5: The Icebrood Saga - Raven Ceremonial
+    // Living World Season 5 - Raven Ceremonial
     9158,9162,9177
   ]
 }

@@ -1,54 +1,61 @@
 {
   "name": "story",
   "contents": [
-    // Starter
+    // Core - Starter - Elementalist
     2049,2048,2050,2051,
+    // Core - Starter - Mesmer
     2058,2059,2060,
+    // Core - Starter - Necromancer
     2045,2046,2047,
+    // Core - Starter - Engineer
     2053,2054,
+    // Core - Starter - Thief
     2055,2056,2057,
+    // Core - Starter - Guardian
     2043,2044,2052,
+    // Core - Starter - Revenant
     5920,5891,5885,
-    224,257,258,
-    // Asura Series 1 - Adept / Protean / Galvanic
+    // Core - Asura Series 1 - Adept / Protean / Galvanic
     273,276,281,
-    // Charr Series 1 - Invoker / Drover / Warband
+    // Core - Charr Series 1 - Invoker / Drover / Warband
     337,333,328,
-    // Human Series 1 - Researcher / Scout / Commander
+    // Core - Human Series 1 - Researcher / Scout / Commander
     387,392,381,
-    // Norn Series 1 - Sheepskin / Wolfborn / Dolyak
+    // Core - Norn Series 1 - Sheepskin / Wolfborn / Dolyak
     438,437,445,
-    // Sylvari Series 1 - Snapdragon / Evergreen / Arborist
+    // Core - Sylvari Series 1 - Snapdragon / Evergreen / Arborist
     490,493,500,
-    // Loot Series 1 - Apprentice / Rawhide / Chainmail
+    // Core - Loot Series 1 - Apprentice / Rawhide / Chainmail
     5,6,19,1,2,2041,
-    // Loot Series 2 - Country / Studded / Worn Chain
+    // Core - Loot Series 2 - Country / Studded / Worn Chain
     13,18,53,
-    // Loot Series 3 - Magician / Swindler / Worn Scale
+    // Core - Loot Series 3 - Magician / Swindler / Worn Scale
     37,34,70,31,28,60,24,23,66,
-    // Loot Series 4 - Cabalist / Privateer / Reinforced Scale
+    // Core - Loot Series 4 - Cabalist / Privateer / Reinforced Scale
     49,82,103,78,80,102,75,44,101,41,74,77,
-    // Loot Series 5 - Conjurer / Marauder / Banded
-    54,63,83,90,104,106,
-    // Loot Series 6 - Seer / Sneakthief / Scallywag
+    // Core - Loot Series 5 - Conjurer / Marauder / Banded
+    54,63,83,90,104,105,106,1699,1697,1733,
+    // Core - Loot Series 6 - Seer / Sneakthief / Scallywag
     39,9,10,45,30,94,35,43,11,12,95,47,33,38,7,8,27,92,
-    // Karma Series 1 - Devout / Rogue / Militia
+    // Core - Karma Series 1 - Devout / Rogue / Militia
     58,86,
-    // Standalone: Other
-    854,855,856,
-    // Apostle / Stalwart / Heavy Scale
-    1501,1589,1704,
-    // Carapace
+    // Core - Crafting Series 1 - Embroidered / Seeker / Chain
+    141,142,153,170,257,
+    // Core - Crafting Series 2 - Student / Outlaw / Scale
+    224,258,
+    // Core - Crafting Series 5 - Feathered / Prowler / Barbaric
+    197,199,206,235,
+    // Core
+    854,855,856,1991,1992,2011,
+    // Living World Season 2 - Carapace
     5711,5714,5724,5735,5736,5742,
-    // Bladed
+    // Heart of Thorns - Bladed
     6247,6338,6275,
-    // Leystone
+    // Heart of Thorns - Leystone
     6148,6185,6339,6426,6308,6420,6248,6154,6146,6332,6317,6436,6151,6315,6354,6241,6232,6433,
-    // Elonian
+    // Path of Fire - Elonian
     7536,7586,7512,7541,7672,7475,7604,7396,7522,7713,7696,7432,7375,7486,7399,7400,7430,7662,
-    // Embroidered / Marauder / Barbaric
-    141,142,153,170,
-    105,1699,1697,1733,
-    197,199,206,235
+    // Competitive - Apostle / Stalwart / Heavy Scale
+    1501,1589,1704
   ]
 }

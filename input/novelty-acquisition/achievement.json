@@ -1,10 +1,14 @@
 {
   "name": "achievement",
   "contents": [
+    // Core - Ley-Line Anomaly
+    202,
+    // Core - Community Goal Reward
+    283,288,304,308,
     // Core
-    12,202,283,288,304,308,
+    12,
     // Living World Season 1: Scarlet's War
-    28,47,49,140,
+    140,
     // Living World Season 2: Glint's Prophecy
     230,
     // Raid

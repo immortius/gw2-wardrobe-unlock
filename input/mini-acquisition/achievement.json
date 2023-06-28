@@ -1,12 +1,14 @@
 {
   "name": "achievement",
   "contents": [
+    // Core
+    582,
     // Living World Season 1: Scarlet's War
-    163,167,168,169,195,206,
+    163,195,206,
     // Heart Of Thorns
     350,354,396,
     // Living World Season 3: Glint's Legacy
-    582,492,424,
+    424,492,
     // Path Of Fire
     500,510,527,540,547,555,562,573,575,
     // Living World Season 4: Rise of Kralkatorrik
@@ -18,16 +20,16 @@
     // Fractals of the Mists
     360,890,
     // Festival: Lunar New Year
-    650,651,748,
+    650,651,
     // Festival: Super Adventure Festival
-    749,810,887,
+    887,
     // Festival: Festival of the Four Winds
     170,
     // Festival: Halloween
-    202,301,730,733,834,
+    301,733,834,
     // Festival: Wintersday
-    115,116,117,118,119,310,636,738,
+    115,116,117,118,119,310,636,
     // Gem Store
-    369,796
+    796
   ]
 }
