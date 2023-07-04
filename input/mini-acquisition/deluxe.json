@@ -1,13 +1,13 @@
 {
   "name": "deluxe",
   "contents": [
-    // Standalone: Deluxe Upgrade
-    1,319,
-    // Standalone: Extra Life
-    181,
-    // Standalone: Funko POP!
-    792,793,795,
-    // Standalone: Other
-    497
+    // Guild Wars 2 Deluxe Upgrade
+    1,
+    // Heart of Thorns Deluxe Upgrade
+    319,
+    // Path of Fire Pre-purchase
+    497,
+    // Funko POP!
+    792,793,795
   ]
 }

@@ -33,6 +33,70 @@
       ]
     },
     "Gem Store": {
+      "Gem Store Series 1 - Spooky": [
+        13,
+        14,
+        15,
+        16,
+        19
+      ],
+      "Gem Store Series 2 - Cozy Wintersday": [
+        52,
+        53,
+        56,
+        58,
+        60,
+        235
+      ],
+      "Gem Store Series 3 - Branded": [
+        66,
+        68,
+        70,
+        75,
+        76,
+        164,
+        195,
+        234
+      ],
+      "Gem Store Series 4 - Exo-Suit": [
+        92,
+        93,
+        94,
+        95,
+        96,
+        303,
+        371
+      ],
+      "Gem Store Series 5 - Awakened": [
+        98,
+        99,
+        100,
+        101,
+        102,
+        278
+      ],
+      "Gem Store Series 6 - Mad Realm": [
+        130,
+        131,
+        132,
+        133,
+        134,
+        304
+      ],
+      "Gem Store Series 7 - Shiverpeaks": [
+        153,
+        154,
+        155,
+        157,
+        158
+      ],
+      "Gem Store Series 8 - Mad King": [
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
       "Alloyed": [
         145,
         169,
@@ -63,14 +127,6 @@
         497,
         518
       ],
-      "Awakened": [
-        98,
-        99,
-        100,
-        101,
-        102,
-        278
-      ],
       "Bioluminescent / Lucent": [
         47,
         196,
@@ -96,24 +152,6 @@
         487,
         515
       ],
-      "Branded": [
-        66,
-        68,
-        70,
-        75,
-        76,
-        164,
-        195,
-        234
-      ],
-      "Cozy Wintersday": [
-        52,
-        53,
-        56,
-        58,
-        60,
-        235
-      ],
       "Darkmist": [
         313,
         350,
@@ -130,15 +168,6 @@
         307,
         352,
         362
-      ],
-      "Exo-Suit": [
-        92,
-        93,
-        94,
-        95,
-        96,
-        303,
-        371
       ],
       "Heavenly Thunder / Storm": [
         24,
@@ -175,21 +204,6 @@
         418,
         523
       ],
-      "Mad King": [
-        222,
-        223,
-        224,
-        225,
-        226
-      ],
-      "Mad Realm": [
-        130,
-        131,
-        132,
-        133,
-        134,
-        304
-      ],
       "Oceanic": [
         452,
         476
@@ -211,20 +225,6 @@
       "Sand Souled": [
         146,
         171
-      ],
-      "Shiverpeaks": [
-        153,
-        154,
-        155,
-        157,
-        158
-      ],
-      "Spooky": [
-        13,
-        14,
-        15,
-        16,
-        19
       ],
       "Star / Star Blessed": [
         12,
