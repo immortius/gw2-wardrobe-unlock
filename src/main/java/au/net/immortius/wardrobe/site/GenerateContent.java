@@ -40,12 +40,12 @@ import java.util.stream.Collectors;
 public class GenerateContent {
 
     private static final String UNCLASSIFIED_GROUP_NAME = "New releases";
-    private static final String GOLD = "gold";
-    private static final String KARMA = "karma";
     private static final String TRADINGPOST = "tp";
+    private static final String VENDOR = "vendor";
+    private static final String CRAFT = "craft";
+    private static final String GOLD = "gold";
     private static final String GUARANTEED_WARDROBE_UNLOCK = "gwu";
     private static final String BOUNTY = "bounty";
-    private static final String CRAFT = "craft";
     private static final GenericType<Map<String, TradingPostEntry>> PRICE_MAP_TYPE = new GenericType<Map<String, TradingPostEntry>>() {
     };
     private static final GenericType<Map<String, Collection<String>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<String, Collection<String>>>() {
@@ -250,7 +250,7 @@ public class GenerateContent {
 
         for (UnlockData unlock : unlockDataMap.values()) {
             if (!unlock.getVendors().isEmpty()) {
-                unlock.sources.add("vendor");
+                unlock.sources.add(VENDOR);
                 unlock.getVendors().forEach(vendorEntry -> unlock.sources.addAll(extractVendorSources(vendorEntry)));
             }
         }
@@ -335,15 +335,6 @@ public class GenerateContent {
         for (CostComponent costComponent : vendorEntry.cost) {
             sources.add(costComponent.type);
         }
-        // If there is a cost component besides gold or karma, then
-        // remove gold/karma from the sources - we want to emphasize
-        // the primary component of the cost and not muddle things
-        if (sources.size() > 1) {
-            sources.remove(GOLD);
-        }
-        if (sources.size() > 1) {
-            sources.remove(KARMA);
-        }
         return sources;
     }
 
@@ -421,8 +412,8 @@ public class GenerateContent {
                         readItem(bestSellPrice.getItemId())
                                 .ifPresent(i -> bestSellPrice.setItemName(i.getName()));
                         unlockData.priceData = tpEntry;
-                        unlockData.sources.add(GOLD);
                         unlockData.sources.add(TRADINGPOST);
+                        unlockData.sources.add(GOLD);
                     }
 
                 }
@@ -447,6 +438,7 @@ public class GenerateContent {
                 unlock.id = emoteData.id;
                 unlock.name = emoteData.id.substring(0, 1).toUpperCase(Locale.ROOT) + emoteData.id.substring(1);
                 unlock.sources = Sets.newLinkedHashSet();
+                unlock.type = "Emote";
                 unlock.rarity = determineRarity(itemData.id, itemData, unlockItems);
                 if (isCraftable(itemData.id, unlockItems, craftableItems)) {
                     unlock.sources.add(CRAFT);
@@ -473,6 +465,15 @@ public class GenerateContent {
                 unlock.id = itemData.id;
                 unlock.name = itemData.getName();
                 unlock.sources = Sets.newLinkedHashSet();
+                // TODO: Implement type and subtype
+                /*
+                unlock.type = itemData.type;
+                if (unlock.type.equals("Armor")) {
+                    unlock.subtype = itemData.details.weight_class + " " + itemData.details.type;
+                } else {
+                    unlock.subtype = itemData.details.type;
+                }
+                */
                 unlock.rarity = determineRarity(itemData.id, itemData, unlockItems);
                 if (isCraftable(itemData.id, unlockItems, craftableItems)) {
                     unlock.sources.add(CRAFT);

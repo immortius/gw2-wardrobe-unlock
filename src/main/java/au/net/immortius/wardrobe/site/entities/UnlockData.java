@@ -16,6 +16,8 @@ public class UnlockData {
     public String color;
     public int xOffset;
     public int yOffset;
+    public String type;
+    public String subtype;
     public Rarity rarity;
     public String chatcode;
     public Set<String> sources;

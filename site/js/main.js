@@ -1116,6 +1116,17 @@ function showDetails(item, prefix) {
     $('#' + prefix + 'selection-icon').replaceWith(selectionIcon);
     $('#' + prefix + 'selection-name').children('span').text(item.name);
     $('#' + prefix + 'selection-group').children('span').text(item.groupName);
+    if (item.type) {
+        $('#' + prefix + 'selection-type').children('span').text(item.type);
+        if (item.subtype) {
+            $('#' + prefix + 'selection-subtype').children('span').text(item.subtype);
+        } else {
+            $('#' + prefix + 'selection-subtype').children('span').text('None');
+        }
+    } else {
+        $('#' + prefix + 'selection-type').children('span').text('Unknown');
+        $('#' + prefix + 'selection-subtype').children('span').text('Unknown');
+    }
     if (item.rarity) {
         $('#' + prefix + 'selection-rarity').children('span').text(item.rarity);
     } else {
