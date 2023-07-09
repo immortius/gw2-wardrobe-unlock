@@ -95,6 +95,12 @@
       "cachePath": "nodes",
       "bulkSupported": false,
       "stringIds": true
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/titles",
+      "cachePath": "titles",
+      "bulkSupported": false,
+      "stringIds": true
     }
   ],
   "prices": {
@@ -1062,6 +1068,12 @@
 //      "name": "Other: Mist Champion Skins",
 //      "source": "heroes",
 //      "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes"
+//    }//,
+//    {
+//      "id": "title",
+//      "name": "Other: Titles",
+//      "source": "titles",
+//      "unlockUrl": "https://api.guildwars2.com/v2/account/titles"
 //    }
   ],
   "gwuAnalyser": {
@@ -1132,9 +1144,6 @@
       "/wiki/Category:The_Icebrood_Saga_content"
     ],
     "vendorPages": [
-      "/wiki/Ridhais",
-      "/wiki/Rytlock_Brimstone",
-      "/wiki/League_Vendor",
       "/wiki/Black_Lion_Claim_Ticket",
       "/wiki/Black_Lion_Commemorative_Sprocket",
       "/wiki/Black_Lion_Miniature_Claim_Ticket",

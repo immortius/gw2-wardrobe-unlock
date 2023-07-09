@@ -1,0 +1,95 @@
+{
+  "name": "achievement",
+  "contents": [
+    // Core - Champion Bag
+    200,
+    // Core - Dungeon
+    15,203,
+    // Core - World Boss
+    175,
+    // Core
+    11,12,17,39,127,160,184,186,201,204,205,236,290,303,306,325,343,394,
+    // Living World Season 1 - Strike Mission
+    395,
+    // Living World Season 1 - World Boss
+    180,
+    // Living World Season 1
+    131,
+    // Living World Season 2 - The Silverwastes
+    210,213,
+    // Heart of Thorns
+    218,219,221,222,227,229,
+    // Living World Season 3 - Ember Bay
+    249,
+    // Living World Season 3 - Bitterfrost Frontier
+    251,
+    // Living World Season 3 - Draconis Mons
+    271,272,
+    // Living World Season 3 - Siren's Landing
+    274,278,
+    // Path of Fire - Banners of Elona
+    281,283,284,
+    // Path of Fire
+    285,289,291,292,293,294,295,
+    // Living World Season 4 - Sandswept Isles
+    301,302,
+    // Living World Season 4 - Jahai Bluffs
+    313,315,316,317,
+    // Living World Season 4 - Thunderhead Peaks
+    322,323,324,
+    // Living World Season 5 - Grothmar Valley
+    346,
+    // Living World Season 5 - Bjora Marches
+    349,350,352,353,354,
+    // Living World Season 5 - Eye of the North
+    357,358,
+    // Living World Season 5 - Drizzlewood Coast
+    361,363,
+    // Living World Season 5 - Dragonstorm
+    367,368,369,
+    // End of Dragons - Facet of Aurene
+    390,391,392,397,398,
+    // End of Dragons - Fishing
+    374,376,379,380,382,
+    // End of Dragons - Strike Mission
+    386,388,
+    // End of Dragons
+    375,378,381,384,
+    // Fractals of the Mists - Challenge Mode
+    250,275,277,365,366,
+    // Fractals of the Mists
+    220,225,248,
+    // Raid - Spirit Vale
+    230,
+    // Raid - Salvation Pass
+    238,
+    // Raid - Bastion of the Penitent
+    262,264,269,276,
+    // Raid - Hall of Chains
+    300,
+    // Raid - Mythwright Gambit
+    314,318,
+    // Raid - The Key of Ahdashim
+    328,330,
+    // Competitive - Champion Profession
+    104,105,106,107,108,109,110,111,224,
+    // Competitive - Rank
+    117,118,119,120,121,122,123,124,125,
+    // Competitive - Player vs. Player
+    89,90,91,245,247,260,261,263,265,266,267,268,320,
+    // Competitive - World vs. World
+    27,30,33,36,40,43,46,49,52,55,58,61,70,73,364,
+    // Festival: Super Adventure Festival
+    134,174,
+    // Festival: Festival of the Four Winds - Queen's Gauntlet
+    185,310,
+    // Festival: Halloween
+    128,129,
+    // Festival: Wintersday - Dungeon
+    259,
+    // Festival: Wintersday
+    178,214,216,233,235,
+    // Gem Store
+    18
+  ]
+}

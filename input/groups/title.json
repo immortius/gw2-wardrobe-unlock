@@ -1,0 +1,413 @@
+{
+  "topLevelCategories": {
+    "Core": {
+      "Achiever": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        198,
+        199
+      ],
+      "Standalone: Anniversary": [
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197
+      ],
+      "Standalone: Champion Bag": [
+        200
+      ],
+      "Standalone: Dungeon": [
+        15,
+        203
+      ],
+      "Standalone: Hall of Monuments": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        26
+      ],
+      "Standalone: Racing": [
+        321
+      ],
+      "Standalone: World Boss": [
+        175
+      ],
+      "Standalone: Other": [
+        11,
+        12,
+        13,
+        17,
+        39,
+        127,
+        160,
+        184,
+        186,
+        201,
+        204,
+        205,
+        236,
+        290,
+        303,
+        306,
+        325,
+        326,
+        343,
+        394
+      ]
+    },
+    "(LW1) Living World Season 1: Scarlet's War": {
+      "Standalone: Strike Mission": [
+        395
+      ],
+      "Standalone: World Boss": [
+        180,
+        181,
+        226
+      ],
+      "Standalone: Other": [
+        131,
+        133,
+        182
+      ]
+    },
+    "(LW2) Living World Season 2: Glint's Prophecy": {
+      "Standalone: The Silverwastes": [
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213
+      ]
+    },
+    "(X1) Guild Wars 2: Heart of Thorns": {
+      "Standalone: Other": [
+        218,
+        219,
+        221,
+        222,
+        227,
+        229,
+        270
+      ]
+    },
+    "(LW3) Living World Season 3: Glint's Legacy": {
+      "Standalone: Ember Bay": [
+        246,
+        249
+      ],
+      "Standalone: Bitterfrost Frontier": [
+        251
+      ],
+      "Standalone: Draconis Mons": [
+        271,
+        272
+      ],
+      "Standalone: Siren's Landing": [
+        274,
+        278
+      ]
+    },
+    "(X2) Guild Wars 2: Path of Fire": {
+      "Banners of Elona": [
+        281,
+        283,
+        284,
+        288
+      ],
+      "Standalone: Other": [
+        285,
+        289,
+        291,
+        292,
+        293,
+        294,
+        295
+      ]
+    },
+    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+      "Standalone: Sandswept Isles": [
+        301,
+        302
+      ],
+      "Standalone: Domain of Kourna": [
+        307
+      ],
+      "Standalone: Jahai Bluffs": [
+        313,
+        315,
+        316,
+        317
+      ],
+      "Standalone: Thunderhead Peaks": [
+        322,
+        323,
+        324
+      ]
+    },
+    "(LW5) Living World Season 5: The Icebrood Saga": {
+      "Standalone: Grothmar Valley": [
+        345,
+        346,
+        347
+      ],
+      "Standalone: Bjora Marches": [
+        349,
+        350,
+        352,
+        353,
+        354
+      ],
+      "Standalone: Eye of the North": [
+        357,
+        358
+      ],
+      "Standalone: Drizzlewood Coast": [
+        361,
+        363
+      ],
+      "Standalone: Dragonstorm": [
+        367,
+        368,
+        369
+      ]
+    },
+    "(X3) Guild Wars 2: End of Dragons": {
+      "Standalone: Facet of Aurene": [
+        390,
+        391,
+        392,
+        397,
+        398
+      ],
+      "Standalone: Club Canach": [
+        377,
+        383
+      ],
+      "Standalone: Fishing": [
+        374,
+        376,
+        379,
+        380,
+        382
+      ],
+      "Standalone: Strike Mission": [
+        386,
+        388
+      ],
+      "Standalone: Other": [
+        375,
+        378,
+        381,
+        384
+      ]
+    },
+    "(X4) Guild Wars 2: Secrets of the Obscure": {
+      "Standalone: Other": [
+      ]
+    },
+    "Cooperative: Fractals of the Mists": {
+      "Fractal": [
+        296,
+        297,
+        298,
+        299
+      ],
+      "Standalone: Challenge Mode": [
+        250,
+        275,
+        277,
+        365,
+        366
+      ],
+      "Standalone: Other": [
+        220,
+        225,
+        248
+      ]
+    },
+    "Cooperative: Raid": {
+      "Standalone: Spirit Vale": [
+        230
+      ],
+      "Standalone: Salvation Pass": [
+        238
+      ],
+      "Standalone: Bastion of the Penitent": [
+        262,
+        264,
+        269,
+        276
+      ],
+      "Standalone: Hall of Chains": [
+        300
+      ],
+      "Standalone: Mythwright Gambit": [
+        314,
+        318
+      ],
+      "Standalone: The Key of Ahdashim": [
+        328,
+        330
+      ]
+    },
+    "Competitive: Player vs. Player / World vs. World": {
+      "Arena": [
+        327,
+        329,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ],
+      "Champion Profession": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        224
+      ],
+      "Legend": [
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "Rank": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
+      "Standalone: Player vs. Player": [
+        89,
+        90,
+        91,
+        239,
+        245,
+        247,
+        260,
+        261,
+        263,
+        265,
+        266,
+        267,
+        268,
+        280,
+        286,
+        320,
+        351,
+        355,
+        356,
+        360
+      ],
+      "Standalone: World vs. World": [
+        27,
+        30,
+        33,
+        36,
+        40,
+        43,
+        46,
+        49,
+        52,
+        55,
+        58,
+        61,
+        70,
+        73,
+        364
+      ]
+    },
+    "Festival: Super Adventure Festival": {
+      "Standalone: Other": [
+        134,
+        174
+      ]
+    },
+    "Festival: Festival of the Four Winds": {
+      "Standalone: Queen's Gauntlet": [
+        185,
+        310
+      ],
+      "Standalone: Other": [
+        309
+      ]
+    },
+    "Festival: Halloween": {
+      "Standalone: Other": [
+        128,
+        129
+      ]
+    },
+    "Festival: Wintersday": {
+      "Standalone: Dungeon": [
+        259
+      ],
+      "Standalone: Other": [
+        178,
+        214,
+        216,
+        233,
+        235
+      ]
+    },
+    "Gem Store": {
+      "Standalone: ArenaNet Partner": [
+        362,
+        370,
+        372
+      ],
+      "Standalone: Extra Life": [
+        319,
+        348
+      ],
+      "Standalone: Other": [
+        18,
+        400
+      ]
+    }
+  }
+}

@@ -21,6 +21,7 @@ var acquisitionMethods = [
     { id : "adventure", name : "Adventure Reward", category : "General"},
 
     { id : "birthday1", name : "First Birthday", category : "General - Anniversary"},
+    //{ id : "birthday2", name : "Second Birthday", category : "General - Anniversary"},
     { id : "birthday3", name : "Third Birthday", category : "General - Anniversary"},
     { id : "birthday4", name : "Fourth Birthday", category : "General - Anniversary"},
     { id : "birthday5", name : "Fifth Birthday", category : "General - Anniversary"},
@@ -129,6 +130,7 @@ var acquisitionMethods = [
     { id : "pvplt", name : "PvP League Ticket", category : "Competitive"},
     { id : "shardofglory", name : "Shards of Glory", category : "Competitive"},
     { id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Competitive"},
+    //{ id : "pvpleague", name : "PvP League Leaderboard", category : "Competitive"},
     //{ id : "pvptournament", name : "Tournaments & Special Events", category : "Competitive"},
     { id : "pvptournamentvoucher", name : "PvP Tournament Voucher", category : "Competitive"},
     { id : "boh", name : "Badge of Honor", category : "Competitive"},

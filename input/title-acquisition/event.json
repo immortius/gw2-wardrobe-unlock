@@ -1,0 +1,9 @@
+{
+  "name": "event",
+  "contents": [
+    // Living World Season 1 - World Boss
+    181,226,
+    // Living World Season 2 - The Silverwastes
+    207,208,209,211,212
+  ]
+}
