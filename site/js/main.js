@@ -174,6 +174,7 @@ var acquisitionMethods = [
     //{ id : 'mountlicense12', name : "Canthan Menagerie Mount License", category : "Gem Store - Mount License"},
     //{ id : 'mountlicense13', name : "Imperial Wonders Mount License", category : "Gem Store - Mount License"},
     //{ id : 'mountlicense14', name : "Eternal Crossings Mount License", category : "Gem Store - Mount License"},
+    //{ id : 'mountlicense15', name : "Kaineng Lights Mount License", category : "Gem Store - Mount License"},
 
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}
 

@@ -3447,7 +3447,7 @@
         9886,
         9889
       ],
-      "Standalone: Divine Lucky Envelope": [
+      "Standalone: Festival Bag": [
         6295,
         8769,
         10195,
@@ -3627,6 +3627,8 @@
         5307,
         5309,
         5342
+      ],
+      "Standalone: Festival Bag": [
       ]
     },
     "Festival: Dragon Bash": {
@@ -3713,13 +3715,36 @@
         9471,
         9473
       ],
-      "Standalone: Dragon Coffer": [
+      "Standalone: Festival Bag": [
         10023,
         10032,
         10033
       ]
     },
     "Festival: Festival of the Four Winds": {
+      "Suncatcher": [
+        11546,
+        11554,
+        11568
+      ],
+      "Sun-Grown": [
+        11544,
+        11545,
+        11547,
+        11548,
+        11549,
+        11550,
+        11551,
+        11552,
+        11553,
+        11555,
+        11556,
+        11557,
+        11558,
+        11563,
+        11565,
+        11566
+      ],
       "Sovereign": [
         5248,
         5280,
@@ -3810,7 +3835,7 @@
         9557,
         9558
       ],
-      "Standalone: Zephyrite Supply Box": [
+      "Standalone: Festival Bag": [
         10099,
         10101,
         10108
@@ -3889,7 +3914,7 @@
         9003,
         9004
       ],
-      "Standalone: Trick-or-Treat Bag": [
+      "Standalone: Festival Bag": [
         6152,
         6216,
         6312,
@@ -4038,16 +4063,16 @@
         9787,
         9788
       ],
-      "Standalone: Strike Mission": [
-        10194
-      ],
-      "Standalone: Wintersday Gift": [
+      "Standalone: Festival Bag": [
         10185,
         10208,
         10217,
         11177,
         11181,
         11190
+      ],
+      "Standalone: Strike Mission": [
+        10194
       ]
     },
     "Gem Store": {

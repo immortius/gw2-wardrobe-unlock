@@ -3,9 +3,11 @@
   "contents": [
     // Core - Decade
     11025,11027,
+    // Core - World Boss
+    6621,
     // Core
-    5653,6618,6621,
-    //Living World Season 1
+    5653,6618,
+    //Living World Season 1 - Living World Return
     11118,
     // Heart of Thorns - Order Series 1: Durmand Priory
     6296,6379,
@@ -19,12 +21,16 @@
     7214,7209,7216,7218,
     // Living World Season 3 - Relic of the Six
     7319,
-    // Path of Fire
-    7464,7458,7631,7692,
     // Living World Season 4 - Inquest / Mark Y Golem
     8049,8052,8058,
-    // Living World Season 5
-    9017,9249,9252,9387,9407,9413,9431,9991,
+    // Living World Season 5 - Bjora Marches
+    9017,
+    // Living World Season 5 - Forging Steel
+    9249,9252,
+    // Living World Season 5 - Drizzlewood Coast
+    9387,9407,9413,9431,
+    // Living World Season 5 - Dragonstorm
+    9991,
     // End of Dragons
     10231,10247,10271,10399,10458,11322,11268,
     // Festival: Super Adventure Festival

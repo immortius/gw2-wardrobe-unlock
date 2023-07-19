@@ -33,6 +33,10 @@
     437,440,441,
     // Canthan Noble Skyscale
     443,444,445,
+    // Amnytas Feathered Raptor
+
+    // Jade Tech
+    462,
     // Plush
     330,403,499,504,
     // Super
@@ -40,7 +44,7 @@
     // Synergetics
     293,391,396,
     // Standalone: Other - Raptor
-    17,126,200,294,329,360,462,505,
+    17,126,200,294,329,360,505,
     // Standalone: Other - Springer
     61,152,231,331,
     // Standalone: Other - Skimmer

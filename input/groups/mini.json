@@ -483,8 +483,6 @@
         746,
         748
       ],
-      "Standalone: Annual Customs": [
-      ],
       "Standalone: Other": [
         647,
         650,
@@ -519,8 +517,6 @@
         160,
         161
       ],
-      "Standalone: Annual Customs": [
-      ],
       "Standalone: Other": [
         162,
         771,
@@ -539,15 +535,14 @@
       "Standalone: Treasure Hunt": [
         701
       ],
-      "Standalone: Annual Customs": [
-      ],
       "Standalone: Other": [
         291,
         700,
         831,
         832,
         872,
-        873
+        873,
+        891
       ]
     },
     "Festival: Halloween": {
@@ -565,10 +560,11 @@
         202,
         730
       ],
-      "Standalone: Trick-or-Treat Bag": [
+      "Standalone: Festival Bag": [
         300,
         356,
-        417
+        417,
+        614
       ],
       "Standalone: Other": [
         196,
@@ -582,7 +578,6 @@
         603,
         607,
         608,
-        614,
         731,
         787,
         833,
@@ -623,15 +618,15 @@
       "Standalone: Annual Customs": [
         738
       ],
+      "Standalone: Festival Bag": [
+        213,
+        625
+      ],
       "Standalone: Strike Mission": [
         737,
         791,
         794,
         836
-      ],
-      "Standalone: Wintersday Gift": [
-        213,
-        625
       ],
       "Standalone: Other": [
         310,
@@ -1027,7 +1022,7 @@
         113,
         114
       ],
-      "Standalone: Extra Life Donation Bundle": [
+      "Standalone: Extra Life": [
         785,
         816,
         835

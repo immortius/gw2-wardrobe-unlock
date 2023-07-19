@@ -91,15 +91,17 @@
         266,
         267
       ],
-      "Standalone: Other": [
+      "Standalone: World Boss": [
         102,
+        214,
+        234
+      ],
+      "Standalone: Other": [
         106,
         110,
         186,
         198,
-        214,
         228,
-        234,
         241
       ]
     },
@@ -220,13 +222,13 @@
       ]
     },
     "Festival: Festival of the Four Winds": {
+      "Standalone: Festival Bag": [
+        223
+      ],
       "Standalone: Treasure Hunt": [
         1,
         31,
         46
-      ],
-      "Standalone: Zephyrite Supply Box": [
-        223
       ],
       "Standalone: Other": [
         28,
@@ -241,7 +243,7 @@
         166,
         178
       ],
-      "Standalone: Trick-or-Treat Bag": [
+      "Standalone: Festival Bag": [
         170,
         180
       ]
@@ -261,7 +263,7 @@
         206,
         257
       ],
-      "Standalone: Wintersday Gift": [
+      "Standalone: Festival Bag": [
         38,
         42,
         75,
@@ -272,6 +274,8 @@
       ]
     },
     "Gem Store": {
+      "Standalone: Extra Life": [
+      ],
       "Standalone: Other - Chair": [
         24,
         262,

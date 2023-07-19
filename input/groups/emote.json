@@ -30,7 +30,9 @@
       ],
       "Standalone: Other": [
         "Serve",
-        "Hiss"
+        "Hiss",
+        "MagicJuggle",
+        "Readbook"
       ]
     }
   }
