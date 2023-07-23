@@ -21,9 +21,17 @@ public class VendorCrawlerConfig {
 
     private Set<String> miniatureTypes;
 
+    private Set<String> gliderTypes;
+
+    private Set<String> mailCarrierTypes;
+
     public String miniId;
 
     public String noveltyId;
+
+    public String gliderId;
+
+    public String mailCarrierId;
 
     public List<String> getCategoryPages() {
         if (categoryPages == null) {
@@ -51,6 +59,20 @@ public class VendorCrawlerConfig {
             miniatureTypes = Sets.newLinkedHashSet();
         }
         return miniatureTypes;
+    }
+
+    public Set<String> getGliderTypes() {
+        if (gliderTypes == null) {
+            gliderTypes = Sets.newLinkedHashSet();
+        }
+        return gliderTypes;
+    }
+
+    public Set<String> getMailCarrierTypes() {
+        if (mailCarrierTypes == null) {
+            mailCarrierTypes = Sets.newLinkedHashSet();
+        }
+        return mailCarrierTypes;
     }
 
     public Set<String> getNoveltyTypes() {

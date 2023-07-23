@@ -366,7 +366,8 @@
         361
       ],
       "Standalone: Other": [
-        494
+        494,
+        890
       ]
     },
     "Raid": {
@@ -519,7 +520,9 @@
         819,
         820,
         870,
-        871
+        871,
+        888,
+        889
       ]
     },
     "Festival: Festival of the Four Winds": {
@@ -535,7 +538,8 @@
         831,
         832,
         872,
-        873
+        873,
+        891
       ]
     },
     "Festival: Halloween": {

@@ -16,6 +16,7 @@ var acquisitionMethods = [
     { id : "achievement", name : "Achievement", category : "General"},
     { id : 'hallofmonuments', name : "Hall of Monuments", category : "General"},
     { id : "story", name : "Story Reward", category : "General"},
+    { id : "adventure", name : "Adventure", category : "General"},
     //{ id : "event", name : "Bound Loot", category : "General"},
 
     { id : "birthday1", name : "First Birthday", category : "Anniversary"},
@@ -49,7 +50,7 @@ var acquisitionMethods = [
     { id : "karkashell", name : "Karka Shell", category : "Core / Season 1 / Season 2"},
     { id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
     { id : 'banditcrest', name : "Bandit Crest", category : "Core / Season 1 / Season 2"},
-    { id : "swimspeedinfusion", name : "Swim-Speed Infusion", category : "Core / Season 1 / Season 2"},
+    { id : "swimspeedinfusion", name : "Swim-Speed Infusion +10", category : "Core / Season 1 / Season 2"},
     { id : "racingmedallion", name : "Racing Medallion", category : "Core / Season 1 / Season 2"},
     { id : "proofoflegend", name : "Proof of Legend", category : "Core / Season 1 / Season 2"},
 
@@ -125,7 +126,7 @@ var acquisitionMethods = [
     { id : "greenprophetshard", name: "Green Prophet Shard", category : "Raid / Strike Mission"},
 
     { id : "pvp", name : "Reward Track", category : "Competitive"},
-    { id : "pvplt", name : "PvP League Ticket", category : "Competitive"},
+    { id : "pvpleagueticket", name : "PvP League Ticket", category : "Competitive"},
     { id : "shardofglory", name : "Shards of Glory", category : "Competitive"},
     { id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Competitive"},
     { id : "pvptournamentvoucher", name : "PvP Tournament Voucher", category : "Competitive"},
@@ -148,7 +149,6 @@ var acquisitionMethods = [
 
     { id : 'gem', name : "Gems", category : "Gem Store"},
     { id : 'deluxe', name : "Purchase Bonus", category : "Gem Store"},
-    { id : 'blacklionchest', name : "Black Lion Chest Exclusive", category : "Gem Store"},
     { id : "bls", name : "Black Lion Statuette", category : "Gem Store"},
     { id : "gwu", name : "Guaranteed Wardrobe Unlock", category : "Gem Store", hideOnIcon : true},
     { id : 'blt', name : "Black Lion Claim Ticket", category : "Gem Store"},
@@ -639,7 +639,6 @@ function filterWithApiKey(key) {
                 }.bind(null, sectionData),
                 error: function(val) {
                     $('#api-error').toggleClass('hidden', false);
-                    clear();
                     console.log('Error', val);
                 }
             });

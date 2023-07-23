@@ -133,7 +133,12 @@
         5910,
         5918,
         5921,
-        5936
+        5936,
+        5948,
+        1499,
+        1534,
+        1542,
+        1579
       ],
       "itemMappings": {
         // Black Lion Exclusives Chest
@@ -151,6 +156,8 @@
           // Ebon Vanguard Elite Shoulders
           9577,9580,9581
         ],
+        // Fallen Balthazar Package
+        "85383" : [7782, 7800, 7804],
         // Southsun Remembrance Package
         "84207": [996,997,998,1137,1143,1141],
         // Visage of the Khan-Ur
@@ -699,7 +706,9 @@
         "92586": [9052,9053,9058,9060,9065,9066,9067,9069,9074,9075,9077,9079,9080,9088,9091,9092],
         // Luxon Hunter's Weapon Cache
         "97435": [11271, 11278, 11283, 11292, 11295, 11296, 11298, 11303, 11306, 11311, 11312, 11313, 11320, 11321, 11333, 11339],
-        "99666" : [11440, 11441, 11442, 11443, 11444, 11446, 11450, 11452, 11454, 11455, 11456, 11457, 11463, 11464, 11466, 11468]
+        "99666" : [11440, 11441, 11442, 11443, 11444, 11446, 11450, 11452, 11454, 11455, 11456, 11457, 11463, 11464, 11466, 11468],
+        // Officer's Remnant Cache
+        "99792" : [11470, 11471, 11472, 11473, 11478, 11480, 11485, 11489, 11491, 11495, 11501, 11502, 11506, 11509, 11512, 11513]
       },
       "excludeIds": [5898,8350],
       "gwuIgnoreIds": [
@@ -1123,12 +1132,19 @@
       "Trident",
       "Heavy aquatic helm",
       "Medium aquatic helm",
-      "Light aquatic helm"
+      "Light aquatic helm",
+      "Heavy aquatic Headgear",
+      "Medium aquatic Headgear",
+      "Light aquatic Headgear"
     ],
-    "miniatureTypes": ["Miniature","Container"],
+    "gliderTypes" : ["Container", "Consumable","Gizmo, Novelty","Novelty, Gizmo"],
+    "gliderId" : "glider",
+    "miniatureTypes": ["Miniature","Container","Consumable"],
     "miniId": "mini",
     "noveltyTypes": ["Novelty","Tonic","Gizmo","Tonic, Novelty","Gizmo, Novelty","Novelty, Gizmo"],
     "noveltyId": "novelty",
+    "mailCarrierTypes": ["Consumable"],
+    "mailCarrierId": "mail",
     "categoryPages": [
       "/wiki/Category:Vendors",
       "/wiki/Category:Festival_Merchants",
@@ -1283,7 +1299,8 @@
     "circusvoucher",
     "spoolofsilkthread",
     "mithrilband",
-    "spiritwoodplank"
+    "spiritwoodplank",
+    "pvpleagueticket"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
