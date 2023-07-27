@@ -3,9 +3,7 @@ package au.net.immortius.wardrobe.config;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 
-import java.util.Collection;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Configuration for an Unlock category
@@ -83,6 +81,10 @@ public class UnlockCategoryConfig {
      */
     private Set<String> gwuIncludeIds;
 
+    public boolean mapItemsToUnlocksForVendor;
+
+    private List<String> vendorItemTypes;
+
     /**
      * @return The ids of any unlocks to exclude from consideration
      */
@@ -122,6 +124,13 @@ public class UnlockCategoryConfig {
             bountyIgnoreIds = Sets.newHashSet();
         }
         return bountyIgnoreIds;
+    }
+
+    public List<String> getVendorItemTypes() {
+        if (vendorItemTypes == null) {
+            vendorItemTypes = new ArrayList<>();
+        }
+        return vendorItemTypes;
     }
 
     public Set<String> getForceAdd() {

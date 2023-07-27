@@ -890,6 +890,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/gliders",
       "chatcodeType": 2,
       "useItemForChatcode": true,
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes" : ["Container", "Consumable","Gizmo, Novelty","Novelty, Gizmo"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -920,6 +922,7 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/novelties",
       "chatcodeType": 2,
       "useItemForChatcode": true,
+      "vendorItemTypes": ["Novelty","Tonic","Gizmo","Tonic, Novelty","Gizmo, Novelty","Novelty, Gizmo"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -1007,6 +1010,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/minis",
       "chatcodeType": 2,
       "useItemForChatcode": true,
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes": ["Miniature","Container","Consumable"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -1047,6 +1052,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/mailcarriers",
       "chatcodeType": 2,
       "useItemForChatcode": true,
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes" : ["Consumable"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -1137,14 +1144,6 @@
       "Medium aquatic Headgear",
       "Light aquatic Headgear"
     ],
-    "gliderTypes" : ["Container", "Consumable","Gizmo, Novelty","Novelty, Gizmo"],
-    "gliderId" : "glider",
-    "miniatureTypes": ["Miniature","Container","Consumable"],
-    "miniId": "mini",
-    "noveltyTypes": ["Novelty","Tonic","Gizmo","Tonic, Novelty","Gizmo, Novelty","Novelty, Gizmo"],
-    "noveltyId": "novelty",
-    "mailCarrierTypes": ["Consumable"],
-    "mailCarrierId": "mail",
     "categoryPages": [
       "/wiki/Category:Vendors",
       "/wiki/Category:Festival_Merchants",

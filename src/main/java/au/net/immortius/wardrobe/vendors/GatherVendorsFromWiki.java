@@ -4,7 +4,6 @@ import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
 import au.net.immortius.wardrobe.gw2api.Items;
 import au.net.immortius.wardrobe.gw2api.Skins;
-import au.net.immortius.wardrobe.gw2api.entities.GliderData;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.site.entities.CostComponent;
 import au.net.immortius.wardrobe.util.REST;
@@ -45,6 +44,7 @@ public class GatherVendorsFromWiki {
      * to skip them for error logging
      */
     private static final String ARMORSMITH = "Armorsmith";
+    private static final Set<String> CONTAINER_TYPES = ImmutableSet.of("Container", "Consumable");
     private static final Logger logger = LoggerFactory.getLogger(GatherVendorsFromWiki.class);
 
     private final Gson gson;
@@ -55,9 +55,18 @@ public class GatherVendorsFromWiki {
     private final Skins skins;
     private final Items items;
     private final Set<String> containers = new LinkedHashSet<>();
+
     private final Map<String, String> itemToGliderMap = new LinkedHashMap<>();
     private final Map<String, String> itemToMiniMap = new LinkedHashMap<>();
     private final Map<String, String> itemToMailMap = new LinkedHashMap<>();
+
+    private List<MappedItemConfig> mappedItemTypes = new ArrayList<>();
+
+    private static class MappedItemConfig {
+        String id;
+        Map<String, String> itemMapping = new LinkedHashMap<>();
+        List<String> types = new ArrayList<>();
+    }
 
     private final Pattern valueMatcher = Pattern.compile("(.+?) (\\d{8})");
 
@@ -117,9 +126,7 @@ public class GatherVendorsFromWiki {
     }
 
     public void run() throws IOException {
-        createGliderMapping();
-        createMiniMapping();
-        createMailMapping();
+        buildCategoryInfo();
 
         Files.createDirectories(config.paths.getWikiCachePath());
         for (PageType value : PageType.values()) {
@@ -147,41 +154,25 @@ public class GatherVendorsFromWiki {
 
     }
 
-    private void createMailMapping() throws IOException {
-        try (DirectoryStream<Path> files = Files.newDirectoryStream(config.paths.getApiPath().resolve("mailcarriers"))) {
-            for (Path file : files) {
-                try (BufferedReader reader = Files.newBufferedReader(file)) {
-                    ItemData data = gson.fromJson(reader, ItemData.class);
-                    for (String id : data.getUnlockItems()) {
-                        itemToMailMap.put(id, data.id);
+    private void buildCategoryInfo() throws IOException {
+        for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
+            if (!unlockCategory.getVendorItemTypes().isEmpty()) {
+                MappedItemConfig info = new MappedItemConfig();
+                info.id = unlockCategory.id;
+                info.types.addAll(unlockCategory.getVendorItemTypes());
+                if (unlockCategory.mapItemsToUnlocksForVendor) {
+                    try (DirectoryStream<Path> files = Files.newDirectoryStream(config.paths.getApiPath().resolve(unlockCategory.source))) {
+                        for (Path file : files) {
+                            try (BufferedReader reader = Files.newBufferedReader(file)) {
+                                ItemData data = gson.fromJson(reader, ItemData.class);
+                                for (String id : data.getUnlockItems()) {
+                                    info.itemMapping.put(id, data.id);
+                                }
+                            }
+                        }
                     }
                 }
-            }
-        }
-    }
-
-    private void createMiniMapping() throws IOException {
-        try (DirectoryStream<Path> files = Files.newDirectoryStream(config.paths.getApiPath().resolve("minis"))) {
-            for (Path file : files) {
-                try (BufferedReader reader = Files.newBufferedReader(file)) {
-                    ItemData miniData = gson.fromJson(reader, ItemData.class);
-                    for (String id : miniData.getUnlockItems()) {
-                        itemToMiniMap.put(id, miniData.id);
-                    }
-                }
-            }
-        }
-    }
-
-    private void createGliderMapping() throws IOException {
-        try (DirectoryStream<Path> gliderFiles = Files.newDirectoryStream(config.paths.getApiPath().resolve("gliders"))) {
-            for (Path gliderFile : gliderFiles) {
-                try (BufferedReader reader = Files.newBufferedReader(gliderFile)) {
-                    GliderData gliderData = gson.fromJson(reader, GliderData.class);
-                    for (String id : gliderData.getUnlockItems()) {
-                        itemToGliderMap.put(id, gliderData.id);
-                    }
-                }
+                mappedItemTypes.add(info);
             }
         }
     }
@@ -278,6 +269,7 @@ public class GatherVendorsFromWiki {
                     type = row.child(typeColumn).text();
                 }
                 WikiUrl itemUrl = new WikiUrl(row.child(itemColumn).select("a").attr("href"));
+
                 if (type.isEmpty() || config.vendorCrawler.skinTypes.contains(type)) {
                     for (String skinId : getSkinId(itemUrl)) {
                         VendorItem vendorItem = new VendorItem();
@@ -286,36 +278,15 @@ public class GatherVendorsFromWiki {
                         skins.getSkinType(skinId).ifPresent(skinType -> vendorItems.put(skinType, vendorItem));
                     }
                 }
-                if (type.isEmpty() || config.vendorCrawler.getNoveltyTypes().contains(type)) {
-                    for (String noveltyId : getNoveltyId(itemUrl)) {
-                        VendorItem vendorItem = new VendorItem();
-                        vendorItem.cost = cost;
-                        vendorItem.id = noveltyId;
-                        vendorItems.put(config.vendorCrawler.noveltyId, vendorItem);
-                    }
-                }
-                if (type.isEmpty() || config.vendorCrawler.getGliderTypes().contains(type)) {
-                    for (String gliderId : getGliderId(itemUrl)) {
-                        VendorItem vendorItem = new VendorItem();
-                        vendorItem.cost = cost;
-                        vendorItem.id = gliderId;
-                        vendorItems.put(config.vendorCrawler.gliderId, vendorItem);
-                    }
-                }
-                if (type.isEmpty() || config.vendorCrawler.getMiniatureTypes().contains(type)) {
-                    for (String miniId : getMiniId(itemUrl)) {
-                        VendorItem vendorItem = new VendorItem();
-                        vendorItem.cost = cost;
-                        vendorItem.id = miniId;
-                        vendorItems.put(config.vendorCrawler.miniId, vendorItem);
-                    }
-                }
-                if (type.isEmpty() || config.vendorCrawler.getMailCarrierTypes().contains(type)) {
-                    for (String id : getMailId(itemUrl)) {
-                        VendorItem vendorItem = new VendorItem();
-                        vendorItem.cost = cost;
-                        vendorItem.id = id;
-                        vendorItems.put(config.vendorCrawler.mailCarrierId, vendorItem);
+
+                for (MappedItemConfig mappedItemType : mappedItemTypes) {
+                    if (type.isEmpty() || mappedItemType.types.contains(type)) {
+                        for (String itemId : getMappedItemIds(mappedItemType, itemUrl)) {
+                            VendorItem vendorItem = new VendorItem();
+                            vendorItem.cost = cost;
+                            vendorItem.id = itemId;
+                            vendorItems.put(mappedItemType.id, vendorItem);
+                        }
                     }
                 }
             }
@@ -329,29 +300,7 @@ public class GatherVendorsFromWiki {
         }
     }
 
-    private Set<String> getMiniId(WikiUrl itemUrl) throws IOException {
-        Set<String> result = Sets.newLinkedHashSet();
-        Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
-        Elements miniItemIds = doc.select("span.gamelink[data-type='item']");
-
-        if (!miniItemIds.isEmpty()) {
-            String itemId = miniItemIds.attr("data-id");
-            items.get(itemId).ifPresent(item -> {
-                String miniId = itemToMiniMap.get(itemId);
-                if (!Strings.isNullOrEmpty(miniId)) {
-                    result.add(miniId);
-                }
-            });
-        }
-
-        Elements itemType = doc.select("dt:matches(Item type)");
-        if (!itemType.isEmpty() && ((itemType.next().text().equals("Container") || itemType.next().text().equals("Consumable")))) {
-            result.addAll(getContainerMinis(doc));
-        }
-        return result;
-    }
-
-    private Set<String> getMailId(WikiUrl itemUrl) throws IOException {
+    private Set<String> getMappedItemIds(MappedItemConfig config, WikiUrl itemUrl) throws IOException {
         Set<String> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
         Elements itemIds = doc.select("span.gamelink[data-type='item']");
@@ -359,84 +308,32 @@ public class GatherVendorsFromWiki {
         if (!itemIds.isEmpty()) {
             String itemId = itemIds.attr("data-id");
             items.get(itemId).ifPresent(item -> {
-                String id = itemToMailMap.get(itemId);
-                if (!Strings.isNullOrEmpty(id)) {
-                    result.add(id);
+                if (config.itemMapping.isEmpty()) {
+                    result.add(itemId);
+                } else {
+                    String mappedId = config.itemMapping.get(itemId);
+                    if (!Strings.isNullOrEmpty(mappedId)) {
+                        result.add(mappedId);
+                    }
                 }
             });
         }
-        return result;
-    }
 
-    private Set<String> getNoveltyId(WikiUrl itemUrl) throws IOException {
-        Set<String> result = Sets.newLinkedHashSet();
-        Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
-        Elements itemIds = doc.select("span.gamelink[data-type='item']");
-        if (!itemIds.isEmpty()) {
-            String itemId = itemIds.attr("data-id");
-            items.get(itemId).ifPresent(item -> result.add(item.id));
-        }
         Elements itemType = doc.select("dt:matches(Item type)");
-        if (!itemType.isEmpty() && itemType.next().text().equals("Container")) {
-            result.addAll(getContainerNovelties(doc));
+        if (!itemType.isEmpty() && (CONTAINER_TYPES.contains(itemType.next().text()))) {
+            result.addAll(getContainerItems(config, doc));
         }
         return result;
     }
 
-    private Set<String> getGliderId(WikiUrl itemUrl) throws IOException {
-        Set<String> result = Sets.newLinkedHashSet();
-        Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
-        Elements itemIds = doc.select("span.gamelink[data-type='item']");
-        if (!itemIds.isEmpty()) {
-            String itemId = itemIds.attr("data-id");
-            String gliderId = itemToGliderMap.get(itemId);
-            if (gliderId != null) {
-                result.add(gliderId);
-            }
-        }
-        Elements itemType = doc.select("dt:matches(Item type)");
-        if (!itemType.isEmpty() && (itemType.next().text().equals("Container") || itemType.next().text().equals("Consumable"))) {
-            result.addAll(getContainerGliders(doc));
-        }
-        return result;
-    }
-
-    private Collection<String> getContainerGliders(Document doc) throws IOException {
+    private Collection<String> getContainerItems(MappedItemConfig config, Document doc) throws IOException {
         Set<String> result = Sets.newLinkedHashSet();
         Elements contentsHeading = doc.select("h2:matches(Contents)");
         if (!contentsHeading.isEmpty()) {
             for (Element itemLink : contentsHeading.next().select("span ~ a")) {
                 String href = itemLink.attr("href");
                 if (!href.contains("?")) {
-                    result.addAll(getGliderId(new WikiUrl(href)));
-                }
-            }
-        }
-        return result;
-    }
-
-    private Collection<String> getContainerNovelties(Document doc) throws IOException {
-        Set<String> result = Sets.newLinkedHashSet();
-        Elements contentsHeading = doc.select("h2:matches(Contents)");
-        if (!contentsHeading.isEmpty()) {
-            for (Element itemLink : contentsHeading.next().select("span ~ a")) {
-                String href = itemLink.attr("href");
-                if (!href.contains("?")) {
-                    result.addAll(getNoveltyId(new WikiUrl(href)));
-                }
-            }
-        }
-        return result;
-    }
-
-    private Collection<String> getContainerMinis(Document doc) throws IOException {
-        Set<String> result = Sets.newLinkedHashSet();
-        Elements contentsHeading = doc.select("h2:matches(Contents)");
-        if (!contentsHeading.isEmpty()) {
-            for (Element itemLink : contentsHeading.next().select("span ~ a")) {
-                String href = itemLink.attr("href");
-                if (!href.contains("?")) {
-                    result.addAll(getMiniId(new WikiUrl(href)));
+                    result.addAll(getMappedItemIds(config, new WikiUrl(href)));
                 }
             }
         }
@@ -466,7 +363,7 @@ public class GatherVendorsFromWiki {
             }
         }
         Elements itemType = doc.select("dt:matches(Item type)");
-        if (!itemType.isEmpty() && (itemType.next().text().equals("Container") || itemType.next().text().equals("Consumable")) && !config.ignoreContainers.contains(itemUrl.getUrl())) {
+        if (!itemType.isEmpty() && CONTAINER_TYPES.contains(itemType.next().text()) && !config.ignoreContainers.contains(itemUrl.getUrl())) {
             Collection<String> containerSkins = getContainerSkins(itemUrl, doc);
             if (!containerSkins.isEmpty()) {
                 result.addAll(containerSkins);
