@@ -1,9 +1,11 @@
 {
   "name": "pvp",
   "contents": [
-    // Living World Season 5
-    8924,8931,8933,8937,9387,9407,9413,9431,
-    // Competitive
+    // Living World Season 5 - Grothmar Valley
+    8924,8931,8933,8937,
+    // Living World Season 5 - Drizzlewood Coast
+    9387,9407,9413,9431,
+    // Competitive - Player vs. Player
     2380,
     // Festival: Wintersday
     2375

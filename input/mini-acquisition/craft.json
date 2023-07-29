@@ -1,50 +1,79 @@
 {
   "name": "craft",
   "contents": [
-    // Fractals of the Mists
-    344,355,361,
-    // Living World Season 4: Rise of Kralkatorrik
+    // Living World Season 4 - Hydra Head / Elemental Hydra
     669,
-    // Competitive: Player vs. Player / World vs. World
-    321,322,323,
+    // Fractals of the Mists - Old Tom
+    344,355,361,
+    // Competitive - Black Llama
     427,429,431,
-    449,451,453,
-    471,472,473,
+    // Competitive - Bronze Llama
     479,483,485,
-    477,482,487,
+    // Competitive - Emperor Llama
+    449,451,453,
+    // Competitive - Gold Llama
     480,481,484,
-    // Festival: Lunar New Year
+    // Competitive - Llama
+    321,322,323,
+    // Competitive - Princess Llama
+    471,472,473,
+    // Competitive - Silver Llama
+    477,482,487,
+    // Festival: Lunar New Year - Lantern
     745,746,
-    // Festival: Super Adventure Festival
+    // Festival: Super Adventure Festival - Princess Miya
     184,
-    // Festival: Dragon Bash
+    // Festival: Dragon Bash - Holographic Dragon Minion
     160,
+    // Festival: Halloween - Pumpkin Jack
+    729,732,
     // Festival: Halloween
     607,
-    729,732,
-    // Festival: Wintersday
-    115,116,117,118,119,
-    122,
-    428,433,
-    382,385,
+    // Festival: Wintersday - Angry Snowball
     628,634,
-    // Gem Store Series 2
+    // Festival: Wintersday - Foostivoo the Merry
+    122,
+    // Festival: Wintersday - Gift Skritt
+    382,385,
+    // Festival: Wintersday - Snowball
+    428,433,
+    // Festival: Wintersday - Toy
+    115,116,117,118,119,
+    // Gem Store - Gem Store Series 2
     178,179,180,
-    // Griffon Hatchling
-    685,686,680,683,681,688,687,684,679,
-    // Jackal Pup
-    639,638,637,643,644,645,641,646,642,
-    // Raptor Hatchling
+    // Gem Store - Black Lion Series 1 - Raptor Hatchling
     593,598,592,588,587,586,591,590,596,
-    // Shiba Inu
-    821,822,823,825,826,827,828,829,830,
-    // Springer Kit
+    // Gem Store - Black Lion Series 2 - Jackal Pup
+    639,638,637,643,644,645,641,646,642,
+    // Gem Store - Black Lion Series 3 - Griffon Hatchling
+    685,686,680,683,681,688,687,684,679,
+    // Gem Store - Black Lion Series 4 - Springer Kit
     703,711,702,716,708,706,705,707,704,712,
-    // Super
-    188,457,458,675,
-    // Tigris Cub
+    // Gem Store - Black Lion Series 5 - Skimmer Pup
+    750,751,752,753,754,755,756,757,758,
+    // Gem Store - Black Lion Series 6 - Skyscale Hatchling
+    766,767,768,769,770,772,774,775,776,
+    // Gem Store - Black Lion Series 7 - Shiba Inu
+    821,822,823,825,826,827,828,829,830,
+    // Gem Store - Black Lion Series 8 - Tigris Cub
     861,862,863,864,865,866,867,868,869,
-    // Gem Store
-    111,192,200,212,226
+    // Gem Store - Costumed
+    200,
+    // Gem Store - Scarlet's Champions
+    226,
+    // Gem Store - Spooky
+    111,
+    // Gem Store - Super - Set 1
+    457,
+    // Gem Store - Super - Set 2
+    188,
+    // Gem Store - Super - Set 3
+    458,
+    // Gem Store - Super - Set 4
+    675,
+    // Gem Store - Tequatl Rising
+    192,
+    // Gem Store - Wintersday
+    212
   ]
 }

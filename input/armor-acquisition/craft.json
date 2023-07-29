@@ -1,23 +1,17 @@
 {
   "name": "craft",
   "contents": [
-    // Twisted Watchwork Shoulders
+    // Living World Season 1 - Twisted Watchwork Shoulders
     1072,1075,1077,
-    // Envoy
+    // Raid - Experimental Envoy > Refined Envoy > Perfected Envoy
     7083,7084,7085,7087,7094,7100,7107,7108,7116,7126,7130,7133,7136,7142,7143,7145,7156,7157,
-    // Halloween
-    6161,6252,6306,
-    // Lunatic
-    7797,7798,
-    // Wintersday
-    7966,7970,7991,
-    // Aspect-Blessed Zephyrite
+    // Festival: Festival of the Four Winds - Aspect-Touched Zephyrite > Aspect-Blessed Zephyrite
     8198,8204,8214,8199,8202,8227,8193,8209,8211,
-    // Ancient Canthan
-    10554,10264,10505,10737,10368,10573,10256,10508,10558,10689,10402,10658,10556,10504,10670,10749,10369,10622,
-    // Monastery
-    10293,10314,10492,10530,10580,10754,
-    10338,10365,10400,10483,10695,10726,
-    10237,10243,10419,10703,10705,10718
+    // Festival: Halloween - Lunatic Acolyte / Lunatic Noble / Lunatic Templar
+    7797,7798,
+    // Festival: Halloween
+    6161,6252,6306,
+    // Festival: Wintersday
+    7966,7970,7991
   ]
 }
