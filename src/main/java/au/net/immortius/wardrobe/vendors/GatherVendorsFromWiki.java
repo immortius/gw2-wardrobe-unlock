@@ -56,10 +56,6 @@ public class GatherVendorsFromWiki {
     private final Items items;
     private final Set<String> containers = new LinkedHashSet<>();
 
-    private final Map<String, String> itemToGliderMap = new LinkedHashMap<>();
-    private final Map<String, String> itemToMiniMap = new LinkedHashMap<>();
-    private final Map<String, String> itemToMailMap = new LinkedHashMap<>();
-
     private List<MappedItemConfig> mappedItemTypes = new ArrayList<>();
 
     private static class MappedItemConfig {
@@ -300,7 +296,7 @@ public class GatherVendorsFromWiki {
         }
     }
 
-    private Set<String> getMappedItemIds(MappedItemConfig config, WikiUrl itemUrl) throws IOException {
+    private Set<String> getMappedItemIds(MappedItemConfig typeConfig, WikiUrl itemUrl) throws IOException {
         Set<String> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
         Elements itemIds = doc.select("span.gamelink[data-type='item']");
@@ -308,10 +304,10 @@ public class GatherVendorsFromWiki {
         if (!itemIds.isEmpty()) {
             String itemId = itemIds.attr("data-id");
             items.get(itemId).ifPresent(item -> {
-                if (config.itemMapping.isEmpty()) {
+                if (typeConfig.itemMapping.isEmpty()) {
                     result.add(itemId);
                 } else {
-                    String mappedId = config.itemMapping.get(itemId);
+                    String mappedId = typeConfig.itemMapping.get(itemId);
                     if (!Strings.isNullOrEmpty(mappedId)) {
                         result.add(mappedId);
                     }
@@ -320,8 +316,8 @@ public class GatherVendorsFromWiki {
         }
 
         Elements itemType = doc.select("dt:matches(Item type)");
-        if (!itemType.isEmpty() && (CONTAINER_TYPES.contains(itemType.next().text()))) {
-            result.addAll(getContainerItems(config, doc));
+        if (!itemType.isEmpty() && (CONTAINER_TYPES.contains(itemType.next().text())) && !config.ignoreContainers.contains(itemUrl.getUrl())) {
+            result.addAll(getContainerItems(typeConfig, doc));
         }
         return result;
     }

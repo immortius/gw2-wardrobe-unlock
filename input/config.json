@@ -790,6 +790,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/outfits",
       "chatcodeType": 11,
       "useItemForChatcode": false,
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes" : ["Consumable","Container"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -1042,8 +1044,13 @@
       "name": "Finishers",
       "source": "finishers",
       "unlockUrl": "https://api.guildwars2.com/v2/account/finishers",
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes": ["Consumable"],
       "chatcodeType": 2,
-      "useItemForChatcode": true
+      "useItemForChatcode": true,
+      "excludeIds": [
+        48
+      ]
     },
     {
       "id": "mail",
@@ -1142,7 +1149,10 @@
       "Light aquatic helm",
       "Heavy aquatic Headgear",
       "Medium aquatic Headgear",
-      "Light aquatic Headgear"
+      "Light aquatic Headgear",
+      "Harvesting sickle",
+      "Logging axe",
+      "Mining pick"
     ],
     "categoryPages": [
       "/wiki/Category:Vendors",
@@ -1340,6 +1350,8 @@
     "racetrackvoucher"
   ],
   "ignoreContainers": [
+    "/wiki/Toy_Mini_Egg",
+    "/wiki/Black_Lion_Miniature_Claim_Ticket",
     "/wiki/Bounty_of_New_Kaineng_City",
     "/wiki/Bounty_of_Echovald_Wilds",
     "/wiki/Bounty_of_Seitung_Province",
