@@ -14,6 +14,7 @@ var acquisitionMethods = [
     { id : "vendor", name : "Vendor", category : "General", hideOnIcon : true},
     { id : "craft", name : "Crafting", category : "General"},
     { id : "achievement", name : "Achievement", category : "General"},
+    { id : "achievementpoint", name : "Achievement Points", category : "General"},
     { id : 'hallofmonuments', name : "Hall of Monuments", category : "General"},
     { id : "story", name : "Story Reward", category : "General"},
     { id : "adventure", name : "Adventure", category : "General"},

@@ -1,26 +1,35 @@
 {
   "name": "achievement",
   "contents": [
-    // Core
+    // Core - Decade
     11025,11027,
-    2358,6621,
-    5653,6253,6353,6618,
-    //Living World Season 1: Scarlet's War
-    2353,2354,2357,11118,
-    // Heart of Thorns
+    // Core - World Boss
+    6621,
+    // Core
+    5653,6618,
+    //Living World Season 1 - Living World Return
+    11118,
+    // Heart of Thorns - Order Series 1: Durmand Priory
     6296,6379,
+    // Heart of Thorns - Order Series 2: Order of Whispers
     6159,6398,
+    // Heart of Thorns - Order Series 3: Vigil
     6246,6304,
+    // Heart of Thorns - Auric Backplate
     6149,6279,
-    // Living World Season 3: Glint's Legacy
+    // Living World Season 3 - Druid Stone / The Wayfarer's Henge
     7214,7209,7216,7218,
+    // Living World Season 3 - Relic of the Six
     7319,
-    // Living World Season 4: Rise of Kralkatorrik
+    // Living World Season 4 - Inquest / Mark Y Golem
     8049,8052,8058,
-    // Living World Season 5: The Icebrood Saga
+    // Living World Season 5 - Bjora Marches
     9017,
+    // Living World Season 5 - Forging Steel
     9249,9252,
+    // Living World Season 5 - Drizzlewood Coast
     9387,9407,9413,9431,
+    // Living World Season 5 - Dragonstorm
     9991,
     // End of Dragons
     10231,10247,10271,10399,10458,11322,11268,
@@ -28,12 +37,7 @@
     7201,6668,2361,2360,
     // Festival: Dragon Bash
     8833,
-    // Festival: Festival of the Four Winds
-    8861,
-    // Festival: Halloween
-    2336,2338,7760,7775,
-    9638,
-    // Festival: Wintersday
-    10218
+    // Festival: Halloween - Mad Memoires
+    2336,2338,7760,7775
   ]
 }

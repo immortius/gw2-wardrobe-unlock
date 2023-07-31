@@ -270,7 +270,7 @@ padding-right: 10px;
    Currency icons
    ========================================================================== */
 
-.achievement-icon {
+.achievementpoint-icon {
   background-image: url('../img/currencies.png');
   background-position: -0px -0px;
 }
@@ -837,6 +837,10 @@ padding-right: 10px;
 .fragmentofprismaticlife-icon {
   background-image: url('../img/currencies.png');
   background-position: -504px -18px;
+}
+.achievement-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -522px -18px;
 }
 
 /* ==========================================================================
