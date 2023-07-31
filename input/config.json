@@ -655,7 +655,48 @@
         // Water Dragon Helm
         10918,10924,
         // Water Dragon Legguards
+        10950,10952,
         10950,10952
+        // Battlelord's Hood Helm
+        11151,11162,
+        // Reality Rig Mk2
+        10781,10782,
+        // Minister's Hat
+        11261,11276,
+        // Lambent Battlelord's Hood Helm
+        11143,11150,
+        // Royal Pointed Ears
+        11039,11044,
+        // Etherbound Helm
+        10987,10997,
+        // Processing Line Control Bracers
+        11275,11317,
+        // Elegant Silk Scarf
+        11199,11223,
+        // Noble Pointed Ears
+        11038,11040,
+        // Lunar Rabbit Helm
+        11216,11221,
+        // Replica Oni Arms
+        11288,11293,
+        // Grinning Tahkayun Mask
+        11266,11290,
+        // Reality Rig Mk3
+        10770,10778,
+        // Savage Scale Chest
+        11106,11129,
+        // Reality Rig Mk1
+        10790,10795,
+        // Pointed Ears
+        11032,11035,
+        // Aurene's Crystalline Pauldrons
+        11182,11188,
+        // Lunar Rabbit Stompers
+        11200,11224,
+        // Savage Scale Loincloth
+        11100,11124,
+        // Rift Warden Helm
+        11063,11078
       ]
     },
     {
@@ -785,6 +826,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/outfits",
       "chatcodeType": 11,
       "useItemForChatcode": false,
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Consumable","Container"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -885,6 +928,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/gliders",
       "chatcodeType": 2,
       "useItemForChatcode": true,
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes" : ["Container","Consumable","Gizmo, Novelty","Novelty, Gizmo"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -915,6 +960,7 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/novelties",
       "chatcodeType": 2,
       "useItemForChatcode": true,
+      "vendorItemTypes": ["Novelty","Tonic","Gizmo","Tonic, Novelty","Gizmo, Novelty","Novelty, Gizmo"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -1004,19 +1050,21 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/minis",
       "chatcodeType": 2,
       "useItemForChatcode": true,
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes": ["Miniature","Container","Consumable"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Awakened Mounts
-          689,691,693,694,699,
-          // Branded Mounts
-          657,660,661,662,663,
-          // Cozy Wintersday Mounts
-          627,629,631,633,635,
-          // Exo-Suit Mounts
-          709,713,714,715,717,
-          // Spooky Mounts
+          // Mounts - Set 1 / Spooky
           599,605,609,610,611,
+          // Mounts - Set 2 / Cozy Wintersday
+          627,629,631,633,635,
+          // Mounts - Set 3 / Branded
+          657,660,661,662,663,
+          // Mounts - Set 4 / Awakened
+          689,691,693,694,699,
+          // Mounts - Set 5 / Exo-Suit
+          709,713,714,715,717
           // Standalone: Other
           435,493
         ]
@@ -1031,7 +1079,9 @@
       "source": "finishers",
       "unlockUrl": "https://api.guildwars2.com/v2/account/finishers",
       "chatcodeType": 2,
-      "useItemForChatcode": true
+      "useItemForChatcode": true,
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Consumable"]
     },
     {
       "id": "mail",
@@ -1040,10 +1090,12 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/mailcarriers",
       "chatcodeType": 2,
       "useItemForChatcode": true,
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes" : ["Consumable"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
+          // Hounds of Balthazar Mail Carrier
           16
         ]
       }
@@ -1131,12 +1183,14 @@
       "Trident",
       "Heavy aquatic helm",
       "Medium aquatic helm",
-      "Light aquatic helm"
+      "Light aquatic helm",
+      "Heavy aquatic Headgear",
+      "Medium aquatic Headgear",
+      "Light aquatic Headgear",
+      "Harvesting sickle",
+      "Logging axe",
+      "Mining pick"
     ],
-    "miniatureTypes": ["Miniature","Container"],
-    "miniId": "mini",
-    "noveltyTypes": ["Novelty","Tonic","Gizmo","Tonic, Novelty","Gizmo, Novelty"],
-    "noveltyId": "novelty",
     "categoryPages": [
       "/wiki/Category:Vendors",
       "/wiki/Category:Festival_Merchants",
@@ -1187,7 +1241,6 @@
     "integratedmatrix",
     "unstablefractalessence",
     "guildcommendation",
-    "pvplt",
     "wvwsct",
     "memoryofbattle",
     "bls",
@@ -1285,7 +1338,8 @@
     "circusvoucher",
     "spoolofsilkthread",
     "mithrilband",
-    "spiritwoodplank"
+    "spiritwoodplank",
+    "pvpleagueticket"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -1326,6 +1380,8 @@
     "racetrackvoucher"
   ],
   "ignoreContainers": [
+    "/wiki/Toy_Mini_Egg",
+    "/wiki/Black_Lion_Miniature_Claim_Ticket",
     "/wiki/Bounty_of_New_Kaineng_City",
     "/wiki/Bounty_of_Echovald_Wilds",
     "/wiki/Bounty_of_Seitung_Province",

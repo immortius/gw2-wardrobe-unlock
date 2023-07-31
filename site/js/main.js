@@ -20,18 +20,18 @@ var acquisitionMethods = [
     //{ id : "event", name : "Event Reward", category : "General"},
     { id : "adventure", name : "Adventure Reward", category : "General"},
 
-    { id : "birthday1", name : "First Birthday", category : "General - Anniversary"},
-    //{ id : "birthday2", name : "Second Birthday", category : "General - Anniversary"},
-    { id : "birthday3", name : "Third Birthday", category : "General - Anniversary"},
-    { id : "birthday4", name : "Fourth Birthday", category : "General - Anniversary"},
-    { id : "birthday5", name : "Fifth Birthday", category : "General - Anniversary"},
-    { id : "birthday6", name : "Sixth Birthday", category : "General - Anniversary"},
-    { id : "birthday7", name : "Seventh Birthday", category : "General - Anniversary"},
-    { id : "birthday8", name : "Eighth Birthday", category : "General - Anniversary"},
-    { id : "birthday9", name : "Ninth Birthday", category : "General - Anniversary"},
-    { id : "birthday10", name : "Tenth Birthday", category : "General - Anniversary"},
-    //{ id : "birthday11", name : "Eleventh Birthday", category : "General - Anniversary"},
-    //{ id : "birthday12", name : "Twelfth Birthday", category : "General - Anniversary"},
+    { id : "birthday1", name : "First Birthday", category : "Anniversary"},
+    //{ id : "birthday2", name : "Second Birthday", category : "Anniversary"},
+    { id : "birthday3", name : "Third Birthday", category : "Anniversary"},
+    { id : "birthday4", name : "Fourth Birthday", category : "Anniversary"},
+    { id : "birthday5", name : "Fifth Birthday", category : "Anniversary"},
+    { id : "birthday6", name : "Sixth Birthday", category : "Anniversary"},
+    { id : "birthday7", name : "Seventh Birthday", category : "Anniversary"},
+    { id : "birthday8", name : "Eighth Birthday", category : "Anniversary"},
+    { id : "birthday9", name : "Ninth Birthday", category : "Anniversary"},
+    { id : "birthday10", name : "Tenth Birthday", category : "Anniversary"},
+    //{ id : "birthday11", name : "Eleventh Birthday", category : "Anniversary"},
+    //{ id : "birthday12", name : "Twelfth Birthday", category : "Anniversary"},
 
     { id : "gold", name : "Coins", category : "Common", hideOnIcon : true},
     { id : "karma", name : "Karma", category : "Common"},
@@ -41,21 +41,21 @@ var acquisitionMethods = [
     { id : "guildcommendation", name : "Guild Commendation", category : "Common"},
     { id : "provisionertoken", name : "Provisioner Token", category : "Common"},
 
-    { id : "grandmasterarmorsmithsmark", name : "Grandmaster Armorsmith's Mark", category : "Common - Crafting Component"},
-    { id : "grandmasterleatherworkersmark", name : "Grandmaster Leatherworker's Mark", category : "Common - Crafting Component"},
-    { id : "grandmastertailorsmark", name : "Grandmaster Tailor's Mark", category : "Common - Crafting Component"},
-    { id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", category : "Common - Crafting Component"},
-    { id : "grandmasterhuntsmanmark", name : "Grandmaster Huntsman's Mark", category : "Common - Crafting Component"},
-    { id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", category : "Common - Crafting Component"},
-    { id : "spoolofsilkthread", name : "Spool of Silk Thread", category : "Common - Crafting Component"},
-    { id : "spiritwoodplank", name : "Spiritwood Plank", category : "Common - Crafting Component"},
-    { id : "mithrilband", name : "Mithril Band", category : "Common - Crafting Component"},
+    { id : "grandmasterarmorsmithsmark", name : "Grandmaster Armorsmith's Mark", category : "Crafting Component"},
+    { id : "grandmasterleatherworkersmark", name : "Grandmaster Leatherworker's Mark", category : "Crafting Component"},
+    { id : "grandmastertailorsmark", name : "Grandmaster Tailor's Mark", category : "Crafting Component"},
+    { id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", category : "Crafting Component"},
+    { id : "grandmasterhuntsmanmark", name : "Grandmaster Huntsman's Mark", category : "Crafting Component"},
+    { id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", category : "Crafting Component"},
+    { id : "spoolofsilkthread", name : "Spool of Silk Thread", category : "Crafting Component"},
+    { id : "spiritwoodplank", name : "Spiritwood Plank", category : "Crafting Component"},
+    { id : "mithrilband", name : "Mithril Band", category : "Crafting Component"},
 
     { id : "taleofdungeondelving", name : "Tales of Dungeon Delving", category : "Core / Season 1 / Season 2"},
     { id : "karkashell", name : "Karka Shell", category : "Core / Season 1 / Season 2"},
     { id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
     { id : 'banditcrest', name : "Bandit Crest", category : "Core / Season 1 / Season 2"},
-    { id : "swimspeedinfusion", name : "Swim-Speed Infusion", category : "Core / Season 1 / Season 2"},
+    { id : "swimspeedinfusion", name : "Swim-Speed Infusion +10", category : "Core / Season 1 / Season 2"},
     { id : "racingmedallion", name : "Racing Medallion", category : "Core / Season 1 / Season 2"},
     { id : "proofoflegend", name : "Proof of Legend", category : "Core / Season 1 / Season 2"},
 
@@ -112,12 +112,12 @@ var acquisitionMethods = [
     { id : "flawlessfishfillet", name: "Flawless Fish Fillet", category : "End of Dragons"},
     { id : "greenprophetshard", name: "Green Prophet Shard", category : "End of Dragons"},
 
-    { id : "fragmentofprismaticshadows", name : "Fragment of Prismatic Shadows", category : "End of Dragons - Legendary Variant"},
-    { id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", category : "End of Dragons - Legendary Variant"},
-    { id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", category : "End of Dragons - Legendary Variant"},
-    { id : "fragmentofprismaticpersuasion", name : "Fragment of Prismatic Persuasion", category : "End of Dragons - Legendary Variant"},
-    { id : "fragmentofprismaticfire", name : "Fragment of Prismatic Fire", category : "End of Dragons - Legendary Variant"},
-    { id : "fragmentofprismaticlife", name : "Fragment of Prismatic Life", category : "End of Dragons - Legendary Variant"},
+    { id : "fragmentofprismaticpersuasion", name : "Fragment of Prismatic Persuasion", category : "Facet of Aurene"},
+    { id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", category : "Facet of Aurene"},
+    { id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", category : "Facet of Aurene"},
+    { id : "fragmentofprismaticfire", name : "Fragment of Prismatic Fire", category : "Facet of Aurene"},
+    { id : "fragmentofprismaticlife", name : "Fragment of Prismatic Life", category : "Facet of Aurene"},
+    { id : "fragmentofprismaticshadows", name : "Fragment of Prismatic Shadows", category : "Facet of Aurene"},
 
     { id : "fractalrelic", name : "Fractal Relic", category : "Cooperative"},
     { id : "pristinefractalrelic", name : "Pristine Fractal Relic", category : "Cooperative"},
@@ -129,7 +129,7 @@ var acquisitionMethods = [
     { id : "magnetiteshard", name : "Magnetite Shard", category : "Cooperative"},
 
     { id : "pvp", name : "Reward Track", category : "Competitive"},
-    { id : "pvplt", name : "PvP League Ticket", category : "Competitive"},
+    { id : "pvpleagueticket", name : "PvP League Ticket", category : "Competitive"},
     { id : "shardofglory", name : "Shards of Glory", category : "Competitive"},
     { id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Competitive"},
     //{ id : "pvpleague", name : "PvP League Leaderboard", category : "Competitive"},
@@ -661,7 +661,6 @@ function filterWithApiKey(key) {
                 }.bind(null, sectionData),
                 error: function(val) {
                     $('#api-error').toggleClass('hidden', false);
-                    clear();
                     console.log('Error', val);
                 }
             });

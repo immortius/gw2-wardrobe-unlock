@@ -3,11 +3,9 @@
   "contents": [
     // Core - Decade
     11025,11027,
-    // Core - World Boss
-    6621,
     // Core
-    5653,6618,
-    //Living World Season 1 - Living World Return
+    5653,6618,6621,
+    //Living World Season 1
     11118,
     // Heart of Thorns - Order Series 1: Durmand Priory
     6296,6379,

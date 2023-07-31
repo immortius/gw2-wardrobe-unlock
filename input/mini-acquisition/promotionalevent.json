@@ -1,9 +1,11 @@
 {
   "name": "promotionalevent",
   "contents": [
-    // Core
+    // Mini Mr. Sparkles
+    181,
+    // Mini Mystical Dragon
     289,
-    // Standalone: Other
-    181,781
+    // Mini Icebrood Saga Ogre
+    781
   ]
 }

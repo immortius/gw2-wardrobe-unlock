@@ -15,12 +15,22 @@
     6228,6267,6325,6465,6482,
     // Living World Season 4 - Scion
     8684,8690,8691,8693,8697,8708,8711,8713,8714,8722,8730,8734,8737,8738,8739,8742,8744,8749,8756,
-    // Living World Season 4
-    7841,7878,7892,8039,8040,8059,8060,8347,8577,8587,
+    // Living World Season 4 - Domain of Istan
+    7841,7878,7892,
+    // Living World Season 4 - Sandswept Isles
+    8039,8040,8059,8060,
+    // Living World Season 4 - Jahai Bluffs
+    8347,
+    // Living World Season 4 - Thunderhead Peaks
+    8577,8587,
     // Living World Season 5 - Broken Voice
     9195,9196,9197,9199,9200,9201,9202,9203,9205,9206,9207,9208,9209,9210,9212,9213,
-    // Living World Season 5
-    8942,9479,9480,9494,9505,9522,9993,
+    // Living World Season 5 - Grothmar Valley
+    8942,
+    // Living World Season 5 - Drizzlewood Coast
+    9479,9480,9494,9505,9522,
+    // Living World Season 5 - Dragonstorm
+    9993,
     // End of Dragons - Living Water
     10304,10323,10384,10387,10465,10486,10495,10575,10590,10597,10609,10651,10664,10694,10717,10741,
     // End of Dragons - Tahkayun

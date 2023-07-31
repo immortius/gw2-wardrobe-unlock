@@ -5,16 +5,14 @@
     200,
     // Core - Dungeon
     15,203,
+    // Core - Racing
+    321,
     // Core - World Boss
     175,
     // Core
     11,12,17,39,127,160,184,186,201,204,205,236,290,303,306,325,343,394,
-    // Living World Season 1 - Strike Mission
-    395,
-    // Living World Season 1 - World Boss
-    180,
     // Living World Season 1
-    131,
+    131,180,395,
     // Living World Season 2 - The Silverwastes
     210,213,
     // Heart of Thorns

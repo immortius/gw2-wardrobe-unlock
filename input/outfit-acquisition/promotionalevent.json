@@ -1,7 +1,15 @@
 {
   "name": "promotionalevent",
   "contents": [
-    // Standalone - Clothing - Emblem
-    73,89,90,113
+    // Dragon Emblem Clothing Outfit
+    73,
+    // Heart of Thorns Emblem Clothing Outfit
+    89,
+    // Ascended Aurene Clothing Outfit
+    90,
+    // Seize the Awkward Clothing Outfit
+    95,
+    // End of Dragons Emblem Clothing Outfit
+    113
   ]
 }

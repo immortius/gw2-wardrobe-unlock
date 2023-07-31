@@ -3,7 +3,9 @@
   "contents": [
     // Fractals of the Mists
     22,
-    // Competitive
-    11,43
+    // Competitive - Player vs. Player
+    11,
+    // Competitive - World vs. World
+    43
   ]
 }

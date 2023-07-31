@@ -1,13 +1,13 @@
 {
   "name": "birthday5",
   "contents": [
-    // Bloodstone,
-    1453,1456,1454,1455,1458,1457,
-    // Primordus,
-    1542,1537,1539,1540,1541,1538,
-    // Solar and Lunar,
-    1498,1481,1489,1478,1499,1485,
-    // Vibrant,
-    1486,1493,1490,1477,1497,1495
+    // Gem Store Series 16 - Bloodstone
+    1453,1454,1455,1456,1457,1458,
+    // Gem Store Series 17 - Vibrant
+    1477,1486,1490,1493,1495,1497,
+    // Gem Store Series 18 - Solar and Lunar
+    1478,1481,1485,1489,1498,1499,
+    // Gem Store Series 20 - Primordus
+    1537,1538,1539,1540,1541,1542
   ]
 }

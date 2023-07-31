@@ -1,23 +1,25 @@
 {
   "name": "birthday3",
   "contents": [
-    // Crimson Lion,
-    1333,1334,1338,1337,1336,1335,
-    // Deathly,
-    1245,1244,1248,1243,1247,1246,
-    // Flame and Frost,
-    1241,1242,1236,1235,1240,1238,1232,1231,1239,1237,1234,1233,
-    // Glint's Winter,
-    1311,1307,1312,1309,1310,1308,
-    // Lion's Arch Commemorative,
-    1282,1281,1278,1277,1280,1279,
-    // Lion's Arch Survivors,
-    1276,1275,1272,1271,1274,1273,
-    // Metallurgic,
-    1269,1265,1268,1267,1266,1270,
-    // Taimi's,
-    1305,1303,1301,1302,1304,1306,
-    // Toxic,
-    1254,1249,1252,1251,1253,1250
+    // Gem Store Series 1 - Flame
+    1237,1238,1239,1240,1241,1242,
+    // Gem Store Series 2 - Frost
+    1231,1232,1233,1234,1235,1236,
+    // Gem Store Series 3 - Deathly
+    1243,1244,1245,1246,1247,1248,
+    // Gem Store Series 4 - Toxic
+    1249,1250,1251,1252,1253,1254,
+    // Gem Store Series 5 - Metallurgic
+    1265,1266,1267,1268,1269,1270,
+    // Gem Store Series 6 - Lion's Arch Survivors
+    1271,1272,1273,1274,1275,1276,
+    // Gem Store Series 7 - Lion's Arch Commemorative
+    1277,1278,1279,1280,1281,1282,
+    // Gem Store Series 8 - Taimi
+    1301,1302,1303,1304,1305,1306,
+    // Gem Store Series 9 - Glint's Winter
+    1307,1308,1309,1310,1311,1312,
+    // Gem Store Series 10 - Crimson Lion
+    1333,1334,1335,1336,1337,1338
   ]
 }

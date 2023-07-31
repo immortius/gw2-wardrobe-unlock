@@ -1,17 +1,21 @@
 {
   "name": "event",
   "contents": [
+    // Core - Ley-Line Anomaly
+    191,
     // Core
-    122,191,
-    // Living World Season 2
+    122,
+    // Living World Season 2 - Dry Top
     195,
     // Heart of Thorns
     102,214,234,
     // Path of Fire
     218,
-    // Living World Season 4
+    // Living World Season 4 - Jahai Bluffs
     233,
-    // Living World Season 5
-    292,299
+    // Living World Season 5 - Grothmar Valley
+    292,
+    // Living World Season 5 - Bjora Marches
+    299
   ]
 }
