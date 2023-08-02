@@ -18,7 +18,7 @@ var acquisitionMethods = [
     { id : 'hallofmonuments', name : "Hall of Monuments", category : "General"},
     { id : "story", name : "Story Reward", category : "General"},
     { id : "adventure", name : "Adventure", category : "General"},
-    //{ id : "event", name : "Bound Loot", category : "General"},
+    { id : "event", name : "Event Reward", category : "General"},
 
     { id : "birthday1", name : "First Birthday", category : "Anniversary"},
     { id : "birthday3", name : "Third Birthday", category : "Anniversary"},
@@ -74,7 +74,7 @@ var acquisitionMethods = [
     { id : "tradecontract", name : "Trade Contract", category : "Path of Fire"},
     { id : "elegymosaic", name : "Elegy Mosaic", category : "Path of Fire"},
     { id : "casinocoin", name : "Casino Coin", category : "Path of Fire"},
-    { id : "shadowsseal", name : "Order of Shadows Seal", category : "Path of Fire"},
+    { id : "orderofshadowsseal", name : "Order of Shadows Seal", category : "Path of Fire"},
 
     { id : "volatilemagic", name : "Volatile Magic", category : "Living World Season 4"},
     { id : "kralkatiteore", name : "Kralkatite Ore", category : "Living World Season 4"},
@@ -156,7 +156,21 @@ var acquisitionMethods = [
     { id : "blmt", name : "Black Lion Miniature Claim Ticket", category : "Gem Store"},
     { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
     { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store", hideOnIcon : true},
-
+    { id : "mountlicense01", name : "Mount Adoption License", category : "Mount License"},
+    { id : "mountlicense02", name : "Istan Isles Mount License", category : "Mount License"},
+    { id : "mountlicense03", name : "Desert Racer Mount License", category : "Mount License"},
+    { id : "mountlicense04", name : "Distant Lands Mount License", category : "Mount License"},
+    { id : "mountlicense05", name : "Exotic Breeds Mount License", category : "Mount License"},
+    { id : "mountlicense06", name : "New Horizons Mount License", category : "Mount License"},
+    { id : "mountlicense07", name : "Mistborn Mount License", category : "Mount License"},
+    { id : "mountlicense08", name : "Curious Creatures Mount License", category : "Mount License"},
+    { id : "mountlicense09", name : "Bizarre Beasts Mount License", category : "Mount License"},
+    { id : "mountlicense10", name : "Lost Era Mount License", category : "Mount License"},
+    { id : "mountlicense11", name : "Deep Wilds Mount License", category : "Mount License"},
+    { id : "mountlicense12", name : "Canthan Menagerie Mount License", category : "Mount License"},
+    { id : "mountlicense13", name : "Imperial Wonders Mount License", category : "Mount License"},
+    { id : "mountlicense14", name : "Eternal Crossings Mount License", category : "Mount License"},
+ 
     { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}
 
 ];

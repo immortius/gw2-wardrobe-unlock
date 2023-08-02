@@ -2,27 +2,26 @@
   "name": "event",
   "contents": [
     // Core
-    130,131,132,
-    129,289,
+    130,131,132,193,194,
+    // Living World Season 1
+    214,217,
+    // Living World Season 2 - Dry Top
+    298,
     // Path of Fire
-    552,
-    // Raid
-    368,370,371,372,373,375,376,377,
-    389,390,391,392,393,394,
-    401,402,403,
-    436,438,440,441,442,
-    621,622,623,
-    721,722,723,725,
-    763,764,765,
-    // Competitive: Player vs. Player / World vs. World
-    476,478,486,
-    // Festival: Dragon Bash
-    157,158,159,
-    // Festival: Halloween
-    302,
-    // Standalone: Extra Life
-    181,
-    // Gem Store
-    369,781
+    508,509,525,535,549,579,
+    // Path of Fire - Djinn
+    503,505,563,572,
+    // Path of Fire - Elite Specialization Mentor
+    506,518,531,541,545,558,565,566,569,
+    // Living World Season 4 - Hydra Head / Elemental Hydra
+    658,668,672,
+    // Living World Season 5 - Grothmar Valley
+    778,780,
+    // Living World Season 5 - Drizzlewood Coast
+    814,
+    // Living World Season 5 - Dragonstorm
+    817,818,
+    // End of Dragons
+    884
   ]
 }

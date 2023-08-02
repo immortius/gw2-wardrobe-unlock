@@ -574,7 +574,7 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1350px -0px;
 }
-.shadowsseal-icon {
+.orderofshadowsseal-icon {
   background-image: url('../img/currencies.png');
   background-position: -1368px -0px;
 }
@@ -841,6 +841,62 @@ padding-right: 10px;
 .achievement-icon {
   background-image: url('../img/currencies.png');
   background-position: -522px -18px;
+}
+.mountlicense01-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -540px -18px;
+}
+.mountlicense02-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -558px -18px;
+}
+.mountlicense03-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -576px -18px;
+}
+.mountlicense04-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -594px -18px;
+}
+.mountlicense05-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -612px -18px;
+}
+.mountlicense06-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -630px -18px;
+}
+.mountlicense07-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -648px -18px;
+}
+.mountlicense08-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -666px -18px;
+}
+.mountlicense09-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -684px -18px;
+}
+.mountlicense10-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -702px -18px;
+}
+.mountlicense11-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -720px -18px;
+}
+.mountlicense12-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -738px -18px;
+}
+.mountlicense13-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -756px -18px;
+}
+.mountlicense14-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -774px -18px;
 }
 
 /* ==========================================================================

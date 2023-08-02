@@ -722,8 +722,6 @@
         4925,
         // Shiverpeak Arquebus
         5362,
-        // Shadow Assassin Short Bow
-        6072,
         // Flame Rifle
         5173,
         // Gladium Trident
@@ -878,7 +876,8 @@
       "gwuIgnoreIds": [
       ],
       "bountyIgnoreIds": [
-        482
+        482,
+        1704
       ],
       "gwuIncludeIds": [
         1456,
@@ -1309,7 +1308,8 @@
     "spoolofsilkthread",
     "mithrilband",
     "spiritwoodplank",
-    "pvpleagueticket"
+    "pvpleagueticket",
+    "orderofshadowsseal"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -1347,7 +1347,26 @@
     "cooksoutfit",
     "piratecaptainsoutfit",
     "fancywinteroutfit",
-    "racetrackvoucher"
+    "racetrackvoucher",
+    "endlessleatherhoodieclothingtonic",
+    "endlesscherryblossomclothingtonic",
+    "endlessdragonemblemclothingtonic",
+    "endlessridingclothestonic",
+    "endlesssilkbrocadeclothingtonic",
+    "endlesscasualclothingtonic",
+    "endlesskhakiclothingtonic",
+    "endlesscountrylaceclothingtonic",
+    "endlesscommonclothingtonic",
+    "endlessdesignerhoodieclothingtonic",
+    "endlesslayeredvestclothingtonic",
+    "endlessstripedsilkclothingtonic",
+    "endlesscasualhoodieclothingtonic",
+    "endlessornateclothingtonic",
+    "watchworkminingpick",
+    "unboundmagicloggingpulse",
+    "unboundmagicminingbeam",
+    "luckydogharvestingtool",
+    "unboundmagicharvestingblast"
   ],
   "ignoreContainers": [
     "/wiki/Toy_Mini_Egg",
