@@ -10,14 +10,14 @@
     "garden_plot_01",
     "garden_plot_02",
     "garden_plot_03",
-    // Standalone: Other
+    // Other
     "basic_cloth_rack",
     "basic_leather_rack",
-    // Standalone: Other - Harvesting Node
+    // Other - Harvesting Node
     "basic_harvesting_nodes",
-    // Standalone: Other - Logging Node
+    // Other - Logging Node
     "basic_lumber_nodes",
-    // Standalone: Other - Mining Node
+    // Other - Mining Node
     "basic_ore_nodes"
   ]
 }

@@ -149,24 +149,18 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Sworn Zaishen Helm
-          7225,7233,7241,
-          // Fallen Balthazar Helm
-          7782,7800,7804,
-          // Svanir Gauntlets
-          7941,7975,7985,
           // Exalted
           8115,8121,8122,8617,8618,8621,
-          // Searing Chain Gloves
-          8967,8986,8989,
           // Seven Reapers
           9376,9384,9447,9890,9891,9894,10098,10100,10106,10124,10129,10131,
-          // Ebon Vanguard Elite Shoulders
+          // Standalone: Other - Head
+          7225,7233,7241,9789,9790,9792,10847,10849,10867,
+          // Standalone: Other - Head + Outfit Combo
+          7782,7800,7804,
+          // Standalone: Other - Shoulder + Outfit Combo
           9577,9580,9581,
-          // Tempest Gaze
-          9789,9790,9792,
-          // Mystical Dragon Horns
-          10847,10849,10867
+          // Standalone: Other - Hand
+          7941,7975,7985,8967,8986,8989
         ],
         // Nightfury Skin
         "74491": [6161,6252,6306],
@@ -914,7 +908,8 @@
       "gwuIgnoreIds": [
       ],
       "bountyIgnoreIds": [
-        482
+        482,
+        1704
       ],
       "gwuIncludeIds": [
         1456,
@@ -1095,7 +1090,7 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Hounds of Balthazar Mail Carrier
+          // Standalone: Other
           16
         ]
       }
@@ -1276,7 +1271,6 @@
     "orrianpearl",
     "tradecontract",
     "casinocoin",
-    "shadowsseal",
     "elegymosaic",
     "volatilemagic",
     "kralkatiteore",
@@ -1339,7 +1333,8 @@
     "spoolofsilkthread",
     "mithrilband",
     "spiritwoodplank",
-    "pvpleagueticket"
+    "pvpleagueticket",
+    "orderofshadowsseal"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -1377,7 +1372,26 @@
     "cooksoutfit",
     "piratecaptainsoutfit",
     "fancywinteroutfit",
-    "racetrackvoucher"
+    "racetrackvoucher",
+    "endlessleatherhoodieclothingtonic",
+    "endlesscherryblossomclothingtonic",
+    "endlessdragonemblemclothingtonic",
+    "endlessridingclothestonic",
+    "endlesssilkbrocadeclothingtonic",
+    "endlesscasualclothingtonic",
+    "endlesskhakiclothingtonic",
+    "endlesscountrylaceclothingtonic",
+    "endlesscommonclothingtonic",
+    "endlessdesignerhoodieclothingtonic",
+    "endlesslayeredvestclothingtonic",
+    "endlessstripedsilkclothingtonic",
+    "endlesscasualhoodieclothingtonic",
+    "endlessornateclothingtonic",
+    "watchworkminingpick",
+    "unboundmagicloggingpulse",
+    "unboundmagicminingbeam",
+    "luckydogharvestingtool",
+    "unboundmagicharvestingblast"
   ],
   "ignoreContainers": [
     "/wiki/Toy_Mini_Egg",

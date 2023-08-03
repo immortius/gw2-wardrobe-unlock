@@ -3,10 +3,10 @@
   "contents": [
     // Core
     "enchanted_treasure_chest",
-    // Living World Season 1: Scarlet's War
+    // Living World Season 1
     "krait_obelisk",
     "sprocket_generator",
-    // Living World Season 2: Glint's Prophecy
+    // Living World Season 2 - The Silverwastes
     "bandit_chest",
     // Heart of Thorns
     "aurilium_node",
@@ -16,7 +16,7 @@
     "candy_corn_node",
     // Festival: Wintersday
     "wintersday_tree",
-    // Gem Store
+    // Gem Store - Garden Plot
     "garden_plot_01",
     "garden_plot_02",
     "garden_plot_03"

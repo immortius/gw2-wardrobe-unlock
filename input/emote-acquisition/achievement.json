@@ -1,7 +1,13 @@
 {
   "name": "achievement",
   "contents": [
-    // Living World Season 5
-    "rockout","shiver","playdead","Shiverplus","Stretch"
+    // Living World Season 5 - Grothmar Valley
+    "rockout",
+    // Living World Season 5 - Bjora Marches
+    "shiver",
+    // Living World Season 5 - Drizzlewood Coast
+    "playdead","Shiverplus",
+    // Living World Season 5 - Dragon Response Mission
+    "Stretch"
   ]
 }

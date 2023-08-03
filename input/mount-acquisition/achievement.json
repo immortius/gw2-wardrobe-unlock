@@ -3,11 +3,13 @@
   "contents": [
     // Path of Fire
     4,
-    // Living World Season 4
-    103,186,
+    // Living World Season 4 - Domain of Kourna
+    103,
+    // Living World Season 4 - Dragonfall
+    186,
     // End of Dragons
     397,
-    // Competitive
+    // Competitive - World vs. World
     161
   ]
 }

@@ -1,21 +1,21 @@
 {
   "name": "gem",
   "contents": [
-    // Standalone: Other - Chair
+    // Other - Chair
     24,262,268,278,279,280,284,287,294,301,302,303,305,310,312,313,314,315,323,326,327,329,
-    // Standalone: Other - Chair + Glider Combo
+    // Other - Chair + Glider Combo
     286,
-    // Standalone: Other - Musical Instrument
+    // Other - Musical Instrument
     2,6,8,18,35,37,45,
-    // Standalone: Other - Held Item
+    // Other - Held Item
     13,15,21,32,36,40,53,
-    // Standalone: Other - Toy
+    // Other - Toy
     4,5,9,19,20,52,54,55,300,
-    // Standalone: Other - Toy + Outfit Combo
+    // Other - Toy + Outfit Combo
     78,111,126,128,144,226,265,
-    // Standalone: Other - Toy + Glider Combo
+    // Other - Toy + Glider Combo
     16,27,33,
-    // Standalone: Other - Toy + Emote Combo
+    // Other - Toy + Emote Combo
     44
   ]
 }
