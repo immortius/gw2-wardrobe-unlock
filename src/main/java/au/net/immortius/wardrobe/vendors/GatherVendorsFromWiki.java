@@ -56,7 +56,8 @@ public class GatherVendorsFromWiki {
     private final Items items;
     private final Set<String> containers = new LinkedHashSet<>();
 
-    private List<MappedItemConfig> mappedItemTypes = new ArrayList<>();
+    private final List<MappedItemConfig> mappedItemTypes = new ArrayList<>();
+    private final SetMultimap<WikiUrl, String> containerSkinsContentsCache = HashMultimap.create();
 
     private static class MappedItemConfig {
         String id;
@@ -147,7 +148,6 @@ public class GatherVendorsFromWiki {
         try (BufferedWriter writer = Files.newBufferedWriter(saveToPath)) {
             gson.toJson(containers, writer);
         }
-
     }
 
     private void buildCategoryInfo() throws IOException {
@@ -236,7 +236,6 @@ public class GatherVendorsFromWiki {
                 }
             }
             if (itemColumn == -1 || costColumn == -1) {
-                logger.warn("Missing columns on url {}", url);
                 continue;
             }
 
@@ -317,24 +316,35 @@ public class GatherVendorsFromWiki {
 
         Elements itemType = doc.select("dt:matches(Item type)");
         if (!itemType.isEmpty() && (CONTAINER_TYPES.contains(itemType.next().text())) && !config.ignoreContainers.contains(itemUrl.getUrl())) {
-            result.addAll(getContainerItems(typeConfig, doc));
+            result.addAll(getContainerItems(typeConfig, itemUrl, doc));
         }
         return result;
     }
 
-    private Collection<String> getContainerItems(MappedItemConfig config, Document doc) throws IOException {
+    private Collection<String> getContainerItems(MappedItemConfig config, WikiUrl itemUrl, Document doc) throws IOException {
         Set<String> result = Sets.newLinkedHashSet();
-        Elements contentsHeading = doc.select("h2:matches(Contents)");
+
+        Elements contentsHeading = doc.select("h2:matches(Contents):not(#mw-toc-heading)");
+        int level = 0;
         if (!contentsHeading.isEmpty()) {
-            for (Element itemLink : contentsHeading.next().select("span ~ a")) {
-                String href = itemLink.attr("href");
-                if (!href.contains("?")) {
-                    result.addAll(getMappedItemIds(config, new WikiUrl(href)));
+            Elements contents = contentsHeading.next();
+            while (!contents.isEmpty() && !contents.is("h2") && !contents.is("h1")) {
+                for (Element itemLink : contents.select("span ~ a")) {
+                    String href = itemLink.attr("href");
+                    if (!href.contains("?")) {
+                        result.addAll(getMappedItemIds(config, new WikiUrl(href)));
+                    }
                 }
+                level++;
+                contents = contents.next();
             }
+        }
+        if (!result.isEmpty()) {
+            System.out.println("Found level " + level + " list of contents for " + itemUrl);
         }
         return result;
     }
+
 
     private Set<String> getSkinId(WikiUrl itemUrl) throws IOException {
         if (itemUrl.isInvalid()) {
@@ -371,29 +381,30 @@ public class GatherVendorsFromWiki {
     }
 
     private Collection<String> getContainerSkins(WikiUrl itemUrl, Document doc) throws IOException {
+        if (containerSkinsContentsCache.containsKey(itemUrl)) {
+            return containerSkinsContentsCache.get(itemUrl);
+        }
+
         Set<String> result = Sets.newLinkedHashSet();
         Elements contentsHeading = doc.select("h2:matches(Contents):not(#mw-toc-heading)");
         int level = 0;
         if (!contentsHeading.isEmpty()) {
-            for (Element itemLink : contentsHeading.next().select("span ~ a")) {
-                result.addAll(getSkinId(new WikiUrl(itemLink.attr("href"))));
-            }
-            if (result.isEmpty()) {
-                level = 1;
-                for (Element itemLink : contentsHeading.next().next().select("span ~ a")) {
+            Elements contents = contentsHeading.next();
+            while (!contents.isEmpty() && !contents.is("h2") && !contents.is("h1")) {
+                for (Element itemLink : contents.select("span ~ a")) {
                     result.addAll(getSkinId(new WikiUrl(itemLink.attr("href"))));
                 }
-            }
-            if (result.isEmpty()) {
-                level = 2;
-                for (Element itemLink : contentsHeading.next().next().next().select("span ~ a")) {
-                    result.addAll(getSkinId(new WikiUrl(itemLink.attr("href"))));
+                level++;
+                contents = contents.next();
+                if (level > 100) {
+                    System.out.println("Uh oh");
                 }
             }
         }
         if (!result.isEmpty()) {
             System.out.println("Found level " + level + " list of contents for " + itemUrl);
         }
+        containerSkinsContentsCache.putAll(itemUrl, result);
         return result;
     }
 
@@ -419,12 +430,14 @@ public class GatherVendorsFromWiki {
     }
 
     private Optional<CostComponent> extractCostComponent(Element cost) {
+        String rawCost = cost.text().trim().split("&nbsp")[0].replace(",", "");
         try {
-            String rawCost = cost.text().trim().split("&nbsp")[0].replace(",", "");
             int quantity = Integer.parseInt(rawCost);
             return convertCurrency(cost.select("a").attr("title"), quantity);
         } catch (NumberFormatException e) {
-            logger.error("Not a valid cost string? \"{}\" of {}", cost.text(), cost.parent().text());
+            if (!rawCost.isEmpty()) {
+                logger.error("Not a valid cost string? \"{}\" of {}", cost.text(), cost.parent().text());
+            }
             return Optional.empty();
         }
     }

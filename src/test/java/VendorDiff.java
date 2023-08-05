@@ -16,8 +16,10 @@ import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class VendorDiff {
 
@@ -62,6 +64,16 @@ public class VendorDiff {
                     oldIds = gson.fromJson(oldGwus, VENDOR_DATA_LIST_TYPE.getType());
                 }
                 logger.info("Total added: ({})", newIds.size() - oldIds.size());
+                List<String> additions = newIds.stream().map(x -> x.name).collect(Collectors.toList());
+                additions.removeAll(oldIds.stream().map(x -> x.name).collect(Collectors.toList()));
+                for (String id : additions) {
+                    System.out.println("+ " + id);
+                }
+                List<String> removals = oldIds.stream().map(x -> x.name).collect(Collectors.toList());
+                removals.removeAll(newIds.stream().map(x -> x.name).collect(Collectors.toList()));
+                for (String id : removals) {
+                    System.out.println("- " + id);
+                }
 
             }
         }
