@@ -134,6 +134,7 @@ var acquisitionMethods = [
     { id : "boh", name : "Badge of Honor", category : "Competitive"},
     { id : "wvwsct", name : "WvW Skirmish Claim Ticket", category : "Competitive"},
     { id : "memoryofbattle", name : "Memory of Battle", category : "Competitive"},
+    { id : "potionofascalonianmages", name : "Potion of Ascalonian Mages", category : "Competitive"}, 
 
     { id : "exoticluck", name: "Essence of Luck (Exotic)", category: "Festival"},
     { id : "legendaryluck", name: "Essence of Luck (Legendary)", category: "Festival"},

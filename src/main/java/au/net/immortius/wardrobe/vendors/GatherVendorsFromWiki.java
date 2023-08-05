@@ -61,7 +61,7 @@ public class GatherVendorsFromWiki {
 
     private static class MappedItemConfig {
         String id;
-        Map<String, String> itemMapping = new LinkedHashMap<>();
+        SetMultimap<String, String> itemMapping = HashMultimap.create();
         List<String> types = new ArrayList<>();
     }
 
@@ -166,6 +166,9 @@ public class GatherVendorsFromWiki {
                                 }
                             }
                         }
+                    }
+                    for (String id : unlockCategory.getItemMappings().keySet()) {
+                        info.itemMapping.putAll(id, unlockCategory.getItemMappings().get(id));
                     }
                 }
                 mappedItemTypes.add(info);
@@ -306,10 +309,7 @@ public class GatherVendorsFromWiki {
                 if (typeConfig.itemMapping.isEmpty()) {
                     result.add(itemId);
                 } else {
-                    String mappedId = typeConfig.itemMapping.get(itemId);
-                    if (!Strings.isNullOrEmpty(mappedId)) {
-                        result.add(mappedId);
-                    }
+                    result.addAll(typeConfig.itemMapping.get(itemId));
                 }
             });
         }

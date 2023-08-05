@@ -913,7 +913,14 @@
       "id": "mount",
       "name": "Mount Skins",
       "source": "mounts",
-      "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins"
+      "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins",
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes" : ["Service"],
+      "itemMappings": {
+        "82235" : [3],
+        "83938" : [6],
+        "83968" : [2]
+      }
     },
     {
       "id": "novelty",
@@ -1315,7 +1322,8 @@
     "mithrilband",
     "spiritwoodplank",
     "pvpleagueticket",
-    "orderofshadowsseal"
+    "orderofshadowsseal",
+    "potionofascalonianmages"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -1372,7 +1380,8 @@
     "unboundmagicloggingpulse",
     "unboundmagicminingbeam",
     "luckydogharvestingtool",
-    "unboundmagicharvestingblast"
+    "unboundmagicharvestingblast",
+    "geode"
   ],
   "ignoreContainers": [
     "/wiki/Toy_Mini_Egg",
