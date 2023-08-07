@@ -650,7 +650,6 @@
         10918,10924,
         // Water Dragon Legguards
         10950,10952,
-        10950,10952
         // Battlelord's Hood Helm
         11151,11162,
         // Reality Rig Mk2
@@ -945,7 +944,17 @@
       "id": "mount",
       "name": "Mount Skins",
       "source": "mounts",
-      "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins"
+      "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins",
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes" : ["Service"],
+      "itemMappings": {
+        // Springer
+        "82235": [3],
+        // Jackal
+        "83938": [6],
+        // Skimmer
+        "83968": [2]
+      }
     },
     {
       "id": "novelty",
@@ -1135,6 +1144,7 @@
     "skinTypes": [
       "Consumable",
       "Container",
+      "Gizmo",
       "Back item",
       "Heavy headgear",
       "Medium headgear",
@@ -1157,6 +1167,9 @@
       "Light gloves",
       "Light leggings",
       "Light shoulders",
+      "Heavy chest",
+      "Medium chest",
+      "Light chest",
       "Axe",
       "Dagger",
       "Mace",
@@ -1182,6 +1195,9 @@
       "Heavy aquatic Headgear",
       "Medium aquatic Headgear",
       "Light aquatic Headgear",
+      "Heavy aquatic headgear",
+      "Medium aquatic headgear",
+      "Light aquatic headgear",
       "Harvesting sickle",
       "Logging axe",
       "Mining pick"
@@ -1334,7 +1350,8 @@
     "mithrilband",
     "spiritwoodplank",
     "pvpleagueticket",
-    "orderofshadowsseal"
+    "orderofshadowsseal",
+    "potionofascalonianmages"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -1391,7 +1408,8 @@
     "unboundmagicloggingpulse",
     "unboundmagicminingbeam",
     "luckydogharvestingtool",
-    "unboundmagicharvestingblast"
+    "unboundmagicharvestingblast",
+    "geode"
   ],
   "ignoreContainers": [
     "/wiki/Toy_Mini_Egg",
@@ -1451,6 +1469,57 @@
     "/wiki/Gilded_Coffer",
     "/wiki/Doggy_Bag_(second)",
     "/wiki/Doggy_Bag",
-    "/wiki/Cache_of_the_Traveler"
+    "/wiki/Cache_of_the_Traveler",
+    "/wiki/Vintage_Black_Lion_Weapon_Box",
+    "/wiki/Bonus_Box_of_Goods",
+    "/wiki/Wintersday_Gift",
+    "/wiki/Divine_Lucky_Envelope",
+    "/wiki/Personalized_Wintersday_Gift",
+    "/wiki/Gilded_Strongbox",
+    "/wiki/Box_of_WvW_Supplies",
+    "/wiki/Djinn_Energy_Cluster",
+    "/wiki/Guaranteed_Wardrobe_Unlock",
+    "/wiki/Guaranteed_Weapon_Unlock",
+    "/wiki/Zephyrite_Supply_Box",
+    "/wiki/Quaggan_Bag_of_Goods",
+    "/wiki/Memories_of_Scarlet_Box",
+    "/wiki/Kodan_Supply_Box",
+    "/wiki/Skritt_Supply_Box",
+    "/wiki/Olmakhan_Supply_Box",
+    "/wiki/Tengu_Supply_Box",
+    "/wiki/Exalted_Supply_Box",
+    "/wiki/Deldrimor_Supply_Box",
+    "/wiki/Ebon_Vanguard_Supply_Box",
+    "/wiki/Crystal_Bloom_Supply_Box",
+    "/wiki/Zephyr_Sanctum_Supply_Box",
+    "/wiki/Lucky_Red_Bag",
+    "/wiki/Little_Lucky_Envelope",
+    "/wiki/Dragon_Ball_Champion%27s_Divine_Lucky_Envelope",
+    "/wiki/Dragon_Ball_Champion%27s_Stack_of_5_Divine_Lucky_Envelopes",
+    "/wiki/Dragon_Ball_Champion%27s_Chest_of_10_Divine_Lucky_Envelopes",
+    "/wiki/Embroidered_Coin_Purse",
+    "/wiki/Bag_of_Creepy-Crawlies",
+    "/wiki/Festive_Bag_of_Materials",
+    "/wiki/Trophy_Shipment",
+    "/wiki/Bag_of_Alliance_Supplies",
+    "/wiki/Box_of_Alliance_Supplies",
+    "/wiki/Crate_of_Alliance_Supplies",
+    "/wiki/Cold-Forged_Exotic_Weapon",
+    "/wiki/Equipment_Bag",
+    "/wiki/Pile_of_Silky_Sand",
+    "/wiki/Case_of_Sand",
+    "/wiki/Arid_Dusty_Satchel",
+    "/wiki/Mysterious_Key_Pouch",
+    "/wiki/Bag_of_Rare_Gear",
+    "/wiki/Cowrie_League_Metal_Crate",
+    "/wiki/Cowrie_League_Wood_Crate",
+    "/wiki/Cowrie_League_Cloth_Crate",
+    "/wiki/Cowrie_League_Trophy_Crate",
+    "/wiki/Cowrie_League_Leather_Crate",
+    "/wiki/House_of_Daoud_Metal_Crate",
+    "/wiki/House_of_Daoud_Wood_Crate",
+    "/wiki/House_of_Daoud_Cloth_Crate",
+    "/wiki/House_of_Daoud_Trophy_Crate",
+    "/wiki/House_of_Daoud_Leather_Crate"
   ]
 }

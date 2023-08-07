@@ -1,8 +1,10 @@
 {
   "topLevelCategories": {
     "(X2) Guild Wars 2: Path of Fire": {
+      "Starter": [
+        1
+      ],
       "Standalone: Renown Heart": [
-        1,
         2,
         3,
         6
