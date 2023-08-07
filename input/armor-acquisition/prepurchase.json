@@ -1,8 +1,11 @@
 {
-  "name": "deluxe",
+  "name": "promotionalevent",
   "contents": [
-    11532,
-    11534,
-    11540
+    // Celebration Hat
+    1034,1036,1038,
+    // Glowing Purple Mask
+    8657,8670,8677,
+    // Jade Tech Visor
+    11262,11285,11330
   ]
 }

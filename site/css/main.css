@@ -902,6 +902,14 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -792px -18px;
 }
+.quest-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -810px -18px;
+}
+.promotionalevent-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -828px -18px;
+}
 
 /* ==========================================================================
    Media Queries

@@ -19,6 +19,7 @@ var acquisitionMethods = [
     { id : "story", name : "Story Reward", category : "General"},
     { id : "adventure", name : "Adventure", category : "General"},
     { id : "event", name : "Event Reward", category : "General"},
+    { id : "quest", name : "Quest Reward", category : "General"},
 
     { id : "birthday1", name : "First Birthday", category : "Anniversary"},
     { id : "birthday3", name : "Third Birthday", category : "Anniversary"},
@@ -151,12 +152,14 @@ var acquisitionMethods = [
 
     { id : 'gem', name : "Gems", category : "Gem Store"},
     { id : 'deluxe', name : "Purchase Bonus", category : "Gem Store"},
+    { id : 'promotionalevent', name : "Promotional Event", category : "Gem Store"},
     { id : "bls", name : "Black Lion Statuette", category : "Gem Store"},
     { id : "gwu", name : "Guaranteed Wardrobe Unlock", category : "Gem Store", hideOnIcon : true},
     { id : 'blt', name : "Black Lion Claim Ticket", category : "Gem Store"},
     { id : "blmt", name : "Black Lion Miniature Claim Ticket", category : "Gem Store"},
     { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
     { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store", hideOnIcon : true},
+    
     { id : "mountlicense01", name : "Mount Adoption License", category : "Mount License"},
     { id : "mountlicense02", name : "Istan Isles Mount License", category : "Mount License"},
     { id : "mountlicense03", name : "Desert Racer Mount License", category : "Mount License"},

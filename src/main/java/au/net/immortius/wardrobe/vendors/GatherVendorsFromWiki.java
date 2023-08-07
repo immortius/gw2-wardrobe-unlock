@@ -57,6 +57,7 @@ public class GatherVendorsFromWiki {
     private final Set<String> containers = new LinkedHashSet<>();
 
     private final List<MappedItemConfig> mappedItemTypes = new ArrayList<>();
+    private final SetMultimap<String, String> itemToSkinMappings = HashMultimap.create();
     private final SetMultimap<WikiUrl, String> containerSkinsContentsCache = HashMultimap.create();
 
     private static class MappedItemConfig {
@@ -152,7 +153,11 @@ public class GatherVendorsFromWiki {
 
     private void buildCategoryInfo() throws IOException {
         for (UnlockCategoryConfig unlockCategory : config.unlockCategories) {
-            if (!unlockCategory.getVendorItemTypes().isEmpty()) {
+            if ("skins".equals(unlockCategory.source)) {
+                for (Map.Entry<String, Collection<String>> itemMapping : unlockCategory.getItemMappings().entrySet()) {
+                    itemToSkinMappings.putAll(itemMapping.getKey(), itemMapping.getValue());
+                }
+            } else if (!unlockCategory.getVendorItemTypes().isEmpty()) {
                 MappedItemConfig info = new MappedItemConfig();
                 info.id = unlockCategory.id;
                 info.types.addAll(unlockCategory.getVendorItemTypes());
@@ -368,6 +373,12 @@ public class GatherVendorsFromWiki {
                 }
             }
         }
+        Elements itemIdElement = doc.select("span.gamelink[data-type='item']");
+        if (!itemIdElement.isEmpty()) {
+            String itemId = itemIdElement.attr("data-id");
+            result.addAll(itemToSkinMappings.get(itemId));
+        }
+
         Elements itemType = doc.select("dt:matches(Item type)");
         if (!itemType.isEmpty() && CONTAINER_TYPES.contains(itemType.next().text()) && !config.ignoreContainers.contains(itemUrl.getUrl())) {
             Collection<String> containerSkins = getContainerSkins(itemUrl, doc);

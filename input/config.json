@@ -156,6 +156,10 @@
           // Ebon Vanguard Elite Shoulders
           9577,9580,9581
         ],
+        // Fused Gauntlet Ticket
+        "42417" : [
+          2012, 2017, 2015
+        ],
         // Fallen Balthazar Package
         "85383" : [7782, 7800, 7804],
         // Southsun Remembrance Package
@@ -1109,6 +1113,7 @@
     "skinTypes": [
       "Consumable",
       "Container",
+      "Gizmo",
       "Back item",
       "Heavy headgear",
       "Medium headgear",
