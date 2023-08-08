@@ -1,15 +1,17 @@
 {
   "name": "story",
   "contents": [
-    // Starter
+    // Core - Starter - Engineer
     2340,
-    // Living World Season 1: Scarlet's War
-    2381,
-    // Heart of Thorns
-    6416,6170,6243,
-    // Path of Fire
+    // Heart of Thorns - Order Series 1: Durmand Priory
+    6170,
+    // Heart of Thorns - Order Series 2: Order of Whispers
+    6416,
+    // Heart of Thorns - Order Series 3: Vigil
+    6243,
+    // Path of Fire - Banners of Elona
     7464,7458,7631,7692,
-    // Living World Season 4: Rise of Kralkatorrik
+    // Living World Season 4 - Inquest / Mark Y Golem
     8057
   ]
 }

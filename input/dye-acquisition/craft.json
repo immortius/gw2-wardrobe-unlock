@@ -1,13 +1,13 @@
 {
   "name": "craft",
   "contents": [
-    // Black Lion Dye Canister—Blue
+    // Black Lion Series 1 - Blue
     1652,1653,1654,
-    // Black Lion Dye Canister—Green
+    // Black Lion Series 2 - Green
     1655,1656,1657,
-    // Black Lion Dye Canister—Red
+    // Black Lion Series 3 - Red
     1659,1660,1662,
-    // Black Lion Dye Canister—Yellow
+    // Black Lion Series 4 - Yellow
     1664,1665,1666
   ]
 }

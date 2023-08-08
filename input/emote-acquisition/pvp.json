@@ -1,7 +1,9 @@
 {
   "name": "pvp",
   "contents": [
-    // Living World Season 5: The Icebrood Saga
-    "rockout","shiver"
+    // Living World Season 5 - Grothmar Valley
+    "rockout",
+    // Living World Season 5 - Bjora Marches
+    "shiver"
   ]
 }

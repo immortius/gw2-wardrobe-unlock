@@ -1,23 +1,25 @@
 {
   "name": "craft",
   "contents": [
-    // Standalone: Mystic Forge
+    // Core
     2318,2325,2326,2341,2376,
-    // Spinal Blades
+    // Living World Season 1 - Spinal Blades
     2330,2331,2332,2333,2334,2335,2337,2328,
-    // Vine / Mawdrey
+    // Living World Season 2 - Vine / Mawdrey
     5532,5544,5545,
-    // Echovald Backpiece
+    // End of Dragons - Echovald Backpiece
     10647,
-    // Fractal Capacitor
+    // Fractals of the Mists - Fractal Capacitor
     2378,2379,
-    // Ad Infinitum
+    // Fractals of the Mists - Ad Infinitum
     6344,
-    // Wings of Glory / The Ascension
+    // Competitive - Wings of Glory / The Ascension
     6556,6561,
-    // Wings of War / Warbringer
+    // Competitive - Wings of War / Warbringer
     7248,7272,
-    // Lucky Great Celestial Lantern
+    // Festival: Lunar New Year - Lucky Celestial Lantern
+    5856,6619,7065,8006,8623,9097,9883,10206,11209,
+    // Festival: Lunar New Year - Lucky Celestial Lantern > Lucky Great Celestial Lantern
     5857,6620,7069,8014,8624,9120,9838,10183,11206
   ]
 }

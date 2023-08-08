@@ -1,22 +1,15 @@
 {
   "name": "birthday6",
   "contents": [
-    // Awakened,
-    1598,1600,1601,1599,1602,1597,
-    // Elonian Landscape,
-    1574,1573,1577,1576,1579,1575,
-    // Jormag,
-    1550,1549,1551,1552,1554,1553,
-    // Primordus,
-    1542,1537,1539,1540,1541,1538,
-    // Zhaitan,
-    1580,1585,1583,1582,1581,1584,
-	// Elonian Beast
-	1592,
-    1593,
-    1594,
-    1578,
-    1595,
-    1596
+    // Gem Store Series 19 - Jormag
+    1549,1550,1551,1552,1553,1554,
+    // Gem Store Series 21 - Elonian Landscape
+    1573,1574,1575,1576,1577,1579,
+    // Gem Store Series 22 - Zhaitan
+    1580,1581,1582,1583,1584,1585,
+    // Gem Store Series 23 - Elonian Beasts
+    1578,1592,1593,1594,1595,1596,
+    // Gem Store Series 24 - Awakened
+    1598,1600,1601,1599,1602,1597
   ]
 }

@@ -1,9 +1,9 @@
 {
   "name": "pvp",
   "contents": [
-    // Mordrem Rank,
-    69,70,68,67,63,71,66,64,65,
-    // Wintersday,
-    20,33,21
+    // Competitive - Rank > Mordrem
+    63,64,65,66,67,68,69,70,71,
+    // Festival: Wintersday
+    20,21,33
   ]
 }

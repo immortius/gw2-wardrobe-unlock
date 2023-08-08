@@ -131,6 +131,7 @@ var acquisitionMethods = [
     { id : "pvpleagueticket", name : "PvP League Ticket", category : "Competitive"},
     { id : "shardofglory", name : "Shards of Glory", category : "Competitive"},
     { id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Competitive"},
+    { id : "pvptournament", name : "Tournaments & Special Events", category: "Competitive"},
     { id : "pvptournamentvoucher", name : "PvP Tournament Voucher", category : "Competitive"},
     { id : "boh", name : "Badge of Honor", category : "Competitive"},
     { id : "wvwsct", name : "WvW Skirmish Claim Ticket", category : "Competitive"},

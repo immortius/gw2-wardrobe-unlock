@@ -1,0 +1,9 @@
+{
+  "name": "pvptournament",
+  "contents": [
+    // Competitive - Trophy
+    22,23,47,
+    // Competitive - World Tournament Series
+    53,54,55,56
+  ]
+}
