@@ -17,7 +17,7 @@ var acquisitionMethods = [
     { id: "achievementpoint", name: "Achievement Point", category: "General"},
     { id: "hallofmonuments", name: "Hall of Monuments", category: "General"},
     { id: "story", name: "Story Reward", category: "General"},
-    { id: "quest", name: "Quest Reward", category: "General"},
+    { id: "quest", name: "Dialogue Reward", category: "General"},
     { id: "event", name: "Event Reward", category: "General"},
     { id: "adventure", name: "Adventure Reward", category: "General"},
 
@@ -139,7 +139,7 @@ var acquisitionMethods = [
     { id: "shardofglory", name: "Shards of Glory", category: "Competitive"},
     { id: "ascendedshardofglory", name: "Ascended Shards of Glory", category: "Competitive"},
     //{ id: "pvpleague", name: "PvP League Leaderboard", category: "Competitive"},
-    //{ id: "pvptournament", name: "Tournaments & Special Events", category: "Competitive"},
+    { id: "pvptournament", name: "Tournaments & Special Events", category: "Competitive"},
     { id: "pvptournamentvoucher", name: "PvP Tournament Voucher", category: "Competitive"},
     { id: "boh", name: "Badge of Honor", category: "Competitive"},
     { id: "wvwsct", name: "WvW Skirmish Claim Ticket", category: "Competitive"},
@@ -974,29 +974,21 @@ function buildCategories(sectionData) {
     } else {
         categories += buildSectionGroups(sectionData.categories[0], sectionData.id);
     }
-
     return categories;
 }
 
 function buildSectionGroups(groupsData, typeId) {
     var groups = '';
-    if (groupsData.groups && groupsData.groups.length > 1) {
-        for (var groupIndex = 0; groupIndex < groupsData.groups.length; ++groupIndex) {
-            var groupData = groupsData.groups[groupIndex];
-            var buyTotal = calculateTotalValue(groupData.content, getBuyPrice);
-            var sellTotal = calculateTotalValue(groupData.content, getSellPrice);
+    for (var groupIndex = 0; groupIndex < groupsData.groups.length; ++groupIndex) {
+        var groupData = groupsData.groups[groupIndex];
+        var buyTotal = calculateTotalValue(groupData.content, getBuyPrice);
+        var sellTotal = calculateTotalValue(groupData.content, getSellPrice);
 
-            var group = '<div class="group" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + groupIndex + '"><h3>' + htmlEscape(groupData.groupName) + '</h3>';
-            group += '<div class="section-body">';
-            group += populateContent(groupData.content, typeId);
-            group += '</div></div>';
-            groups += group;
-        }
-    } else {
-        var contentSection = '<div class="section-body">';
-        contentSection += populateContent(groupsData.groups[0].content, typeId);
-        contentSection += '</div>';
-        groups += contentSection;
+        var group = '<div class="group" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + groupIndex + '"><h3>' + htmlEscape(groupData.groupName) + '</h3>';
+        group += '<div class="section-body">';
+        group += populateContent(groupData.content, typeId);
+        group += '</div></div>';
+        groups += group;
     }
     return groups;
 }

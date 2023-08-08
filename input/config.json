@@ -162,6 +162,8 @@
           // Standalone: Other - Hand
           7941,7975,7985,8967,8986,8989
         ],
+        // Fused Gauntlet Ticket
+        "42417": [2012,2017,2015],
         // Nightfury Skin
         "74491": [6161,6252,6306],
         // Southsun Remembrance Package
@@ -922,8 +924,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/gliders",
       "chatcodeType": 2,
       "useItemForChatcode": true,
-      "mapItemsToUnlocksForVendor" : true,
-      "vendorItemTypes" : ["Container","Consumable","Gizmo, Novelty","Novelty, Gizmo"],
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Container","Consumable","Gizmo, Novelty","Novelty, Gizmo"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -945,8 +947,8 @@
       "name": "Mount Skins",
       "source": "mounts",
       "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins",
-      "mapItemsToUnlocksForVendor" : true,
-      "vendorItemTypes" : ["Service"],
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Service"],
       "itemMappings": {
         // Springer
         "82235": [3],
@@ -1054,7 +1056,7 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/minis",
       "chatcodeType": 2,
       "useItemForChatcode": true,
-      "mapItemsToUnlocksForVendor" : true,
+      "mapItemsToUnlocksForVendor": true,
       "vendorItemTypes": ["Miniature","Container","Consumable"],
       "itemMappings": {
         // Black Lion Exclusives Chest
@@ -1094,8 +1096,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/mailcarriers",
       "chatcodeType": 2,
       "useItemForChatcode": true,
-      "mapItemsToUnlocksForVendor" : true,
-      "vendorItemTypes" : ["Consumable"],
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Consumable"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
