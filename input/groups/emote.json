@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "Living World Season 5: The Icebrood Saga": {
+    "(LW5) Living World Season 5: The Icebrood Saga": {
       "Standalone: Grothmar Valley": [
         "rockout"
       ],
@@ -11,11 +11,11 @@
         "playdead",
         "Shiverplus"
       ],
-      "Standalone: Dragon Response Mission": [
+      "Standalone: Dragonstorm": [
         "Stretch"
       ]
     },
-    "End of Dragons": {
+    "(X3) Guild Wars 2: End of Dragons": {
       "Standalone: Other": [
         "Paper",
         "Rock",
@@ -30,7 +30,10 @@
       ],
       "Standalone: Other": [
         "Serve",
-        "Hiss"
+        "Hiss",
+        "MagicJuggle",
+        "Readbook",
+        "sipcoffee"
       ]
     }
   }

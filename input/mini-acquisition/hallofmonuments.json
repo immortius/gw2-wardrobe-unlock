@@ -1,9 +1,7 @@
 {
   "name": "hallofmonuments",
   "contents": [
-    // Cute Animals,
-    4,3,
-    // General,
-    5,2
+    // Core - Hall of Monuments
+    2,3,4,5
   ]
 }

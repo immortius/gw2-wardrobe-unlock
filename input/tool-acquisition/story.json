@@ -1,6 +1,9 @@
 {
   "name": "story",
   "contents": [
-    2385,2388,2395,10721
+    // Core - Basic
+    2385,2388,2395,
+    // End of Dragons
+    10721
   ]
 }

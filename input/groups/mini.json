@@ -15,12 +15,11 @@
         4,
         5
       ],
+      "Standalone: Lost Orrian Jewelry Box": [
+        129
+      ],
       "Standalone: Racing": [
         734
-      ],
-      "Standalone: Renown Heart": [
-        504,
-        521
       ],
       "Standalone: World Boss": [
         193,
@@ -30,12 +29,10 @@
         66,
         124,
         125,
-        129,
-        289,
         582
       ]
     },
-    "Living World Season 1: Scarlet's War": {
+    "(LW1) Living World Season 1: Scarlet's War": {
       "Standalone: Dungeon": [
         136,
         195
@@ -60,7 +57,7 @@
         223
       ]
     },
-    "Living World Season 2: Glint's Prophecy": {
+    "(LW2) Living World Season 2: Glint's Prophecy": {
       "Standalone: Dry Top": [
         298
       ],
@@ -71,7 +68,7 @@
         312
       ]
     },
-    "Heart of Thorns": {
+    "(X1) Guild Wars 2: Heart of Thorns": {
       "Standalone: Guild": [
         337,
         338,
@@ -97,7 +94,7 @@
         396
       ]
     },
-    "Living World Season 3: Glint's Legacy": {
+    "(LW3) Living World Season 3: Glint's Legacy": {
       "Standalone: Bloodstone Fen": [
         406,
         407,
@@ -149,7 +146,7 @@
         496
       ]
     },
-    "Path of Fire": {
+    "(X2) Guild Wars 2: Path of Fire": {
       "Standalone: Casino Blitz": [
         537,
         595
@@ -157,12 +154,14 @@
       "Standalone: Renown Heart": [
         498,
         502,
+        504,
         507,
         511,
         515,
         516,
         517,
         520,
+        521,
         523,
         526,
         528,
@@ -171,6 +170,7 @@
         544,
         546,
         551,
+        552,
         553,
         559,
         570,
@@ -202,8 +202,6 @@
       "Standalone: Other": [
         500,
         501,
-        503,
-        505,
         508,
         509,
         510,
@@ -219,18 +217,21 @@
         540,
         547,
         549,
-        552,
         555,
         557,
         560,
         562,
-        563,
-        572,
         573,
         574,
         575,
         579,
         585
+      ],
+      "Standalone: Other - Djinn": [
+        503,
+        505,
+        563,
+        572
       ],
       "Standalone: Other - Elite Specialization Mentor": [
         506,
@@ -244,8 +245,8 @@
         569
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik": {
-      "Hydra Head / Elemental Hydra": [
+    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+      "Elemental Hydra Head / Elemental Hydra": [
         658,
         668,
         669,
@@ -291,7 +292,7 @@
         762
       ]
     },
-    "Living World Season 5: The Icebrood Saga": {
+    "(LW5) Living World Season 5: The Icebrood Saga": {
       "Standalone: Grothmar Valley": [
         777,
         778,
@@ -309,7 +310,7 @@
         802,
         803
       ],
-      "Standalone: Forging Steel": [
+      "Standalone: Eye of the North": [
         805,
         806,
         807,
@@ -326,7 +327,7 @@
         818
       ]
     },
-    "End of Dragons": {
+    "(X3) Guild Wars 2: End of Dragons": {
       "Standalone: Fishing": [
         844,
         845,
@@ -343,21 +344,22 @@
         856,
         858
       ],
-      "Standalone: What Lies Beneath/Within" : [
+      "Standalone: Other": [
+        839,
+        842,
+        847,
         849,
         851,
         875,
         884,
-        885,
-        842,
-        839
-      ],
-      "Standalone: Other": [
-        847,
-        875
+        885
       ]
     },
-    "Fractals of the Mists": {
+    "(X4) Guild Wars 2: Secrets of the Obscure": {
+      "Standalone: Other": [
+      ]
+    },
+    "Cooperative: Fractals of the Mists": {
       "Old Tom": [
         344,
         352,
@@ -370,7 +372,7 @@
         890
       ]
     },
-    "Raid": {
+    "Cooperative: Raid": {
       "Standalone: Spirit Vale": [
         368,
         370,
@@ -557,24 +559,24 @@
         202,
         730
       ],
-      "Standalone: Mystic Forge": [
-        607
+      "Standalone: Festival Bag": [
+        300,
+        356,
+        417,
+        614
       ],
       "Standalone: Other": [
         196,
-        300,
         301,
         302,
         345,
         353,
-        356,
         416,
-        417,
         418,
         600,
         603,
+        607,
         608,
-        614,
         731,
         787,
         833,
@@ -615,6 +617,10 @@
       "Standalone: Annual Customs": [
         738
       ],
+      "Standalone: Festival Bag": [
+        213,
+        625
+      ],
       "Standalone: Strike Mission": [
         737,
         791,
@@ -622,9 +628,7 @@
         836
       ],
       "Standalone: Other": [
-        213,
         310,
-        625,
         632,
         636,
         735,
@@ -791,17 +795,107 @@
         253,
         254
       ],
+      "Black Lion Series 1 - Raptor Hatchling": [
+        591,
+        592,
+        593,
+        596,
+        598,
+        586,
+        587,
+        588,
+        589,
+        590
+      ],
+      "Black Lion Series 2 - Jackal Pup": [
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646
+      ],
+      "Black Lion Series 3 - Griffon Hatchling": [
+        679,
+        680,
+        681,
+        682,
+        683,
+        684,
+        685,
+        686,
+        687,
+        688
+      ],
+      "Black Lion Series 4 - Springer Kit": [
+        702,
+        703,
+        704,
+        705,
+        706,
+        707,
+        708,
+        710,
+        711,
+        712,
+        716
+      ],
+      "Black Lion Series 5 - Skimmer Pup": [
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759
+      ],
+      "Black Lion Series 6 - Skyscale Hatchling": [
+        766,
+        767,
+        768,
+        769,
+        770,
+        772,
+        773,
+        774,
+        775,
+        776
+      ],
+      "Black Lion Series 7 - Shiba Inu": [
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830
+      ],
+      "Black Lion Series 8 - Tigris Cub": [
+        860,
+        861,
+        862,
+        863,
+        864,
+        865,
+        866,
+        867,
+        868,
+        869
+      ],
       "Avian": [
         237,
         238,
         239
-      ],
-      "Awakened Mounts": [
-        689,
-        691,
-        693,
-        694,
-        699
       ],
       "Baby - Set 1": [
         139,
@@ -822,78 +916,56 @@
         165,
         166
       ],
-      "Branded Mounts": [
-        657,
-        660,
-        661,
-        662,
-        663
-      ],
       "Costumed": [
         197,
         198,
         199,
         200
       ],
-      "Cozy Wintersday Mounts": [
-        627,
-        629,
-        631,
-        633,
-        635
-      ],
       "Creepy": [
         208,
         229,
         299
-      ],
-      "Exo-Suit Mounts": [
-        709,
-        713,
-        714,
-        715,
-        717
       ],
       "Great Jungle Wurm": [
         215,
         216,
         218
       ],
-      "Griffon Hatchling": [
-        679,
-        680,
-        681,
-        682,
-        683,
-        684,
-        685,
-        686,
-        687,
-        688
+      "Mounts - Set 1 / Spooky": [
+        599,
+        605,
+        609,
+        610,
+        611
       ],
-      "Jackal Pup": [
-        637,
-        638,
-        639,
-        640,
-        641,
-        642,
-        643,
-        644,
-        645,
-        646
+      "Mounts - Set 2 / Cozy Wintersday": [
+        627,
+        629,
+        631,
+        633,
+        635
       ],
-      "Raptor Hatchling": [
-        591,
-        592,
-        593,
-        596,
-        598,
-        586,
-        587,
-        588,
-        589,
-        590
+      "Mounts - Set 3 / Branded": [
+        657,
+        660,
+        661,
+        662,
+        663
+      ],
+      "Mounts - Set 4 / Awakened": [
+        689,
+        691,
+        693,
+        694,
+        699
+      ],
+      "Mounts - Set 5 / Exo-Suit": [
+        709,
+        713,
+        714,
+        715,
+        717
       ],
       "Scarlet's Champions": [
         219,
@@ -902,67 +974,11 @@
         225,
         226
       ],
-      "Shiba Inu": [
-        821,
-        822,
-        823,
-        824,
-        825,
-        826,
-        827,
-        828,
-        829,
-        830
-      ],
-      "Skimmer Pup": [
-        750,
-        751,
-        752,
-        753,
-        754,
-        755,
-        756,
-        757,
-        758,
-        759
-      ],
-      "Skyscale Hatchling": [
-        766,
-        767,
-        768,
-        769,
-        770,
-        772,
-        773,
-        774,
-        775,
-        776
-      ],
       "Spooky": [
         107,
         109,
         110,
         111
-      ],
-      "Spooky Mounts": [
-        599,
-        605,
-        609,
-        610,
-        611
-      ],
-      "Springer Kit": [
-        702,
-        703,
-        704,
-        705,
-        706,
-        707,
-        708,
-        710,
-        711,
-        712,
-        716
       ],
       "Super - Set 1": [
         133,
@@ -994,18 +1010,6 @@
         191,
         192
       ],
-      "Tigris Cub": [
-        860,
-        861,
-        862,
-        863,
-        864,
-        865,
-        866,
-        867,
-        868,
-        869
-      ],
       "Wintersday": [
         209,
         210,
@@ -1017,7 +1021,7 @@
         113,
         114
       ],
-      "Standalone: Extra Life Donation Bundle": [
+      "Standalone: Extra Life": [
         785,
         816,
         835
@@ -1038,6 +1042,7 @@
         201,
         203,
         222,
+        289,
         293,
         294,
         297,
@@ -1107,7 +1112,7 @@
         796,
         815
       ],
-      "Standalone: Other - Back Item Combo" : [
+      "Standalone: Other + Back Item Combo": [
         342
       ],
       "Standalone: Other - Mount": [

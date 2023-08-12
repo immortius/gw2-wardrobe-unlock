@@ -41,7 +41,7 @@
         237
       ]
     },
-    "Living World Season 1: Scarlet's War": {
+    "(LW1) Living World Season 1: Scarlet's War": {
       "Quaggan Tonic": [
         88,
         131,
@@ -67,7 +67,7 @@
         156
       ]
     },
-    "Living World Season 2: Glint's Prophecy": {
+    "(LW2) Living World Season 2: Glint's Prophecy": {
       "Standalone: Dry Top": [
         11,
         14,
@@ -84,26 +84,28 @@
         243
       ]
     },
-    "Heart of Thorns": {
+    "(X1) Guild Wars 2: Heart of Thorns": {
       "Mushroom Tonic": [
         96,
         135,
         266,
         267
       ],
-      "Standalone: Other": [
+      "Standalone: World Boss": [
         102,
+        214,
+        234
+      ],
+      "Standalone: Other": [
         106,
         110,
         186,
         198,
-        214,
         228,
-        234,
         241
       ]
     },
-    "Living World Season 3: Glint's Legacy": {
+    "(LW3) Living World Season 3: Glint's Legacy": {
       "Standalone: Ember Bay": [
         132
       ],
@@ -117,7 +119,7 @@
         92
       ]
     },
-    "Path of Fire": {
+    "(X2) Guild Wars 2: Path of Fire": {
       "Standalone: Casino Blitz": [
         10,
         17,
@@ -131,7 +133,7 @@
       "Standalone: Other": [
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik": {
+    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
       "Standalone: Domain of Istan": [
         248
       ],
@@ -150,7 +152,7 @@
         282
       ]
     },
-    "Living World Season 5: The Icebrood Saga": {
+    "(LW5) Living World Season 5: The Icebrood Saga": {
       "Standalone: Grothmar Valley": [
         292,
         293
@@ -160,7 +162,7 @@
         299
       ]
     },
-    "End of Dragons": {
+    "(X3) Guild Wars 2: End of Dragons": {
       "Standalone: Fishing": [
       ],
       "Standalone: Strike Mission": [
@@ -174,7 +176,11 @@
         330
       ]
     },
-    "Fractals of the Mists": {
+    "(X4) Guild Wars 2: Secrets of the Obscure": {
+      "Standalone: Other": [
+      ]
+    },
+    "Cooperative: Fractals of the Mists": {
       "Standalone: Challenge Mode": [
         115,
         141,
@@ -184,7 +190,7 @@
         121
       ]
     },
-    "Raid": {
+    "Cooperative: Raid": {
       "Standalone: Salvation Pass": [
         258
       ],
@@ -199,7 +205,7 @@
       ]
     },
     "Competitive: Player vs. Player / World vs. World": {
-      "Champion's Gizmo": [
+      "Standalone: Player vs. Player": [
       ],
       "Standalone: World vs. World": [
         147
@@ -216,6 +222,9 @@
       ]
     },
     "Festival: Festival of the Four Winds": {
+      "Standalone: Festival Bag": [
+        223
+      ],
       "Standalone: Treasure Hunt": [
         1,
         31,
@@ -224,8 +233,7 @@
       "Standalone: Other": [
         28,
         142,
-        150,
-        223
+        150
       ]
     },
     "Festival: Halloween": {
@@ -235,7 +243,7 @@
         166,
         178
       ],
-      "Standalone: Other": [
+      "Standalone: Festival Bag": [
         170,
         180
       ]
@@ -245,7 +253,7 @@
         93,
         217
       ],
-      "Toy Tonic / Gift Tonic / Toymaker's Tonic": [
+      "Toy Tonic / Gift Box Tonic / Gift Dolyak Tonic / Toymaker's Tonic": [
         119,
         136,
         145,
@@ -255,15 +263,19 @@
         206,
         257
       ],
-      "Standalone: Other": [
+      "Standalone: Festival Bag": [
         38,
         42,
         75,
-        133,
+        133
+      ],
+      "Standalone: Other": [
         277
       ]
     },
     "Gem Store": {
+      "Standalone: Extra Life": [
+      ],
       "Standalone: Other - Chair": [
         24,
         262,

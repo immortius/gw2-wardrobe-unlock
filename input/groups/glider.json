@@ -1,18 +1,20 @@
 {
   "topLevelCategories": {
-    "Core": {
+    "(X1) Guild Wars 2: Heart of Thorns": {
       "Starter": [
         2
       ]
     },
-    "Fractals of the Mists": {
-      "Standalone: Mystic Forge": [
+    "Cooperative: Fractals of the Mists": {
+      "Standalone: Other": [
         22
       ]
     },
     "Competitive: Player vs. Player / World vs. World": {
-      "Standalone: Mystic Forge": [
-        11,
+      "Standalone: Player vs. Player": [
+        11
+      ],
+      "Standalone: World vs. World": [
         43
       ]
     },
@@ -44,7 +46,6 @@
         46,
         49,
         50,
-        53,
         55,
         58,
         59,
@@ -91,7 +92,6 @@
         109,
         110,
         111,
-        115,
         116,
         118,
         123
@@ -100,10 +100,6 @@
         96,
         114,
         122
-      ],
-      "Standalone: Other + Back Item Combo - Plush": [
-      ],
-      "Standalone: Other + Back Item Combo - Quiver": [
       ],
       "Standalone: Other + Back Item Combo - Wings": [
         1,
@@ -149,7 +145,8 @@
       "Standalone: Other + Novelty Combo - Toy": [
         16,
         39,
-        44
+        44,
+        53
       ]
     }
   }
