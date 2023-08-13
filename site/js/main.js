@@ -1117,6 +1117,12 @@ function showDetails(item, prefix) {
     selectionIcon += '</div>';
     $('#' + prefix + 'selection-icon').replaceWith(selectionIcon);
     $('#' + prefix + 'selection-name').children('span').text(item.name);
+    if (item.type) {
+        $('#' + prefix + 'selection-type').children('span').text(item.type);
+        $('#' + prefix + 'selection-type').toggle(true);
+    } else {
+        $('#' + prefix + 'selection-type').toggle(false);
+    }
     $('#' + prefix + 'selection-group').children('span').text(item.groupName);
     if (item.rarity) {
         $('#' + prefix + 'selection-rarity').children('span').text(item.rarity);

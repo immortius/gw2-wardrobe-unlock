@@ -474,6 +474,12 @@ public class GenerateContent {
                 unlock.name = itemData.getName();
                 unlock.sources = Sets.newLinkedHashSet();
                 unlock.rarity = determineRarity(itemData.id, itemData, unlockItems);
+
+                String type = itemData.getType();
+                if (!type.isEmpty()) {
+                    unlock.type = type;
+                }
+
                 if (isCraftable(itemData.id, unlockItems, craftableItems)) {
                     unlock.sources.add(CRAFT);
                 }

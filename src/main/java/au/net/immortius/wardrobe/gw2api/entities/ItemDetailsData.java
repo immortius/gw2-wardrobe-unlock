@@ -16,4 +16,6 @@ public class ItemDetailsData {
     public int colorId;
     @SerializedName("minipet_id")
     public String minipetId;
+    @SerializedName("weight_class")
+    public String weightClass;
 }

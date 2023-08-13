@@ -14,6 +14,7 @@ public class UnlockData {
     public String name;
     public String image;
     public String color;
+    public String type;
     public int xOffset;
     public int yOffset;
     public Rarity rarity;
