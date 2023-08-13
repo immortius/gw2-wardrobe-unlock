@@ -155,6 +155,7 @@ public class ItemData extends CommonData {
             case "Weapon" -> WEAPON_TYPE_MAP.get(details.type);
             case "Back" -> "Back Item";
             case "Gathering" -> details.type;
+            case "Hero" -> details.type;
             default -> "";
         };
     }

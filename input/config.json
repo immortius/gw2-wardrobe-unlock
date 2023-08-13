@@ -87,8 +87,9 @@
     {
       "baseUrl": "https://api.guildwars2.com/v2/pvp/heroes",
       "cachePath": "heroes",
-      "bulkSupported": false,
-      "stringIds": true
+      "bulkSupported": true,
+      "stringIds": true,
+      "groupedSkins": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/home/nodes",
@@ -1089,19 +1090,21 @@
       "useItemForVendor": true,
       "nonStandardId": true,
       "chatcodeType": 2
-    }//,
+    },
 //    {
 //      "id": "node",
 //      "name": "Other: Home Instance Nodes",
 //      "source": "nodes",
 //      "unlockUrl": "https://api.guildwars2.com/v2/account/home/nodes"
 //    }//,
-//    {
-//      "id": "hero",
-//      "name": "Other: Mist Champion Skins",
-//      "source": "heroes",
-//      "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes"
-//    }
+    {
+      "id": "hero",
+      "name": "Other: Mist Champion Skins",
+      "source": "heroes",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes",
+      "mapItemsToUnlocksForVendor" : true,
+      "vendorItemTypes": ["Consumable"]
+    }
   ],
   "gwuAnalyser": {
     "iconSize": 48,

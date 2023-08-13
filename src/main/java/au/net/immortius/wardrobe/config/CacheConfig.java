@@ -10,6 +10,7 @@ public class CacheConfig {
     private Path cachePath;
     private boolean bulkSupported;
     private boolean stringIds;
+    private boolean groupedSkins;
 
     /**
      * @return The gw2 api url for the endpoint
@@ -34,5 +35,9 @@ public class CacheConfig {
 
     public boolean isStringIds() {
         return stringIds;
+    }
+
+    public boolean isGroupedSkins() {
+        return groupedSkins;
     }
 }

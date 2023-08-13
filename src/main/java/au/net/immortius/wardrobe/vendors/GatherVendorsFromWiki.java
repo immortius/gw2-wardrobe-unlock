@@ -132,6 +132,8 @@ public class GatherVendorsFromWiki {
         }
         Files.createDirectories(config.paths.getWikiCachePath());
 
+        scanVendorPage(new WikiUrl("/wiki/League_Vendor"));
+
         for (String categoryPage : config.vendorCrawler.getCategoryPages()) {
             scanCategory(new WikiUrl(categoryPage));
         }
