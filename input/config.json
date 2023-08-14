@@ -87,8 +87,9 @@
     {
       "baseUrl": "https://api.guildwars2.com/v2/pvp/heroes",
       "cachePath": "heroes",
-      "bulkSupported": false,
-      "stringIds": true
+      "bulkSupported": true,
+      "stringIds": true,
+      "groupedSkins": true
     },
     {
       "baseUrl": "https://api.guildwars2.com/v2/home/nodes",
@@ -163,7 +164,7 @@
           7941,7975,7985,8967,8986,8989
         ],
         // Fused Gauntlet Ticket
-        "42417": [2012,2017,2015],
+        "42417": [2012,2015,2017],
         // Nightfury Skin
         "74491": [6161,6252,6306],
         // Southsun Remembrance Package
@@ -1116,19 +1117,21 @@
       "useItemForVendor": true,
       "nonStandardId": true,
       "chatcodeType": 2
-    }//,
+    },
 //    {
 //      "id": "node",
 //      "name": "Other: Home Instance Nodes",
 //      "source": "nodes",
 //      "unlockUrl": "https://api.guildwars2.com/v2/account/home/nodes"
-//    }//,
-//    {
-//      "id": "hero",
-//      "name": "Other: Mist Champion Skins",
-//      "source": "heroes",
-//      "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes"
-//    }//,
+//    },
+    {
+      "id": "hero",
+      "name": "Other: Mist Champion Skins",
+      "source": "heroes",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes",
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Consumable"]
+    }//,
 //    {
 //      "id": "title",
 //      "name": "Other: Titles",

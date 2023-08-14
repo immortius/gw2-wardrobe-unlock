@@ -1,0 +1,11 @@
+{
+  "name": "pvp",
+  "contents": [
+    // Standalone: Player vs. Player - Grymm Svaard
+    2,
+    // Standalone: Player vs. Player - Nika
+    1,
+    // Standalone: Player vs. Player - Lightbringer Tybalt Leftpaw
+    5
+  ]
+}

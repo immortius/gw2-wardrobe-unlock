@@ -1105,23 +1105,6 @@
         2019,
         2020
       ],
-      "Standalone: Living World Return": [
-        10811,
-        10815,
-        10828,
-        10836,
-        10841,
-        10842,
-        10901,
-        10904,
-        10905,
-        11034,
-        11043,
-        11046,
-        11102,
-        11122,
-        11132
-      ],
       "Standalone: Strike Mission": [
         11152,
         11153,
@@ -1142,7 +1125,22 @@
         2023,
         2024,
         2025,
-        2026
+        2026,
+        10811,
+        10815,
+        10828,
+        10836,
+        10841,
+        10842,
+        10901,
+        10904,
+        10905,
+        11034,
+        11043,
+        11046,
+        11102,
+        11122,
+        11132
       ]
     },
     "(LW2) Living World Season 2: Glint's Prophecy": {
@@ -2939,7 +2937,7 @@
         11534,
         11540
       ],
-      "Standalone: Other - Head + Armor Combo": [
+      "Standalone: Other - Head + Combo": [
         833,
         839,
         840,
@@ -2971,7 +2969,7 @@
         10862,
         10865
       ],
-      "Standalone: Other - Head + Armor Combo - Aspect Eye": [
+      "Standalone: Other - Head + Combo - Aspect Eye": [
         8208,
         8194,
         8195,
@@ -2982,7 +2980,7 @@
         8205,
         8222
       ],
-      "Standalone: Other - Head + Armor Combo - Enchanted Dragon Crown": [
+      "Standalone: Other - Head + Combo - Enchanted Dragon Crown": [
         8234,
         8238,
         8253,
@@ -2993,7 +2991,7 @@
         8296,
         8297
       ],
-      "Standalone: Other - Head + Armor Combo - Pointed Ears": [
+      "Standalone: Other - Head + Combo - Pointed Ears": [
         11032,
         11035,
         11038,
@@ -3004,7 +3002,7 @@
         11045,
         11047
       ],
-      "Standalone: Other - Head + Armor / Back Item Combo - Cape": [
+      "Standalone: Other - Head + Back Item Combo - Cape": [
         11143,
         11150,
         11151,
@@ -3148,7 +3146,7 @@
         9757,
         9779
       ],
-      "Standalone: Other - Foot + Armor Combo": [
+      "Standalone: Other - Foot + Combo": [
         11350,
         11354,
         11355,

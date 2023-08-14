@@ -1,9 +1,6 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone: Anniversary": [
-        177
-      ],
       "Standalone: Guild": [
         130,
         131,
@@ -14,9 +11,6 @@
         3,
         4,
         5
-      ],
-      "Standalone: Lost Orrian Jewelry Box": [
-        129
       ],
       "Standalone: Racing": [
         734
@@ -29,6 +23,7 @@
         66,
         124,
         125,
+        129,
         582
       ]
     },
@@ -52,6 +47,7 @@
         167,
         168,
         169,
+        177,
         205,
         206,
         223

@@ -17,7 +17,7 @@ var acquisitionMethods = [
     { id: "achievementpoint", name: "Achievement Point", category: "General"},
     { id: "hallofmonuments", name: "Hall of Monuments", category: "General"},
     { id: "story", name: "Story Reward", category: "General"},
-    { id: "quest", name: "Dialogue Reward", category: "General"},
+    { id: "quest", name: "Quest Reward", category: "General"},
     { id: "event", name: "Event Reward", category: "General"},
     { id: "adventure", name: "Adventure Reward", category: "General"},
 
@@ -153,7 +153,7 @@ var acquisitionMethods = [
     { id: "jorbreaker", name: "Jorbreaker", category: "Festival"},
     { id: "festivaltoken", name: "Festival Token", category: "Festival"},
     { id: "favorofthefestival", name: "Favor of the Festival", category: "Festival"},
-    { id: "bundleofloot", name: "Bundle Of Loot", category: "Festival"},
+    { id: "bundleofloot", name: "Bundle of Loot", category: "Festival"},
     { id: "candycorncob", name: "Candy Corn Cob", category: "Festival"},
     { id: "snowflake", name: "Snowflake", category: "Festival"},
     { id: "snowdiamond", name: "Snow Diamond", category: "Festival"},
@@ -185,7 +185,7 @@ var acquisitionMethods = [
     { id: "mountlicense14", name: "Eternal Crossings Mount License", category: "Gem Store - Mount License"},
     //{ id: "mountlicense15", name: "Kaineng Lights Mount License", category: "Gem Store - Mount License"},
 
-    { id: "eod", name: "End Of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
+    { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
 
 ];
 
@@ -1118,6 +1118,12 @@ function showDetails(item, prefix) {
     selectionIcon += '</div>';
     $('#' + prefix + 'selection-icon').replaceWith(selectionIcon);
     $('#' + prefix + 'selection-name').children('span').text(item.name);
+    if (item.type) {
+        $('#' + prefix + 'selection-type').children('span').text(item.type);
+        $('#' + prefix + 'selection-type').toggle(true);
+    } else {
+        $('#' + prefix + 'selection-type').toggle(false);
+    }
     $('#' + prefix + 'selection-group').children('span').text(item.groupName);
     if (item.type) {
         $('#' + prefix + 'selection-type').children('span').text(item.type);
