@@ -41,11 +41,11 @@ public class GenerateContent {
 
     private static final String UNCLASSIFIED_GROUP_NAME = "New releases";
     private static final String GOLD = "gold";
-    private static final String KARMA = "karma";
+    private static final String CRAFT = "craft";
+    private static final String VENDOR = "vendor";
     private static final String TRADINGPOST = "tp";
     private static final String GUARANTEED_WARDROBE_UNLOCK = "gwu";
     private static final String BOUNTY = "bounty";
-    private static final String CRAFT = "craft";
     private static final GenericType<Map<String, TradingPostEntry>> PRICE_MAP_TYPE = new GenericType<Map<String, TradingPostEntry>>() {
     };
     private static final GenericType<Map<String, Collection<String>>> UNLOCK_ITEM_MULTIMAP = new GenericType<Map<String, Collection<String>>>() {
@@ -250,7 +250,7 @@ public class GenerateContent {
 
         for (UnlockData unlock : unlockDataMap.values()) {
             if (!unlock.getVendors().isEmpty()) {
-                unlock.sources.add("vendor");
+                unlock.sources.add(VENDOR);
                 unlock.getVendors().forEach(vendorEntry -> unlock.sources.addAll(extractVendorSources(vendorEntry)));
             }
         }
@@ -335,15 +335,6 @@ public class GenerateContent {
         for (CostComponent costComponent : vendorEntry.cost) {
             sources.add(costComponent.type);
         }
-        // If there is a cost component besides gold or karma, then
-        // remove gold/karma from the sources - we want to emphasize
-        // the primary component of the cost and not muddle things
-        if (sources.size() > 1) {
-            sources.remove(GOLD);
-        }
-        if (sources.size() > 1) {
-            sources.remove(KARMA);
-        }
         return sources;
     }
 
@@ -421,8 +412,8 @@ public class GenerateContent {
                         readItem(bestSellPrice.getItemId())
                                 .ifPresent(i -> bestSellPrice.setItemName(i.getName()));
                         unlockData.priceData = tpEntry;
-                        unlockData.sources.add(GOLD);
                         unlockData.sources.add(TRADINGPOST);
+                        unlockData.sources.add(GOLD);
                     }
 
                 }

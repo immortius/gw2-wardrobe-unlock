@@ -76,16 +76,16 @@
         6361,
         6495
       ],
-      "Decade": [
-        11025,
-        11027
-      ],
-      "Standalone: Anniversary": [
+      "Capital City": [
         6890,
         6892,
         6895,
         6898,
         6902
+      ],
+      "Decade": [
+        11025,
+        11027
       ],
       "Standalone: Guild": [
         2342,
@@ -93,12 +93,15 @@
         2344,
         9051
       ],
+      "Standalone: World Boss": [
+        2358,
+        6621
+      ],
       "Standalone: Other": [
         2318,
         2325,
         2326,
         2341,
-        2358,
         2376,
         5653,
         6242,
@@ -123,14 +126,12 @@
         2345,
         2357
       ],
-      "Standalone: Living World Return": [
-        11118
-      ],
       "Standalone: Other": [
         2353,
         2354,
         2356,
-        2381
+        2381,
+        11118
       ]
     },
     "(LW2) Living World Season 2: Glint's Prophecy": {

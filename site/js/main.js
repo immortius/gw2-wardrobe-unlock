@@ -10,173 +10,182 @@ var unlocks = {};
 var imageMap = {};
 var acquisitionMethods = [
 
-    { id : "tp", name : "Trading Post", category : "General", hideOnIcon : true},
-    { id : "vendor", name : "Vendor", category : "General", hideOnIcon : true},
-    { id : "craft", name : "Crafting", category : "General"},
-    { id : "achievement", name : "Achievement", category : "General"},
-    { id : "achievementpoint", name : "Achievement Points", category : "General"},
-    { id : 'hallofmonuments', name : "Hall of Monuments", category : "General"},
-    { id : "story", name : "Story Reward", category : "General"},
-    { id : "adventure", name : "Adventure", category : "General"},
-    { id : "event", name : "Event Reward", category : "General"},
-    { id : "quest", name : "Quest Reward", category : "General"},
+    { id: "tp", name: "Trading Post", category: "General", hideOnIcon: true},
+    { id: "vendor", name: "Vendor", category: "General", hideOnIcon: true},
+    { id: "craft", name: "Crafting", category: "General"},
+    { id: "achievement", name: "Achievement", category: "General"},
+    { id: "achievementpoint", name: "Achievement Point", category: "General"},
+    { id: "hallofmonuments", name: "Hall of Monuments", category: "General"},
+    { id: "story", name: "Story Reward", category: "General"},
+    { id: "event", name: "Event Reward", category: "General"},
+    { id: "adventure", name: "Adventure Reward", category: "General"},
+    { id: "quest", name: "Quest Reward", category: "General"},
 
-    { id : "birthday1", name : "First Birthday", category : "Anniversary"},
-    { id : "birthday3", name : "Third Birthday", category : "Anniversary"},
-    { id : "birthday4", name : "Forth Birthday", category : "Anniversary"},
-    { id : "birthday5", name : "Fifth Birthday", category : "Anniversary"},
-    { id : "birthday6", name : "Sixth Birthday", category : "Anniversary"},
-    { id : "birthday7", name : "Seventh Birthday", category : "Anniversary"},
-    { id : "birthday8", name : "Eighth Birthday", category : "Anniversary"},
-    { id : "birthday9", name : "Ninth Birthday", category : "Anniversary"},
-    { id : "birthday10", name : "Tenth Birthday", category : "Anniversary"},
+    { id: "birthday1", name: "First Birthday Gift", category: "Anniversary"},
+    //{ id: "birthday2", name: "Second Birthday Gift", category: "Anniversary"},
+    { id: "birthday3", name: "Third Birthday Gift", category: "Anniversary"},
+    { id: "birthday4", name: "Fourth Birthday Gift", category: "Anniversary"},
+    { id: "birthday5", name: "Fifth Birthday Gift", category: "Anniversary"},
+    { id: "birthday6", name: "Sixth Birthday Gift", category: "Anniversary"},
+    { id: "birthday7", name: "Seventh Birthday Gift", category: "Anniversary"},
+    { id: "birthday8", name: "Eighth Birthday Gift", category: "Anniversary"},
+    { id: "birthday9", name: "Ninth Birthday Gift", category: "Anniversary"},
+    { id: "birthday10", name: "Tenth Birthday Gift", category: "Anniversary"},
+    //{ id: "birthday11", name: "Eleventh Birthday Gift", category: "Anniversary"},
+    //{ id: "birthday12", name: "Twelfth Birthday Gift", category: "Anniversary"},
 
-    { id : "gold", name : "Coins", category : "Common", hideOnIcon : true},
-    { id : "karma", name : "Karma", category : "Common"},
-    { id : "laurel", name : "Laurel", category : "Common"},
-    { id : "spiritshard", name : "Spirit Shard", category : "Common"},
-    { id : "globofectoplasm", name : "Glob of Ectoplasm", category : "Common"},
-    { id : "guildcommendation", name : "Guild Commendation", category : "Common"},
-    { id : "provisionertoken", name : "Provisioner Token", category : "Common"},
+    { id: "gold", name: "Coins", category: "Common", hideOnIcon: true},
+    { id: "karma", name: "Karma", category: "Common"},
+    { id: "laurel", name: "Laurel", category: "Common"},
+    { id: "spiritshard", name: "Spirit Shard", category: "Common"},
+    { id: "globofectoplasm", name: "Glob of Ectoplasm", category: "Common"},
+    { id: "guildcommendation", name: "Guild Commendation", category: "Common"},
+    { id: "provisionertoken", name: "Provisioner Token", category: "Common"},
 
-    { id : "grandmasterarmorsmithsmark", name : "Grandmaster Armorsmith's Mark", category : "Crafting Component"},
-    { id : "grandmasterleatherworkersmark", name : "Grandmaster Leatherworker's Mark", category : "Crafting Component"},
-    { id : "grandmastertailorsmark", name : "Grandmaster Tailor's Mark", category : "Crafting Component"},
-    { id : "grandmasterartifactmark", name : "Grandmaster Artificer's Mark", category : "Crafting Component"},
-    { id : "grandmasterhuntsmanmark", name : "Grandmaster Huntsman's Mark", category : "Crafting Component"},
-    { id : "grandmasterweaponmark", name : "Grandmaster Weaponsmith's Mark", category : "Crafting Component"},
-    { id : "spoolofsilkthread", name : "Spool of Silk Thread", category : "Crafting Component"},
-    { id : "spiritwoodplank", name : "Spiritwood Plank", category : "Crafting Component"},
-    { id : "mithrilband", name : "Mithril Band", category : "Crafting Component"},
+    { id: "grandmasterarmorsmithsmark", name: "Grandmaster Armorsmith's Mark", category: "Crafting Component"},
+    { id: "grandmasterleatherworkersmark", name: "Grandmaster Leatherworker's Mark", category: "Crafting Component"},
+    { id: "grandmastertailorsmark", name: "Grandmaster Tailor's Mark", category: "Crafting Component"},
+    { id: "grandmasterartifactmark", name: "Grandmaster Artificer's Mark", category: "Crafting Component"},
+    { id: "grandmasterhuntsmanmark", name: "Grandmaster Huntsman's Mark", category: "Crafting Component"},
+    { id: "grandmasterweaponmark", name: "Grandmaster Weaponsmith's Mark", category: "Crafting Component"},
+    { id: "spoolofsilkthread", name: "Spool of Silk Thread", category: "Crafting Component"},
+    { id: "spiritwoodplank", name: "Spiritwood Plank", category: "Crafting Component"},
+    { id: "mithrilband", name: "Mithril Band", category: "Crafting Component"},
 
-    { id : "karkashell", name : "Karka Shell", category : "Core / Season 1 / Season 2"},
-    { id : "foundheirloom", name : "Found Heirloom", category : "Core / Season 1 / Season 2"},
-    { id : 'banditcrest', name : "Bandit Crest", category : "Core / Season 1 / Season 2"},
-    { id : "swimspeedinfusion", name : "Swim-Speed Infusion +10", category : "Core / Season 1 / Season 2"},
-    { id : "racingmedallion", name : "Racing Medallion", category : "Core / Season 1 / Season 2"},
-    { id : "proofoflegend", name : "Proof of Legend", category : "Core / Season 1 / Season 2"},
+    { id: "taleofdungeondelving", name: "Tales of Dungeon Delving", category: "Core / Season 1 / Season 2"},
+    { id: "karkashell", name: "Karka Shell", category: "Core / Season 1 / Season 2"},
+    { id: "foundheirloom", name: "Found Heirloom", category: "Core / Season 1 / Season 2"},
+    { id: "banditcrest", name: "Bandit Crest", category: "Core / Season 1 / Season 2"},
+    { id: "swimspeedinfusion", name: "Swim-Speed Infusion +10", category: "Core / Season 1 / Season 2"},
+    { id: "racingmedallion", name: "Racing Medallion", category: "Core / Season 1 / Season 2"},
+    { id: "proofoflegend", name: "Proof of Legend", category: "Core / Season 1 / Season 2"},
 
-    { id : "airshippart", name : "Airship Part", category : "Heart of Thorns"},
-    { id : "aurillium", name : "Lump of Aurillium", category : "Heart of Thorns"},
-    { id : "leylinecrystal", name : "Ley Line Crystal", category : "Heart of Thorns"},
-    { id : "reclaimedplate", name : "Reclaimed Metal Plate", category : "Heart of Thorns"},
-    { id : "chakegg", name : "Chak Egg", category : "Heart of Thorns"},
-    { id : "crystallineore", name : "Crystalline Ore", category : "Heart of Thorns"},
+    { id: "airshippart", name: "Airship Part", category: "Heart of Thorns"},
+    { id: "aurillium", name: "Lump of Aurillium", category: "Heart of Thorns"},
+    { id: "leylinecrystal", name: "Ley Line Crystal", category: "Heart of Thorns"},
+    { id: "reclaimedplate", name: "Reclaimed Metal Plate", category: "Heart of Thorns"},
+    { id: "chakegg", name: "Chak Egg", category: "Heart of Thorns"},
+    { id: "crystallineore", name: "Crystalline Ore", category: "Heart of Thorns"},
 
-    { id : "unboundmagic", name : "Unbound Magic", category : "Living World Season 3"},
-    { id : "bloodruby", name : "Blood Ruby", category : "Living World Season 3"},
-    { id : "petrifiedwood", name : "Petrified Wood", category : "Living World Season 3"},
-    { id : "circusvoucher", name : "Circus Voucher", category : "Living World Season 3"},
-    { id : "winterberries", name : "Fresh Winterberry", category : "Living World Season 3"},
-    { id : "jadeshard", name : "Jade Shard", category : "Living World Season 3"},
-    { id : "fireorchidblossom", name : "Fire Orchid Blossom", category : "Living World Season 3"},
-    { id : "orrianpearl", name : "Orrian Pearl", category : "Living World Season 3"},
+    { id: "unboundmagic", name: "Unbound Magic", category: "Living World Season 3"},
+    { id: "bloodruby", name: "Blood Ruby", category: "Living World Season 3"},
+    { id: "petrifiedwood", name: "Petrified Wood", category: "Living World Season 3"},
+    { id: "circusvoucher", name: "Circus Voucher", category: "Living World Season 3"},
+    { id: "winterberries", name: "Fresh Winterberry", category: "Living World Season 3"},
+    { id: "jadeshard", name: "Jade Shard", category: "Living World Season 3"},
+    { id: "fireorchidblossom", name: "Fire Orchid Blossom", category: "Living World Season 3"},
+    { id: "orrianpearl", name: "Orrian Pearl", category: "Living World Season 3"},
 
-    { id : "tradecontract", name : "Trade Contract", category : "Path of Fire"},
-    { id : "elegymosaic", name : "Elegy Mosaic", category : "Path of Fire"},
-    { id : "casinocoin", name : "Casino Coin", category : "Path of Fire"},
-    { id : "orderofshadowsseal", name : "Order of Shadows Seal", category : "Path of Fire"},
+    { id: "tradecontract", name: "Trade Contract", category: "Path of Fire"},
+    { id: "elegymosaic", name: "Elegy Mosaic", category: "Path of Fire"},
+    { id: "casinocoin", name: "Casino Coin", category: "Path of Fire"},
+    { id: "orderofshadowsseal", name: "Order of Shadows Seal", category: "Path of Fire"},
 
-    { id : "volatilemagic", name : "Volatile Magic", category : "Living World Season 4"},
-    { id : "kralkatiteore", name : "Kralkatite Ore", category : "Living World Season 4"},
-    { id : "difluorite", name : "Difluorite Crystal", category : "Living World Season 4"},
-    { id : "inscribedshard", name : "Inscribed Shard", category : "Living World Season 4"},
-    { id : "mistonium", name : "Lump of Mistonium", category : "Living World Season 4"},
-    { id : "brandedmass", name : "Branded Mass", category : "Living World Season 4"},
-    { id : "mistbornmote", name : "Mistborn Mote", category : "Living World Season 4"},
+    { id: "volatilemagic", name: "Volatile Magic", category: "Living World Season 4"},
+    { id: "kralkatiteore", name: "Kralkatite Ore", category: "Living World Season 4"},
+    { id: "difluorite", name: "Difluorite Crystal", category: "Living World Season 4"},
+    { id: "inscribedshard", name: "Inscribed Shard", category: "Living World Season 4"},
+    { id: "mistonium", name: "Lump of Mistonium", category: "Living World Season 4"},
+    { id: "brandedmass", name: "Branded Mass", category: "Living World Season 4"},
+    { id: "mistbornmote", name: "Mistborn Mote", category: "Living World Season 4"},
 
-    { id : "hatchedchili", name : "Hatched Chili", category : "Living World Season 5"},
-    { id : "eternaliceshard", name : "Eternal Ice Shard", category : "Living World Season 5"},
-    { id : "eitriteingot", name: "Eitrite Ingot", category : "Living World Season 5"},
-    { id : "tyriandefenseseal", name: "Tyrian Defense Seal", category : "Living World Season 5"},
+    { id: "hatchedchili", name: "Hatched Chili", category: "Living World Season 5"},
+    { id: "eternaliceshard", name: "Eternal Ice Shard", category: "Living World Season 5"},
+    { id: "eitriteingot", name: "Eitrite Ingot", category: "Living World Season 5"},
+    { id: "blueprophetshard", name: "Blue Prophet Shard", category: "Living World Season 5"},
+    { id: "ancientdeldrimorgear", name: "Ancient Deldrimor Gear", category: "Living World Season 5"},
+    { id: "essentialoilofshadows", name: "Essential Oil of Shadows", category: "Living World Season 5"},
+    { id: "icepearl", name: "Ice Pearl", category: "Living World Season 5"},
+    { id: "blessedravenstatuette", name: "Blessed Raven Statuette", category: "Living World Season 5"},
+    { id: "frozensparkoflife", name: "Frozen Spark of Life", category: "Living World Season 5"},
+    { id: "pristinefangofthewhisper", name: "Pristine Fang of the Whisper", category: "Living World Season 5"},
+    { id: "tyriandefenseseal", name: "Tyrian Defense Seal", category: "Living World Season 5"},
 
-    { id : "imperialfavor", name: "Imperial Favor", category : "End of Dragons"},
-    { id : "researchnote", name: "Research Note", category : "End of Dragons"},
-    { id : "unusualcoin", name: "Unusual Coin", category : "End of Dragons"},
-    { id : "canachcoin", name: "Canach Coin", category : "End of Dragons"},
-    { id : "writofseitungprovince", name: "Writ of Seitung Province", category : "End of Dragons"},
-    { id : "writofnewkainengcity", name: "Writ of New Kaineng City", category : "End of Dragons"},
-    { id : "writofechovaldwilds", name: "Writ of Echovald Wilds", category : "End of Dragons"},
-    { id : "writofdragonsend", name: "Writ of Dragon's End", category : "End of Dragons"},
-    { id : "pieceofcrustaceanmeat", name: "Piece of Crustacean Meat", category : "End of Dragons"},
-    { id : "flawlessfishfillet", name: "Flawless Fish Fillet", category : "End of Dragons"},
+    { id: "imperialfavor", name: "Imperial Favor", category: "End of Dragons"},
+    { id: "researchnote", name: "Research Note", category: "End of Dragons"},
+    { id: "unusualcoin", name: "Unusual Coin", category: "End of Dragons"},
+    { id: "canachcoin", name: "Canach Coin", category: "End of Dragons"},
+    { id: "writofseitungprovince", name: "Writ of Seitung Province", category: "End of Dragons"},
+    { id: "writofnewkainengcity", name: "Writ of New Kaineng City", category: "End of Dragons"},
+    { id: "writofechovaldwilds", name: "Writ of Echovald Wilds", category: "End of Dragons"},
+    { id: "writofdragonsend", name: "Writ of Dragon's End", category: "End of Dragons"},
+    { id: "pieceofcrustaceanmeat", name: "Piece of Crustacean Meat", category: "End of Dragons"},
+    { id: "flawlessfishfillet", name: "Flawless Fish Fillet", category: "End of Dragons"},
+    { id: "greenprophetshard", name: "Green Prophet Shard", category: "End of Dragons"},
 
-    { id : "fragmentofprismaticshadows", name : "Fragment of Prismatic Shadows", category : "Legendary Variant"},
-    { id : "fragmentofprismaticplant", name : "Fragment of Prismatic Plant", category : "Legendary Variant"},
-    { id : "fragmentofprismaticfury", name : "Fragment of Prismatic Fury", category : "Legendary Variant"},
-    { id : "fragmentofprismaticpersuasion", name : "Fragment of Prismatic Persuasion", category : "Legendary Variant"},
-    { id : "fragmentofprismaticfire", name : "Fragment of Prismatic Fire", category : "Legendary Variant"},
-    { id : "fragmentofprismaticlife", name : "Fragment of Prismatic Life", category : "Legendary Variant"},
+    { id: "fragmentofprismaticpersuasion", name: "Fragment of Prismatic Persuasion", category: "Facet of Aurene"},
+    { id: "fragmentofprismaticfury", name: "Fragment of Prismatic Fury", category: "Facet of Aurene"},
+    { id: "fragmentofprismaticplant", name: "Fragment of Prismatic Plant", category: "Facet of Aurene"},
+    { id: "fragmentofprismaticfire", name: "Fragment of Prismatic Fire", category: "Facet of Aurene"},
+    { id: "fragmentofprismaticlife", name: "Fragment of Prismatic Life", category: "Facet of Aurene"},
+    { id: "fragmentofprismaticshadows", name: "Fragment of Prismatic Shadows", category: "Facet of Aurene"},
 
-    { id : "taleofdungeondelving", name : "Tales of Dungeon Delving", category : "Dungeon / Fractals of the Mists"},
-    { id : "fractalrelic", name : "Fractal Relic", category : "Dungeon / Fractals of the Mists"},
-    { id : "pristinefractalrelic", name : "Pristine Fractal Relic", category : "Dungeon / Fractals of the Mists"},
-    { id : "fractalresearchpage", name : "Fractal Research Page", category: "Dungeon / Fractals of the Mists"},
-    { id : "fractaljournal", name : "Fractal Journal", category: "Dungeon / Fractals of the Mists"},
-    { id : "goldenfractalrelic", name : "Golden Fractal Relic", category : "Dungeon / Fractals of the Mists"},
-    { id : "integratedmatrix", name : "Integrated Fractal Matrix", category : "Dungeon / Fractals of the Mists"},
-    { id : "unstablefractalessence", name : "Unstable Fractal Essence", category : "Dungeon / Fractals of the Mists"},
+    //{ id: "wip", name: "wip", category: "Secrets of the Obscure"},
+    //{ id: "wip", name: "wip", category: "Secrets of the Obscure"},
+    //{ id: "wip", name: "wip", category: "Secrets of the Obscure"},
+    //{ id: "wip", name: "wip", category: "Secrets of the Obscure"},
 
-    { id : "magnetiteshard", name : "Magnetite Shard", category : "Raid / Strike Mission"},
-    { id : "blueprophetshard", name: "Blue Prophet Shard", category : "Raid / Strike Mission"},
-    { id : "ancientdeldrimorgear", name: "Ancient Deldrimor Gear", category : "Raid / Strike Mission"},
-    { id : "essentialoilofshadows", name: "Essential Oil of Shadows", category : "Raid / Strike Mission"},
-    { id : "icepearl", name: "Ice Pearl", category : "Raid / Strike Mission"},
-    { id : "blessedravenstatuette", name: "Blessed Raven Statuette", category : "Raid / Strike Mission"},
-    { id : "frozensparkoflife", name: "Frozen Spark of Life", category : "Raid / Strike Mission"},
-    { id : "pristinefangofthewhisper", name: "Pristine Fang of the Whisper", category : "Raid / Strike Mission"},
-    { id : "greenprophetshard", name: "Green Prophet Shard", category : "Raid / Strike Mission"},
+    { id: "fractalrelic", name: "Fractal Relic", category: "Cooperative"},
+    { id: "pristinefractalrelic", name: "Pristine Fractal Relic", category: "Cooperative"},
+    { id: "fractalresearchpage", name: "Fractal Research Page", category: "Cooperative"},
+    { id: "fractaljournal", name: "Fractal Journal", category: "Cooperative"},
+    { id: "goldenfractalrelic", name: "Golden Fractal Relic", category: "Cooperative"},
+    { id: "integratedmatrix", name: "Integrated Fractal Matrix", category: "Cooperative"},
+    { id: "unstablefractalessence", name: "Unstable Fractal Essence", category: "Cooperative"},
+    { id: "magnetiteshard", name: "Magnetite Shard", category: "Cooperative"},
 
-    { id : "pvp", name : "Reward Track", category : "Competitive"},
-    { id : "pvpleagueticket", name : "PvP League Ticket", category : "Competitive"},
-    { id : "shardofglory", name : "Shards of Glory", category : "Competitive"},
-    { id : "ascendedshardofglory", name : "Ascended Shards of Glory", category : "Competitive"},
-    { id : "pvptournament", name : "Tournaments & Special Events", category: "Competitive"},
-    { id : "pvptournamentvoucher", name : "PvP Tournament Voucher", category : "Competitive"},
-    { id : "boh", name : "Badge of Honor", category : "Competitive"},
-    { id : "wvwsct", name : "WvW Skirmish Claim Ticket", category : "Competitive"},
-    { id : "memoryofbattle", name : "Memory of Battle", category : "Competitive"},
-    { id : "potionofascalonianmages", name : "Potion of Ascalonian Mages", category : "Competitive"}, 
+    { id: "pvp", name: "Reward Track", category: "Competitive"},
+    { id: "pvpleagueticket", name: "PvP League Ticket", category: "Competitive"},
+    { id: "shardofglory", name: "Shards of Glory", category: "Competitive"},
+    { id: "ascendedshardofglory", name: "Ascended Shards of Glory", category: "Competitive"},
+    //{ id: "pvpleague", name: "PvP League Leaderboard", category: "Competitive"},
+    { id: "pvptournament", name: "Tournaments & Special Events", category: "Competitive"},
+    { id: "pvptournamentvoucher", name: "PvP Tournament Voucher", category: "Competitive"},
+    { id: "boh", name: "Badge of Honor", category: "Competitive"},
+    { id: "wvwsct", name: "WvW Skirmish Claim Ticket", category: "Competitive"},
+    { id: "memoryofbattle", name: "Memory of Battle", category: "Competitive"},
+    { id: "potionofascalonianmages", name: "Potion of Ascalonian Mages", category: "Competitive"},
 
-    { id : "exoticluck", name: "Essence of Luck (Exotic)", category: "Festival"},
-    { id : "legendaryluck", name: "Essence of Luck (Legendary)", category: "Festival"},
-    { id : "bauble", name : "Bauble Bubbles", category : "Festival"},
-    { id : "crimsonassassintoken", name : "Crimson Assassin Token", category : "Festival"},
-    { id : "jorbreaker", name : "Jorbreaker", category : "Festival"},
-    { id : "festivaltoken", name : "Festival Token", category : "Festival"},
-    { id : "favorofthefestival", name : "Favor of the Festival", category : "Festival"},
-    { id : "bundleofloot", name : "Bundle Of Loot", category : "Festival"},
-    { id : "candycorncob", name : "Candy Corn Cob", category : "Festival"},
-    { id : "snowflake", name : "Snowflake", category : "Festival"},
-    { id : "snowdiamond", name : "Snow Diamond", category : "Festival"},
-    { id : "enchantedsnowball", name : "Enchanted Snowball", category : "Festival"},
+    { id: "exoticluck", name: "Essence of Luck (Exotic)", category: "Festival"},
+    { id: "legendaryluck", name: "Essence of Luck (Legendary)", category: "Festival"},
+    { id: "bauble", name: "Bauble Bubbles", category: "Festival"},
+    { id: "crimsonassassintoken", name: "Crimson Assassin Token", category: "Festival"},
+    { id: "jorbreaker", name: "Jorbreaker", category: "Festival"},
+    { id: "festivaltoken", name: "Festival Token", category: "Festival"},
+    { id: "favorofthefestival", name: "Favor of the Festival", category: "Festival"},
+    { id: "bundleofloot", name: "Bundle of Loot", category: "Festival"},
+    { id: "candycorncob", name: "Candy Corn Cob", category: "Festival"},
+    { id: "snowflake", name: "Snowflake", category: "Festival"},
+    { id: "snowdiamond", name: "Snow Diamond", category: "Festival"},
+    { id: "enchantedsnowball", name: "Enchanted Snowball", category: "Festival"},
 
-    { id : 'gem', name : "Gems", category : "Gem Store"},
-    { id : 'deluxe', name : "Purchase Bonus", category : "Gem Store"},
-    { id : 'promotionalevent', name : "Promotional Event", category : "Gem Store"},
-    { id : "bls", name : "Black Lion Statuette", category : "Gem Store"},
-    { id : "gwu", name : "Guaranteed Wardrobe Unlock", category : "Gem Store", hideOnIcon : true},
-    { id : 'blt', name : "Black Lion Claim Ticket", category : "Gem Store"},
-    { id : "blmt", name : "Black Lion Miniature Claim Ticket", category : "Gem Store"},
-    { id : "blsprocket", name : "Black Lion Commemorative Sprocket", category : "Gem Store"},
-    { id : "bounty", name : "Knife Tail Gang Hunting Bond", category : "Gem Store", hideOnIcon : true},
-    
-    { id : "mountlicense01", name : "Mount Adoption License", category : "Mount License"},
-    { id : "mountlicense02", name : "Istan Isles Mount License", category : "Mount License"},
-    { id : "mountlicense03", name : "Desert Racer Mount License", category : "Mount License"},
-    { id : "mountlicense04", name : "Distant Lands Mount License", category : "Mount License"},
-    { id : "mountlicense05", name : "Exotic Breeds Mount License", category : "Mount License"},
-    { id : "mountlicense06", name : "New Horizons Mount License", category : "Mount License"},
-    { id : "mountlicense07", name : "Mistborn Mount License", category : "Mount License"},
-    { id : "mountlicense08", name : "Curious Creatures Mount License", category : "Mount License"},
-    { id : "mountlicense09", name : "Bizarre Beasts Mount License", category : "Mount License"},
-    { id : "mountlicense10", name : "Lost Era Mount License", category : "Mount License"},
-    { id : "mountlicense11", name : "Deep Wilds Mount License", category : "Mount License"},
-    { id : "mountlicense12", name : "Canthan Menagerie Mount License", category : "Mount License"},
-    { id : "mountlicense13", name : "Imperial Wonders Mount License", category : "Mount License"},
-    { id : "mountlicense14", name : "Eternal Crossings Mount License", category : "Mount License"},
- 
-    { id : "eod", name : "End Of Dragons", category : "Highlights", hideOnIcon : true, hideOnDetails : true}
+    { id: "gem", name: "Gems", category: "Gem Store"},
+    { id: "deluxe", name: "Purchase Bonus", category: "Gem Store"},
+    { id: "bls", name: "Black Lion Statuette", category: "Gem Store"},
+    { id: "blt", name: "Black Lion Claim Ticket", category: "Gem Store"},
+    { id: "blmt", name: "Black Lion Miniature Claim Ticket", category: "Gem Store"},
+    { id: "blsprocket", name: "Black Lion Commemorative Sprocket", category: "Gem Store"},
+    { id: "gwu", name: "Guaranteed Wardrobe Unlock", category: "Gem Store", hideOnIcon: true},
+    { id: "bounty", name: "Knife Tail Gang Hunting Bond", category: "Gem Store", hideOnIcon: true},
+    { id: "promotionalevent", name: "Promotional Event", category: "Gem Store"},
+
+    { id: "mountlicense01", name: "Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense02", name: "Istani Isles Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense03", name: "Desert Racer Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense04", name: "Distant Lands Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense05", name: "Exotic Breeds Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense06", name: "New Horizons Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense07", name: "Mistborn Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense08", name: "Curious Creatures Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense09", name: "Bizarre Beasts Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense10", name: "Lost Era Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense11", name: "Deep Wilds Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense12", name: "Canthan Menagerie Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense13", name: "Imperial Wonders Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense14", name: "Eternal Crossings Mount License", category: "Gem Store - Mount License"},
+    //{ id: "mountlicense15", name: "Kaineng Lights Mount License", category: "Gem Store - Mount License"},
+
+    { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
 
 ];
 
@@ -260,7 +269,7 @@ function buildSite(data) {
     $('#filter-by-acquisition').change(function() {
         updateFilter(this.value, $('#filter-by-container')[0].value);
     });
-    
+
     $('#filter-by-container')[0].value = 'all';
     $('#filter-by-container').change(function() {
         updateFilter($('#filter-by-acquisition')[0].value, this.value);
@@ -872,7 +881,7 @@ function buildSection(root, sectionData) {
     var bountyCountData = {};
     bountyCountData.total = bountyCount;
     bountyCountData.unlocked = 0;
-    bountyCounts[sectionData.id] = bountyCountData;    
+    bountyCounts[sectionData.id] = bountyCountData;
 
     var tpItems = extractTPItems(sectionData);
 
@@ -891,13 +900,13 @@ function buildSection(root, sectionData) {
     gwuCountData.unlockedBuyValue = 0;
     gwuCountData.unlockedSellValue = 0;
     gwuCountData.prefix = 'gwu-';
-    
+
     bountyCountData.totalBuyValue = calculateTotalValue(tpItems.filter(bountyFilter), getBuyPrice);
     bountyCountData.totalSellValue = calculateTotalValue(tpItems.filter(bountyFilter), getSellPrice);
     bountyCountData.unlockedBuyValue = 0;
     bountyCountData.unlockedSellValue = 0;
     bountyCountData.prefix = 'bounty-'
-    
+
     countTypes = [countData, gwuCountData, bountyCountData];
 
     if (!sectionData.unlockUrl) {
@@ -965,29 +974,21 @@ function buildCategories(sectionData) {
     } else {
         categories += buildSectionGroups(sectionData.categories[0], sectionData.id);
     }
-
     return categories;
 }
 
 function buildSectionGroups(groupsData, typeId) {
     var groups = '';
-    if (groupsData.groups && groupsData.groups.length > 1) {
-        for (var groupIndex = 0; groupIndex < groupsData.groups.length; ++groupIndex) {
-            var groupData = groupsData.groups[groupIndex];
-            var buyTotal = calculateTotalValue(groupData.content, getBuyPrice);
-            var sellTotal = calculateTotalValue(groupData.content, getSellPrice);
+    for (var groupIndex = 0; groupIndex < groupsData.groups.length; ++groupIndex) {
+        var groupData = groupsData.groups[groupIndex];
+        var buyTotal = calculateTotalValue(groupData.content, getBuyPrice);
+        var sellTotal = calculateTotalValue(groupData.content, getSellPrice);
 
-            var group = '<div class="group" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + groupIndex + '"><h3>' + htmlEscape(groupData.groupName) + '</h3>';
-            group += '<div class="section-body">';
-            group += populateContent(groupData.content, typeId);
-            group += '</div></div>';
-            groups += group;
-        }
-    } else {
-        var contentSection = '<div class="section-body">';
-        contentSection += populateContent(groupsData.groups[0].content, typeId);
-        contentSection += '</div>';
-        groups += contentSection;
+        var group = '<div class="group" data-buy-total="' + buyTotal + '" data-sell-total="' + sellTotal + '" data-ordering = "' + groupIndex + '"><h3>' + htmlEscape(groupData.groupName) + '</h3>';
+        group += '<div class="section-body">';
+        group += populateContent(groupData.content, typeId);
+        group += '</div></div>';
+        groups += group;
     }
     return groups;
 }
@@ -1124,6 +1125,17 @@ function showDetails(item, prefix) {
         $('#' + prefix + 'selection-type').toggle(false);
     }
     $('#' + prefix + 'selection-group').children('span').text(item.groupName);
+    if (item.type) {
+        $('#' + prefix + 'selection-type').children('span').text(item.type);
+        if (item.subtype) {
+            $('#' + prefix + 'selection-subtype').children('span').text(item.subtype);
+        } else {
+            $('#' + prefix + 'selection-subtype').children('span').text('None');
+        }
+    } else {
+        $('#' + prefix + 'selection-type').children('span').text('Unknown');
+        $('#' + prefix + 'selection-subtype').children('span').text('Unknown');
+    }
     if (item.rarity) {
         $('#' + prefix + 'selection-rarity').children('span').text(item.rarity);
     } else {

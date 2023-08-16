@@ -1771,24 +1771,6 @@
       ]
     },
     "(LW1) Living World Season 1: Scarlet's War": {
-      "Living World Return Series - Lion's Champion": [
-        11101,
-        11104,
-        11105,
-        11108,
-        11109,
-        11111,
-        11112,
-        11115,
-        11117,
-        11119,
-        11121,
-        11123,
-        11128,
-        11135,
-        11136,
-        11141
-      ],
       "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion - Tier 1": [
         11140,
         11127,
@@ -1820,17 +1802,35 @@
         4540,
         4541
       ],
-      "Standalone: Living World Return": [
-        10825,
-        10843,
-        10903,
-        11037,
-        11126
+      "Lion's Champion": [
+        11101,
+        11104,
+        11105,
+        11108,
+        11109,
+        11111,
+        11112,
+        11115,
+        11117,
+        11119,
+        11121,
+        11123,
+        11128,
+        11135,
+        11136,
+        11141
       ],
       "Standalone: World Boss": [
         4690,
         5423,
         5425
+      ],
+      "Standalone: Other": [
+        10825,
+        10843,
+        10903,
+        11037,
+        11126
       ]
     },
     "(LW2) Living World Season 2: Glint's Prophecy": {
@@ -2807,6 +2807,13 @@
         10738,
         10739
       ],
+      "Aspect Manifest": [
+        11265,
+        11277,
+        11280,
+        11284,
+        11310
+      ],
       "Energized Luxon Hunter": [
         11440,
         11441,
@@ -2824,13 +2831,6 @@
         11464,
         11466,
         11468
-      ],
-      "Aspect Manifest": [
-        11265,
-        11277,
-        11280,
-        11284,
-        11310
       ],
       "Flame Serpent": [
         10047,
@@ -3448,13 +3448,15 @@
         9889
       ],
       "Standalone: Festival Bag": [
-        6295,
         8769,
         10195,
         10226,
         11222,
         11227,
         11233
+      ],
+      "Standalone: Other": [
+        6295
       ]
     },
     "Festival: Super Adventure Festival": {

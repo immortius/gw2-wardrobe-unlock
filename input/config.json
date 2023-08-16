@@ -96,6 +96,12 @@
       "cachePath": "nodes",
       "bulkSupported": false,
       "stringIds": true
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/titles",
+      "cachePath": "titles",
+      "bulkSupported": false,
+      "stringIds": true
     }
   ],
   "prices": {
@@ -167,12 +173,18 @@
         "84207": [996,997,998,1137,1143,1141],
         // Visage of the Khan-Ur
         "91924": [8921,8925,8941],
+        // Reliquary of the Raven Ceremonial Sandals
+        "92739": [9154,9170,9181],
+        // Reliquary of the Raven Ceremonial Bracers
+        "92743": [9139,9180,9186],
         // Shoulders of the Ebon Vanguard Choice Chest
         "91945": [8928,8944,8946],
         // Reliquary of the Raven Ceremonial Hood
         "92766": [9158,9162,9177],
         // Ice Golem's Maw Box
         "92785": [9146,9149,9184],
+        // Reliquary of the Raven Ceremonial Gown
+        "92786": [9143,9148,9164],
         // Reliquary of the Raven Ceremonial Garb
         "92790": [9168,9182,9193],
         // Stone Summit Helm Box
@@ -715,7 +727,10 @@
         // Officer's Remnant Cache
         "99792" : [11470, 11471, 11472, 11473, 11478, 11480, 11485, 11489, 11491, 11495, 11501, 11502, 11506, 11509, 11512, 11513]
       },
-      "excludeIds": [5898,8350],
+      "excludeIds": [
+        5898,
+        8350
+      ],
       "gwuIgnoreIds": [
         // Guild Cavalier varients
         6773,6781,6769,6755,6761,6748,6766,6762,6750,6782,6778,6771,6763,6770,6776,6754,
@@ -767,6 +782,16 @@
           // Standalone: Other - Wings + Glider Combo
           8915,9061,9298,9481,9992,10045,10823
         ],
+        // Pink Quaggan Backpack Set
+        "39495": [2365],
+        // Cheetah Charr Backpack Set
+        "39503": [2366],
+        // Tiger Charr Backpack Set
+        "39507": [2364],
+        // Quaggan Killer Whale Backpack Set
+        "39524": [2367],
+        // Plush Tybalt Backpack Set
+        "39527": [2368],
         // Zephyrite Box of Dreams
         "82562": [2346,2347,2348]
       }
@@ -793,8 +818,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/outfits",
       "chatcodeType": 11,
       "useItemForChatcode": false,
-      "mapItemsToUnlocksForVendor" : true,
-      "vendorItemTypes" : ["Consumable","Container"],
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Consumable","Container"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -896,8 +921,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/gliders",
       "chatcodeType": 2,
       "useItemForChatcode": true,
-      "mapItemsToUnlocksForVendor" : true,
-      "vendorItemTypes" : ["Container", "Consumable","Gizmo, Novelty","Novelty, Gizmo"],
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Container","Consumable","Gizmo, Novelty","Novelty, Gizmo"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -919,12 +944,15 @@
       "name": "Mount Skins",
       "source": "mounts",
       "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins",
-      "mapItemsToUnlocksForVendor" : true,
-      "vendorItemTypes" : ["Service"],
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Service"],
       "itemMappings": {
-        "82235" : [3],
-        "83938" : [6],
-        "83968" : [2]
+        // Springer
+        "82235": [3],
+        // Jackal
+        "83938": [6],
+        // Skimmer
+        "83968": [2]
       }
     },
     {
@@ -1012,6 +1040,8 @@
         "91971": [292],
         // Endless Cloudseeker Tonic Container
         "92773": [299],
+        // Replica of the Jade Throne
+        "97424": [317],
         // Mining Rig Operator's Seat
         "99419": [330]
       }
@@ -1023,7 +1053,7 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/minis",
       "chatcodeType": 2,
       "useItemForChatcode": true,
-      "mapItemsToUnlocksForVendor" : true,
+      "mapItemsToUnlocksForVendor": true,
       "vendorItemTypes": ["Miniature","Container","Consumable"],
       "itemMappings": {
         // Black Lion Exclusives Chest
@@ -1055,7 +1085,7 @@
       "name": "Finishers",
       "source": "finishers",
       "unlockUrl": "https://api.guildwars2.com/v2/account/finishers",
-      "mapItemsToUnlocksForVendor" : true,
+      "mapItemsToUnlocksForVendor": true,
       "vendorItemTypes": ["Consumable"],
       "chatcodeType": 2,
       "useItemForChatcode": true,
@@ -1070,8 +1100,8 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/mailcarriers",
       "chatcodeType": 2,
       "useItemForChatcode": true,
-      "mapItemsToUnlocksForVendor" : true,
-      "vendorItemTypes" : ["Consumable"],
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Consumable"],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -1096,15 +1126,21 @@
 //      "name": "Other: Home Instance Nodes",
 //      "source": "nodes",
 //      "unlockUrl": "https://api.guildwars2.com/v2/account/home/nodes"
-//    }//,
+//    },
     {
       "id": "hero",
       "name": "Other: Mist Champion Skins",
       "source": "heroes",
       "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes",
-      "mapItemsToUnlocksForVendor" : true,
+      "mapItemsToUnlocksForVendor": true,
       "vendorItemTypes": ["Consumable"]
-    }
+    }//,
+//    {
+//      "id": "title",
+//      "name": "Other: Titles",
+//      "source": "titles",
+//      "unlockUrl": "https://api.guildwars2.com/v2/account/titles"
+//    }
   ],
   "gwuAnalyser": {
     "iconSize": 48,
@@ -1187,12 +1223,12 @@
       "/wiki/Black_Lion_Weapons_Specialist/historical",
       "/wiki/Charity_Corps_Seraph",
       "/wiki/Rytlock_Brimstone",
-      "/wiki/Black_Lion_Commemorative_Sprocket",
       "/wiki/Mercenary_(Skirmish_Merchant)",
-      "/wiki/Black_Lion_Statuette",
-      "/wiki/Black_Lion_Miniature_Claim_Ticket",
+      "/wiki/Myung-Hee",
       "/wiki/Black_Lion_Claim_Ticket",
-      "/wiki/Myung-Hee"
+      "/wiki/Black_Lion_Commemorative_Sprocket",
+      "/wiki/Black_Lion_Miniature_Claim_Ticket",
+      "/wiki/Black_Lion_Statuette"
     ],
     "ignorePages": [
       "/wiki/List_of_karma_merchant_items",
@@ -1230,7 +1266,6 @@
     "integratedmatrix",
     "unstablefractalessence",
     "guildcommendation",
-    "pvplt",
     "wvwsct",
     "memoryofbattle",
     "bls",
@@ -1266,7 +1301,6 @@
     "orrianpearl",
     "tradecontract",
     "casinocoin",
-    "shadowsseal",
     "elegymosaic",
     "volatilemagic",
     "kralkatiteore",
