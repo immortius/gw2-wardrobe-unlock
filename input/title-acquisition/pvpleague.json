@@ -1,0 +1,9 @@
+{
+  "name": "pvpleague",
+  "contents": [
+    // Competitive - Arena
+    327,329,331,332,333,334,335,336,337,338,339,340,341,342,
+    // Competitive - Player vs. Player
+    239,356
+  ]
+}

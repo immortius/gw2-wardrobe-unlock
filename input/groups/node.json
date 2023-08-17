@@ -122,7 +122,7 @@
         "basic_cloth_rack",
         "basic_leather_rack"
       ],
-      "Standalone: Other - Harvesting Node": [
+      "Standalone: Other - Harvesting": [
         "basic_harvesting_nodes",
         "flaxseed_node",
         "ghost_pepper_node",
@@ -131,20 +131,20 @@
         "orrian_truffle_node",
         "snow_truffle_node"
       ],
-      "Standalone: Other - Logging Node": [
+      "Standalone: Other - Logging": [
         "ancient_wood_node",
         "basic_lumber_nodes",
         "elder_wood_node",
         "hard_wood_node"
       ],
-      "Standalone: Other - Mining Node": [
+      "Standalone: Other - Mining": [
         "basic_ore_nodes",
         "iron_ore_node",
         "mithril_ore_node",
         "orichalcum_ore_node",
         "platinum_ore_node"
       ],
-      "Standalone: Other - Fishing Node": [
+      "Standalone: Other - Fishing": [
       ]
     }
   }
