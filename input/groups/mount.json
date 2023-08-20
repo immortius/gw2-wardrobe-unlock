@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X2) Guild Wars 2: Path of Fire": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Starter": [
         1
       ],
@@ -13,7 +13,7 @@
         4
       ]
     },
-    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Standalone: Domain of Kourna": [
         103
       ],
@@ -21,30 +21,30 @@
         186
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Standalone: Other": [
         397
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Other": [
       ]
     },
-    "Competitive: Player vs. Player / World vs. World": {
+    "Player vs. Player / World vs. World": {
       "Standalone: World vs. World": [
         161,
         251
       ]
     },
     "Gem Store": {
-      "Gem Store Series 1 - Spooky": [
+      "Spooky": [
         13,
         14,
         15,
         16,
         19
       ],
-      "Gem Store Series 2 - Cozy Wintersday": [
+      "Cozy Wintersday": [
         52,
         53,
         56,
@@ -52,7 +52,7 @@
         60,
         235
       ],
-      "Gem Store Series 3 - Branded": [
+      "Branded": [
         66,
         68,
         70,
@@ -62,7 +62,7 @@
         195,
         234
       ],
-      "Gem Store Series 4 - Exo-Suit": [
+      "Exo-Suit": [
         92,
         93,
         94,
@@ -71,7 +71,7 @@
         303,
         371
       ],
-      "Gem Store Series 5 - Awakened": [
+      "Awakened": [
         98,
         99,
         100,
@@ -79,7 +79,7 @@
         102,
         278
       ],
-      "Gem Store Series 6 - Mad Realm": [
+      "Mad Realm": [
         130,
         131,
         132,
@@ -87,14 +87,14 @@
         134,
         304
       ],
-      "Gem Store Series 7 - Shiverpeaks": [
+      "Shiverpeaks": [
         153,
         154,
         155,
         157,
         158
       ],
-      "Gem Store Series 8 - Mad King": [
+      "Mad King": [
         222,
         223,
         224,
@@ -259,7 +259,7 @@
         276,
         310
       ],
-      "Standalone: Other - Raptor": [
+      "Standalone: Raptor": [
         17,
         21,
         29,
@@ -288,7 +288,7 @@
         505,
         514
       ],
-      "Standalone: Other - Springer": [
+      "Standalone: Springer": [
         20,
         38,
         42,
@@ -315,7 +315,7 @@
         481,
         526
       ],
-      "Standalone: Other - Skimmer": [
+      "Standalone: Skimmer": [
         26,
         36,
         37,
@@ -335,7 +335,7 @@
         368,
         375
       ],
-      "Standalone: Other - Jackal": [
+      "Standalone: Jackal": [
         22,
         28,
         33,
@@ -366,7 +366,7 @@
         512,
         516
       ],
-      "Standalone: Other - Griffon": [
+      "Standalone: Griffon": [
         25,
         34,
         40,
@@ -395,7 +395,7 @@
         521,
         522
       ],
-      "Standalone: Other - Roller Beetle": [
+      "Standalone: Roller Beetle": [
         104,
         105,
         114,
@@ -406,7 +406,7 @@
         239,
         348
       ],
-      "Standalone: Other - Warclaw": [
+      "Standalone: Warclaw": [
         162,
         163,
         165,
@@ -428,7 +428,7 @@
         484,
         524
       ],
-      "Standalone: Other - Skyscale": [
+      "Standalone: Skyscale": [
         191,
         193,
         194,
@@ -452,7 +452,7 @@
         513,
         520
       ],
-      "Standalone: Other - Siege Turtle": [
+      "Standalone: Siege Turtle": [
         416,
         417,
         419,

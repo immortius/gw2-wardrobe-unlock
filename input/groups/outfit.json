@@ -5,7 +5,7 @@
         60
       ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Standalone: Other": [
         12
       ]
@@ -15,6 +15,27 @@
         18,
         29,
         35
+      ],
+      "Standalone: Clothing": [
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
+      "Standalone: Clothing with Emblem": [
+        73,
+        89,
+        90,
+        95,
+        113
       ],
       "Standalone: Other": [
         8,
@@ -110,13 +131,13 @@
         123,
         124
       ],
-      "Standalone: Other + Armor Combo - Head": [
+      "Standalone: Other + Headgear Combo": [
         57
       ],
-      "Standalone: Other + Armor Combo - Shoulder": [
+      "Standalone: Other + Shoulders Combo": [
         101
       ],
-      "Standalone: Other + Novelty Combo - Toy": [
+      "Standalone: Other + Toy Combo": [
         1,
         2,
         3,
@@ -124,27 +145,6 @@
         5,
         6,
         7
-      ],
-      "Standalone: Other - Clothing": [
-        59,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71
-      ],
-      "Standalone: Other - Clothing - Emblem": [
-        73,
-        89,
-        90,
-        95,
-        113
       ]
     }
   }

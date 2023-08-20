@@ -113,33 +113,39 @@ public class ApiCacher {
 
     private int readGroupedSkins(String apiUrl, Path toPath, boolean allSupported, boolean stringIds) throws IOException {
         Files.createDirectories(toPath);
-        int downloadCounter = 0;
-        if (allSupported) {
-            logger.info("Updating cache for {}", toPath);
-            String json = client.target(apiUrl + "?ids=all").request().get(String.class);
-            JsonParser parser = new JsonParser();
-            JsonElement root = parser.parse(json);
-            JsonArray rootArray = root.getAsJsonArray();
-            for (JsonElement element : rootArray) {
-                JsonObject obj = element.getAsJsonObject();
-                String name = obj.get("name").getAsString();
-                for (JsonElement rawSkin : obj.get("skins").getAsJsonArray()) {
-                    JsonObject skin = rawSkin.getAsJsonObject();
-                    String id = skin.get("id").getAsString();
-                    skin.addProperty("type", "Hero");
-                    JsonObject details = new JsonObject();
-                    details.addProperty("type", name);
-                    skin.add("details", details);
-                    Path outPath = toPath.resolve(id + ".json");
-                    try (JsonWriter writer = new JsonWriter(Files.newBufferedWriter(outPath, Charsets.UTF_8))) {
-                        gson.toJson(skin, JsonElement.class, writer); } catch (IOException e) {
-                        logger.error("Failed to write file {}", outPath, e);
+        try {
+            int downloadCounter = 0;
+            if (allSupported) {
+                logger.info("Updating cache for {}", toPath);
+                String json = client.target(apiUrl + "?ids=all").request().get(String.class);
+                JsonParser parser = new JsonParser();
+                JsonElement root = parser.parse(json);
+                JsonArray rootArray = root.getAsJsonArray();
+                for (JsonElement element : rootArray) {
+                    JsonObject obj = element.getAsJsonObject();
+                    String name = obj.get("name").getAsString();
+                    for (JsonElement rawSkin : obj.get("skins").getAsJsonArray()) {
+                        JsonObject skin = rawSkin.getAsJsonObject();
+                        String id = skin.get("id").getAsString();
+                        skin.addProperty("type", "Hero");
+                        JsonObject details = new JsonObject();
+                        details.addProperty("type", name);
+                        skin.add("details", details);
+                        Path outPath = toPath.resolve(id + ".json");
+                        try (JsonWriter writer = new JsonWriter(Files.newBufferedWriter(outPath, Charsets.UTF_8))) {
+                            gson.toJson(skin, JsonElement.class, writer);
+                        } catch (IOException e) {
+                            logger.error("Failed to write file {}", outPath, e);
+                        }
                     }
+                    downloadCounter++;
                 }
-                downloadCounter++;
             }
+            return downloadCounter;
+        } catch (ServiceUnavailableException e) {
+            logger.info("API current disabled for {}", toPath.getFileName());
+            return 0;
         }
-        return downloadCounter;
     }
 
     /**

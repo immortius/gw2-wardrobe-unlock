@@ -5,18 +5,18 @@
         "enchanted_treasure_chest"
       ]
     },
-    "(LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Standalone: Other": [
         "krait_obelisk",
         "sprocket_generator"
       ]
     },
-    "(LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Standalone: The Silverwastes": [
         "bandit_chest"
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Standalone: Other": [
         "airship_cargo",
         "aurilium_node",
@@ -24,7 +24,7 @@
         "exalted_chest"
       ]
     },
-    "(LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Standalone: Bloodstone Fen": [
         "bloodstone_crystals"
       ],
@@ -44,7 +44,7 @@
         "orrian_oyster_node"
       ]
     },
-    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Standalone: Domain of Istan": [
         "brandstone_node"
       ],
@@ -64,7 +64,7 @@
         "mistonium_node"
       ]
     },
-    "(LW5) Living World Season 5: The Icebrood Saga": {
+    "Living World Season 5: The Icebrood Saga (LW5)": {
       "Standalone: Grothmar Valley": [
         "bound_hatched_chili_pepper_node"
       ],
@@ -78,28 +78,28 @@
         "prismaticite_node"
       ]
     },
-    "Festival: Super Adventure Festival": {
+    "Super Adventure Festival": {
       "Standalone: Other": [
         "bauble_gathering_system"
       ]
     },
-    "Festival: Dragon Bash": {
+    "Dragon Bash": {
       "Standalone: Other": [
         "commemorative_dragon_pinata"
       ]
     },
-    "Festival: Festival of the Four Winds": {
+    "Festival of the Four Winds": {
       "Standalone: Annual Customs": [
-        "quartz_node",
-      ],
+        "quartz_node"
+      ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Standalone: Other": [
         "candy_corn_node",
         "king_sized_candy_corn"
       ]
     },
-    "Festival: Wintersday": {
+    "Wintersday": {
       "Standalone: Other": [
         "wintersday_tree"
       ]
@@ -116,13 +116,7 @@
         "garden_plot_02",
         "garden_plot_03"
       ],
-      "Standalone: Other": [
-        "advanced_cloth_rack",
-        "advanced_leather_rack",
-        "basic_cloth_rack",
-        "basic_leather_rack"
-      ],
-      "Standalone: Other - Harvesting": [
+      "Standalone: Harvesting": [
         "basic_harvesting_nodes",
         "flaxseed_node",
         "ghost_pepper_node",
@@ -131,20 +125,26 @@
         "orrian_truffle_node",
         "snow_truffle_node"
       ],
-      "Standalone: Other - Logging": [
+      "Standalone: Logging": [
         "ancient_wood_node",
         "basic_lumber_nodes",
         "elder_wood_node",
         "hard_wood_node"
       ],
-      "Standalone: Other - Mining": [
+      "Standalone: Mining": [
         "basic_ore_nodes",
         "iron_ore_node",
         "mithril_ore_node",
         "orichalcum_ore_node",
         "platinum_ore_node"
       ],
-      "Standalone: Other - Fishing": [
+      "Standalone: Fishing": [
+      ],
+      "Standalone: Other": [
+        "advanced_cloth_rack",
+        "advanced_leather_rack",
+        "basic_cloth_rack",
+        "basic_leather_rack"
       ]
     }
   }

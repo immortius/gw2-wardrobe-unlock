@@ -4,7 +4,7 @@
       "Starter": [
         2340
       ],
-      "Crafting Discipline Series 1: Armorsmith": [
+      "Crafting: Armorsmith": [
         2304,
         2305,
         2308,
@@ -12,7 +12,7 @@
         2301,
         2303
       ],
-      "Crafting Discipline Series 2: Leatherworker": [
+      "Crafting: Leatherworker": [
         2292,
         2293,
         2294,
@@ -20,7 +20,7 @@
         2296,
         2315
       ],
-      "Crafting Discipline Series 3: Tailor": [
+      "Crafting: Tailor": [
         2307,
         2309,
         2282,
@@ -28,7 +28,7 @@
         2316,
         2286
       ],
-      "Crafting Discipline Series 4: Artificer": [
+      "Crafting: Artificer": [
         2320,
         2297,
         2298,
@@ -36,7 +36,7 @@
         2284,
         2300
       ],
-      "Crafting Discipline Series 5: Huntsman": [
+      "Crafting: Huntsman": [
         2321,
         2322,
         2323,
@@ -44,7 +44,7 @@
         2311,
         2312
       ],
-      "Crafting Discipline Series 6: Weaponsmith": [
+      "Crafting: Weaponsmith": [
         2288,
         2290,
         2306,
@@ -52,7 +52,7 @@
         2317,
         2287
       ],
-      "Crafting Discipline Series 7: Chef": [
+      "Crafting: Chef": [
         2289,
         2324,
         2277,
@@ -60,7 +60,7 @@
         2302,
         2319
       ],
-      "Crafting Discipline Series 8: Jeweler": [
+      "Crafting: Jeweler": [
         2276,
         2278,
         2280,
@@ -68,7 +68,7 @@
         2313,
         2285
       ],
-      "Crafting Discipline Series 9: Scribe": [
+      "Crafting: Scribe": [
         6512,
         6402,
         6341,
@@ -111,7 +111,7 @@
         6621
       ]
     },
-    "(LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Spinal Blades": [
         2337,
         2328,
@@ -134,25 +134,25 @@
         11118
       ]
     },
-    "(LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Vine / Mawdrey": [
         5544,
         5545,
         5532
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns": {
-      "Order Series 1: Durmand Priory": [
+    "Guild Wars 2: Heart of Thorns (HoT)": {
+      "Order: Durmand Priory": [
         6296,
         6170,
         6379
       ],
-      "Order Series 2: Order of Whispers": [
+      "Order: Order of Whispers": [
         6416,
         6398,
         6159
       ],
-      "Order Series 3: Vigil": [
+      "Order: Vigil": [
         6243,
         6246,
         6304
@@ -162,7 +162,7 @@
         6279
       ]
     },
-    "(LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Druid Stone / The Wayfarer's Henge": [
         7209,
         7216,
@@ -190,7 +190,7 @@
         7089
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Banners of Elona": [
         7458,
         7464,
@@ -198,7 +198,7 @@
         7631
       ]
     },
-    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Inquest / Mark Y Golem": [
         8057,
         8049,
@@ -213,7 +213,7 @@
         8169
       ]
     },
-    "(LW5) Living World Season 5: The Icebrood Saga": {
+    "Living World Season 5: The Icebrood Saga (LW5)": {
       "Standalone: Grothmar Valley": [
         8924,
         8931,
@@ -237,7 +237,7 @@
         9991
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Echovald Backpiece": [
         10457,
         10647
@@ -261,11 +261,11 @@
         11268
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Other": [
       ]
     },
-    "Cooperative: Fractals of the Mists": {
+    "Fractals of the Mists": {
       "Fractal Capacitor": [
         2377,
         2378,
@@ -278,7 +278,7 @@
         6474
       ]
     },
-    "Cooperative: Raid": {
+    "Raid": {
       "Standalone: Spirit Vale": [
         6135
       ],
@@ -289,7 +289,7 @@
         7114
       ]
     },
-    "Competitive: Player vs. Player / World vs. World": {
+    "Player vs. Player / World vs. World": {
       "Wings of Glory / The Ascension": [
         6560,
         6561,
@@ -310,7 +310,7 @@
         2380
       ]
     },
-    "Festival: Lunar New Year": {
+    "Lunar New Year": {
       "Lucky Celestial Lantern": [
         5856,
         6619,
@@ -338,7 +338,7 @@
       "Standalone: Other": [
       ]
     },
-    "Festival: Super Adventure Festival": {
+    "Super Adventure Festival": {
       "Standalone: Annual Customs": [
       ],
       "Standalone: Other": [
@@ -350,7 +350,7 @@
         7201
       ]
     },
-    "Festival: Dragon Bash": {
+    "Dragon Bash": {
       "Standalone: Annual Customs": [
         2352
       ],
@@ -359,7 +359,7 @@
         8833
       ]
     },
-    "Festival: Festival of the Four Winds": {
+    "Festival of the Four Winds": {
       "Aspect Catcher": [
         2346,
         2347,
@@ -381,7 +381,7 @@
         5456
       ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Mad Memoires": [
         2336,
         7760,
@@ -394,7 +394,7 @@
       "Standalone: Other": [
       ]
     },
-    "Festival: Wintersday": {
+    "Wintersday": {
       "Standalone: Annual Customs": [
         10218
       ],
@@ -413,6 +413,107 @@
       ],
       "Standalone: Extra Life": [
         11070
+      ],
+      "Standalone: Plush": [
+        2363,
+        2364,
+        2366,
+        2368,
+        2371,
+        2355,
+        2365,
+        2367,
+        2370,
+        2372,
+        1048,
+        7000
+      ],
+      "Standalone: Cape": [
+        9050,
+        9072,
+        9131,
+        9185,
+        9240,
+        9272,
+        9333,
+        9363,
+        9400,
+        9462,
+        9483,
+        9590,
+        9597,
+        9717,
+        9918,
+        10005,
+        10059,
+        10084,
+        10088,
+        10104,
+        10164,
+        10192,
+        10902,
+        11116,
+        11247,
+        11257
+      ],
+      "Standalone: Cape + Headgear Combo": [
+        11144,
+        11435
+      ],
+      "Standalone: Cape + Glider Combo": [
+        9732,
+        10888,
+        11400
+      ],
+      "Standalone: Quiver": [
+        2369,
+        6449,
+        7012
+      ],
+      "Standalone: Quiver + Weapon Combo": [
+        8021
+      ],
+      "Standalone: Wings": [
+        6003,
+        6078,
+        6132
+      ],
+      "Standalone: Wings + Glider Combo": [
+        5878,
+        6035,
+        6527,
+        6412,
+        6615,
+        6744,
+        6774,
+        6965,
+        7004,
+        7202,
+        7743,
+        8434,
+        8627,
+        8883,
+        8915,
+        8979,
+        9061,
+        9298,
+        9364,
+        9450,
+        9481,
+        9617,
+        9659,
+        9992,
+        9999,
+        10045,
+        10079,
+        10105,
+        10149,
+        10200,
+        10823,
+        10912,
+        11125,
+        11246,
+        11253
       ],
       "Standalone: Other": [
         5654,
@@ -461,107 +562,6 @@
       ],
       "Standalone: Other + Miniature Combo": [
         6431
-      ],
-      "Standalone: Other - Cape": [
-        9050,
-        9072,
-        9131,
-        9185,
-        9240,
-        9272,
-        9333,
-        9363,
-        9400,
-        9462,
-        9483,
-        9590,
-        9597,
-        9717,
-        9918,
-        10005,
-        10059,
-        10084,
-        10088,
-        10104,
-        10164,
-        10192,
-        10902,
-        11116,
-        11247,
-        11257
-      ],
-      "Standalone: Other - Cape + Armor Combo - Head": [
-        11144,
-        11435
-      ],
-      "Standalone: Other - Cape + Glider Combo": [
-        9732,
-        10888,
-        11400
-      ],
-      "Standalone: Other - Plush": [
-        2363,
-        2364,
-        2366,
-        2368,
-        2371,
-        2355,
-        2365,
-        2367,
-        2370,
-        2372,
-        1048,
-        7000
-      ],
-      "Standalone: Other - Quiver": [
-        2369,
-        6449,
-        7012
-      ],
-      "Standalone: Other - Quiver + Weapon Combo": [
-        8021
-      ],
-      "Standalone: Other - Wings": [
-        6003,
-        6078,
-        6132
-      ],
-      "Standalone: Other - Wings + Glider Combo": [
-        5878,
-        6035,
-        6527,
-        6412,
-        6615,
-        6744,
-        6774,
-        6965,
-        7004,
-        7202,
-        7743,
-        8434,
-        8627,
-        8883,
-        8915,
-        8979,
-        9061,
-        9298,
-        9364,
-        9450,
-        9481,
-        9617,
-        9659,
-        9992,
-        9999,
-        10045,
-        10079,
-        10105,
-        10149,
-        10200,
-        10823,
-        10912,
-        11125,
-        11246,
-        11253
       ]
     }
   }

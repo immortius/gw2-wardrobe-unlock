@@ -30,7 +30,7 @@
         582
       ]
     },
-    "(LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Standalone: Dungeon": [
         136,
         195
@@ -56,7 +56,7 @@
         223
       ]
     },
-    "(LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Standalone: Dry Top": [
         298
       ],
@@ -67,7 +67,7 @@
         312
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Standalone: Guild": [
         337,
         338,
@@ -93,7 +93,7 @@
         396
       ]
     },
-    "(LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Standalone: Bloodstone Fen": [
         406,
         407,
@@ -145,7 +145,24 @@
         496
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire": {
+    "Guild Wars 2: Path of Fire (PoF)": {
+      "Djinn": [
+        503,
+        505,
+        563,
+        572
+      ],
+      "Elite Specialization Mentor": [
+        506,
+        518,
+        531,
+        541,
+        545,
+        558,
+        565,
+        566,
+        569
+      ],
       "Standalone: Casino Blitz": [
         537,
         595
@@ -225,26 +242,9 @@
         575,
         579,
         585
-      ],
-      "Standalone: Other - Djinn": [
-        503,
-        505,
-        563,
-        572
-      ],
-      "Standalone: Other - Elite Specialization Mentor": [
-        506,
-        518,
-        531,
-        541,
-        545,
-        558,
-        565,
-        566,
-        569
       ]
     },
-    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Elemental Hydra Head / Elemental Hydra": [
         658,
         668,
@@ -291,7 +291,7 @@
         762
       ]
     },
-    "(LW5) Living World Season 5: The Icebrood Saga": {
+    "Living World Season 5: The Icebrood Saga (LW5)": {
       "Standalone: Grothmar Valley": [
         777,
         778,
@@ -326,7 +326,7 @@
         818
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Standalone: Fishing": [
         844,
         845,
@@ -354,11 +354,11 @@
         885
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Other": [
       ]
     },
-    "Cooperative: Fractals of the Mists": {
+    "Fractals of the Mists": {
       "Old Tom": [
         344,
         352,
@@ -371,7 +371,7 @@
         890
       ]
     },
-    "Cooperative: Raid": {
+    "Raid": {
       "Standalone: Spirit Vale": [
         368,
         370,
@@ -420,7 +420,7 @@
         765
       ]
     },
-    "Competitive: Player vs. Player / World vs. World": {
+    "Player vs. Player / World vs. World": {
       "Black Llama": [
         427,
         429,
@@ -475,7 +475,7 @@
         543
       ]
     },
-    "Festival: Lunar New Year": {
+    "Lunar New Year": {
       "Lantern": [
         745,
         746,
@@ -492,7 +492,7 @@
         883
       ]
     },
-    "Festival: Super Adventure Festival": {
+    "Super Adventure Festival": {
       "Princess Miya": [
         183,
         184
@@ -507,7 +507,7 @@
         887
       ]
     },
-    "Festival: Dragon Bash": {
+    "Dragon Bash": {
       "Holographic Dragon Minion": [
         158,
         157,
@@ -526,7 +526,7 @@
         889
       ]
     },
-    "Festival: Festival of the Four Winds": {
+    "Festival of the Four Winds": {
       "Standalone: Queen's Gauntlet": [
         170
       ],
@@ -543,7 +543,7 @@
         891
       ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Mad Memoires": [
         783,
         784,
@@ -584,7 +584,7 @@
         876
       ]
     },
-    "Festival: Wintersday": {
+    "Wintersday": {
       "Angry Snowball": [
         626,
         628,
@@ -636,7 +636,7 @@
       ]
     },
     "Gem Store": {
-      "Gem Store Series 1": [
+      "Set 1": [
         6,
         7,
         8,
@@ -692,7 +692,7 @@
         59,
         60
       ],
-      "Gem Store Series 2": [
+      "Set 2": [
         61,
         62,
         63,
@@ -743,7 +743,7 @@
         179,
         180
       ],
-      "Gem Store Series 3": [
+      "Set 3": [
         40,
         256,
         257,
@@ -794,7 +794,7 @@
         253,
         254
       ],
-      "Black Lion Series 1 - Raptor Hatchling": [
+      "Raptor Hatchling": [
         591,
         592,
         593,
@@ -806,7 +806,7 @@
         589,
         590
       ],
-      "Black Lion Series 2 - Jackal Pup": [
+      "Jackal Pup": [
         637,
         638,
         639,
@@ -818,7 +818,7 @@
         645,
         646
       ],
-      "Black Lion Series 3 - Griffon Hatchling": [
+      "Griffon Hatchling": [
         679,
         680,
         681,
@@ -830,7 +830,7 @@
         687,
         688
       ],
-      "Black Lion Series 4 - Springer Kit": [
+      "Springer Kit": [
         702,
         703,
         704,
@@ -843,7 +843,7 @@
         712,
         716
       ],
-      "Black Lion Series 5 - Skimmer Pup": [
+      "Skimmer Pup": [
         750,
         751,
         752,
@@ -855,7 +855,7 @@
         758,
         759
       ],
-      "Black Lion Series 6 - Skyscale Hatchling": [
+      "Skyscale Hatchling": [
         766,
         767,
         768,
@@ -867,7 +867,7 @@
         775,
         776
       ],
-      "Black Lion Series 7 - Shiba Inu": [
+      "Shiba Inu": [
         821,
         822,
         823,
@@ -879,7 +879,7 @@
         829,
         830
       ],
-      "Black Lion Series 8 - Tigris Cub": [
+      "Tigris Cub": [
         860,
         861,
         862,
@@ -896,14 +896,14 @@
         238,
         239
       ],
-      "Baby - Set 1": [
+      "Baby: Series 1": [
         139,
         140,
         143,
         148,
         154
       ],
-      "Baby - Set 2": [
+      "Baby: Series 2": [
         141,
         144,
         147,
@@ -931,35 +931,35 @@
         216,
         218
       ],
-      "Mounts - Set 1 / Spooky": [
+      "Mounts: Spooky": [
         599,
         605,
         609,
         610,
         611
       ],
-      "Mounts - Set 2 / Cozy Wintersday": [
+      "Mounts: Cozy Wintersday": [
         627,
         629,
         631,
         633,
         635
       ],
-      "Mounts - Set 3 / Branded": [
+      "Mounts: Branded": [
         657,
         660,
         661,
         662,
         663
       ],
-      "Mounts - Set 4 / Awakened": [
+      "Mounts: Awakened": [
         689,
         691,
         693,
         694,
         699
       ],
-      "Mounts - Set 5 / Exo-Suit": [
+      "Mounts: Exo-Suit": [
         709,
         713,
         714,
@@ -979,25 +979,25 @@
         110,
         111
       ],
-      "Super - Set 1": [
+      "Super: Series 1": [
         133,
         134,
         135,
         457
       ],
-      "Super - Set 2": [
+      "Super: Series 2": [
         185,
         186,
         187,
         188
       ],
-      "Super - Set 3": [
+      "Super: Series 3": [
         455,
         456,
         458,
         459
       ],
-      "Super - Set 4": [
+      "Super: Series 4": [
         675,
         676,
         677,
@@ -1029,6 +1029,15 @@
         792,
         793,
         795
+      ],
+      "Standalone: Mount": [
+        648,
+        649,
+        652,
+        653,
+        655,
+        736,
+        747
       ],
       "Standalone: Southsun Supply Crate": [
         137,
@@ -1113,15 +1122,6 @@
       ],
       "Standalone: Other + Back Item Combo": [
         342
-      ],
-      "Standalone: Other - Mount": [
-        648,
-        649,
-        652,
-        653,
-        655,
-        736,
-        747
       ]
     }
   }
