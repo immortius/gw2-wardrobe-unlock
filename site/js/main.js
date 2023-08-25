@@ -30,9 +30,7 @@ var acquisitionMethods = [
     { id: "birthday7", name: "Seventh Birthday Gift", category: "Anniversary"},
     { id: "birthday8", name: "Eighth Birthday Gift", category: "Anniversary"},
     { id: "birthday9", name: "Ninth Birthday Gift", category: "Anniversary"},
-    { id: "birthday10", name: "Tenth Birthday Gift", category: "Anniversary"},
-    //{ id: "birthday11", name: "Eleventh Birthday Gift", category: "Anniversary"},
-    //{ id: "birthday12", name: "Twelfth Birthday Gift", category: "Anniversary"},
+    { id: "birthday10", name: "Tenth+ Birthday Gift", category: "Anniversary"},
 
     { id: "gold", name: "Coins", category: "Common", hideOnIcon: true},
     { id: "karma", name: "Karma", category: "Common"},
@@ -120,11 +118,6 @@ var acquisitionMethods = [
     { id: "fragmentofprismaticlife", name: "Fragment of Prismatic Life", category: "Facet of Aurene"},
     { id: "fragmentofprismaticshadows", name: "Fragment of Prismatic Shadows", category: "Facet of Aurene"},
 
-    //{ id: "wip", name: "wip", category: "Secrets of the Obscure"},
-    //{ id: "wip", name: "wip", category: "Secrets of the Obscure"},
-    //{ id: "wip", name: "wip", category: "Secrets of the Obscure"},
-    //{ id: "wip", name: "wip", category: "Secrets of the Obscure"},
-
     { id: "fractalrelic", name: "Fractal Relic", category: "Cooperative"},
     { id: "pristinefractalrelic", name: "Pristine Fractal Relic", category: "Cooperative"},
     { id: "fractalresearchpage", name: "Fractal Research Page", category: "Cooperative"},
@@ -185,7 +178,8 @@ var acquisitionMethods = [
     { id: "mountlicense14", name: "Eternal Crossings Mount License", category: "Gem Store - Mount License"},
     //{ id: "mountlicense15", name: "Kaineng Lights Mount License", category: "Gem Store - Mount License"},
 
-    { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
+    { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true},
+    { id: "soto", name: "Secrets of the Obscure", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
 
 ];
 
@@ -488,6 +482,8 @@ function updateFilter(displayMode, container) {
         $('.item').not('.ibs').toggleClass('hidden', true);
     } else if (displayMode == 'eod') {
         $('.item').not('.eod').toggleClass('hidden', true);
+    } else if (displayMode == 'soto') {
+        $('.item').not('.soto').toggleClass('hidden', true);
     } else if (displayMode == 'ktghb') {
         $('.item').not('.bounty').toggleClass('hidden', true);
     } else if (displayMode == 'other') {
