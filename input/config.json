@@ -1241,7 +1241,8 @@
       "/wiki/Black_Lion_Claim_Ticket",
       "/wiki/Black_Lion_Commemorative_Sprocket",
       "/wiki/Black_Lion_Miniature_Claim_Ticket",
-      "/wiki/Black_Lion_Statuette"
+      "/wiki/Black_Lion_Statuette",
+      "/wiki/Wizard's_Vault"
     ],
     "ignorePages": [
       "/wiki/List_of_karma_merchant_items",
@@ -1345,6 +1346,7 @@
     "legendaryluck",
     "imperialfavor",
     "unusualcoin",
+    "ancientcoin",
     "canachcoin",
     "greenprophetshard",
     "writofseitungprovince",
@@ -1378,7 +1380,17 @@
     "spiritwoodplank",
     "pvpleagueticket",
     "orderofshadowsseal",
-    "potionofascalonianmages"
+    "potionofascalonianmages",
+    "pouchofstardust",
+    "purifiedkryptisessence",
+    "caseofcapturedlightning",
+    "giftofbones",
+    "giftoffangs",
+    "giftofdust",
+    "giftofvenom",
+    "giftofscales",
+    "giftofclaws",
+    "astralacclaim"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
