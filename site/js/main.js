@@ -121,6 +121,7 @@ var acquisitionMethods = [
     { id: "caseofcapturedlightning", name: "Case of Captured Lightning", category: "Secrets of the Obscure"},
     { id: "pouchofstardust", name: "Pouch of Stardust", category: "Secrets of the Obscure"},
     { id: "purifiedkryptisessence", name: "Purified Kryptis Essence", category: "Secrets of the Obscure"},
+    { id: "amalgamatedkryptisessence", name: "Amalgamated Kryptis Essence", category: "Secrets of the Obscure"},
 
     { id: "fragmentofprismaticpersuasion", name: "Fragment of Prismatic Persuasion", category: "Facet of Aurene"},
     { id: "fragmentofprismaticfury", name: "Fragment of Prismatic Fury", category: "Facet of Aurene"},

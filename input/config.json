@@ -206,7 +206,9 @@
         // Reliquary of the Bear Ceremonial Garb
         "93585": [9365,9416,9369],
         // Blood Legion Soldier Helm Box
-        "93653": [9429,9436,9439]
+        "93653": [9429,9436,9439],
+        // Visage of Nourys
+        "100010": [11569, 11658, 11714]
       },
       "gwuIncludeIds": [
         1,
@@ -1390,7 +1392,8 @@
     "giftofvenom",
     "giftofscales",
     "giftofclaws",
-    "astralacclaim"
+    "astralacclaim",
+    "amalgamatedkryptisessence"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",

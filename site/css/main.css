@@ -958,9 +958,10 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1044px -18px;
 }
-
-
-
+.amalgamatedkryptisessence-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1062px -18px;
+}
 
 /* ==========================================================================
    Media Queries
