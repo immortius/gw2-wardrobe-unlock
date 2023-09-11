@@ -1,21 +1,23 @@
 {
   "name": "event",
   "contents": [
-    // Core - Ley-Line Anomaly
+    // Core - Ley-Line Anomaly Tonic
     191,
     // Core
     122,
-    // Living World Season 2 - Dry Top
+    // Living World Season 2
     195,
-    // Heart of Thorns
+    // Heart of Thorns - Chak Tonic
     102,214,234,
+    // Path of Fire - Music Box
+    
     // Path of Fire
     218,
-    // Living World Season 4 - Jahai Bluffs
+    // Living World Season 4
     233,
-    // Living World Season 5 - Grothmar Valley
-    292,
-    // Living World Season 5 - Bjora Marches
-    299
+    // Living World Season 5
+    292,299,
+    // End of Dragons
+    317,330
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "name": "pvpleague",
+  "contents": [
+    // Competitive - PvP League Series 1 - Llama
+    228,
+    // Competitive - PvP League Series 2 - Black Llama
+    432,
+    // Competitive - PvP League Series 3 - Emperor Llama
+    450,
+    // Competitive - PvP League Series 4 - Princess Llama
+    474
+  ]
+}

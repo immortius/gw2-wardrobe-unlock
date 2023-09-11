@@ -1,27 +1,31 @@
 {
   "name": "event",
   "contents": [
+    // Core - Siege Golem
+    130,131,132,
     // Core
-    130,131,132,193,194,
+    193,194,
     // Living World Season 1
     214,217,
-    // Living World Season 2 - Dry Top
+    // Living World Season 2
     298,
-    // Path of Fire
-    508,509,525,535,549,579,
-    // Path of Fire - Djinn
+    // Path of Fire - Elemental Djinn
     503,505,563,572,
     // Path of Fire - Elite Specialization Mentor
     506,518,531,541,545,558,565,566,569,
+    // Path of Fire
+    508,509,525,535,549,579,
     // Living World Season 4 - Hydra Head / Elemental Hydra
     658,668,672,
-    // Living World Season 5 - Grothmar Valley
-    778,780,
-    // Living World Season 5 - Drizzlewood Coast
-    814,
-    // Living World Season 5 - Dragonstorm
-    817,818,
+    // Living World Season 5
+    778,780,814,817,818,
     // End of Dragons
-    884
+    884,
+    // Secrets of the Obscure - Avatar of Sin
+    892,894,898,900,906,907,
+    // Secrets of the Obscure
+    896,901,
+    // Festival: Lunar New Year
+    798
   ]
 }

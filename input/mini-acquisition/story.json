@@ -1,11 +1,15 @@
 {
   "name": "story",
   "contents": [
-    // Living World Season 3 - Siren's Landing
+    // Living World Season 3
     492,
-    // Living World Season 5 - Bjora Marches
+    // Living World Season 5
     790,
     // End of Dragons
-    847
+    847,
+    // Secrets of the Obscure
+    902,
+    // Gem Store
+    369
   ]
 }
