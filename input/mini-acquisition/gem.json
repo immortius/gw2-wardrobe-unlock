@@ -9,7 +9,7 @@
     455,456,459,
     // Gem Store - Super - Set 4
     676,677,678,
-    // Gem Store - Other
+    // Gem Store
     1,
     294,297,
     304,305,306,307,319,320,329,330,332,333,336,378,384,387,
@@ -18,11 +18,11 @@
     602,604,613,630,654,
     785,
     816,835,
-    // Gem Store - Other + Back Item Combo
+    // Gem Store + Back Item Combo
     342,
-    // Gem Store - Other - Baby
+    // Gem Store - Baby
     141,144,147,149,151,324,326,327,
-    // Gem Store - Other - Mount
+    // Gem Store - Mount
     747
   ]
 }

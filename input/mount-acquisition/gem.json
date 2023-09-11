@@ -1,65 +1,65 @@
 {
   "name": "gem",
   "contents": [
-    // Gem Store Series 1 - Spooky
+    // Gem Store - Gem Store Series 1 - Spooky
     13,14,15,16,19,
-    // Gem Store Series 2 - Cozy Wintersday
+    // Gem Store - Gem Store Series 2 - Cozy Wintersday
     52,53,56,58,60,
-    // Gem Store Series 3 - Branded
+    // Gem Store - Gem Store Series 3 - Branded
     66,68,70,75,76,
-    // Gem Store Series 4 - Exo-Suit
+    // Gem Store - Gem Store Series 4 - Exo-Suit
     92,93,94,95,96,
-    // Gem Store Series 5 - Awakened
+    // Gem Store - Gem Store Series 5 - Awakened
     100,101,102,98,99,
-    // Gem Store Series 6 - Mad Realm
+    // Gem Store - Gem Store Series 6 - Mad Realm
     130,131,132,133,134,
-    // Gem Store Series 7 - Shiverpeaks
+    // Gem Store - Gem Store Series 7 - Shiverpeaks
     153,154,155,157,158,
-    // Gem Store Series 8 - Mad King
+    // Gem Store - Gem Store Series 8 - Mad King
     222,223,224,225,226,
-    // Warclaw Frontline
+    // Gem Store - Warclaw Frontline
     162,163,164,165,166,
-    // Skyscale Ascension
+    // Gem Store - Skyscale Ascension
     193,194,195,196,198,
-    // Siege Turtle Advent
+    // Gem Store - Siege Turtle Advent
     415,416,417,418,419,
-    // Canthan Vulpine Jackal
+    // Gem Store - Canthan Vulpine Jackal
     429,430,431,
-    // Canthan Cuckoo Springer
+    // Gem Store - Canthan Cuckoo Springer
     422,423,426,
-    // Canthan Tigris Griffon
+    // Gem Store - Canthan Tigris Griffon
     432,433,434,
-    // Canthan Nian Warclaw
+    // Gem Store - Canthan Nian Warclaw
     437,440,441,
-    // Canthan Noble Skyscale
+    // Gem Store - Canthan Noble Skyscale
     443,444,445,
-    // Amnytas Feathered Raptor
+    // Gem Store - Amnytas Feathered Raptor
 
-    // Jade Tech
+    // Gem Store - Jade Tech
     462,
-    // Plush
+    // Gem Store - Plush
     330,403,499,504,
-    // Super
+    // Gem Store - Super
     264,528,
-    // Synergetics
+    // Gem Store - Synergetics
     293,391,396,
-    // Other - Raptor
+    // Gem Store - Raptor
     17,126,200,294,329,360,505,
-    // Other - Springer
+    // Gem Store - Springer
     61,152,231,331,
-    // Other - Skimmer
+    // Gem Store - Skimmer
     57,168,311,358,
-    // Other - Jackal
+    // Gem Store - Jackal
     46,97,220,287,332,359,406,467,512,
-    // Other - Griffon
+    // Gem Store - Griffon
     62,129,250,473,
-    // Other - Roller Beetle
+    // Gem Store - Roller Beetle
     104,
-    // Other - Warclaw
+    // Gem Store - Warclaw
     252,316,380,484,
-    // Other - Skyscale
+    // Gem Store - Skyscale
     191,292,336,472,
-    // Other - Siege Turtle
+    // Gem Store - Siege Turtle
     471
   ]
 }
