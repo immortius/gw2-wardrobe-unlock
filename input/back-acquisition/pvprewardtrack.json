@@ -1,0 +1,13 @@
+{
+  "name": "pvprewardtrack",
+  "contents": [
+    // Living World Season 5 - Banner of the Charr Legion
+    8924,8931,8933,8937,
+    // Living World Season 5 - Charr Legion Backpack
+    9387,9407,9413,9431,
+    // Competitive
+    2380,
+    // Festival: Wintersday
+    2375
+  ]
+}

@@ -17,18 +17,8 @@
     6519,6511,6300,6523,6280,6467,
     // Heart of Thorns
     6891,6893,6896,
-    // Living World Season 3 - Bloodstone Fen
-    6856,6858,6881,
-    // Living World Season 3 - Ember Bay
-    6951,6955,6964,6968,6969,6970,
-    // Living World Season 3 - Bitterfrost Frontier
-    7006,7028,7032,
-    // Living World Season 3 - Lake Doric
-    7073,7074,7102,7106,7119,7139,
-    // Living World Season 3 - Draconis Mons
-    7210,7211,7213,
-    // Living World Season 3 - Siren's Landing
-    7297,7299,7316,
+    // Living World Season 3
+    6856,6858,6881,6951,6955,6964,6968,6969,6970,7006,7028,7032,7073,7074,7102,7106,7119,7139,7210,7211,7213,7297,7299,7316,
     // Path of Fire - Elite Specialization Series 2
     7644,7357,7622,7411,7525,7511,7441,7527,7627,
     // Path of Fire - Elonian > Spearmarshal
@@ -43,24 +33,18 @@
     8384,8354,8386,8420,8359,8423,8392,8429,8335,8367,8368,8336,8340,8373,8343,8410,8348,8415,
     // Living World Season 4 - Mist Shard
     8682,8687,8694,8695,8699,8700,8704,8705,8715,8716,8719,8721,8728,8731,8732,8745,8746,8755,
-    // Living World Season 4 - Sandswept Isles
+    // Living World Season 4
     8028,8030,8032,
     // Living World Season 5 - Bear Ceremonial
     9365,9368,9369,9382,9385,9389,9390,9401,9408,9412,9416,9433,
     // Living World Season 5 - Raven Ceremonial
     9139,9180,9186,9143,9148,9164,9154,9170,9181,
-    // Living World Season 5 - Grothmar Valley
-    8923,8943,8947,
-    // Living World Season 5 - Bjora Marches
-    9016,9034,9037,
-    // Living World Season 5 - Drizzlewood Coast
-    9421,9428,9443,9429,9436,9439,9503,9523,9526,
+    // Living World Season 5
+    8923,8943,8947,9016,9034,9037,9421,9428,9443,9429,9436,9439,9503,9523,9526,
     // End of Dragons - Elite Specialization Series 3
     10297,10321,10331,10351,10362,10494,10501,10529,10758,
-    // End of Dragons - Special Ops
-    11260,11263,11264,11269,11272,11287,11289,11315,11318,11327,11329,11332,11334,11335,11337,11338,11345,11348,
-    // End of Dragons - Special Ops > Special Ops Captain
-    11326,11342,11343,
+    // End of Dragons - Special Ops / Special Ops Captain
+    11260,11263,11264,11269,11272,11287,11289,11294,11315,11318,11319,11327,11329,11332,11334,11335,11337,11338,11342,11345,11348,
     // Raid - Experimental Envoy
     6790,6791,6792,6794,6796,6799,6802,6811,6818,6820,6824,6828,6829,6833,6834,6838,6839,6840,
     // Raid - Experimental Envoy > Refined Envoy

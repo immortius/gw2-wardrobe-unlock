@@ -1,0 +1,11 @@
+{
+  "name": "strikemission",
+  "contents": [
+    // Living World Season 1 - Prototype Assault Knight
+    877,878,879,
+    // Living World Season 5
+    812,813,
+    // Festival: Wintersday
+    737,791,794,836
+  ]
+}

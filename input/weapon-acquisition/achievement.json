@@ -21,7 +21,7 @@
     6407,6221,6209,6191,6181,6340,6435,6430,6272,6437,6342,6150,6290,6207,6212,6201,
     // Heart of Thorns - Plated > Machined
     6169,6395,6472,6346,6335,6442,6410,6362,6349,6210,6257,6301,6475,6158,6347,6401,
-    // Living World Season 3 - Ember Bay
+    // Living World Season 3
     4987,
     // Path of Fire - Elite Specialization Series 2 - Tier 1
     7397,7718,7433,7401,7402,7370,7533,7699,7485,
@@ -31,7 +31,7 @@
     7463,7361,7566,7428,7554,
     // Path of Fire - Elonian > Sunspear
     7697,7620,7407,7573,7490,7529,7603,7628,7655,7461,7453,7642,7665,7547,7694,7389,
-    // Living World Season 4 - Jahai Bluffs
+    // Living World Season 4
     8406,
     // Living World Season 5 - Blood Legion
     9244,9295,9310,9313,9324,
@@ -41,20 +41,22 @@
     9283,9289,9301,9305,9306,
     // Living World Season 5 - Blood Legion > Ash Legion > Iron Legion > Flame Legion > Steel Warband
     9250,9275,9282,9304,9325,
-    // Living World Season 5 - Grothmar Valley
+    // Living World Season 5 - Charr
     8918,8927,8929,8954,
-    // Living World Season 5 - Bjora Marches
-    9014,
-    // Living World Season 5 - Drizzlewood Coast
-    9386,9397,9500,9479,9480,9494,9505,9522,
+    // Living World Season 5 - Charr Dominion
+    9479,9480,9494,9505,9522,
+    // Living World Season 5
+    9014,9386,9397,9500,
     // End of Dragons - Elite Specialization Series 3 - Tier 1
     10245,10246,10424,10442,10463,10466,10566,10634,10642,
     // End of Dragons - Elite Specialization Series 3 - Tier 1 > Tier 2
     10228,10240,10372,10403,10438,10470,10595,10680,10691,
     // End of Dragons - Aspect Manifest
     11265,11277,11280,11284,11310,
+    // Secrets of the Obscure - Astral Ward
+    11651,11676,11701,11729,11750,11815,
     // Secrets of the Obscure
-    11651,11676,11750,11815,11701,11729,11747,
+    11747,
     // Fractals of the Mists - Abyssal Fractal
     9587,9588,9589,9592,9593,9595,9598,9599,9600,9601,9603,9604,9605,9606,9607,9609,9610,9611,9612,
     // Fractals of the Mists - Gold Fractal

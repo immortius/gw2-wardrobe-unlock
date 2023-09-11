@@ -1,0 +1,11 @@
+{
+  "name": "wvwrewardtrack",
+  "contents": [
+    // Festival: Wintersday - Gift Skritt
+    381,
+    // Festival: Wintersday - Snowball
+    434,
+    // Festival: Wintersday - Toy
+    115,116,117,118,119
+  ]
+}

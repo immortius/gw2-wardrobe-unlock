@@ -1,23 +1,23 @@
 {
   "name": "gem",
   "contents": [
-    // Black Lion Board
+    // Gem Store - Black Lion Board
     "black_lion_expedition_board",
     "black_lion_expedition_board_s4",
     "black_lion_hunters_board",
     "black_lion_industry_board",
-    // Garden Plot
+    // Gem Store - Garden Plot
     "garden_plot_01",
     "garden_plot_02",
     "garden_plot_03",
-    // Other
+    // Gem Store
     "basic_cloth_rack",
     "basic_leather_rack",
-    // Other - Harvesting Node
+    // Gem Store - Harvesting Node
     "basic_harvesting_nodes",
-    // Other - Logging Node
+    // Gem Store - Logging Node
     "basic_lumber_nodes",
-    // Other - Mining Node
+    // Gem Store - Mining Node
     "basic_ore_nodes"
   ]
 }

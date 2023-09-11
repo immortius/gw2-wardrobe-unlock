@@ -1,0 +1,21 @@
+{
+  "name": "chest",
+  "contents": [
+    // Living World Season 1
+    205,
+    // Living World Season 2 - Mordrem Minion
+    292,311,
+    // Heart of Thorns
+    341,351,
+    // Path of Fire - Elemental Djinn
+    503,505,563,572,
+    // Path of Fire
+    534,557,
+    // End of Dragons - Void Minion
+    842,849,851,
+    // Festival: Lunar New Year
+    798,
+    // Festival: Halloween
+    353,416
+  ]
+}

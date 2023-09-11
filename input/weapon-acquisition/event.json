@@ -1,39 +1,59 @@
 {
   "name": "event",
   "contents": [
+    // Core - Ascalon / Charr Series 2 - Flame
+    5086,5128,
+    // Core - Ascalon Series 3 - Legionnaire
+    5126,
+    // Core - Sylvari Series 3 - Warden
+    4262,
+    // Core - Conjure
+    4823,4859,
+    // Core - Modniir
+    4613,
+    // Core - Pirate
+    4591,4606,
     // Core - Sunless
     5269,5304,5336,5247,5302,5286,5275,5263,5257,5283,5297,5317,5276,5268,5254,5329,5262,5291,5315,
     // Core
-    4696,4717,4718,4726,4730,4790,
+    4696,4717,4718,4726,4730,4790,4903,
     // Living World Season 1 - Lion's Champion
     11101,11104,11105,11108,11109,11111,11112,11115,11117,11119,11121,11123,11128,11135,11136,11141,
     // Living World Season 1
     4690,5425,
-    // Living World Season 2 - The Silverwastes
-    5790,
     // Heart of Thorns - Mordrem Guard
     6228,6267,6325,6465,6482,
+    // Living World Season 4 - Corsair Captain
+    7841,7878,7892,
+    // Living World Season 4 - Inquest Overseer
+    8039,8059,8060,
     // Living World Season 4 - Scion
     8684,8690,8691,8693,8697,8708,8711,8713,8714,8722,8730,8734,8737,8738,8739,8742,8744,8749,8756,
-    // Living World Season 4 - Domain of Istan
-    7841,7878,7892,
-    // Living World Season 4 - Sandswept Isles
-    8039,8040,8059,8060,
-    // Living World Season 4 - Jahai Bluffs
-    8347,
-    // Living World Season 4 - Thunderhead Peaks
-    8577,8587,
+    // Living World Season 4
+    7888,8040,8347,8577,8587,
+    // Living World Season 5 - Boneskinner
+    9155,
     // Living World Season 5 - Broken Voice
     9195,9196,9197,9199,9200,9201,9202,9203,9205,9206,9207,9208,9209,9210,9212,9213,
-    // Living World Season 5 - Grothmar Valley
-    8942,
-    // Living World Season 5 - Drizzlewood Coast
+    // Living World Season 5 - Charr Dominion
     9479,9480,9494,9505,9522,
-    // Living World Season 5 - Dragonstorm
-    9993,
+    // Living World Season 5 - Volcanic Stormcaller
+    9664,9666,9668,9672,9677,9678,9679,9685,9687,9689,9691,9693,9697,9700,9710,9712,
+    // Living World Season 5
+    8942,9993,
+    // End of Dragons - Energized Luxon Hunter
+    11440,11441,11442,11443,11444,11446,11450,11452,11454,11455,11456,11457,11463,11464,11466,11468,
     // End of Dragons - Living Water
     10304,10323,10384,10387,10465,10486,10495,10575,10590,10597,10609,10651,10664,10694,10717,10741,
+    // End of Dragons - Luxon Hunter
+    11271,11278,11283,11292,11295,11296,11298,11303,11306,11311,11312,11313,11320,11321,11333,11339,
+    // End of Dragons - Repurposed / Xunlai
+    11299,11316,11324,11448,11451,11458,
+    // End of Dragons - Saltspray
+    10229,10275,10361,10375,10406,10512,10547,10555,10589,10639,10666,10671,10682,10684,10709,10722,
     // End of Dragons - Tahkayun
-    11325,11340,11344
+    11325,11340,11344,
+    // Secrets of the Obscure - Skyscale
+    11581,11603,11609,11618,11635,11642,11647,11662,11663,11673,11704,11717,11724,11731,11746,11801
   ]
 }

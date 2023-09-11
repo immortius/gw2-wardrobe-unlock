@@ -1,49 +1,28 @@
 {
   "name": "gem",
   "contents": [
-    // Avian
-    237,238,239,
-    // Baby - Set 1
-    139,140,143,148,154,
-    // Baby - Set 2
-    141,144,147,149,151,
-    // Bazaar Quaggan
-    164,165,166,
-    // Costumed
-    197,198,199,
-    // Creepy
-    208,229,299,
-    // Great Jungle Wurm
-    215,216,218,
-    // Scarlet's Champions
-    220,224,225,
-    // Spooky
-    107,109,110,
-    // Super - Set 1
+    // Gem Store - Super - Set 1
     133,134,135,
-    // Super - Set 2
+    // Gem Store - Super - Set 2
     185,186,187,
-    // Super - Set 3
+    // Gem Store - Super - Set 3
     455,456,459,
-    // Super - Set 4
+    // Gem Store - Super - Set 4
     676,677,678,
-    // Tequatl Rising
-    189,190,191,
-    // Wintersday
-    209,210,211,
-    // Extra Life
-    785,816,835,
-    // Other
+    // Gem Store
     1,
-    182,
-    293,294,295,296,297,
-    304,305,306,307,308,309,313,314,315,317,318,319,320,324,326,327,328,329,330,332,333,335,336,378,380,383,384,386,387,
-    405,409,419,420,430,444,454,470,475,
+    294,297,
+    304,305,306,307,319,320,329,330,332,333,336,378,384,387,
+    405,409,420,444,454,470,475,
     567,594,597,
     602,604,613,630,654,
-    // Other + Back Item Combo
+    785,
+    816,835,
+    // Gem Store + Back Item Combo
     342,
-    // Other - Mount
-    736,747
+    // Gem Store - Baby
+    141,144,147,149,151,324,326,327,
+    // Gem Store - Mount
+    747
   ]
 }

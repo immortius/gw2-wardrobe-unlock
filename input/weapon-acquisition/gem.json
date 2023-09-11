@@ -1,18 +1,18 @@
 {
   "name": "gem",
   "contents": [
-    // Gem Store Series 1 - Immortal
+    // Gem Store - Gem Store Series 1 - Immortal
     6111,6109,6079,6117,6102,6082,6081,6084,6120,6087,6126,6118,6129,6115,6104,6099,
-    // Gem Store Series 2 - Onyx Lion / Gold Lion
+    // Gem Store - Gem Store Series 2 - Onyx Lion / Gold Lion
     8235,8273,8298,8292,8256,8242,8267,8276,8279,8275,8245,8237,8274,8244,8293,8236,
     8280,8257,8246,8243,8269,8286,8255,8285,8262,8250,8295,8272,8268,8271,8251,8248,
-    // Gem Store Series 3 - Mythic
+    // Gem Store - Gem Store Series 3 - Mythic
     9054,9055,9056,9057,9059,9064,9068,9076,9078,9081,9082,9084,9085,9086,9090,9093,
-    // Gem Store Series 4 - Gold Essence
+    // Gem Store - Gem Store Series 4 - Gold Essence
     10262,10296,10340,10348,10354,10396,10409,10477,10485,10498,10506,10509,10569,10618,10620,10638,
-    // Dreamwalker
+    // Gem Store - Dreamwalker
     9049,9331,9975,10012,
-    // Other
+    // Gem Store
     3713,3722,3737,3780,3815,3823,
     5586,5789,5880,5973,5988,
     6863,6884,6894,6901,6906,6935,6940,6942,
@@ -20,20 +20,18 @@
     8113,8135,8397,8586,8622,8645,8651,8895,8863,8792,8798,
     9198,9476,9477,9615,9656,9791,9839,9892,9974,9995,
     10042,10154,10113,10062,10077,10158,10191,10215,10223,10763,10786,10789,10856,10961,
-    11036,11042,11086,11187,11204,11236,11359,11361,11415,11492,11518,
-    // Other + Weapon Combo - God-Slayer
+    11036,11042,11086,11187,11204,11236,11359,11361,11415,11492,11518,11571,
+    // Gem Store + Combo - God-Slayer
     7281,7284,
-    // Other + Weapon Combo - Infused
+    // Gem Store + Combo - Infused
     9842,9851,
-    // Other + Weapon Combo - Queensdale Academy Wand
+    // Gem Store + Combo - Queensdale Academy Wand
     9594,9596,
-    // Other + Weapon Combo - Rival Skies
+    // Gem Store + Combo - Rival Skies
     7450,7651,
-    // Other + Weapon Combo - Shiro's Legacy
+    // Gem Store + Combo - Shiro's Legacy
     10818,10824,
-    // Other + Weapon Combo - Shrine Guardian
-    9741,9748,
-    // Infernal Envoy
-    11571
+    // Gem Store + Combo - Shrine Guardian
+    9741,9748
   ]
 }

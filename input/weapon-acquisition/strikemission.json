@@ -1,0 +1,27 @@
+{
+  "name": "strikemission",
+  "contents": [
+    // Living World Season 1 - Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion
+    11140,11127,11139,
+    // Living World Season 5 - Ancient Boreal
+    9010,9012,9013,9020,9023,9024,9026,9028,9029,9031,9032,9033,9036,9038,9047,9048,
+    // Living World Season 5 - Blood Legion
+    9244,9295,9310,9313,9324,
+    // Living World Season 5 - Boneskinner
+    9138,9155,
+    // End of Dragons - Legendary Series 3: Facet of Aurene - Dragon
+    10235,10249,10254,10286,10349,10389,10435,10523,10586,10587,10604,10611,10615,10648,10677,10698,
+    // End of Dragons - Living Water
+    10304,10323,10384,10387,10465,10486,10495,10575,10590,10597,10609,10651,10664,10694,10717,10741,
+    // End of Dragons - Spindrift
+    10232,10253,10272,10305,10371,10391,10433,10439,10460,10535,10548,10560,10568,10582,10673,10681,
+    // End of Dragons
+    10803,10831,10837,
+    // Secrets of the Obscure - Sin
+    11575,11623,11633,11674,11691,11706,11785,
+    // Festival: Wintersday - Wintergreen
+    8520,8522,8533,8539,9726,9728,9729,9740,9749,9750,9764,9767,9772,9777,9780,9786,
+    // Festival: Wintersday
+    10194
+  ]
+}

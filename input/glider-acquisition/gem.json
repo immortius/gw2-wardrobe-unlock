@@ -1,22 +1,20 @@
 {
   "name": "gem",
   "contents": [
-    // Other
+    // Gem Store
     4,5,7,9,10,14,17,18,19,20,21,25,26,27,31,33,36,37,38,41,46,49,50,53,55,58,59,61,62,64,65,67,71,74,76,82,88,
     104,124,
-    // Other + Back Item Combo
+    // Gem Store + Back Item Combo
     28,40,45,48,52,57,69,79,81,85,90,94,95,98,99,
-    102,110,111,118,123,
-    // Other + Back Item Combo - Cape
-    114,
-    // Other + Back Item Combo - Wings
+    102,110,111,118,123,125,
+    // Gem Store + Back Item Combo - Cape
+    114,126,
+    // Gem Store + Back Item Combo - Wings
     1,3,6,8,13,15,23,24,30,34,42,51,63,75,80,87,89,92,93,
     101,105,106,107,108,117,119,120,121,
-    // Other + Novelty Combo - Chair
+    // Gem Store + Novelty Combo - Chair
     73,
-    // Other + Novelty Combo - Toy
-    16,39,44,
-    // Infernal Envoy
-    125
+    // Gem Store + Novelty Combo - Toy
+    16,39,44
   ]
 }
