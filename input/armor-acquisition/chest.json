@@ -1,0 +1,19 @@
+{
+  "name": "chest",
+  "contents": [
+    // Core
+    8117,8120,8123,
+    // Living World Season 2 - Adventurer
+    5488,5480,5481,5482,5484,5485,
+    // Living World Season 2 - Carapace
+    5710,5711,5712,5733,5736,5737,5741,5742,5743,
+    // Heart of Thorns - Bladed
+    6166,6247,6271,6275,6338,6476,
+    // Heart of Thorns - Leystone
+    6148,6339,6426,6308,6420,6248,6146,6332,6317,6436,6151,6315,6354,6241,6232,
+    // Path of Fire - Warbeast
+    7365,7448,7704,
+    // Living World Season 5
+    8921,8925,8941,9146,9149,9184,9429,9436,9439,9421,9428,9443
+  ]
+}

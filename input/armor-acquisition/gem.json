@@ -73,24 +73,23 @@
     9551,9554,9559,9613,9614,9616,9640,9649,9651,9695,9699,9707,
     10019,10020,10038,10155,10157,10160,10167,10173,10193,10201,10212,10214,10761,10764,10765,10833,10834,10835,10969,10992,10993,
     11063,11078,11097,
-    11418,11419,11431,
-    // Other - Head + Armor Combo - Aspect Eye
+    // Other - Head + Combo - Aspect Eye
     8195,8205,8217,8208,8228,8230,8194,8213,8222,
-    // Other - Head + Armor Combo - Battlelord
+    // Other - Head + Combo - Battlelord
     11151,11162,11167,11143,11150,11158,
-    // Other - Head + Armor Combo - Enchanted Dragon Crown
+    // Other - Head + Combo - Enchanted Dragon Crown
     8260,8277,8297,8278,8289,8296,8234,8238,8253,
-    // Other - Head + Armor Combo - Magnus's Eye Patch
+    // Other - Head + Combo - Magnus's Eye Patch
     833,839,841,840,842,843,
-    // Other - Head + Armor Combo - Pointed Ears
+    // Other - Head + Combo - Pointed Ears
     11032,11035,11047,11038,11040,11041,11039,11044,11045,
-    // Other - Head + Armor Combo - Shrine Guardian Ears
+    // Other - Head + Combo - Shrine Guardian Ears
     8685,8727,8741,8718,8743,8751,
-    // Other - Head + Armor Combo - Skyscale Horns
+    // Other - Head + Combo - Skyscale Horns
     8816,8822,8841,8814,8834,8837,
-    // Other - Head + Armor Combo - Unicorn Horn
+    // Other - Head + Combo - Unicorn Horn
     10854,10862,10865,10846,10852,10853,
-    // Other - Head + Armor Combo - Winter Antlers
+    // Other - Head + Combo - Winter Antlers
     8538,8543,8544,8518,8524,8545,
     // Other - Head - Fuzzy Hat
     966,968,969,970,972,973,974,976,977,978,1004,1005,1006,1015,1016,1017,1029,1032,1033,1039,1040,7280,7283,7286,
@@ -115,7 +114,7 @@
     // Other - Leg
     // Other - Foot
     9733,9757,9779,
-    // Other - Foot + Armor Combo
+    // Other - Foot + Combo
     11350,11354,11355,11357,11360,11363
   ]
 }

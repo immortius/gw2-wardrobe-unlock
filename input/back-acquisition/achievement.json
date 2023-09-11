@@ -17,22 +17,18 @@
     6149,6279,
     // Living World Season 3 - Druid Stone / The Wayfarer's Henge
     7214,7209,7216,7218,
-    // Living World Season 3 - Relic of the Six
+    // Living World Season 3 - Relic of the Six Gods
     7319,
     // Living World Season 4 - Inquest / Mark Y Golem
     8049,8052,8058,
-    // Living World Season 5 - Bjora Marches
-    9017,
-    // Living World Season 5 - Forging Steel
-    9249,9252,
-    // Living World Season 5 - Drizzlewood Coast
+    // Living World Season 5 - Charr Legion Backpack
     9387,9407,9413,9431,
-    // Living World Season 5 - Dragonstorm
-    9991,
-    // Secrets of the Obscure
-    11804,11741,
+    // Living World Season 5
+    9017,9249,9252,9991,
     // End of Dragons
     10231,10247,10271,10399,10458,11322,11268,
+    // Secrets of the Obscure
+    11741,11804,
     // Festival: Super Adventure Festival
     7201,6668,2361,2360,
     // Festival: Dragon Bash

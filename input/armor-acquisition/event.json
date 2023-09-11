@@ -6,7 +6,7 @@
     // Living World Season 1 - Wurmslayer
     1998,2003,2001,1999,2000,2004,2002,1997,1996,
     // Living World Season 2 - Carapace
-    5710,5737,5743,
+    5710,5716,5737,5743,5744,5745,
     // Heart of Thorns - Bladed
     6166,6205,6229,6244,6247,6254,6262,6271,6275,6336,6338,6345,6377,6378,6381,6387,6428,6476,
     // Heart of Thorns - Leystone
@@ -15,7 +15,11 @@
     6283,6456,6484,
     // Path of Fire - Bounty Hunter
     7648,7426,7493,7653,7467,7695,7504,7570,7635,7701,7509,7703,7639,7640,7675,7390,7550,7455,
+    // Path of Fire - Warbeast
+    7365,7448,7704,
     // Living World Season 5 - Raven Ceremonial
-    9158,9162,9177
+    9158,9162,9177,
+    // Secrets of the Obscure
+    11569,11658,11714
   ]
 }

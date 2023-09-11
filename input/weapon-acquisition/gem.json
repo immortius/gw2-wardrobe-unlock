@@ -20,20 +20,18 @@
     8113,8135,8397,8586,8622,8645,8651,8895,8863,8792,8798,
     9198,9476,9477,9615,9656,9791,9839,9892,9974,9995,
     10042,10154,10113,10062,10077,10158,10191,10215,10223,10763,10786,10789,10856,10961,
-    11036,11042,11086,11187,11204,11236,11359,11361,11415,11492,11518,
-    // Other + Weapon Combo - God-Slayer
+    11036,11042,11086,11187,11204,11236,11359,11361,11415,11492,11518,11571,
+    // Other + Combo - God-Slayer
     7281,7284,
-    // Other + Weapon Combo - Infused
+    // Other + Combo - Infused
     9842,9851,
-    // Other + Weapon Combo - Queensdale Academy Wand
+    // Other + Combo - Queensdale Academy Wand
     9594,9596,
-    // Other + Weapon Combo - Rival Skies
+    // Other + Combo - Rival Skies
     7450,7651,
-    // Other + Weapon Combo - Shiro's Legacy
+    // Other + Combo - Shiro's Legacy
     10818,10824,
-    // Other + Weapon Combo - Shrine Guardian
-    9741,9748,
-    // Infernal Envoy
-    11571
+    // Other + Combo - Shrine Guardian
+    9741,9748
   ]
 }

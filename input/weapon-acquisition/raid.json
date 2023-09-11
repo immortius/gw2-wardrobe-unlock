@@ -1,0 +1,21 @@
+{
+  "name": "raid",
+  "contents": [
+    // Raid - Sabir / Adina / Peerless
+    8783,8793,8797,8800,8802,8803,
+    // Raid - White Mantle
+    6626,6788,6821,6630,6633,6825,6635,6638,6835,6804,6805,6649,6810,6651,6652,6815,
+    // Raid - Spirit Vale
+    6141,6528,6531,6532,6536,
+    // Raid - Salvation Pass
+    6639,6642,6645,
+    // Raid - Stronghold of the Faithful
+    6813,6836,
+    // Raid - Bastion of the Penitent
+    7076,7091,7097,7101,7104,7113,7125,7147,7151,7155,
+    // Raid - Hall of Chains
+    7845,7863,7867,7881,7894,7909,7910,
+    // Raid - Mythwright Gambit
+    8337,8344,8363,8398,8409,8412
+  ]
+}
