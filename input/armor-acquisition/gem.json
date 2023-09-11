@@ -1,68 +1,68 @@
 {
   "name": "gem",
   "contents": [
-    // Gem Store Series 1 - Profane / Krytan / Primeval
+    // Gem Store - Gem Store Series 1 - Profane / Krytan / Primeval
     1155,1094,1099,1199,1069,1105,1156,1200,1111,1097,1071,1103,1154,1066,1093,1102,1198,1090,
-    // Gem Store Series 2 - Aetherblade
+    // Gem Store - Gem Store Series 2 - Aetherblade
     1319,1308,1307,1316,1322,1313,1320,1323,1309,1310,1317,1314,1321,1318,1324,1315,1311,1312,
-    // Gem Store Series 3 - Phoenix / Magitech / Braham
+    // Gem Store - Gem Store Series 3 - Phoenix / Magitech / Braham
     1152,1085,1196,1062,1095,1082,1153,1098,1197,1087,1064,1091,1079,1151,1060,1084,1092,1195,
-    // Gem Store Series 4 - Trickster / Viper / Phalanx
+    // Gem Store - Gem Store Series 4 - Trickster / Viper / Phalanx
     1335,1331,1332,1336,1334,1333,1341,1340,1339,1337,1342,1338,1157,1074,1106,1113,1201,1101,
-    // Gem Store Series 5 - Flamekissed / Flamewalker / Flamewrath
+    // Gem Store - Gem Store Series 5 - Flamekissed / Flamewalker / Flamewrath
     1257,1256,1258,1254,1255,1253,1268,1264,1262,1270,1260,1266,1261,1267,1269,1259,1265,1263,
-    // Gem Store Series 6 - Zodiac
+    // Gem Store - Gem Store Series 6 - Zodiac
     1345,1347,1348,1343,1346,1344,1351,1352,1354,1353,1349,1350,1357,1355,1358,1356,1359,1360,
-    // Gem Store Series 7 - Incarnate / Strider / Rampart
+    // Gem Store - Gem Store Series 7 - Incarnate / Strider / Rampart
     1278,1281,1279,1280,1276,1277,1271,1282,1285,1286,1287,1283,1272,1274,1275,1288,1273,1289,
-    // Aurene's Crystalline
+    // Gem Store - Aurene's Crystalline
     9954,9960,9961,9452,9458,9464,11182,11188,11192,
-    // Bestial Tides Tattoo / Fire Bloom Tattoo / Serpentine Tattoo
+    // Gem Store - Bestial Tides Tattoo / Fire Bloom Tattoo / Serpentine Tattoo
     11258,11279,11286,11304,11336,11346,
     11259,11270,11302,11314,11328,11331,
     11267,11291,11305,11307,11308,11349,
-    // Etherbound
+    // Gem Store - Etherbound
     8658,8659,8666,8669,8672,8678,8959,8960,8961,10980,11001,11010,11011,11029,11030,10987,10997,11000,
-    // Foefire
+    // Gem Store - Foefire
     7725,7726,7748,7258,7263,7267,7251,7262,7275,10120,10123,10125,10126,10127,10133,10182,10198,10211,
-    // Ice Reaver
+    // Gem Store - Ice Reaver
     9655,9657,9660,9794,9823,9831,10000,10001,10002,10003,10004,9989,9996,9997,9998,
-    // Immortal Fire / Immortal Light
+    // Gem Store - Immortal Fire / Immortal Light
     9578,9582,9586,10074,10081,10097,10115,10116,10117,
     9570,9574,9575,10080,10086,10094,10109,10111,10112,
-    // Jackal Rune
+    // Gem Store - Jackal Rune
     7998,7999,8001,8000,8002,8003,
-    // Lawless
+    // Gem Store - Lawless
     1361,1369,1370,1366,1372,1373,1364,1365,1367,1362,1368,1371,
-    // Leather Straps
+    // Gem Store - Leather Straps
     11522,11523,11529,11530,11539,11541,
-    // Lunar Rabbit
+    // Gem Store - Lunar Rabbit
     11200,11216,11221,11224,11228,11231,
-    // Maguuma
+    // Gem Store - Maguuma
     9219,9222,9224,9226,9228,9239,9339,9343,9350,
-    // Pirate
+    // Gem Store - Pirate
     6905,6909,6916,6914,6915,6931,6903,6910,6943,
-    // Raven
+    // Gem Store - Raven
     8463,8469,8488,8491,8497,8500,
-    // Salvaged Forged
+    // Gem Store - Salvaged Forged
     7817,7819,7827,7806,7814,7821,
-    // Savage Scale
+    // Gem Store - Savage Scale
     11100,11106,11124,11129,11133,11142,
-    // Scarlet
+    // Gem Store - Scarlet
     790,792,793,2032,2034,2035,
-    // Shadow of the Dragon
+    // Gem Store - Shadow of the Dragon
     5817,5822,5823,5818,5819,5821,5815,5816,5820,
-    // Shatterspark
+    // Gem Store - Shatterspark
     10006,10007,10008,10016,10018,10031,
-    // Swaggering
+    // Gem Store - Swaggering
     7358,7381,7625,10052,10055,10057,
-    // Toxic
+    // Gem Store - Toxic
     1330,1328,1329,1326,1325,1327,9330,	9332,9334,
-    // Vermillion
+    // Gem Store - Vermillion
     10814,10817,10822,10838,10839,10840,
-    // Water Dragon
+    // Gem Store - Water Dragon
     10906,10907,10916,10918,10920,10924,10925,10927,10928,10932,10943,10950,10951,10952,10953,10964,10965,10967,
-    // Other - Head
+    // Gem Store - Head
     975,983,984,985,988,995,999,1000,
     1001,1002,1003,1007,1008,1009,1010,1012,1019,1020,1021,1022,1023,1024,1025,1026,1027,1028,1030,1031,1035,1037,1049,1050,1051,
     1222,1223,1224,1225,1226,1227,1250,1251,1252,
@@ -73,48 +73,50 @@
     9551,9554,9559,9613,9614,9616,9640,9649,9651,9695,9699,9707,
     10019,10020,10038,10155,10157,10160,10167,10173,10193,10201,10212,10214,10761,10764,10765,10833,10834,10835,10969,10992,10993,
     11063,11078,11097,
-    // Other - Head + Combo - Aspect Eye
+    // Gem Store - Head + Combo - Aspect Eye
     8195,8205,8217,8208,8228,8230,8194,8213,8222,
-    // Other - Head + Combo - Battlelord
-    11151,11162,11167,11143,11150,11158,
-    // Other - Head + Combo - Enchanted Dragon Crown
+    // Gem Store - Head + Combo - Enchanted Dragon Crown
     8260,8277,8297,8278,8289,8296,8234,8238,8253,
-    // Other - Head + Combo - Magnus's Eye Patch
+    // Gem Store - Head + Combo - Magnus's Eye Patch
     833,839,841,840,842,843,
-    // Other - Head + Combo - Pointed Ears
+    // Gem Store - Head + Combo - Pointed Ears
     11032,11035,11047,11038,11040,11041,11039,11044,11045,
-    // Other - Head + Combo - Shrine Guardian Ears
+    // Gem Store - Head + Combo - Shrine Guardian Ears
     8685,8727,8741,8718,8743,8751,
-    // Other - Head + Combo - Skyscale Horns
+    // Gem Store - Head + Combo - Skyscale Horns
     8816,8822,8841,8814,8834,8837,
-    // Other - Head + Combo - Unicorn Horn
+    // Gem Store - Head + Combo - Unicorn Horn
     10854,10862,10865,10846,10852,10853,
-    // Other - Head + Combo - Winter Antlers
+    // Gem Store - Head + Back Item Combo - Cape - Artisan Zharra
+    11418,11419,11431,
+    // Gem Store - Head + Back Item Combo - Cape - Battlelord
+    11151,11162,11167,11143,11150,11158,
+    // Gem Store - Head + Combo - Winter Antlers
     8538,8543,8544,8518,8524,8545,
-    // Other - Head - Fuzzy Hat
+    // Gem Store - Head - Fuzzy Hat
     966,968,969,970,972,973,974,976,977,978,1004,1005,1006,1015,1016,1017,1029,1032,1033,1039,1040,7280,7283,7286,
-    // Other - Head - Glasses / Sunglasses
+    // Gem Store - Head - Glasses / Sunglasses
     967,989,990,991,982,986,987,971,992,993,994,1011,1013,1014,1018,
-    // Other - Head - Glowing Mask
+    // Gem Store - Head - Glowing Mask
     826,831,832,5698,5699,5700,5746,5747,5748,
-    // Other - Head - Mask of the Crown / Mask of the Jubilee / Mask of the Queen
+    // Gem Store - Head - Mask of the Crown / Mask of the Jubilee / Mask of the Queen
     1184,1185,1186,1187,1188,1189,1190,1191,1192,
-    // Other - Shoulder
+    // Gem Store - Shoulder
     5793,5794,5795,
     7064,7066,7071,
     9796,9817,9820,
     10043,10044,10046,
     11199,11223,11229,
-    // Other - Hand
+    // Gem Store - Hand
     6700,6727,6732,
     8185,8186,8187,8858,8866,8873,
     10454,10584,10641,10880,10896,10897,
-    // Other - Chest
+    // Gem Store - Chest
     11479,11499,11505,
-    // Other - Leg
-    // Other - Foot
+    // Gem Store - Leg
+    // Gem Store - Foot
     9733,9757,9779,
-    // Other - Foot + Combo
+    // Gem Store - Foot + Combo - Rebel
     11350,11354,11355,11357,11360,11363
   ]
 }

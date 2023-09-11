@@ -150,17 +150,17 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Exalted
+          // Gem Store - Exalted
           8115,8121,8122,8617,8618,8621,
-          // Seven Reapers
+          // Gem Store - Seven Reapers
           9376,9384,9447,9890,9891,9894,10098,10100,10106,10124,10129,10131,
-          // Standalone: Other - Head
+          // Gem Store - Head
           7225,7233,7241,9789,9790,9792,10847,10849,10867,
-          // Standalone: Other - Head + Outfit Combo
+          // Gem Store - Head + Outfit Combo
           7782,7800,7804,
-          // Standalone: Other - Shoulder + Outfit Combo
+          // Gem Store - Shoulder + Outfit Combo
           9577,9580,9581,
-          // Standalone: Other - Hand
+          // Gem Store - Hand
           7941,7975,7985,8967,8986,8989
         ],
         // Fused Gauntlet Ticket
@@ -720,11 +720,11 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Vermilion
+          // Gem Store - Vermilion
           9347,9701,10072,10078,
-          // Standalone: Other
+          // Gem Store
           6937,6978,7739,8098,8197,8457,8529,8945,9027,9553,9956,10040,10162,10510,
-          // Standalone: Other + Back Item Combo - Quiver
+          // Gem Store + Back Item Combo - Quiver
           8010
         ],
         // Southsun Remembrance Package
@@ -791,17 +791,17 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
+          // Gem Store
           7755,8319,10881,
-          // Standalone: Other + Glider Combo
+          // Gem Store + Glider Combo
           7308,7811,7996,8141,8638,8725,8807,10219,10941,
-          // Standalone: Other - Cape
+          // Gem Store - Cape
           9240,9462,9597,10005,
-          // Standalone: Other - Cape + Glider Combo
+          // Gem Store - Cape + Glider Combo
           9732,
-          // Standalone: Other - Quiver
+          // Gem Store - Quiver
           8021,
-          // Standalone: Other - Wings + Glider Combo
+          // Gem Store - Wings + Glider Combo
           8915,9061,9298,9481,9992,10045,10823
         ],
         // Pink Quaggan Backpack Set
@@ -845,11 +845,11 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
+          // Gem Store
           87,
-          // Standalone: Other + Armor Combo - Head
+          // Gem Store + Armor Combo - Head
           57,
-          // Standalone: Other + Armor Combo - Shoulder
+          // Gem Store + Armor Combo - Shoulder
           101
         ],
         // Endless Riding Clothes Tonic
@@ -949,15 +949,15 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
+          // Gem Store
           32,35,54,66,84,
-          // Standalone: Other + Back Item Combo
+          // Gem Store + Back Item Combo
           47,56,60,68,70,72,109,116,
-          // Standalone: Other + Back Item Combo - Cape
+          // Gem Store + Back Item Combo - Cape
           96,
-          // Standalone: Other + Back Item Combo - Wings
+          // Gem Store + Back Item Combo - Wings
           77,83,86,91,100,103,112,
-          // Standalone: Other + Novelty Combo - Chair
+          // Gem Store + Novelty Combo - Chair
           97
         ]
       }
@@ -990,9 +990,9 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other - Chair
+          // Gem Store - Chair
           269,309,
-          // Standalone: Other - Chair + Glider Combo
+          // Gem Store - Chair + Glider Combo
           311
         ],
         // Unbreakable Choir Bell
@@ -1081,17 +1081,17 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Mounts - Set 1 / Spooky
+          // Gem Store - Black Lion Chest Exclusives Series 1 - Spooky Mount
           599,605,609,610,611,
-          // Mounts - Set 2 / Cozy Wintersday
+          // Gem Store - Black Lion Chest Exclusives Series 2 - Cozy Wintersday Mount
           627,629,631,633,635,
-          // Mounts - Set 3 / Branded
+          // Gem Store - Black Lion Chest Exclusives Series 3 - Branded Mount
           657,660,661,662,663,
-          // Mounts - Set 4 / Awakened
+          // Gem Store - Black Lion Chest Exclusives Series 4 - Awakened Mount
           689,691,693,694,699,
-          // Mounts - Set 5 / Exo-Suit
-          709,713,714,715,717
-          // Standalone: Other
+          // Gem Store - Black Lion Chest Exclusives Series 5 - Exo-Suit Mount
+          709,713,714,715,717,
+          // Gem Store
           435,493
         ]
       },
@@ -1121,7 +1121,7 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
+          // Gem Store
           16
         ]
       }

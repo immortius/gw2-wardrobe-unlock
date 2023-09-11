@@ -202,7 +202,8 @@ var acquisitionMethods = [
     { id: "mountlicense14", name: "Eternal Crossings Mount License", category: "Gem Store - Mount License"},
     //{ id: "mountlicense15", name: "Kaineng Lights Mount License", category: "Gem Store - Mount License"},
 
-    { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
+    { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true},
+    { id: "soto", name: "Secrets of the Obscure", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
 
 ];
 
@@ -505,6 +506,8 @@ function updateFilter(displayMode, container) {
         $('.item').not('.ibs').toggleClass('hidden', true);
     } else if (displayMode == 'eod') {
         $('.item').not('.eod').toggleClass('hidden', true);
+    } else if (displayMode == 'soto') {
+        $('.item').not('.soto').toggleClass('hidden', true);
     } else if (displayMode == 'ktghb') {
         $('.item').not('.bounty').toggleClass('hidden', true);
     } else if (displayMode == 'other') {
