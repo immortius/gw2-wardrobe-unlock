@@ -170,7 +170,7 @@
       "Standalone: Other": [
       ]
     },
-    "Cooperative: Fractals of the Mists (FotM)": {
+    "Fractals of the Mists (FotM)": {
       "Standalone: Other": [
         115,
         121,
@@ -178,7 +178,7 @@
         307
       ]
     },
-    "Cooperative: Raid": {
+    "Raid": {
       "Standalone: Other": [
         50,
         69,
@@ -186,14 +186,14 @@
         285
       ]
     },
-    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
       "Champion's Gizmo": [
       ],
       "Standalone: Other": [
         147
       ]
     },
-    "Festival: Super Adventure Festival": {
+    "Super Adventure Festival (SAB)": {
       "Duskk's Super Boom Box": [
         3,
         30
@@ -203,7 +203,7 @@
         25
       ]
     },
-    "Festival: Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone: Festival Bag": [
         223
       ],
@@ -218,7 +218,7 @@
         150
       ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Ignited Wraith Tonic": [
         84,
         94,
@@ -230,7 +230,7 @@
         180
       ]
     },
-    "Festival: Wintersday": {
+    "Wintersday": {
       "Enchanted Snowball": [
         93,
         217

@@ -1843,7 +1843,7 @@
         11714
       ]
     },
-    "Cooperative: Raid": {
+    "Raid": {
       "Dhuum": [
         7848,
         7854,
@@ -1924,7 +1924,7 @@
         7121
       ]
     },
-    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
       "Apostle / Stalwart / Heavy Scale": [
         1619,
         1587,
@@ -2142,7 +2142,7 @@
         9217
       ]
     },
-    "Festival: Lunar New Year": {
+    "Lunar New Year (LNY)": {
       "Standalone: Other": [
         9101,
         9108,
@@ -2158,7 +2158,7 @@
         11226
       ]
     },
-    "Festival: Super Adventure Festival": {
+    "Super Adventure Festival (SAB)": {
       "Powered": [
         11367,
         11371,
@@ -2190,7 +2190,7 @@
         9357
       ]
     },
-    "Festival: Dragon Bash": {
+    "Dragon Bash": {
       "Holographic Dragon": [
         8817,
         8826,
@@ -2214,7 +2214,7 @@
         2016
       ]
     },
-    "Festival: Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Aspect-Touched Zephyrite": [
         8189,
         8190,
@@ -2265,7 +2265,7 @@
         9555
       ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Lunatic Acolyte / Lunatic Noble / Lunatic Templar": [
         7776,
         7780,
@@ -2322,7 +2322,7 @@
         11069
       ]
     },
-    "Festival: Wintersday": {
+    "Wintersday": {
       "Standalone: Festival Bag": [
         9063,
         9071,

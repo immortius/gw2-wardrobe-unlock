@@ -4,7 +4,7 @@
       "Starter": [
         2340
       ],
-      "Crafting: Armorsmith": [
+      "Crafting Discipline: Armorsmith": [
         2304,
         2305,
         2308,
@@ -12,7 +12,7 @@
         2301,
         2303
       ],
-      "Crafting: Leatherworker": [
+      "Crafting Discipline: Leatherworker": [
         2292,
         2293,
         2294,
@@ -20,7 +20,7 @@
         2296,
         2315
       ],
-      "Crafting: Tailor": [
+      "Crafting Discipline: Tailor": [
         2307,
         2309,
         2282,
@@ -28,7 +28,7 @@
         2316,
         2286
       ],
-      "Crafting: Artificer": [
+      "Crafting Discipline: Artificer": [
         2320,
         2297,
         2298,
@@ -36,7 +36,7 @@
         2284,
         2300
       ],
-      "Crafting: Huntsman": [
+      "Crafting Discipline: Huntsman": [
         2321,
         2322,
         2323,
@@ -44,7 +44,7 @@
         2311,
         2312
       ],
-      "Crafting: Weaponsmith": [
+      "Crafting Discipline: Weaponsmith": [
         2288,
         2290,
         2306,
@@ -52,7 +52,7 @@
         2317,
         2287
       ],
-      "Crafting: Chef": [
+      "Crafting Discipline: Chef": [
         2289,
         2324,
         2277,
@@ -60,7 +60,7 @@
         2302,
         2319
       ],
-      "Crafting: Jeweler": [
+      "Crafting Discipline: Jeweler": [
         2276,
         2278,
         2280,
@@ -68,7 +68,7 @@
         2313,
         2285
       ],
-      "Crafting: Scribe": [
+      "Crafting Discipline: Scribe": [
         6512,
         6402,
         6341,
@@ -256,7 +256,7 @@
       	11804
       ]
     },
-    "Cooperative: Fractals of the Mists (FotM)": {
+    "Fractals of the Mists (FotM)": {
       "Fractal Capacitor": [
         2377,
         2378,
@@ -269,14 +269,14 @@
         6474
       ]
     },
-    "Cooperative: Raid": {
+    "Raid": {
       "Standalone: Other": [
         6135,
         6809,
         7114
       ]
     },
-    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
       "Wings of Glory / The Ascension + Glider Combo": [
         6560,
         6561,
@@ -297,7 +297,7 @@
         2380
       ]
     },
-    "Festival: Lunar New Year": {
+    "Lunar New Year (LNY)": {
       "Lucky Celestial Lantern": [
         5856,
         6619,
@@ -321,7 +321,7 @@
         11206
       ]
     },
-    "Festival: Super Adventure Festival": {
+    "Super Adventure Festival (SAB)": {
       "Super / King Toad / Storm Wizard / Kaiser Snake / Crimson Assassin": [
         2360,
         2361,
@@ -333,14 +333,14 @@
         2359
       ]
     },
-    "Festival: Dragon Bash": {
+    "Dragon Bash": {
       "Standalone: Other": [
         2351,
         2352,
         8833
       ]
     },
-    "Festival: Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Aspect Catcher": [
         2346,
         2347,
@@ -360,7 +360,7 @@
         8861
       ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Mad Memoires": [
         2336,
         7760,
@@ -371,7 +371,7 @@
       	9638
       ]
     },
-    "Festival: Wintersday": {
+    "Wintersday": {
       "Standalone: Other": [
         2374,
         2375,

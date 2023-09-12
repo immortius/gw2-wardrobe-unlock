@@ -359,7 +359,7 @@
         905
       ]
     },
-    "Cooperative: Fractals of the Mists (FotM)": {
+    "Fractals of the Mists (FotM)": {
       "Old Tom": [
         344,
         352,
@@ -372,7 +372,7 @@
         890
       ]
     },
-    "Cooperative: Raid": {
+    "Raid": {
       "Vale Guardian": [
         368,
         371,
@@ -423,7 +423,7 @@
         765
       ]
     },
-    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
       "PvP League - Llama": [
         228,
         321,
@@ -478,7 +478,7 @@
         543
       ]
     },
-    "Festival: Lunar New Year": {
+    "Lunar New Year (LNY)": {
       "Lantern": [
         745,
         746,
@@ -495,7 +495,7 @@
         883
       ]
     },
-    "Festival: Super Adventure Festival": {
+    "Super Adventure Festival (SAB)": {
       "Princess Miya": [
         183,
         184
@@ -508,7 +508,7 @@
         887
       ]
     },
-    "Festival: Dragon Bash": {
+    "Dragon Bash": {
       "Holographic Dragon Minion": [
         158,
         157,
@@ -527,7 +527,7 @@
         889
       ]
     },
-    "Festival: Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone: Queen's Gauntlet": [
         170
       ],
@@ -544,7 +544,7 @@
         891
       ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Mad Memoires": [
         783,
         784,
@@ -583,7 +583,7 @@
         876
       ]
     },
-    "Festival: Wintersday": {
+    "Wintersday": {
       "Angry Snowball": [
         626,
         628,

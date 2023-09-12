@@ -195,7 +195,7 @@
       "Standalone: Other": [
       ]
     },
-    "Cooperative: Fractals of the Mists (FotM)": {
+    "Fractals of the Mists (FotM)": {
       "Fractal": [
         296,
         297,
@@ -214,7 +214,7 @@
         399
       ]
     },
-    "Cooperative: Raid": {
+    "Raid": {
       "Standalone: Other": [
         230,
         238,
@@ -229,7 +229,7 @@
         330
       ]
     },
-    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
       "Arena": [
         327,
         329,
@@ -317,13 +317,13 @@
         364
       ]
     },
-    "Festival: Super Adventure Festival": {
+    "Super Adventure Festival (SAB)": {
       "Standalone: Other": [
         134,
         174
       ]
     },
-    "Festival: Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone: Queen's Gauntlet": [
         185,
         310
@@ -332,13 +332,13 @@
         309
       ]
     },
-    "Festival: Halloween": {
+    "Halloween": {
       "Standalone: Other": [
         128,
         129
       ]
     },
-    "Festival: Wintersday": {
+    "Wintersday": {
       "Standalone: Dungeon": [
         259
       ],
