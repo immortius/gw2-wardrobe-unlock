@@ -20,7 +20,7 @@
         582
       ]
     },
-    "(LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Prototype Assault Knight": [
         877,
         878,
@@ -43,7 +43,7 @@
         223
       ]
     },
-    "(LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Mordrem Minion": [
         292,
         303,
@@ -54,7 +54,7 @@
         298
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Guild Initiative Proprietor": [
         338,
         339,
@@ -82,7 +82,7 @@
         396
       ]
     },
-    "(LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Dragon's Watch": [
         462,
         465,
@@ -128,7 +128,7 @@
         492
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Elemental Djinn": [
         503,
         505,
@@ -229,7 +229,7 @@
         585
       ]
     },
-    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Elemental Hydra Head / Elemental Hydra": [
         658,
         668,
@@ -268,7 +268,7 @@
         762
       ]
     },
-    "(LW5) Living World Season 5: The Icebrood Saga": {
+    "Living World Season 5: The Icebrood Saga (LW5)": {
       "Corrupted Lost Spirit": [
         799,
         802,
@@ -301,7 +301,7 @@
         818
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Void Minion": [
         842,
         849,
@@ -331,7 +331,7 @@
         885
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Avatar of Sin": [
         892,
         894,
@@ -359,7 +359,7 @@
         905
       ]
     },
-    "Cooperative: Fractals of the Mists": {
+    "Cooperative: Fractals of the Mists (FotM)": {
       "Old Tom": [
         344,
         352,
@@ -379,13 +379,13 @@
         373,
         376
       ],
-      "Standalone: Other - Spirit Vale": [
+      "Standalone: Spirit Vale": [
         370,
         372,
         375,
         377
       ],
-      "Standalone: Other - Salvation Pass": [
+      "Standalone: Salvation Pass": [
         389,
         390,
         391,
@@ -393,12 +393,12 @@
         393,
         394
       ],
-      "Standalone: Other - Stronghold of the Faithful": [
+      "Standalone: Stronghold of the Faithful": [
         401,
         402,
         403
       ],
-      "Standalone: Other - Bastion of the Penitent": [
+      "Standalone: Bastion of the Penitent": [
         436,
         438,
         440,
@@ -406,61 +406,61 @@
         442,
         447
       ],
-      "Standalone: Other - Hall of Chains": [
+      "Standalone: Hall of Chains": [
         621,
         622,
         623
       ],
-      "Standalone: Other - Mythwright Gambit": [
+      "Standalone: Mythwright Gambit": [
         721,
         722,
         723,
         725
       ],
-      "Standalone: Other - The Key of Ahdashim": [
+      "Standalone: The Key of Ahdashim": [
         763,
         764,
         765
       ]
     },
-    "Competitive: Player vs. Player / World vs. World": {
-      "PvP League Series 1 - Llama": [
+    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
+      "PvP League - Llama": [
         228,
         321,
         322,
         323
       ],
-      "PvP League Series 2 - Black Llama": [
+      "PvP League - Black Llama": [
         427,
         429,
         431,
         432
       ],
-      "PvP League Series 3 - Emperor Llama": [
+      "PvP League - Emperor Llama": [
         449,
         450,
         451,
         453
       ],
-      "PvP League Series 4 - Princess Llama": [
+      "PvP League - Princess Llama": [
         471,
         472,
         473,
         474
       ],
-      "PvP Tournament Series 1 - Bronze Llama": [
+      "PvP Tournament - Bronze Llama": [
         476,
         479,
         483,
         485
       ],
-      "PvP Tournament Series 2 - Silver Llama": [
+      "PvP Tournament - Silver Llama": [
         477,
         478,
         482,
         487
       ],
-      "PvP Tournament Series 3 - Gold Llama": [
+      "PvP Tournament - Gold Llama": [
         480,
         481,
         484,
@@ -633,7 +633,7 @@
       ]
     },
     "Gem Store": {
-      "Gem Store Series 1": [
+      "Set I": [
         6,
         7,
         8,
@@ -689,7 +689,7 @@
         59,
         60
       ],
-      "Gem Store Series 2": [
+      "Set II": [
         61,
         62,
         63,
@@ -740,7 +740,7 @@
         179,
         180
       ],
-      "Gem Store Series 3": [
+      "Set III": [
         40,
         256,
         257,
@@ -791,7 +791,7 @@
         253,
         254
       ],
-      "Black Lion Chest Series 1 - Raptor Hatchling": [
+      "Raptor Hatchling": [
         591,
         592,
         593,
@@ -803,7 +803,7 @@
         589,
         590
       ],
-      "Black Lion Chest Series 2 - Jackal Pup": [
+      "Jackal Pup": [
         637,
         638,
         639,
@@ -815,7 +815,7 @@
         645,
         646
       ],
-      "Black Lion Chest Series 3 - Griffon Hatchling": [
+      "Griffon Hatchling": [
         679,
         680,
         681,
@@ -827,7 +827,7 @@
         687,
         688
       ],
-      "Black Lion Chest Series 4 - Springer Kit": [
+      "Springer Kit": [
         702,
         703,
         704,
@@ -840,7 +840,7 @@
         712,
         716
       ],
-      "Black Lion Chest Series 5 - Skimmer Pup": [
+      "Skimmer Pup": [
         750,
         751,
         752,
@@ -852,7 +852,7 @@
         758,
         759
       ],
-      "Black Lion Chest Series 6 - Skyscale Hatchling": [
+      "Skyscale Hatchling": [
         766,
         767,
         768,
@@ -864,7 +864,7 @@
         775,
         776
       ],
-      "Black Lion Chest Series 7 - Shiba Inu": [
+      "Shiba Inu": [
         821,
         822,
         823,
@@ -876,7 +876,7 @@
         829,
         830
       ],
-      "Black Lion Chest Series 8 - Tigris Cub": [
+      "Tigris Cub": [
         860,
         861,
         862,
@@ -888,35 +888,35 @@
         868,
         869
       ],
-      "Black Lion Chest Exclusives Series 1 - Spooky Mount": [
+      "Spooky Mount": [
         599,
         605,
         609,
         610,
         611
       ],
-      "Black Lion Chest Exclusives Series 2 - Cozy Wintersday Mount": [
+      "Cozy Wintersday Mount": [
         627,
         629,
         631,
         633,
         635
       ],
-      "Black Lion Chest Exclusives Series 3 - Branded Mount": [
+      "Branded Mount": [
         657,
         660,
         661,
         662,
         663
       ],
-      "Black Lion Chest Exclusives Series 4 - Awakened Mount": [
+      "Awakened Mount": [
         689,
         691,
         693,
         694,
         699
       ],
-      "Black Lion Chest Exclusives Series 5 - Exo-Suit Mount": [
+      "Exo-Suit Mount": [
         709,
         713,
         714,
@@ -1091,7 +1091,7 @@
       "Standalone: Other + Back Item Combo": [
         342
       ],
-      "Standalone: Other - Baby": [
+      "Standalone: Baby": [
         139,
         140,
         141,
@@ -1107,7 +1107,7 @@
         327,
         328
       ],
-      "Standalone: Other - Mount": [
+      "Standalone: Mount": [
         648,
         649,
         652,

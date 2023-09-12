@@ -34,19 +34,6 @@
         15,
         203
       ],
-      "Standalone: Hall of Monuments": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        26
-      ],
       "Standalone: Racing": [
         321
       ],
@@ -74,7 +61,7 @@
         394
       ]
     },
-    "(LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Standalone: Strike Mission": [
         395
       ],
@@ -87,7 +74,7 @@
         226
       ]
     },
-    "(LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Standalone: Other": [
         207,
         208,
@@ -98,7 +85,7 @@
         213
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Standalone: Other": [
         218,
         219,
@@ -109,7 +96,7 @@
         270
       ]
     },
-    "(LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Standalone: Other": [
         246,
         249,
@@ -120,7 +107,7 @@
         278
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Banners of Elona": [
         281,
         283,
@@ -137,7 +124,7 @@
         295
       ]
     },
-    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Standalone: Other": [
         301,
         302,
@@ -151,7 +138,7 @@
         324
       ]
     },
-    "(LW5) Living World Season 5: The Icebrood Saga": {
+    "Living World Season 5: The Icebrood Saga (LW5)": {
       "Standalone: Other": [
         345,
         346,
@@ -170,7 +157,7 @@
         369
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Facet of Aurene": [
         390,
         391,
@@ -200,7 +187,7 @@
         384
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Rift Hunting": [
       ],
       "Standalone: Strike Mission": [
@@ -208,7 +195,7 @@
       "Standalone: Other": [
       ]
     },
-    "Cooperative: Fractals of the Mists": {
+    "Cooperative: Fractals of the Mists (FotM)": {
       "Fractal": [
         296,
         297,
@@ -242,7 +229,7 @@
         330
       ]
     },
-    "Competitive: Player vs. Player / World vs. World": {
+    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
       "Arena": [
         327,
         329,
@@ -368,6 +355,19 @@
         362,
         370,
         372
+      ],
+      "Standalone: Hall of Monuments": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        26
       ],
       "Standalone: Other": [
         18,

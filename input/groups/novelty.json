@@ -41,7 +41,7 @@
         41
       ]
     },
-    "(LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Quaggan Tonic": [
         88,
         131,
@@ -67,7 +67,7 @@
         156
       ]
     },
-    "(LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Mordrem Minion Tonic": [
         81,
         90,
@@ -84,7 +84,7 @@
         230
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Chak Tonic": [
         102,
         214,
@@ -105,7 +105,7 @@
         241
       ]
     },
-    "(LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Standalone: Renown Heart": [
         132,
         158,
@@ -113,7 +113,7 @@
         92
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Music Box": [
       ],
       "Standalone: Casino Blitz": [
@@ -127,7 +127,7 @@
         218
       ]
     },
-    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Standalone: Renown Heart": [
         86,
         89,
@@ -140,7 +140,7 @@
         282
       ]
     },
-    "(LW5) Living World Season 5: The Icebrood Saga": {
+    "Living World Season 5: The Icebrood Saga (LW5)": {
       "Standalone: Strike Mission": [
         293
       ],
@@ -150,7 +150,7 @@
         299
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Standalone: Fishing": [
       ],
       "Standalone: Strike Mission": [
@@ -164,13 +164,13 @@
         330
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Strike Mission": [
       ],
       "Standalone: Other": [
       ]
     },
-    "Cooperative: Fractals of the Mists": {
+    "Cooperative: Fractals of the Mists (FotM)": {
       "Standalone: Other": [
         115,
         121,
@@ -186,7 +186,7 @@
         285
       ]
     },
-    "Competitive: Player vs. Player / World vs. World": {
+    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
       "Champion's Gizmo": [
       ],
       "Standalone: Other": [
@@ -256,7 +256,7 @@
       ]
     },
     "Gem Store": {
-      "Standalone: Other - Chair": [
+      "Standalone: Chair": [
         24,
         262,
         268,
@@ -283,11 +283,11 @@
         327,
         329
       ],
-      "Standalone: Other - Chair + Glider Combo": [
+      "Standalone: Chair + Glider Combo": [
         286,
         311
       ],
-      "Standalone: Other - Musical Instrument": [
+      "Standalone: Musical Instrument": [
         2,
         6,
         8,
@@ -296,7 +296,7 @@
         37,
         45
       ],
-      "Standalone: Other - Held Item": [
+      "Standalone: Held Item": [
         7,
         13,
         15,
@@ -306,7 +306,7 @@
         40,
         53
       ],
-      "Standalone: Other - Toy": [
+      "Standalone: Toy": [
         4,
         5,
         9,
@@ -316,7 +316,7 @@
         55,
         300
       ],
-      "Standalone: Other - Toy + Outfit Combo": [
+      "Standalone: Toy + Outfit Combo": [
         78,
         111,
         126,
@@ -325,16 +325,16 @@
         226,
         265
       ],
-      "Standalone: Other - Toy + Glider Combo": [
+      "Standalone: Toy + Glider Combo": [
         16,
         20,
         27,
         33
       ],
-      "Standalone: Other - Toy + Emote Combo": [
+      "Standalone: Toy + Emote Combo": [
         44
       ],
-      "Standalone: Other - Tonic": [
+      "Standalone: Tonic": [
         80,
         103,
         159,

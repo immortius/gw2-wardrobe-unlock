@@ -1,16 +1,16 @@
 {
   "topLevelCategories": {
-    "(X1) Guild Wars 2: Heart of Thorns": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Starter": [
         2
       ]
     },
-    "Cooperative: Fractals of the Mists": {
+    "Cooperative: Fractals of the Mists (FotM)": {
       "Standalone: Other + Back Item Combo": [
         22
       ]
     },
-    "Competitive: Player vs. Player / World vs. World": {
+    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
       "Standalone: Other + Back Item Combo": [
         11,
         43
@@ -95,13 +95,13 @@
         123,
         125
       ],
-      "Standalone: Other + Back Item Combo - Cape": [
+      "Standalone: Other + Cape Back Item Combo": [
         96,
         114,
         122,
         126
       ],
-      "Standalone: Other + Back Item Combo - Wings": [
+      "Standalone: Other + Wings Back Item Combo": [
         1,
         3,
         6,
@@ -138,11 +138,11 @@
         120,
         121
       ],
-      "Standalone: Other + Novelty Combo - Chair": [
+      "Standalone: Other + Chair Novelty Combo": [
         73,
         97
       ],
-      "Standalone: Other + Novelty Combo - Toy": [
+      "Standalone: Other + Toy Novelty Combo": [
         16,
         39,
         44,

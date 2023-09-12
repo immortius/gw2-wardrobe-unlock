@@ -1,7 +1,7 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Basic Series": [
+      "Basic": [
         3870,
         3872,
         3873,
@@ -23,7 +23,7 @@
         3869,
         3871
       ],
-      "Ascalon / Charr Series 1 - Steam": [
+      "Ascalon Region / Charr Cultural Tier 1 - Steam": [
         5185,
         5218,
         5091,
@@ -44,7 +44,7 @@
         5210,
         5149
       ],
-      "Ascalon / Charr Series 2 - Flame": [
+      "Ascalon Region / Charr Cultural Tier 2 - Flame": [
         4743,
         5152,
         5155,
@@ -68,7 +68,7 @@
         5214,
         5086
       ],
-      "Ascalon Series 3 - Legionnaire": [
+      "Ascalon Region - Legionnaire": [
         4991,
         5056,
         5088,
@@ -91,7 +91,7 @@
         5116,
         5053
       ],
-      "Charr Series 3 - Adamant Guard": [
+      "Charr Cultural Tier 3 - Adamant Guard": [
         4321,
         4289,
         4322,
@@ -112,7 +112,7 @@
         4351,
         4319
       ],
-      "Kryta / Human Series 1 - Krytan": [
+      "Kryta Region / Human Cultural Tier 1 - Krytan": [
         4992,
         4994,
         4995,
@@ -135,7 +135,7 @@
         4990,
         5022
       ],
-      "Kryta / Human Series 2 - Aureate": [
+      "Kryta Region / Human Cultural Tier 2 - Aureate": [
         5024,
         4993,
         5025,
@@ -156,7 +156,7 @@
         5017,
         5023
       ],
-      "Kryta Series 3 - Ceremonial": [
+      "Kryta Region - Ceremonial": [
         5120,
         5123,
         5221,
@@ -177,7 +177,7 @@
         5215,
         5119
       ],
-      "Human Series 3 - Seraph": [
+      "Human Cultural Tier 3 - Seraph": [
         4352,
         4291,
         4324,
@@ -198,7 +198,7 @@
         4317,
         4285
       ],
-      "Shiverpeak Mountains / Norn Series 1 - Shiverpeak": [
+      "Shiverpeak Mountains Region / Norn Cultural Tier 1 - Shiverpeak": [
         5058,
         5158,
         5159,
@@ -221,7 +221,7 @@
         5150,
         5362
       ],
-      "Shiverpeak Mountains / Norn Series 2 - Norn": [
+      "Shiverpeak Mountains Region / Norn Cultural Tier 2 - Norn": [
         5153,
         5089,
         5096,
@@ -242,7 +242,7 @@
         5084,
         5117
       ],
-      "Shiverpeak Mountains Series 3 - Etched": [
+      "Shiverpeak Mountains Region - Etched": [
         5026,
         5028,
         5063,
@@ -264,7 +264,7 @@
         5303,
         5112
       ],
-      "Shiverpeak Mountains Series 3 - Etched > Corrupted": [
+      "Shiverpeak Mountains Region - Etched > Corrupted": [
         4037,
         4069,
         3974,
@@ -285,7 +285,7 @@
         4027,
         3963
       ],
-      "Norn Series 3 - Wolfborn": [
+      "Norn Cultural Tier 3 - Wolfborn": [
         4293,
         4294,
         4297,
@@ -306,7 +306,7 @@
         4316,
         4286
       ],
-      "Tarnished Coast / Asura / Sylvari Series 1 - Glyphic": [
+      "Tarnished Coast Region / Asura Cultural Tier 1 / Sylvari Cultural Tier 1 - Glyphic": [
         5217,
         5122,
         5124,
@@ -327,7 +327,7 @@
         5050,
         5151
       ],
-      "Tarnished Coast / Asura / Sylvari Series 2 - Verdant": [
+      "Tarnished Coast Region / Asura Cultural Tier 2 / Sylvari Cultural Tier 2 - Verdant": [
         5156,
         5189,
         5125,
@@ -348,7 +348,7 @@
         5083,
         5054
       ],
-      "Tarnished Coast Series 3 - Tribal": [
+      "Tarnished Coast Region - Tribal": [
         4740,
         5184,
         5121,
@@ -370,7 +370,7 @@
         5118,
         5183
       ],
-      "Asura Series 3 - Peacemaker": [
+      "Asura Cultural Tier 3 - Peacemaker": [
         4288,
         4263,
         4296,
@@ -391,7 +391,7 @@
         4350,
         4287
       ],
-      "Sylvari Series 3 - Warden": [
+      "Sylvari Cultural Tier 3 - Warden": [
         4320,
         4257,
         4258,
@@ -413,7 +413,7 @@
         4343,
         4314
       ],
-      "Ruins of Orr Series - Orrian": [
+      "Ruins of Orr Region - Orrian": [
         4865,
         5057,
         5093,
@@ -434,7 +434,7 @@
         5055,
         5087
       ],
-      "Dungeon Series 1: Ascalonian Catacombs - Royal Ascalonian": [
+      "Dungeon: Ascalonian Catacombs - Royal Ascalonian": [
         4384,
         4385,
         4356,
@@ -455,7 +455,7 @@
         4372,
         4373
       ],
-      "Dungeon Series 2: Caudecus's Manor - Golden Wing": [
+      "Dungeon: Caudecus's Manor - Golden Wing": [
         4417,
         4514,
         4450,
@@ -476,7 +476,7 @@
         4411,
         4511
       ],
-      "Dungeon Series 3: Twilight Arbor - Nightmare Court": [
+      "Dungeon: Twilight Arbor - Nightmare Court": [
         4512,
         4482,
         4517,
@@ -497,7 +497,7 @@
         4383,
         4415
       ],
-      "Dungeon Series 4: Sorrow's Embrace - Dark Asuran": [
+      "Dungeon: Sorrow's Embrace - Dark Asuran": [
         4387,
         4516,
         4452,
@@ -518,7 +518,7 @@
         4381,
         4382
       ],
-      "Dungeon Series 5: Citadel of Flame - Molten": [
+      "Dungeon: Citadel of Flame - Molten": [
         4353,
         4481,
         4354,
@@ -539,7 +539,7 @@
         4377,
         4444
       ],
-      "Dungeon Series 6: Honor of the Waves - Kodan": [
+      "Dungeon: Honor of the Waves - Kodan": [
         4480,
         4449,
         4418,
@@ -560,7 +560,7 @@
         4413,
         4447
       ],
-      "Dungeon Series 7: Crucible of Eternity - Inquest": [
+      "Dungeon: Crucible of Eternity - Inquest": [
         4485,
         4389,
         4358,
@@ -581,7 +581,7 @@
         4507,
         4443
       ],
-      "Dungeon Series 8: The Ruined City of Arah - Dragon's Deep": [
+      "Dungeon: The Ruined City of Arah - Dragon's Deep": [
         4416,
         4448,
         4518,
@@ -602,7 +602,7 @@
         4509,
         4414
       ],
-      "Order Series 1: Durmand Priory - Priory's Historical": [
+      "Order: Durmand Priory - Priory's Historical": [
         4961,
         4932,
         4937,
@@ -623,7 +623,7 @@
         4922,
         4927
       ],
-      "Order Series 2: Order of Whispers - Whisper's Secret": [
+      "Order: Order of Whispers - Whisper's Secret": [
         4929,
         4962,
         4931,
@@ -644,7 +644,7 @@
         4924,
         4958
       ],
-      "Order Series 3: Vigil - Vigil's Honor": [
+      "Order: Vigil - Vigil's Honor": [
         4928,
         4930,
         4965,
@@ -878,7 +878,7 @@
         3995,
         3967
       ],
-      "Ascended Series 1 - Calcite Antique": [
+      "Ascended - Calcite Antique": [
         4226,
         4163,
         4133,
@@ -899,7 +899,7 @@
         4190,
         4255
       ],
-      "Ascended Series 2 - Citrine Antique": [
+      "Ascended - Citrine Antique": [
         4130,
         4195,
         4196,
@@ -920,7 +920,7 @@
         4126,
         4159
       ],
-      "Ascended Series 3 - Cobalt Antique": [
+      "Ascended - Cobalt Antique": [
         4225,
         4162,
         4131,
@@ -941,7 +941,7 @@
         4188,
         4254
       ],
-      "Ascended Series 4 - Crimson Antique": [
+      "Ascended - Crimson Antique": [
         4128,
         4160,
         4198,
@@ -962,7 +962,7 @@
         4125,
         4223
       ],
-      "Ascended Series 5 - Terracotta Antique": [
+      "Ascended - Terracotta Antique": [
         4224,
         4129,
         4161,
@@ -983,7 +983,7 @@
         4187,
         4253
       ],
-      "Ascended Series 6 - Violet Antique": [
+      "Ascended - Violet Antique": [
         4256,
         4193,
         4227,
@@ -1004,7 +1004,7 @@
         4157,
         4191
       ],
-      "Ascended Series 7 - Viridian Antique": [
+      "Ascended - Viridian Antique": [
         4192,
         4194,
         4165,
@@ -1025,7 +1025,7 @@
         4158,
         4127
       ],
-      "Legendary Series 1 - Experiment": [
+      "Legendary Generation 1 - Experiment": [
         6157,
         6182,
         6238,
@@ -1047,11 +1047,11 @@
         6494,
         6525
       ],
-      "Legendary Series 1 - Experiment > Perfected": [
+      "Legendary Generation 1 - Experiment > Perfected": [
         4693,
         4737
       ],
-      "Legendary Series 1 - Experiment > Perfected > Precursor": [
+      "Legendary Generation 1 - Experiment > Perfected > Precursor": [
         6199,
         6284,
         6286,
@@ -1073,7 +1073,7 @@
         6509,
         6514
       ],
-      "Legendary Series 1 - Experiment > Perfected > Precursor > Legendary + Novelty Combo": [
+      "Legendary Generation 1 - Experiment > Perfected > Precursor > Legendary + Novelty Combo": [
         4664,
         4665,
         4666,
@@ -1096,7 +1096,7 @@
         4683,
         4684
       ],
-      "Legendary Series 2 - Experiment": [
+      "Legendary Generation 2 - Experiment": [
         7318,
         7335,
         7207,
@@ -1114,7 +1114,7 @@
         8598,
         8696
       ],
-      "Legendary Series 2 - Experiment > Perfected": [
+      "Legendary Generation 2 - Experiment > Perfected": [
         7298,
         6285,
         8339,
@@ -1132,7 +1132,7 @@
         8589,
         8729
       ],
-      "Legendary Series 2 - Experiment > Perfected > Precursor": [
+      "Legendary Generation 2 - Experiment > Perfected > Precursor": [
         7306,
         7312,
         8341,
@@ -1150,7 +1150,7 @@
         8600,
         8692
       ],
-      "Legendary Series 2 - Experiment > Perfected > Precursor > Legendary + Novelty Combo": [
+      "Legendary Generation 2 - Experiment > Perfected > Precursor > Legendary + Novelty Combo": [
         6276,
         7300,
         7206,
@@ -1691,7 +1691,7 @@
         4854,
         7595
       ],
-      "Standalone: Other - Mystic Forge": [
+      "Standalone: Mystic Forge": [
         4720,
         4729,
         4833,
@@ -1750,7 +1750,7 @@
         8781
       ]
     },
-    "(LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Aetherized Arsenite / Aetherized Indigo / Aetherized Vermilion": [
         11103,
         11107,
@@ -1811,7 +1811,7 @@
         5425
       ]
     },
-    "(LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Ambrite": [
         5516,
         5517,
@@ -1835,8 +1835,8 @@
         5790
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns": {
-      "Elite Specialization Series 1 - Tier 1": [
+    "Guild Wars 2: Heart of Thorns (HoT)": {
+      "Elite Specialization Generation 1 - Tier 1": [
         6471,
         6313,
         6250,
@@ -1847,7 +1847,7 @@
         6515,
         6173
       ],
-      "Elite Specialization Series 1 - Tier 1 > Tier 2": [
+      "Elite Specialization Generation 1 - Tier 1 > Tier 2": [
         6049,
         6054,
         6062,
@@ -2020,7 +2020,7 @@
         6491
       ]
     },
-    "(LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Carnival": [
         6944,
         6945,
@@ -2047,8 +2047,8 @@
         4987
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire": {
-      "Elite Specialization Series 2 - Tier 1": [
+    "Guild Wars 2: Path of Fire (PoF)": {
+      "Elite Specialization Generation 2 - Tier 1": [
         7397,
         7718,
         7433,
@@ -2059,7 +2059,7 @@
         7699,
         7485
       ],
-      "Elite Specialization Series 2 - Tier 1 > Tier 2": [
+      "Elite Specialization Generation 2 - Tier 1 > Tier 2": [
         7681,
         7362,
         7591,
@@ -2175,7 +2175,7 @@
         7422
       ]
     },
-    "(LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Astral": [
         7840,
         7842,
@@ -2290,7 +2290,7 @@
         8587
       ]
     },
-    "(LW5) Living World Season 5: The Icebrood Saga": {
+    "Living World Season 5: The Icebrood Saga (LW5)": {
       "Ancient Boreal": [
         9010,
         9012,
@@ -2616,8 +2616,8 @@
         9993
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons": {
-      "Elite Specialization Series 3 - Tier 1": [
+    "Guild Wars 2: End of Dragons (EoD)": {
+      "Elite Specialization Generation 3 - Tier 1": [
         10245,
         10246,
         10424,
@@ -2628,7 +2628,7 @@
         10634,
         10642
       ],
-      "Elite Specialization Series 3 - Tier 1 > Tier 2": [
+      "Elite Specialization Generation 3 - Tier 1 > Tier 2": [
         10228,
         10240,
         10372,
@@ -2639,7 +2639,7 @@
         10680,
         10691
       ],
-      "Legendary Series 3: Facet of Aurene - Dragon": [
+      "Legendary Generation 3: Facet of Aurene - Dragon": [
         10235,
         10249,
         10254,
@@ -2657,7 +2657,7 @@
         10677,
         10698
       ],
-      "Legendary Series 3: Facet of Aurene - Dragon > Aurene": [
+      "Legendary Generation 3: Facet of Aurene - Dragon > Aurene": [
         10276,
         10289,
         10322,
@@ -2675,7 +2675,7 @@
         10745,
         10756
       ],
-      "Legendary Series 3: Facet of Aurene - Dragon > Aurene > Jormag": [
+      "Legendary Generation 3: Facet of Aurene - Dragon > Aurene > Jormag": [
         10250,
         10294,
         10301,
@@ -2693,7 +2693,7 @@
         10697,
         10747
       ],
-      "Legendary Series 3: Facet of Aurene - Dragon > Aurene > Kralkatorrik": [
+      "Legendary Generation 3: Facet of Aurene - Dragon > Aurene > Kralkatorrik": [
         10251,
         10329,
         10355,
@@ -2711,7 +2711,7 @@
         10712,
         10748
       ],
-      "Legendary Series 3: Facet of Aurene - Dragon > Aurene > Mordremoth": [
+      "Legendary Generation 3: Facet of Aurene - Dragon > Aurene > Mordremoth": [
         10320,
         10347,
         10353,
@@ -2729,7 +2729,7 @@
         10630,
         10711
       ],
-      "Legendary Series 3: Facet of Aurene - Dragon > Aurene > Primordus": [
+      "Legendary Generation 3: Facet of Aurene - Dragon > Aurene > Primordus": [
         10252,
         10287,
         10288,
@@ -2747,7 +2747,7 @@
         10674,
         10696
       ],
-      "Legendary Series 3: Facet of Aurene - Dragon > Aurene > Soo-Won": [
+      "Legendary Generation 3: Facet of Aurene - Dragon > Aurene > Soo-Won": [
         10244,
         10259,
         10309,
@@ -2765,7 +2765,7 @@
         10716,
         10720
       ],
-      "Legendary Series 3: Facet of Aurene - Dragon > Aurene > Zhaitan": [
+      "Legendary Generation 3: Facet of Aurene - Dragon > Aurene > Zhaitan": [
         10260,
         10266,
         10284,
@@ -2992,7 +2992,7 @@
         10837
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Astral Ward": [
         11651,
         11676,
@@ -3138,45 +3138,9 @@
       ],
       "Standalone: Other": [
         11747
-      ],
-      "TMP_Kryptis": [
-        11574,
-        11595,
-        11601,
-        11604,
-        11616,
-        11645,
-        11661,
-        11670,
-        11671,
-        11672,
-        11683,
-        11695,
-        11762,
-        11797,
-        11808,
-        11809
-      ],
-      "TMP_Unknown": [
-        11582,
-        11584,
-        11602,
-        11610,
-        11615,
-        11624,
-        11641,
-        11646,
-        11668,
-        11737,
-        11765,
-        11779,
-        11781,
-        11800,
-        11805,
-        11813
       ]
     },
-    "Cooperative: Fractals of the Mists": {
+    "Cooperative: Fractals of the Mists (FotM)": {
       "Abyssal Fractal": [
         9587,
         9588,
@@ -3298,23 +3262,23 @@
         6652,
         6815
       ],
-      "Standalone: Other - Spirit Vale": [
+      "Standalone: Spirit Vale": [
         6141,
         6528,
         6531,
         6532,
         6536
       ],
-      "Standalone: Other - Salvation Pass": [
+      "Standalone: Salvation Pass": [
         6639,
         6642,
         6645
       ],
-      "Standalone: Other - Stronghold of the Faithful": [
+      "Standalone: Stronghold of the Faithful": [
         6813,
         6836
       ],
-      "Standalone: Other - Bastion of the Penitent": [
+      "Standalone: Bastion of the Penitent": [
         7076,
         7091,
         7097,
@@ -3326,7 +3290,7 @@
         7151,
         7155
       ],
-      "Standalone: Other - Hall of Chains": [
+      "Standalone: Hall of Chains": [
         7845,
         7863,
         7867,
@@ -3335,7 +3299,7 @@
         7909,
         7910
       ],
-      "Standalone: Other - Mythwright Gambit": [
+      "Standalone: Mythwright Gambit": [
         8337,
         8344,
         8363,
@@ -3344,7 +3308,7 @@
         8412
       ]
     },
-    "Competitive: Player vs. Player / World vs. World": {
+    "Competitive: Player vs. Player (PvP) / World vs. World (WvW)": {
       "Hero": [
         5409,
         5383,
@@ -4214,7 +4178,7 @@
       ]
     },
     "Gem Store": {
-      "Gem Store Series 1 - Immortal": [
+      "Immortal": [
         6081,
         6082,
         6115,
@@ -4232,7 +4196,7 @@
         6111,
         6079
       ],
-      "Gem Store Series 2 - Onyx Lion / Gold Lion": [
+      "Onyx Lion / Gold Lion": [
         8256,
         8292,
         8293,
@@ -4266,7 +4230,7 @@
         8286,
         8255
       ],
-      "Gem Store Series 3 - Mythic": [
+      "Mythic": [
         9054,
         9055,
         9056,
@@ -4284,7 +4248,7 @@
         9090,
         9093
       ],
-      "Gem Store Series 4 - Gold Essence": [
+      "Gold Essence": [
         10262,
         10296,
         10340,
@@ -4302,7 +4266,7 @@
         10620,
         10638
       ],
-      "Black Lion Claim Ticket Series 1 - Winter": [
+      "Winter": [
         3824,
         3811,
         3829,
@@ -4314,7 +4278,7 @@
         3804,
         3789
       ],
-      "Black Lion Claim Ticket Series 2 - Fused": [
+      "Fused": [
         3712,
         3808,
         3714,
@@ -4332,7 +4296,7 @@
         3733,
         3708
       ],
-      "Black Lion Claim Ticket Series 3 - Sclerite": [
+      "Sclerite": [
         3809,
         3781,
         3783,
@@ -4350,7 +4314,7 @@
         3736,
         3801
       ],
-      "Black Lion Claim Ticket Series 4 - Dragon's Jade": [
+      "Dragon's Jade": [
         3810,
         3784,
         3721,
@@ -4368,7 +4332,7 @@
         3771,
         3740
       ],
-      "Black Lion Claim Ticket Series 5 - Aetherized": [
+      "Aetherized": [
         3777,
         3746,
         3715,
@@ -4389,7 +4353,7 @@
         3773,
         3710
       ],
-      "Black Lion Claim Ticket Series 6 - Zodiac": [
+      "Zodiac": [
         3778,
         3812,
         3785,
@@ -4407,14 +4371,14 @@
         3742,
         3743
       ],
-      "Black Lion Claim Ticket Series 7 - Bloody Prince": [
+      "Bloody Prince": [
         3794,
         3802,
         3807,
         3816,
         3831
       ],
-      "Black Lion Claim Ticket Series 8 - Dreamthistle": [
+      "Dreamthistle": [
         3776,
         3744,
         3745,
@@ -4435,7 +4399,7 @@
         3741,
         3775
       ],
-      "Black Lion Claim Ticket Series 9 - Lovestruck": [
+      "Lovestruck": [
         3688,
         3691,
         3660,
@@ -4453,7 +4417,7 @@
         3671,
         3673
       ],
-      "Black Lion Claim Ticket Series 10 - Tormented": [
+      "Tormented": [
         3680,
         3681,
         3682,
@@ -4474,7 +4438,7 @@
         3678,
         3679
       ],
-      "Black Lion Claim Ticket Series 11 - Phoenix": [
+      "Phoenix": [
         5472,
         5473,
         5458,
@@ -4492,7 +4456,7 @@
         5470,
         5471
       ],
-      "Black Lion Claim Ticket Series 12 - Ley Line": [
+      "Ley Line": [
         5504,
         5505,
         5506,
@@ -4510,7 +4474,7 @@
         5502,
         5503
       ],
-      "Black Lion Claim Ticket Series 13 - Chaos": [
+      "Chaos": [
         5568,
         5569,
         5571,
@@ -4531,7 +4495,7 @@
         5564,
         5565
       ],
-      "Black Lion Claim Ticket Series 14 - Tempest": [
+      "Tempest": [
         5570,
         5572,
         5574,
@@ -4549,7 +4513,7 @@
         5562,
         5563
       ],
-      "Black Lion Claim Ticket Series 15 - Pact Fleet": [
+      "Pact Fleet": [
         5773,
         5774,
         5775,
@@ -4567,7 +4531,7 @@
         5787,
         5788
       ],
-      "Black Lion Claim Ticket Series 16 - Wintersday": [
+      "Wintersday": [
         5797,
         5798,
         5799,
@@ -4585,7 +4549,7 @@
         5811,
         5812
       ],
-      "Black Lion Claim Ticket Series 17 - Mordrem": [
+      "Mordrem": [
         5829,
         5830,
         5831,
@@ -4603,7 +4567,7 @@
         5843,
         5844
       ],
-      "Black Lion Claim Ticket Series 18 - Crimson Lion": [
+      "Crimson Lion": [
         5860,
         5861,
         5862,
@@ -4621,7 +4585,7 @@
         5874,
         5875
       ],
-      "Black Lion Claim Ticket Series 19 - Shadow": [
+      "Shadow": [
         5952,
         5888,
         5954,
@@ -4639,7 +4603,7 @@
         5916,
         5919
       ],
-      "Black Lion Claim Ticket Series 20 - Balthazar": [
+      "Balthazar": [
         5984,
         5985,
         5986,
@@ -4657,7 +4621,7 @@
         5982,
         5983
       ],
-      "Black Lion Claim Ticket Series 21 - Daydreamer": [
+      "Daydreamer": [
         5989,
         5991,
         5993,
@@ -4675,7 +4639,7 @@
         6012,
         6013
       ],
-      "Black Lion Claim Ticket Series 22 - Scientific": [
+      "Scientific": [
         6016,
         6017,
         6018,
@@ -4693,7 +4657,7 @@
         6014,
         6015
       ],
-      "Black Lion Claim Ticket Series 23 - Gallant": [
+      "Gallant": [
         6048,
         6051,
         6052,
@@ -4711,7 +4675,7 @@
         6038,
         6040
       ],
-      "Black Lion Claim Ticket Series 24 - Dwayna": [
+      "Dwayna": [
         6113,
         6114,
         6083,
@@ -4729,7 +4693,7 @@
         6108,
         6110
       ],
-      "Black Lion Claim Ticket Series 25 - Improvised": [
+      "Improvised": [
         6496,
         6370,
         6372,
@@ -4747,7 +4711,7 @@
         6521,
         6203
       ],
-      "Black Lion Claim Ticket Series 26 - Glittering": [
+      "Glittering": [
         6337,
         6371,
         6277,
@@ -4765,7 +4729,7 @@
         6239,
         6463
       ],
-      "Black Lion Claim Ticket Series 27 - Plasma": [
+      "Plasma": [
         6529,
         6530,
         6533,
@@ -4783,7 +4747,7 @@
         6549,
         6550
       ],
-      "Black Lion Claim Ticket Series 28 - Merciless": [
+      "Merciless": [
         6563,
         6564,
         6565,
@@ -4801,7 +4765,7 @@
         6555,
         6557
       ],
-      "Black Lion Claim Ticket Series 29 - Timekeeper": [
+      "Timekeeper": [
         6592,
         6593,
         6594,
@@ -4819,7 +4783,7 @@
         6590,
         6591
       ],
-      "Black Lion Claim Ticket Series 30 - Soaring": [
+      "Soaring": [
         6598,
         6599,
         6600,
@@ -4837,7 +4801,7 @@
         6614,
         6616
       ],
-      "Black Lion Claim Ticket Series 31 - Dominator": [
+      "Dominator": [
         6656,
         6627,
         6628,
@@ -4855,7 +4819,7 @@
         6654,
         6655
       ],
-      "Black Lion Claim Ticket Series 32 - Spectral": [
+      "Spectral": [
         6720,
         6689,
         6723,
@@ -4873,7 +4837,7 @@
         6681,
         6714
       ],
-      "Black Lion Claim Ticket Series 33 - Cavalier / Guild Cavalier": [
+      "Cavalier / Guild Cavalier": [
         6746,
         6747,
         6748,
@@ -4907,7 +4871,7 @@
         6782,
         6783
       ],
-      "Black Lion Claim Ticket Series 34 - Privateer": [
+      "Privateer": [
         6816,
         6817,
         6786,
@@ -4925,7 +4889,7 @@
         6807,
         6808
       ],
-      "Black Lion Claim Ticket Series 35 - Embellished": [
+      "Embellished": [
         6848,
         6882,
         6886,
@@ -4943,7 +4907,7 @@
         6876,
         6877
       ],
-      "Black Lion Claim Ticket Series 36 - Bloodstone": [
+      "Bloodstone": [
         6912,
         6947,
         6950,
@@ -4961,7 +4925,7 @@
         6908,
         6911
       ],
-      "Black Lion Claim Ticket Series 37 - Gargoyle": [
+      "Gargoyle": [
         6976,
         6979,
         6981,
@@ -4979,7 +4943,7 @@
         6998,
         6999
       ],
-      "Black Lion Claim Ticket Series 38 - Frostforged": [
+      "Frostforged": [
         7041,
         7044,
         7046,
@@ -4997,7 +4961,7 @@
         7036,
         7039
       ],
-      "Black Lion Claim Ticket Series 39 - Devoted": [
+      "Devoted": [
         7137,
         7105,
         7138,
@@ -5015,7 +4979,7 @@
         7096,
         7132
       ],
-      "Black Lion Claim Ticket Series 40 - Beastslayer": [
+      "Beastslayer": [
         7168,
         7171,
         7174,
@@ -5033,7 +4997,7 @@
         7195,
         7197
       ],
-      "Black Lion Claim Ticket Series 41 - Keepsake": [
+      "Keepsake": [
         7232,
         7234,
         7235,
@@ -5051,7 +5015,7 @@
         7229,
         7230
       ],
-      "Black Lion Claim Ticket Series 42 - Abaddon": [
+      "Abaddon": [
         7329,
         7331,
         7333,
@@ -5069,7 +5033,7 @@
         7293,
         7295
       ],
-      "Black Lion Claim Ticket Series 43 - War God": [
+      "War God": [
         7744,
         7745,
         7747,
@@ -5087,7 +5051,7 @@
         7741,
         7742
       ],
-      "Black Lion Claim Ticket Series 44 - Shifting Sands": [
+      "Shifting Sands": [
         7808,
         7809,
         7810,
@@ -5105,7 +5069,7 @@
         7805,
         7807
       ],
-      "Black Lion Claim Ticket Series 45 - Glacial": [
+      "Glacial": [
         7968,
         7937,
         7938,
@@ -5123,7 +5087,7 @@
         7929,
         7967
       ],
-      "Black Lion Claim Ticket Series 46 - Alchemist": [
+      "Alchemist": [
         8004,
         8005,
         8008,
@@ -5141,7 +5105,7 @@
         8023,
         8024
       ],
-      "Black Lion Claim Ticket Series 47 - Inquest Mark II": [
+      "Inquest Mark II": [
         8099,
         8100,
         8101,
@@ -5159,7 +5123,7 @@
         8092,
         8094
       ],
-      "Black Lion Claim Ticket Series 48 - Desert King": [
+      "Desert King": [
         8162,
         8163,
         8168,
@@ -5177,7 +5141,7 @@
         8158,
         8159
       ],
-      "Black Lion Claim Ticket Series 49 - Equinox": [
+      "Equinox": [
         8320,
         8321,
         8322,
@@ -5195,7 +5159,7 @@
         8316,
         8317
       ],
-      "Black Lion Claim Ticket Series 50 - Mad Realm": [
+      "Mad Realm": [
         8436,
         8437,
         8438,
@@ -5213,7 +5177,7 @@
         8455,
         8456
       ],
-      "Black Lion Claim Ticket Series 51 - Orchestral": [
+      "Orchestral": [
         8519,
         8521,
         8523,
@@ -5231,7 +5195,7 @@
         8550,
         8552
       ],
-      "Black Lion Claim Ticket Series 52 - Defiant Glass": [
+      "Defiant Glass": [
         8628,
         8629,
         8630,
@@ -5249,7 +5213,7 @@
         8643,
         8644
       ],
-      "Black Lion Claim Ticket Series 53 - Branded": [
+      "Branded": [
         8660,
         8661,
         8662,
@@ -5267,7 +5231,7 @@
         8680,
         8681
       ],
-      "Black Lion Claim Ticket Series 54 - Bioluminescent": [
+      "Bioluminescent": [
         8808,
         8809,
         8811,
@@ -5285,7 +5249,7 @@
         8843,
         8844
       ],
-      "Black Lion Claim Ticket Series 55 - Endless Ocean": [
+      "Endless Ocean": [
         8899,
         8900,
         8901,
@@ -5303,7 +5267,7 @@
         8913,
         8914
       ],
-      "Black Lion Claim Ticket Series 56 - Seven Reapers": [
+      "Seven Reapers": [
         8962,
         8963,
         8969,
@@ -5321,7 +5285,7 @@
         8997,
         9000
       ],
-      "Black Lion Claim Ticket Series 57 - Draconic": [
+      "Draconic": [
         9094,
         9103,
         9105,
@@ -5339,7 +5303,7 @@
         9129,
         9130
       ],
-      "Black Lion Claim Ticket Series 58 - Dark Wing": [
+      "Dark Wing": [
         9243,
         9246,
         9247,
@@ -5357,7 +5321,7 @@
         9319,
         9320
       ],
-      "Black Lion Claim Ticket Series 59 - Ice Reaver": [
+      "Ice Reaver": [
         9370,
         9372,
         9373,
@@ -5375,7 +5339,7 @@
         9444,
         9445
       ],
-      "Black Lion Claim Ticket Series 60 - Eternal Forged": [
+      "Eternal Forged": [
         9486,
         9487,
         9491,
@@ -5393,7 +5357,7 @@
         9531,
         9535
       ],
-      "Black Lion Claim Ticket Series 61 - Lorekeeper": [
+      "Lorekeeper": [
         9560,
         9561,
         9563,
@@ -5411,7 +5375,7 @@
         9584,
         9585
       ],
-      "Black Lion Claim Ticket Series 62 - Dark Matter": [
+      "Dark Matter": [
         9618,
         9621,
         9623,
@@ -5429,7 +5393,7 @@
         9646,
         9653
       ],
-      "Black Lion Claim Ticket Series 63 - Shimmering Aurora": [
+      "Shimmering Aurora": [
         9723,
         9724,
         9737,
@@ -5447,7 +5411,7 @@
         9784,
         9785
       ],
-      "Black Lion Claim Ticket Series 64 - Bright Inquisitor": [
+      "Bright Inquisitor": [
         9834,
         9835,
         9836,
@@ -5465,7 +5429,7 @@
         9884,
         9887
       ],
-      "Black Lion Claim Ticket Series 65 - Etherbound": [
+      "Etherbound": [
         9947,
         9948,
         9949,
@@ -5483,7 +5447,7 @@
         9965,
         9966
       ],
-      "Black Lion Claim Ticket Series 66 - Maguuma": [
+      "Maguuma": [
         10013,
         10014,
         10015,
@@ -5501,7 +5465,7 @@
         10039,
         10041
       ],
-      "Black Lion Claim Ticket Series 67 - Magical": [
+      "Magical": [
         10069,
         10070,
         10071,
@@ -5519,7 +5483,7 @@
         10095,
         10096
       ],
-      "Black Lion Claim Ticket Series 68 - Venombite": [
+      "Venombite": [
         10135,
         10136,
         10137,
@@ -5537,7 +5501,7 @@
         10152,
         10153
       ],
-      "Black Lion Claim Ticket Series 69 - Abyss Stalker": [
+      "Abyss Stalker": [
         10166,
         10170,
         10176,
@@ -5555,7 +5519,7 @@
         10222,
         10224
       ],
-      "Black Lion Claim Ticket Series 70 - White Tiger": [
+      "White Tiger": [
         10171,
         10172,
         10179,
@@ -5573,7 +5537,7 @@
         10221,
         10225
       ],
-      "Black Lion Claim Ticket Series 71 - Red Crane": [
+      "Red Crane": [
         10269,
         10308,
         10364,
@@ -5591,7 +5555,7 @@
         10661,
         10759
       ],
-      "Black Lion Claim Ticket Series 72 - Steel Lotus": [
+      "Steel Lotus": [
         10800,
         10802,
         10804,
@@ -5609,7 +5573,7 @@
         10829,
         10830
       ],
-      "Black Lion Claim Ticket Series 73 - Fox Fire": [
+      "Fox Fire": [
         10876,
         10877,
         10878,
@@ -5627,7 +5591,7 @@
         10894,
         10895
       ],
-      "Black Lion Claim Ticket Series 74 - New Kaineng": [
+      "New Kaineng": [
         10971,
         10972,
         10975,
@@ -5645,7 +5609,7 @@
         11023,
         11024
       ],
-      "Black Lion Claim Ticket Series 75 - Dokkaebi": [
+      "Dokkaebi": [
         11056,
         11057,
         11058,
@@ -5663,7 +5627,7 @@
         11096,
         11099
       ],
-      "Black Lion Claim Ticket Series 76 - Snow Garden": [
+      "Snow Garden": [
         11145,
         11146,
         11147,
@@ -5681,7 +5645,7 @@
         11169,
         11170
       ],
-      "Black Lion Claim Ticket Series 77 - Reflective Koi": [
+      "Reflective Koi": [
         11234,
         11235,
         11237,
@@ -5699,7 +5663,7 @@
         11251,
         11252
       ],
-      "Black Lion Claim Ticket Series 78 - Collapsing Star": [
+      "Collapsing Star": [
         11365,
         11369,
         11373,
@@ -5717,7 +5681,7 @@
         11407,
         11408
       ],
-      "Black Lion Claim Ticket Series 79 - Paladin's Decree": [
+      "Paladin's Decree": [
         11416,
         11417,
         11420,
@@ -5734,8 +5698,6 @@
         11434,
         11437,
         11438
-      ],
-      "Black Lion Claim Ticket Series 80 - wip": [
       ],
       "Dreamwalker": [
         9049,
@@ -5887,7 +5849,7 @@
         10818,
         10824
       ],
-      "Standalone: Other + Back Item Combo - Quiver": [
+      "Standalone: Other + Quiver Back Item Combo": [
         8010
       ]
     }
