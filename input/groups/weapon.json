@@ -23,7 +23,7 @@
         3869,
         3871
       ],
-      "Ascalon Region / Charr Cultural Tier 1 - Steam": [
+      "Region: Ascalon / Cultural: Charr Tier 1 - Steam": [
         5185,
         5218,
         5091,
@@ -44,7 +44,7 @@
         5210,
         5149
       ],
-      "Ascalon Region / Charr Cultural Tier 2 - Flame": [
+      "Region: Ascalon / Cultural: Charr Tier 2 - Flame": [
         4743,
         5152,
         5155,
@@ -68,7 +68,7 @@
         5214,
         5086
       ],
-      "Ascalon Region - Legionnaire": [
+      "Region: Ascalon - Legionnaire": [
         4991,
         5056,
         5088,
@@ -91,7 +91,7 @@
         5116,
         5053
       ],
-      "Charr Cultural Tier 3 - Adamant Guard": [
+      "Cultural: Charr Tier 3 - Adamant Guard": [
         4321,
         4289,
         4322,
@@ -112,7 +112,7 @@
         4351,
         4319
       ],
-      "Kryta Region / Human Cultural Tier 1 - Krytan": [
+      "Region: Kryta / Cultural: Human Tier 1 - Krytan": [
         4992,
         4994,
         4995,
@@ -135,7 +135,7 @@
         4990,
         5022
       ],
-      "Kryta Region / Human Cultural Tier 2 - Aureate": [
+      "Region: Kryta / Cultural: Human Tier 2 - Aureate": [
         5024,
         4993,
         5025,
@@ -156,7 +156,7 @@
         5017,
         5023
       ],
-      "Kryta Region - Ceremonial": [
+      "Region: Kryta - Ceremonial": [
         5120,
         5123,
         5221,
@@ -177,7 +177,7 @@
         5215,
         5119
       ],
-      "Human Cultural Tier 3 - Seraph": [
+      "Cultural: Human Tier 3 - Seraph": [
         4352,
         4291,
         4324,
@@ -198,7 +198,7 @@
         4317,
         4285
       ],
-      "Shiverpeak Mountains Region / Norn Cultural Tier 1 - Shiverpeak": [
+      "Region: Shiverpeak Mountains / Cultural: Norn Tier 1 - Shiverpeak": [
         5058,
         5158,
         5159,
@@ -221,7 +221,7 @@
         5150,
         5362
       ],
-      "Shiverpeak Mountains Region / Norn Cultural Tier 2 - Norn": [
+      "Region: Shiverpeak Mountains Region / Cultural: Norn Tier 2 - Norn": [
         5153,
         5089,
         5096,
@@ -242,7 +242,7 @@
         5084,
         5117
       ],
-      "Shiverpeak Mountains Region - Etched": [
+      "Region: Shiverpeak Mountains - Etched": [
         5026,
         5028,
         5063,
@@ -264,7 +264,7 @@
         5303,
         5112
       ],
-      "Shiverpeak Mountains Region - Etched > Corrupted": [
+      "Region: Shiverpeak Mountains - Etched > Corrupted": [
         4037,
         4069,
         3974,
@@ -285,7 +285,7 @@
         4027,
         3963
       ],
-      "Norn Cultural Tier 3 - Wolfborn": [
+      "Cultural: Norn Tier 3 - Wolfborn": [
         4293,
         4294,
         4297,
@@ -306,7 +306,7 @@
         4316,
         4286
       ],
-      "Tarnished Coast Region / Asura Cultural Tier 1 / Sylvari Cultural Tier 1 - Glyphic": [
+      "Region: Tarnished Coast Region / Cultural: Asura Tier 1 / Cultural: Sylvari Tier 1 - Glyphic": [
         5217,
         5122,
         5124,
@@ -327,7 +327,7 @@
         5050,
         5151
       ],
-      "Tarnished Coast Region / Asura Cultural Tier 2 / Sylvari Cultural Tier 2 - Verdant": [
+      "Region: Tarnished Coast Region / Cultural: Asura Tier 2 / Cultural: Sylvari Tier 2 - Verdant": [
         5156,
         5189,
         5125,
@@ -348,7 +348,7 @@
         5083,
         5054
       ],
-      "Tarnished Coast Region - Tribal": [
+      "Region: Tarnished Coast Region - Tribal": [
         4740,
         5184,
         5121,
@@ -370,7 +370,7 @@
         5118,
         5183
       ],
-      "Asura Cultural Tier 3 - Peacemaker": [
+      "Cultural: Asura Tier 3 - Peacemaker": [
         4288,
         4263,
         4296,
@@ -391,7 +391,7 @@
         4350,
         4287
       ],
-      "Sylvari Cultural Tier 3 - Warden": [
+      "Cultural: Sylvari Tier 3 - Warden": [
         4320,
         4257,
         4258,
@@ -413,7 +413,7 @@
         4343,
         4314
       ],
-      "Ruins of Orr Region - Orrian": [
+      "Region: Ruins of Orr Region - Orrian": [
         4865,
         5057,
         5093,
@@ -665,7 +665,7 @@
         4957,
         4926
       ],
-      "Crafting Tier Series 1 - Bronze / Green Wood": [
+      "Crafting Tier: Novice - Bronze / Green Wood": [
         4048,
         4004,
         4005,
@@ -686,7 +686,7 @@
         3883,
         3900
       ],
-      "Crafting Tier Series 2 - Iron / Soft Wood": [
+      "Crafting Tier: Initiate - Iron / Soft Wood": [
         4000,
         3875,
         4009,
@@ -708,7 +708,7 @@
         3887,
         4156
       ],
-      "Crafting Tier Series 3 - Steel / Seasoned Wood": [
+      "Crafting Tier: Apprentice - Steel / Seasoned Wood": [
         5696,
         5697,
         5682,
@@ -729,7 +729,7 @@
         5688,
         5679
       ],
-      "Crafting Tier Series 4 - Darksteel / Hard Wood": [
+      "Crafting Tier: Journeyman - Darksteel / Hard Wood": [
         4049,
         4034,
         4006,
@@ -750,7 +750,7 @@
         3998,
         3919
       ],
-      "Crafting Tier Series 5 - Mithril / Elder Wood": [
+      "Crafting Tier: Adept - Mithril / Elder Wood": [
         4081,
         4114,
         4083,
@@ -771,7 +771,7 @@
         3965,
         3950
       ],
-      "Crafting Tier Series 6 - Bandit": [
+      "Crafting Tier: Initiate - Bandit": [
         4096,
         3905,
         4066,
@@ -793,7 +793,7 @@
         4029,
         3903
       ],
-      "Crafting Tier Series 7 - Dredge": [
+      "Crafting Tier: Apprentice - Dredge": [
         3936,
         3937,
         4002,
@@ -814,7 +814,7 @@
         4028,
         3966
       ],
-      "Crafting Tier Series 8 - Ogre": [
+      "Crafting Tier: Journeyman - Ogre": [
         4064,
         4033,
         4065,
@@ -835,7 +835,7 @@
         3993,
         4095
       ],
-      "Crafting Tier Series 9 - Krait": [
+      "Crafting Tier: Adept - Krait": [
         3973,
         4106,
         4108,
@@ -857,7 +857,7 @@
         4063,
         4712
       ],
-      "Crafting Tier Series 10 - Pearl": [
+      "Crafting Tier: Master - Pearl": [
         4097,
         4098,
         4099,
@@ -1731,7 +1731,7 @@
         4862,
         4863
       ],
-      "Standalone: Other - Mystic Forge - Ectoplasmic Stone": [
+      "Standalone: Mystic Forge - Ectoplasmic Stone": [
         8757,
         8758,
         8759,

@@ -44,7 +44,7 @@
         81,
         2041
       ],
-      "Asura Cultural Tier 1 - Adept / Protean / Galvanic": [
+      "Cultural: Asura Tier 1 - Adept / Protean / Galvanic": [
         273,
         289,
         263,
@@ -64,7 +64,7 @@
         267,
         303
       ],
-      "Asura Cultural Tier 2 - Genius / Auxiliary Powered / Electroplated": [
+      "Cultural: Asura Tier 2 - Genius / Auxiliary Powered / Electroplated": [
         293,
         310,
         279,
@@ -84,7 +84,7 @@
         285,
         286
       ],
-      "Asura Cultural Tier 3 - Savant / Prototype / Electromagnetic": [
+      "Cultural: Asura Tier 3 - Savant / Prototype / Electromagnetic": [
         309,
         294,
         311,
@@ -104,7 +104,7 @@
         300,
         302
       ],
-      "Charr Cultural Tier 1 - Invoker / Drover / Warband": [
+      "Cultural: Charr Tier 1 - Invoker / Drover / Warband": [
         322,
         324,
         342,
@@ -124,7 +124,7 @@
         332,
         334
       ],
-      "Charr Cultural Tier 2 - Archon / Wrangler / Legion": [
+      "Cultural: Charr Tier 2 - Archon / Wrangler / Legion": [
         336,
         353,
         346,
@@ -144,7 +144,7 @@
         344,
         330
       ],
-      "Charr Cultural Tier 3 - Magus / Trapper / Dreadnought": [
+      "Cultural: Charr Tier 3 - Magus / Trapper / Dreadnought": [
         368,
         354,
         356,
@@ -164,7 +164,7 @@
         347,
         364
       ],
-      "Human Cultural Tier 1 - Researcher / Scout / Commander": [
+      "Cultural: Human Tier 1 - Researcher / Scout / Commander": [
         371,
         372,
         376,
@@ -184,7 +184,7 @@
         380,
         383
       ],
-      "Human Cultural Tier 2 - Aristocrat / Falconer / Avenger": [
+      "Cultural: Human Tier 2 - Aristocrat / Falconer / Avenger": [
         389,
         393,
         379,
@@ -204,7 +204,7 @@
         390,
         391
       ],
-      "Human Cultural Tier 3 - Sorcerer / Assassin / Protector": [
+      "Cultural: Human Tier 3 - Sorcerer / Assassin / Protector": [
         422,
         410,
         411,
@@ -224,7 +224,7 @@
         413,
         414
       ],
-      "Norn Cultural Tier 1 - Sheepskin / Wolfborn / Dolyak": [
+      "Cultural: Norn Tier 1 - Sheepskin / Wolfborn / Dolyak": [
         440,
         442,
         445,
@@ -244,7 +244,7 @@
         427,
         428
       ],
-      "Norn Cultural Tier 2 - Havroun / Predatory / Eagle": [
+      "Cultural: Norn Tier 2 - Havroun / Predatory / Eagle": [
         448,
         434,
         467,
@@ -264,7 +264,7 @@
         441,
         473
       ],
-      "Norn Cultural Tier 3 - Lupine / Wolf / Stag": [
+      "Cultural: Norn Tier 3 - Lupine / Wolf / Stag": [
         465,
         470,
         471,
@@ -284,7 +284,7 @@
         459,
         477
       ],
-      "Sylvari Cultural Tier 1 - Snapdragon / Evergreen / Arborist": [
+      "Cultural: Sylvari Tier 1 - Snapdragon / Evergreen / Arborist": [
         496,
         483,
         500,
@@ -304,7 +304,7 @@
         505,
         490
       ],
-      "Sylvari Cultural Tier 2 - Orchid / Nightshade / Warden": [
+      "Cultural: Sylvari Tier 2 - Orchid / Nightshade / Warden": [
         512,
         498,
         517,
@@ -324,7 +324,7 @@
         502,
         489
       ],
-      "Sylvari Cultural Tier 3 - Dryad / Firstborn / Oaken": [
+      "Cultural: Sylvari Tier 3 - Dryad / Firstborn / Oaken": [
         529,
         514,
         532,
@@ -645,7 +645,7 @@
         911,
         895
       ],
-      "Crafting Tier Series 1 - Embroidered / Seeker / Chain": [
+      "Crafting Tier: Novice - Embroidered / Seeker / Chain": [
         165,
         153,
         170,
@@ -665,7 +665,7 @@
         207,
         223
       ],
-      "Crafting Tier Series 2 - Student / Outlaw / Scale": [
+      "Crafting Tier: Initiate - Student / Outlaw / Scale": [
         145,
         166,
         154,
@@ -685,7 +685,7 @@
         210,
         227
       ],
-      "Crafting Tier Series 3 - Acolyte / Leather / Splint": [
+      "Crafting Tier: Apprentice - Acolyte / Leather / Splint": [
         160,
         146,
         147,
@@ -705,7 +705,7 @@
         125,
         126
       ],
-      "Crafting Tier Series 4 - Winged / Rascal / Tempered Scale": [
+      "Crafting Tier: Journeyman - Winged / Rascal / Tempered Scale": [
         183,
         167,
         168,
@@ -725,7 +725,7 @@
         137,
         139
       ],
-      "Crafting Tier Series 5 - Feathered / Prowler / Barbaric": [
+      "Crafting Tier: Adept - Feathered / Prowler / Barbaric": [
         177,
         163,
         164,
@@ -745,7 +745,7 @@
         235,
         206
       ],
-      "Crafting Tier Series 6 - Masquerade / Noble / Gladiator": [
+      "Crafting Tier: Initiate / Apprentice / Journeyman / Adept - Masquerade / Noble / Gladiator": [
         228,
         213,
         247,
@@ -765,7 +765,7 @@
         212,
         229
       ],
-      "Crafting Tier Series 7 - Exalted / Emblazoned / Draconic": [
+      "Crafting Tier: Master - Exalted / Emblazoned / Draconic": [
         161,
         162,
         178,
@@ -3122,7 +3122,7 @@
         1191,
         1192
       ],
-      "Standalone: Other - Shoulders": [
+      "Standalone: Shoulders": [
         5793,
         5794,
         5795,
@@ -3142,17 +3142,17 @@
         11411,
         11413
       ],
-      "Standalone: Other - Shoulders + Outfit Combo": [
+      "Standalone: Shoulders + Outfit Combo": [
         9577,
         9580,
         9581
       ],
-      "Standalone: Other - Chest": [
+      "Standalone: Chest": [
         11479,
         11499,
         11505
       ],
-      "Standalone: Other - Gloves": [
+      "Standalone: Gloves": [
         6700,
         6727,
         6732,
@@ -3175,14 +3175,14 @@
         10896,
         10897
       ],
-      "Standalone: Other - Leggings": [
+      "Standalone: Leggings": [
       ],
-      "Standalone: Other - Boots": [
+      "Standalone: Boots": [
         9733,
         9757,
         9779
       ],
-      "Standalone: Other - Boots + Combo": [
+      "Standalone: Boots + Combo": [
         11350,
         11354,
         11355,
@@ -3190,7 +3190,7 @@
         11360,
         11363
       ],
-      "Standalone: Other - Aquatic Headgear": [
+      "Standalone: Aquatic Headgear": [
       ]
     }
   }
