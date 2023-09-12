@@ -14,10 +14,8 @@
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik (LW4)": {
-      "Standalone: Domain of Kourna": [
-        103
-      ],
-      "Standalone: Dragonfall": [
+      "Standalone: Other": [
+        103,
         186
       ]
     },
@@ -27,11 +25,11 @@
       ]
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
-      "Standalone: Other": [
+      "Standalone: Other + Miniature Combo": [
       ]
     },
-    "Player vs. Player / World vs. World": {
-      "Standalone: World vs. World": [
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
+      "Standalone: Other": [
         161,
         251
       ]

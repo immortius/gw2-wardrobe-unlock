@@ -12,7 +12,7 @@
       ]
     },
     "Living World Season 2: Glint's Prophecy (LW2)": {
-      "Standalone: The Silverwastes": [
+      "Standalone: Other": [
         "bandit_chest"
       ]
     },
@@ -25,60 +25,34 @@
       ]
     },
     "Living World Season 3: Glint's Legacy (LW3)": {
-      "Standalone: Bloodstone Fen": [
-        "bloodstone_crystals"
-      ],
-      "Standalone: Ember Bay": [
-        "petrified_stump"
-      ],
-      "Standalone: Bitterfrost Frontier": [
+      "Standalone: Other": [
+        "bloodstone_crystals",
+        "jade_fragment",
+        "orrian_oyster_node",
+        "petrified_stump",
+        "primordial_orchid",
         "winterberry_bush"
-      ],
-      "Standalone: Lake Doric": [
-        "jade_fragment"
-      ],
-      "Standalone: Draconis Mons": [
-        "primordial_orchid"
-      ],
-      "Standalone: Siren's Landing": [
-        "orrian_oyster_node"
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik (LW4)": {
-      "Standalone: Domain of Istan": [
-        "brandstone_node"
-      ],
-      "Standalone: Sandswept Isles": [
-        "difluorite_crystal_cluster_node"
-      ],
-      "Standalone: Domain of Kourna": [
-        "kournan_supply_cache"
-      ],
-      "Standalone: Jahai Bluffs": [
-        "mistborn_mote"
-      ],
-      "Standalone: Thunderhead Peaks": [
-        "dragon_crystal"
-      ],
-      "Standalone: Dragonfall": [
+      "Standalone: Other": [
+        "brandstone_node",
+        "difluorite_crystal_cluster_node",
+        "dragon_crystal",
+        "kournan_supply_cache",
+        "mistborn_mote",
         "mistonium_node"
       ]
     },
     "Living World Season 5: The Icebrood Saga (LW5)": {
-      "Standalone: Grothmar Valley": [
-        "bound_hatched_chili_pepper_node"
-      ],
-      "Standalone: Bjora Marches": [
-        "eternal_ice_shard_node"
-      ],
-      "Standalone: Drizzlewood Coast": [
+      "Standalone: Other": [
+        "bound_hatched_chili_pepper_node",
+        "eternal_ice_shard_node",
+        "prismaticite_node",
         "salvage_pile"
-      ],
-      "Standalone: Dragonstorm": [
-        "prismaticite_node"
       ]
     },
-    "Super Adventure Festival": {
+    "Super Adventure Festival (SAB)": {
       "Standalone: Other": [
         "bauble_gathering_system"
       ]
@@ -88,8 +62,8 @@
         "commemorative_dragon_pinata"
       ]
     },
-    "Festival of the Four Winds": {
-      "Standalone: Annual Customs": [
+    "Festival of the Four Winds (FotFW)": {
+      "Standalone: Other": [
         "quartz_node"
       ]
     },
@@ -116,6 +90,12 @@
         "garden_plot_02",
         "garden_plot_03"
       ],
+      "Standalone: Other": [
+        "advanced_cloth_rack",
+        "advanced_leather_rack",
+        "basic_cloth_rack",
+        "basic_leather_rack"
+      ],
       "Standalone: Harvesting": [
         "basic_harvesting_nodes",
         "flaxseed_node",
@@ -139,12 +119,6 @@
         "platinum_ore_node"
       ],
       "Standalone: Fishing": [
-      ],
-      "Standalone: Other": [
-        "advanced_cloth_rack",
-        "advanced_leather_rack",
-        "basic_cloth_rack",
-        "basic_leather_rack"
       ]
     }
   }

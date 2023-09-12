@@ -1,7 +1,13 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Ley-Line Anomaly": [
+      "Elemental Potion": [
+        72,
+        120,
+        179,
+        231
+      ],
+      "Ley-Line Anomaly Tonic": [
         191,
         202
       ],
@@ -25,16 +31,14 @@
       "Standalone: Other": [
         12,
         29,
-        34,
-        41,
-        72,
-        120,
-        179,
         219,
         222,
-        231,
         237,
         289
+      ],
+      "Standalone: Other + Weapon Combo": [
+        34,
+        41
       ]
     },
     "Living World Season 1: Scarlet's War (LW1)": {
@@ -64,33 +68,33 @@
       ]
     },
     "Living World Season 2: Glint's Prophecy (LW2)": {
-      "Standalone: Dry Top": [
+      "Mordrem Minion Tonic": [
+        81,
+        90,
+        201,
+        243
+      ],
+      "Standalone: Other": [
         11,
         14,
         48,
-        195
-      ],
-      "Standalone: The Silverwastes": [
-        81,
-        90,
         117,
         138,
-        201,
-        230,
-        243
+        195,
+        230
       ]
     },
     "Guild Wars 2: Heart of Thorns (HoT)": {
+      "Chak Tonic": [
+        102,
+        214,
+        234
+      ],
       "Mushroom Tonic": [
         96,
         135,
         266,
         267
-      ],
-      "Standalone: World Boss": [
-        102,
-        214,
-        234
       ],
       "Standalone: Other": [
         106,
@@ -102,20 +106,16 @@
       ]
     },
     "Living World Season 3: Glint's Legacy (LW3)": {
-      "Standalone: Ember Bay": [
-        132
-      ],
-      "Standalone: Bitterfrost Frontier": [
-        158
-      ],
-      "Standalone: Lake Doric": [
-        255
-      ],
-      "Standalone: Draconis Mons": [
+      "Standalone: Renown Heart": [
+        132,
+        158,
+        255,
         92
       ]
     },
     "Guild Wars 2: Path of Fire (PoF)": {
+      "Music Box": [
+      ],
       "Standalone: Casino Blitz": [
         10,
         17,
@@ -125,35 +125,27 @@
         43,
         51,
         218
-      ],
-      "Standalone: Other": [
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik (LW4)": {
-      "Standalone: Domain of Istan": [
+      "Standalone: Renown Heart": [
+        86,
+        89,
+        246,
         248
       ],
-      "Standalone: Sandswept Isles": [
-        246
-      ],
-      "Standalone: Domain of Kourna": [
-        86,
-        89
-      ],
-      "Standalone: Jahai Bluffs": [
-        233
-      ],
-      "Standalone: Dragonfall": [
+      "Standalone: Other": [
+        233,
         281,
         282
       ]
     },
     "Living World Season 5: The Icebrood Saga (LW5)": {
-      "Standalone: Grothmar Valley": [
-        292,
+      "Standalone: Strike Mission": [
         293
       ],
-      "Standalone: Bjora Marches": [
+      "Standalone: Other": [
+        292,
         297,
         299
       ]
@@ -173,41 +165,35 @@
       ]
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
+      "Standalone: Strike Mission": [
+      ],
       "Standalone: Other": [
       ]
     },
-    "Fractals of the Mists": {
-      "Standalone: Challenge Mode": [
+    "Fractals of the Mists (FotM)": {
+      "Standalone: Other": [
         115,
+        121,
         141,
         307
-      ],
-      "Standalone: Other": [
-        121
       ]
     },
     "Raid": {
-      "Standalone: Salvation Pass": [
-        258
-      ],
-      "Standalone: Hall of Chains": [
-        50
-      ],
-      "Standalone: Mythwright Gambit": [
-        69
-      ],
-      "Standalone: The Key of Ahdashim": [
+      "Standalone: Other": [
+        50,
+        69,
+        258,
         285
       ]
     },
-    "Player vs. Player / World vs. World": {
-      "Standalone: Player vs. Player": [
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
+      "Champion's Gizmo": [
       ],
-      "Standalone: World vs. World": [
+      "Standalone: Other": [
         147
       ]
     },
-    "Super Adventure Festival": {
+    "Super Adventure Festival (SAB)": {
       "Duskk's Super Boom Box": [
         3,
         30
@@ -217,7 +203,7 @@
         25
       ]
     },
-    "Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone: Festival Bag": [
         223
       ],
@@ -270,8 +256,6 @@
       ]
     },
     "Gem Store": {
-      "Standalone: Extra Life": [
-      ],
       "Standalone: Chair": [
         24,
         262,
