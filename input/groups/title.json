@@ -50,9 +50,6 @@
       "Standalone: Racing": [
         321
       ],
-      "Standalone: World Boss": [
-        175
-      ],
       "Standalone: Other": [
         11,
         12,
@@ -61,6 +58,7 @@
         39,
         127,
         160,
+        175,
         184,
         186,
         201,
@@ -80,19 +78,17 @@
       "Standalone: Strike Mission": [
         395
       ],
-      "Standalone: World Boss": [
-        180,
-        181,
-        226
-      ],
       "Standalone: Other": [
         131,
         133,
-        182
+        180,
+        181,
+        182,
+        226
       ]
     },
     "(LW2) Living World Season 2: Glint's Prophecy": {
-      "Standalone: The Silverwastes": [
+      "Standalone: Other": [
         207,
         208,
         209,
@@ -114,18 +110,12 @@
       ]
     },
     "(LW3) Living World Season 3: Glint's Legacy": {
-      "Standalone: Ember Bay": [
+      "Standalone: Other": [
         246,
-        249
-      ],
-      "Standalone: Bitterfrost Frontier": [
-        251
-      ],
-      "Standalone: Draconis Mons": [
+        249,
+        251,
         271,
-        272
-      ],
-      "Standalone: Siren's Landing": [
+        272,
         274,
         278
       ]
@@ -148,47 +138,33 @@
       ]
     },
     "(LW4) Living World Season 4: Rise of Kralkatorrik": {
-      "Standalone: Sandswept Isles": [
+      "Standalone: Other": [
         301,
-        302
-      ],
-      "Standalone: Domain of Kourna": [
-        307
-      ],
-      "Standalone: Jahai Bluffs": [
+        302,
+        307,
         313,
         315,
         316,
-        317
-      ],
-      "Standalone: Thunderhead Peaks": [
+        317,
         322,
         323,
         324
       ]
     },
     "(LW5) Living World Season 5: The Icebrood Saga": {
-      "Standalone: Grothmar Valley": [
+      "Standalone: Other": [
         345,
         346,
-        347
-      ],
-      "Standalone: Bjora Marches": [
+        347,
         349,
         350,
         352,
         353,
-        354
-      ],
-      "Standalone: Eye of the North": [
+        354,
         357,
-        358
-      ],
-      "Standalone: Drizzlewood Coast": [
+        358,
         361,
-        363
-      ],
-      "Standalone: Dragonstorm": [
+        363,
         367,
         368,
         369
@@ -225,6 +201,10 @@
       ]
     },
     "(X4) Guild Wars 2: Secrets of the Obscure": {
+      "Standalone: Rift Hunting": [
+      ],
+      "Standalone: Strike Mission": [
+      ],
       "Standalone: Other": [
       ]
     },
@@ -235,41 +215,29 @@
         298,
         299
       ],
-      "Standalone: Challenge Mode": [
+      "Standalone: Other": [
+        220,
+        225,
+        248,
         250,
         275,
         277,
         365,
         366,
         399
-      ],
-      "Standalone: Other": [
-        220,
-        225,
-        248
       ]
     },
     "Cooperative: Raid": {
-      "Standalone: Spirit Vale": [
-        230
-      ],
-      "Standalone: Salvation Pass": [
-        238
-      ],
-      "Standalone: Bastion of the Penitent": [
+      "Standalone: Other": [
+        230,
+        238,
         262,
         264,
         269,
-        276
-      ],
-      "Standalone: Hall of Chains": [
-        300
-      ],
-      "Standalone: Mythwright Gambit": [
+        276,
+        300,
         314,
-        318
-      ],
-      "Standalone: The Key of Ahdashim": [
+        318,
         328,
         330
       ]
@@ -322,7 +290,7 @@
         124,
         125
       ],
-      "Standalone: Player vs. Player": [
+      "Standalone: Other - Player vs. Player": [
         89,
         90,
         91,
@@ -344,7 +312,7 @@
         356,
         360
       ],
-      "Standalone: World vs. World": [
+      "Standalone: Other - World vs. World": [
         27,
         30,
         33,
@@ -401,12 +369,10 @@
         370,
         372
       ],
-      "Standalone: Extra Life": [
-        319,
-        348
-      ],
       "Standalone: Other": [
         18,
+        319,
+        348,
         400
       ]
     }
