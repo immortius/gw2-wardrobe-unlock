@@ -44,7 +44,7 @@
         81,
         2041
       ],
-      "Asura Tier 1: Adept / Protean / Galvanic": [
+      "Cultural: Asura Tier 1 - Adept / Protean / Galvanic": [
         273,
         289,
         263,
@@ -64,7 +64,7 @@
         267,
         303
       ],
-      "Asura Tier 2: Genius / Auxiliary Powered / Electroplated": [
+      "Cultural: Asura Tier 2 - Genius / Auxiliary Powered / Electroplated": [
         293,
         310,
         279,
@@ -84,7 +84,7 @@
         285,
         286
       ],
-      "Asura Tier 3: Savant / Prototype / Electromagnetic": [
+      "Cultural: Asura Tier 3 - Savant / Prototype / Electromagnetic": [
         309,
         294,
         311,
@@ -104,7 +104,7 @@
         300,
         302
       ],
-      "Charr Tier 1: Invoker / Drover / Warband": [
+      "Cultural: Charr Tier 1 - Invoker / Drover / Warband": [
         322,
         324,
         342,
@@ -124,7 +124,7 @@
         332,
         334
       ],
-      "Charr Tier 2: Archon / Wrangler / Legion": [
+      "Cultural: Charr Tier 2 - Archon / Wrangler / Legion": [
         336,
         353,
         346,
@@ -144,7 +144,7 @@
         344,
         330
       ],
-      "Charr Tier 3: Magus / Trapper / Dreadnought": [
+      "Cultural: Charr Tier 3 - Magus / Trapper / Dreadnought": [
         368,
         354,
         356,
@@ -164,7 +164,7 @@
         347,
         364
       ],
-      "Human Tier 1: Researcher / Scout / Commander": [
+      "Cultural: Human Tier 1 - Researcher / Scout / Commander": [
         371,
         372,
         376,
@@ -184,7 +184,7 @@
         380,
         383
       ],
-      "Human Tier 2: Aristocrat / Falconer / Avenger": [
+      "Cultural: Human Tier 2 - Aristocrat / Falconer / Avenger": [
         389,
         393,
         379,
@@ -204,7 +204,7 @@
         390,
         391
       ],
-      "Human Tier 3: Sorcerer / Assassin / Protector": [
+      "Cultural: Human Tier 3 - Sorcerer / Assassin / Protector": [
         422,
         410,
         411,
@@ -224,7 +224,7 @@
         413,
         414
       ],
-      "Norn Tier 1: Sheepskin / Wolfborn / Dolyak": [
+      "Cultural: Norn Tier 1 - Sheepskin / Wolfborn / Dolyak": [
         440,
         442,
         445,
@@ -244,7 +244,7 @@
         427,
         428
       ],
-      "Norn Tier 2: Havroun / Predatory / Eagle": [
+      "Cultural: Norn Tier 2 - Havroun / Predatory / Eagle": [
         448,
         434,
         467,
@@ -264,7 +264,7 @@
         441,
         473
       ],
-      "Norn Tier 3: Lupine / Wolf / Stag": [
+      "Cultural: Norn Tier 3 - Lupine / Wolf / Stag": [
         465,
         470,
         471,
@@ -284,7 +284,7 @@
         459,
         477
       ],
-      "Sylvari Tier 1: Snapdragon / Evergreen / Arborist": [
+      "Cultural: Sylvari Tier 1 - Snapdragon / Evergreen / Arborist": [
         496,
         483,
         500,
@@ -304,7 +304,7 @@
         505,
         490
       ],
-      "Sylvari Tier 2: Orchid / Nightshade / Warden": [
+      "Cultural: Sylvari Tier 2 - Orchid / Nightshade / Warden": [
         512,
         498,
         517,
@@ -324,7 +324,7 @@
         502,
         489
       ],
-      "Sylvari Tier 3: Dryad / Firstborn / Oaken": [
+      "Cultural: Sylvari Tier 3 - Dryad / Firstborn / Oaken": [
         529,
         514,
         532,
@@ -645,7 +645,7 @@
         911,
         895
       ],
-      "Crafting: Novice - Embroidered / Seeker / Chain": [
+      "Crafting Tier: Novice - Embroidered / Seeker / Chain": [
         165,
         153,
         170,
@@ -665,7 +665,7 @@
         207,
         223
       ],
-      "Crafting: Initiate - Student / Outlaw / Scale": [
+      "Crafting Tier: Initiate - Student / Outlaw / Scale": [
         145,
         166,
         154,
@@ -685,7 +685,7 @@
         210,
         227
       ],
-      "Crafting: Rare - Masquerade / Noble / Gladiator": [
+      "Crafting Tier: Initiate - Masquerade / Noble / Gladiator": [
         228,
         213,
         247,
@@ -705,7 +705,7 @@
         212,
         229
       ],
-      "Crafting: Apprentice - Acolyte / Leather / Splint": [
+      "Crafting Tier: Apprentice - Acolyte / Leather / Splint": [
         160,
         146,
         147,
@@ -725,7 +725,7 @@
         125,
         126
       ],
-      "Crafting: Journeyman - Winged / Rascal / Tempered Scale": [
+      "Crafting Tier: Journeyman - Winged / Rascal / Tempered Scale": [
         183,
         167,
         168,
@@ -745,7 +745,7 @@
         137,
         139
       ],
-      "Crafting: Adept - Feathered / Prowler / Barbaric": [
+      "Crafting Tier: Adept - Feathered / Prowler / Barbaric": [
         177,
         163,
         164,
@@ -942,26 +942,6 @@
         5597,
         5598
       ],
-      "Heritage": [
-        796,
-        797,
-        798,
-        799,
-        801,
-        803,
-        805,
-        806,
-        807,
-        808,
-        809,
-        810,
-        811,
-        812,
-        813,
-        817,
-        818,
-        819
-      ],
       "Luminous": [
         8288,
         8290,
@@ -1043,20 +1023,6 @@
         27,
         92
       ],
-      "Standalone: Hall of Monuments": [
-        800,
-        802,
-        804,
-        814,
-        815,
-        816,
-        820,
-        821,
-        822,
-        823,
-        824,
-        825
-      ],
       "Standalone: Racing": [
         8505,
         8506,
@@ -1071,24 +1037,22 @@
         8511,
         8516
       ],
-      "Standalone: World Boss": [
-        1993,
-        1994,
-        1995
-      ],
       "Standalone: Other": [
         854,
         855,
         856,
         1991,
         1992,
+        1993,
+        1994,
+        1995,
         2011,
         8117,
         8120,
         8123
       ]
     },
-    "Living World Season 1: Scarlet's War (LW1)" : {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Wurmslayer": [
         2000,
         2001,
@@ -1286,38 +1250,28 @@
       ]
     },
     "Living World Season 3: Glint's Legacy (LW3)": {
-      "Standalone: Bloodstone Fen": [
+      "Standalone: Other": [
         6856,
         6858,
-        6881
-      ],
-      "Standalone: Ember Bay": [
+        6881,
         6951,
         6955,
         6964,
         6968,
         6969,
-        6970
-      ],
-      "Standalone: Bitterfrost Frontier": [
+        6970,
         7006,
         7028,
-        7032
-      ],
-      "Standalone: Lake Doric": [
+        7032,
         7073,
         7074,
         7102,
         7106,
         7119,
-        7139
-      ],
-      "Standalone: Draconis Mons": [
+        7139,
         7210,
         7211,
-        7213
-      ],
-      "Standalone: Siren's Landing": [
+        7213,
         7297,
         7299,
         7316
@@ -1531,7 +1485,7 @@
         8753,
         8754
       ],
-      "Standalone: Sandswept Isles": [
+      "Standalone: Other": [
         8028,
         8030,
         8032
@@ -1603,26 +1557,24 @@
         9316,
         9327
       ],
-      "Standalone: Grothmar Valley": [
+      "Standalone: Strike Mission": [
+        8928,
+        8944,
+        8946
+      ],
+      "Standalone: Other": [
         8921,
         8923,
         8925,
         8941,
         8943,
         8947,
-        8928,
-        8944,
-        8946
-      ],
-      "Standalone: Bjora Marches": [
         9016,
         9034,
         9037,
         9146,
         9149,
-        9184
-      ],
-      "Standalone: Drizzlewood Coast": [
+        9184,
         9429,
         9436,
         9439,
@@ -1757,7 +1709,7 @@
         10705,
         10718
       ],
-      "Special Ops": [
+      "Special Ops / Special Ops Captain": [
         11260,
         11263,
         11264,
@@ -1775,9 +1727,7 @@
         11337,
         11338,
         11345,
-        11348
-      ],
-      "Special Ops > Special Ops Captain": [
+        11348,
         11294,
         11319,
         11342
@@ -1826,13 +1776,55 @@
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Astral Ward": [
-        11580, 11585, 11591, 11593, 11628, 11637, 11687, 11688, 11692, 11694, 11712, 11722, 11732, 11742, 11751, 11755, 11775, 11786
+        11580,
+        11585,
+        11591,
+        11593,
+        11628,
+        11637,
+        11687,
+        11688,
+        11692,
+        11694,
+        11712,
+        11722,
+        11732,
+        11742,
+        11751,
+        11755,
+        11775,
+        11786
       ],
       "Rift Hunter": [
-        11572, 11586, 11606, 11630, 11638, 11653, 11657, 11665, 11681, 11684, 11740, 11759, 11763, 11788, 11789, 11806, 11812, 11816
+        11572,
+        11586,
+        11606,
+        11630,
+        11638,
+        11653,
+        11657,
+        11665,
+        11681,
+        11684,
+        11740,
+        11759,
+        11763,
+        11788,
+        11789,
+        11806,
+        11812,
+        11816
       ],
       "Sanctified": [
-        11643, 11654, 11667, 11713, 11727, 11749, 11767, 11777, 11796
+        11643,
+        11654,
+        11667,
+        11713,
+        11727,
+        11749,
+        11767,
+        11777,
+        11796
       ],
       "Standalone: Other": [
         11569, 11658, 11714
@@ -1913,13 +1905,13 @@
         7156,
         7157
       ],
-      "Standalone: Bastion of the Penitent": [
-        7121,
+      "Standalone: Other": [
         7077,
-        7115
+        7115,
+        7121
       ]
     },
-    "Player vs. Player / World vs. World": {
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
       "Apostle / Stalwart / Heavy Scale": [
         1619,
         1587,
@@ -2137,8 +2129,8 @@
         9217
       ]
     },
-    "Lunar New Year": {
-      "Standalone: Annual Customs": [
+    "Lunar New Year (LNY)": {
+      "Standalone: Other": [
         9101,
         9108,
         9111,
@@ -2151,11 +2143,9 @@
         11205,
         11212,
         11226
-      ],
-      "Standalone: Other": [
       ]
     },
-    "Super Adventure Festival": {
+    "Super Adventure Box (SAB)": {
       "Powered": [
         11367,
         11371,
@@ -2167,7 +2157,7 @@
         11404,
         11406
       ],
-      "Reality Rig": [
+      "Reality Rig Mk1/Mk2/Mk3": [
         10790,
         10795,
         10797,
@@ -2178,15 +2168,13 @@
         10778,
         10779
       ],
-      "Standalone: Annual Customs": [
+      "Standalone: Other": [
         9335,
         9337,
         9349,
         9352,
         9355,
         9357
-      ],
-      "Standalone: Other": [
       ]
     },
     "Dragon Bash": {
@@ -2207,15 +2195,13 @@
         11486,
         11510
       ],
-      "Standalone: Annual Customs": [
-      ],
       "Standalone: Other": [
         2013,
         2014,
         2016
       ]
     },
-    "Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Aspect-Touched Zephyrite": [
         8189,
         8190,
@@ -2260,12 +2246,10 @@
         1209,
         1210
       ],
-      "Standalone: Annual Customs": [
+      "Standalone: Other": [
         9544,
         9546,
         9555
-      ],
-      "Standalone: Other": [
       ]
     },
     "Halloween": {
@@ -2291,17 +2275,6 @@
         7773,
         7774
       ],
-      "Standalone: Annual Customs": [
-        8964,
-        8966,
-        8968,
-        10122,
-        10128,
-        10134,
-        11053,
-        11065,
-        11069
-      ],
       "Standalone: Festival Bag": [
         6217,
         6249,
@@ -2324,21 +2297,19 @@
         6273,
         6306,
         6414,
-        6487
+        6487,
+        8964,
+        8966,
+        8968,
+        10122,
+        10128,
+        10134,
+        11053,
+        11065,
+        11069
       ]
     },
     "Wintersday": {
-      "Standalone: Annual Customs": [
-        9062,
-        9087,
-        9089,
-        9731,
-        9742,
-        9765,
-        11171,
-        11179,
-        11184
-      ],
       "Standalone: Festival Bag": [
         9063,
         9071,
@@ -2350,7 +2321,16 @@
         6586,
         7966,
         7970,
-        7991
+        7991,
+        9062,
+        9087,
+        9089,
+        9731,
+        9742,
+        9765,
+        11171,
+        11179,
+        11184
       ]
     },
     "Gem Store": {
@@ -2572,6 +2552,26 @@
         10182,
         10198,
         10211
+      ],
+      "Heritage": [
+        796,
+        797,
+        798,
+        799,
+        801,
+        803,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        817,
+        818,
+        819
       ],
       "Ice Reaver": [
         9655,
@@ -2802,39 +2802,6 @@
         10965,
         10967
       ],
-      "Aspect Eye": [
-        8208,
-        8194,
-        8195,
-        8228,
-        8213,
-        8230,
-        8217,
-        8205,
-        8222
-      ],
-      "Enchanted Dragon Crown": [
-        8234,
-        8238,
-        8253,
-        8260,
-        8277,
-        8278,
-        8289,
-        8296,
-        8297
-      ],
-      "Pointed Ears": [
-        11032,
-        11035,
-        11038,
-        11039,
-        11040,
-        11041,
-        11044,
-        11045,
-        11047
-      ],
       "Standalone: Consortium Chest / Southsun Supply Crate": [
         996,
         997,
@@ -2846,6 +2813,20 @@
         1143,
         1141
       ],
+      "Standalone: Hall of Monuments": [
+        800,
+        802,
+        804,
+        814,
+        815,
+        816,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825
+      ],
       "Standalone: Mad King Chest": [
         1116,
         1119,
@@ -2856,74 +2837,6 @@
         1128,
         1131,
         1136
-      ],
-      "Standalone: Fuzzy Hat": [
-        1029,
-        966,
-        1032,
-        968,
-        1033,
-        969,
-        970,
-        972,
-        1004,
-        973,
-        1005,
-        974,
-        1006,
-        1039,
-        976,
-        1040,
-        7280,
-        977,
-        978,
-        7283,
-        7286,
-        1015,
-        1016,
-        1017
-      ],
-      "Standalone: Glasses / Sunglasses": [
-        967,
-        971,
-        982,
-        986,
-        987,
-        989,
-        990,
-        991,
-        992,
-        993,
-        994,
-        1011,
-        1013,
-        1014,
-        1018
-      ],
-      "Standalone: Glowing Mask": [
-        826,
-        831,
-        832,
-        5698,
-        5699,
-        5700,
-        5746,
-        5747,
-        5748,
-        8657,
-        8670,
-        8677
-      ],
-      "Standalone: Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
-        1184,
-        1185,
-        1186,
-        1187,
-        1188,
-        1189,
-        1190,
-        1191,
-        1192
       ],
       "Standalone: Headgear": [
         975,
@@ -3047,7 +2960,7 @@
         11534,
         11540
       ],
-      "Standalone: Headgear + Armor Combo": [
+      "Standalone: Headgear + Combo": [
         833,
         839,
         840,
@@ -3079,7 +2992,40 @@
         10862,
         10865
       ],
-      "Standalone: Headgear + Back Item Combo": [
+      "Standalone: Headgear + Combo - Aspect Eye": [
+        8208,
+        8194,
+        8195,
+        8228,
+        8213,
+        8230,
+        8217,
+        8205,
+        8222
+      ],
+      "Standalone: Headgear + Combo - Enchanted Dragon Crown": [
+        8234,
+        8238,
+        8253,
+        8260,
+        8277,
+        8278,
+        8289,
+        8296,
+        8297
+      ],
+      "Standalone: Headgear + Combo - Pointed Ears": [
+        11032,
+        11035,
+        11038,
+        11039,
+        11040,
+        11041,
+        11044,
+        11045,
+        11047
+      ],
+      "Standalone: Headgear + Cape Back Item Combo": [
         11143,
         11150,
         11151,
@@ -3094,6 +3040,74 @@
         7782,
         7800,
         7804
+      ],
+      "Standalone: Headgear - Fuzzy Hat": [
+        1029,
+        966,
+        1032,
+        968,
+        1033,
+        969,
+        970,
+        972,
+        1004,
+        973,
+        1005,
+        974,
+        1006,
+        1039,
+        976,
+        1040,
+        7280,
+        977,
+        978,
+        7283,
+        7286,
+        1015,
+        1016,
+        1017
+      ],
+      "Standalone: Headgear - Glasses / Sunglasses": [
+        967,
+        971,
+        982,
+        986,
+        987,
+        989,
+        990,
+        991,
+        992,
+        993,
+        994,
+        1011,
+        1013,
+        1014,
+        1018
+      ],
+      "Standalone: Headgear - Glowing Mask": [
+        826,
+        831,
+        832,
+        5698,
+        5699,
+        5700,
+        5746,
+        5747,
+        5748,
+        8657,
+        8670,
+        8677
+      ],
+      "Standalone: Headgear - Mask of the Crown / Mask of the Jubilee / Mask of the Queen": [
+        1184,
+        1185,
+        1186,
+        1187,
+        1188,
+        1189,
+        1190,
+        1191,
+        1192
       ],
       "Standalone: Shoulders": [
         5793,
@@ -3153,7 +3167,9 @@
       "Standalone: Boots": [
         9733,
         9757,
-        9779,
+        9779
+      ],
+      "Standalone: Boots + Combo" : [
         11350,
         11354,
         11355,
