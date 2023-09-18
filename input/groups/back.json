@@ -4,7 +4,7 @@
       "Starter": [
         2340
       ],
-      "Crafting: Armorsmith": [
+      "Crafting Discipline: Armorsmith": [
         2304,
         2305,
         2308,
@@ -12,23 +12,7 @@
         2301,
         2303
       ],
-      "Crafting: Leatherworker": [
-        2292,
-        2293,
-        2294,
-        2295,
-        2296,
-        2315
-      ],
-      "Crafting: Tailor": [
-        2307,
-        2309,
-        2282,
-        2283,
-        2316,
-        2286
-      ],
-      "Crafting: Artificer": [
+      "Crafting Discipline: Artificer": [
         2320,
         2297,
         2298,
@@ -36,23 +20,7 @@
         2284,
         2300
       ],
-      "Crafting: Huntsman": [
-        2321,
-        2322,
-        2323,
-        2310,
-        2311,
-        2312
-      ],
-      "Crafting: Weaponsmith": [
-        2288,
-        2290,
-        2306,
-        2291,
-        2317,
-        2287
-      ],
-      "Crafting: Chef": [
+      "Crafting Discipline: Chef": [
         2289,
         2324,
         2277,
@@ -60,7 +28,15 @@
         2302,
         2319
       ],
-      "Crafting: Jeweler": [
+      "Crafting Discipline: Huntsman": [
+        2321,
+        2322,
+        2323,
+        2310,
+        2311,
+        2312
+      ],
+      "Crafting Discipline: Jeweler": [
         2276,
         2278,
         2280,
@@ -68,13 +44,36 @@
         2313,
         2285
       ],
-      "Crafting: Scribe": [
-        6512,
-        6402,
-        6341,
-        6503,
-        6361,
-        6495
+      "Crafting Discipline: Leatherworker": [
+        2292,
+        2293,
+        2294,
+        2295,
+        2296,
+        2315
+      ],
+      "Crafting Discipline: Tailor": [
+        2307,
+        2309,
+        2282,
+        2283,
+        2316,
+        2286
+      ],
+      "Crafting Discipline: Weaponsmith": [
+        2288,
+        2290,
+        2306,
+        2291,
+        2317,
+        2287
+      ],
+      "Book / Quiver": [
+        2318,
+        2325,
+        2326,
+        2341,
+        2376
       ],
       "Capital City": [
         6890,
@@ -93,16 +92,8 @@
         2344,
         9051
       ],
-      "Standalone: World Boss": [
-        2358,
-        6621
-      ],
       "Standalone: Other": [
-        2318,
-        2325,
-        2326,
-        2341,
-        2376,
+        2358,
         5653,
         6242,
         6253,
@@ -142,6 +133,14 @@
       ]
     },
     "Guild Wars 2: Heart of Thorns (HoT)": {
+      "Crafting Discipline: Scribe": [
+        6512,
+        6402,
+        6341,
+        6503,
+        6361,
+        6495
+      ],
       "Order: Durmand Priory": [
         6296,
         6170,
@@ -169,7 +168,7 @@
         7214,
         7218
       ],
-      "Relic of the Six": [
+      "Relic of the Six Gods": [
         7296,
         7319,
         7303,
@@ -177,16 +176,10 @@
         7321,
         7323
       ],
-      "Standalone: Bloodstone Fen": [
-        6875
-      ],
-      "Standalone: Ember Bay": [
-        6956
-      ],
-      "Standalone: Bitterfrost Frontier": [
-        7017
-      ],
-      "Standalone: Lake Doric": [
+      "Standalone: Other": [
+        6875,
+        6956,
+        7017,
         7089
       ]
     },
@@ -209,31 +202,27 @@
         8149,
         8165
       ],
-      "Standalone: Domain of Kourna": [
+      "Standalone: Other": [
         8169
       ]
     },
     "Living World Season 5: The Icebrood Saga (LW5)": {
-      "Standalone: Grothmar Valley": [
+      "Banner of the Charr Legion": [
         8924,
         8931,
         8933,
         8937
       ],
-      "Standalone: Bjora Marches": [
-        9017
-      ],
-      "Standalone: Eye of the North": [
-        9249,
-        9252
-      ],
-      "Standalone: Drizzlewood Coast": [
+      "Charr Legion Backpack": [
         9387,
         9407,
         9413,
         9431
       ],
-      "Standalone: Dragonstorm": [
+      "Standalone: Other": [
+        9017,
+        9249,
+        9252,
         9991
       ]
     },
@@ -263,16 +252,17 @@
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Other": [
-        11804,11741
+        11741,
+        11804
       ]
     },
-    "Fractals of the Mists": {
+    "Fractals of the Mists (FotM)": {
       "Fractal Capacitor": [
         2377,
         2378,
         2379
       ],
-      "Ad Infinitum": [
+      "Ad Infinitum + Glider Combo": [
         6202,
         6234,
         6344,
@@ -280,18 +270,14 @@
       ]
     },
     "Raid": {
-      "Standalone: Spirit Vale": [
-        6135
-      ],
-      "Standalone: Stronghold of the Faithful": [
-        6809
-      ],
-      "Standalone: Bastion of the Penitent": [
+      "Standalone: Other": [
+        6135,
+        6809,
         7114
       ]
     },
-    "Player vs. Player / World vs. World": {
-      "Wings of Glory / The Ascension": [
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
+      "Wings of Glory / The Ascension + Glider Combo": [
         6560,
         6561,
         6562,
@@ -307,11 +293,11 @@
         7276,
         7246
       ],
-      "Standalone: Player vs. Player": [
+      "Standalone: Other": [
         2380
       ]
     },
-    "Lunar New Year": {
+    "Lunar New Year (LNY)": {
       "Lucky Celestial Lantern": [
         5856,
         6619,
@@ -333,34 +319,28 @@
         9838,
         10183,
         11206
-      ],
-      "Standalone: Annual Customs": [
-      ],
-      "Standalone: Other": [
       ]
     },
-    "Super Adventure Festival": {
-      "Standalone: Annual Customs": [
-      ],
-      "Standalone: Other": [
-        2359,
+    "Super Adventure Box (SAB)": {
+      "Super / King Toad / Storm Wizard / Kaiser Snake / Crimson Assassin": [
         2360,
         2361,
         2362,
         6668,
         7201
+      ],
+      "Standalone: Other": [
+        2359
       ]
     },
     "Dragon Bash": {
-      "Standalone: Annual Customs": [
-        2352
-      ],
       "Standalone: Other": [
         2351,
+        2352,
         8833
       ]
     },
-    "Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Aspect Catcher": [
         2346,
         2347,
@@ -371,15 +351,13 @@
         8218,
         8223
       ],
-      "Standalone: Annual Customs": [
-        8861
-      ],
       "Standalone: Festival Bag": [
         2349,
         2350
       ],
       "Standalone: Other": [
-        5456
+        5456,
+        8861
       ]
     },
     "Halloween": {
@@ -389,21 +367,17 @@
         2338,
         7775
       ],
-      "Standalone: Annual Customs": [
-        9638
-      ],
       "Standalone: Other": [
+        9638
       ]
     },
     "Wintersday": {
-      "Standalone: Annual Customs": [
-        10218
-      ],
       "Standalone: Other": [
         2374,
         2375,
         2382,
-        2383
+        2383,
+        10218
       ]
     },
     "Gem Store": {
@@ -412,22 +386,54 @@
         10159,
         10161
       ],
-      "Standalone: Extra Life": [
-        11070
+      "Standalone: Other": [
+        5654,
+        5708,
+        5998,
+        6554,
+        6745,
+        7047,
+        7227,
+        7755,
+        8319,
+        8649,
+        10816,
+        10881
       ],
-      "Standalone: Plush": [
-        2363,
-        2364,
-        2366,
-        2368,
-        2371,
-        2355,
-        2365,
-        2367,
-        2370,
-        2372,
-        1048,
-        7000
+      "Standalone: Other + Glider Combo": [
+        6854,
+        7200,
+        7285,
+        7308,
+        7661,
+        7811,
+        7996,
+        8038,
+        8141,
+        8184,
+        8638,
+        8647,
+        8725,
+        8807,
+        8930,
+        9021,
+        9211,
+        9474,
+        9671,
+        9769,
+        9893,
+        9969,
+        10010,
+        10219,
+        10503,
+        10805,
+        10941,
+        11051,
+        11428,
+        11780
+      ],
+      "Standalone: Other + Miniature Combo": [
+        6431
       ],
       "Standalone: Cape": [
         9050,
@@ -453,6 +459,7 @@
         10164,
         10192,
         10902,
+        11070,
         11116,
         11247,
         11257
@@ -466,6 +473,20 @@
         10888,
         11400,
         11716
+      ],
+      "Standalone: Plush": [
+        2363,
+        2364,
+        2366,
+        2368,
+        2371,
+        2355,
+        2365,
+        2367,
+        2370,
+        2372,
+        1048,
+        7000
       ],
       "Standalone: Quiver": [
         2369,
@@ -516,57 +537,6 @@
         11125,
         11246,
         11253
-      ],
-      "Standalone: Other": [
-        5654,
-        5708,
-        5998,
-        6554,
-        6745,
-        7047,
-        7227,
-        7755,
-        8319,
-        8649,
-        10816,
-        10881
-      ],
-      "Standalone: Other + Glider Combo": [
-        6854,
-        7200,
-        7285,
-        7308,
-        7661,
-        7811,
-        7996,
-        8038,
-        8141,
-        8184,
-        8638,
-        8647,
-        8725,
-        8807,
-        8930,
-        9021,
-        9211,
-        9474,
-        9671,
-        9769,
-        9893,
-        9969,
-        10010,
-        10219,
-        10503,
-        10805,
-        10941,
-        11051,
-        11428
-      ],
-      "Standalone: Other + Miniature Combo": [
-        6431
-      ],
-      "Standalone: Other + Package": [
-        11780
       ]
     }
   }

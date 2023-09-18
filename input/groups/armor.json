@@ -24,7 +24,7 @@
         5891,
         5920
       ],
-      "Basic: Apprentice / Rawhide / Chainmail": [
+      "Basic - Apprentice / Rawhide / Chainmail": [
         3,
         4,
         16,
@@ -563,7 +563,7 @@
         1406,
         1407
       ],
-      "Renown Heart: Devout / Rogue / Militia": [
+      "Renown Heart - Devout / Rogue / Militia": [
         874,
         891,
         875,
@@ -584,7 +584,7 @@
         861,
         859
       ],
-      "Renown Heart: Dry Bones / Duelist / Pit Fighter": [
+      "Renown Heart - Dry Bones / Duelist / Pit Fighter": [
         882,
         901,
         918,
@@ -604,7 +604,7 @@
         905,
         877
       ],
-      "Renown Heart: Stately / Stalker / Studded Plate": [
+      "Renown Heart - Stately / Stalker / Studded Plate": [
         866,
         868,
         885,
@@ -625,7 +625,7 @@
         943,
         858
       ],
-      "Renown Heart: Primitive / Buccaneer / Dark Templar": [
+      "Renown Heart - Primitive / Buccaneer / Dark Templar": [
         898,
         930,
         916,
@@ -2157,7 +2157,7 @@
         11404,
         11406
       ],
-      "Reality Rig Mk1/Mk2/Mk3": [
+      "Reality Rig Mk1 / Reality Rig Mk2 / Reality Rig Mk3": [
         10790,
         10795,
         10797,
