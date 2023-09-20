@@ -264,7 +264,7 @@
         36,
         40
       ],
-      "Standalone: Other - Chair": [
+      "Standalone: Chair": [
         24,
         262,
         268,
@@ -291,11 +291,11 @@
         327,
         329
       ],
-      "Standalone: Other - Chair + Glider Combo": [
+      "Standalone: Chair + Glider Combo": [
         286,
         311
       ],
-      "Standalone: Other - Musical Instrument": [
+      "Standalone: Musical Instrument": [
         2,
         6,
         8,
@@ -304,13 +304,13 @@
         37,
         45
       ],
-      "Standalone: Other - Held Item": [
+      "Standalone: Held Item": [
         15,
         21,
         32,
         53
       ],
-      "Standalone: Other - Toy": [
+      "Standalone: Toy": [
         4,
         5,
         9,
@@ -320,7 +320,7 @@
         55,
         300
       ],
-      "Standalone: Other - Toy + Outfit Combo": [
+      "Standalone: Toy + Outfit Combo": [
         78,
         111,
         126,
@@ -329,16 +329,16 @@
         226,
         265
       ],
-      "Standalone: Other - Toy + Glider Combo": [
+      "Standalone: Toy + Glider Combo": [
         16,
         20,
         27,
         33
       ],
-      "Standalone: Other - Toy + Emote Combo": [
+      "Standalone: Toy + Emote Combo": [
         44
       ],
-      "Standalone: Other - Tonic": [
+      "Standalone: Tonic": [
         80,
         103,
         159,

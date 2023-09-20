@@ -1,7 +1,7 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Crafting Discipline Series 1: Armorsmith": [
+      "Crafting Discipline: Armorsmith": [
         2304,
         2305,
         2308,
@@ -9,7 +9,7 @@
         2301,
         2303
       ],
-      "Crafting Discipline Series 2: Artificer": [
+      "Crafting Discipline: Artificer": [
         2320,
         2297,
         2298,
@@ -17,7 +17,7 @@
         2284,
         2300
       ],
-      "Crafting Discipline Series 3: Chef": [
+      "Crafting Discipline: Chef": [
         2289,
         2324,
         2277,
@@ -25,7 +25,7 @@
         2302,
         2319
       ],
-      "Crafting Discipline Series 4: Huntsman": [
+      "Crafting Discipline: Huntsman": [
         2321,
         2322,
         2323,
@@ -33,7 +33,7 @@
         2311,
         2312
       ],
-      "Crafting Discipline Series 5: Jeweler": [
+      "Crafting Discipline: Jeweler": [
         2276,
         2278,
         2280,
@@ -41,7 +41,7 @@
         2313,
         2285
       ],
-      "Crafting Discipline Series 6: Leatherworker": [
+      "Crafting Discipline: Leatherworker": [
         2292,
         2293,
         2294,
@@ -49,7 +49,7 @@
         2296,
         2315
       ],
-      "Crafting Discipline Series 7: Tailor": [
+      "Crafting Discipline: Tailor": [
         2307,
         2309,
         2282,
@@ -57,7 +57,7 @@
         2316,
         2286
       ],
-      "Crafting Discipline Series 8: Weaponsmith": [
+      "Crafting Discipline: Weaponsmith": [
         2288,
         2290,
         2306,
@@ -65,7 +65,7 @@
         2317,
         2287
       ],
-      "Ascended Series": [
+      "Book / Quiver": [
         2318,
         2325,
         2326,
@@ -159,20 +159,28 @@
       ]
     },
     "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
-      "Order Series 1: Durmand Priory": [
+      "Order: Durmand Priory": [
         6296,
         6170,
         6379
       ],
-      "Order Series 2: Order of Whispers": [
+      "Order: Order of Whispers": [
         6416,
         6398,
         6159
       ],
-      "Order Series 3: Vigil": [
+      "Order: Vigil": [
         6243,
         6246,
         6304
+      ],
+      "Crafting Discipline: Scribe": [
+        6512,
+        6402,
+        6341,
+        6503,
+        6361,
+        6495
       ],
       "Auric Backplate": [
         6149,
@@ -185,14 +193,6 @@
       ]
     },
     "(X1 > LW3) Living World Season 3: Glint's Legacy": {
-      "Crafting Discipline Series 9: Scribe": [
-        6512,
-        6402,
-        6341,
-        6503,
-        6361,
-        6495
-      ],
       "Druid Stone / The Wayfarer's Henge": [
         7209,
         7216,
@@ -423,7 +423,7 @@
       "Standalone: Other + Miniature Combo": [
         6431
       ],
-      "Standalone: Other - Cape": [
+      "Standalone: Cape": [
         9050,
         9072,
         9131,
@@ -450,17 +450,17 @@
         11247,
         11257
       ],
-      "Standalone: Other - Cape + Armor Combo - Head": [
+      "Standalone: Cape + Headgear Armor Combo": [
         11144,
         11435
       ],
-      "Standalone: Other - Cape + Glider Combo": [
+      "Standalone: Cape + Glider Combo": [
         9732,
         10888,
         11400,
         11716
       ],
-      "Standalone: Other - Plush": [
+      "Standalone: Plush": [
         2363,
         2364,
         2366,
@@ -473,20 +473,20 @@
         1048,
         7000
       ],
-      "Standalone: Other - Quiver": [
+      "Standalone: Quiver": [
         2369,
         6449,
         7012
       ],
-      "Standalone: Other - Quiver + Weapon Combo": [
+      "Standalone: Quiver + Weapon Combo": [
         8021
       ],
-      "Standalone: Other - Wings": [
+      "Standalone: Wings": [
         6003,
         6078,
         6132
       ],
-      "Standalone: Other - Wings + Glider Combo": [
+      "Standalone: Wings + Glider Combo": [
         5878,
         6035,
         6527,

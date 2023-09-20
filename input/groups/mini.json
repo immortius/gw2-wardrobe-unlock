@@ -1,25 +1,25 @@
 {
   "topLevelCategories": {
     "Core": {
-      "PvP League Series 1 - Llama": [
+      "PvP League - Llama": [
         228,
         321,
         322,
         323
       ],
-      "PvP League Series 2 - Black Llama": [
+      "PvP League - Black Llama": [
         427,
         429,
         431,
         432
       ],
-      "PvP League Series 3 - Emperor Llama": [
+      "PvP League - Emperor Llama": [
         449,
         450,
         451,
         453
       ],
-      "PvP League Series 4 - Princess Llama": [
+      "PvP League - Princess Llama": [
         471,
         472,
         473,
@@ -595,19 +595,19 @@
       ]
     },
     "Special Event: Other": {
-      "PvP Tournament Series 1 - Bronze Llama": [
+      "PvP Tournament - Bronze Llama": [
         476,
         479,
         483,
         485
       ],
-      "PvP Tournament Series 2 - Silver Llama": [
+      "PvP Tournament - Silver Llama": [
         477,
         478,
         482,
         487
       ],
-      "PvP Tournament Series 3 - Gold Llama": [
+      "PvP Tournament - Gold Llama": [
         480,
         481,
         484,
@@ -615,7 +615,7 @@
       ]
     },
     "Gem Store": {
-      "Gem Store Series 1": [
+      "Set I": [
         6,
         7,
         8,
@@ -671,7 +671,7 @@
         59,
         60
       ],
-      "Gem Store Series 2": [
+      "Set II": [
         61,
         62,
         63,
@@ -722,7 +722,7 @@
         179,
         180
       ],
-      "Gem Store Series 3": [
+      "Set III": [
         40,
         256,
         257,
@@ -773,7 +773,7 @@
         253,
         254
       ],
-      "Black Lion Chest Series 1 - Raptor Hatchling": [
+      "Black Lion Chest - Raptor Hatchling": [
         591,
         592,
         593,
@@ -785,7 +785,7 @@
         589,
         590
       ],
-      "Black Lion Chest Series 2 - Jackal Pup": [
+      "Black Lion Chest - Jackal Pup": [
         637,
         638,
         639,
@@ -797,7 +797,7 @@
         645,
         646
       ],
-      "Black Lion Chest Series 3 - Griffon Hatchling": [
+      "Black Lion Chest - Griffon Hatchling": [
         679,
         680,
         681,
@@ -809,7 +809,7 @@
         687,
         688
       ],
-      "Black Lion Chest Series 4 - Springer Kit": [
+      "Black Lion Chest - Springer Kit": [
         702,
         703,
         704,
@@ -822,7 +822,7 @@
         712,
         716
       ],
-      "Black Lion Chest Series 5 - Skimmer Pup": [
+      "Black Lion Chest - Skimmer Pup": [
         750,
         751,
         752,
@@ -834,7 +834,7 @@
         758,
         759
       ],
-      "Black Lion Chest Series 6 - Skyscale Hatchling": [
+      "Black Lion Chest - Skyscale Hatchling": [
         766,
         767,
         768,
@@ -846,7 +846,7 @@
         775,
         776
       ],
-      "Black Lion Chest Series 7 - Shiba Inu": [
+      "Black Lion Chest - Shiba Inu": [
         821,
         822,
         823,
@@ -858,7 +858,7 @@
         829,
         830
       ],
-      "Black Lion Chest Series 8 - Tigris Cub": [
+      "Black Lion Chest - Tigris Cub": [
         860,
         861,
         862,
@@ -870,35 +870,35 @@
         868,
         869
       ],
-      "Black Lion Chest Exclusives Series 1 - Spooky Mount": [
+      "Black Lion Chest Exclusives - Spooky Mount": [
         599,
         605,
         609,
         610,
         611
       ],
-      "Black Lion Chest Exclusives Series 2 - Cozy Wintersday Mount": [
+      "Black Lion Chest Exclusives - Cozy Wintersday Mount": [
         627,
         629,
         631,
         633,
         635
       ],
-      "Black Lion Chest Exclusives Series 3 - Branded Mount": [
+      "Black Lion Chest Exclusives - Branded Mount": [
         657,
         660,
         661,
         662,
         663
       ],
-      "Black Lion Chest Exclusives Series 4 - Awakened Mount": [
+      "Black Lion Chest Exclusives - Awakened Mount": [
         689,
         691,
         693,
         694,
         699
       ],
-      "Black Lion Chest Exclusives Series 5 - Exo-Suit Mount": [
+      "Black Lion Chest Exclusives - Exo-Suit Mount": [
         709,
         713,
         714,
@@ -1058,7 +1058,7 @@
       "Standalone: Other + Back Item Combo": [
         342
       ],
-      "Standalone: Other - Baby": [
+      "Standalone: Baby": [
         139,
         140,
         141,
@@ -1074,7 +1074,7 @@
         327,
         328
       ],
-      "Standalone: Other - Mount": [
+      "Standalone: Mount": [
         648,
         649,
         652,
