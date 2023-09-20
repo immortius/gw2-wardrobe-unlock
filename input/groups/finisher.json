@@ -8,17 +8,12 @@
         62
       ]
     },
-    "Living World Season 1: Scarlet's War (LW1)": {
-      "Standalone: Other": [
-        26
-      ]
-    },
     "Guild Wars 2: Path of Fire (PoF)": {
       "Standalone: Other": [
         72
       ]
     },
-    "Player vs. Player / World vs. World": {
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
       "Rank": [
         1,
         2,
@@ -58,24 +53,6 @@
         32
       ]
     },
-    "Super Adventure Festival": {
-      "Standalone: Other": [
-        11
-      ]
-    },
-    "Halloween": {
-      "Standalone: Other": [
-        18,
-        19
-      ]
-    },
-    "Wintersday": {
-      "Standalone: Other": [
-        20,
-        21,
-        33
-      ]
-    },
     "Gem Store": {
       "World Tournament": [
         49,
@@ -84,17 +61,24 @@
       ],
       "Standalone: Other": [
         10,
+        11,
         12,
         13,
         14,
         15,
         16,
         17,
+        18,
+        19,
+        20,
+        21,
         24,
         25,
+        26,
         27,
         28,
         29,
+        33,
         34,
         38,
         39,

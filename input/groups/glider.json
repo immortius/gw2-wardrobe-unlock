@@ -5,73 +5,18 @@
         2
       ]
     },
-    "Fractals of the Mists": {
-      "Standalone: Other": [
+    "Fractals of the Mists (FotM)": {
+      "Standalone: Other + Back Item Combo": [
         22
       ]
     },
-    "Player vs. Player / World vs. World": {
-      "Standalone: Player vs. Player": [
-        11
-      ],
-      "Standalone: World vs. World": [
+    "Player vs. Player (PvP) / World vs. World (WvW)": {
+      "Standalone: Other + Back Item Combo": [
+        11,
         43
       ]
     },
     "Gem Store": {
-      "Standalone: Cape + Back Item Combo": [
-        96,
-        114,
-        122,
-        126
-      ],
-      "Standalone: Wings + Back Item Combo": [
-        1,
-        3,
-        6,
-        8,
-        13,
-        15,
-        23,
-        24,
-        30,
-        34,
-        42,
-        51,
-        63,
-        75,
-        77,
-        80,
-        83,
-        86,
-        87,
-        89,
-        91,
-        92,
-        93,
-        100,
-        101,
-        103,
-        105,
-        106,
-        107,
-        108,
-        112,
-        117,
-        119,
-        120,
-        121
-      ],
-      "Standalone: Chair + Novelty Combo": [
-        73,
-        97
-      ],
-      "Standalone: Toy + Novelty Combo": [
-        16,
-        39,
-        44,
-        53
-      ],
       "Standalone: Other": [
         4,
         5,
@@ -146,11 +91,64 @@
         110,
         111,
         116,
-        118,
-        123
+        118
       ],
       "Standalone: Other + Package": [
+        123,
         125
+      ],
+      "Standalone: Other + Cape Back Item Combo": [
+        96,
+        114,
+        122,
+        126
+      ],
+      "Standalone: Other + Wings Back Item Combo": [
+        1,
+        3,
+        6,
+        8,
+        13,
+        15,
+        23,
+        24,
+        30,
+        34,
+        42,
+        51,
+        63,
+        75,
+        77,
+        80,
+        83,
+        86,
+        87,
+        89,
+        91,
+        92,
+        93,
+        100,
+        101,
+        103,
+        105,
+        106,
+        107,
+        108,
+        112,
+        117,
+        119,
+        120,
+        121
+      ],
+      "Standalone: Other + Chair Novelty Combo": [
+        73,
+        97
+      ],
+      "Standalone: Other + Toy Novelty Combo": [
+        16,
+        39,
+        44,
+        53
       ]
     }
   }

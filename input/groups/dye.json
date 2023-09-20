@@ -24,7 +24,7 @@
         680,
         700
       ],
-      "Gray": [
+      "Hue - Gray": [
         4,
         69,
         99,
@@ -54,7 +54,7 @@
         627,
         703
       ],
-      "Brown": [
+      "Hue - Brown": [
         13,
         18,
         22,
@@ -99,7 +99,7 @@
         455,
         456
       ],
-      "Red": [
+      "Hue - Red": [
         123,
         335,
         582,
@@ -151,7 +151,7 @@
         669,
         1153
       ],
-      "Orange": [
+      "Hue - Orange": [
         12,
         21,
         32,
@@ -190,7 +190,7 @@
         111,
         434
       ],
-      "Yellow": [
+      "Hue - Yellow": [
         64,
         144,
         145,
@@ -229,7 +229,7 @@
         1154,
         1155
       ],
-      "Green": [
+      "Hue - Green": [
         58,
         59,
         63,
@@ -302,7 +302,7 @@
         607,
         692
       ],
-      "Blue": [
+      "Hue - Blue": [
         28,
         31,
         39,
@@ -364,7 +364,7 @@
         674,
         714
       ],
-      "Purple": [
+      "Hue - Purple": [
         47,
         48,
         49,
@@ -711,25 +711,25 @@
         1703,
         1704
       ],
-      "Black Lion - Blue": [
+      "Black Lion Dye Canister - Blue": [
         1651,
         1652,
         1653,
         1654
       ],
-      "Black Lion - Green": [
+      "Black Lion Dye Canister - Green": [
         1655,
         1656,
         1657,
         1658
       ],
-      "Black Lion - Red": [
+      "Black Lion Dye Canister - Red": [
         1659,
         1660,
         1661,
         1662
       ],
-      "Black Lion - Yellow": [
+      "Black Lion Dye Canister - Yellow": [
         1663,
         1664,
         1665,

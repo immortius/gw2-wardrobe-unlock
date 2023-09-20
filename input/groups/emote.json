@@ -1,29 +1,32 @@
 {
   "topLevelCategories": {
     "Living World Season 5: The Icebrood Saga (LW5)": {
-      "Standalone: Grothmar Valley": [
-        "rockout"
+      "Standalone: Dragon Response Mission": [
+        "Stretch"
       ],
-      "Standalone: Bjora Marches": [
-        "shiver"
-      ],
-      "Standalone: Drizzlewood Coast": [
+      "Standalone: Other": [
+        "rockout",
+        "shiver",
         "playdead",
         "Shiverplus"
-      ],
-      "Standalone: Dragonstorm": [
-        "Stretch"
       ]
     },
     "Guild Wars 2: End of Dragons (EoD)": {
-      "Standalone: Other": [
+      "Rock / Paper / Scissors": [
         "Paper",
         "Rock",
         "Scissors"
       ]
     },
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
+      "Standalone: Other": [
+        "Bless",
+        "Heroic",
+        "Possessed"
+      ]
+    },
     "Gem Store": {
-      "How to Dance, Volume 1": [
+      "How to Dance, Volume 1 + Toy Novelty Combo": [
         "geargrind",
         "shuffle",
         "step"
