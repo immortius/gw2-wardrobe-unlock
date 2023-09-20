@@ -15,6 +15,22 @@
         198,
         199
       ],
+      "Arena": [
+        327,
+        329,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342
+      ],
       "Birthday Year": [
         188,
         189,
@@ -27,6 +43,43 @@
         196,
         197
       ],
+      "Champion Profession": [
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        224
+      ],
+      "Fractal": [
+        296,
+        297,
+        298,
+        299
+      ],
+      "Legend": [
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258
+      ],
+      "Rank": [
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125
+      ],
       "Standalone: Champion Bag": [
         200
       ],
@@ -34,8 +87,58 @@
         15,
         203
       ],
+      "Standalone: Fractals of the Mists": [
+        220,
+        225,
+        248,
+        250,
+        275,
+        277,
+        365,
+        366,
+        399
+      ],
       "Standalone: Racing": [
         321
+      ],
+      "Standalone: Player vs. Player": [
+        89,
+        90,
+        91,
+        239,
+        245,
+        247,
+        260,
+        261,
+        263,
+        265,
+        266,
+        267,
+        268,
+        280,
+        286,
+        320,
+        351,
+        355,
+        356,
+        360
+      ],
+      "Standalone: World vs. World": [
+        27,
+        30,
+        33,
+        36,
+        40,
+        43,
+        46,
+        49,
+        52,
+        55,
+        58,
+        61,
+        70,
+        73,
+        364
       ],
       "Standalone: Other": [
         11,
@@ -61,7 +164,7 @@
         394
       ]
     },
-    "Living World Season 1: Scarlet's War (LW1)": {
+    "(Core > LW1) Living World Season 1: Scarlet's War": {
       "Standalone: Strike Mission": [
         395
       ],
@@ -74,7 +177,7 @@
         226
       ]
     },
-    "Living World Season 2: Glint's Prophecy (LW2)": {
+    "(Core > LW2) Living World Season 2: Glint's Prophecy": {
       "Standalone: Other": [
         207,
         208,
@@ -85,7 +188,15 @@
         213
       ]
     },
-    "Guild Wars 2: Heart of Thorns (HoT)": {
+    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+      "Standalone: Raid": [
+        230,
+        238,
+        262,
+        264,
+        269,
+        276
+      ],
       "Standalone: Other": [
         218,
         219,
@@ -96,7 +207,7 @@
         270
       ]
     },
-    "Living World Season 3: Glint's Legacy (LW3)": {
+    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
       "Standalone: Other": [
         246,
         249,
@@ -107,12 +218,19 @@
         278
       ]
     },
-    "Guild Wars 2: Path of Fire (PoF)": {
+    "(X2) Guild Wars 2: Path of Fire (PoF)": {
       "Banners of Elona": [
         281,
         283,
         284,
         288
+      ],
+      "Standalone: Raid": [
+        300,
+        314,
+        318,
+        328,
+        330
       ],
       "Standalone: Other": [
         285,
@@ -124,7 +242,7 @@
         295
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
+    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
       "Standalone: Other": [
         301,
         302,
@@ -138,7 +256,7 @@
         324
       ]
     },
-    "Living World Season 5: The Icebrood Saga (LW5)": {
+    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
       "Standalone: Other": [
         345,
         346,
@@ -157,17 +275,13 @@
         369
       ]
     },
-    "Guild Wars 2: End of Dragons (EoD)": {
+    "(X3) Guild Wars 2: End of Dragons (EoD)": {
       "Facet of Aurene": [
         390,
         391,
         392,
         397,
         398
-      ],
-      "Standalone: Club Canach": [
-        377,
-        383
       ],
       "Standalone: Fishing": [
         374,
@@ -182,12 +296,14 @@
       ],
       "Standalone: Other": [
         375,
+        377,
         378,
         381,
+        383,
         384
       ]
     },
-    "Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Rift Hunting": [
       ],
       "Standalone: Strike Mission": [
@@ -195,135 +311,13 @@
       "Standalone: Other": [
       ]
     },
-    "Fractals of the Mists (FotM)": {
-      "Fractal": [
-        296,
-        297,
-        298,
-        299
-      ],
-      "Standalone: Other": [
-        220,
-        225,
-        248,
-        250,
-        275,
-        277,
-        365,
-        366,
-        399
-      ]
-    },
-    "Raid": {
-      "Standalone: Other": [
-        230,
-        238,
-        262,
-        264,
-        269,
-        276,
-        300,
-        314,
-        318,
-        328,
-        330
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
-      "Arena": [
-        327,
-        329,
-        331,
-        332,
-        333,
-        334,
-        335,
-        336,
-        337,
-        338,
-        339,
-        340,
-        341,
-        342
-      ],
-      "Champion Profession": [
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        224
-      ],
-      "Legend": [
-        252,
-        253,
-        254,
-        255,
-        256,
-        257,
-        258
-      ],
-      "Rank": [
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124,
-        125
-      ],
-      "Standalone: Other - Player vs. Player": [
-        89,
-        90,
-        91,
-        239,
-        245,
-        247,
-        260,
-        261,
-        263,
-        265,
-        266,
-        267,
-        268,
-        280,
-        286,
-        320,
-        351,
-        355,
-        356,
-        360
-      ],
-      "Standalone: Other - World vs. World": [
-        27,
-        30,
-        33,
-        36,
-        40,
-        43,
-        46,
-        49,
-        52,
-        55,
-        58,
-        61,
-        70,
-        73,
-        364
-      ]
-    },
-    "Super Adventure Festival (SAB)": {
+    "Special Event: Super Adventure Festival (SAB)": {
       "Standalone: Other": [
         134,
         174
       ]
     },
-    "Festival of the Four Winds (FotFW)": {
+    "Special Event: Festival of the Four Winds (FotFW)": {
       "Standalone: Queen's Gauntlet": [
         185,
         310
@@ -332,13 +326,13 @@
         309
       ]
     },
-    "Halloween": {
+    "Special Event: Shadow of the Mad King (Halloween)": {
       "Standalone: Other": [
         128,
         129
       ]
     },
-    "Wintersday": {
+    "Special Event: A Very Merry Wintersday": {
       "Standalone: Dungeon": [
         259
       ],
@@ -351,6 +345,13 @@
       ]
     },
     "Gem Store": {
+      "Standalone: Other": [
+        18,
+        319,
+        348
+      ]
+    },
+    "Promotional Event": {
       "Standalone: ArenaNet Partner": [
         362,
         370,
@@ -366,13 +367,10 @@
         7,
         8,
         9,
-        10,
-        26
+        10
       ],
       "Standalone: Other": [
-        18,
-        319,
-        348,
+        26,
         400
       ]
     }

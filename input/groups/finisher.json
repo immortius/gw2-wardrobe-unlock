@@ -4,16 +4,6 @@
       "Starter": [
         48
       ],
-      "Standalone: Other": [
-        62
-      ]
-    },
-    "Guild Wars 2: Path of Fire (PoF)": {
-      "Standalone: Other": [
-        72
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
       "Rank": [
         1,
         2,
@@ -25,6 +15,11 @@
         8,
         9
       ],
+      "Standalone: Other": [
+        62
+      ]
+    },
+    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
       "Rank > Mordrem": [
         63,
         64,
@@ -35,7 +30,14 @@
         69,
         70,
         71
-      ],
+      ]
+    },
+    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+      "Standalone: Other": [
+        72
+      ]
+    },
+    "Special Event: Other": {
       "Trophy": [
         22,
         23,

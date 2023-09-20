@@ -5,7 +5,7 @@
         60
       ]
     },
-    "Halloween": {
+    "Special Event: Shadow of the Mad King (Halloween)": {
       "Standalone: Other": [
         12
       ]
@@ -45,7 +45,6 @@
         24,
         25,
         26,
-        27,
         28,
         31,
         32,
@@ -113,15 +112,16 @@
         122,
         123,
         124,
-        125
+        125,
+        126
       ],
-      "Standalone: Other + Headgear Armor Combo": [
+      "Standalone: Other + Armor Combo - Head": [
         57
       ],
-      "Standalone: Other + Shoulders Armor Combo": [
+      "Standalone: Other + Armor Combo - Shoulder": [
         101
       ],
-      "Standalone: Other + Toy Novelty Combo": [
+      "Standalone: Other + Novelty Combo - Toy": [
         1,
         2,
         3,
@@ -130,7 +130,7 @@
         6,
         7
       ],
-      "Standalone: Clothing": [
+      "Standalone: Other - Clothing": [
         59,
         61,
         62,
@@ -143,13 +143,18 @@
         69,
         70,
         71
-      ],
-      "Standalone: Emblem Clothing": [
+      ]
+    },
+    "Promotional Event": {
+      "Emblem Clothing": [
         73,
         89,
-        90,
-        95,
         113
+      ],
+      "Standalone: Other": [
+        27,
+        90,
+        95
       ]
     }
   }

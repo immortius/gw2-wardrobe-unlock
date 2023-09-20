@@ -2,31 +2,27 @@
   "topLevelCategories": {
     "Core": {
       "Starter": [
-        3
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
-      "Standalone: Turai Ossa": [
-        8,
-        9,
-        14
-      ],
-      "Standalone: Grymm Svaard": [
-        2,
-        4,
-        10,
-        13
-      ],
-      "Standalone: Nika": [
         1,
-        7,
-        11,
-        12
+        3,
+        2,
+        5
       ],
-      "Standalone: Lightbringer Tybalt Leftpaw": [
-        5,
-        18,
-        19,
+      "Mist Champion Series 1 - Phalanx / Rogue / Strider / Steampunk": [
+        8,
+        10,
+        12,
+        18
+      ],
+      "Mist Champion Series 2 - Rampart / Priory / Sneakthief / Orrian": [
+        11,
+        13,
+        14,
+        19
+      ],
+      "Mist Champion Series 3 - Radiant / Flamewalker / Shadow Assassin / Elite Glorious": [
+        4,
+        7,
+        9,
         20
       ]
     },

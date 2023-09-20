@@ -11,14 +11,11 @@
         191,
         202
       ],
-      "Standalone: Community Goal Reward": [
-        283,
-        288,
-        304,
-        308
-      ],
-      "Standalone: Guild": [
-        122
+      "Standalone: Fractals of the Mists": [
+        115,
+        121,
+        141,
+        307
       ],
       "Standalone: Racing": [
         271,
@@ -28,9 +25,13 @@
         275,
         276
       ],
+      "Standalone: World vs. World": [
+        147
+      ],
       "Standalone: Other": [
         12,
         29,
+        122,
         219,
         222,
         237,
@@ -41,7 +42,7 @@
         41
       ]
     },
-    "Living World Season 1: Scarlet's War (LW1)": {
+    "(Core > LW1) Living World Season 1: Scarlet's War": {
       "Quaggan Tonic": [
         88,
         131,
@@ -67,7 +68,12 @@
         156
       ]
     },
-    "Living World Season 2: Glint's Prophecy (LW2)": {
+    "(Core > LW2) Living World Season 2: Glint's Prophecy": {
+      "Crystal Shard Kite / Prosperity Mine Kite / Ventari Follower Kite": [
+        11,
+        14,
+        48
+      ],
       "Mordrem Minion Tonic": [
         81,
         90,
@@ -75,16 +81,13 @@
         243
       ],
       "Standalone: Other": [
-        11,
-        14,
-        48,
         117,
         138,
         195,
         230
       ]
     },
-    "Guild Wars 2: Heart of Thorns (HoT)": {
+    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
       "Chak Tonic": [
         102,
         214,
@@ -96,6 +99,9 @@
         266,
         267
       ],
+      "Standalone: Raid": [
+        258
+      ],
       "Standalone: Other": [
         106,
         110,
@@ -105,7 +111,7 @@
         241
       ]
     },
-    "Living World Season 3: Glint's Legacy (LW3)": {
+    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
       "Standalone: Renown Heart": [
         132,
         158,
@@ -113,21 +119,28 @@
         92
       ]
     },
-    "Guild Wars 2: Path of Fire (PoF)": {
+    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+      "Choya Kite": [
+        10,
+        26,
+        43
+      ],
       "Music Box": [
       ],
-      "Standalone: Casino Blitz": [
-        10,
+      "Standalone: Other": [
         17,
         22,
-        26,
         39,
-        43,
         51,
         218
+      ],
+      "Standalone: Raid": [
+        50,
+        69,
+        285
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
+    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
       "Standalone: Renown Heart": [
         86,
         89,
@@ -140,7 +153,7 @@
         282
       ]
     },
-    "Living World Season 5: The Icebrood Saga (LW5)": {
+    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
       "Standalone: Strike Mission": [
         293
       ],
@@ -150,7 +163,7 @@
         299
       ]
     },
-    "Guild Wars 2: End of Dragons (EoD)": {
+    "(X3) Guild Wars 2: End of Dragons (EoD)": {
       "Standalone: Fishing": [
       ],
       "Standalone: Strike Mission": [
@@ -164,53 +177,30 @@
         330
       ]
     },
-    "Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Strike Mission": [
       ],
       "Standalone: Other": [
       ]
     },
-    "Fractals of the Mists (FotM)": {
-      "Standalone: Other": [
-        115,
-        121,
-        141,
-        307
-      ]
-    },
-    "Raid": {
-      "Standalone: Other": [
-        50,
-        69,
-        258,
-        285
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
-      "Champion's Gizmo": [
-      ],
-      "Standalone: Other": [
-        147
-      ]
-    },
-    "Super Adventure Festival (SAB)": {
-      "Duskk's Super Boom Box": [
-        3,
-        30
-      ],
+    "Special Event: Super Adventure Festival (SAB)": {
       "Super Boom Box": [
         23,
         25
+      ],
+      "Super Boom Box > Duskk's Super Boom Box": [
+        3,
+        30
       ]
     },
-    "Festival of the Four Winds (FotFW)": {
-      "Standalone: Festival Bag": [
-        223
-      ],
-      "Standalone: Treasure Hunt": [
+    "Special Event: Festival of the Four Winds (FotFW)": {
+      "Embellished Kite / Mark of Peace Kite / Ornamental Kite": [
         1,
         31,
         46
+      ],
+      "Standalone: Festival Bag": [
+        223
       ],
       "Standalone: Other": [
         28,
@@ -218,7 +208,7 @@
         150
       ]
     },
-    "Halloween": {
+    "Special Event: Shadow of the Mad King (Halloween)": {
       "Ignited Wraith Tonic": [
         84,
         94,
@@ -230,7 +220,7 @@
         180
       ]
     },
-    "Wintersday": {
+    "Special Event: A Very Merry Wintersday": {
       "Enchanted Snowball": [
         93,
         217
@@ -255,8 +245,26 @@
         277
       ]
     },
+    "Special Event: Other": {
+      "Champion's Gizmo": [
+      ],
+      "Standalone: Fractals of the Mists": [
+        308
+      ],
+      "Standalone: Other": [
+        283,
+        288,
+        304
+      ]
+    },
     "Gem Store": {
-      "Standalone: Chair": [
+      "Aspect Kite": [
+        7,
+        13,
+        36,
+        40
+      ],
+      "Standalone: Other - Chair": [
         24,
         262,
         268,
@@ -283,11 +291,11 @@
         327,
         329
       ],
-      "Standalone: Chair + Glider Combo": [
+      "Standalone: Other - Chair + Glider Combo": [
         286,
         311
       ],
-      "Standalone: Musical Instrument": [
+      "Standalone: Other - Musical Instrument": [
         2,
         6,
         8,
@@ -296,17 +304,13 @@
         37,
         45
       ],
-      "Standalone: Held Item": [
-        7,
-        13,
+      "Standalone: Other - Held Item": [
         15,
         21,
         32,
-        36,
-        40,
         53
       ],
-      "Standalone: Toy": [
+      "Standalone: Other - Toy": [
         4,
         5,
         9,
@@ -316,7 +320,7 @@
         55,
         300
       ],
-      "Standalone: Toy + Outfit Combo": [
+      "Standalone: Other - Toy + Outfit Combo": [
         78,
         111,
         126,
@@ -325,21 +329,25 @@
         226,
         265
       ],
-      "Standalone: Toy + Glider Combo": [
+      "Standalone: Other - Toy + Glider Combo": [
         16,
         20,
         27,
         33
       ],
-      "Standalone: Toy + Emote Combo": [
+      "Standalone: Other - Toy + Emote Combo": [
         44
       ],
-      "Standalone: Tonic": [
+      "Standalone: Other - Tonic": [
         80,
         103,
         159,
         172,
-        185,
+        185
+      ]
+    },
+    "Promotional Event": {
+      "Standalone: Other": [
         236
       ]
     }

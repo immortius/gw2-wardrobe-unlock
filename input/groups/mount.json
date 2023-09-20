@@ -1,48 +1,36 @@
 {
   "topLevelCategories": {
-    "Guild Wars 2: Path of Fire (PoF)": {
+    "Core": {
       "Starter": [
-        1
-      ],
-      "Standalone: Renown Heart": [
+        1,
         2,
         3,
-        6
-      ],
-      "Standalone: Other": [
-        4
-      ]
-    },
-    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
-      "Standalone: Other": [
+        4,
+        6,
         103,
-        186
-      ]
-    },
-    "Guild Wars 2: End of Dragons (EoD)": {
-      "Standalone: Other": [
-        397
-      ]
-    },
-    "Guild Wars 2: Secrets of the Obscure (SotO)": {
-      "Standalone: Other + Miniature Combo": [
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
-      "Standalone: Other": [
         161,
+        186,
+        397
+      ],
+      "Standalone: World vs. World": [
         251
       ]
     },
+    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+      "Standalone: Other": [
+      ],
+      "Standalone: Other + Miniature Combo": [
+      ]
+    },
     "Gem Store": {
-      "Spooky": [
+      "Gem Store Series 1 - Spooky": [
         13,
         14,
         15,
         16,
         19
       ],
-      "Cozy Wintersday": [
+      "Gem Store Series 2 - Cozy Wintersday": [
         52,
         53,
         56,
@@ -50,7 +38,7 @@
         60,
         235
       ],
-      "Branded": [
+      "Gem Store Series 3 - Branded": [
         66,
         68,
         70,
@@ -60,7 +48,7 @@
         195,
         234
       ],
-      "Exo-Suit": [
+      "Gem Store Series 4 - Exo-Suit": [
         92,
         93,
         94,
@@ -69,7 +57,7 @@
         303,
         371
       ],
-      "Awakened": [
+      "Gem Store Series 5 - Awakened": [
         98,
         99,
         100,
@@ -77,7 +65,7 @@
         102,
         278
       ],
-      "Mad Realm": [
+      "Gem Store Series 6 - Mad Realm": [
         130,
         131,
         132,
@@ -85,14 +73,14 @@
         134,
         304
       ],
-      "Shiverpeaks": [
+      "Gem Store Series 7 - Shiverpeaks": [
         153,
         154,
         155,
         157,
         158
       ],
-      "Mad King": [
+      "Gem Store Series 8 - Mad King": [
         222,
         223,
         224,
@@ -257,7 +245,7 @@
         276,
         310
       ],
-      "Standalone: Raptor": [
+      "Standalone: Other - Raptor": [
         17,
         21,
         29,
@@ -286,7 +274,7 @@
         505,
         514
       ],
-      "Standalone: Springer": [
+      "Standalone: Other - Springer": [
         20,
         38,
         42,
@@ -313,7 +301,7 @@
         481,
         526
       ],
-      "Standalone: Skimmer": [
+      "Standalone: Other - Skimmer": [
         26,
         36,
         37,
@@ -333,7 +321,7 @@
         368,
         375
       ],
-      "Standalone: Jackal": [
+      "Standalone: Other - Jackal": [
         22,
         28,
         33,
@@ -364,7 +352,7 @@
         512,
         516
       ],
-      "Standalone: Griffon": [
+      "Standalone: Other - Griffon": [
         25,
         34,
         40,
@@ -393,7 +381,7 @@
         521,
         522
       ],
-      "Standalone: Roller Beetle": [
+      "Standalone: Other - Roller Beetle": [
         104,
         105,
         114,
@@ -404,7 +392,7 @@
         239,
         348
       ],
-      "Standalone: Warclaw": [
+      "Standalone: Other - Warclaw": [
         162,
         163,
         165,
@@ -426,7 +414,7 @@
         484,
         524
       ],
-      "Standalone: Skyscale": [
+      "Standalone: Other - Skyscale": [
         191,
         193,
         194,
@@ -450,7 +438,7 @@
         513,
         520
       ],
-      "Standalone: Siege Turtle": [
+      "Standalone: Other - Siege Turtle": [
         416,
         417,
         419,

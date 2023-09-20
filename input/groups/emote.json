@@ -5,7 +5,7 @@
         "Bless"
       ]
     },
-    "Living World Season 5: The Icebrood Saga (LW5)": {
+    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
       "Standalone: Dragon Response Mission": [
         "Stretch"
       ],
@@ -16,21 +16,21 @@
         "Shiverplus"
       ]
     },
-    "Guild Wars 2: End of Dragons (EoD)": {
+    "(X3) Guild Wars 2: End of Dragons (EoD)": {
       "Rock / Paper / Scissors": [
         "Paper",
         "Rock",
         "Scissors"
       ]
     },
-    "Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Other": [
         "Heroic",
         "Possessed"
       ]
     },
     "Gem Store": {
-      "How to Dance, Volume 1 + Toy Novelty Combo": [
+      "How to Dance, Volume 1 + Novelty Combo - Toy": [
         "geargrind",
         "shuffle",
         "step"
@@ -39,7 +39,11 @@
         "Serve",
         "Hiss",
         "MagicJuggle",
-        "Readbook",
+        "Readbook"
+      ]
+    },
+    "Promotional Event": {
+      "Standalone: Other": [
         "sipcoffee"
       ]
     }
