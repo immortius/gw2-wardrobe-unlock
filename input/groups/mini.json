@@ -436,10 +436,8 @@
         902,
         903,
         904,
+        905,
         909
-      ],
-      "Standalone: Other + Mount Combo": [
-        905
       ]
     },
     "Special Event: Lunar New Year (LNY)": {
@@ -1015,6 +1013,7 @@
         333,
         335,
         336,
+        342,
         369,
         378,
         380,
@@ -1054,9 +1053,6 @@
         815,
         816,
         835
-      ],
-      "Standalone: Other + Back Item Combo": [
-        342
       ],
       "Standalone: Baby": [
         139,

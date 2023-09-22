@@ -31,15 +31,13 @@
       "Standalone: Other": [
         12,
         29,
+        34,
+        41,
         122,
         219,
         222,
         237,
         289
-      ],
-      "Standalone: Other + Weapon Combo": [
-        34,
-        41
       ]
     },
     "(Core > LW1) Living World Season 1: Scarlet's War": {
@@ -273,6 +271,7 @@
         279,
         280,
         284,
+        286,
         287,
         294,
         301,
@@ -281,6 +280,7 @@
         305,
         309,
         310,
+        311,
         312,
         313,
         314,
@@ -290,10 +290,6 @@
         326,
         327,
         329
-      ],
-      "Standalone: Chair + Glider Combo": [
-        286,
-        311
       ],
       "Standalone: Musical Instrument": [
         2,
@@ -314,29 +310,23 @@
         4,
         5,
         9,
+        16,
         19,
+        20,
+        27,
+        33,
+        44,
         52,
         54,
         55,
-        300
-      ],
-      "Standalone: Toy + Outfit Combo": [
         78,
         111,
         126,
         128,
         144,
         226,
-        265
-      ],
-      "Standalone: Toy + Glider Combo": [
-        16,
-        20,
-        27,
-        33
-      ],
-      "Standalone: Toy + Emote Combo": [
-        44
+        265,
+        300
       ],
       "Standalone: Tonic": [
         80,

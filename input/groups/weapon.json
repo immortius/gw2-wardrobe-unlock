@@ -905,7 +905,7 @@
         6509,
         6514
       ],
-      "Legendary Generation 1 - Experiment > Perfected > Precursor > Legendary + Novelty Combo": [
+      "Legendary Generation 1 - Experiment > Perfected > Precursor > Legendary": [
         4664,
         4665,
         4666,
@@ -2060,7 +2060,7 @@
         8600,
         8692
       ],
-      "Legendary Generation 2 - Experiment > Perfected > Precursor > Legendary + Novelty Combo": [
+      "Legendary Generation 2 - Experiment > Perfected > Precursor > Legendary": [
         6276,
         7300,
         7206,
@@ -5790,6 +5790,7 @@
         6884,
         7021,
         7208,
+        8010,
         8113,
         8135,
         8397,
@@ -5809,6 +5810,10 @@
         7165,
         7204,
         7231,
+        7281,
+        7284,
+        7450,
+        7651,
         7739,
         7746,
         7997,
@@ -5826,10 +5831,16 @@
         9476,
         9477,
         9553,
+        9594,
+        9596,
         9615,
         9656,
+        9741,
+        9748,
         9791,
         9839,
+        9842,
+        9851,
         9892,
         9956,
         9974,
@@ -5849,6 +5860,8 @@
         10763,
         10786,
         10789,
+        10818,
+        10824,
         10856,
         10961,
         11036,
@@ -5869,23 +5882,6 @@
         11822,
         11824,
         11828
-      ],
-      "Standalone: Other + Combo": [
-        7281,
-        7284,
-        7450,
-        7651,
-        9594,
-        9596,
-        9741,
-        9748,
-        9842,
-        9851,
-        10818,
-        10824
-      ],
-      "Standalone: Other + Quiver Back Item Combo": [
-        8010
       ]
     },
     "Promotional Event": {
