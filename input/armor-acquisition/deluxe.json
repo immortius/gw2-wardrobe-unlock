@@ -1,9 +1,7 @@
 {
   "name": "deluxe",
   "contents": [
-    // Guild Wars 2 Heroic Edition - Profane / Krytan / Primeval
-    1105,1155,1094,1099,1069,1199,1200,1156,1111,1097,1071,1103,1154,1090,1093,1066,1102,1198,
-    // Secrets of the Obscure Pre-purchase - Arcane Spellweaver's Hat
-    11532,11534,11540
+    // Guild Wars 2 Deluxe Upgrade - Profane / Krytan / Primeval
+    1105,1155,1094,1099,1069,1199,1200,1156,1111,1097,1071,1103,1154,1090,1093,1066,1102,1198
   ]
 }
