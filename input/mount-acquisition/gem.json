@@ -1,39 +1,39 @@
 {
   "name": "gem",
   "contents": [
-    // Gem Store - Gem Store Series 1 - Spooky
+    // Gem Store - Spooky Mounts Pack
     13,14,15,16,19,
-    // Gem Store - Gem Store Series 2 - Cozy Wintersday
+    // Gem Store - Cozy Wintersday Mounts Pack
     52,53,56,58,60,
-    // Gem Store - Gem Store Series 3 - Branded
+    // Gem Store - Branded Mounts Pack
     66,68,70,75,76,
-    // Gem Store - Gem Store Series 4 - Exo-Suit
+    // Gem Store - Exo-Suit Mounts Pack
     92,93,94,95,96,
-    // Gem Store - Gem Store Series 5 - Awakened
-    100,101,102,98,99,
-    // Gem Store - Gem Store Series 6 - Mad Realm
+    // Gem Store - Awakened Mounts Pack
+    98,99,100,101,102,
+    // Gem Store - Mad Realm Mounts Pack
     130,131,132,133,134,
-    // Gem Store - Gem Store Series 7 - Shiverpeaks
+    // Gem Store - Shiverpeaks Mount Pack
     153,154,155,157,158,
-    // Gem Store - Gem Store Series 8 - Mad King
-    222,223,224,225,226,
-    // Gem Store - Warclaw Frontline
+    // Gem Store - Warclaw Frontline Mount Pack
     162,163,164,165,166,
-    // Gem Store - Skyscale Ascension
+    // Gem Store - Skyscale Ascension Mounts Pack
     193,194,195,196,198,
-    // Gem Store - Siege Turtle Advent
+    // Gem Store - Mad King Mounts Pack
+    222,223,224,225,226,
+    // Gem Store - Siege Turtle Advent Mounts Pack
     415,416,417,418,419,
-    // Gem Store - Canthan Vulpine Jackal
-    429,430,431,
-    // Gem Store - Canthan Cuckoo Springer
+    // Gem Store - Canthan Cuckoo Springer Mounts Pack
     422,423,426,
-    // Gem Store - Canthan Tigris Griffon
+    // Gem Store - Canthan Vulpine Jackal Mounts Pack
+    429,430,431,
+    // Gem Store - Canthan Tigris Griffon Mounts Pack
     432,433,434,
-    // Gem Store - Canthan Nian Warclaw
+    // Gem Store - Canthan Nian Warclaw Mounts Pack
     437,440,441,
-    // Gem Store - Canthan Noble Skyscale
+    // Gem Store - Canthan Noble Skyscale Mounts Pack
     443,444,445,
-    // Gem Store - Amnytas Feathered Raptor
+    // Gem Store - Amnytas Feathered Raptor Mounts Pack
 
     // Gem Store - Jade Tech
     462,
@@ -44,7 +44,7 @@
     // Gem Store - Synergetics
     293,391,396,
     // Gem Store - Raptor
-    17,126,200,294,329,360,505,
+    17,126,200,294,329,505,
     // Gem Store - Springer
     61,152,231,331,
     // Gem Store - Skimmer

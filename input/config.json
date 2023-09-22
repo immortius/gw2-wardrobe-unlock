@@ -155,10 +155,8 @@
           // Gem Store - Seven Reapers
           9376,9384,9447,9890,9891,9894,10098,10100,10106,10124,10129,10131,
           // Gem Store - Head
-          7225,7233,7241,9789,9790,9792,10847,10849,10867,
-          // Gem Store - Head + Outfit Combo
-          7782,7800,7804,
-          // Gem Store - Shoulder + Outfit Combo
+          7225,7233,7241,7782,7800,7804,9789,9790,9792,10847,10849,10867,
+          // Gem Store - Shoulder
           9577,9580,9581,
           // Gem Store - Hand
           7941,7975,7985,8967,8986,8989
@@ -723,9 +721,7 @@
           // Gem Store - Vermilion
           9347,9701,10072,10078,
           // Gem Store
-          6937,6978,7739,8098,8197,8457,8529,8945,9027,9553,9956,10040,10162,10510,
-          // Gem Store + Back Item Combo - Quiver
-          8010
+          6937,6978,7739,8010,8098,8197,8457,8529,8945,9027,9553,9956,10040,10162,10510
         ],
         // Southsun Remembrance Package
         "84207": [3764,3782,3805,3832],
@@ -792,16 +788,12 @@
         // Black Lion Exclusives Chest
         "82450": [
           // Gem Store
-          7755,8319,10881,
-          // Gem Store + Glider Combo
-          7308,7811,7996,8141,8638,8725,8807,10219,10941,
+          7308,7755,7811,7996,8141,8319,8638,8725,8807,10219,10881,10941,
           // Gem Store - Cape
-          9240,9462,9597,10005,
-          // Gem Store - Cape + Glider Combo
-          9732,
+          9240,9462,9597,9732,10005,
           // Gem Store - Quiver
           8021,
-          // Gem Store - Wings + Glider Combo
+          // Gem Store - Wings
           8915,9061,9298,9481,9992,10045,10823
         ],
         // Pink Quaggan Backpack Set
@@ -846,11 +838,7 @@
         // Black Lion Exclusives Chest
         "82450": [
           // Gem Store
-          87,
-          // Gem Store + Armor Combo - Head
-          57,
-          // Gem Store + Armor Combo - Shoulder
-          101
+          57,87,101
         ],
         // Endless Riding Clothes Tonic
         "36176": [65],
@@ -950,15 +938,11 @@
         // Black Lion Exclusives Chest
         "82450": [
           // Gem Store
-          32,35,54,66,84,
-          // Gem Store + Back Item Combo
-          47,56,60,68,70,72,109,116,
-          // Gem Store + Back Item Combo - Cape
+          32,35,47,54,56,60,66,68,70,72,84,97,109,116,
+          // Gem Store - Cape
           96,
-          // Gem Store + Back Item Combo - Wings
-          77,83,86,91,100,103,112,
-          // Gem Store + Novelty Combo - Chair
-          97
+          // Gem Store - Wings
+          77,83,86,91,100,103,112
         ]
       }
     },
@@ -991,9 +975,7 @@
         // Black Lion Exclusives Chest
         "82450": [
           // Gem Store - Chair
-          269,309,
-          // Gem Store - Chair + Glider Combo
-          311
+          269,309,311
         ],
         // Unbreakable Choir Bell
         "38129": [42],
