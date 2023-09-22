@@ -1,0 +1,1173 @@
+[
+  // -----------------------------
+  // -------- ARMOR COMBO --------
+  // -----------------------------
+  {
+    "name": "armorcombo",
+    "contents": [
+      {
+        "name": "Profane Light Armor Skin",
+        "armor": [1105,1155,1094,1099,1069,1199]
+      },
+      {
+        "name": "Krytan Medium Armor Skin",
+        "armor": [1200,1156,1111,1097,1071,1103]
+      },
+      {
+        "name": "Primeval Heavy Armor Skin",
+        "armor": [1154,1090,1093,1066,1102,1198]
+      },
+      {
+        "name": "Aetherblade Light Armor Skin",
+        "armor": [1314,1317,1320,1323,1309,1310]
+      },
+      {
+        "name": "Aetherblade Medium Armor Skin",
+        "armor": [1312,1315,1318,1321,1324,1311]
+      },
+      {
+        "name": "Aetherblade Heavy Armor Skin",
+        "armor": [1313,1316,1319,1322,1307,1308]
+      },
+      {
+        "name": "Phoenix Light Armor Skin",
+        "armor": [1152,1062,1095,1082,1196,1085]
+      },
+      {
+        "name": "Magitech Medium Armor Skin",
+        "armor": [1153,1091,1064,1098,1197,1087]
+      },
+      {
+        "name": "Braham's Heavy Armor Skin",
+        "armor": [1060,1092,1079,1195,1084,1151]
+      },
+      {
+        "name": "Trickster's Light-Armor Skin",
+        "armor": [1331,1332,1333,1334,1335,1336]
+      },
+      {
+        "name": "Viper's Medium-Armor Skin",
+        "armor": [1337,1338,1339,1340,1341,1342]
+      },
+      {
+        "name": "Phalanx Heavy-Armor Skin",
+        "armor": [1201,1074,1106,1157,1113,1101]
+      },
+      {
+        "name": "Flamekissed Light Armor Skin",
+        "armor": [1253,1254,1255,1256,1257,1258]
+      },
+      {
+        "name": "Flamewalker Medium Armor Skin",
+        "armor": [1260,1262,1264,1266,1268,1270]
+      },
+      {
+        "name": "Flamewrath Heavy Armor Skin",
+        "armor": [1259,1261,1263,1265,1267,1269]
+      },
+      {
+        "name": "Zodiac Light Armor Skin",
+        "armor": [1349,1350,1351,1352,1353,1354]
+      },
+      {
+        "name": "Zodiac Medium Armor Skin",
+        "armor": [1355,1356,1357,1358,1359,1360]
+      },
+      {
+        "name": "Zodiac Heavy Armor Skin",
+        "armor": [1343,1344,1345,1346,1347,1348]
+      },
+      {
+        "name": "Incarnate Heavy Armor Skin",
+        "armor": [1276,1277,1278,1279,1280,1281]
+      },
+      {
+        "name": "Strider's Medium Armor Skin",
+        "armor": [1271,1282,1283,1285,1286,1287]
+      },
+      {
+        "name": "Rampart Light Armor Skin",
+        "armor": [1272,1273,1274,1275,1288,1289]
+      },
+      {
+        "name": "Savage Scale Package",
+        "armor": [11100,11106,11124,11129,11133,11142]
+      },
+      {
+        "name": "Lunar Rabbit Helm and Stompers Package",
+        "armor": [11200,11216,11221,11224,11228,11231]
+      },
+      {
+        "name": "Bestial Tides Tattoo Pack",
+        "armor": [11258,11279,11286,11304,11336,11346]
+      },
+      {
+        "name": "Fire Bloom Tattoo Pack",
+        "armor": [11259,11270,11302,11314,11328,11331]
+      },
+      {
+        "name": "Serpentine Tattoo Pack",
+        "armor": [11267,11291,11305,11307,11308,11349]
+      },
+      {
+        "name": "Leather Straps Package",
+        "armor": [11522,11523,11529,11530,11539,11541]
+      },
+      // Armor - Head
+      {
+        "name": "Magnus's Eye Patch",
+        "armor": [833,839,840,841,842,843]
+      },
+      {
+        "name": "Lunatic Noble Mask",
+        "armor": [7770,7798]
+      },
+      {
+        "name": "Zephyrite Aspect Helm Pack",
+        "armor": [8208,8194,8195,8228,8213,8230,8217,8205,8222]
+      },
+      {
+        "name": "Enchanted Dragon Crown Package",
+        "armor": [8234,8238,8253,8260,8277,8278,8289,8296,8297]
+      },
+      {
+        "name": "Winter Antlers Set",
+        "armor": [8518,8524,8538,8543,8544,8545]
+      },
+      {
+        "name": "Shrine Guardian Ears Package",
+        "armor": [8685,8718,8727,8741,8743,8751]
+      },
+      {
+        "name": "Skyscale Horns Package",
+        "armor": [8814,8816,8822,8834,8837,8841]
+      },
+      {
+        "name": "Warlord's Plate Helm",
+        "armor": [9217,9233]
+      },
+      {
+        "name": "Virtual Box",
+        "armor": [9335,9337,9349,9352,9355,9357]
+      },
+      {
+        "name": "Immortal Halo Package",
+        "armor": [9570,9574,9575,9578,9582,9586]
+      },
+      {
+        "name": "Immortal Nimbus Package",
+        "armor": [10074,10080,10081,10086,10094,10097]
+      },
+      {
+        "name": "Magical Unicorn Horn Set",
+        "armor": [10846,10852,10853,10854,10862,10865]
+      },
+      {
+        "name": "Pointed Ears Package",
+        "armor": [11032,11035,11038,11039,11040,11041,11044,11045,11047]
+      },
+      // Armor - Shoulder
+      // Armor - Chest
+      {
+        "name": "Sublime Mistforged Triumphant Hero's Raiment",
+        "armor": [7250,7257]
+      },
+      {
+        "name": "Sublime Mistforged Triumphant Hero's Brigandine",
+        "armor": [7253,7255]
+      },
+      {
+        "name": "Sublime Mistforged Triumphant Hero's Breastplate",
+        "armor": [7265,7271]
+      },
+      {
+        "name": "Lunatic Noble Coat",
+        "armor": [7781,7797]
+      },
+      {
+        "name": "Luminous Heavy Warhelm",
+        "armor": [8263,8266]
+      },
+      {
+        "name": "Mistforged Glorious Hero's Raiment",
+        "armor": [8480,8517]
+      },
+      {
+        "name": "Mistforged Glorious Hero's Brigandine",
+        "armor": [8496,8542]
+      },
+      {
+        "name": "Mistforged Glorious Hero's Breastplate",
+        "armor": [8476,8531]
+      },
+      // Armor - Hand
+      {
+        "name": "Immortal Ring Package",
+        "armor": [10109,10111,10112,10115,10116,10117]
+      },
+      {
+        "name": "Powered Gloves",
+        "armor": [11367,11371,11374,11379,11380,11382,11389,11404,11406]
+      },
+      // Armor - Leg
+      // Armor - Foot
+      {
+        "name": "Rebel Long and Short Boots Package",
+        "armor": [11350,11354,11355,11357,11360,11363]
+      },
+      // Outfit + Armor - Head
+      {
+        "name": "Fallen Balthazar Package",
+        "outfit": [57],
+        "armor": [7782,7800,7804]
+      },
+      // Outfit + Armor - Shoulder
+      {
+        "name": "Ebon Vanguard Elite Outfit and Shoulders Package",
+        "outfit": [101],
+        "armor": [9577,9580,9581]
+      }
+    ]
+  },
+  // ------------------------------
+  // -------- WEAPON COMBO --------
+  // ------------------------------
+  {
+    "name": "weaponcombo",
+    "contents": [
+      {
+        "name": "Cavalier Axe",
+        "weapon": [6773,6749]
+      },
+      {
+        "name": "Cavalier Dagger",
+        "weapon": [6781,6751]
+      },
+      {
+        "name": "Cavalier Mace",
+        "weapon": [6766,6747]
+      },
+      {
+        "name": "Cavalier Pistol",
+        "weapon": [6762,6756]
+      },
+      {
+        "name": "Cavalier Scepter",
+        "weapon": [6782,6746]
+      },
+      {
+        "name": "Cavalier Sword",
+        "weapon": [6770,6772]
+      },
+      {
+        "name": "Cavalier Focus",
+        "weapon": [6769,6767]
+      },
+      {
+        "name": "Cavalier Shield",
+        "weapon": [6778,6768]
+      },
+      {
+        "name": "Cavalier Torch",
+        "weapon": [6776,6780]
+      },
+      {
+        "name": "Cavalier Warhorn",
+        "weapon": [6754,6777]
+      },
+      {
+        "name": "Cavalier Greatsword",
+        "weapon": [6755,6765]
+      },
+      {
+        "name": "Cavalier Hammer",
+        "weapon": [6761,6764]
+      },
+      {
+        "name": "Cavalier Longbow",
+        "weapon": [6748,6758]
+      },
+      {
+        "name": "Cavalier Rifle",
+        "weapon": [6750,6757]
+      },
+      {
+        "name": "Cavalier Short Bow",
+        "weapon": [6771,6753]
+      },
+      {
+        "name": "Cavalier Staff",
+        "weapon": [6763,6783]
+      },
+      {
+        "name": "God-Slayer Bow Pack",
+        "weapon": [7281,7284]
+      },
+      {
+        "name": "Rival Skies Package",
+        "weapon": [7450,7651]
+      },
+      {
+        "name": "Obsidian Dagger",
+        "weapon": [7921,7946]
+      },
+      {
+        "name": "Obsidian Shield",
+        "weapon": [7918,7928]
+      },
+      {
+        "name": "Obsidian Torch",
+        "weapon": [7933,7971]
+      },
+      {
+        "name": "Obsidian Staff",
+        "weapon": [7949,7953]
+      },
+      {
+        "name": "Mistforged Obsidian Dagger",
+        "weapon": [7926,7974]
+      },
+      {
+        "name": "Mistforged Obsidian Shield",
+        "weapon": [7958,7923]
+      },
+      {
+        "name": "Mistforged Obsidian Torch",
+        "weapon": [7978,7993]
+      },
+      {
+        "name": "Mistforged Obsidian Staff",
+        "weapon": [7961,7977]
+      },
+      {
+        "name": "Obsidian Mace",
+        "weapon": [8079,8074]
+      },
+      {
+        "name": "Obsidian Pistol",
+        "weapon": [8075,8078]
+      },
+      {
+        "name": "Obsidian Scepter",
+        "weapon": [8080,8065]
+      },
+      {
+        "name": "Obsidian Sword",
+        "weapon": [7962,7992]
+      },
+      {
+        "name": "Mistforged Obsidian Mace",
+        "weapon": [8077,8066]
+      },
+      {
+        "name": "Mistforged Obsidian Pistol",
+        "weapon": [8076,8070]
+      },
+      {
+        "name": "Mistforged Obsidian Scepter",
+        "weapon": [8067,8073]
+      },
+      {
+        "name": "Mistforged Obsidian Sword",
+        "weapon": [7951,7956]
+      },
+      {
+        "name": "Obsidian Focus",
+        "weapon": [8132,8136]
+      },
+      {
+        "name": "Obsidian Greatsword",
+        "weapon": [8131,8140]
+      },
+      {
+        "name": "Obsidian Hammer",
+        "weapon": [8127,8130]
+      },
+      {
+        "name": "Obsidian Longbow",
+        "weapon": [7936,7980]
+      },
+      {
+        "name": "Mistforged Obsidian Focus",
+        "weapon": [8129,8133]
+      },
+      {
+        "name": "Mistforged Obsidian Greatsword",
+        "weapon": [8137,8128]
+      },
+      {
+        "name": "Mistforged Obsidian Hammer",
+        "weapon": [8139,8134]
+      },
+      {
+        "name": "Mistforged Obsidian Longbow",
+        "weapon": [7935,7963]
+      },
+      {
+        "name": "Onyx Lion Axe",
+        "weapon": [8235,8280]
+      },
+      {
+        "name": "Onyx Lion Dagger",
+        "weapon": [8257,8273]
+      },
+      {
+        "name": "Onyx Lion Mace",
+        "weapon": [8255,8267]
+      },
+      {
+        "name": "Onyx Lion Pistol",
+        "weapon": [8276,8285]
+      },
+      {
+        "name": "Onyx Lion Scepter",
+        "weapon": [8250,8275]
+      },
+      {
+        "name": "Onyx Lion Sword",
+        "weapon": [8244,8271]
+      },
+      {
+        "name": "Onyx Lion Focus",
+        "weapon": [8246,8298]
+      },
+      {
+        "name": "Onyx Lion Shield",
+        "weapon": [8245,8295]
+      },
+      {
+        "name": "Onyx Lion Torch",
+        "weapon": [8251,8293]
+      },
+      {
+        "name": "Onyx Lion Warhorn",
+        "weapon": [8236,8248]
+      },
+      {
+        "name": "Onyx Lion Greatsword",
+        "weapon": [8243,8292]
+      },
+      {
+        "name": "Onyx Lion Hammer",
+        "weapon": [8256,8269]
+      },
+      {
+        "name": "Onyx Lion Longbow",
+        "weapon": [8242,8286]
+      },
+      {
+        "name": "Onyx Lion Rifle",
+        "weapon": [8262,8279]
+      },
+      {
+        "name": "Onyx Lion Short Bow",
+        "weapon": [8237,8272]
+      },
+      {
+        "name": "Onyx Lion Staff",
+        "weapon": [8268,8274]
+      },
+      {
+        "name": "Obsidian Axe",
+        "weapon": [8324,8302]
+      },
+      {
+        "name": "Obsidian Warhorn",
+        "weapon": [8310,8304]
+      },
+      {
+        "name": "Obsidian Rifle",
+        "weapon": [8306,8323]
+      },
+      {
+        "name": "Obsidian Short Bow",
+        "weapon": [8312,8308]
+      },
+      {
+        "name": "Mistforged Obsidian Axe",
+        "weapon": [8329,8325]
+      },
+      {
+        "name": "Mistforged Obsidian Warhorn",
+        "weapon": [8332,8301]
+      },
+      {
+        "name": "Mistforged Obsidian Rifle",
+        "weapon": [8318,8307]
+      },
+      {
+        "name": "Mistforged Obsidian Short Bow",
+        "weapon": [8314,8303]
+      },
+      {
+        "name": "Queensdale Academy Wand Set",
+        "weapon": [9594,9596]
+      },
+      {
+        "name": "Shrine Guardian Bow Pack",
+        "weapon": [9741,9748]
+      },
+      {
+        "name": "Infused Blades Package",
+        "weapon": [9842,9851]
+      },
+      {
+        "name": "Shiro's Legacy Blades Package",
+        "weapon": [10818,10824]
+      }
+    ]
+  },
+  // ---------------------------------
+  // -------- BACK ITEM COMBO --------
+  // ---------------------------------
+  {
+    "name": "backcombo",
+    "contents": [
+      {
+        "name": "Forest Archer Pack",
+        "back": [10156,10159,10161]
+      },
+      {
+        "name": "Decade's War",
+        "back": [11025,11027]
+      },
+      // Armor + Back Item
+      {
+        "name": "Battlelord's Cape Hood Combo",
+        "armor": [11143,11150,11151,11158,11162,11167],
+        "back": [11144]
+      },
+      {
+        "name": "Artisan Zharra's Cape and Hood Combo",
+        "armor": [11418,11419,11431],
+        "back": [11435]
+      },
+      // Weapon + Back Item
+      {
+        "name": "Fire-Breathing Package",
+        "weapon": [8010],
+        "back": [8021]
+      }
+    ]
+  },
+  // --------------------------------------
+  // -------- GATHERING TOOL COMBO --------
+  // --------------------------------------
+  {
+    "name": "toolcombo",
+    "contents": [
+      {
+        "name": "Infinite Unbound Magic Gathering Tools",
+        "tool": [8087,8093,8097]
+      },
+      {
+        "name": "Infinite Volatile Magic Gathering Tools",
+        "tool": [8142,8156,8161]
+      },
+      {
+        "name": "Infinite Spirits of the Wild Gathering Tools",
+        "tool": [9718,9720,9721]
+      },
+      {
+        "name": "Infinite Herald of Aurene Gathering Tools",
+        "tool": [11410,11412,11414]
+      },
+      {
+        "name": "Infinite Vermilion Gathering Tools",
+        "tool": [11597,11720,11802]
+      }
+    ]
+  },
+  // ------------------------------
+  // -------- GLIDER COMBO --------
+  // ------------------------------
+  {
+    "name": "glidercombo",
+    "contents": [
+      // Back Item + Glider
+      {
+        "name": "Black Wings Glider Combo",
+        "back": [5878],
+        "glider": [1]
+      },
+      {
+        "name": "White Wings Glider Combo",
+        "back": [6035],
+        "glider": [3]
+      },
+      {
+        "name": "Bat Wings Glider Combo",
+        "back": [6412],
+        "glider": [6]
+      },
+      {
+        "name": "Golden Feather Wings Glider Combo",
+        "back": [6527],
+        "glider": [8]
+      },
+      {
+        "name": "The Ascension",
+        "back": [6561],
+        "glider": [11]
+      },
+      {
+        "name": "Hawk Wings Glider Combo",
+        "back": [6615],
+        "glider": [13]
+      },
+      {
+        "name": "Wings of Love Backpack Glider Combo",
+        "back": [8627],
+        "glider": [15]
+      },
+      {
+        "name": "Ad Infinitum",
+        "back": [6344],
+        "glider": [22]
+      },
+      {
+        "name": "Macaw Wings Glider Combo",
+        "back": [6744],
+        "glider": [23]
+      },
+      {
+        "name": "Moth Wings Glider Combo",
+        "back": [6774],
+        "glider": [24]
+      },
+      {
+        "name": "Shining Blade Backpack Glider Combo",
+        "back": [6854],
+        "glider": [28]
+      },
+      {
+        "name": "Mursaat Backpack Glider Combo",
+        "back": [6965],
+        "glider": [30]
+      },
+      {
+        "name": "Crystalline Dragon Wings Backpack Glider Combo",
+        "back": [7004],
+        "glider": [34]
+      },
+      {
+        "name": "Super Holo-Copter Glider Combo",
+        "back": [7200],
+        "glider": [40]
+      },
+      {
+        "name": "Vine-Touched Destroyer Glider Combo",
+        "back": [7202],
+        "glider": [42]
+      },
+      {
+        "name": "Warbringer",
+        "back": [7272],
+        "glider": [43]
+      },
+      {
+        "name": "Dynamics Exo-Suit Glider Backpack Combo",
+        "back": [7285],
+        "glider": [45]
+      },
+      {
+        "name": "Feathers of the Zephyr Package",
+        "back": [7308],
+        "glider": [47]
+      },
+      {
+        "name": "Largos Fin Backpack Glider Combo",
+        "back": [7661],
+        "glider": [48]
+      },
+      {
+        "name": "Branded Wing Backpack and Glider Combo",
+        "back": [7743],
+        "glider": [51]
+      },
+      {
+        "name": "Desert King Backpack and Glider Combo",
+        "back": [8184],
+        "glider": [52]
+      },
+      {
+        "name": "Wild Magic Backpack Glider Combo",
+        "back": [7811],
+        "glider": [54]
+      },
+      {
+        "name": "Griffon Hatchling Package",
+        "back": [7996],
+        "glider": [56]
+      },
+      {
+        "name": "Forged Backpack and Glider Combo",
+        "back": [8038],
+        "glider": [57]
+      },
+      {
+        "name": "Jeweled Scarab Package",
+        "back": [8141],
+        "glider": [60]
+      },
+      {
+        "name": "Scaled Dragon Wings Backpack Glider Combo",
+        "back": [8434],
+        "glider": [63]
+      },
+      {
+        "name": "Etherbound Package",
+        "back": [8638],
+        "glider": [68]
+      },
+      {
+        "name": "Legion Jetpack Backpack Glider Combo",
+        "back": [8647],
+        "glider": [69]
+      },
+      {
+        "name": "Branded Relic Package",
+        "back": [8725],
+        "glider": [70]
+      },
+      {
+        "name": "Dragon Fireworks Package",
+        "back": [8807],
+        "glider": [72]
+      },
+      {
+        "name": "Lightbinder Blades Backpack and Glider Combo",
+        "back": [8883],
+        "glider": [75]
+      },
+      {
+        "name": "Watchwork Wings Package",
+        "back": [8915],
+        "glider": [77]
+      },
+      {
+        "name": "Citadel Assault Backpack and Glider Combo",
+        "back": [8930],
+        "glider": [79]
+      },
+      {
+        "name": "Skeletal Wings Backpack and Glider Combo",
+        "back": [8979],
+        "glider": [80]
+      },
+      {
+        "name": "Shiverpeaks Hunter Backpack Glider Combo",
+        "back": [9021],
+        "glider": [81]
+      },
+      {
+        "name": "Starlight Wings Backpack and Glider Combo",
+        "back": [9061],
+        "glider": [83]
+      },
+      {
+        "name": "Alchemist Backpack and Glider Combo",
+        "back": [9211],
+        "glider": [85]
+      },
+      {
+        "name": "Dreamwalker Wings Backpack and Glider Combo",
+        "back": [9298],
+        "glider": [86]
+      },
+      {
+        "name": "Draconic Wings Backpack and Glider Combo",
+        "back": [9364],
+        "glider": [87]
+      },
+      {
+        "name": "Tanglewood Backpack and Glider Combo",
+        "back": [9450],
+        "glider": [89]
+      },
+      {
+        "name": "Spellforged Glider Backpack Combo",
+        "back": [9474],
+        "glider": [90]
+      },
+      {
+        "name": "Vermilion Wings Backpack and Glider Combo",
+        "back": [9481],
+        "glider": [91]
+      },
+      {
+        "name": "Stained Glass Wings Backpack and Glider Combo",
+        "back": [9617],
+        "glider": [92]
+      },
+      {
+        "name": "Nightspeaker Wings Backpack and Glider Combo",
+        "back": [9659],
+        "glider": [93]
+      },
+      {
+        "name": "Volcanic Backpack and Glider Combo",
+        "back": [9671],
+        "glider": [94]
+      },
+      {
+        "name": "Shimmering Aurora Cape and Glider Combo",
+        "back": [9732],
+        "glider": [96]
+      },
+      {
+        "name": "Shrine Guardian Backpack and Glider Combo",
+        "back": [9769],
+        "glider": [95]
+      },
+      {
+        "name": "Eternal Mandala Backpack and Glider Combo",
+        "back": [9893],
+        "glider": [98]
+      },
+      {
+        "name": "Giant Shuriken Backpack and Glider Combo",
+        "back": [9969],
+        "glider": [99]
+      },
+      {
+        "name": "Seraph Wings Backpack and Glider Combo",
+        "back": [9992],
+        "glider": [100]
+      },
+      {
+        "name": "Cute Demon Wings Backpack and Glider Combo",
+        "back": [9999],
+        "glider": [101]
+      },
+      {
+        "name": "Elemental Fury Backpack and Glider Combo",
+        "back": [10010],
+        "glider": [102]
+      },
+      {
+        "name": "Archdemon Wings Backpack and Glider Combo",
+        "back": [10045],
+        "glider": [103]
+      },
+      {
+        "name": "Cute Angel Wings Backpack and Glider Combo",
+        "back": [10079],
+        "glider": [105]
+      },
+      {
+        "name": "Sylph Wings Backpack and Glider Combo",
+        "back": [10105],
+        "glider": [106]
+      },
+      {
+        "name": "Venombite Wings Backpack and Glider Combo",
+        "back": [10149],
+        "glider": [107]
+      },
+      {
+        "name": "Aurene Wings Backpack and Glider Combo",
+        "back": [10200],
+        "glider": [108]
+      },
+      {
+        "name": "Lunar Backpack and Glider Combo",
+        "back": [10219],
+        "glider": [109]
+      },
+      {
+        "name": "Canthan Spiritualist Backpack and Glider Combo",
+        "back": [10503],
+        "glider": [110]
+      },
+      {
+        "name": "Thousand Seas Gourd Backpack and Glider Combo",
+        "back": [10805],
+        "glider": [111]
+      },
+      {
+        "name": "Jade Tech Wings Backpack and Glider Combo",
+        "back": [10823],
+        "glider": [112]
+      },
+      {
+        "name": "New Kaineng Cape and Glider Combo",
+        "back": [10888],
+        "glider": [114]
+      },
+      {
+        "name": "Jade Tech Jetpack Backpack and Glider Combo",
+        "back": [10941],
+        "glider": [116]
+      },
+      {
+        "name": "Water Dragon Wings Backpack and Glider Combo",
+        "back": [10912],
+        "glider": [117]
+      },
+      {
+        "name": "Umbral Serpent Backpack and Glider Combo",
+        "back": [11051],
+        "glider": [118]
+      },
+      {
+        "name": "Lightning Wings Backpack and Glider Combo",
+        "back": [11125],
+        "glider": [119]
+      },
+      {
+        "name": "Canthan Phoenix Wings Backpack and Glider Combo",
+        "back": [11246],
+        "glider": [120]
+      },
+      {
+        "name": "Equinox Wings Backpack and Glider Combo",
+        "back": [11253],
+        "glider": [121]
+      },
+      {
+        "name": "Undying Shackles Cape and Glider Combo",
+        "back": [11400],
+        "glider": [122]
+      },
+      {
+        "name": "Cuddly Cat Backpack and Glider Combo",
+        "back": [11428],
+        "glider": [123]
+      },
+      {
+        "name": "Infernal Envoy Backpack and Glider Combo",
+        "back": [11780],
+        "glider": [125]
+      },
+      {
+        "name": "Sorcerer's Cape Backpack and Glider Combo",
+        "back": [11716],
+        "glider": [126]
+      }
+    ]
+  },
+  // -----------------------------
+  // -------- MOUNT COMBO --------
+  // -----------------------------
+  {
+    "name": "mountcombo",
+    "contents": [
+      // Mount
+      {
+        "name": "Spooky Mounts Pack",
+        "mount": [13,14,15,16,19]
+      },
+      {
+        "name": "Cozy Wintersday Mounts Pack",
+        "mount": [52,53,56,58,60]
+      },
+      {
+        "name": "Branded Mounts Pack",
+        "mount": [66,68,70,75,76]
+      },
+      {
+        "name": "Exo-Suit Mounts Pack",
+        "mount": [92,93,94,95,96]
+      },
+      {
+        "name": "Awakened Mounts Pack",
+        "mount": [98,99,100,101,102]
+      },
+      {
+        "name": "Mad Realm Mounts Pack",
+        "mount": [130,131,132,133,134]
+      },
+      {
+        "name": "Shiverpeaks Mount Pack",
+        "mount": [153,154,155,157,158]
+      },
+      {
+        "name": "Mad King Mounts Pack",
+        "mount": [222,223,224,225,226]
+      },
+      // Mount - Raptor
+      {
+        "name": "Amnytas Feathered Raptors Mounts Pack",
+        "mount": []
+      },
+      // Mount - Springer
+      {
+        "name": "Canthan Cuckoo Springer Mounts Pack",
+        "mount": [422,423,426]
+      },
+      // Mount - Skimmer
+      // Mount - Jackal
+      {
+        "name": "Canthan Vulpine Jackal Mounts Pack",
+        "mount": [429,430,431]
+      },
+      // Mount - Griffon
+      {
+        "name": "Canthan Tigris Griffon Mounts Pack",
+        "mount": [432,433,434]
+      },
+      // Mount - Roller Beetle
+      // Mount - Warclaw
+      {
+        "name": "Warclaw Frontline Mount Pack",
+        "mount": [162,163,164,165,166]
+      },
+      {
+        "name": "Canthan Nian Warclaw Mounts Pack",
+        "mount": [437,440,441]
+      },
+      // Mount - Skyscale
+      {
+        "name": "Skyscale Ascension Mounts Pack",
+        "mount": [193,194,195,196,198]
+      },
+      {
+        "name": "Canthan Noble Skyscale Mounts Pack",
+        "mount": [443,444,445]
+      },
+      // Mount - Siege Turtle
+      {
+        "name": "Siege Turtle Advent Mounts Pack",
+        "mount": [415,416,417,418,419]
+      }
+    ]
+  },
+  // -------------------------------
+  // -------- NOVELTY COMBO --------
+  // -------------------------------
+  {
+    "name": "noveltycombo",
+    "contents": [
+      // Weapon + Novelty - Musical Instrument
+      {
+        "name": "The Minstrel",
+        "weapon": [4672],
+        "novelty": [41]
+      },
+      {
+        "name": "Verdarach",
+        "weapon": [8145],
+        "novelty": [34]
+      },
+      // Outfit + Novelty - Toy
+      {
+        "name": "Cook's Outfit",
+        "outfit": [1],
+        "novelty": [226]
+      },
+      {
+        "name": "Mad King's Outfit",
+        "outfit": [2],
+        "novelty": [111]
+      },
+      {
+        "name": "Pirate Captain's Outfit",
+        "outfit": [3],
+        "novelty": [128]
+      },
+      {
+        "name": "Witch's Outfit",
+        "outfit": [4],
+        "novelty": [265]
+      },
+      {
+        "name": "Executioner's Outfit",
+        "outfit": [5],
+        "novelty": [78]
+      },
+      {
+        "name": "Bloody Prince's Outfit",
+        "outfit": [6],
+        "novelty": [144]
+      },
+      {
+        "name": "Fancy Winter Outfit",
+        "outfit": [7],
+        "novelty": [126]
+      },
+      // Glider + Novelty - Chair
+      {
+        "name": "Inquest Overseer Chair Glider Combo",
+        "glider": [73],
+        "novelty": [286]
+      },
+      {
+        "name": "Wandering Cloud Chair and Glider Combo",
+        "glider": [97],
+        "novelty": [311]
+      },
+      // Glider + Novelty - Toy
+      {
+        "name": "Electromagnetic Ascender-Descender Glider Combo",
+        "glider": [16],
+        "novelty": [27]
+      },
+      {
+        "name": "Magic Carpet Glider Combo",
+        "glider": [44],
+        "novelty": [16]
+      },
+      {
+        "name": "Riding Broom and Glider Combo",
+        "glider": [53],
+        "novelty": [20]
+      },
+      {
+        "name": "Shattered Bloodstone Ascender Combo",
+        "glider": [39],
+        "novelty": [33]
+      }
+    ]
+  },
+  // ---------------------------------
+  // -------- MINIATURE COMBO --------
+  // ---------------------------------
+  {
+    "name": "minicombo",
+    "contents": [
+      {
+        "name": "Mini Super Trio",
+        "mini": [133,134,135]
+      },
+      {
+        "name": "Mini Super Trio—World 2",
+        "mini": [185,186,187]
+      },
+      {
+        "name": "Mini Super Trio—Series 3",
+        "mini": [455,456,459]
+      },
+      {
+        "name": "Mini Super Trio—Series 4",
+        "mini": [676,677,678]
+      },
+      // Back Item + Miniature
+      {
+        "name": "Ghoul Backpack and Mini Set",
+        "back": [6431],
+        "mini": [342]
+      },
+      // Mount + Miniature
+      {
+        "name": "Kryptis Skyscale",
+        "mount": [],
+        "mini": [905]
+      }
+    ]
+  },
+  // -----------------------------
+  // -------- EMOTE COMBO --------
+  // -----------------------------
+  {
+    "name": "emotecombo",
+    "contents": [
+      // Novelty + Emote
+      {
+        "name": "How to Dance, Volume 1",
+        "novelty": [44],
+        "emote": ["geargrind","shuffle","step"]
+      }
+    ]
+  }
+]
