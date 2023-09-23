@@ -1,6 +1,7 @@
 jQuery.fn.exists = function(){return this.length>0;}
 
 var metadata;
+var lookup = {};
 var buyPriceLookup = {};
 var sellPriceLookup = {};
 var counts = {};
@@ -20,6 +21,7 @@ var acquisitionMethods = [
     { id: "event", name: "Event Reward", category: "General"},
     { id: "adventure", name: "Adventure Reward", category: "General"},
     { id: "quest", name: "Quest Reward", category: "General"},
+    { id: "linked", name: "Linked", category: "General"},
 
     { id: "birthday1", name: "First Birthday Gift", category: "Anniversary"},
     //{ id: "birthday2", name: "Second Birthday Gift", category: "Anniversary"},
@@ -242,6 +244,7 @@ function buildSite(data) {
     for (o of metadata.images) {
         imageMap[o.name] = o.image;
     }
+    buildLookup();
     setupMenuItems();
     buildSections();
     updateCounts();
@@ -319,6 +322,20 @@ function buildSite(data) {
         $('#filter-by-acquisition')[0].value = filter;
         $('#filter-by-container')[0].value = container;
         updateFilter(filter, container)
+    }
+}
+
+function buildLookup() {
+    for (type of metadata.items) {
+        var typeId = type.id;
+        lookup[typeId] = {};
+        for (category of type.categories) {
+            for (group of category.groups) {
+                for (unlock of group.content) {
+                    lookup[typeId][unlock.id] = unlock
+                }
+            }
+        }
     }
 }
 
@@ -1056,13 +1073,17 @@ function displayItem(itemData, id) {
         var source = itemData.sources[i];
         result += ' ' + source;
     }
+    if (itemData.linkedUnlocks.length > 0) {
+        result += ' linked';
+    }
+    
     if ($.inArray('winterberries', itemData.sources) != -1 || $.inArray('unboundmagic', itemData.sources) != -1 || $.inArray('petrifiedwood', itemData.sources) != -1 || $.inArray('fireorchidblossom', itemData.sources) != -1 || $.inArray('orrianpearl', itemData.sources) != -1 || $.inArray('jadeshard', itemData.sources) != -1) {
         result += ' ls3';
     }
     if ($.inArray('volatilemagic', itemData.sources) != -1 || $.inArray('kralkatiteore', itemData.sources) != -1 || $.inArray('difluorite', itemData.sources) != -1 || $.inArray('swimspeedinfusion', itemData.sources) != -1 || $.inArray('mistonium', itemData.sources) != -1 || $.inArray('inscribedshard', itemData.sources) != -1 || $.inArray('brandedmass', itemData.sources) != -1 || $.inArray('mistbornmote', itemData.sources) != -1) {
         result += ' ls4';
     }
-  if ($.inArray('hatchedchili', itemData.sources) != -1 || $.inArray('eternaliceshard', itemData.sources) != -1 || $.inArray('eitriteingot', itemData.sources) != -1 || $.inArray('tyriandefenseseal', itemData.sources) != -1) {
+    if ($.inArray('hatchedchili', itemData.sources) != -1 || $.inArray('eternaliceshard', itemData.sources) != -1 || $.inArray('eitriteingot', itemData.sources) != -1 || $.inArray('tyriandefenseseal', itemData.sources) != -1) {
         result += ' ibs';
     }
     if (itemData.image) {
@@ -1087,6 +1108,9 @@ function addSources(itemData) {
         if ($.inArray(method.id, itemData.sources) != -1 && !method.hideOnIcon) {
             result += '<span class="source-icon base-icon ' + method.id + '-icon" role="img" aria-label="' + method.name + '"></span>';
         }
+    }
+    if (itemData.linkedUnlocks.length > 0) {
+        result += '<span class="base-icon linked-icon" role="img" aria-label="Linked"></span>';
     }
     return result;
 }
@@ -1198,6 +1222,27 @@ function showDetails(item, prefix) {
             entry += '</div>';
             vendorList.append(entry);
         }
+        
+        if (item.linkedUnlocks.length > 0) {
+            $('#' + prefix + 'selection-unlocked-by').toggle(true);
+            var unlockedByList = $('#' + prefix + 'selection-unlocked-by-list');
+            unlockedByList.empty();
+            for (unlockLink of item.linkedUnlocks) {
+                var unlockData = lookup[unlockLink.type][unlockLink.id]
+                var link = $('<div><a href="" target="_blank">' + unlockData.name + '</a></div>')
+                link.click(function(item, prefix) {
+                    showDetails(item, prefix);
+                    return false;
+                }.bind(null, unlockData, prefix));
+                unlockedByList.append(link)
+            }
+        } else {
+            $('#' + prefix + 'selection-unlocked-by').toggle(false);
+        }
+        
+        var unlockedByList = $('#' + prefix + 'selection-vendor-list');
+        vendorList.empty();
+        
     }
 
     if (item.priceData) {

@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css?42">
+        <link rel="stylesheet" href="css/main.css?43">
         <link id="rendering-mode" rel="stylesheet"  href="css/icon-mode.css">
         <link id="rendering-theme" rel="stylesheet"  href="css/light-theme.css">
 
@@ -173,6 +173,12 @@
                          <h3>Vendors</h3>
                          <div id="selection-vendor-list"></div>
                         </div>
+                        <div id="selection-linked-unlocks">
+                          <div id="selection-unlocked-by">
+                            <h3>Unlocked With</h3>
+                            <div id="selection-unlocked-by-list"></div>
+                          </div>
+                        </div>
                         <div id="selection-acquisition-methods">
                             <h3>Acquisition</h3>
                         </div>
@@ -229,6 +235,12 @@
                             <div id="analyse-selection-vendors">
                              <h3>Vendors</h3>
                              <div id="analyse-selection-vendor-list"></div>
+                            </div>
+                            <div id="analyse-selection-linked-unlocks">
+                              <div id="analyse-selection-unlocked-by">
+                                <h3>Unlocked With</h3>
+                                <div id="analyse-selection-unlocked-by-list"></div>
+                              </div>
                             </div>
                             <div id="analyse-selection-acquisition-methods">
                                 <h3>Acquisition</h3>
@@ -459,7 +471,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
-        <script src="js/main.js?81"></script>
+        <script src="js/main.js?82"></script>
 
         <script type="text/javascript">
             if ($(window.location.hash).length) {

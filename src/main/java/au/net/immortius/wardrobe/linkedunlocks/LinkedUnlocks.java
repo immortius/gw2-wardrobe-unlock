@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.Set;
 
 public class LinkedUnlocks {
-    String name = "";
-    Map<String, Set<String>> primary = new LinkedHashMap<>();
-    Map<String, Set<String>> secondary = new LinkedHashMap<>();
+    public String name = "";
+    public Map<String, Set<String>> unlocks = new LinkedHashMap<>();
 }

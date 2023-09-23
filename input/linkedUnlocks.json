@@ -1,3889 +1,6125 @@
 [
   {
-    "name": "Aurene\u0027s Crystalline Diadem",
-    "primary": {
-      "armor": [
-        "9452",
-        "9464",
-        "9458"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Decade\u0027s Path",
-    "primary": {
-      "armor": [
-        "10976",
-        "10978",
-        "10994"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Hellfire Vambraces",
-    "primary": {
-      "armor": [
-        "771",
-        "772",
-        "778"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Trapper Leggings",
-    "primary": {
-      "armor": [
-        "365",
-        "325"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sun-Touched Zephyrite Gloves",
-    "primary": {
-      "armor": [
-        "8212",
-        "8190",
-        "8196"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Astral Ward Heavy Helm",
-    "primary": {
-      "armor": [
-        "11591",
-        "11755",
-        "11688"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Mask of the Wanderer",
-    "primary": {
-      "armor": [
-        "1252",
-        "1251",
-        "1250"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Radiant Vambraces",
-    "primary": {
-      "armor": [
-        "761",
-        "766",
-        "759"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Bestial Tides Tattoo Chest",
-    "primary": {
-      "armor": [
-        "11286",
-        "11346",
-        "11304"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Deathly Shoulderpads",
-    "primary": {
-      "armor": [
-        "1126",
-        "1136",
-        "1120"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "White Mantle Elite Guard Mask",
-    "primary": {
-      "armor": [
-        "7102",
-        "7106",
-        "7073"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Dominion Tribune Manica",
-    "primary": {
-      "armor": [
-        "9503",
-        "9523",
-        "9526"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Festive Hat",
-    "primary": {
-      "armor": [
-        "975",
-        "1021",
-        "1020"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Island Shoulder",
-    "primary": {
-      "armor": [
-        "1137",
-        "1143",
-        "1141"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Etherbound Gauntlets",
-    "primary": {
-      "armor": [
-        "8666",
-        "8678",
-        "8669"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Holographic Dragon Helm",
-    "primary": {
-      "armor": [
-        "8817",
-        "8829",
-        "8826"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Blood Legion Soldier Helm",
-    "primary": {
-      "armor": [
-        "9436",
-        "9429",
-        "9439"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Powered Left Glove",
-    "primary": {
-      "armor": [
-        "11404",
-        "11380",
-        "11382"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Mask of the Night",
-    "primary": {
-      "armor": [
-        "2029",
-        "2028",
-        "2027"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Processing Line Control Bracers",
-    "primary": {
-      "armor": [
-        "11317",
-        "11275",
-        "11326"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Pointed Ears",
-    "primary": {
-      "armor": [
-        "11032",
-        "11047",
-        "11035"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rebel Short Boots",
-    "primary": {
-      "armor": [
-        "11360",
-        "11350",
-        "11355"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Foefire Mantle",
-    "primary": {
-      "armor": [
-        "7263",
-        "7267",
-        "7258"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Astral Ward Medium Gloves",
-    "primary": {
-      "armor": [
-        "11751",
-        "11775",
-        "11722"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fuzzy Panda Hat",
-    "primary": {
-      "armor": [
-        "1029",
-        "1039",
-        "1040"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Salvaged Forged Helm",
-    "primary": {
-      "armor": [
-        "7821",
-        "7814",
-        "7806"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Jade Prosthesis Gauntlet",
-    "primary": {
-      "armor": [
-        "10880",
-        "10897",
-        "10896"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Hellfire Mantle",
-    "primary": {
-      "armor": [
-        "775",
-        "768",
-        "779"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Stately Circlet",
-    "primary": {
-      "armor": [
-        "894",
-        "858"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Racing Scarf",
-    "primary": {
-      "armor": [
-        "8505",
-        "8507",
-        "8508"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Martial Artist\u0027s Footwraps",
-    "primary": {
-      "armor": [
-        "10404",
-        "10527",
-        "10300"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lawless Shoulders",
-    "primary": {
-      "armor": [
-        "1368",
-        "1362",
-        "1371"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Astral Ward Light Boots",
-    "primary": {
-      "armor": [
-        "11712",
-        "11580",
-        "11692"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Slippers of Dhuum",
-    "primary": {
-      "armor": [
-        "7855",
-        "7887",
-        "7868"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Peg-Leg Boots",
-    "primary": {
-      "armor": [
-        "6905",
-        "6916",
-        "6909"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Prayer Bead Wraps",
-    "primary": {
-      "armor": [
-        "10584",
-        "10454",
-        "10641"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lion Captain\u0027s Mantle",
-    "primary": {
-      "armor": [
-        "11122",
-        "11132",
-        "11102"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Bloodstone Visage",
-    "primary": {
-      "armor": [
-        "6891",
-        "6893",
-        "6896"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rebel Long Boots",
-    "primary": {
-      "armor": [
-        "11363",
-        "11354",
-        "11357"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Chaos Gloves",
-    "primary": {
-      "armor": [
-        "6700",
-        "6732",
-        "6727"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Mask of the Crown",
-    "primary": {
-      "armor": [
-        "1190",
-        "1192",
-        "1191"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sanctified Boots",
-    "primary": {
-      "armor": [
-        "11713",
-        "11654",
-        "11777"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Adventurer\u0027s Scarf",
-    "primary": {
-      "armor": [
-        "5482",
-        "5484",
-        "5480"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Jackal Rune Greaves",
-    "primary": {
-      "armor": [
-        "8002",
-        "8003",
-        "8000"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Water Dragon Legguards",
-    "primary": {
-      "armor": [
-        "10965",
-        "10950",
-        "10952"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Foefire Chestguard",
-    "primary": {
-      "armor": [
-        "10123",
-        "10125",
-        "10126"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Water Dragon Pauldrons",
-    "primary": {
-      "armor": [
-        "10925",
-        "10916",
-        "10906"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Salvaged Forged Gloves",
-    "primary": {
-      "armor": [
-        "7819",
-        "7817",
-        "7827"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Radiant Warhelm",
-    "primary": {
-      "armor": [
-        "762",
-        "765",
-        "758"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Deathly Bull\u0027s Shoulderpads",
-    "primary": {
-      "armor": [
-        "1123",
-        "1131",
-        "1119"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Stylish Shoes",
-    "primary": {
-      "armor": [
-        "9733",
-        "9757",
-        "9779"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Astral Ward Heavy Leggings",
-    "primary": {
-      "armor": [
-        "11694",
-        "11585",
-        "11687"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Maguuma\u0027s Mantle",
-    "primary": {
-      "armor": [
-        "9224",
-        "9222",
-        "9226"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Corsair Turban",
-    "primary": {
-      "armor": [
-        "7873",
-        "7844",
-        "7836"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Reality Rig Mk2",
-    "primary": {
-      "armor": [
-        "10781",
-        "10792",
-        "10782"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Mask of the Queen",
-    "primary": {
-      "armor": [
-        "1189",
-        "1188",
-        "1187"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Skyscale Horns",
-    "primary": {
-      "armor": [
-        "8841",
-        "8822",
-        "8816"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Arcane Spellweaver\u0027s Hat",
-    "primary": {
-      "armor": [
-        "11540",
-        "11532",
-        "11534"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Seven Reapers Legguards",
-    "primary": {
-      "armor": [
-        "11080",
-        "11068",
-        "11059"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Enchanted Winter Antlers",
-    "primary": {
-      "armor": [
-        "8545",
-        "8524",
-        "8518"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Toxic Armguard",
-    "primary": {
-      "armor": [
-        "1330",
-        "1329",
-        "1328"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Dragonscale Headdress",
-    "primary": {
-      "armor": [
-        "6955",
-        "6968",
-        "6969"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Celebration Hat",
-    "primary": {
-      "armor": [
-        "1038",
-        "1036",
-        "1034"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Nightfury",
-    "primary": {
-      "armor": [
-        "6252",
-        "6306",
-        "6161"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Reality Rig Mk3",
-    "primary": {
-      "armor": [
-        "10778",
-        "10779",
-        "10770"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Heavy Special Ops Helmet",
-    "primary": {
-      "armor": [
-        "11327",
-        "11338",
-        "11315"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Mask of the Silent",
-    "primary": {
-      "armor": [
-        "1049",
-        "1051",
-        "1050"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Zephyrite Headband",
-    "primary": {
-      "armor": [
-        "11559",
-        "11562",
-        "11567"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Maguuma\u0027s Grasp",
-    "primary": {
-      "armor": [
-        "9228",
-        "9239",
-        "9219"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Leather Straps Cingulum",
-    "primary": {
-      "armor": [
-        "11529",
-        "11541",
-        "11522"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rift Hunter Heavy Leggings",
-    "primary": {
-      "armor": [
-        "11806",
-        "11684",
-        "11788"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Special Ops Gloves",
-    "primary": {
-      "armor": [
-        "11329",
-        "11332",
-        "11269"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Foefire Wraps",
-    "primary": {
-      "armor": [
-        "7275",
-        "7251",
-        "7262"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fuzzy Aurene Hat",
-    "primary": {
-      "armor": [
-        "7286",
-        "7280",
-        "7283"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ice Reaver Gauntlets",
-    "primary": {
-      "armor": [
-        "9657",
-        "9655",
-        "9660"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Light Monastery Coat",
-    "primary": {
-      "armor": [
-        "10703",
-        "10695",
-        "10754"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Maguuma\u0027s Treads",
-    "primary": {
-      "armor": [
-        "9343",
-        "9339",
-        "9350"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Water Dragon Crest",
-    "primary": {
-      "armor": [
-        "10969",
-        "10992",
-        "10993"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fused Shoulders",
-    "primary": {
-      "armor": [
-        "10811",
-        "10815",
-        "10828"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Pyre Circlet",
-    "primary": {
-      "armor": [
-        "10160",
-        "10155",
-        "10157"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Zephyrite Traveling Boots",
-    "primary": {
-      "armor": [
-        "10107",
-        "10103",
-        "10102"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Xera\u0027s Mask",
-    "primary": {
-      "armor": [
-        "6841",
-        "6842",
-        "6845"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Brawler\u0027s Silk Jacket",
-    "primary": {
-      "armor": [
-        "11505",
-        "11499",
-        "11479"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Bat Wings Headpiece",
-    "primary": {
-      "armor": [
-        "9640",
-        "9651",
-        "9649"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Vermilion Vambraces",
-    "primary": {
-      "armor": [
-        "10839",
-        "10838",
-        "10840"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Glint\u0027s Gaze Mask",
-    "primary": {
-      "armor": [
-        "5746",
-        "5747",
-        "5748"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Baroque Mask",
-    "primary": {
-      "armor": [
-        "820",
-        "821",
-        "822"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Helm of Dhuum",
-    "primary": {
-      "armor": [
-        "7872",
-        "7889",
-        "7905"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Adventurer\u0027s Spectacles",
-    "primary": {
-      "armor": [
-        "5481",
-        "5485",
-        "5488"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fuzzy Quaggan Hat with Bow",
-    "primary": {
-      "armor": [
-        "1006",
-        "1005",
-        "1004"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Heavenly Medium Bracers",
-    "primary": {
-      "armor": [
-        "814",
-        "815",
-        "816"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Special Ops Pants",
-    "primary": {
-      "armor": [
-        "11272",
-        "11263",
-        "11348"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Trapper Gloves",
-    "primary": {
-      "armor": [
-        "363",
-        "329"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Monastery Shoulderpads",
-    "primary": {
-      "armor": [
-        "10726",
-        "10492",
-        "10243"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Visage of Nourys",
-    "primary": {
-      "armor": [
-        "11658",
-        "11569",
-        "11714"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Radiant Legguards",
-    "primary": {
-      "armor": [
-        "5591",
-        "5587",
-        "5590"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Dragon Horns",
-    "primary": {
-      "armor": [
-        "8277",
-        "8297",
-        "8260"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Water Dragon Chestguard",
-    "primary": {
-      "armor": [
-        "10920",
-        "10964",
-        "10928"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Martial Artist\u0027s Handwraps",
-    "primary": {
-      "armor": [
-        "10299",
-        "10386",
-        "10578"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Decade\u0027s Heart",
-    "primary": {
-      "armor": [
-        "10986",
-        "11031",
-        "10996"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Jackal Rune Gauntlets",
-    "primary": {
-      "armor": [
-        "8001",
-        "7998",
-        "7999"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Water Dragon Greaves",
-    "primary": {
-      "armor": [
-        "10932",
-        "10953",
-        "10927"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Wide Rim Glasses",
-    "primary": {
-      "armor": [
-        "982",
-        "986",
-        "987"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Tempest Gaze",
-    "primary": {
-      "armor": [
-        "9789",
-        "9792",
-        "9790"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Freezie Crown",
-    "primary": {
-      "armor": [
-        "7994",
-        "7960",
-        "7979"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Top Hat",
-    "primary": {
-      "armor": [
-        "1003",
-        "1002",
-        "1001"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Eggnog Helmet",
-    "primary": {
-      "armor": [
-        "7970",
-        "7991",
-        "7966"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Unicorn Horn",
-    "primary": {
-      "armor": [
-        "10846",
-        "10853",
-        "10852"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Searing Chain Gloves",
-    "primary": {
-      "armor": [
-        "8986",
-        "8967",
-        "8989"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Raven Helm",
-    "primary": {
-      "armor": [
-        "8497",
-        "8463",
-        "8488"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Light Monastery Shoes",
-    "primary": {
-      "armor": [
-        "10419",
-        "10580",
-        "10365"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Hellfire Cuirass",
-    "primary": {
-      "armor": [
-        "5593",
-        "5595",
-        "5597"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Exalted Shoulders",
-    "primary": {
-      "armor": [
-        "8621",
-        "8617",
-        "8618"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Confessor Caudecus\u0027s Mask",
-    "primary": {
-      "armor": [
-        "7139",
-        "7119",
-        "7074"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Jade Tech Visor",
-    "primary": {
-      "armor": [
-        "11285",
-        "11262",
-        "11330"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Etherbound Pauldrons",
-    "primary": {
-      "armor": [
-        "8960",
-        "8961",
-        "8959"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sport Sunglasses",
-    "primary": {
-      "armor": [
-        "990",
-        "991",
-        "989"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Artisan Zharra\u0027s Hood",
-    "primary": {
-      "armor": [
-        "11418",
-        "11419",
-        "11431"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Holographic Dragon Gloves",
-    "primary": {
-      "armor": [
-        "10021",
-        "10026",
-        "10028"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Wind-Blessed Zephyrite Gloves",
-    "primary": {
-      "armor": [
-        "8211",
-        "8193",
-        "8209"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Monastery Leggings",
-    "primary": {
-      "armor": [
-        "10400",
-        "10237",
-        "10314"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shattered Bloodstone Circlet",
-    "primary": {
-      "armor": [
-        "6900",
-        "6888",
-        "6899"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sun-Blessed Vision",
-    "primary": {
-      "armor": [
-        "9546",
-        "9544",
-        "9555"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sanctified Gloves",
-    "primary": {
-      "armor": [
-        "11767",
-        "11643",
-        "11796"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Zephyrite Shawl",
-    "primary": {
-      "armor": [
-        "10923",
-        "10959",
-        "10930"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Watchknight Greaves",
-    "primary": {
-      "armor": [
-        "10901",
-        "10905",
-        "10904"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Aviator Sunglasses",
-    "primary": {
-      "armor": [
-        "992",
-        "993",
-        "994"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sailor\u0027s Beanie",
-    "primary": {
-      "armor": [
-        "1008",
-        "1019",
-        "1028"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Powered Right Glove",
-    "primary": {
-      "armor": [
-        "11371",
-        "11374",
-        "11379"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fire Bloom Tattoo Chest",
-    "primary": {
-      "armor": [
-        "11270",
-        "11331",
-        "11314"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Iron\u0027s Tailpipe Bandana",
-    "primary": {
-      "armor": [
-        "1992",
-        "1991",
-        "2011"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shadow of the Dragon Gloves",
-    "primary": {
-      "armor": [
-        "5817",
-        "5822",
-        "5823"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sanctified Shoulders",
-    "primary": {
-      "armor": [
-        "11727",
-        "11749",
-        "11667"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Seven Reapers Breastplate",
-    "primary": {
-      "armor": [
-        "11110",
-        "11113",
-        "11134"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Dusk and Dawn Shoulders",
-    "primary": {
-      "armor": [
-        "9796",
-        "9820",
-        "9817"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ice Reaver Greaves",
-    "primary": {
-      "armor": [
-        "9794",
-        "9831",
-        "9823"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Glowing Crimson Mask",
-    "primary": {
-      "armor": [
-        "831",
-        "832",
-        "826"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Winged Headpiece",
-    "primary": {
-      "armor": [
-        "8068",
-        "8071",
-        "8072"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Water Dragon Helm",
-    "primary": {
-      "armor": [
-        "10967",
-        "10924",
-        "10918"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Etherbound Legguard",
-    "primary": {
-      "armor": [
-        "11010",
-        "11001",
-        "11011"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Magical Unicorn Horn",
-    "primary": {
-      "armor": [
-        "10854",
-        "10865",
-        "10862"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Seven Reapers Grasps",
-    "primary": {
-      "armor": [
-        "9376",
-        "9447",
-        "9384"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fire Bloom Tattoo Legs",
-    "primary": {
-      "armor": [
-        "11328",
-        "11302",
-        "11259"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ringmaster\u0027s Hat",
-    "primary": {
-      "armor": [
-        "1007",
-        "1010",
-        "1009"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fuzzy Bear Hat",
-    "primary": {
-      "armor": [
-        "1017",
-        "1033",
-        "1032"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Glacial Gauntlets",
-    "primary": {
-      "armor": [
-        "7032",
-        "7006",
-        "7028"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sworn Zaishen Helm Skin",
-    "primary": {
-      "armor": [
-        "7241",
-        "7233",
-        "7225"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Pyre Horns",
-    "primary": {
-      "armor": [
-        "10019",
-        "10020",
-        "10038"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Grasping Gaze Shoulders",
-    "primary": {
-      "armor": [
-        "10128",
-        "10134",
-        "10122"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Left Oni Arm",
-    "primary": {
-      "armor": [
-        "10594",
-        "10230",
-        "10631"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fire God\u0027s Light Vambraces",
-    "primary": {
-      "armor": [
-        "800",
-        "802",
-        "804"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Etherbound Chestplate",
-    "primary": {
-      "armor": [
-        "11030",
-        "10980",
-        "11029"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Zephyrite Sun Helm",
-    "primary": {
-      "armor": [
-        "1206",
-        "1205",
-        "1207"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Minister\u0027s Hat",
-    "primary": {
-      "armor": [
-        "11261",
-        "11276",
-        "11343"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Immortal Light Halo",
-    "primary": {
-      "armor": [
-        "9575",
-        "9574",
-        "9570"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Holographic Dragon Greaves",
-    "primary": {
-      "armor": [
-        "10866",
-        "10851",
-        "10875"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Decade\u0027s Reach",
-    "primary": {
-      "armor": [
-        "10981",
-        "11005",
-        "10974"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Reading Glasses",
-    "primary": {
-      "armor": [
-        "1014",
-        "1013",
-        "1011"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Hellfire Legguards",
-    "primary": {
-      "armor": [
-        "5594",
-        "5596",
-        "5598"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Hellfire Greaves",
-    "primary": {
-      "armor": [
-        "774",
-        "777",
-        "769"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Martial Artist\u0027s Headband",
-    "primary": {
-      "armor": [
-        "10292",
-        "10608",
-        "10565"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Twisted Watchwork Shoulders",
-    "primary": {
-      "armor": [
-        "1077",
-        "1075",
-        "1072"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Winter\u0027s Presence",
-    "primary": {
-      "armor": [
-        "6583",
-        "6586",
-        "6577"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lambent Battlelord\u0027s Hood Helm",
-    "primary": {
-      "armor": [
-        "11150",
-        "11143",
-        "11158"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Raven Ceremonial Gown",
-    "primary": {
-      "armor": [
-        "9148",
-        "9164",
-        "9143"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Etherbound Helm",
-    "primary": {
-      "armor": [
-        "10987",
-        "10997",
-        "11000"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Light Fused Gauntlets",
-    "primary": {
-      "armor": [
-        "2017",
-        "2015",
-        "2012"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Holographic Dragon Shoulders",
-    "primary": {
-      "armor": [
-        "9457",
-        "9472",
-        "9460"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Mantle of Dhuum",
-    "primary": {
-      "armor": [
-        "7871",
-        "7895",
-        "7911"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Magnus\u0027s Right Eye Patch",
-    "primary": {
-      "armor": [
-        "840",
-        "842",
-        "843"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Aurene\u0027s Crystalline Pauldrons",
-    "primary": {
-      "armor": [
-        "11182",
-        "11192",
-        "11188"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Leather Straps Chestpiece",
-    "primary": {
-      "armor": [
-        "11539",
-        "11530",
-        "11523"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rift Hunter Heavy Shoulders",
-    "primary": {
-      "armor": [
-        "11812",
-        "11638",
-        "11681"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Savage Scale Chest",
-    "primary": {
-      "armor": [
-        "11129",
-        "11133",
-        "11106"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fuzzy Hylek Hat",
-    "primary": {
-      "armor": [
-        "972",
-        "973",
-        "974"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Deathly Avian Shoulderpads",
-    "primary": {
-      "armor": [
-        "1128",
-        "1116",
-        "1121"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Serpentine Tattoo Chest",
-    "primary": {
-      "armor": [
-        "11349",
-        "11308",
-        "11267"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Scarlet\u0027s Grasp",
-    "primary": {
-      "armor": [
-        "792",
-        "793",
-        "790"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Wizard\u0027s Hat",
-    "primary": {
-      "armor": [
-        "1037",
-        "1035",
-        "1031"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Toxic Shoulderpad",
-    "primary": {
-      "armor": [
-        "1327",
-        "1326",
-        "1325"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lion\u0027s Mask",
-    "primary": {
-      "armor": [
-        "5851",
-        "5854",
-        "5855"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Slumbering Mistforged Glorious Hero\u0027s Raiment",
-    "primary": {
-      "armor": [
-        "8517",
-        "8480"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Southsun Mask",
-    "primary": {
-      "armor": [
-        "996",
-        "997",
-        "998"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lawless Helmet",
-    "primary": {
-      "armor": [
-        "1367",
-        "1365",
-        "1364"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Kuunavang Festival Mask",
-    "primary": {
-      "armor": [
-        "10656",
-        "10549",
-        "10455"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Aviator Cap",
-    "primary": {
-      "armor": [
-        "1012",
-        "1023",
-        "1030"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Serpentine Tattoo Legs",
-    "primary": {
-      "armor": [
-        "11305",
-        "11291",
-        "11307"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Conjured Starlight Hat",
-    "primary": {
-      "armor": [
-        "9695",
-        "9699",
-        "9707"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Reality Rig Mk1",
-    "primary": {
-      "armor": [
-        "10790",
-        "10795",
-        "10797"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Revered Shrine Guardian Ears",
-    "primary": {
-      "armor": [
-        "8751",
-        "8743",
-        "8718"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Inventor\u0027s Sunglasses",
-    "primary": {
-      "armor": [
-        "1018",
-        "971",
-        "967"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Luminous Skyscale Horns",
-    "primary": {
-      "armor": [
-        "8814",
-        "8834",
-        "8837"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Antitoxin Gloves",
-    "primary": {
-      "armor": [
-        "11043",
-        "11034",
-        "11046"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ebon Vanguard Elite Shoulders Skin",
-    "primary": {
-      "armor": [
-        "9577",
-        "9580",
-        "9581"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Gauntlets of the Obedient",
-    "primary": {
-      "armor": [
-        "7077",
-        "7121",
-        "7115"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lightning Aspect Eye",
-    "primary": {
-      "armor": [
-        "8205",
-        "8217",
-        "8195"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Scarlet\u0027s Veil",
-    "primary": {
-      "armor": [
-        "830",
-        "827",
-        "838"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Astral Ward Light Shoulders",
-    "primary": {
-      "armor": [
-        "11637",
-        "11628",
-        "11786"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Decade\u0027s Saga",
-    "primary": {
-      "armor": [
-        "10982",
-        "11026",
-        "10995"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Slumbering Mistforged Glorious Hero\u0027s Brigandine",
-    "primary": {
-      "armor": [
-        "8542",
-        "8496"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Phantom\u0027s Hood",
-    "primary": {
-      "armor": [
-        "1026",
-        "1025",
-        "995"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Vermilion Pauldrons",
-    "primary": {
-      "armor": [
-        "10822",
-        "10814",
-        "10817"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rift Hunter Heavy Boots",
-    "primary": {
-      "armor": [
-        "11789",
-        "11606",
-        "11740"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Festive Winter Hood",
-    "primary": {
-      "armor": [
-        "9731",
-        "9742",
-        "9765"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Clawing Shadow Gloves",
-    "primary": {
-      "armor": [
-        "11065",
-        "11053",
-        "11069"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Adventurer\u0027s Mantle",
-    "primary": {
-      "armor": [
-        "5483",
-        "5486",
-        "5487"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Infused Aurora Gloves",
-    "primary": {
-      "armor": [
-        "11768",
-        "11725",
-        "11728"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ice Reaver Helm",
-    "primary": {
-      "armor": [
-        "9997",
-        "9996",
-        "9989"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Mystical Dragon Horns",
-    "primary": {
-      "armor": [
-        "10867",
-        "10847",
-        "10849"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lawless Boots",
-    "primary": {
-      "armor": [
-        "1369",
-        "1361",
-        "1370"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Bestial Tides Tattoo Legs",
-    "primary": {
-      "armor": [
-        "11258",
-        "11279",
-        "11336"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sun Aspect Eye",
-    "primary": {
-      "armor": [
-        "8208",
-        "8228",
-        "8230"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rogue Mask",
-    "primary": {
-      "armor": [
-        "941",
-        "859"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Seven Reapers Pauldrons",
-    "primary": {
-      "armor": [
-        "9894",
-        "9890",
-        "9891"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shatterspark Shoulders",
-    "primary": {
-      "armor": [
-        "10008",
-        "10007",
-        "10006"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Scarlet\u0027s Spaulders",
-    "primary": {
-      "armor": [
-        "2035",
-        "2034",
-        "2032"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lawless Gloves",
-    "primary": {
-      "armor": [
-        "1366",
-        "1373",
-        "1372"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Immortal Fire Ring",
-    "primary": {
-      "armor": [
-        "10117",
-        "10116",
-        "10115"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Enchanted Dragon Crown",
-    "primary": {
-      "armor": [
-        "8234",
-        "8253",
-        "8238"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ice Reaver Chestguard",
-    "primary": {
-      "armor": [
-        "9998",
-        "10002",
-        "10004"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Immortal Fire Halo",
-    "primary": {
-      "armor": [
-        "9586",
-        "9578",
-        "9582"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Pyre Gloves",
-    "primary": {
-      "armor": [
-        "8873",
-        "8858",
-        "8866"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Aetherblade Blindfold",
-    "primary": {
-      "armor": [
-        "10471",
-        "10330",
-        "10357"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Decade\u0027s Star",
-    "primary": {
-      "armor": [
-        "11009",
-        "11008",
-        "11028"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Grinning Tahkayun Mask",
-    "primary": {
-      "armor": [
-        "11290",
-        "11266",
-        "11323"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Slumbering Mistforged Glorious Hero\u0027s Breastplate",
-    "primary": {
-      "armor": [
-        "8476",
-        "8531"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Wind-Touched Zephyrite Gloves",
-    "primary": {
-      "armor": [
-        "8191",
-        "8207",
-        "8229"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lunar Rabbit Helm",
-    "primary": {
-      "armor": [
-        "11221",
-        "11231",
-        "11216"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Saltspray Dragon Scarf",
-    "primary": {
-      "armor": [
-        "10528",
-        "10261",
-        "10500"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shadow of the Dragon Shoulders",
-    "primary": {
-      "armor": [
-        "5816",
-        "5820",
-        "5815"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Devil Horns",
-    "primary": {
-      "armor": [
-        "1027",
-        "1000",
-        "999"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Mask of the Jubilee",
-    "primary": {
-      "armor": [
-        "1186",
-        "1185",
-        "1184"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Angler Vest",
-    "primary": {
-      "armor": [
-        "10291",
-        "10484",
-        "10643"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Decade\u0027s End",
-    "primary": {
-      "armor": [
-        "11012",
-        "10991",
-        "11018"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ghost of the Deep Spaulders",
-    "primary": {
-      "armor": [
-        "10044",
-        "10043",
-        "10046"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Replica Oni Arms",
-    "primary": {
-      "armor": [
-        "11293",
-        "11309",
-        "11288"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shadow of the Dragon Helmet",
-    "primary": {
-      "armor": [
-        "5818",
-        "5819",
-        "5821"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Heavy Special Ops Harness",
-    "primary": {
-      "armor": [
-        "11318",
-        "11334",
-        "11337"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Pirate Corsair Hat",
-    "primary": {
-      "armor": [
-        "6931",
-        "6915",
-        "6914"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Scrivener\u0027s Knowledge Shoulders",
-    "primary": {
-      "armor": [
-        "11409",
-        "11411",
-        "11413"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rift Hunter Medium Coat",
-    "primary": {
-      "armor": [
-        "11657",
-        "11586",
-        "11630"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Heavy Plate Helm",
-    "primary": {
-      "armor": [
-        "892",
-        "857"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Immortal Light Ring",
-    "primary": {
-      "armor": [
-        "10109",
-        "10112",
-        "10111"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Embellished Rabbit Vest",
-    "primary": {
-      "armor": [
-        "11212",
-        "11205",
-        "11226"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Astral Ward Heavy Coat",
-    "primary": {
-      "armor": [
-        "11593",
-        "11742",
-        "11732"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Glowing Green Mask",
-    "primary": {
-      "armor": [
-        "5698",
-        "5699",
-        "5700"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lightning-Blessed Zephyrite Gloves",
-    "primary": {
-      "armor": [
-        "8198",
-        "8204",
-        "8214"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Immortal Fire Nimbus",
-    "primary": {
-      "armor": [
-        "10081",
-        "10097",
-        "10074"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Racing Goggles",
-    "primary": {
-      "armor": [
-        "8510",
-        "8506",
-        "8514"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Right Oni Arm",
-    "primary": {
-      "armor": [
-        "10516",
-        "10290",
-        "10488"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ghostly Racing Scarf",
-    "primary": {
-      "armor": [
-        "9005",
-        "8984",
-        "8995"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Special Ops Captain\u0027s Helmet",
-    "primary": {
-      "armor": [
-        "11319",
-        "11294",
-        "11342"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Diver\u0027s Breather Mask",
-    "primary": {
-      "armor": [
-        "8123",
-        "8117",
-        "8120"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ice Crown",
-    "primary": {
-      "armor": [
-        "7045",
-        "7038",
-        "7040"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shrine Guardian Ears",
-    "primary": {
-      "armor": [
-        "8685",
-        "8741",
-        "8727"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rift Hunter Medium Helm",
-    "primary": {
-      "armor": [
-        "11816",
-        "11653",
-        "11763"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fuzzy Quaggan Hat",
-    "primary": {
-      "armor": [
-        "1016",
-        "1015",
-        "966"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Sun-Blessed Zephyrite Gloves",
-    "primary": {
-      "armor": [
-        "8199",
-        "8227",
-        "8202"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Swaggering Hat",
-    "primary": {
-      "armor": [
-        "7358",
-        "7625",
-        "7381"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Abaddon\u0027s Mask",
-    "primary": {
-      "armor": [
-        "7336",
-        "7326",
-        "7309"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Golden Racing Scarf",
-    "primary": {
-      "armor": [
-        "8511",
-        "8516",
-        "8504"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shatterspark Gloves",
-    "primary": {
-      "armor": [
-        "10018",
-        "10031",
-        "10016"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fuzzy Cat Hat",
-    "primary": {
-      "armor": [
-        "976",
-        "977",
-        "978"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Raven Gloves",
-    "primary": {
-      "armor": [
-        "10193",
-        "10167",
-        "10212"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Radiant Greaves",
-    "primary": {
-      "armor": [
-        "760",
-        "764",
-        "757"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Medium Houndskin Mantle",
-    "primary": {
-      "armor": [
-        "7211",
-        "7210",
-        "7213"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Radiant Mantle",
-    "primary": {
-      "armor": [
-        "763",
-        "756",
-        "767"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lunar Rabbit Stompers",
-    "primary": {
-      "armor": [
-        "11228",
-        "11200",
-        "11224"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Foefire Legwraps",
-    "primary": {
-      "armor": [
-        "10120",
-        "10133",
-        "10127"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rift Warden Helm",
-    "primary": {
-      "armor": [
-        "11063",
-        "11097",
-        "11078"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rime-Rimmed Mariner\u0027s Rebreather",
-    "primary": {
-      "armor": [
-        "9083",
-        "9071",
-        "9063"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Pirate Hook",
-    "primary": {
-      "armor": [
-        "6910",
-        "6943",
-        "6903"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Light Special Ops Pauldrons",
-    "primary": {
-      "armor": [
-        "11287",
-        "11264",
-        "11335"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Seven Reapers Greaves",
-    "primary": {
-      "armor": [
-        "10106",
-        "10098",
-        "10100"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Savage Scale Loincloth",
-    "primary": {
-      "armor": [
-        "11142",
-        "11100",
-        "11124"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Braham\u0027s Wolfblood Pauldrons",
-    "primary": {
-      "armor": [
-        "7066",
-        "7071",
-        "7064"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Grenth Hood",
-    "primary": {
-      "armor": [
-        "1224",
-        "1223",
-        "1222"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Water Dragon Gauntlets",
-    "primary": {
-      "armor": [
-        "10943",
-        "10907",
-        "10951"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Light Dragonscale Epaulets",
-    "primary": {
-      "armor": [
-        "6970",
-        "6951",
-        "6964"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Seven Reapers Helm",
-    "primary": {
-      "armor": [
-        "10129",
-        "10131",
-        "10124"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Icelord\u0027s Medium Diadem",
-    "primary": {
-      "armor": [
-        "823",
-        "824",
-        "825"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Raven Ceremonial Hood",
-    "primary": {
-      "armor": [
-        "9158",
-        "9177",
-        "9162"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Heavy Monastery Headband",
-    "primary": {
-      "armor": [
-        "10705",
-        "10483",
-        "10530"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Cat-Ear Hood",
-    "primary": {
-      "armor": [
-        "9613",
-        "9616",
-        "9614"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Exalted Gloves",
-    "primary": {
-      "armor": [
-        "8121",
-        "8122",
-        "8115"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Gas Mask",
-    "primary": {
-      "armor": [
-        "2026",
-        "2025",
-        "2024"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Virtual Box",
-    "primary": {
-      "armor": [
-        "9355",
-        "9349",
-        "9357"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Foefire Mask",
-    "primary": {
-      "armor": [
-        "10182",
-        "10198",
-        "10211"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Storm Gloves",
-    "primary": {
-      "armor": [
-        "8187",
-        "8185",
-        "8186"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Raven Ceremonial Garb",
-    "primary": {
-      "armor": [
-        "9168",
-        "9182",
-        "9193"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Primal Tiger Hood",
-    "primary": {
-      "armor": [
-        "10216",
-        "10175",
-        "10168"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Wintersday Snow Boots",
-    "primary": {
-      "armor": [
-        "11171",
-        "11184",
-        "11179"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Light Mursaat Brogans",
-    "primary": {
-      "armor": [
-        "7297",
-        "7299",
-        "7316"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Winter Antlers",
-    "primary": {
-      "armor": [
-        "8543",
-        "8544",
-        "8538"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Panscopic Monocle",
-    "primary": {
-      "armor": [
-        "202",
-        "2053"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ice Reaver Pauldrons",
-    "primary": {
-      "armor": [
-        "9554",
-        "9551",
-        "9559"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fallen Balthazar Helm",
-    "primary": {
-      "armor": [
-        "7782",
-        "7800",
-        "7804"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Zephyrite Lightning Helm",
-    "primary": {
-      "armor": [
-        "1210",
-        "1209",
-        "1208"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Heavy Monastery Gloves",
-    "primary": {
-      "armor": [
-        "10338",
-        "10293",
-        "10718"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Wintersday Earmuffs",
-    "primary": {
-      "armor": [
-        "1024",
-        "1022",
-        "988"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Holographic Dragon Plate",
-    "primary": {
-      "armor": [
-        "11484",
-        "11486",
-        "11510"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shackles of Madness",
-    "primary": {
-      "armor": [
-        "6273",
-        "6487",
-        "6414"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Immortal Light Nimbus",
-    "primary": {
-      "armor": [
-        "10080",
-        "10094",
-        "10086"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Wreath of Cooperation",
-    "primary": {
-      "armor": [
-        "5541",
-        "5542",
-        "5543"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Raven Ceremonial Bracers",
-    "primary": {
-      "armor": [
-        "9139",
-        "9180",
-        "9186"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Powered Gloves",
-    "primary": {
-      "armor": [
-        "11406",
-        "11367",
-        "11389"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Virtual Box (Off)",
-    "primary": {
-      "armor": [
-        "9337",
-        "9335",
-        "9352"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Shoulder Scarf",
-    "primary": {
-      "armor": [
-        "5793",
-        "5794",
-        "5795"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Prototype Assault Knight Helm",
-    "primary": {
-      "armor": [
-        "11153",
-        "11152",
-        "11155"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Dragon\u0027s Eye Circlet",
-    "primary": {
-      "armor": [
-        "8278",
-        "8289",
-        "8296"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fuzzy Leopard Hat",
-    "primary": {
-      "armor": [
-        "970",
-        "968",
-        "969"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Monocle",
-    "primary": {
-      "armor": [
-        "2019",
-        "2018",
-        "2020"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Charr War Mask",
-    "primary": {
-      "armor": [
-        "9421",
-        "9443",
-        "9428"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Magnus\u0027s Left Eye Patch",
-    "primary": {
-      "armor": [
-        "841",
-        "833",
-        "839"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Leather Aquabreather",
-    "primary": {
-      "armor": [
-        "854",
-        "2023",
-        "855",
-        "2022",
-        "856",
-        "2021"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Battlelord\u0027s Hood Helm",
-    "primary": {
-      "armor": [
-        "11151",
-        "11162",
-        "11167"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Icy Demon Horns",
-    "primary": {
-      "armor": [
-        "10173",
-        "10201",
-        "10214"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Benthic Waterbreather",
-    "primary": {
-      "armor": [
-        "1995",
-        "1994",
-        "1993"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Swaggering Boots",
-    "primary": {
-      "armor": [
-        "10052",
-        "10055",
-        "10057"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Dragon\u0027s Mask",
-    "primary": {
-      "armor": [
-        "5850",
-        "5852",
-        "5853"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Karka Helm",
-    "primary": {
-      "armor": [
-        "6493",
-        "6249",
-        "6217"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Zephyrite Wind Helm",
-    "primary": {
-      "armor": [
-        "1204",
-        "1203",
-        "1202"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Raven Mantle",
-    "primary": {
-      "armor": [
-        "8469",
-        "8500",
-        "8491"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Noble Pointed Ears",
-    "primary": {
-      "armor": [
-        "11041",
-        "11040",
-        "11038"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Svanir Gauntlets",
-    "primary": {
-      "armor": [
-        "7941",
-        "7985",
-        "7975"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Stag Helm",
-    "primary": {
-      "armor": [
-        "1227",
-        "1226",
-        "1225"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Racing Helmet",
-    "primary": {
-      "armor": [
-        "8512",
-        "8513",
-        "8515"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Horns of the Dragon",
-    "primary": {
-      "armor": [
-        "2016",
-        "2014",
-        "2013"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Handguards of Dhuum",
-    "primary": {
-      "armor": [
-        "7874",
-        "7854",
-        "7848"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Elegant Silk Scarf",
-    "primary": {
-      "armor": [
-        "11229",
-        "11199",
-        "11223"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Bunny Ears",
-    "primary": {
-      "armor": [
-        "983",
-        "984",
-        "985"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Glowing Purple Mask",
-    "primary": {
-      "armor": [
-        "8677",
-        "8657",
-        "8670"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Aurene\u0027s Crystalline Claws",
-    "primary": {
-      "armor": [
-        "9960",
-        "9961",
-        "9954"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Jade Tech Eye Piece",
-    "primary": {
-      "armor": [
-        "10833",
-        "10835",
-        "10834"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Furrocious Cat Ears",
-    "primary": {
-      "armor": [
-        "6972",
-        "6975",
-        "6974"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Angler Hat",
-    "primary": {
-      "armor": [
-        "10255",
-        "10312",
-        "10377"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Infused Aurora Chestguard",
-    "primary": {
-      "armor": [
-        "11560",
-        "11561",
-        "11564"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Hellfire Warhelm",
-    "primary": {
-      "armor": [
-        "770",
-        "773",
-        "776"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Wind Aspect Eye",
-    "primary": {
-      "armor": [
-        "8222",
-        "8213",
-        "8194"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Canthan Sun Hat",
-    "primary": {
-      "armor": [
-        "10761",
-        "10765",
-        "10764"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Fireworks Spaulders",
-    "primary": {
-      "armor": [
-        "9111",
-        "9101",
-        "9108"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Witch\u0027s Hat",
-    "primary": {
-      "armor": [
-        "980",
-        "981",
-        "979"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Royal Pointed Ears",
-    "primary": {
-      "armor": [
-        "11045",
-        "11044",
-        "11039"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Rift Hunter Heavy Gloves",
-    "primary": {
-      "armor": [
-        "11759",
-        "11572",
-        "11665"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Ice Reaver Legguards",
-    "primary": {
-      "armor": [
-        "10000",
-        "10001",
-        "10003"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Radiant Cuirass",
-    "primary": {
-      "armor": [
-        "5592",
-        "5588",
-        "5589"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Heavy Special Ops Boots",
-    "primary": {
-      "armor": [
-        "11260",
-        "11289",
-        "11345"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Etherbound Greaves",
-    "primary": {
-      "armor": [
-        "8672",
-        "8659",
-        "8658"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Aether Visor",
-    "primary": {
-      "armor": [
-        "10836",
-        "10842",
-        "10841"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Invisible Stompers",
-    "primary": {
-      "armor": [
-        "6484",
-        "6456",
-        "6283"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lightning-Touched Zephyrite Gloves",
-    "primary": {
-      "armor": [
-        "8189",
-        "8210",
-        "8226"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Lunar-Enchanted Prowler Gloves",
-    "primary": {
-      "armor": [
-        "9876",
-        "9845",
-        "9880"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Foefire Greaves",
-    "primary": {
-      "armor": [
-        "7725",
-        "7726",
-        "7748"
-      ]
-    },
-    "secondary": {}
-  },
-  {
-    "name": "Diviner Gloves",
-    "primary": {
-      "armor": [
-        "1662",
-        "2265"
-      ]
-    },
-    "secondary": {}
+    "name": "armorweights",
+    "contents": [
+      {
+        "name": "Aurene\u0027s Crystalline Diadem",
+        "unlocks": {
+          "armor": [
+            "9452",
+            "9464",
+            "9458"
+          ]
+        }
+      },
+      {
+        "name": "Decade\u0027s Path",
+        "unlocks": {
+          "armor": [
+            "10976",
+            "10978",
+            "10994"
+          ]
+        }
+      },
+      {
+        "name": "Hellfire Vambraces",
+        "unlocks": {
+          "armor": [
+            "771",
+            "772",
+            "778"
+          ]
+        }
+      },
+      {
+        "name": "Sun-Touched Zephyrite Gloves",
+        "unlocks": {
+          "armor": [
+            "8212",
+            "8190",
+            "8196"
+          ]
+        }
+      },
+      {
+        "name": "Astral Ward Heavy Helm",
+        "unlocks": {
+          "armor": [
+            "11591",
+            "11755",
+            "11688"
+          ]
+        }
+      },
+      {
+        "name": "Mask of the Wanderer",
+        "unlocks": {
+          "armor": [
+            "1252",
+            "1251",
+            "1250"
+          ]
+        }
+      },
+      {
+        "name": "Radiant Vambraces",
+        "unlocks": {
+          "armor": [
+            "761",
+            "766",
+            "759"
+          ]
+        }
+      },
+      {
+        "name": "Bestial Tides Tattoo Chest",
+        "unlocks": {
+          "armor": [
+            "11286",
+            "11346",
+            "11304"
+          ]
+        }
+      },
+      {
+        "name": "Deathly Shoulderpads",
+        "unlocks": {
+          "armor": [
+            "1126",
+            "1136",
+            "1120"
+          ]
+        }
+      },
+      {
+        "name": "White Mantle Elite Guard Mask",
+        "unlocks": {
+          "armor": [
+            "7102",
+            "7106",
+            "7073"
+          ]
+        }
+      },
+      {
+        "name": "Dominion Tribune Manica",
+        "unlocks": {
+          "armor": [
+            "9503",
+            "9523",
+            "9526"
+          ]
+        }
+      },
+      {
+        "name": "Festive Hat",
+        "unlocks": {
+          "armor": [
+            "975",
+            "1021",
+            "1020"
+          ]
+        }
+      },
+      {
+        "name": "Medium Island Shoulder",
+        "unlocks": {
+          "armor": [
+            "1137",
+            "1143",
+            "1141"
+          ]
+        }
+      },
+      {
+        "name": "Etherbound Gauntlets",
+        "unlocks": {
+          "armor": [
+            "8666",
+            "8678",
+            "8669"
+          ]
+        }
+      },
+      {
+        "name": "Holographic Dragon Helm",
+        "unlocks": {
+          "armor": [
+            "8817",
+            "8829",
+            "8826"
+          ]
+        }
+      },
+      {
+        "name": "Blood Legion Soldier Helm",
+        "unlocks": {
+          "armor": [
+            "9436",
+            "9429",
+            "9439"
+          ]
+        }
+      },
+      {
+        "name": "Powered Left Glove",
+        "unlocks": {
+          "armor": [
+            "11404",
+            "11380",
+            "11382"
+          ]
+        }
+      },
+      {
+        "name": "Mask of the Night",
+        "unlocks": {
+          "armor": [
+            "2029",
+            "2028",
+            "2027"
+          ]
+        }
+      },
+      {
+        "name": "Processing Line Control Bracers",
+        "unlocks": {
+          "armor": [
+            "11317",
+            "11275",
+            "11326"
+          ]
+        }
+      },
+      {
+        "name": "Pointed Ears",
+        "unlocks": {
+          "armor": [
+            "11032",
+            "11047",
+            "11035"
+          ]
+        }
+      },
+      {
+        "name": "Rebel Short Boots",
+        "unlocks": {
+          "armor": [
+            "11360",
+            "11350",
+            "11355"
+          ]
+        }
+      },
+      {
+        "name": "Foefire Mantle",
+        "unlocks": {
+          "armor": [
+            "7263",
+            "7267",
+            "7258"
+          ]
+        }
+      },
+      {
+        "name": "Astral Ward Medium Gloves",
+        "unlocks": {
+          "armor": [
+            "11751",
+            "11775",
+            "11722"
+          ]
+        }
+      },
+      {
+        "name": "Fuzzy Panda Hat",
+        "unlocks": {
+          "armor": [
+            "1029",
+            "1039",
+            "1040"
+          ]
+        }
+      },
+      {
+        "name": "Salvaged Forged Helm",
+        "unlocks": {
+          "armor": [
+            "7821",
+            "7814",
+            "7806"
+          ]
+        }
+      },
+      {
+        "name": "Jade Prosthesis Gauntlet",
+        "unlocks": {
+          "armor": [
+            "10880",
+            "10897",
+            "10896"
+          ]
+        }
+      },
+      {
+        "name": "Hellfire Mantle",
+        "unlocks": {
+          "armor": [
+            "775",
+            "768",
+            "779"
+          ]
+        }
+      },
+      {
+        "name": "Racing Scarf",
+        "unlocks": {
+          "armor": [
+            "8505",
+            "8507",
+            "8508"
+          ]
+        }
+      },
+      {
+        "name": "Martial Artist\u0027s Footwraps",
+        "unlocks": {
+          "armor": [
+            "10404",
+            "10527",
+            "10300"
+          ]
+        }
+      },
+      {
+        "name": "Lawless Shoulders",
+        "unlocks": {
+          "armor": [
+            "1368",
+            "1362",
+            "1371"
+          ]
+        }
+      },
+      {
+        "name": "Astral Ward Light Boots",
+        "unlocks": {
+          "armor": [
+            "11712",
+            "11580",
+            "11692"
+          ]
+        }
+      },
+      {
+        "name": "Slippers of Dhuum",
+        "unlocks": {
+          "armor": [
+            "7855",
+            "7887",
+            "7868"
+          ]
+        }
+      },
+      {
+        "name": "Peg-Leg Boots",
+        "unlocks": {
+          "armor": [
+            "6905",
+            "6916",
+            "6909"
+          ]
+        }
+      },
+      {
+        "name": "Prayer Bead Wraps",
+        "unlocks": {
+          "armor": [
+            "10584",
+            "10454",
+            "10641"
+          ]
+        }
+      },
+      {
+        "name": "Lion Captain\u0027s Mantle",
+        "unlocks": {
+          "armor": [
+            "11122",
+            "11132",
+            "11102"
+          ]
+        }
+      },
+      {
+        "name": "Bloodstone Visage",
+        "unlocks": {
+          "armor": [
+            "6891",
+            "6893",
+            "6896"
+          ]
+        }
+      },
+      {
+        "name": "Rebel Long Boots",
+        "unlocks": {
+          "armor": [
+            "11363",
+            "11354",
+            "11357"
+          ]
+        }
+      },
+      {
+        "name": "Chaos Gloves",
+        "unlocks": {
+          "armor": [
+            "6700",
+            "6732",
+            "6727"
+          ]
+        }
+      },
+      {
+        "name": "Mask of the Crown",
+        "unlocks": {
+          "armor": [
+            "1190",
+            "1192",
+            "1191"
+          ]
+        }
+      },
+      {
+        "name": "Sanctified Boots",
+        "unlocks": {
+          "armor": [
+            "11713",
+            "11654",
+            "11777"
+          ]
+        }
+      },
+      {
+        "name": "Adventurer\u0027s Scarf",
+        "unlocks": {
+          "armor": [
+            "5482",
+            "5484",
+            "5480"
+          ]
+        }
+      },
+      {
+        "name": "Jackal Rune Greaves",
+        "unlocks": {
+          "armor": [
+            "8002",
+            "8003",
+            "8000"
+          ]
+        }
+      },
+      {
+        "name": "Water Dragon Legguards",
+        "unlocks": {
+          "armor": [
+            "10965",
+            "10950",
+            "10952"
+          ]
+        }
+      },
+      {
+        "name": "Foefire Chestguard",
+        "unlocks": {
+          "armor": [
+            "10123",
+            "10125",
+            "10126"
+          ]
+        }
+      },
+      {
+        "name": "Water Dragon Pauldrons",
+        "unlocks": {
+          "armor": [
+            "10925",
+            "10916",
+            "10906"
+          ]
+        }
+      },
+      {
+        "name": "Salvaged Forged Gloves",
+        "unlocks": {
+          "armor": [
+            "7819",
+            "7817",
+            "7827"
+          ]
+        }
+      },
+      {
+        "name": "Radiant Warhelm",
+        "unlocks": {
+          "armor": [
+            "762",
+            "765",
+            "758"
+          ]
+        }
+      },
+      {
+        "name": "Deathly Bull\u0027s Shoulderpads",
+        "unlocks": {
+          "armor": [
+            "1123",
+            "1131",
+            "1119"
+          ]
+        }
+      },
+      {
+        "name": "Stylish Shoes",
+        "unlocks": {
+          "armor": [
+            "9733",
+            "9757",
+            "9779"
+          ]
+        }
+      },
+      {
+        "name": "Astral Ward Heavy Leggings",
+        "unlocks": {
+          "armor": [
+            "11694",
+            "11585",
+            "11687"
+          ]
+        }
+      },
+      {
+        "name": "Maguuma\u0027s Mantle",
+        "unlocks": {
+          "armor": [
+            "9224",
+            "9222",
+            "9226"
+          ]
+        }
+      },
+      {
+        "name": "Medium Corsair Turban",
+        "unlocks": {
+          "armor": [
+            "7873",
+            "7844",
+            "7836"
+          ]
+        }
+      },
+      {
+        "name": "Reality Rig Mk2",
+        "unlocks": {
+          "armor": [
+            "10781",
+            "10792",
+            "10782"
+          ]
+        }
+      },
+      {
+        "name": "Mask of the Queen",
+        "unlocks": {
+          "armor": [
+            "1189",
+            "1188",
+            "1187"
+          ]
+        }
+      },
+      {
+        "name": "Skyscale Horns",
+        "unlocks": {
+          "armor": [
+            "8841",
+            "8822",
+            "8816"
+          ]
+        }
+      },
+      {
+        "name": "Arcane Spellweaver\u0027s Hat",
+        "unlocks": {
+          "armor": [
+            "11540",
+            "11532",
+            "11534"
+          ]
+        }
+      },
+      {
+        "name": "Seven Reapers Legguards",
+        "unlocks": {
+          "armor": [
+            "11080",
+            "11068",
+            "11059"
+          ]
+        }
+      },
+      {
+        "name": "Enchanted Winter Antlers",
+        "unlocks": {
+          "armor": [
+            "8545",
+            "8524",
+            "8518"
+          ]
+        }
+      },
+      {
+        "name": "Toxic Armguard",
+        "unlocks": {
+          "armor": [
+            "1330",
+            "1329",
+            "1328"
+          ]
+        }
+      },
+      {
+        "name": "Medium Dragonscale Headdress",
+        "unlocks": {
+          "armor": [
+            "6955",
+            "6968",
+            "6969"
+          ]
+        }
+      },
+      {
+        "name": "Celebration Hat",
+        "unlocks": {
+          "armor": [
+            "1038",
+            "1036",
+            "1034"
+          ]
+        }
+      },
+      {
+        "name": "Nightfury",
+        "unlocks": {
+          "armor": [
+            "6252",
+            "6306",
+            "6161"
+          ]
+        }
+      },
+      {
+        "name": "Reality Rig Mk3",
+        "unlocks": {
+          "armor": [
+            "10778",
+            "10779",
+            "10770"
+          ]
+        }
+      },
+      {
+        "name": "Heavy Special Ops Helmet",
+        "unlocks": {
+          "armor": [
+            "11327",
+            "11338",
+            "11315"
+          ]
+        }
+      },
+      {
+        "name": "Mask of the Silent",
+        "unlocks": {
+          "armor": [
+            "1049",
+            "1051",
+            "1050"
+          ]
+        }
+      },
+      {
+        "name": "Zephyrite Headband",
+        "unlocks": {
+          "armor": [
+            "11559",
+            "11562",
+            "11567"
+          ]
+        }
+      },
+      {
+        "name": "Maguuma\u0027s Grasp",
+        "unlocks": {
+          "armor": [
+            "9228",
+            "9239",
+            "9219"
+          ]
+        }
+      },
+      {
+        "name": "Leather Straps Cingulum",
+        "unlocks": {
+          "armor": [
+            "11529",
+            "11541",
+            "11522"
+          ]
+        }
+      },
+      {
+        "name": "Rift Hunter Heavy Leggings",
+        "unlocks": {
+          "armor": [
+            "11806",
+            "11684",
+            "11788"
+          ]
+        }
+      },
+      {
+        "name": "Medium Special Ops Gloves",
+        "unlocks": {
+          "armor": [
+            "11329",
+            "11332",
+            "11269"
+          ]
+        }
+      },
+      {
+        "name": "Foefire Wraps",
+        "unlocks": {
+          "armor": [
+            "7275",
+            "7251",
+            "7262"
+          ]
+        }
+      },
+      {
+        "name": "Fuzzy Aurene Hat",
+        "unlocks": {
+          "armor": [
+            "7286",
+            "7280",
+            "7283"
+          ]
+        }
+      },
+      {
+        "name": "Ice Reaver Gauntlets",
+        "unlocks": {
+          "armor": [
+            "9657",
+            "9655",
+            "9660"
+          ]
+        }
+      },
+      {
+        "name": "Light Monastery Coat",
+        "unlocks": {
+          "armor": [
+            "10703",
+            "10695",
+            "10754"
+          ]
+        }
+      },
+      {
+        "name": "Maguuma\u0027s Treads",
+        "unlocks": {
+          "armor": [
+            "9343",
+            "9339",
+            "9350"
+          ]
+        }
+      },
+      {
+        "name": "Water Dragon Crest",
+        "unlocks": {
+          "armor": [
+            "10969",
+            "10992",
+            "10993"
+          ]
+        }
+      },
+      {
+        "name": "Fused Shoulders",
+        "unlocks": {
+          "armor": [
+            "10811",
+            "10815",
+            "10828"
+          ]
+        }
+      },
+      {
+        "name": "Pyre Circlet",
+        "unlocks": {
+          "armor": [
+            "10160",
+            "10155",
+            "10157"
+          ]
+        }
+      },
+      {
+        "name": "Zephyrite Traveling Boots",
+        "unlocks": {
+          "armor": [
+            "10107",
+            "10103",
+            "10102"
+          ]
+        }
+      },
+      {
+        "name": "Xera\u0027s Mask",
+        "unlocks": {
+          "armor": [
+            "6841",
+            "6842",
+            "6845"
+          ]
+        }
+      },
+      {
+        "name": "Brawler\u0027s Silk Jacket",
+        "unlocks": {
+          "armor": [
+            "11505",
+            "11499",
+            "11479"
+          ]
+        }
+      },
+      {
+        "name": "Bat Wings Headpiece",
+        "unlocks": {
+          "armor": [
+            "9640",
+            "9651",
+            "9649"
+          ]
+        }
+      },
+      {
+        "name": "Vermilion Vambraces",
+        "unlocks": {
+          "armor": [
+            "10839",
+            "10838",
+            "10840"
+          ]
+        }
+      },
+      {
+        "name": "Glint\u0027s Gaze Mask",
+        "unlocks": {
+          "armor": [
+            "5746",
+            "5747",
+            "5748"
+          ]
+        }
+      },
+      {
+        "name": "Medium Baroque Mask",
+        "unlocks": {
+          "armor": [
+            "820",
+            "821",
+            "822"
+          ]
+        }
+      },
+      {
+        "name": "Helm of Dhuum",
+        "unlocks": {
+          "armor": [
+            "7872",
+            "7889",
+            "7905"
+          ]
+        }
+      },
+      {
+        "name": "Adventurer\u0027s Spectacles",
+        "unlocks": {
+          "armor": [
+            "5481",
+            "5485",
+            "5488"
+          ]
+        }
+      },
+      {
+        "name": "Fuzzy Quaggan Hat with Bow",
+        "unlocks": {
+          "armor": [
+            "1006",
+            "1005",
+            "1004"
+          ]
+        }
+      },
+      {
+        "name": "Heavenly Medium Bracers",
+        "unlocks": {
+          "armor": [
+            "814",
+            "815",
+            "816"
+          ]
+        }
+      },
+      {
+        "name": "Medium Special Ops Pants",
+        "unlocks": {
+          "armor": [
+            "11272",
+            "11263",
+            "11348"
+          ]
+        }
+      },
+      {
+        "name": "Medium Monastery Shoulderpads",
+        "unlocks": {
+          "armor": [
+            "10726",
+            "10492",
+            "10243"
+          ]
+        }
+      },
+      {
+        "name": "Visage of Nourys",
+        "unlocks": {
+          "armor": [
+            "11658",
+            "11569",
+            "11714"
+          ]
+        }
+      },
+      {
+        "name": "Radiant Legguards",
+        "unlocks": {
+          "armor": [
+            "5591",
+            "5587",
+            "5590"
+          ]
+        }
+      },
+      {
+        "name": "Dragon Horns",
+        "unlocks": {
+          "armor": [
+            "8277",
+            "8297",
+            "8260"
+          ]
+        }
+      },
+      {
+        "name": "Water Dragon Chestguard",
+        "unlocks": {
+          "armor": [
+            "10920",
+            "10964",
+            "10928"
+          ]
+        }
+      },
+      {
+        "name": "Martial Artist\u0027s Handwraps",
+        "unlocks": {
+          "armor": [
+            "10299",
+            "10386",
+            "10578"
+          ]
+        }
+      },
+      {
+        "name": "Decade\u0027s Heart",
+        "unlocks": {
+          "armor": [
+            "10986",
+            "11031",
+            "10996"
+          ]
+        }
+      },
+      {
+        "name": "Jackal Rune Gauntlets",
+        "unlocks": {
+          "armor": [
+            "8001",
+            "7998",
+            "7999"
+          ]
+        }
+      },
+      {
+        "name": "Water Dragon Greaves",
+        "unlocks": {
+          "armor": [
+            "10932",
+            "10953",
+            "10927"
+          ]
+        }
+      },
+      {
+        "name": "Wide Rim Glasses",
+        "unlocks": {
+          "armor": [
+            "982",
+            "986",
+            "987"
+          ]
+        }
+      },
+      {
+        "name": "Tempest Gaze",
+        "unlocks": {
+          "armor": [
+            "9789",
+            "9792",
+            "9790"
+          ]
+        }
+      },
+      {
+        "name": "Freezie Crown",
+        "unlocks": {
+          "armor": [
+            "7994",
+            "7960",
+            "7979"
+          ]
+        }
+      },
+      {
+        "name": "Top Hat",
+        "unlocks": {
+          "armor": [
+            "1003",
+            "1002",
+            "1001"
+          ]
+        }
+      },
+      {
+        "name": "Eggnog Helmet",
+        "unlocks": {
+          "armor": [
+            "7970",
+            "7991",
+            "7966"
+          ]
+        }
+      },
+      {
+        "name": "Unicorn Horn",
+        "unlocks": {
+          "armor": [
+            "10846",
+            "10853",
+            "10852"
+          ]
+        }
+      },
+      {
+        "name": "Searing Chain Gloves",
+        "unlocks": {
+          "armor": [
+            "8986",
+            "8967",
+            "8989"
+          ]
+        }
+      },
+      {
+        "name": "Raven Helm",
+        "unlocks": {
+          "armor": [
+            "8497",
+            "8463",
+            "8488"
+          ]
+        }
+      },
+      {
+        "name": "Light Monastery Shoes",
+        "unlocks": {
+          "armor": [
+            "10419",
+            "10580",
+            "10365"
+          ]
+        }
+      },
+      {
+        "name": "Hellfire Cuirass",
+        "unlocks": {
+          "armor": [
+            "5593",
+            "5595",
+            "5597"
+          ]
+        }
+      },
+      {
+        "name": "Exalted Shoulders",
+        "unlocks": {
+          "armor": [
+            "8621",
+            "8617",
+            "8618"
+          ]
+        }
+      },
+      {
+        "name": "Confessor Caudecus\u0027s Mask",
+        "unlocks": {
+          "armor": [
+            "7139",
+            "7119",
+            "7074"
+          ]
+        }
+      },
+      {
+        "name": "Jade Tech Visor",
+        "unlocks": {
+          "armor": [
+            "11285",
+            "11262",
+            "11330"
+          ]
+        }
+      },
+      {
+        "name": "Etherbound Pauldrons",
+        "unlocks": {
+          "armor": [
+            "8960",
+            "8961",
+            "8959"
+          ]
+        }
+      },
+      {
+        "name": "Sport Sunglasses",
+        "unlocks": {
+          "armor": [
+            "990",
+            "991",
+            "989"
+          ]
+        }
+      },
+      {
+        "name": "Artisan Zharra\u0027s Hood",
+        "unlocks": {
+          "armor": [
+            "11418",
+            "11419",
+            "11431"
+          ]
+        }
+      },
+      {
+        "name": "Holographic Dragon Gloves",
+        "unlocks": {
+          "armor": [
+            "10021",
+            "10026",
+            "10028"
+          ]
+        }
+      },
+      {
+        "name": "Wind-Blessed Zephyrite Gloves",
+        "unlocks": {
+          "armor": [
+            "8211",
+            "8193",
+            "8209"
+          ]
+        }
+      },
+      {
+        "name": "Medium Monastery Leggings",
+        "unlocks": {
+          "armor": [
+            "10400",
+            "10237",
+            "10314"
+          ]
+        }
+      },
+      {
+        "name": "Shattered Bloodstone Circlet",
+        "unlocks": {
+          "armor": [
+            "6900",
+            "6888",
+            "6899"
+          ]
+        }
+      },
+      {
+        "name": "Sun-Blessed Vision",
+        "unlocks": {
+          "armor": [
+            "9546",
+            "9544",
+            "9555"
+          ]
+        }
+      },
+      {
+        "name": "Sanctified Gloves",
+        "unlocks": {
+          "armor": [
+            "11767",
+            "11643",
+            "11796"
+          ]
+        }
+      },
+      {
+        "name": "Zephyrite Shawl",
+        "unlocks": {
+          "armor": [
+            "10923",
+            "10959",
+            "10930"
+          ]
+        }
+      },
+      {
+        "name": "Watchknight Greaves",
+        "unlocks": {
+          "armor": [
+            "10901",
+            "10905",
+            "10904"
+          ]
+        }
+      },
+      {
+        "name": "Aviator Sunglasses",
+        "unlocks": {
+          "armor": [
+            "992",
+            "993",
+            "994"
+          ]
+        }
+      },
+      {
+        "name": "Sailor\u0027s Beanie",
+        "unlocks": {
+          "armor": [
+            "1008",
+            "1019",
+            "1028"
+          ]
+        }
+      },
+      {
+        "name": "Powered Right Glove",
+        "unlocks": {
+          "armor": [
+            "11371",
+            "11374",
+            "11379"
+          ]
+        }
+      },
+      {
+        "name": "Fire Bloom Tattoo Chest",
+        "unlocks": {
+          "armor": [
+            "11270",
+            "11331",
+            "11314"
+          ]
+        }
+      },
+      {
+        "name": "Iron\u0027s Tailpipe Bandana",
+        "unlocks": {
+          "armor": [
+            "1992",
+            "1991",
+            "2011"
+          ]
+        }
+      },
+      {
+        "name": "Shadow of the Dragon Gloves",
+        "unlocks": {
+          "armor": [
+            "5817",
+            "5822",
+            "5823"
+          ]
+        }
+      },
+      {
+        "name": "Sanctified Shoulders",
+        "unlocks": {
+          "armor": [
+            "11727",
+            "11749",
+            "11667"
+          ]
+        }
+      },
+      {
+        "name": "Seven Reapers Breastplate",
+        "unlocks": {
+          "armor": [
+            "11110",
+            "11113",
+            "11134"
+          ]
+        }
+      },
+      {
+        "name": "Dusk and Dawn Shoulders",
+        "unlocks": {
+          "armor": [
+            "9796",
+            "9820",
+            "9817"
+          ]
+        }
+      },
+      {
+        "name": "Ice Reaver Greaves",
+        "unlocks": {
+          "armor": [
+            "9794",
+            "9831",
+            "9823"
+          ]
+        }
+      },
+      {
+        "name": "Glowing Crimson Mask",
+        "unlocks": {
+          "armor": [
+            "831",
+            "832",
+            "826"
+          ]
+        }
+      },
+      {
+        "name": "Winged Headpiece",
+        "unlocks": {
+          "armor": [
+            "8068",
+            "8071",
+            "8072"
+          ]
+        }
+      },
+      {
+        "name": "Water Dragon Helm",
+        "unlocks": {
+          "armor": [
+            "10967",
+            "10924",
+            "10918"
+          ]
+        }
+      },
+      {
+        "name": "Etherbound Legguard",
+        "unlocks": {
+          "armor": [
+            "11010",
+            "11001",
+            "11011"
+          ]
+        }
+      },
+      {
+        "name": "Magical Unicorn Horn",
+        "unlocks": {
+          "armor": [
+            "10854",
+            "10865",
+            "10862"
+          ]
+        }
+      },
+      {
+        "name": "Seven Reapers Grasps",
+        "unlocks": {
+          "armor": [
+            "9376",
+            "9447",
+            "9384"
+          ]
+        }
+      },
+      {
+        "name": "Fire Bloom Tattoo Legs",
+        "unlocks": {
+          "armor": [
+            "11328",
+            "11302",
+            "11259"
+          ]
+        }
+      },
+      {
+        "name": "Ringmaster\u0027s Hat",
+        "unlocks": {
+          "armor": [
+            "1007",
+            "1010",
+            "1009"
+          ]
+        }
+      },
+      {
+        "name": "Fuzzy Bear Hat",
+        "unlocks": {
+          "armor": [
+            "1017",
+            "1033",
+            "1032"
+          ]
+        }
+      },
+      {
+        "name": "Medium Glacial Gauntlets",
+        "unlocks": {
+          "armor": [
+            "7032",
+            "7006",
+            "7028"
+          ]
+        }
+      },
+      {
+        "name": "Sworn Zaishen Helm Skin",
+        "unlocks": {
+          "armor": [
+            "7241",
+            "7233",
+            "7225"
+          ]
+        }
+      },
+      {
+        "name": "Pyre Horns",
+        "unlocks": {
+          "armor": [
+            "10019",
+            "10020",
+            "10038"
+          ]
+        }
+      },
+      {
+        "name": "Grasping Gaze Shoulders",
+        "unlocks": {
+          "armor": [
+            "10128",
+            "10134",
+            "10122"
+          ]
+        }
+      },
+      {
+        "name": "Left Oni Arm",
+        "unlocks": {
+          "armor": [
+            "10594",
+            "10230",
+            "10631"
+          ]
+        }
+      },
+      {
+        "name": "Fire God\u0027s Light Vambraces",
+        "unlocks": {
+          "armor": [
+            "800",
+            "802",
+            "804"
+          ]
+        }
+      },
+      {
+        "name": "Etherbound Chestplate",
+        "unlocks": {
+          "armor": [
+            "11030",
+            "10980",
+            "11029"
+          ]
+        }
+      },
+      {
+        "name": "Zephyrite Sun Helm",
+        "unlocks": {
+          "armor": [
+            "1206",
+            "1205",
+            "1207"
+          ]
+        }
+      },
+      {
+        "name": "Minister\u0027s Hat",
+        "unlocks": {
+          "armor": [
+            "11261",
+            "11276",
+            "11343"
+          ]
+        }
+      },
+      {
+        "name": "Immortal Light Halo",
+        "unlocks": {
+          "armor": [
+            "9575",
+            "9574",
+            "9570"
+          ]
+        }
+      },
+      {
+        "name": "Holographic Dragon Greaves",
+        "unlocks": {
+          "armor": [
+            "10866",
+            "10851",
+            "10875"
+          ]
+        }
+      },
+      {
+        "name": "Decade\u0027s Reach",
+        "unlocks": {
+          "armor": [
+            "10981",
+            "11005",
+            "10974"
+          ]
+        }
+      },
+      {
+        "name": "Reading Glasses",
+        "unlocks": {
+          "armor": [
+            "1014",
+            "1013",
+            "1011"
+          ]
+        }
+      },
+      {
+        "name": "Hellfire Legguards",
+        "unlocks": {
+          "armor": [
+            "5594",
+            "5596",
+            "5598"
+          ]
+        }
+      },
+      {
+        "name": "Hellfire Greaves",
+        "unlocks": {
+          "armor": [
+            "774",
+            "777",
+            "769"
+          ]
+        }
+      },
+      {
+        "name": "Martial Artist\u0027s Headband",
+        "unlocks": {
+          "armor": [
+            "10292",
+            "10608",
+            "10565"
+          ]
+        }
+      },
+      {
+        "name": "Twisted Watchwork Shoulders",
+        "unlocks": {
+          "armor": [
+            "1077",
+            "1075",
+            "1072"
+          ]
+        }
+      },
+      {
+        "name": "Winter\u0027s Presence",
+        "unlocks": {
+          "armor": [
+            "6583",
+            "6586",
+            "6577"
+          ]
+        }
+      },
+      {
+        "name": "Lambent Battlelord\u0027s Hood Helm",
+        "unlocks": {
+          "armor": [
+            "11150",
+            "11143",
+            "11158"
+          ]
+        }
+      },
+      {
+        "name": "Raven Ceremonial Gown",
+        "unlocks": {
+          "armor": [
+            "9148",
+            "9164",
+            "9143"
+          ]
+        }
+      },
+      {
+        "name": "Etherbound Helm",
+        "unlocks": {
+          "armor": [
+            "10987",
+            "10997",
+            "11000"
+          ]
+        }
+      },
+      {
+        "name": "Light Fused Gauntlets",
+        "unlocks": {
+          "armor": [
+            "2017",
+            "2015",
+            "2012"
+          ]
+        }
+      },
+      {
+        "name": "Holographic Dragon Shoulders",
+        "unlocks": {
+          "armor": [
+            "9457",
+            "9472",
+            "9460"
+          ]
+        }
+      },
+      {
+        "name": "Mantle of Dhuum",
+        "unlocks": {
+          "armor": [
+            "7871",
+            "7895",
+            "7911"
+          ]
+        }
+      },
+      {
+        "name": "Magnus\u0027s Right Eye Patch",
+        "unlocks": {
+          "armor": [
+            "840",
+            "842",
+            "843"
+          ]
+        }
+      },
+      {
+        "name": "Aurene\u0027s Crystalline Pauldrons",
+        "unlocks": {
+          "armor": [
+            "11182",
+            "11192",
+            "11188"
+          ]
+        }
+      },
+      {
+        "name": "Leather Straps Chestpiece",
+        "unlocks": {
+          "armor": [
+            "11539",
+            "11530",
+            "11523"
+          ]
+        }
+      },
+      {
+        "name": "Rift Hunter Heavy Shoulders",
+        "unlocks": {
+          "armor": [
+            "11812",
+            "11638",
+            "11681"
+          ]
+        }
+      },
+      {
+        "name": "Savage Scale Chest",
+        "unlocks": {
+          "armor": [
+            "11129",
+            "11133",
+            "11106"
+          ]
+        }
+      },
+      {
+        "name": "Fuzzy Hylek Hat",
+        "unlocks": {
+          "armor": [
+            "972",
+            "973",
+            "974"
+          ]
+        }
+      },
+      {
+        "name": "Deathly Avian Shoulderpads",
+        "unlocks": {
+          "armor": [
+            "1128",
+            "1116",
+            "1121"
+          ]
+        }
+      },
+      {
+        "name": "Serpentine Tattoo Chest",
+        "unlocks": {
+          "armor": [
+            "11349",
+            "11308",
+            "11267"
+          ]
+        }
+      },
+      {
+        "name": "Scarlet\u0027s Grasp",
+        "unlocks": {
+          "armor": [
+            "792",
+            "793",
+            "790"
+          ]
+        }
+      },
+      {
+        "name": "Wizard\u0027s Hat",
+        "unlocks": {
+          "armor": [
+            "1037",
+            "1035",
+            "1031"
+          ]
+        }
+      },
+      {
+        "name": "Toxic Shoulderpad",
+        "unlocks": {
+          "armor": [
+            "1327",
+            "1326",
+            "1325"
+          ]
+        }
+      },
+      {
+        "name": "Lion\u0027s Mask",
+        "unlocks": {
+          "armor": [
+            "5851",
+            "5854",
+            "5855"
+          ]
+        }
+      },
+      {
+        "name": "Slumbering Mistforged Glorious Hero\u0027s Raiment",
+        "unlocks": {
+          "armor": [
+            "8517",
+            "8480"
+          ]
+        }
+      },
+      {
+        "name": "Southsun Mask",
+        "unlocks": {
+          "armor": [
+            "996",
+            "997",
+            "998"
+          ]
+        }
+      },
+      {
+        "name": "Lawless Helmet",
+        "unlocks": {
+          "armor": [
+            "1367",
+            "1365",
+            "1364"
+          ]
+        }
+      },
+      {
+        "name": "Kuunavang Festival Mask",
+        "unlocks": {
+          "armor": [
+            "10656",
+            "10549",
+            "10455"
+          ]
+        }
+      },
+      {
+        "name": "Aviator Cap",
+        "unlocks": {
+          "armor": [
+            "1012",
+            "1023",
+            "1030"
+          ]
+        }
+      },
+      {
+        "name": "Serpentine Tattoo Legs",
+        "unlocks": {
+          "armor": [
+            "11305",
+            "11291",
+            "11307"
+          ]
+        }
+      },
+      {
+        "name": "Conjured Starlight Hat",
+        "unlocks": {
+          "armor": [
+            "9695",
+            "9699",
+            "9707"
+          ]
+        }
+      },
+      {
+        "name": "Reality Rig Mk1",
+        "unlocks": {
+          "armor": [
+            "10790",
+            "10795",
+            "10797"
+          ]
+        }
+      },
+      {
+        "name": "Revered Shrine Guardian Ears",
+        "unlocks": {
+          "armor": [
+            "8751",
+            "8743",
+            "8718"
+          ]
+        }
+      },
+      {
+        "name": "Inventor\u0027s Sunglasses",
+        "unlocks": {
+          "armor": [
+            "1018",
+            "971",
+            "967"
+          ]
+        }
+      },
+      {
+        "name": "Luminous Skyscale Horns",
+        "unlocks": {
+          "armor": [
+            "8814",
+            "8834",
+            "8837"
+          ]
+        }
+      },
+      {
+        "name": "Antitoxin Gloves",
+        "unlocks": {
+          "armor": [
+            "11043",
+            "11034",
+            "11046"
+          ]
+        }
+      },
+      {
+        "name": "Ebon Vanguard Elite Shoulders Skin",
+        "unlocks": {
+          "armor": [
+            "9577",
+            "9580",
+            "9581"
+          ]
+        }
+      },
+      {
+        "name": "Gauntlets of the Obedient",
+        "unlocks": {
+          "armor": [
+            "7077",
+            "7121",
+            "7115"
+          ]
+        }
+      },
+      {
+        "name": "Lightning Aspect Eye",
+        "unlocks": {
+          "armor": [
+            "8205",
+            "8217",
+            "8195"
+          ]
+        }
+      },
+      {
+        "name": "Scarlet\u0027s Veil",
+        "unlocks": {
+          "armor": [
+            "830",
+            "827",
+            "838"
+          ]
+        }
+      },
+      {
+        "name": "Astral Ward Light Shoulders",
+        "unlocks": {
+          "armor": [
+            "11637",
+            "11628",
+            "11786"
+          ]
+        }
+      },
+      {
+        "name": "Decade\u0027s Saga",
+        "unlocks": {
+          "armor": [
+            "10982",
+            "11026",
+            "10995"
+          ]
+        }
+      },
+      {
+        "name": "Slumbering Mistforged Glorious Hero\u0027s Brigandine",
+        "unlocks": {
+          "armor": [
+            "8542",
+            "8496"
+          ]
+        }
+      },
+      {
+        "name": "Phantom\u0027s Hood",
+        "unlocks": {
+          "armor": [
+            "1026",
+            "1025",
+            "995"
+          ]
+        }
+      },
+      {
+        "name": "Vermilion Pauldrons",
+        "unlocks": {
+          "armor": [
+            "10822",
+            "10814",
+            "10817"
+          ]
+        }
+      },
+      {
+        "name": "Rift Hunter Heavy Boots",
+        "unlocks": {
+          "armor": [
+            "11789",
+            "11606",
+            "11740"
+          ]
+        }
+      },
+      {
+        "name": "Festive Winter Hood",
+        "unlocks": {
+          "armor": [
+            "9731",
+            "9742",
+            "9765"
+          ]
+        }
+      },
+      {
+        "name": "Clawing Shadow Gloves",
+        "unlocks": {
+          "armor": [
+            "11065",
+            "11053",
+            "11069"
+          ]
+        }
+      },
+      {
+        "name": "Adventurer\u0027s Mantle",
+        "unlocks": {
+          "armor": [
+            "5483",
+            "5486",
+            "5487"
+          ]
+        }
+      },
+      {
+        "name": "Infused Aurora Gloves",
+        "unlocks": {
+          "armor": [
+            "11768",
+            "11725",
+            "11728"
+          ]
+        }
+      },
+      {
+        "name": "Ice Reaver Helm",
+        "unlocks": {
+          "armor": [
+            "9997",
+            "9996",
+            "9989"
+          ]
+        }
+      },
+      {
+        "name": "Mystical Dragon Horns",
+        "unlocks": {
+          "armor": [
+            "10867",
+            "10847",
+            "10849"
+          ]
+        }
+      },
+      {
+        "name": "Lawless Boots",
+        "unlocks": {
+          "armor": [
+            "1369",
+            "1361",
+            "1370"
+          ]
+        }
+      },
+      {
+        "name": "Bestial Tides Tattoo Legs",
+        "unlocks": {
+          "armor": [
+            "11258",
+            "11279",
+            "11336"
+          ]
+        }
+      },
+      {
+        "name": "Sun Aspect Eye",
+        "unlocks": {
+          "armor": [
+            "8208",
+            "8228",
+            "8230"
+          ]
+        }
+      },
+      {
+        "name": "Seven Reapers Pauldrons",
+        "unlocks": {
+          "armor": [
+            "9894",
+            "9890",
+            "9891"
+          ]
+        }
+      },
+      {
+        "name": "Shatterspark Shoulders",
+        "unlocks": {
+          "armor": [
+            "10008",
+            "10007",
+            "10006"
+          ]
+        }
+      },
+      {
+        "name": "Scarlet\u0027s Spaulders",
+        "unlocks": {
+          "armor": [
+            "2035",
+            "2034",
+            "2032"
+          ]
+        }
+      },
+      {
+        "name": "Lawless Gloves",
+        "unlocks": {
+          "armor": [
+            "1366",
+            "1373",
+            "1372"
+          ]
+        }
+      },
+      {
+        "name": "Immortal Fire Ring",
+        "unlocks": {
+          "armor": [
+            "10117",
+            "10116",
+            "10115"
+          ]
+        }
+      },
+      {
+        "name": "Enchanted Dragon Crown",
+        "unlocks": {
+          "armor": [
+            "8234",
+            "8253",
+            "8238"
+          ]
+        }
+      },
+      {
+        "name": "Ice Reaver Chestguard",
+        "unlocks": {
+          "armor": [
+            "9998",
+            "10002",
+            "10004"
+          ]
+        }
+      },
+      {
+        "name": "Immortal Fire Halo",
+        "unlocks": {
+          "armor": [
+            "9586",
+            "9578",
+            "9582"
+          ]
+        }
+      },
+      {
+        "name": "Pyre Gloves",
+        "unlocks": {
+          "armor": [
+            "8873",
+            "8858",
+            "8866"
+          ]
+        }
+      },
+      {
+        "name": "Aetherblade Blindfold",
+        "unlocks": {
+          "armor": [
+            "10471",
+            "10330",
+            "10357"
+          ]
+        }
+      },
+      {
+        "name": "Decade\u0027s Star",
+        "unlocks": {
+          "armor": [
+            "11009",
+            "11008",
+            "11028"
+          ]
+        }
+      },
+      {
+        "name": "Grinning Tahkayun Mask",
+        "unlocks": {
+          "armor": [
+            "11290",
+            "11266",
+            "11323"
+          ]
+        }
+      },
+      {
+        "name": "Slumbering Mistforged Glorious Hero\u0027s Breastplate",
+        "unlocks": {
+          "armor": [
+            "8476",
+            "8531"
+          ]
+        }
+      },
+      {
+        "name": "Wind-Touched Zephyrite Gloves",
+        "unlocks": {
+          "armor": [
+            "8191",
+            "8207",
+            "8229"
+          ]
+        }
+      },
+      {
+        "name": "Lunar Rabbit Helm",
+        "unlocks": {
+          "armor": [
+            "11221",
+            "11231",
+            "11216"
+          ]
+        }
+      },
+      {
+        "name": "Saltspray Dragon Scarf",
+        "unlocks": {
+          "armor": [
+            "10528",
+            "10261",
+            "10500"
+          ]
+        }
+      },
+      {
+        "name": "Shadow of the Dragon Shoulders",
+        "unlocks": {
+          "armor": [
+            "5816",
+            "5820",
+            "5815"
+          ]
+        }
+      },
+      {
+        "name": "Devil Horns",
+        "unlocks": {
+          "armor": [
+            "1027",
+            "1000",
+            "999"
+          ]
+        }
+      },
+      {
+        "name": "Mask of the Jubilee",
+        "unlocks": {
+          "armor": [
+            "1186",
+            "1185",
+            "1184"
+          ]
+        }
+      },
+      {
+        "name": "Angler Vest",
+        "unlocks": {
+          "armor": [
+            "10291",
+            "10484",
+            "10643"
+          ]
+        }
+      },
+      {
+        "name": "Decade\u0027s End",
+        "unlocks": {
+          "armor": [
+            "11012",
+            "10991",
+            "11018"
+          ]
+        }
+      },
+      {
+        "name": "Ghost of the Deep Spaulders",
+        "unlocks": {
+          "armor": [
+            "10044",
+            "10043",
+            "10046"
+          ]
+        }
+      },
+      {
+        "name": "Replica Oni Arms",
+        "unlocks": {
+          "armor": [
+            "11293",
+            "11309",
+            "11288"
+          ]
+        }
+      },
+      {
+        "name": "Shadow of the Dragon Helmet",
+        "unlocks": {
+          "armor": [
+            "5818",
+            "5819",
+            "5821"
+          ]
+        }
+      },
+      {
+        "name": "Heavy Special Ops Harness",
+        "unlocks": {
+          "armor": [
+            "11318",
+            "11334",
+            "11337"
+          ]
+        }
+      },
+      {
+        "name": "Pirate Corsair Hat",
+        "unlocks": {
+          "armor": [
+            "6931",
+            "6915",
+            "6914"
+          ]
+        }
+      },
+      {
+        "name": "Scrivener\u0027s Knowledge Shoulders",
+        "unlocks": {
+          "armor": [
+            "11409",
+            "11411",
+            "11413"
+          ]
+        }
+      },
+      {
+        "name": "Rift Hunter Medium Coat",
+        "unlocks": {
+          "armor": [
+            "11657",
+            "11586",
+            "11630"
+          ]
+        }
+      },
+      {
+        "name": "Immortal Light Ring",
+        "unlocks": {
+          "armor": [
+            "10109",
+            "10112",
+            "10111"
+          ]
+        }
+      },
+      {
+        "name": "Embellished Rabbit Vest",
+        "unlocks": {
+          "armor": [
+            "11212",
+            "11205",
+            "11226"
+          ]
+        }
+      },
+      {
+        "name": "Astral Ward Heavy Coat",
+        "unlocks": {
+          "armor": [
+            "11593",
+            "11742",
+            "11732"
+          ]
+        }
+      },
+      {
+        "name": "Glowing Green Mask",
+        "unlocks": {
+          "armor": [
+            "5698",
+            "5699",
+            "5700"
+          ]
+        }
+      },
+      {
+        "name": "Lightning-Blessed Zephyrite Gloves",
+        "unlocks": {
+          "armor": [
+            "8198",
+            "8204",
+            "8214"
+          ]
+        }
+      },
+      {
+        "name": "Immortal Fire Nimbus",
+        "unlocks": {
+          "armor": [
+            "10081",
+            "10097",
+            "10074"
+          ]
+        }
+      },
+      {
+        "name": "Racing Goggles",
+        "unlocks": {
+          "armor": [
+            "8510",
+            "8506",
+            "8514"
+          ]
+        }
+      },
+      {
+        "name": "Right Oni Arm",
+        "unlocks": {
+          "armor": [
+            "10516",
+            "10290",
+            "10488"
+          ]
+        }
+      },
+      {
+        "name": "Ghostly Racing Scarf",
+        "unlocks": {
+          "armor": [
+            "9005",
+            "8984",
+            "8995"
+          ]
+        }
+      },
+      {
+        "name": "Special Ops Captain\u0027s Helmet",
+        "unlocks": {
+          "armor": [
+            "11319",
+            "11294",
+            "11342"
+          ]
+        }
+      },
+      {
+        "name": "Diver\u0027s Breather Mask",
+        "unlocks": {
+          "armor": [
+            "8123",
+            "8117",
+            "8120"
+          ]
+        }
+      },
+      {
+        "name": "Ice Crown",
+        "unlocks": {
+          "armor": [
+            "7045",
+            "7038",
+            "7040"
+          ]
+        }
+      },
+      {
+        "name": "Shrine Guardian Ears",
+        "unlocks": {
+          "armor": [
+            "8685",
+            "8741",
+            "8727"
+          ]
+        }
+      },
+      {
+        "name": "Rift Hunter Medium Helm",
+        "unlocks": {
+          "armor": [
+            "11816",
+            "11653",
+            "11763"
+          ]
+        }
+      },
+      {
+        "name": "Fuzzy Quaggan Hat",
+        "unlocks": {
+          "armor": [
+            "1016",
+            "1015",
+            "966"
+          ]
+        }
+      },
+      {
+        "name": "Sun-Blessed Zephyrite Gloves",
+        "unlocks": {
+          "armor": [
+            "8199",
+            "8227",
+            "8202"
+          ]
+        }
+      },
+      {
+        "name": "Swaggering Hat",
+        "unlocks": {
+          "armor": [
+            "7358",
+            "7625",
+            "7381"
+          ]
+        }
+      },
+      {
+        "name": "Abaddon\u0027s Mask",
+        "unlocks": {
+          "armor": [
+            "7336",
+            "7326",
+            "7309"
+          ]
+        }
+      },
+      {
+        "name": "Golden Racing Scarf",
+        "unlocks": {
+          "armor": [
+            "8511",
+            "8516",
+            "8504"
+          ]
+        }
+      },
+      {
+        "name": "Shatterspark Gloves",
+        "unlocks": {
+          "armor": [
+            "10018",
+            "10031",
+            "10016"
+          ]
+        }
+      },
+      {
+        "name": "Fuzzy Cat Hat",
+        "unlocks": {
+          "armor": [
+            "976",
+            "977",
+            "978"
+          ]
+        }
+      },
+      {
+        "name": "Raven Gloves",
+        "unlocks": {
+          "armor": [
+            "10193",
+            "10167",
+            "10212"
+          ]
+        }
+      },
+      {
+        "name": "Radiant Greaves",
+        "unlocks": {
+          "armor": [
+            "760",
+            "764",
+            "757"
+          ]
+        }
+      },
+      {
+        "name": "Medium Houndskin Mantle",
+        "unlocks": {
+          "armor": [
+            "7211",
+            "7210",
+            "7213"
+          ]
+        }
+      },
+      {
+        "name": "Radiant Mantle",
+        "unlocks": {
+          "armor": [
+            "763",
+            "756",
+            "767"
+          ]
+        }
+      },
+      {
+        "name": "Lunar Rabbit Stompers",
+        "unlocks": {
+          "armor": [
+            "11228",
+            "11200",
+            "11224"
+          ]
+        }
+      },
+      {
+        "name": "Foefire Legwraps",
+        "unlocks": {
+          "armor": [
+            "10120",
+            "10133",
+            "10127"
+          ]
+        }
+      },
+      {
+        "name": "Rift Warden Helm",
+        "unlocks": {
+          "armor": [
+            "11063",
+            "11097",
+            "11078"
+          ]
+        }
+      },
+      {
+        "name": "Rime-Rimmed Mariner\u0027s Rebreather",
+        "unlocks": {
+          "armor": [
+            "9083",
+            "9071",
+            "9063"
+          ]
+        }
+      },
+      {
+        "name": "Pirate Hook",
+        "unlocks": {
+          "armor": [
+            "6910",
+            "6943",
+            "6903"
+          ]
+        }
+      },
+      {
+        "name": "Light Special Ops Pauldrons",
+        "unlocks": {
+          "armor": [
+            "11287",
+            "11264",
+            "11335"
+          ]
+        }
+      },
+      {
+        "name": "Seven Reapers Greaves",
+        "unlocks": {
+          "armor": [
+            "10106",
+            "10098",
+            "10100"
+          ]
+        }
+      },
+      {
+        "name": "Savage Scale Loincloth",
+        "unlocks": {
+          "armor": [
+            "11142",
+            "11100",
+            "11124"
+          ]
+        }
+      },
+      {
+        "name": "Braham\u0027s Wolfblood Pauldrons",
+        "unlocks": {
+          "armor": [
+            "7066",
+            "7071",
+            "7064"
+          ]
+        }
+      },
+      {
+        "name": "Grenth Hood",
+        "unlocks": {
+          "armor": [
+            "1224",
+            "1223",
+            "1222"
+          ]
+        }
+      },
+      {
+        "name": "Water Dragon Gauntlets",
+        "unlocks": {
+          "armor": [
+            "10943",
+            "10907",
+            "10951"
+          ]
+        }
+      },
+      {
+        "name": "Light Dragonscale Epaulets",
+        "unlocks": {
+          "armor": [
+            "6970",
+            "6951",
+            "6964"
+          ]
+        }
+      },
+      {
+        "name": "Seven Reapers Helm",
+        "unlocks": {
+          "armor": [
+            "10129",
+            "10131",
+            "10124"
+          ]
+        }
+      },
+      {
+        "name": "Icelord\u0027s Medium Diadem",
+        "unlocks": {
+          "armor": [
+            "823",
+            "824",
+            "825"
+          ]
+        }
+      },
+      {
+        "name": "Raven Ceremonial Hood",
+        "unlocks": {
+          "armor": [
+            "9158",
+            "9177",
+            "9162"
+          ]
+        }
+      },
+      {
+        "name": "Heavy Monastery Headband",
+        "unlocks": {
+          "armor": [
+            "10705",
+            "10483",
+            "10530"
+          ]
+        }
+      },
+      {
+        "name": "Cat-Ear Hood",
+        "unlocks": {
+          "armor": [
+            "9613",
+            "9616",
+            "9614"
+          ]
+        }
+      },
+      {
+        "name": "Exalted Gloves",
+        "unlocks": {
+          "armor": [
+            "8121",
+            "8122",
+            "8115"
+          ]
+        }
+      },
+      {
+        "name": "Gas Mask",
+        "unlocks": {
+          "armor": [
+            "2026",
+            "2025",
+            "2024"
+          ]
+        }
+      },
+      {
+        "name": "Virtual Box",
+        "unlocks": {
+          "armor": [
+            "9355",
+            "9349",
+            "9357"
+          ]
+        }
+      },
+      {
+        "name": "Foefire Mask",
+        "unlocks": {
+          "armor": [
+            "10182",
+            "10198",
+            "10211"
+          ]
+        }
+      },
+      {
+        "name": "Storm Gloves",
+        "unlocks": {
+          "armor": [
+            "8187",
+            "8185",
+            "8186"
+          ]
+        }
+      },
+      {
+        "name": "Raven Ceremonial Garb",
+        "unlocks": {
+          "armor": [
+            "9168",
+            "9182",
+            "9193"
+          ]
+        }
+      },
+      {
+        "name": "Primal Tiger Hood",
+        "unlocks": {
+          "armor": [
+            "10216",
+            "10175",
+            "10168"
+          ]
+        }
+      },
+      {
+        "name": "Wintersday Snow Boots",
+        "unlocks": {
+          "armor": [
+            "11171",
+            "11184",
+            "11179"
+          ]
+        }
+      },
+      {
+        "name": "Light Mursaat Brogans",
+        "unlocks": {
+          "armor": [
+            "7297",
+            "7299",
+            "7316"
+          ]
+        }
+      },
+      {
+        "name": "Winter Antlers",
+        "unlocks": {
+          "armor": [
+            "8543",
+            "8544",
+            "8538"
+          ]
+        }
+      },
+      {
+        "name": "Ice Reaver Pauldrons",
+        "unlocks": {
+          "armor": [
+            "9554",
+            "9551",
+            "9559"
+          ]
+        }
+      },
+      {
+        "name": "Fallen Balthazar Helm",
+        "unlocks": {
+          "armor": [
+            "7782",
+            "7800",
+            "7804"
+          ]
+        }
+      },
+      {
+        "name": "Zephyrite Lightning Helm",
+        "unlocks": {
+          "armor": [
+            "1210",
+            "1209",
+            "1208"
+          ]
+        }
+      },
+      {
+        "name": "Heavy Monastery Gloves",
+        "unlocks": {
+          "armor": [
+            "10338",
+            "10293",
+            "10718"
+          ]
+        }
+      },
+      {
+        "name": "Wintersday Earmuffs",
+        "unlocks": {
+          "armor": [
+            "1024",
+            "1022",
+            "988"
+          ]
+        }
+      },
+      {
+        "name": "Holographic Dragon Plate",
+        "unlocks": {
+          "armor": [
+            "11484",
+            "11486",
+            "11510"
+          ]
+        }
+      },
+      {
+        "name": "Shackles of Madness",
+        "unlocks": {
+          "armor": [
+            "6273",
+            "6487",
+            "6414"
+          ]
+        }
+      },
+      {
+        "name": "Immortal Light Nimbus",
+        "unlocks": {
+          "armor": [
+            "10080",
+            "10094",
+            "10086"
+          ]
+        }
+      },
+      {
+        "name": "Wreath of Cooperation",
+        "unlocks": {
+          "armor": [
+            "5541",
+            "5542",
+            "5543"
+          ]
+        }
+      },
+      {
+        "name": "Raven Ceremonial Bracers",
+        "unlocks": {
+          "armor": [
+            "9139",
+            "9180",
+            "9186"
+          ]
+        }
+      },
+      {
+        "name": "Powered Gloves",
+        "unlocks": {
+          "armor": [
+            "11406",
+            "11367",
+            "11389"
+          ]
+        }
+      },
+      {
+        "name": "Virtual Box (Off)",
+        "unlocks": {
+          "armor": [
+            "9337",
+            "9335",
+            "9352"
+          ]
+        }
+      },
+      {
+        "name": "Shoulder Scarf",
+        "unlocks": {
+          "armor": [
+            "5793",
+            "5794",
+            "5795"
+          ]
+        }
+      },
+      {
+        "name": "Prototype Assault Knight Helm",
+        "unlocks": {
+          "armor": [
+            "11153",
+            "11152",
+            "11155"
+          ]
+        }
+      },
+      {
+        "name": "Dragon\u0027s Eye Circlet",
+        "unlocks": {
+          "armor": [
+            "8278",
+            "8289",
+            "8296"
+          ]
+        }
+      },
+      {
+        "name": "Fuzzy Leopard Hat",
+        "unlocks": {
+          "armor": [
+            "970",
+            "968",
+            "969"
+          ]
+        }
+      },
+      {
+        "name": "Monocle",
+        "unlocks": {
+          "armor": [
+            "2019",
+            "2018",
+            "2020"
+          ]
+        }
+      },
+      {
+        "name": "Charr War Mask",
+        "unlocks": {
+          "armor": [
+            "9421",
+            "9443",
+            "9428"
+          ]
+        }
+      },
+      {
+        "name": "Magnus\u0027s Left Eye Patch",
+        "unlocks": {
+          "armor": [
+            "841",
+            "833",
+            "839"
+          ]
+        }
+      },
+      {
+        "name": "Battlelord\u0027s Hood Helm",
+        "unlocks": {
+          "armor": [
+            "11151",
+            "11162",
+            "11167"
+          ]
+        }
+      },
+      {
+        "name": "Icy Demon Horns",
+        "unlocks": {
+          "armor": [
+            "10173",
+            "10201",
+            "10214"
+          ]
+        }
+      },
+      {
+        "name": "Benthic Waterbreather",
+        "unlocks": {
+          "armor": [
+            "1995",
+            "1994",
+            "1993"
+          ]
+        }
+      },
+      {
+        "name": "Swaggering Boots",
+        "unlocks": {
+          "armor": [
+            "10052",
+            "10055",
+            "10057"
+          ]
+        }
+      },
+      {
+        "name": "Dragon\u0027s Mask",
+        "unlocks": {
+          "armor": [
+            "5850",
+            "5852",
+            "5853"
+          ]
+        }
+      },
+      {
+        "name": "Karka Helm",
+        "unlocks": {
+          "armor": [
+            "6493",
+            "6249",
+            "6217"
+          ]
+        }
+      },
+      {
+        "name": "Zephyrite Wind Helm",
+        "unlocks": {
+          "armor": [
+            "1204",
+            "1203",
+            "1202"
+          ]
+        }
+      },
+      {
+        "name": "Raven Mantle",
+        "unlocks": {
+          "armor": [
+            "8469",
+            "8500",
+            "8491"
+          ]
+        }
+      },
+      {
+        "name": "Noble Pointed Ears",
+        "unlocks": {
+          "armor": [
+            "11041",
+            "11040",
+            "11038"
+          ]
+        }
+      },
+      {
+        "name": "Svanir Gauntlets",
+        "unlocks": {
+          "armor": [
+            "7941",
+            "7985",
+            "7975"
+          ]
+        }
+      },
+      {
+        "name": "Stag Helm",
+        "unlocks": {
+          "armor": [
+            "1227",
+            "1226",
+            "1225"
+          ]
+        }
+      },
+      {
+        "name": "Racing Helmet",
+        "unlocks": {
+          "armor": [
+            "8512",
+            "8513",
+            "8515"
+          ]
+        }
+      },
+      {
+        "name": "Horns of the Dragon",
+        "unlocks": {
+          "armor": [
+            "2016",
+            "2014",
+            "2013"
+          ]
+        }
+      },
+      {
+        "name": "Handguards of Dhuum",
+        "unlocks": {
+          "armor": [
+            "7874",
+            "7854",
+            "7848"
+          ]
+        }
+      },
+      {
+        "name": "Elegant Silk Scarf",
+        "unlocks": {
+          "armor": [
+            "11229",
+            "11199",
+            "11223"
+          ]
+        }
+      },
+      {
+        "name": "Bunny Ears",
+        "unlocks": {
+          "armor": [
+            "983",
+            "984",
+            "985"
+          ]
+        }
+      },
+      {
+        "name": "Glowing Purple Mask",
+        "unlocks": {
+          "armor": [
+            "8677",
+            "8657",
+            "8670"
+          ]
+        }
+      },
+      {
+        "name": "Aurene\u0027s Crystalline Claws",
+        "unlocks": {
+          "armor": [
+            "9960",
+            "9961",
+            "9954"
+          ]
+        }
+      },
+      {
+        "name": "Jade Tech Eye Piece",
+        "unlocks": {
+          "armor": [
+            "10833",
+            "10835",
+            "10834"
+          ]
+        }
+      },
+      {
+        "name": "Furrocious Cat Ears",
+        "unlocks": {
+          "armor": [
+            "6972",
+            "6975",
+            "6974"
+          ]
+        }
+      },
+      {
+        "name": "Angler Hat",
+        "unlocks": {
+          "armor": [
+            "10255",
+            "10312",
+            "10377"
+          ]
+        }
+      },
+      {
+        "name": "Infused Aurora Chestguard",
+        "unlocks": {
+          "armor": [
+            "11560",
+            "11561",
+            "11564"
+          ]
+        }
+      },
+      {
+        "name": "Hellfire Warhelm",
+        "unlocks": {
+          "armor": [
+            "770",
+            "773",
+            "776"
+          ]
+        }
+      },
+      {
+        "name": "Wind Aspect Eye",
+        "unlocks": {
+          "armor": [
+            "8222",
+            "8213",
+            "8194"
+          ]
+        }
+      },
+      {
+        "name": "Canthan Sun Hat",
+        "unlocks": {
+          "armor": [
+            "10761",
+            "10765",
+            "10764"
+          ]
+        }
+      },
+      {
+        "name": "Fireworks Spaulders",
+        "unlocks": {
+          "armor": [
+            "9111",
+            "9101",
+            "9108"
+          ]
+        }
+      },
+      {
+        "name": "Witch\u0027s Hat",
+        "unlocks": {
+          "armor": [
+            "980",
+            "981",
+            "979"
+          ]
+        }
+      },
+      {
+        "name": "Royal Pointed Ears",
+        "unlocks": {
+          "armor": [
+            "11045",
+            "11044",
+            "11039"
+          ]
+        }
+      },
+      {
+        "name": "Rift Hunter Heavy Gloves",
+        "unlocks": {
+          "armor": [
+            "11759",
+            "11572",
+            "11665"
+          ]
+        }
+      },
+      {
+        "name": "Ice Reaver Legguards",
+        "unlocks": {
+          "armor": [
+            "10000",
+            "10001",
+            "10003"
+          ]
+        }
+      },
+      {
+        "name": "Radiant Cuirass",
+        "unlocks": {
+          "armor": [
+            "5592",
+            "5588",
+            "5589"
+          ]
+        }
+      },
+      {
+        "name": "Heavy Special Ops Boots",
+        "unlocks": {
+          "armor": [
+            "11260",
+            "11289",
+            "11345"
+          ]
+        }
+      },
+      {
+        "name": "Etherbound Greaves",
+        "unlocks": {
+          "armor": [
+            "8672",
+            "8659",
+            "8658"
+          ]
+        }
+      },
+      {
+        "name": "Aether Visor",
+        "unlocks": {
+          "armor": [
+            "10836",
+            "10842",
+            "10841"
+          ]
+        }
+      },
+      {
+        "name": "Invisible Stompers",
+        "unlocks": {
+          "armor": [
+            "6484",
+            "6456",
+            "6283"
+          ]
+        }
+      },
+      {
+        "name": "Lightning-Touched Zephyrite Gloves",
+        "unlocks": {
+          "armor": [
+            "8189",
+            "8210",
+            "8226"
+          ]
+        }
+      },
+      {
+        "name": "Lunar-Enchanted Prowler Gloves",
+        "unlocks": {
+          "armor": [
+            "9876",
+            "9845",
+            "9880"
+          ]
+        }
+      },
+      {
+        "name": "Foefire Greaves",
+        "unlocks": {
+          "armor": [
+            "7725",
+            "7726",
+            "7748"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "armorcombo",
+    "contents": [
+      {
+        "name": "Profane Light Armor Skin",
+        "unlocks": {
+          "armor": [
+            1105,
+            1155,
+            1094,
+            1099,
+            1069,
+            1199
+          ]
+        }
+      },
+      {
+        "name": "Krytan Medium Armor Skin",
+        "unlocks": {
+          "armor": [
+            1200,
+            1156,
+            1111,
+            1097,
+            1071,
+            1103
+          ]
+        }
+      },
+      {
+        "name": "Primeval Heavy Armor Skin",
+        "unlocks": {
+          "armor": [
+            1154,
+            1090,
+            1093,
+            1066,
+            1102,
+            1198
+          ]
+        }
+      },
+      {
+        "name": "Aetherblade Light Armor Skin",
+        "unlocks": {
+          "armor": [
+            1314,
+            1317,
+            1320,
+            1323,
+            1309,
+            1310
+          ]
+        }
+      },
+      {
+        "name": "Aetherblade Medium Armor Skin",
+        "unlocks": {
+          "armor": [
+            1312,
+            1315,
+            1318,
+            1321,
+            1324,
+            1311
+          ]
+        }
+      },
+      {
+        "name": "Aetherblade Heavy Armor Skin",
+        "unlocks": {
+          "armor": [
+            1313,
+            1316,
+            1319,
+            1322,
+            1307,
+            1308
+          ]
+        }
+      },
+      {
+        "name": "Phoenix Light Armor Skin",
+        "unlocks": {
+          "armor": [
+            1152,
+            1062,
+            1095,
+            1082,
+            1196,
+            1085
+          ]
+        }
+      },
+      {
+        "name": "Magitech Medium Armor Skin",
+        "unlocks": {
+          "armor": [
+            1153,
+            1091,
+            1064,
+            1098,
+            1197,
+            1087
+          ]
+        }
+      },
+      {
+        "name": "Braham's Heavy Armor Skin",
+        "unlocks": {
+          "armor": [
+            1060,
+            1092,
+            1079,
+            1195,
+            1084,
+            1151
+          ]
+        }
+      },
+      {
+        "name": "Trickster's Light-Armor Skin",
+        "unlocks": {
+          "armor": [
+            1331,
+            1332,
+            1333,
+            1334,
+            1335,
+            1336
+          ]
+        }
+      },
+      {
+        "name": "Viper's Medium-Armor Skin",
+        "unlocks": {
+          "armor": [
+            1337,
+            1338,
+            1339,
+            1340,
+            1341,
+            1342
+          ]
+        }
+      },
+      {
+        "name": "Phalanx Heavy-Armor Skin",
+        "unlocks": {
+          "armor": [
+            1201,
+            1074,
+            1106,
+            1157,
+            1113,
+            1101
+          ]
+        }
+      },
+      {
+        "name": "Flamekissed Light Armor Skin",
+        "unlocks": {
+          "armor": [
+            1253,
+            1254,
+            1255,
+            1256,
+            1257,
+            1258
+          ]
+        }
+      },
+      {
+        "name": "Flamewalker Medium Armor Skin",
+        "unlocks": {
+          "armor": [
+            1260,
+            1262,
+            1264,
+            1266,
+            1268,
+            1270
+          ]
+        }
+      },
+      {
+        "name": "Flamewrath Heavy Armor Skin",
+        "unlocks": {
+          "armor": [
+            1259,
+            1261,
+            1263,
+            1265,
+            1267,
+            1269
+          ]
+        }
+      },
+      {
+        "name": "Zodiac Light Armor Skin",
+        "unlocks": {
+          "armor": [
+            1349,
+            1350,
+            1351,
+            1352,
+            1353,
+            1354
+          ]
+        }
+      },
+      {
+        "name": "Zodiac Medium Armor Skin",
+        "unlocks": {
+          "armor": [
+            1355,
+            1356,
+            1357,
+            1358,
+            1359,
+            1360
+          ]
+        }
+      },
+      {
+        "name": "Zodiac Heavy Armor Skin",
+        "unlocks": {
+          "armor": [
+            1343,
+            1344,
+            1345,
+            1346,
+            1347,
+            1348
+          ]
+        }
+      },
+      {
+        "name": "Incarnate Heavy Armor Skin",
+        "unlocks": {
+          "armor": [
+            1276,
+            1277,
+            1278,
+            1279,
+            1280,
+            1281
+          ]
+        }
+      },
+      {
+        "name": "Strider's Medium Armor Skin",
+        "unlocks": {
+          "armor": [
+            1271,
+            1282,
+            1283,
+            1285,
+            1286,
+            1287
+          ]
+        }
+      },
+      {
+        "name": "Rampart Light Armor Skin",
+        "unlocks": {
+          "armor": [
+            1272,
+            1273,
+            1274,
+            1275,
+            1288,
+            1289
+          ]
+        }
+      },
+      {
+        "name": "Savage Scale Package",
+        "unlocks": {
+          "armor": [
+            11100,
+            11106,
+            11124,
+            11129,
+            11133,
+            11142
+          ]
+        }
+      },
+      {
+        "name": "Lunar Rabbit Helm and Stompers Package",
+        "unlocks": {
+          "armor": [
+            11200,
+            11216,
+            11221,
+            11224,
+            11228,
+            11231
+          ]
+        }
+      },
+      {
+        "name": "Bestial Tides Tattoo Pack",
+        "unlocks": {
+          "armor": [
+            11258,
+            11279,
+            11286,
+            11304,
+            11336,
+            11346
+          ]
+        }
+      },
+      {
+        "name": "Fire Bloom Tattoo Pack",
+        "unlocks": {
+          "armor": [
+            11259,
+            11270,
+            11302,
+            11314,
+            11328,
+            11331
+          ]
+        }
+      },
+      {
+        "name": "Serpentine Tattoo Pack",
+        "unlocks": {
+          "armor": [
+            11267,
+            11291,
+            11305,
+            11307,
+            11308,
+            11349
+          ]
+        }
+      },
+      {
+        "name": "Leather Straps Package",
+        "unlocks": {
+          "armor": [
+            11522,
+            11523,
+            11529,
+            11530,
+            11539,
+            11541
+          ]
+        }
+      },
+      {
+        "name": "Magnus's Eye Patch",
+        "unlocks": {
+          "armor": [
+            833,
+            839,
+            840,
+            841,
+            842,
+            843
+          ]
+        }
+      },
+      {
+        "name": "Lunatic Noble Mask",
+        "unlocks": {
+          "armor": [
+            7770,
+            7798
+          ]
+        }
+      },
+      {
+        "name": "Zephyrite Aspect Helm Pack",
+        "unlocks": {
+          "armor": [
+            8208,
+            8194,
+            8195,
+            8228,
+            8213,
+            8230,
+            8217,
+            8205,
+            8222
+          ]
+        }
+      },
+      {
+        "name": "Enchanted Dragon Crown Package",
+        "unlocks": {
+          "armor": [
+            8234,
+            8238,
+            8253,
+            8260,
+            8277,
+            8278,
+            8289,
+            8296,
+            8297
+          ]
+        }
+      },
+      {
+        "name": "Winter Antlers Set",
+        "unlocks": {
+          "armor": [
+            8518,
+            8524,
+            8538,
+            8543,
+            8544,
+            8545
+          ]
+        }
+      },
+      {
+        "name": "Shrine Guardian Ears Package",
+        "unlocks": {
+          "armor": [
+            8685,
+            8718,
+            8727,
+            8741,
+            8743,
+            8751
+          ]
+        }
+      },
+      {
+        "name": "Skyscale Horns Package",
+        "unlocks": {
+          "armor": [
+            8814,
+            8816,
+            8822,
+            8834,
+            8837,
+            8841
+          ]
+        }
+      },
+      {
+        "name": "Warlord's Plate Helm",
+        "unlocks": {
+          "armor": [
+            9217,
+            9233
+          ]
+        }
+      },
+      {
+        "name": "Virtual Box",
+        "unlocks": {
+          "armor": [
+            9335,
+            9337,
+            9349,
+            9352,
+            9355,
+            9357
+          ]
+        }
+      },
+      {
+        "name": "Immortal Halo Package",
+        "unlocks": {
+          "armor": [
+            9570,
+            9574,
+            9575,
+            9578,
+            9582,
+            9586
+          ]
+        }
+      },
+      {
+        "name": "Immortal Nimbus Package",
+        "unlocks": {
+          "armor": [
+            10074,
+            10080,
+            10081,
+            10086,
+            10094,
+            10097
+          ]
+        }
+      },
+      {
+        "name": "Magical Unicorn Horn Set",
+        "unlocks": {
+          "armor": [
+            10846,
+            10852,
+            10853,
+            10854,
+            10862,
+            10865
+          ]
+        }
+      },
+      {
+        "name": "Pointed Ears Package",
+        "unlocks": {
+          "armor": [
+            11032,
+            11035,
+            11038,
+            11039,
+            11040,
+            11041,
+            11044,
+            11045,
+            11047
+          ]
+        }
+      },
+      {
+        "name": "Sublime Mistforged Triumphant Hero's Raiment",
+        "unlocks": {
+          "armor": [
+            7250,
+            7257
+          ]
+        }
+      },
+      {
+        "name": "Sublime Mistforged Triumphant Hero's Brigandine",
+        "unlocks": {
+          "armor": [
+            7253,
+            7255
+          ]
+        }
+      },
+      {
+        "name": "Sublime Mistforged Triumphant Hero's Breastplate",
+        "unlocks": {
+          "armor": [
+            7265,
+            7271
+          ]
+        }
+      },
+      {
+        "name": "Lunatic Noble Coat",
+        "unlocks": {
+          "armor": [
+            7781,
+            7797
+          ]
+        }
+      },
+      {
+        "name": "Luminous Heavy Warhelm",
+        "unlocks": {
+          "armor": [
+            8263,
+            8266
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Glorious Hero's Raiment",
+        "unlocks": {
+          "armor": [
+            8480,
+            8517
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Glorious Hero's Brigandine",
+        "unlocks": {
+          "armor": [
+            8496,
+            8542
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Glorious Hero's Breastplate",
+        "unlocks": {
+          "armor": [
+            8476,
+            8531
+          ]
+        }
+      },
+      {
+        "name": "Immortal Ring Package",
+        "unlocks": {
+          "armor": [
+            10109,
+            10111,
+            10112,
+            10115,
+            10116,
+            10117
+          ]
+        }
+      },
+      {
+        "name": "Powered Gloves",
+        "unlocks": {
+          "armor": [
+            11367,
+            11371,
+            11374,
+            11379,
+            11380,
+            11382,
+            11389,
+            11404,
+            11406
+          ]
+        }
+      },
+      {
+        "name": "Rebel Long and Short Boots Package",
+        "unlocks": {
+          "armor": [
+            11350,
+            11354,
+            11355,
+            11357,
+            11360,
+            11363
+          ]
+        }
+      },
+      {
+        "name": "Fallen Balthazar Package",
+        "unlocks": {
+          "outfit": [
+            57
+          ],
+          "armor": [
+            7782,
+            7800,
+            7804
+          ]
+        }
+      },
+      {
+        "name": "Ebon Vanguard Elite Outfit and Shoulders Package",
+        "unlocks": {
+          "outfit": [
+            101
+          ],
+          "armor": [
+            9577,
+            9580,
+            9581
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "weaponcombo",
+    "contents": [
+      {
+        "name": "Cavalier Axe",
+        "unlocks" : {
+          "weapon": [
+            6773,
+            6749
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Dagger",
+        "unlocks" : {
+          "weapon": [
+            6781,
+            6751
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Mace",
+        "unlocks" : {
+          "weapon": [
+            6766,
+            6747
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Pistol",
+        "unlocks" : {
+          "weapon": [
+            6762,
+            6756
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Scepter",
+        "unlocks" : {
+          "weapon": [
+            6782,
+            6746
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Sword",
+        "unlocks" : {
+          "weapon": [
+            6770,
+            6772
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Focus",
+        "unlocks" : {
+          "weapon": [
+            6769,
+            6767
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Shield",
+        "unlocks" : {
+          "weapon": [
+            6778,
+            6768
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Torch",
+        "unlocks" : {
+          "weapon": [
+            6776,
+            6780
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Warhorn",
+        "unlocks" : {
+          "weapon": [
+            6754,
+            6777
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Greatsword",
+        "unlocks" : {
+          "weapon": [
+            6755,
+            6765
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Hammer",
+        "unlocks" : {
+          "weapon": [
+            6761,
+            6764
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Longbow",
+        "unlocks" : {
+          "weapon": [
+            6748,
+            6758
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Rifle",
+        "unlocks" : {
+          "weapon": [
+            6750,
+            6757
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Short Bow",
+        "unlocks" : {
+          "weapon": [
+            6771,
+            6753
+          ]
+        }
+      },
+      {
+        "name": "Cavalier Staff",
+        "unlocks" : {
+          "weapon": [
+            6763,
+            6783
+          ]
+        }
+      },
+      {
+        "name": "God-Slayer Bow Pack",
+        "unlocks" : {
+          "weapon": [
+            7281,
+            7284
+          ]
+        }
+      },
+      {
+        "name": "Rival Skies Package",
+        "unlocks" : {
+          "weapon": [
+            7450,
+            7651
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Dagger",
+        "unlocks" : {
+          "weapon": [
+            7921,
+            7946
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Shield",
+        "unlocks" : {
+          "weapon": [
+            7918,
+            7928
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Torch",
+        "unlocks" : {
+          "weapon": [
+            7933,
+            7971
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Staff",
+        "unlocks" : {
+          "weapon": [
+            7949,
+            7953
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Dagger",
+        "unlocks" : {
+          "weapon": [
+            7926,
+            7974
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Shield",
+        "unlocks" : {
+          "weapon": [
+            7958,
+            7923
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Torch",
+        "unlocks" : {
+          "weapon": [
+            7978,
+            7993
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Staff",
+        "unlocks" : {
+          "weapon": [
+            7961,
+            7977
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Mace",
+        "unlocks" : {
+          "weapon": [
+            8079,
+            8074
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Pistol",
+        "unlocks" : {
+          "weapon": [
+            8075,
+            8078
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Scepter",
+        "unlocks" : {
+          "weapon": [
+            8080,
+            8065
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Sword",
+        "unlocks" : {
+          "weapon": [
+            7962,
+            7992
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Mace",
+        "unlocks" : {
+          "weapon": [
+            8077,
+            8066
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Pistol",
+        "unlocks" : {
+          "weapon": [
+            8076,
+            8070
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Scepter",
+        "unlocks" : {
+          "weapon": [
+            8067,
+            8073
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Sword",
+        "unlocks" : {
+          "weapon": [
+            7951,
+            7956
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Focus",
+        "unlocks" : {
+          "weapon": [
+            8132,
+            8136
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Greatsword",
+        "unlocks" : {
+          "weapon": [
+            8131,
+            8140
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Hammer",
+        "unlocks" : {
+          "weapon": [
+            8127,
+            8130
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Longbow",
+        "unlocks" : {
+          "weapon": [
+            7936,
+            7980
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Focus",
+        "unlocks" : {
+          "weapon": [
+            8129,
+            8133
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Greatsword",
+        "unlocks" : {
+          "weapon": [
+            8137,
+            8128
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Hammer",
+        "unlocks" : {
+          "weapon": [
+            8139,
+            8134
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Longbow",
+        "unlocks" : {
+          "weapon": [
+            7935,
+            7963
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Axe",
+        "unlocks" : {
+          "weapon": [
+            8235,
+            8280
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Dagger",
+        "unlocks" : {
+          "weapon": [
+            8257,
+            8273
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Mace",
+        "unlocks" : {
+          "weapon": [
+            8255,
+            8267
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Pistol",
+        "unlocks" : {
+          "weapon": [
+            8276,
+            8285
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Scepter",
+        "unlocks" : {
+          "weapon": [
+            8250,
+            8275
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Sword",
+        "unlocks" : {
+          "weapon": [
+            8244,
+            8271
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Focus",
+        "unlocks" : {
+          "weapon": [
+            8246,
+            8298
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Shield",
+        "unlocks" : {
+          "weapon": [
+            8245,
+            8295
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Torch",
+        "unlocks" : {
+          "weapon": [
+            8251,
+            8293
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Warhorn",
+        "unlocks" : {
+          "weapon": [
+            8236,
+            8248
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Greatsword",
+        "unlocks" : {
+          "weapon": [
+            8243,
+            8292
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Hammer",
+        "unlocks" : {
+          "weapon": [
+            8256,
+            8269
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Longbow",
+        "unlocks" : {
+          "weapon": [
+            8242,
+            8286
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Rifle",
+        "unlocks" : {
+          "weapon": [
+            8262,
+            8279
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Short Bow",
+        "unlocks" : {
+          "weapon": [
+            8237,
+            8272
+          ]
+        }
+      },
+      {
+        "name": "Onyx Lion Staff",
+        "unlocks" : {
+          "weapon": [
+            8268,
+            8274
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Axe",
+        "unlocks" : {
+          "weapon": [
+            8324,
+            8302
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Warhorn",
+        "unlocks" : {
+          "weapon": [
+            8310,
+            8304
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Rifle",
+        "unlocks" : {
+          "weapon": [
+            8306,
+            8323
+          ]
+        }
+      },
+      {
+        "name": "Obsidian Short Bow",
+        "unlocks" : {
+          "weapon": [
+            8312,
+            8308
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Axe",
+        "unlocks" : {
+          "weapon": [
+            8329,
+            8325
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Warhorn",
+        "unlocks" : {
+          "weapon": [
+            8332,
+            8301
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Rifle",
+        "unlocks" : {
+          "weapon": [
+            8318,
+            8307
+          ]
+        }
+      },
+      {
+        "name": "Mistforged Obsidian Short Bow",
+        "unlocks" : {
+          "weapon": [
+            8314,
+            8303
+          ]
+        }
+      },
+      {
+        "name": "Queensdale Academy Wand Set",
+        "unlocks" : {
+          "weapon": [
+            9594,
+            9596
+          ]
+        }
+      },
+      {
+        "name": "Shrine Guardian Bow Pack",
+        "unlocks" : {
+          "weapon": [
+            9741,
+            9748
+          ]
+        }
+      },
+      {
+        "name": "Infused Blades Package",
+        "unlocks" : {
+          "weapon": [
+            9842,
+            9851
+          ]
+        }
+      },
+      {
+        "name": "Shiro's Legacy Blades Package",
+        "unlocks" : {
+          "weapon": [
+            10818,
+            10824
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "backcombo",
+    "contents": [
+      {
+        "name": "Forest Archer Pack",
+        "unlocks" : {
+          "back": [
+            10156,
+            10159,
+            10161
+          ]
+        }
+      },
+      {
+        "name": "Decade's War",
+        "unlocks" : {
+          "back": [
+            11025,
+            11027
+          ]
+        }
+      },
+      {
+        "name": "Battlelord's Cape Hood Combo",
+        "unlocks" : {
+          "armor": [
+            11143,
+            11150,
+            11151,
+            11158,
+            11162,
+            11167
+          ],
+          "back": [
+            11144
+          ]
+        }
+      },
+      {
+        "name": "Artisan Zharra's Cape and Hood Combo",
+        "unlocks" : {
+          "armor": [
+            11418,
+            11419,
+            11431
+          ],
+          "back": [
+            11435
+          ]
+        }
+      },
+      {
+        "name": "Fire-Breathing Package",
+        "unlocks" : {
+          "weapon": [
+            8010
+          ],
+          "back": [
+            8021
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "toolcombo",
+    "contents": [
+      {
+        "name": "Infinite Unbound Magic Gathering Tools",
+        "unlocks" : {
+          "tool": [
+            8087,
+            8093,
+            8097
+          ]
+        }
+      },
+      {
+        "name": "Infinite Volatile Magic Gathering Tools",
+        "unlocks" : {
+          "tool": [
+            8142,
+            8156,
+            8161
+          ]
+        }
+      },
+      {
+        "name": "Infinite Spirits of the Wild Gathering Tools",
+        "unlocks" : {
+          "tool": [
+            9718,
+            9720,
+            9721
+          ]
+        }
+      },
+      {
+        "name": "Infinite Herald of Aurene Gathering Tools",
+        "unlocks" : {
+          "tool": [
+            11410,
+            11412,
+            11414
+          ]
+        }
+      },
+      {
+        "name": "Infinite Vermilion Gathering Tools",
+        "unlocks" : {
+          "tool": [
+            11597,
+            11720,
+            11802
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "glidercombo",
+    "contents": [
+      {
+        "name": "Black Wings Glider Combo",
+        "unlocks" : {
+          "back": [
+            5878
+          ],
+          "glider": [
+            1
+          ]
+        }
+      },
+      {
+        "name": "White Wings Glider Combo",
+        "unlocks" : {
+          "back": [
+            6035
+          ],
+          "glider": [
+            3
+          ]
+        }
+      },
+      {
+        "name": "Bat Wings Glider Combo",
+        "unlocks" : {
+          "back": [
+            6412
+          ],
+          "glider": [
+            6
+          ]
+        }
+      },
+      {
+        "name": "Golden Feather Wings Glider Combo",
+        "unlocks" : {
+          "back": [
+            6527
+          ],
+          "glider": [
+            8
+          ]
+        }
+      },
+      {
+        "name": "The Ascension",
+        "unlocks" : {
+          "back": [
+            6561
+          ],
+          "glider": [
+            11
+          ]
+        }
+      },
+      {
+        "name": "Hawk Wings Glider Combo",
+        "unlocks" : {
+          "back": [
+            6615
+          ],
+          "glider": [
+            13
+          ]
+        }
+      },
+      {
+        "name": "Wings of Love Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            8627
+          ],
+          "glider": [
+            15
+          ]
+        }
+      },
+      {
+        "name": "Ad Infinitum",
+        "unlocks" : {
+          "back": [
+            6344
+          ],
+          "glider": [
+            22
+          ]
+        }
+      },
+      {
+        "name": "Macaw Wings Glider Combo",
+        "unlocks" : {
+          "back": [
+            6744
+          ],
+          "glider": [
+            23
+          ]
+        }
+      },
+      {
+        "name": "Moth Wings Glider Combo",
+        "unlocks" : {
+          "back": [
+            6774
+          ],
+          "glider": [
+            24
+          ]
+        }
+      },
+      {
+        "name": "Shining Blade Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            6854
+          ],
+          "glider": [
+            28
+          ]
+        }
+      },
+      {
+        "name": "Mursaat Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            6965
+          ],
+          "glider": [
+            30
+          ]
+        }
+      },
+      {
+        "name": "Crystalline Dragon Wings Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            7004
+          ],
+          "glider": [
+            34
+          ]
+        }
+      },
+      {
+        "name": "Super Holo-Copter Glider Combo",
+        "unlocks" : {
+          "back": [
+            7200
+          ],
+          "glider": [
+            40
+          ]
+        }
+      },
+      {
+        "name": "Vine-Touched Destroyer Glider Combo",
+        "unlocks" : {
+          "back": [
+            7202
+          ],
+          "glider": [
+            42
+          ]
+        }
+      },
+      {
+        "name": "Warbringer",
+        "unlocks" : {
+          "back": [
+            7272
+          ],
+          "glider": [
+            43
+          ]
+        }
+      },
+      {
+        "name": "Dynamics Exo-Suit Glider Backpack Combo",
+        "unlocks" : {
+          "back": [
+            7285
+          ],
+          "glider": [
+            45
+          ]
+        }
+      },
+      {
+        "name": "Feathers of the Zephyr Package",
+        "unlocks" : {
+          "back": [
+            7308
+          ],
+          "glider": [
+            47
+          ]
+        }
+      },
+      {
+        "name": "Largos Fin Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            7661
+          ],
+          "glider": [
+            48
+          ]
+        }
+      },
+      {
+        "name": "Branded Wing Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            7743
+          ],
+          "glider": [
+            51
+          ]
+        }
+      },
+      {
+        "name": "Desert King Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            8184
+          ],
+          "glider": [
+            52
+          ]
+        }
+      },
+      {
+        "name": "Wild Magic Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            7811
+          ],
+          "glider": [
+            54
+          ]
+        }
+      },
+      {
+        "name": "Griffon Hatchling Package",
+        "unlocks" : {
+          "back": [
+            7996
+          ],
+          "glider": [
+            56
+          ]
+        }
+      },
+      {
+        "name": "Forged Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            8038
+          ],
+          "glider": [
+            57
+          ]
+        }
+      },
+      {
+        "name": "Jeweled Scarab Package",
+        "unlocks" : {
+          "back": [
+            8141
+          ],
+          "glider": [
+            60
+          ]
+        }
+      },
+      {
+        "name": "Scaled Dragon Wings Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            8434
+          ],
+          "glider": [
+            63
+          ]
+        }
+      },
+      {
+        "name": "Etherbound Package",
+        "unlocks" : {
+          "back": [
+            8638
+          ],
+          "glider": [
+            68
+          ]
+        }
+      },
+      {
+        "name": "Legion Jetpack Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            8647
+          ],
+          "glider": [
+            69
+          ]
+        }
+      },
+      {
+        "name": "Branded Relic Package",
+        "unlocks" : {
+          "back": [
+            8725
+          ],
+          "glider": [
+            70
+          ]
+        }
+      },
+      {
+        "name": "Dragon Fireworks Package",
+        "unlocks" : {
+          "back": [
+            8807
+          ],
+          "glider": [
+            72
+          ]
+        }
+      },
+      {
+        "name": "Lightbinder Blades Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            8883
+          ],
+          "glider": [
+            75
+          ]
+        }
+      },
+      {
+        "name": "Watchwork Wings Package",
+        "unlocks" : {
+          "back": [
+            8915
+          ],
+          "glider": [
+            77
+          ]
+        }
+      },
+      {
+        "name": "Citadel Assault Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            8930
+          ],
+          "glider": [
+            79
+          ]
+        }
+      },
+      {
+        "name": "Skeletal Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            8979
+          ],
+          "glider": [
+            80
+          ]
+        }
+      },
+      {
+        "name": "Shiverpeaks Hunter Backpack Glider Combo",
+        "unlocks" : {
+          "back": [
+            9021
+          ],
+          "glider": [
+            81
+          ]
+        }
+      },
+      {
+        "name": "Starlight Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9061
+          ],
+          "glider": [
+            83
+          ]
+        }
+      },
+      {
+        "name": "Alchemist Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9211
+          ],
+          "glider": [
+            85
+          ]
+        }
+      },
+      {
+        "name": "Dreamwalker Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9298
+          ],
+          "glider": [
+            86
+          ]
+        }
+      },
+      {
+        "name": "Draconic Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9364
+          ],
+          "glider": [
+            87
+          ]
+        }
+      },
+      {
+        "name": "Tanglewood Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9450
+          ],
+          "glider": [
+            89
+          ]
+        }
+      },
+      {
+        "name": "Spellforged Glider Backpack Combo",
+        "unlocks" : {
+          "back": [
+            9474
+          ],
+          "glider": [
+            90
+          ]
+        }
+      },
+      {
+        "name": "Vermilion Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9481
+          ],
+          "glider": [
+            91
+          ]
+        }
+      },
+      {
+        "name": "Stained Glass Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9617
+          ],
+          "glider": [
+            92
+          ]
+        }
+      },
+      {
+        "name": "Nightspeaker Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9659
+          ],
+          "glider": [
+            93
+          ]
+        }
+      },
+      {
+        "name": "Volcanic Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9671
+          ],
+          "glider": [
+            94
+          ]
+        }
+      },
+      {
+        "name": "Shimmering Aurora Cape and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9732
+          ],
+          "glider": [
+            96
+          ]
+        }
+      },
+      {
+        "name": "Shrine Guardian Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9769
+          ],
+          "glider": [
+            95
+          ]
+        }
+      },
+      {
+        "name": "Eternal Mandala Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9893
+          ],
+          "glider": [
+            98
+          ]
+        }
+      },
+      {
+        "name": "Giant Shuriken Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9969
+          ],
+          "glider": [
+            99
+          ]
+        }
+      },
+      {
+        "name": "Seraph Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9992
+          ],
+          "glider": [
+            100
+          ]
+        }
+      },
+      {
+        "name": "Cute Demon Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            9999
+          ],
+          "glider": [
+            101
+          ]
+        }
+      },
+      {
+        "name": "Elemental Fury Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10010
+          ],
+          "glider": [
+            102
+          ]
+        }
+      },
+      {
+        "name": "Archdemon Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10045
+          ],
+          "glider": [
+            103
+          ]
+        }
+      },
+      {
+        "name": "Cute Angel Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10079
+          ],
+          "glider": [
+            105
+          ]
+        }
+      },
+      {
+        "name": "Sylph Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10105
+          ],
+          "glider": [
+            106
+          ]
+        }
+      },
+      {
+        "name": "Venombite Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10149
+          ],
+          "glider": [
+            107
+          ]
+        }
+      },
+      {
+        "name": "Aurene Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10200
+          ],
+          "glider": [
+            108
+          ]
+        }
+      },
+      {
+        "name": "Lunar Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10219
+          ],
+          "glider": [
+            109
+          ]
+        }
+      },
+      {
+        "name": "Canthan Spiritualist Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10503
+          ],
+          "glider": [
+            110
+          ]
+        }
+      },
+      {
+        "name": "Thousand Seas Gourd Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10805
+          ],
+          "glider": [
+            111
+          ]
+        }
+      },
+      {
+        "name": "Jade Tech Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10823
+          ],
+          "glider": [
+            112
+          ]
+        }
+      },
+      {
+        "name": "New Kaineng Cape and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10888
+          ],
+          "glider": [
+            114
+          ]
+        }
+      },
+      {
+        "name": "Jade Tech Jetpack Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10941
+          ],
+          "glider": [
+            116
+          ]
+        }
+      },
+      {
+        "name": "Water Dragon Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            10912
+          ],
+          "glider": [
+            117
+          ]
+        }
+      },
+      {
+        "name": "Umbral Serpent Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            11051
+          ],
+          "glider": [
+            118
+          ]
+        }
+      },
+      {
+        "name": "Lightning Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            11125
+          ],
+          "glider": [
+            119
+          ]
+        }
+      },
+      {
+        "name": "Canthan Phoenix Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            11246
+          ],
+          "glider": [
+            120
+          ]
+        }
+      },
+      {
+        "name": "Equinox Wings Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            11253
+          ],
+          "glider": [
+            121
+          ]
+        }
+      },
+      {
+        "name": "Undying Shackles Cape and Glider Combo",
+        "unlocks" : {
+          "back": [
+            11400
+          ],
+          "glider": [
+            122
+          ]
+        }
+      },
+      {
+        "name": "Cuddly Cat Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            11428
+          ],
+          "glider": [
+            123
+          ]
+        }
+      },
+      {
+        "name": "Infernal Envoy Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            11780
+          ],
+          "glider": [
+            125
+          ]
+        }
+      },
+      {
+        "name": "Sorcerer's Cape Backpack and Glider Combo",
+        "unlocks" : {
+          "back": [
+            11716
+          ],
+          "glider": [
+            126
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "mountcombo",
+    "contents": [
+      {
+        "name": "Spooky Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            13,
+            14,
+            15,
+            16,
+            19
+          ]
+        }
+      },
+      {
+        "name": "Cozy Wintersday Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            52,
+            53,
+            56,
+            58,
+            60
+          ]
+        }
+      },
+      {
+        "name": "Branded Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            66,
+            68,
+            70,
+            75,
+            76
+          ]
+        }
+      },
+      {
+        "name": "Exo-Suit Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            92,
+            93,
+            94,
+            95,
+            96
+          ]
+        }
+      },
+      {
+        "name": "Awakened Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            98,
+            99,
+            100,
+            101,
+            102
+          ]
+        }
+      },
+      {
+        "name": "Mad Realm Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            130,
+            131,
+            132,
+            133,
+            134
+          ]
+        }
+      },
+      {
+        "name": "Shiverpeaks Mount Pack",
+        "unlocks" : {
+          "mount": [
+            153,
+            154,
+            155,
+            157,
+            158
+          ]
+        }
+      },
+      {
+        "name": "Mad King Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            222,
+            223,
+            224,
+            225,
+            226
+          ]
+        }
+      },
+      {
+        "name": "Amnytas Feathered Raptors Mounts Pack",
+        "mount": []
+      },
+      {
+        "name": "Canthan Cuckoo Springer Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            422,
+            423,
+            426
+          ]
+        }
+      },
+      {
+        "name": "Canthan Vulpine Jackal Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            429,
+            430,
+            431
+          ]
+        }
+      },
+      {
+        "name": "Canthan Tigris Griffon Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            432,
+            433,
+            434
+          ]
+        }
+      },
+      {
+        "name": "Warclaw Frontline Mount Pack",
+        "unlocks" : {
+          "mount": [
+            162,
+            163,
+            164,
+            165,
+            166
+          ]
+        }
+      },
+      {
+        "name": "Canthan Nian Warclaw Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            437,
+            440,
+            441
+          ]
+        }
+      },
+      {
+        "name": "Skyscale Ascension Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            193,
+            194,
+            195,
+            196,
+            198
+          ]
+        }
+      },
+      {
+        "name": "Canthan Noble Skyscale Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            443,
+            444,
+            445
+          ]
+        }
+      },
+      {
+        "name": "Siege Turtle Advent Mounts Pack",
+        "unlocks" : {
+          "mount": [
+            415,
+            416,
+            417,
+            418,
+            419
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "noveltycombo",
+    "contents": [
+      {
+        "name": "The Minstrel",
+        "unlocks" : {
+          "weapon": [
+            4672
+          ],
+          "novelty": [
+            41
+          ]
+        }
+      },
+      {
+        "name": "Verdarach",
+        "unlocks" : {
+          "weapon": [
+            8145
+          ],
+          "novelty": [
+            34
+          ]
+        }
+      },
+      {
+        "name": "Cook's Outfit",
+        "unlocks" : {
+          "outfit": [
+            1
+          ],
+          "novelty": [
+            226
+          ]
+        }
+      },
+      {
+        "name": "Mad King's Outfit",
+        "unlocks" : {
+          "outfit": [
+            2
+          ],
+          "novelty": [
+            111
+          ]
+        }
+      },
+      {
+        "name": "Pirate Captain's Outfit",
+        "unlocks" : {
+          "outfit": [
+            3
+          ],
+          "novelty": [
+            128
+          ]
+        }
+      },
+      {
+        "name": "Witch's Outfit",
+        "unlocks" : {
+          "outfit": [
+            4
+          ],
+          "novelty": [
+            265
+          ]
+        }
+      },
+      {
+        "name": "Executioner's Outfit",
+        "unlocks" : {
+          "outfit": [
+            5
+          ],
+          "novelty": [
+            78
+          ]
+        }
+      },
+      {
+        "name": "Bloody Prince's Outfit",
+        "unlocks" : {
+          "outfit": [
+            6
+          ],
+          "novelty": [
+            144
+          ]
+        }
+      },
+      {
+        "name": "Fancy Winter Outfit",
+        "unlocks" : {
+          "outfit": [
+            7
+          ],
+          "novelty": [
+            126
+          ]
+        }
+      },
+      {
+        "name": "Inquest Overseer Chair Glider Combo",
+        "unlocks" : {
+          "glider": [
+            73
+          ],
+          "novelty": [
+            286
+          ]
+        }
+      },
+      {
+        "name": "Wandering Cloud Chair and Glider Combo",
+        "unlocks" : {
+          "glider": [
+            97
+          ],
+          "novelty": [
+            311
+          ]
+        }
+      },
+      {
+        "name": "Electromagnetic Ascender-Descender Glider Combo",
+        "unlocks" : {
+          "glider": [
+            16
+          ],
+          "novelty": [
+            27
+          ]
+        }
+      },
+      {
+        "name": "Magic Carpet Glider Combo",
+        "unlocks" : {
+          "glider": [
+            44
+          ],
+          "novelty": [
+            16
+          ]
+        }
+      },
+      {
+        "name": "Riding Broom and Glider Combo",
+        "unlocks" : {
+          "glider": [
+            53
+          ],
+          "novelty": [
+            20
+          ]
+        }
+      },
+      {
+        "name": "Shattered Bloodstone Ascender Combo",
+        "unlocks" : {
+          "glider": [
+            39
+          ],
+          "novelty": [
+            33
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "minicombo",
+    "contents": [
+      {
+        "name": "Mini Super Trio",
+        "unlocks" : {
+          "mini": [
+            133,
+            134,
+            135
+          ]
+        }
+      },
+      {
+        "name": "Mini Super Trio—World 2",
+        "unlocks" : {
+          "mini": [
+            185,
+            186,
+            187
+          ]
+        }
+      },
+      {
+        "name": "Mini Super Trio—Series 3",
+        "unlocks" : {
+          "mini": [
+            455,
+            456,
+            459
+          ]
+        }
+      },
+      {
+        "name": "Mini Super Trio—Series 4",
+        "unlocks" : {
+          "mini": [
+            676,
+            677,
+            678
+          ]
+        }
+      },
+      {
+        "name": "Ghoul Backpack and Mini Set",
+        "unlocks" : {
+          "back": [
+            6431
+          ],
+          "mini": [
+            342
+          ]
+        }
+      },
+      {
+        "name": "Kryptis Skyscale",
+        "unlocks" : {
+          "mount": [],
+          "mini": [
+            905
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "emotecombo",
+    "contents": [
+      {
+        "name": "How to Dance, Volume 1",
+        "unlocks" : {
+          "novelty": [
+            44
+          ],
+          "emote": [
+            "geargrind",
+            "shuffle",
+            "step"
+          ]
+        }
+      }
+    ]
   }
 ]

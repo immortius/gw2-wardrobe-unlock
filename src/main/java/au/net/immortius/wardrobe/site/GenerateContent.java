@@ -11,6 +11,8 @@ import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.imagemap.IconDetails;
 import au.net.immortius.wardrobe.imagemap.ImageMap;
+import au.net.immortius.wardrobe.linkedunlocks.LinkedUnlocks;
+import au.net.immortius.wardrobe.linkedunlocks.LinkedUnlocksGroup;
 import au.net.immortius.wardrobe.site.entities.*;
 import au.net.immortius.wardrobe.util.ColorUtil;
 import au.net.immortius.wardrobe.vendors.entities.VendorData;
@@ -25,6 +27,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import javax.ws.rs.core.GenericType;
+import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
@@ -54,11 +57,14 @@ public class GenerateContent {
     };
     private static final GenericType<Set<String>> STRING_SET_TYPE = new GenericType<Set<String>>() {
     };
+    private static final GenericType<List<LinkedUnlocksGroup>> UNLOCKS_LIST_TYPE = new GenericType<List<LinkedUnlocksGroup>>() {
+    };
     private static final Logger logger = LoggerFactory.getLogger(GenerateContent.class);
     private final Gson gson;
     private final Config config;
     private final Unlocks unlocks;
     private final Emotes emotes;
+    private final SetMultimap<UnlockLink, UnlockLink> linkedUnlocks = HashMultimap.create();
 
     public GenerateContent() throws IOException {
         this(Config.loadConfig());
@@ -85,6 +91,7 @@ public class GenerateContent {
 
         Map<String, IconDetails> iconLookup = processImageMaps(content);
         Set<String> craftableItems = loadCraftableItems();
+        loadLinkedUnlocks();
 
         content.items = Lists.newArrayList();
         for (UnlockCategoryConfig unlockCategoryConfig : config.unlockCategories) {
@@ -120,6 +127,27 @@ public class GenerateContent {
             gson.toJson(content, writer);
         }
 
+    }
+
+    private void loadLinkedUnlocks() throws IOException {
+        try (BufferedReader reader = Files.newBufferedReader(config.paths.baseInputPath.resolve("linkedUnlocks.json"))) {
+            List<LinkedUnlocksGroup> linkedUnlocks = gson.fromJson(reader, UNLOCKS_LIST_TYPE.getType());
+            for (LinkedUnlocksGroup group : linkedUnlocks) {
+                for (LinkedUnlocks links : group.contents) {
+                    Set<UnlockLink> unlockLinks = links.unlocks.entrySet().stream().<UnlockLink>mapMulti((entry, consumer) -> {
+                        for (String id : entry.getValue()) {
+                            consumer.accept(new UnlockLink(entry.getKey(), id));
+                        }
+                    }).collect(Collectors.toSet());
+                    for (UnlockLink unlock : unlockLinks) {
+                        Set<UnlockLink> unlocks = new LinkedHashSet<>(unlockLinks);
+                        unlocks.remove(unlock);
+
+                        this.linkedUnlocks.putAll(unlock, unlocks);
+                    }
+                }
+            }
+        }
     }
 
     private Set<String> loadCraftableItems() throws IOException {
@@ -456,6 +484,10 @@ public class GenerateContent {
                     }
                 }
                 determineChatcode(itemData, unlockCategoryConfig, unlockItems).ifPresent(x -> unlock.chatcode = x);
+                Set<UnlockLink> unlockedBy = linkedUnlocks.get(new UnlockLink(unlockCategoryConfig.id, emoteData.id));
+                if (unlockedBy != null && !unlockedBy.isEmpty()) {
+                    unlock.linkedUnlocks.addAll(unlockedBy);
+                }
             });
         } else {
             unlocks.forEach(unlockCategoryConfig, itemData -> {
@@ -488,6 +520,10 @@ public class GenerateContent {
                     }
                 }
                 determineChatcode(itemData, unlockCategoryConfig, unlockItems).ifPresent(x -> unlock.chatcode = x);
+                Set<UnlockLink> unlockedBy = linkedUnlocks.get(new UnlockLink(unlockCategoryConfig.id, itemData.id));
+                if (unlockedBy != null && !unlockedBy.isEmpty()) {
+                    unlock.linkedUnlocks.addAll(unlockedBy);
+                }
             });
         }
         return result;

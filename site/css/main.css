@@ -962,6 +962,11 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1062px -18px;
 }
+.linked-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1080px -18px;
+}
+
 
 /* ==========================================================================
    Media Queries

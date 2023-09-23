@@ -51,7 +51,7 @@ public class ExtractLinkedArmor {
                     armorUnlocks.add(data.id);
                 }
                 logger.info("Created group {}", linkedUnlocks.name);
-                linkedUnlocks.primary.put("armor", armorUnlocks);
+                linkedUnlocks.unlocks.put("armor", armorUnlocks);
                 linkedUnlocksList.add(linkedUnlocks);
             }
         }
