@@ -318,12 +318,10 @@
       ]
     },
     "Special Event: Festival of the Four Winds (FotFW)": {
-      "Standalone: Queen's Gauntlet": [
-        185,
-        310
-      ],
       "Standalone: Other": [
-        309
+        185,
+        309,
+        310
       ]
     },
     "Special Event: Shadow of the Mad King (Halloween)": {

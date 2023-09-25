@@ -7,10 +7,6 @@
         179,
         231
       ],
-      "Ley-Line Anomaly Tonic": [
-        191,
-        202
-      ],
       "Standalone: Fractals of the Mists": [
         115,
         121,
@@ -34,6 +30,8 @@
         34,
         41,
         122,
+        191,
+        202,
         219,
         222,
         237,
@@ -182,12 +180,10 @@
       ]
     },
     "Special Event: Super Adventure Festival (SAB)": {
-      "Super Boom Box": [
-        23,
-        25
-      ],
-      "Super Boom Box > Duskk's Super Boom Box": [
+      "Super Boom Box / Duskk's Super Boom Box": [
         3,
+        23,
+        25,
         30
       ]
     },
@@ -219,10 +215,6 @@
       ]
     },
     "Special Event: A Very Merry Wintersday": {
-      "Enchanted Snowball": [
-        93,
-        217
-      ],
       "Toy Tonic / Gift Box Tonic / Gift Dolyak Tonic / Toymaker's Tonic": [
         119,
         136,
@@ -240,6 +232,8 @@
         133
       ],
       "Standalone: Other": [
+        93,
+        217,
         277
       ]
     },
