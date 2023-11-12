@@ -1,9 +1,6 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Starter": [
-        2340
-      ],
       "Crafting Discipline: Armorsmith": [
         2304,
         2305,
@@ -86,13 +83,44 @@
         11025,
         11027
       ],
+      "Fractal Capacitor": [
+        2377,
+        2378,
+        2379
+      ],
+      "Fractal Capacitor > Ad Infinitum": [
+        6202,
+        6234,
+        6344,
+        6474
+      ],
+      "Wings of Glory / The Ascension": [
+        6560,
+        6561,
+        6562,
+        6556,
+        6573,
+        6558
+      ],
+      "Wings of War / Warbringer": [
+        7248,
+        7252,
+        7256,
+        7272,
+        7276,
+        7246
+      ],
       "Standalone: Guild": [
         2342,
         2343,
         2344,
         9051
       ],
+      "Standalone: Player vs. Player": [
+        2380
+      ],
       "Standalone: Other": [
+        2340,
         2358,
         5653,
         6242,
@@ -156,9 +184,14 @@
         6246,
         6304
       ],
-      "Auric Backplate": [
+      "Exalted": [
         6149,
         6279
+      ],
+      "Standalone: Raid": [
+        6135,
+        6809,
+        7114
       ]
     },
     "Living World Season 3: Glint's Legacy (LW3)": {
@@ -198,7 +231,7 @@
         8058,
         8052
       ],
-      "Banner of the Commander": [
+      "Banners of the Commander": [
         8149,
         8165
       ],
@@ -206,14 +239,14 @@
         8169
       ]
     },
-    "Living World Season 5: The Icebrood Saga (LW5)": {
-      "Banner of the Charr Legion": [
+    "Living World Season 5: The Icebrood Saga (IBS)": {
+      "Banners of the Charr Legions": [
         8924,
         8931,
         8933,
         8937
       ],
-      "Charr Legion Backpack": [
+      "Charr Legion Backpacks": [
         9387,
         9407,
         9413,
@@ -227,15 +260,9 @@
       ]
     },
     "Guild Wars 2: End of Dragons (EoD)": {
-      "Echovald Backpiece": [
+      "Echovald Backpieces": [
         10457,
         10647
-      ],
-      "Standalone: Club Canach": [
-        10344,
-        10426,
-        10524,
-        10675
       ],
       "Standalone: Strike Mission": [
         10898
@@ -244,8 +271,12 @@
         10231,
         10247,
         10271,
+        10344,
         10399,
+        10426,
         10458,
+        10524,
+        10675,
         11322,
         11268
       ]
@@ -253,48 +284,8 @@
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Other": [
         11741,
-        11804
-      ]
-    },
-    "Fractals of the Mists (FotM)": {
-      "Fractal Capacitor": [
-        2377,
-        2378,
-        2379
-      ],
-      "Ad Infinitum + Glider Combo": [
-        6202,
-        6234,
-        6344,
-        6474
-      ]
-    },
-    "Raid": {
-      "Standalone: Other": [
-        6135,
-        6809,
-        7114
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
-      "Wings of Glory / The Ascension + Glider Combo": [
-        6560,
-        6561,
-        6562,
-        6556,
-        6573,
-        6558
-      ],
-      "Wings of War / Warbringer": [
-        7248,
-        7252,
-        7256,
-        7272,
-        7276,
-        7246
-      ],
-      "Standalone: Other": [
-        2380
+        11804,
+        11904
       ]
     },
     "Lunar New Year (LNY)": {
@@ -322,7 +313,7 @@
       ]
     },
     "Super Adventure Box (SAB)": {
-      "Super / King Toad / Storm Wizard / Kaiser Snake / Crimson Assassin": [
+      "Backpack Covers": [
         2360,
         2361,
         2362,
@@ -334,7 +325,7 @@
       ]
     },
     "Dragon Bash": {
-      "Standalone: Other": [
+      "Holographic Wings": [
         2351,
         2352,
         8833
@@ -346,7 +337,7 @@
         2347,
         2348
       ],
-      "Grand Aspect Catcher": [
+      "Aspect Catcher > Grand Aspect Catcher": [
         8216,
         8218,
         8223
@@ -360,7 +351,7 @@
         8861
       ]
     },
-    "Halloween": {
+    "Shadow of the Mad King": {
       "Mad Memoires": [
         2336,
         7760,
@@ -381,59 +372,24 @@
       ]
     },
     "Gem Store": {
+      "Charr": [
+        2363,
+        2364,
+        2366,
+        2368,
+        2371
+      ],
       "Forest Archer": [
         10156,
         10159,
         10161
       ],
-      "Standalone: Other": [
-        5654,
-        5708,
-        5998,
-        6554,
-        6745,
-        7047,
-        7227,
-        7755,
-        8319,
-        8649,
-        10816,
-        10881
-      ],
-      "Standalone: Other + Glider Combo": [
-        6854,
-        7200,
-        7285,
-        7308,
-        7661,
-        7811,
-        7996,
-        8038,
-        8141,
-        8184,
-        8638,
-        8647,
-        8725,
-        8807,
-        8930,
-        9021,
-        9211,
-        9474,
-        9671,
-        9769,
-        9893,
-        9969,
-        10010,
-        10219,
-        10503,
-        10805,
-        10941,
-        11051,
-        11428,
-        11780
-      ],
-      "Standalone: Other + Miniature Combo": [
-        6431
+      "Quaggan": [
+        2355,
+        2365,
+        2367,
+        2370,
+        2372
       ],
       "Standalone: Cape": [
         9050,
@@ -452,8 +408,6 @@
         9717,
         9918,
         10005,
-        10059,
-        10084,
         10088,
         10104,
         10164,
@@ -462,46 +416,25 @@
         11070,
         11116,
         11247,
-        11257
-      ],
-      "Standalone: Cape + Headgear Combo": [
+        11257,
         11144,
-        11435
-      ],
-      "Standalone: Cape + Glider Combo": [
+        11435,
         9732,
         10888,
         11400,
-        11716
-      ],
-      "Standalone: Plush": [
-        2363,
-        2364,
-        2366,
-        2368,
-        2371,
-        2355,
-        2365,
-        2367,
-        2370,
-        2372,
-        1048,
-        7000
+        11716,
+        11903
       ],
       "Standalone: Quiver": [
         2369,
         6449,
-        7012
-      ],
-      "Standalone: Quiver + Weapon Combo": [
+        7012,
         8021
       ],
       "Standalone: Wings": [
         6003,
         6078,
-        6132
-      ],
-      "Standalone: Wings + Glider Combo": [
+        6132,
         5878,
         6035,
         6527,
@@ -537,7 +470,60 @@
         11125,
         11246,
         11253
+      ],
+      "Standalone: Other": [
+        1048,
+        5654,
+        5708,
+        5998,
+        6554,
+        6745,
+        7047,
+        7227,
+        7755,
+        8319,
+        8649,
+        10816,
+        10881,
+        6431,
+        6854,
+        7000,
+        7200,
+        7285,
+        7308,
+        7661,
+        7811,
+        7996,
+        8038,
+        8141,
+        8184,
+        8638,
+        8647,
+        8725,
+        8807,
+        8930,
+        9021,
+        9211,
+        9474,
+        9671,
+        9769,
+        9893,
+        9969,
+        10010,
+        10219,
+        10503,
+        10805,
+        10941,
+        11051,
+        11428,
+        11780
       ]
     }
+  },
+  "Promotional": {
+    "Standalone: Other": [
+      10059,
+      10084
+    ]
   }
 }

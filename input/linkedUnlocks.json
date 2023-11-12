@@ -3986,6 +3986,76 @@
         }
       },
       {
+        "name": "Clawing Shadow Greaves",
+        "unlocks": {
+          "armor" : [
+            11857,
+            11865,
+            11867
+          ]
+        }
+      },
+      {
+        "name": "Paper Bag Helm (Angry)",
+        "unlocks": {
+          "armor" : [
+            1238,
+            1239,
+            1240
+          ]
+        }
+      },
+      {
+        "name": "Paper Bag Helm (Blush)",
+        "unlocks": {
+          "armor" : [
+            1235,
+            1236,
+            1237
+          ]
+        }
+      },
+      {
+        "name": "Paper Bag Helm (Happy)",
+        "unlocks": {
+          "armor" : [
+            1241,
+            1242,
+            1243
+          ]
+        }
+      },
+      {
+        "name": "Paper Bag Helm (Sad)",
+        "unlocks": {
+          "armor" : [
+            1244,
+            1245,
+            1246
+          ]
+        }
+      },
+      {
+        "name": "Side-Lace Pants",
+        "unlocks": {
+          "armor" : [
+            11842,
+            11843,
+            11845
+          ]
+        }
+      },
+      {
+        "name": "Krytan Rogue Chestpiece",
+        "unlocks": {
+          "armor" : [
+            11849,
+            11863,
+            11864
+          ]
+        }
+      },
+      {
         "name": "Sublime Mistforged Triumphant Hero's Raiment",
         "unlocks": {
           "armor": [
@@ -4122,6 +4192,29 @@
             9577,
             9580,
             9581
+          ]
+        }
+      },
+      {
+        "name": "Dark Tyrant Appearance Package",
+        "unlocks": {
+          "outfit": [
+            126
+          ],
+          "weapon": [
+            11822,
+            11824
+          ]
+        }
+      },
+      {
+        "name": "Traveler's Appearance Package",
+        "unlocks": {
+          "outfit": [
+            127
+          ],
+          "weapon": [
+            11841
           ]
         }
       }
@@ -5673,6 +5766,22 @@
           ],
           "glider": [
             126
+          ]
+        }
+      },
+      {
+        "name": "Gentle Garden Swing Chair Glider Combo",
+        "unlocks" : {
+          "glider": [
+            127
+          ]
+        }
+      },
+      {
+        "name": "Personal Gyrocopter Chair Glider Combo",
+        "unlocks" : {
+          "glider": [
+            128
           ]
         }
       }

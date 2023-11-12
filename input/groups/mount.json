@@ -1,39 +1,23 @@
 {
   "topLevelCategories": {
-    "Guild Wars 2: Path of Fire (PoF)": {
+    "Core": {
       "Starter": [
-        1
-      ],
-      "Standalone: Renown Heart": [
+        1,
         2,
         3,
-        6
-      ],
-      "Standalone: Other": [
-        4
-      ]
-    },
-    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
-      "Standalone: Domain of Kourna": [
-        103
-      ],
-      "Standalone: Dragonfall": [
-        186
-      ]
-    },
-    "Guild Wars 2: End of Dragons (EoD)": {
-      "Standalone: Other": [
+        4,
+        6,
+        103,
+        161,
+        186,
         397
+      ],
+      "Standalone: World vs. World": [
+        251
       ]
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone: Other": [
-      ]
-    },
-    "Player vs. Player / World vs. World": {
-      "Standalone: World vs. World": [
-        161,
-        251
       ]
     },
     "Gem Store": {

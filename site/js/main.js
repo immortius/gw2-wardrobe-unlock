@@ -58,6 +58,13 @@ var acquisitionMethods = [
     { id: "giftofvenom", name: "Gift of Venom", category: "Crafting Component"},
     { id: "giftofscales", name: "Gift of Scales", category: "Crafting Component"},
     { id: "giftofclaws", name: "Gift of Claws", category: "Crafting Component"},
+    { id: "giftoftotems", name: "Gift of Totems", category: "Crafting Component"},
+    { id: "giftofblood", name: "Gift of Blood", category: "Crafting Component"},
+    { id: "cherriesinbulk", name: "Cherries In Bulk", category: "Crafting Component"},
+    { id: "pinenutsinbulk", name: "Pinenuts In Bulk", category: "Crafting Component"},
+    { id: "almondsinbulk", name: "Almonds In Bulk", category: "Crafting Component"},
+    { id: "peachesinbulk", name: "Peaches In Bulk", category: "Crafting Component"},
+    { id: "pouchofblackpigment", name: "Pouch of Black Pigment", category: "Crafting Component"},
 
     { id: "taleofdungeondelving", name: "Tales of Dungeon Delving", category: "Core / Season 1 / Season 2"},
     { id: "karkashell", name: "Karka Shell", category: "Core / Season 1 / Season 2"},
@@ -124,6 +131,7 @@ var acquisitionMethods = [
     { id: "pouchofstardust", name: "Pouch of Stardust", category: "Secrets of the Obscure"},
     { id: "purifiedkryptisessence", name: "Purified Kryptis Essence", category: "Secrets of the Obscure"},
     { id: "amalgamatedkryptisessence", name: "Amalgamated Kryptis Essence", category: "Secrets of the Obscure"},
+    { id: "clotofcongealedscreams", name: "Clot of Congealed Screams", category: "Secrets of the Obscure"},
 
     { id: "fragmentofprismaticpersuasion", name: "Fragment of Prismatic Persuasion", category: "Facet of Aurene"},
     { id: "fragmentofprismaticfury", name: "Fragment of Prismatic Fury", category: "Facet of Aurene"},
@@ -1076,7 +1084,7 @@ function displayItem(itemData, id) {
     if (itemData.linkedUnlocks.length > 0) {
         result += ' linked';
     }
-    
+
     if ($.inArray('winterberries', itemData.sources) != -1 || $.inArray('unboundmagic', itemData.sources) != -1 || $.inArray('petrifiedwood', itemData.sources) != -1 || $.inArray('fireorchidblossom', itemData.sources) != -1 || $.inArray('orrianpearl', itemData.sources) != -1 || $.inArray('jadeshard', itemData.sources) != -1) {
         result += ' ls3';
     }
@@ -1222,7 +1230,7 @@ function showDetails(item, prefix) {
             entry += '</div>';
             vendorList.append(entry);
         }
-        
+
         if (item.linkedUnlocks.length > 0) {
             $('#' + prefix + 'selection-unlocked-by').toggle(true);
             var unlockedByList = $('#' + prefix + 'selection-unlocked-by-list');
@@ -1239,10 +1247,10 @@ function showDetails(item, prefix) {
         } else {
             $('#' + prefix + 'selection-unlocked-by').toggle(false);
         }
-        
+
         var unlockedByList = $('#' + prefix + 'selection-vendor-list');
         vendorList.empty();
-        
+
     }
 
     if (item.priceData) {

@@ -12,9 +12,6 @@
         4,
         5
       ],
-      "Standalone: Lost Orrian Jewelry Box": [
-        129
-      ],
       "Standalone: Racing": [
         734
       ],
@@ -356,10 +353,10 @@
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Kryptis" : [
-        892, 894, 898, 900, 905, 906, 907, 908
+        892, 894, 898, 900, 905, 906, 907, 908, 911, 913, 915
       ],
       "Wizard's Court": [
-        893, 895, 896, 899, 901, 902, 903, 904, 909
+        893, 895, 896, 899, 901, 902, 903, 904, 909, 912, 914
       ],
       "Standalone: Other": [
         897
@@ -482,7 +479,7 @@
         543
       ]
     },
-    "Lunar New Year": {
+    "Lunar New Year (LNY)": {
       "Lantern": [
         745,
         746,
@@ -499,7 +496,7 @@
         883
       ]
     },
-    "Super Adventure Festival": {
+    "Super Adventure Festival (SAB)": {
       "Princess Miya": [
         183,
         184
@@ -533,7 +530,7 @@
         889
       ]
     },
-    "Festival of the Four Winds": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone: Queen's Gauntlet": [
         170
       ],
@@ -550,7 +547,7 @@
         891
       ]
     },
-    "Halloween": {
+    "Shadow of the Mad King": {
       "Mad Memoires": [
         783,
         784,
@@ -588,7 +585,8 @@
         833,
         834,
         874,
-        876
+        876,
+        910
       ]
     },
     "Wintersday": {
@@ -1088,6 +1086,7 @@
         333,
         335,
         336,
+        342,
         369,
         378,
         380,
@@ -1126,9 +1125,6 @@
         781,
         796,
         815
-      ],
-      "Standalone: Other + Back Item Combo": [
-        342
       ]
     }
   }

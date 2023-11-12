@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "Living World Season 5: The Icebrood Saga (LW5)": {
+    "Living World Season 5: The Icebrood Saga (IBS)": {
       "Standalone: Dragon Response Mission": [
         "Stretch"
       ],
@@ -26,7 +26,7 @@
       ]
     },
     "Gem Store": {
-      "How to Dance, Volume 1 + Toy Novelty Combo": [
+      "How to Dance, Volume 1": [
         "geargrind",
         "shuffle",
         "step"
@@ -35,9 +35,13 @@
         "Serve",
         "Hiss",
         "MagicJuggle",
-        "Readbook",
-        "sipcoffee"
+        "Readbook"
       ]
     }
+  },
+  "Promotional": {
+    "Standalone: Other": [
+      "sipcoffee"
+    ]
   }
 }
