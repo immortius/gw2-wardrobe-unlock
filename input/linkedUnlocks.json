@@ -403,6 +403,96 @@
         }
       },
       {
+        "name": "Sanctified Coat",
+        "unlocks": {
+          "armor": [
+            "11611",
+            "11682",
+            "11793"
+          ]
+        }
+      },
+      {
+        "name": "Sanctified Helm",
+        "unlocks": {
+          "armor": [
+            "11629",
+            "11709",
+            "11764"
+          ]
+        }
+      },
+      {
+        "name": "Sanctified Leggings",
+        "unlocks": {
+          "armor": [
+            "11578",
+            "11689",
+            "11752"
+          ]
+        }
+      },
+      {
+        "name": "Oneiros-Spun Gloves",
+        "unlocks": {
+          "armor": [
+            "11874",
+            "11885",
+            "11900"
+          ]
+        }
+      },
+      {
+        "name": "Oneiros-Spun Coat",
+        "unlocks": {
+          "armor": [
+            "11875",
+            "11892",
+            "11914"
+          ]
+        }
+      },
+      {
+        "name": "Oneiros-Spun Shoulders",
+        "unlocks": {
+          "armor": [
+            "11876",
+            "11877",
+            "11916"
+          ]
+        }
+      },
+      {
+        "name": "Oneiros-Spun Boots",
+        "unlocks": {
+          "armor": [
+            "11888",
+            "11898",
+            "11921"
+          ]
+        }
+      },
+      {
+        "name": "Oneiros-Spun Helm",
+        "unlocks": {
+          "armor": [
+            "11897",
+            "11905",
+            "11922"
+          ]
+        }
+      },
+      {
+        "name": "Oneiros-Spun Leggings",
+        "unlocks": {
+          "armor": [
+            "11901",
+            "11906",
+            "11917"
+          ]
+        }
+      },
+      {
         "name": "Adventurer\u0027s Scarf",
         "unlocks": {
           "armor": [

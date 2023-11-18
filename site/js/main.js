@@ -1247,10 +1247,6 @@ function showDetails(item, prefix) {
         } else {
             $('#' + prefix + 'selection-unlocked-by').toggle(false);
         }
-
-        var unlockedByList = $('#' + prefix + 'selection-vendor-list');
-        vendorList.empty();
-
     }
 
     if (item.priceData) {
