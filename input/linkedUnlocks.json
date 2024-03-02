@@ -3548,6 +3548,50 @@
             "7748"
           ]
         }
+      },
+      {
+        "name": "Winter Fur",
+        "unlocks": {
+          "armor": [
+            11952,
+            11957,
+            11961
+          ]
+        }
+      },
+      {
+        "name": "Dragon Descendant's Helm",
+        "unlocks": {
+          "armor": [
+            11990,
+            11992,
+            11995
+          ]
+        }
+      },
+      {
+        "name": "Skysage's Boots",
+        "unlocks": {
+          "armor": [
+            12029, 12054, 12091
+          ]
+        }
+      },
+      {
+        "name": "Skysage's Gloves",
+        "unlocks": {
+          "armor": [
+            12036, 12076, 12094
+          ]
+        }
+      },
+      {
+        "name": "Fashionable Kilt",
+        "unlocks": {
+          "armor": [
+            12020, 12052, 12087
+          ]
+        }
       }
     ]
   },
@@ -4078,7 +4122,7 @@
       {
         "name": "Clawing Shadow Greaves",
         "unlocks": {
-          "armor" : [
+          "armor": [
             11857,
             11865,
             11867
@@ -4088,7 +4132,7 @@
       {
         "name": "Paper Bag Helm (Angry)",
         "unlocks": {
-          "armor" : [
+          "armor": [
             1238,
             1239,
             1240
@@ -4098,7 +4142,7 @@
       {
         "name": "Paper Bag Helm (Blush)",
         "unlocks": {
-          "armor" : [
+          "armor": [
             1235,
             1236,
             1237
@@ -4108,7 +4152,7 @@
       {
         "name": "Paper Bag Helm (Happy)",
         "unlocks": {
-          "armor" : [
+          "armor": [
             1241,
             1242,
             1243
@@ -4118,7 +4162,7 @@
       {
         "name": "Paper Bag Helm (Sad)",
         "unlocks": {
-          "armor" : [
+          "armor": [
             1244,
             1245,
             1246
@@ -4128,7 +4172,7 @@
       {
         "name": "Side-Lace Pants",
         "unlocks": {
-          "armor" : [
+          "armor": [
             11842,
             11843,
             11845
@@ -4138,7 +4182,7 @@
       {
         "name": "Krytan Rogue Chestpiece",
         "unlocks": {
-          "armor" : [
+          "armor": [
             11849,
             11863,
             11864
@@ -4307,7 +4351,16 @@
             11841
           ]
         }
+      },
+      {
+        "name": "Skysage Spectacles",
+        "unlocks": {
+          "armor": [
+            12016, 12066, 12092, 12017, 12062, 12095
+          ]
+        }
       }
+
     ]
   },
   {
@@ -4315,7 +4368,7 @@
     "contents": [
       {
         "name": "Cavalier Axe",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6773,
             6749
@@ -4324,7 +4377,7 @@
       },
       {
         "name": "Cavalier Dagger",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6781,
             6751
@@ -4333,7 +4386,7 @@
       },
       {
         "name": "Cavalier Mace",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6766,
             6747
@@ -4342,7 +4395,7 @@
       },
       {
         "name": "Cavalier Pistol",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6762,
             6756
@@ -4351,7 +4404,7 @@
       },
       {
         "name": "Cavalier Scepter",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6782,
             6746
@@ -4360,7 +4413,7 @@
       },
       {
         "name": "Cavalier Sword",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6770,
             6772
@@ -4369,7 +4422,7 @@
       },
       {
         "name": "Cavalier Focus",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6769,
             6767
@@ -4378,7 +4431,7 @@
       },
       {
         "name": "Cavalier Shield",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6778,
             6768
@@ -4387,7 +4440,7 @@
       },
       {
         "name": "Cavalier Torch",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6776,
             6780
@@ -4396,7 +4449,7 @@
       },
       {
         "name": "Cavalier Warhorn",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6754,
             6777
@@ -4405,7 +4458,7 @@
       },
       {
         "name": "Cavalier Greatsword",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6755,
             6765
@@ -4414,7 +4467,7 @@
       },
       {
         "name": "Cavalier Hammer",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6761,
             6764
@@ -4423,7 +4476,7 @@
       },
       {
         "name": "Cavalier Longbow",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6748,
             6758
@@ -4432,7 +4485,7 @@
       },
       {
         "name": "Cavalier Rifle",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6750,
             6757
@@ -4441,7 +4494,7 @@
       },
       {
         "name": "Cavalier Short Bow",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6771,
             6753
@@ -4450,7 +4503,7 @@
       },
       {
         "name": "Cavalier Staff",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             6763,
             6783
@@ -4459,7 +4512,7 @@
       },
       {
         "name": "God-Slayer Bow Pack",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7281,
             7284
@@ -4468,7 +4521,7 @@
       },
       {
         "name": "Rival Skies Package",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7450,
             7651
@@ -4477,7 +4530,7 @@
       },
       {
         "name": "Obsidian Dagger",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7921,
             7946
@@ -4486,7 +4539,7 @@
       },
       {
         "name": "Obsidian Shield",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7918,
             7928
@@ -4495,7 +4548,7 @@
       },
       {
         "name": "Obsidian Torch",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7933,
             7971
@@ -4504,7 +4557,7 @@
       },
       {
         "name": "Obsidian Staff",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7949,
             7953
@@ -4513,7 +4566,7 @@
       },
       {
         "name": "Mistforged Obsidian Dagger",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7926,
             7974
@@ -4522,7 +4575,7 @@
       },
       {
         "name": "Mistforged Obsidian Shield",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7958,
             7923
@@ -4531,7 +4584,7 @@
       },
       {
         "name": "Mistforged Obsidian Torch",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7978,
             7993
@@ -4540,7 +4593,7 @@
       },
       {
         "name": "Mistforged Obsidian Staff",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7961,
             7977
@@ -4549,7 +4602,7 @@
       },
       {
         "name": "Obsidian Mace",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8079,
             8074
@@ -4558,7 +4611,7 @@
       },
       {
         "name": "Obsidian Pistol",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8075,
             8078
@@ -4567,7 +4620,7 @@
       },
       {
         "name": "Obsidian Scepter",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8080,
             8065
@@ -4576,7 +4629,7 @@
       },
       {
         "name": "Obsidian Sword",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7962,
             7992
@@ -4585,7 +4638,7 @@
       },
       {
         "name": "Mistforged Obsidian Mace",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8077,
             8066
@@ -4594,7 +4647,7 @@
       },
       {
         "name": "Mistforged Obsidian Pistol",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8076,
             8070
@@ -4603,7 +4656,7 @@
       },
       {
         "name": "Mistforged Obsidian Scepter",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8067,
             8073
@@ -4612,7 +4665,7 @@
       },
       {
         "name": "Mistforged Obsidian Sword",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7951,
             7956
@@ -4621,7 +4674,7 @@
       },
       {
         "name": "Obsidian Focus",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8132,
             8136
@@ -4630,7 +4683,7 @@
       },
       {
         "name": "Obsidian Greatsword",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8131,
             8140
@@ -4639,7 +4692,7 @@
       },
       {
         "name": "Obsidian Hammer",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8127,
             8130
@@ -4648,7 +4701,7 @@
       },
       {
         "name": "Obsidian Longbow",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7936,
             7980
@@ -4657,7 +4710,7 @@
       },
       {
         "name": "Mistforged Obsidian Focus",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8129,
             8133
@@ -4666,7 +4719,7 @@
       },
       {
         "name": "Mistforged Obsidian Greatsword",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8137,
             8128
@@ -4675,7 +4728,7 @@
       },
       {
         "name": "Mistforged Obsidian Hammer",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8139,
             8134
@@ -4684,7 +4737,7 @@
       },
       {
         "name": "Mistforged Obsidian Longbow",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             7935,
             7963
@@ -4693,7 +4746,7 @@
       },
       {
         "name": "Onyx Lion Axe",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8235,
             8280
@@ -4702,7 +4755,7 @@
       },
       {
         "name": "Onyx Lion Dagger",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8257,
             8273
@@ -4711,7 +4764,7 @@
       },
       {
         "name": "Onyx Lion Mace",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8255,
             8267
@@ -4720,7 +4773,7 @@
       },
       {
         "name": "Onyx Lion Pistol",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8276,
             8285
@@ -4729,7 +4782,7 @@
       },
       {
         "name": "Onyx Lion Scepter",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8250,
             8275
@@ -4738,7 +4791,7 @@
       },
       {
         "name": "Onyx Lion Sword",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8244,
             8271
@@ -4747,7 +4800,7 @@
       },
       {
         "name": "Onyx Lion Focus",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8246,
             8298
@@ -4756,7 +4809,7 @@
       },
       {
         "name": "Onyx Lion Shield",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8245,
             8295
@@ -4765,7 +4818,7 @@
       },
       {
         "name": "Onyx Lion Torch",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8251,
             8293
@@ -4774,7 +4827,7 @@
       },
       {
         "name": "Onyx Lion Warhorn",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8236,
             8248
@@ -4783,7 +4836,7 @@
       },
       {
         "name": "Onyx Lion Greatsword",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8243,
             8292
@@ -4792,7 +4845,7 @@
       },
       {
         "name": "Onyx Lion Hammer",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8256,
             8269
@@ -4801,7 +4854,7 @@
       },
       {
         "name": "Onyx Lion Longbow",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8242,
             8286
@@ -4810,7 +4863,7 @@
       },
       {
         "name": "Onyx Lion Rifle",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8262,
             8279
@@ -4819,7 +4872,7 @@
       },
       {
         "name": "Onyx Lion Short Bow",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8237,
             8272
@@ -4828,7 +4881,7 @@
       },
       {
         "name": "Onyx Lion Staff",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8268,
             8274
@@ -4837,7 +4890,7 @@
       },
       {
         "name": "Obsidian Axe",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8324,
             8302
@@ -4846,7 +4899,7 @@
       },
       {
         "name": "Obsidian Warhorn",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8310,
             8304
@@ -4855,7 +4908,7 @@
       },
       {
         "name": "Obsidian Rifle",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8306,
             8323
@@ -4864,7 +4917,7 @@
       },
       {
         "name": "Obsidian Short Bow",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8312,
             8308
@@ -4873,7 +4926,7 @@
       },
       {
         "name": "Mistforged Obsidian Axe",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8329,
             8325
@@ -4882,7 +4935,7 @@
       },
       {
         "name": "Mistforged Obsidian Warhorn",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8332,
             8301
@@ -4891,7 +4944,7 @@
       },
       {
         "name": "Mistforged Obsidian Rifle",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8318,
             8307
@@ -4900,7 +4953,7 @@
       },
       {
         "name": "Mistforged Obsidian Short Bow",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8314,
             8303
@@ -4909,7 +4962,7 @@
       },
       {
         "name": "Queensdale Academy Wand Set",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             9594,
             9596
@@ -4918,7 +4971,7 @@
       },
       {
         "name": "Shrine Guardian Bow Pack",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             9741,
             9748
@@ -4927,7 +4980,7 @@
       },
       {
         "name": "Infused Blades Package",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             9842,
             9851
@@ -4936,7 +4989,7 @@
       },
       {
         "name": "Shiro's Legacy Blades Package",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             10818,
             10824
@@ -4950,7 +5003,7 @@
     "contents": [
       {
         "name": "Forest Archer Pack",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10156,
             10159,
@@ -4960,7 +5013,7 @@
       },
       {
         "name": "Decade's War",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             11025,
             11027
@@ -4969,7 +5022,7 @@
       },
       {
         "name": "Battlelord's Cape Hood Combo",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
             11143,
             11150,
@@ -4985,7 +5038,7 @@
       },
       {
         "name": "Artisan Zharra's Cape and Hood Combo",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
             11418,
             11419,
@@ -4998,12 +5051,25 @@
       },
       {
         "name": "Fire-Breathing Package",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8010
           ],
           "back": [
             8021
+          ]
+        }
+      },
+      {
+        "name": "Heretical Scholar's Cape and Hood Combo",
+        "unlocks": {
+          "back": [
+            11966
+          ],
+          "armor": [
+            11936,
+            11956,
+            11977
           ]
         }
       }
@@ -5014,7 +5080,7 @@
     "contents": [
       {
         "name": "Infinite Unbound Magic Gathering Tools",
-        "unlocks" : {
+        "unlocks": {
           "tool": [
             8087,
             8093,
@@ -5024,7 +5090,7 @@
       },
       {
         "name": "Infinite Volatile Magic Gathering Tools",
-        "unlocks" : {
+        "unlocks": {
           "tool": [
             8142,
             8156,
@@ -5034,7 +5100,7 @@
       },
       {
         "name": "Infinite Spirits of the Wild Gathering Tools",
-        "unlocks" : {
+        "unlocks": {
           "tool": [
             9718,
             9720,
@@ -5044,7 +5110,7 @@
       },
       {
         "name": "Infinite Herald of Aurene Gathering Tools",
-        "unlocks" : {
+        "unlocks": {
           "tool": [
             11410,
             11412,
@@ -5054,7 +5120,7 @@
       },
       {
         "name": "Infinite Vermilion Gathering Tools",
-        "unlocks" : {
+        "unlocks": {
           "tool": [
             11597,
             11720,
@@ -5069,7 +5135,7 @@
     "contents": [
       {
         "name": "Black Wings Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             5878
           ],
@@ -5080,7 +5146,7 @@
       },
       {
         "name": "White Wings Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6035
           ],
@@ -5091,7 +5157,7 @@
       },
       {
         "name": "Bat Wings Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6412
           ],
@@ -5102,7 +5168,7 @@
       },
       {
         "name": "Golden Feather Wings Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6527
           ],
@@ -5113,7 +5179,7 @@
       },
       {
         "name": "The Ascension",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6561
           ],
@@ -5124,7 +5190,7 @@
       },
       {
         "name": "Hawk Wings Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6615
           ],
@@ -5135,7 +5201,7 @@
       },
       {
         "name": "Wings of Love Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8627
           ],
@@ -5146,7 +5212,7 @@
       },
       {
         "name": "Ad Infinitum",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6344
           ],
@@ -5157,7 +5223,7 @@
       },
       {
         "name": "Macaw Wings Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6744
           ],
@@ -5168,7 +5234,7 @@
       },
       {
         "name": "Moth Wings Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6774
           ],
@@ -5179,7 +5245,7 @@
       },
       {
         "name": "Shining Blade Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6854
           ],
@@ -5190,7 +5256,7 @@
       },
       {
         "name": "Mursaat Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6965
           ],
@@ -5201,7 +5267,7 @@
       },
       {
         "name": "Crystalline Dragon Wings Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7004
           ],
@@ -5212,7 +5278,7 @@
       },
       {
         "name": "Super Holo-Copter Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7200
           ],
@@ -5223,7 +5289,7 @@
       },
       {
         "name": "Vine-Touched Destroyer Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7202
           ],
@@ -5234,7 +5300,7 @@
       },
       {
         "name": "Warbringer",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7272
           ],
@@ -5245,7 +5311,7 @@
       },
       {
         "name": "Dynamics Exo-Suit Glider Backpack Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7285
           ],
@@ -5256,7 +5322,7 @@
       },
       {
         "name": "Feathers of the Zephyr Package",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7308
           ],
@@ -5267,7 +5333,7 @@
       },
       {
         "name": "Largos Fin Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7661
           ],
@@ -5278,7 +5344,7 @@
       },
       {
         "name": "Branded Wing Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7743
           ],
@@ -5289,7 +5355,7 @@
       },
       {
         "name": "Desert King Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8184
           ],
@@ -5300,7 +5366,7 @@
       },
       {
         "name": "Wild Magic Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7811
           ],
@@ -5311,7 +5377,7 @@
       },
       {
         "name": "Griffon Hatchling Package",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             7996
           ],
@@ -5322,7 +5388,7 @@
       },
       {
         "name": "Forged Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8038
           ],
@@ -5333,7 +5399,7 @@
       },
       {
         "name": "Jeweled Scarab Package",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8141
           ],
@@ -5344,7 +5410,7 @@
       },
       {
         "name": "Scaled Dragon Wings Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8434
           ],
@@ -5355,7 +5421,7 @@
       },
       {
         "name": "Etherbound Package",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8638
           ],
@@ -5366,7 +5432,7 @@
       },
       {
         "name": "Legion Jetpack Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8647
           ],
@@ -5377,7 +5443,7 @@
       },
       {
         "name": "Branded Relic Package",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8725
           ],
@@ -5388,7 +5454,7 @@
       },
       {
         "name": "Dragon Fireworks Package",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8807
           ],
@@ -5399,7 +5465,7 @@
       },
       {
         "name": "Lightbinder Blades Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8883
           ],
@@ -5410,7 +5476,7 @@
       },
       {
         "name": "Watchwork Wings Package",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8915
           ],
@@ -5421,7 +5487,7 @@
       },
       {
         "name": "Citadel Assault Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8930
           ],
@@ -5432,7 +5498,7 @@
       },
       {
         "name": "Skeletal Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             8979
           ],
@@ -5443,7 +5509,7 @@
       },
       {
         "name": "Shiverpeaks Hunter Backpack Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9021
           ],
@@ -5454,7 +5520,7 @@
       },
       {
         "name": "Starlight Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9061
           ],
@@ -5465,7 +5531,7 @@
       },
       {
         "name": "Alchemist Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9211
           ],
@@ -5476,7 +5542,7 @@
       },
       {
         "name": "Dreamwalker Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9298
           ],
@@ -5487,7 +5553,7 @@
       },
       {
         "name": "Draconic Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9364
           ],
@@ -5498,7 +5564,7 @@
       },
       {
         "name": "Tanglewood Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9450
           ],
@@ -5509,7 +5575,7 @@
       },
       {
         "name": "Spellforged Glider Backpack Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9474
           ],
@@ -5520,7 +5586,7 @@
       },
       {
         "name": "Vermilion Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9481
           ],
@@ -5531,7 +5597,7 @@
       },
       {
         "name": "Stained Glass Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9617
           ],
@@ -5542,7 +5608,7 @@
       },
       {
         "name": "Nightspeaker Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9659
           ],
@@ -5553,7 +5619,7 @@
       },
       {
         "name": "Volcanic Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9671
           ],
@@ -5564,7 +5630,7 @@
       },
       {
         "name": "Shimmering Aurora Cape and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9732
           ],
@@ -5575,7 +5641,7 @@
       },
       {
         "name": "Shrine Guardian Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9769
           ],
@@ -5586,7 +5652,7 @@
       },
       {
         "name": "Eternal Mandala Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9893
           ],
@@ -5597,7 +5663,7 @@
       },
       {
         "name": "Giant Shuriken Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9969
           ],
@@ -5608,7 +5674,7 @@
       },
       {
         "name": "Seraph Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9992
           ],
@@ -5619,7 +5685,7 @@
       },
       {
         "name": "Cute Demon Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             9999
           ],
@@ -5630,7 +5696,7 @@
       },
       {
         "name": "Elemental Fury Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10010
           ],
@@ -5641,7 +5707,7 @@
       },
       {
         "name": "Archdemon Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10045
           ],
@@ -5652,7 +5718,7 @@
       },
       {
         "name": "Cute Angel Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10079
           ],
@@ -5663,7 +5729,7 @@
       },
       {
         "name": "Sylph Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10105
           ],
@@ -5674,7 +5740,7 @@
       },
       {
         "name": "Venombite Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10149
           ],
@@ -5685,7 +5751,7 @@
       },
       {
         "name": "Aurene Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10200
           ],
@@ -5696,7 +5762,7 @@
       },
       {
         "name": "Lunar Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10219
           ],
@@ -5707,7 +5773,7 @@
       },
       {
         "name": "Canthan Spiritualist Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10503
           ],
@@ -5718,7 +5784,7 @@
       },
       {
         "name": "Thousand Seas Gourd Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10805
           ],
@@ -5729,7 +5795,7 @@
       },
       {
         "name": "Jade Tech Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10823
           ],
@@ -5740,7 +5806,7 @@
       },
       {
         "name": "New Kaineng Cape and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10888
           ],
@@ -5751,7 +5817,7 @@
       },
       {
         "name": "Jade Tech Jetpack Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10941
           ],
@@ -5762,7 +5828,7 @@
       },
       {
         "name": "Water Dragon Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             10912
           ],
@@ -5773,7 +5839,7 @@
       },
       {
         "name": "Umbral Serpent Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             11051
           ],
@@ -5784,7 +5850,7 @@
       },
       {
         "name": "Lightning Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             11125
           ],
@@ -5795,7 +5861,7 @@
       },
       {
         "name": "Canthan Phoenix Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             11246
           ],
@@ -5806,7 +5872,7 @@
       },
       {
         "name": "Equinox Wings Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             11253
           ],
@@ -5817,7 +5883,7 @@
       },
       {
         "name": "Undying Shackles Cape and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             11400
           ],
@@ -5828,7 +5894,7 @@
       },
       {
         "name": "Cuddly Cat Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             11428
           ],
@@ -5838,19 +5904,25 @@
         }
       },
       {
-        "name": "Infernal Envoy Backpack and Glider Combo",
-        "unlocks" : {
+        "name": "Infernal Envoy Appearance Package",
+        "unlocks": {
           "back": [
             11780
           ],
           "glider": [
+            125
+          ],
+          "weapon": [
+            11571
+          ],
+          "outfit": [
             125
           ]
         }
       },
       {
         "name": "Sorcerer's Cape Backpack and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             11716
           ],
@@ -5861,7 +5933,7 @@
       },
       {
         "name": "Gentle Garden Swing Chair Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "glider": [
             127
           ]
@@ -5869,9 +5941,42 @@
       },
       {
         "name": "Personal Gyrocopter Chair Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "glider": [
             128
+          ]
+        }
+      },
+      {
+        "name": "Giant Folding Fan Backpack and Glider Combo",
+        "unlocks": {
+          "glider": [
+            129
+          ],
+          "back": [
+            11941
+          ]
+        }
+      },
+      {
+        "name": "Arcane Sigil Backpack and Glider Combo",
+        "unlocks": {
+          "glider": [
+            130
+          ],
+          "back": [
+            11982
+          ]
+        }
+      },
+      {
+        "name": "Elegant Noble's Glider Combo",
+        "unlocks": {
+          "glider": [
+            131
+          ],
+          "back": [
+            11996
           ]
         }
       }
@@ -5882,7 +5987,7 @@
     "contents": [
       {
         "name": "Spooky Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             13,
             14,
@@ -5894,7 +5999,7 @@
       },
       {
         "name": "Cozy Wintersday Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             52,
             53,
@@ -5906,7 +6011,7 @@
       },
       {
         "name": "Branded Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             66,
             68,
@@ -5918,7 +6023,7 @@
       },
       {
         "name": "Exo-Suit Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             92,
             93,
@@ -5930,7 +6035,7 @@
       },
       {
         "name": "Awakened Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             98,
             99,
@@ -5942,7 +6047,7 @@
       },
       {
         "name": "Mad Realm Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             130,
             131,
@@ -5954,7 +6059,7 @@
       },
       {
         "name": "Shiverpeaks Mount Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             153,
             154,
@@ -5966,7 +6071,7 @@
       },
       {
         "name": "Mad King Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             222,
             223,
@@ -5982,7 +6087,7 @@
       },
       {
         "name": "Canthan Cuckoo Springer Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             422,
             423,
@@ -5992,7 +6097,7 @@
       },
       {
         "name": "Canthan Vulpine Jackal Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             429,
             430,
@@ -6002,7 +6107,7 @@
       },
       {
         "name": "Canthan Tigris Griffon Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             432,
             433,
@@ -6012,7 +6117,7 @@
       },
       {
         "name": "Warclaw Frontline Mount Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             162,
             163,
@@ -6024,7 +6129,7 @@
       },
       {
         "name": "Canthan Nian Warclaw Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             437,
             440,
@@ -6034,7 +6139,7 @@
       },
       {
         "name": "Skyscale Ascension Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             193,
             194,
@@ -6046,7 +6151,7 @@
       },
       {
         "name": "Canthan Noble Skyscale Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             443,
             444,
@@ -6056,7 +6161,7 @@
       },
       {
         "name": "Siege Turtle Advent Mounts Pack",
-        "unlocks" : {
+        "unlocks": {
           "mount": [
             415,
             416,
@@ -6073,7 +6178,7 @@
     "contents": [
       {
         "name": "The Minstrel",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             4672
           ],
@@ -6084,7 +6189,7 @@
       },
       {
         "name": "Verdarach",
-        "unlocks" : {
+        "unlocks": {
           "weapon": [
             8145
           ],
@@ -6095,7 +6200,7 @@
       },
       {
         "name": "Cook's Outfit",
-        "unlocks" : {
+        "unlocks": {
           "outfit": [
             1
           ],
@@ -6106,7 +6211,7 @@
       },
       {
         "name": "Mad King's Outfit",
-        "unlocks" : {
+        "unlocks": {
           "outfit": [
             2
           ],
@@ -6117,7 +6222,7 @@
       },
       {
         "name": "Pirate Captain's Outfit",
-        "unlocks" : {
+        "unlocks": {
           "outfit": [
             3
           ],
@@ -6128,7 +6233,7 @@
       },
       {
         "name": "Witch's Outfit",
-        "unlocks" : {
+        "unlocks": {
           "outfit": [
             4
           ],
@@ -6139,7 +6244,7 @@
       },
       {
         "name": "Executioner's Outfit",
-        "unlocks" : {
+        "unlocks": {
           "outfit": [
             5
           ],
@@ -6150,7 +6255,7 @@
       },
       {
         "name": "Bloody Prince's Outfit",
-        "unlocks" : {
+        "unlocks": {
           "outfit": [
             6
           ],
@@ -6161,7 +6266,7 @@
       },
       {
         "name": "Fancy Winter Outfit",
-        "unlocks" : {
+        "unlocks": {
           "outfit": [
             7
           ],
@@ -6172,7 +6277,7 @@
       },
       {
         "name": "Inquest Overseer Chair Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "glider": [
             73
           ],
@@ -6183,7 +6288,7 @@
       },
       {
         "name": "Wandering Cloud Chair and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "glider": [
             97
           ],
@@ -6194,7 +6299,7 @@
       },
       {
         "name": "Electromagnetic Ascender-Descender Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "glider": [
             16
           ],
@@ -6205,7 +6310,7 @@
       },
       {
         "name": "Magic Carpet Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "glider": [
             44
           ],
@@ -6216,7 +6321,7 @@
       },
       {
         "name": "Riding Broom and Glider Combo",
-        "unlocks" : {
+        "unlocks": {
           "glider": [
             53
           ],
@@ -6227,7 +6332,7 @@
       },
       {
         "name": "Shattered Bloodstone Ascender Combo",
-        "unlocks" : {
+        "unlocks": {
           "glider": [
             39
           ],
@@ -6243,7 +6348,7 @@
     "contents": [
       {
         "name": "Mini Super Trio",
-        "unlocks" : {
+        "unlocks": {
           "mini": [
             133,
             134,
@@ -6253,7 +6358,7 @@
       },
       {
         "name": "Mini Super Trio—World 2",
-        "unlocks" : {
+        "unlocks": {
           "mini": [
             185,
             186,
@@ -6263,7 +6368,7 @@
       },
       {
         "name": "Mini Super Trio—Series 3",
-        "unlocks" : {
+        "unlocks": {
           "mini": [
             455,
             456,
@@ -6273,7 +6378,7 @@
       },
       {
         "name": "Mini Super Trio—Series 4",
-        "unlocks" : {
+        "unlocks": {
           "mini": [
             676,
             677,
@@ -6283,7 +6388,7 @@
       },
       {
         "name": "Ghoul Backpack and Mini Set",
-        "unlocks" : {
+        "unlocks": {
           "back": [
             6431
           ],
@@ -6294,7 +6399,7 @@
       },
       {
         "name": "Kryptis Skyscale",
-        "unlocks" : {
+        "unlocks": {
           "mount": [],
           "mini": [
             905
@@ -6308,7 +6413,7 @@
     "contents": [
       {
         "name": "How to Dance, Volume 1",
-        "unlocks" : {
+        "unlocks": {
           "novelty": [
             44
           ],

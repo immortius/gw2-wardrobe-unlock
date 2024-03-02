@@ -127,7 +127,8 @@
         6253,
         6353,
         6618,
-        6621
+        6621,
+        11840
       ]
     },
     "Living World Season 1: Scarlet's War (LW1)": {
@@ -282,6 +283,14 @@
       ]
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
+      "Banners of the Bastions": [
+        12032,
+        12039,
+        12047,
+        12065,
+        12070,
+        12073
+      ],
       "Standalone: Other": [
         11741,
         11804,
@@ -298,7 +307,8 @@
         9097,
         9883,
         10206,
-        11209
+        11209,
+        12003
       ],
       "Lucky Celestial Lantern > Lucky Great Celestial Lantern": [
         5857,
@@ -309,7 +319,8 @@
         9120,
         9838,
         10183,
-        11206
+        11206,
+        12007
       ]
     },
     "Super Adventure Box (SAB)": {
@@ -423,7 +434,8 @@
         10888,
         11400,
         11716,
-        11903
+        11903,
+        11966
       ],
       "Standalone: Quiver": [
         2369,
@@ -516,7 +528,10 @@
         10941,
         11051,
         11428,
-        11780
+        11780,
+        11941,
+        11982,
+        11996
       ]
     },
     "Promotional": {

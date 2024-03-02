@@ -38,6 +38,11 @@
     // Festival: Dragon Bash
     8833,
     // Festival: Halloween - Mad Memoires
-    2336,2338,7760,7775
+    2336,2338,7760,7775,
+    // Expedition Cape
+    11840,
+    // Banners of the Bastions
+    12032, 12039, 12047, 12065, 12070, 12073
+
   ]
 }
