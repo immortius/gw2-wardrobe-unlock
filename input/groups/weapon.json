@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Starter": [
         3870,
         3872,
@@ -1828,7 +1828,7 @@
         11537
       ]
     },
-    "(X0 > LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Aetherized Nightmare Court": [
         4513,
         4419,
@@ -1889,7 +1889,7 @@
         5425
       ]
     },
-    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Ambrite": [
         5516,
         5517,
@@ -1913,7 +1913,7 @@
         5790
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Elite Specialization Generation #01 - Tier 1": [
         6471,
         6313,
@@ -2209,7 +2209,7 @@
         6836
       ]
     },
-    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Caladbolg": [
         6403,
         7160,
@@ -2242,7 +2242,7 @@
         7135
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Elite Specialization Generation #02 - Tier 1": [
         7397,
         7718,
@@ -2393,7 +2393,7 @@
         8412
       ]
     },
-    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Astral": [
         7840,
         7842,
@@ -2513,7 +2513,7 @@
         8587
       ]
     },
-    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
       "Ancient Boreal": [
         9010,
         9012,
@@ -2837,7 +2837,7 @@
         9993
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Elite Specialization Generation #03 - Tier 1": [
         10245,
         10246,
@@ -3213,7 +3213,7 @@
         10837
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Abomination": [
         11582,
         11584,
@@ -3399,11 +3399,7 @@
         12019
       ]
     },
-    "(X5) Guild Wars 2: ???? (????)": {
-      "Standalone Weapon": [
-      ]
-    },
-    "(F1) Lunar New Year (LNY)": {
+    "Lunar New Year (LNY)": {
       "Festival Daily Completion #01 - Shining Aureate": [
         9095,
         9096,
@@ -3509,7 +3505,7 @@
         11233
       ]
     },
-    "(F2) Super Adventure Festival (SAB)": {
+    "Super Adventure Festival (SAB)": {
       "Festival Daily Completion #02 - Crimson Assassin": [
         7169,
         7170,
@@ -3703,7 +3699,7 @@
         9360
       ]
     },
-    "(F3) Dragon Bash": {
+    "Dragon Bash": {
       "Festival Daily Completion #03 - Holographic": [
         8804,
         8805,
@@ -3793,7 +3789,7 @@
         10033
       ]
     },
-    "(F4) Festival of the Four Winds (FotFW)": {
+    "Festival of the Four Winds (FotFW)": {
       "Festival Daily Completion #04 - Zephyrite": [
         8224,
         8232,
@@ -3913,7 +3909,7 @@
         10108
       ]
     },
-    "(F5) Shadow of the Mad King (Halloween)": {
+    "Shadow of the Mad King (Halloween)": {
       "Festival Daily Completion #05 - Haunted": [
         7777,
         7779,
@@ -4037,7 +4033,7 @@
         11071
       ]
     },
-    "(F6) A Very Merry Wintersday": {
+    "A Very Merry Wintersday": {
       "Festival Daily Completion #06 - Wrapped": [
         7043,
         7943,

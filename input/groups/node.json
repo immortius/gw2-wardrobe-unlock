@@ -1,22 +1,22 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Standalone Node": [
         "enchanted_treasure_chest"
       ]
     },
-    "(X0 > LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Standalone Node": [
         "krait_obelisk",
         "sprocket_generator"
       ]
     },
-    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Standalone Node": [
         "bandit_chest"
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Standalone Node": [
         "airship_cargo",
         "aurilium_node",
@@ -24,7 +24,7 @@
         "exalted_chest"
       ]
     },
-    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Standalone Node": [
         "bloodstone_crystals",
         "jade_fragment",
@@ -34,7 +34,7 @@
         "winterberry_bush"
       ]
     },
-    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Standalone Node": [
         "brandstone_node",
         "difluorite_crystal_cluster_node",
@@ -44,7 +44,7 @@
         "mistonium_node"
       ]
     },
-    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
       "Standalone Node": [
         "bound_hatched_chili_pepper_node",
         "eternal_ice_shard_node",
@@ -52,28 +52,28 @@
         "salvage_pile"
       ]
     },
-    "(F2) Super Adventure Festival (SAB)": {
+    "Super Adventure Festival (SAB)": {
       "Standalone Node": [
         "bauble_gathering_system"
       ]
     },
-    "(F3) Dragon Bash": {
+    "Dragon Bash": {
       "Standalone Node": [
         "commemorative_dragon_pinata"
       ]
     },
-    "(F4) Festival of the Four Winds (FotFW)": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone Node": [
         "quartz_node"
       ]
     },
-    "(F5) Shadow of the Mad King (Halloween)": {
+    "Shadow of the Mad King (Halloween)": {
       "Standalone Node": [
         "candy_corn_node",
         "king_sized_candy_corn"
       ]
     },
-    "(F6) A Very Merry Wintersday": {
+    "A Very Merry Wintersday": {
       "Standalone Node": [
         "wintersday_tree"
       ]

@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Beginner Stats #01: Mighty": [
         996,
         998,
@@ -1791,7 +1791,7 @@
         13005
       ]
     },
-    "(X0 > LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Advanced Stats #016: Sentinel -> Wei Qi / Tonn": [
         7338,
         7366,
@@ -2138,7 +2138,7 @@
         7838
       ]
     },
-    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Advanced Stats #020: Nomad": [
         9673,
         9669,
@@ -2382,7 +2382,7 @@
         9903
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Advanced Stats #022: Commander": [
         10003,
         10115,
@@ -3557,7 +3557,7 @@
         11620
       ]
     },
-    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Advanced Stats #030: Seraph": [
         11903,
         11913,
@@ -3680,7 +3680,7 @@
         12949
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Advanced Stats #031: Harrier -> Brandspark": [
         12142,
         12183,
@@ -3959,7 +3959,7 @@
         12310
       ]
     },
-    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Advanced Stats #035: Plaguedoctor": [
         12673,
         12674,
@@ -4272,7 +4272,7 @@
         12467
       ]
     },
-    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
       "Boreal Bag": [
         13276,
         13292,
@@ -4483,7 +4483,7 @@
         13265
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Advanced Stats #037: Dragon": [
         13736,
         13759
@@ -4795,7 +4795,7 @@
         13881
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Consecrated Saryx Weapon": [
         14045,
         14046,
@@ -4880,11 +4880,7 @@
         14035
       ]
     },
-    "(X5) Guild Wars 2: ???? (????)": {
-      "Standalone Recipe": [
-      ]
-    },
-    "(F1) Lunar New Year (LNY)": {
+    "Lunar New Year (LNY)": {
       "Standalone Recipe -> Nourishment": [
         13508
       ],
@@ -4892,19 +4888,19 @@
         13131
       ]
     },
-    "(F2) Super Adventure Festival (SAB)": {
+    "Super Adventure Festival (SAB)": {
       "Standalone Recipe -> Nourishment": [
         13896
       ]
     },
-    "(F3) Dragon Bash": {
+    "Dragon Bash": {
       "Standalone Recipe -> Enhancement": [
         13236,
         13238,
         13239
       ]
     },
-    "(F4) Festival of the Four Winds (FotFW)": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone Recipe": [
         9636
       ],
@@ -4913,7 +4909,7 @@
         13498
       ]
     },
-    "(F5) Shadow of the Mad King (Halloween)": {
+    "Shadow of the Mad King (Halloween)": {
       "Candy Corn Enhancement": [
         9805,
         9806,
@@ -4977,7 +4973,7 @@
         6506
       ]
     },
-    "(F6) A Very Merry Wintersday": {
+    "A Very Merry Wintersday": {
       "Intermediate Stats #08: Giver": [
         7014,
         7015,

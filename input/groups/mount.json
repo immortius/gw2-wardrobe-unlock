@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Starter": [
         1,
         2,
@@ -16,7 +16,7 @@
         251
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone Mount": [
       ]
     },

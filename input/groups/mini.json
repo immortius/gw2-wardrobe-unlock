@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "PvP League #01 - Llama": [
         228,
         321,
@@ -57,7 +57,7 @@
         890
       ]
     },
-    "(X0 > LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Prototype Assault Knight": [
         877,
         878,
@@ -79,7 +79,7 @@
         223
       ]
     },
-    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Mordrem Minion": [
         292,
         303,
@@ -90,7 +90,7 @@
         298
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Guild Initiative Proprietor": [
         338,
         339,
@@ -143,7 +143,7 @@
         447
       ]
     },
-    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Dragon's Watch": [
         462,
         465,
@@ -188,7 +188,7 @@
         582
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Awakened": [
         507,
         511,
@@ -303,7 +303,7 @@
         765
       ]
     },
-    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Branded Minion": [
         618,
         719,
@@ -343,7 +343,7 @@
         762
       ]
     },
-    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
       "Corrupted Lost Spirit": [
         799,
         802,
@@ -374,7 +374,7 @@
         818
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Crustacean": [
         844,
         845,
@@ -402,7 +402,7 @@
         885
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Astral Ward": [
         893,
         903,
@@ -435,11 +435,7 @@
         915
       ]
     },
-    "(X5) Guild Wars 2: ???? (????)": {
-      "Standalone Miniature": [
-      ]
-    },
-    "(F1) Lunar New Year (LNY)": {
+    "Lunar New Year (LNY)": {
       "Lantern": [
         745,
         746,
@@ -457,7 +453,7 @@
         917
       ]
     },
-    "(F2) Super Adventure Festival (SAB)": {
+    "Super Adventure Festival (SAB)": {
       "Standalone Miniature": [
         183,
         184,
@@ -469,7 +465,7 @@
         918
       ]
     },
-    "(F3) Dragon Bash": {
+    "Dragon Bash": {
       "Holographic Dragon Minion": [
         158,
         157,
@@ -488,7 +484,7 @@
         889
       ]
     },
-    "(F4) Festival of the Four Winds (FotFW)": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone Miniature": [
         170,
         291,
@@ -501,7 +497,7 @@
         891
       ]
     },
-    "(F5) Shadow of the Mad King (Halloween)": {
+    "Shadow of the Mad King (Halloween)": {
       "Mad Memoires": [
         783,
         784,
@@ -542,7 +538,7 @@
         876
       ]
     },
-    "(F6) A Very Merry Wintersday": {
+    "A Very Merry Wintersday": {
       "Angry Snowball": [
         626,
         628,

@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Achiever": [
         162,
         163,
@@ -171,7 +171,7 @@
         420
       ]
     },
-    "(X0 > LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Standalone Title": [
         131,
         133,
@@ -185,7 +185,7 @@
         395
       ]
     },
-    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "The Be-All and the End-All": [
         207,
         208,
@@ -198,7 +198,7 @@
         213
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Standalone Title": [
         218,
         219,
@@ -215,7 +215,7 @@
         276
       ]
     },
-    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Standalone Title": [
         246,
         249,
@@ -227,7 +227,7 @@
         290
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Friend of Elona": [
         281,
         283,
@@ -248,7 +248,7 @@
         328
       ]
     },
-    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Standalone Title": [
         301,
         302,
@@ -264,7 +264,7 @@
         325
       ]
     },
-    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
       "Standalone Title": [
         345,
         346,
@@ -283,7 +283,7 @@
         369
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Cod Swimming Amongst Mere Minnows": [
         374,
         376,
@@ -314,7 +314,7 @@
         389
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone Title": [
         401,
         402,
@@ -326,13 +326,13 @@
         456
       ]
     },
-    "(F2) Super Adventure Festival (SAB)": {
+    "Super Adventure Festival (SAB)": {
       "Standalone Title": [
         134,
         174
       ]
     },
-    "(F4) Festival of the Four Winds (FotFW)": {
+    "Festival of the Four Winds (FotFW)": {
       "Standalone Title": [
         160,
         161,
@@ -341,13 +341,13 @@
         310
       ]
     },
-    "(F5) Shadow of the Mad King (Halloween)": {
+    "Shadow of the Mad King (Halloween)": {
       "Standalone Title": [
         128,
         129
       ]
     },
-    "(F6) A Very Merry Wintersday": {
+    "A Very Merry Wintersday": {
       "Standalone Title": [
         130,
         178,

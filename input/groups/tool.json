@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Starter": [
         2385,
         2388,
@@ -8,7 +8,7 @@
         10721
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Standalone Gathering Tool": [
         10602,
         10687

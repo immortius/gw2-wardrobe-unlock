@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Starter - Chainmail / Rawhide / Apprentice": [
         3,
         4,
@@ -1188,7 +1188,7 @@
         8123
       ]
     },
-    "(X0 > LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Fused": [
         2012,
         2015,
@@ -1241,7 +1241,7 @@
         11155
       ]
     },
-    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Adventurer": [
         5488,
         5480,
@@ -1294,7 +1294,7 @@
         5727
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Elite Specialization Generation #01": [
         6418,
         6050,
@@ -1446,7 +1446,7 @@
         7121
       ]
     },
-    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Dragonscale": [
         6951,
         6955,
@@ -1479,7 +1479,7 @@
         7316
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Elite Specialization Generation #02": [
         7441,
         7411,
@@ -1606,7 +1606,7 @@
         7679
       ]
     },
-    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Corsair": [
         7836,
         7844,
@@ -1721,7 +1721,7 @@
         8032
       ]
     },
-    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
       "Bear Ceremonial": [
         9365,
         9368,
@@ -1814,7 +1814,7 @@
         9526
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Elite Specialization Generation #03": [
         10297,
         10321,
@@ -2000,7 +2000,7 @@
         11343
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Astral Ward": [
         11580,
         11585,
@@ -2092,11 +2092,7 @@
         11909
       ]
     },
-    "(X5) Guild Wars 2: ???? (????)": {
-      "Standalone Armor": [
-      ]
-    },
-    "(F1) Lunar New Year (LNY)": {
+    "Lunar New Year (LNY)": {
       "Standalone Armor": [
         9101,
         9108,
@@ -2115,7 +2111,7 @@
         11995
       ]
     },
-    "(F2) Super Adventure Festival (SAB)": {
+    "Super Adventure Festival (SAB)": {
       "Powered": [
         11367,
         11371,
@@ -2150,7 +2146,7 @@
         9357
       ]
     },
-    "(F3) Dragon Bash": {
+    "Dragon Bash": {
       "Holographic Dragon": [
         8817,
         8826,
@@ -2174,7 +2170,7 @@
         2016
       ]
     },
-    "(F4) Festival of the Four Winds (FotFW)": {
+    "Festival of the Four Winds (FotFW)": {
       "Aspect-Touched Zephyrite": [
         8189,
         8190,
@@ -2225,7 +2221,7 @@
         9555
       ]
     },
-    "(F5) Shadow of the Mad King (Halloween)": {
+    "Shadow of the Mad King (Halloween)": {
       "Clawing Shadow": [
         11053,
         11065,
@@ -2297,7 +2293,7 @@
         10134
       ]
     },
-    "(F6) A Very Merry Wintersday": {
+    "A Very Merry Wintersday": {
       "Festive": [
         9062,
         9087,
@@ -2984,7 +2980,7 @@
         10965,
         10967
       ],
-      "Standalone Armor -> Head": [
+      "Standalone Armor -> Headgear": [
         833,
         839,
         840,
@@ -3067,7 +3063,7 @@
         11078,
         11097
       ],
-      "Standalone Armor -> Head -> Ears": [
+      "Standalone Armor -> Headgear -> Ears": [
         983,
         984,
         985,
@@ -3081,7 +3077,7 @@
         8743,
         8751
       ],
-      "Standalone Armor -> Head -> Glasses": [
+      "Standalone Armor -> Headgear -> Glasses": [
         967,
         971,
         982,
@@ -3098,7 +3094,7 @@
         1014,
         1018
       ],
-      "Standalone Armor -> Head -> Hood": [
+      "Standalone Armor -> Headgear -> Hood": [
         995,
         1025,
         1026,
@@ -3118,7 +3114,7 @@
         11419,
         11431
       ],
-      "Standalone Armor -> Head -> Horns": [
+      "Standalone Armor -> Headgear -> Horns": [
         999,
         1000,
         1027,
@@ -3144,7 +3140,7 @@
         10867,
         10865
       ],
-      "Standalone Armor -> Head -> Mask": [
+      "Standalone Armor -> Headgear -> Mask": [
         996,
         997,
         998,
@@ -3167,7 +3163,7 @@
         7326,
         7336
       ],
-      "Standalone Armor -> Shoulder": [
+      "Standalone Armor -> Shoulders": [
         1137,
         1143,
         1141,
@@ -3201,7 +3197,7 @@
         11863,
         11864
       ],
-      "Standalone Armor -> Hand": [
+      "Standalone Armor -> Gloves": [
         6700,
         6727,
         6732,
@@ -3224,7 +3220,7 @@
         10896,
         10897
       ],
-      "Standalone Armor -> Leg": [
+      "Standalone Armor -> Leggings": [
         11842,
         11843,
         11845,
@@ -3235,7 +3231,7 @@
         12072,
         12087
       ],
-      "Standalone Armor -> Foot": [
+      "Standalone Armor -> Boots": [
         9733,
         9757,
         9779,
@@ -3246,7 +3242,7 @@
         11360,
         11363
       ],
-      "Standalone Armor -> Aquatic Head": [
+      "Standalone Armor -> Aquatic Headgear": [
         1041,
         1044,
         1045

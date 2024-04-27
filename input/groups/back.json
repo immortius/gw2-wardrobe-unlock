@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Crafting Discipline #01: Armorsmith": [
         2304,
         2305,
@@ -110,7 +110,7 @@
         9051
       ]
     },
-    "(X0 > LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Spinal Blades": [
         2337,
         2328,
@@ -131,14 +131,14 @@
         11118
       ]
     },
-    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Vine (Mawdrey)": [
         5544,
         5545,
         5532
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Crafting Discipline #09: Scribe": [
         6512,
         6402,
@@ -171,7 +171,7 @@
         7114
       ]
     },
-    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Druid Stone (The Wayfarer's Henge)": [
         7209,
         7216,
@@ -193,7 +193,7 @@
         7089
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Banners of Elona": [
         7458,
         7464,
@@ -201,7 +201,7 @@
         7631
       ]
     },
-    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Inquest (Mark Y Golem)": [
         8057,
         8049,
@@ -214,7 +214,7 @@
         8169
       ]
     },
-    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
       "Banner of the High Legion": [
         8924,
         8931,
@@ -234,7 +234,7 @@
         9991
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Club Canach": [
         10344,
         10426,
@@ -254,7 +254,7 @@
         11268
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Banner of the Bastion of Amnytas": [
         12032,
         12039,
@@ -270,11 +270,7 @@
         12081
       ]
     },
-    "(X5) Guild Wars 2: ???? (????)": {
-      "Standalone Back Item": [
-      ]
-    },
-    "(F1) Lunar New Year (LNY)": {
+    "Lunar New Year (LNY)": {
       "Lucky Celestial Lantern": [
         5856,
         6619,
@@ -300,7 +296,7 @@
         12007
       ]
     },
-    "(F2) Super Adventure Festival (SAB)": {
+    "Super Adventure Festival (SAB)": {
       "Bauble": [
         2360,
         2361,
@@ -312,14 +308,14 @@
         2359
       ]
     },
-    "(F3) Dragon Bash": {
+    "Dragon Bash": {
       "Holographic Wings": [
         2351,
         2352,
         8833
       ]
     },
-    "(F4) Festival of the Four Winds (FotFW)": {
+    "Festival of the Four Winds (FotFW)": {
       "Aspect Catcher": [
         2346,
         2347,
@@ -337,7 +333,7 @@
         8861
       ]
     },
-    "(F5) Shadow of the Mad King (Halloween)": {
+    "Shadow of the Mad King (Halloween)": {
       "Mad Memoires": [
         2336,
         7760,
@@ -348,7 +344,7 @@
         9638
       ]
     },
-    "(F6) A Very Merry Wintersday": {
+    "A Very Merry Wintersday": {
       "Standalone Back Item": [
         2374,
         2375,

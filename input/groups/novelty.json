@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "(X0) Guild Wars 2 (GW2)": {
+    "Core": {
       "Elemental Potion": [
         72,
         120,
@@ -22,7 +22,7 @@
         332
       ]
     },
-    "(X0 > LW1) Living World Season 1: Scarlet's War": {
+    "Living World Season 1: Scarlet's War (LW1)": {
       "Quaggan Tonic": [
         88,
         131,
@@ -44,7 +44,7 @@
         325
       ]
     },
-    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+    "Living World Season 2: Glint's Prophecy (LW2)": {
       "Mordrem Minion Tonic": [
         81,
         90,
@@ -63,7 +63,7 @@
         230
       ]
     },
-    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
+    "Guild Wars 2: Heart of Thorns (HoT)": {
       "Chak Tonic": [
         102,
         214,
@@ -86,7 +86,7 @@
         258
       ]
     },
-    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+    "Living World Season 3: Glint's Legacy (LW3)": {
       "Standalone Novelty": [
         92,
         132,
@@ -96,7 +96,7 @@
         255
       ]
     },
-    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+    "Guild Wars 2: Path of Fire (PoF)": {
       "Casino Blitz Kite": [
         10,
         17,
@@ -115,7 +115,7 @@
         285
       ]
     },
-    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
       "Racing Tonic": [
         271,
         272,
@@ -134,7 +134,7 @@
         282
       ]
     },
-    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
       "Standalone Novelty": [
         292,
         293,
@@ -142,7 +142,7 @@
         299
       ]
     },
-    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+    "Guild Wars 2: End of Dragons (EoD)": {
       "Fishing Tonic": [
         335,
         336,
@@ -160,7 +160,7 @@
         330
       ]
     },
-    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+    "Guild Wars 2: Secrets of the Obscure (SotO)": {
       "Standalone Novelty": [
         342,
         343,
@@ -168,11 +168,7 @@
         345
       ]
     },
-    "(X5) Guild Wars 2: ???? (????)": {
-      "Standalone Novelty": [
-      ]
-    },
-    "(F2) Super Adventure Festival (SAB)": {
+    "Super Adventure Festival (SAB)": {
       "Super Boom Box": [
         3,
         23,
@@ -180,7 +176,7 @@
         30
       ]
     },
-    "(F4) Festival of the Four Winds (FotFW)": {
+    "Festival of the Four Winds (FotFW)": {
       "Treasure Hunt Kite": [
         1,
         31,
@@ -194,7 +190,7 @@
         223
       ]
     },
-    "(F5) Shadow of the Mad King (Halloween)": {
+    "Shadow of the Mad King (Halloween)": {
       "Halloween Enchantment Tonic": [
         84,
         94,
@@ -206,7 +202,7 @@
         180
       ]
     },
-    "(F6) A Very Merry Wintersday": {
+    "A Very Merry Wintersday": {
       "Enchanted Snowball": [
         93,
         133,
