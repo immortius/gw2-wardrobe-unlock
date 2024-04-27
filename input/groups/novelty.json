@@ -1,53 +1,28 @@
 {
   "topLevelCategories": {
-    "Core": {
-      "Chest Tonic": [
-        283,
-        288,
-        304,
-        308
-      ],
+    "(X0) Guild Wars 2 (GW2)": {
       "Elemental Potion": [
         72,
         120,
         179,
         231
       ],
-      "Ley-Line Anomaly": [
-        191,
-        202
-      ],
-      "Standalone: Fractal": [
+      "Standalone Novelty": [
+        12,
+        41,
         115,
         121,
-        141,
-        307,
-        332
-      ],
-      "Standalone: Racing": [
-        271,
-        272,
-        273,
-        274,
-        275,
-        276
-      ],
-      "Standalone: World vs. World": [
-        147
-      ],
-      "Standalone: Other": [
-        12,
-        29,
-        34,
-        41,
         122,
+        141,
+        147,
         219,
         222,
         237,
-        289
+        307,
+        332
       ]
     },
-    "Living World Season 1: Scarlet's War (LW1)": {
+    "(X0 > LW1) Living World Season 1: Scarlet's War": {
       "Quaggan Tonic": [
         88,
         131,
@@ -55,14 +30,7 @@
         200,
         215
       ],
-      "Standalone: Dungeon": [
-        173,
-        175
-      ],
-      "Standalone: Strike Mission": [
-        325
-      ],
-      "Standalone: Other": [
+      "Standalone Novelty": [
         47,
         49,
         58,
@@ -70,29 +38,32 @@
         112,
         140,
         149,
-        156
+        156,
+        173,
+        175,
+        325
       ]
     },
-    "Living World Season 2: Glint's Prophecy (LW2)": {
-      "Kites": [
-        11,
-        14,
-        48
-      ],
-      "Mordrem Tonic": [
+    "(X0 > LW2) Living World Season 2: Glint's Prophecy": {
+      "Mordrem Minion Tonic": [
         81,
         90,
         201,
         243
       ],
-      "Standalone: Other" : [
+      "Sandstorm Kite": [
+        11,
+        14,
+        48
+      ],
+      "Standalone Novelty": [
         117,
         138,
         195,
         230
       ]
     },
-    "Guild Wars 2: Heart of Thorns (HoT)": {
+    "(X1) Guild Wars 2: Heart of Thorns (HoT)": {
       "Chak Tonic": [
         102,
         214,
@@ -104,47 +75,56 @@
         266,
         267
       ],
-      "Standalone: Raid": [
-        258
-      ],
-      "Standalone: Other": [
+      "Standalone Novelty": [
+        34,
         106,
         110,
         186,
         198,
         228,
-        241
+        241,
+        258
       ]
     },
-    "Living World Season 3: Glint's Legacy (LW3)": {
-      "Standalone: Other": [
+    "(X1 > LW3) Living World Season 3: Glint's Legacy": {
+      "Standalone Novelty": [
         92,
         132,
         158,
+        191,
+        202,
         255
       ]
     },
-    "Guild Wars 2: Path of Fire (PoF)": {
-      "Choya" : [
+    "(X2) Guild Wars 2: Path of Fire (PoF)": {
+      "Casino Blitz Kite": [
         10,
-        26,
-        43
-      ],
-      "Standalone: Raid": [
-        50,
-        69,
-        285
-      ],
-      "Standalone: Other": [
         17,
         22,
+        26,
         39,
-        51,
-        218
+        43,
+        51
+      ],
+      "Music Box": [
+      ],
+      "Standalone Novelty": [
+        50,
+        69,
+        218,
+        285
       ]
     },
-    "Living World Season 4: Rise of Kralkatorrik (LW4)": {
-      "Standalone: Other": [
+    "(X2 > LW4) Living World Season 4: Rise of Kralkatorrik": {
+      "Racing Tonic": [
+        271,
+        272,
+        273,
+        274,
+        275,
+        276
+      ],
+      "Standalone Novelty": [
         86,
         89,
         233,
@@ -154,18 +134,16 @@
         282
       ]
     },
-    "Living World Season 5: The Icebrood Saga (IBS)": {
-      "Standalone: Strike Mission" : [
-        293
-      ],
-      "Standalone: Other": [
+    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+      "Standalone Novelty": [
         292,
+        293,
         297,
         299
       ]
     },
-    "Guild Wars 2: End of Dragons (EoD)": {
-      "Aquatic Tonics" : [
+    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+      "Fishing Tonic": [
         335,
         336,
         337,
@@ -173,28 +151,28 @@
         340,
         341
       ],
-      "Standalone: Strike Mission": [
+      "Standalone Novelty": [
         316,
+        317,
         318,
         319,
-        320
-      ],
-      "Standalone: Other": [
-        317,
+        320,
         330
       ]
     },
-    "Guild Wars 2: Secrets of the Obscure (SotO)": {
-      "Standalone: Strike": [
+    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+      "Standalone Novelty": [
+        342,
+        343,
         344,
         345
-      ],
-      "Standalone: Other": [
-        342,
-        343
       ]
     },
-    "Super Adventure Festival (SAB)": {
+    "(X5) Guild Wars 2: ???? (????)": {
+      "Standalone Novelty": [
+      ]
+    },
+    "(F2) Super Adventure Festival (SAB)": {
       "Super Boom Box": [
         3,
         23,
@@ -202,39 +180,39 @@
         30
       ]
     },
-    "Festival of the Four Winds (FotFW)": {
-      "Kites": [
+    "(F4) Festival of the Four Winds (FotFW)": {
+      "Treasure Hunt Kite": [
         1,
         31,
         46
       ],
-      "Standalone: Festival Bag": [
-        223
-      ],
-      "Standalone: Other": [
+      "Standalone Novelty": [
         28,
+        29,
         142,
-        150
+        150,
+        223
       ]
     },
-    "Shadow of the Mad King": {
-      "Ignited Wraith Tonic": [
+    "(F5) Shadow of the Mad King (Halloween)": {
+      "Halloween Enchantment Tonic": [
         84,
         94,
         166,
         178
       ],
-      "Standalone: Festival Bag": [
+      "Standalone Novelty": [
         170,
         180
       ]
     },
-    "Wintersday": {
+    "(F6) A Very Merry Wintersday": {
       "Enchanted Snowball": [
         93,
+        133,
         217
       ],
-      "Toy Tonic / Gift Box Tonic / Gift Dolyak Tonic / Toymaker's Tonic": [
+      "Toy Tonic": [
         119,
         136,
         145,
@@ -244,24 +222,38 @@
         206,
         257
       ],
-      "Standalone: Festival Bag": [
+      "Standalone Novelty": [
         38,
         42,
         75,
-        133
-      ],
-      "Standalone: Other": [
         277
       ]
     },
-    "Gem Store": {
-      "Kites" : [
+    "Bonus Event": {
+      "Champion's Gizmo": [
+      ],
+      "Chest Tonic": [
+        283,
+        288,
+        304
+      ],
+      "Standalone Novelty": [
+        289,
+        308
+      ]
+    },
+    "Wizard's Vault": {
+      "Standalone Novelty": [
+      ]
+    },
+    "Black Lion Trading Company (Gem Store)": {
+      "Aspect Kite": [
         7,
         13,
         36,
         40
       ],
-      "Standalone: Chair": [
+      "Standalone Novelty -> Chair": [
         24,
         262,
         268,
@@ -290,7 +282,7 @@
         327,
         329
       ],
-      "Standalone: Musical Instrument": [
+      "Standalone Novelty -> Musical Instrument": [
         2,
         6,
         8,
@@ -299,13 +291,13 @@
         37,
         45
       ],
-      "Standalone: Held Item": [
+      "Standalone Novelty -> Held Item": [
         15,
         21,
         32,
         53
       ],
-      "Standalone: Toy": [
+      "Standalone Novelty -> Toy": [
         4,
         5,
         9,
@@ -327,7 +319,7 @@
         265,
         300
       ],
-      "Standalone: Tonic": [
+      "Standalone Novelty -> Tonic": [
         80,
         103,
         159,
@@ -335,8 +327,8 @@
         185
       ]
     },
-    "Promotional": {
-      "Standalone: Other": [
+    "Promotional Event": {
+      "Standalone Novelty": [
         236
       ]
     }

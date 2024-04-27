@@ -1,36 +1,32 @@
 {
   "topLevelCategories": {
-    "Core": {
+    "(X0) Guild Wars 2 (GW2)": {
       "Starter": [
-        3
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
-      "Standalone: Turai Ossa": [
-        8,
-        9,
-        14
-      ],
-      "Standalone: Grymm Svaard": [
-        2,
-        4,
-        10,
-        13
-      ],
-      "Standalone: Nika": [
         1,
-        7,
-        11,
-        12
+        3,
+        2,
+        5
       ],
-      "Standalone: Lightbringer Tybalt Leftpaw": [
-        5,
-        18,
-        19,
+      "Stronghold #01": [
+        8,
+        10,
+        12,
+        18
+      ],
+      "Stronghold #02": [
+        11,
+        13,
+        14,
+        19
+      ],
+      "Stronghold #03": [
+        4,
+        7,
+        9,
         20
       ]
     },
-    "Gem Store": {
+    "Black Lion Trading Company (Gem Store)": {
       "Festive": [
         15,
         16,

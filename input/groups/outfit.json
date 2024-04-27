@@ -1,16 +1,30 @@
 {
   "topLevelCategories": {
-    "Core": {
-      "Standalone: Other": [
+    "(X0) Guild Wars 2 (GW2)": {
+      "Starter": [
         60
       ]
     },
-    "Shadow of the Mad King": {
-      "Standalone: Other": [
+    "(F5) Shadow of the Mad King (Halloween)": {
+      "Standalone Outfit": [
         12
       ]
     },
-    "Gem Store": {
+    "Black Lion Trading Company (Gem Store)": {
+      "Clothing": [
+        59,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ],
       "Crystal": [
         18,
         29,
@@ -29,21 +43,7 @@
         30,
         54
       ],
-      "Standalone: Clothing": [
-        59,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71
-      ],
-      "Standalone: Other": [
+      "Standalone Outfit": [
         1,
         2,
         3,
@@ -138,18 +138,19 @@
         125,
         126,
         127,
-        128
+        128,
+        129
       ]
     },
-    "Promotional": {
-      "T-Shirts": [
+    "Promotional Event": {
+      "Emblem Clothing": [
         73,
         89,
         90,
         95,
         113
       ],
-      "Standalone: Other": [
+      "Standalone Outfit": [
         27
       ]
     }

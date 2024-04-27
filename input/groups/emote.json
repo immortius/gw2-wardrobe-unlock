@@ -1,47 +1,50 @@
 {
   "topLevelCategories": {
-    "Living World Season 5: The Icebrood Saga (IBS)": {
-      "Standalone: Dragon Response Mission": [
-        "Stretch"
-      ],
-      "Standalone: Other": [
+    "(X2 > LW5) Living World Season 5: The Icebrood Saga (IBS)": {
+      "Standalone Emote": [
+        "playdead",
         "rockout",
         "shiver",
-        "playdead",
-        "Shiverplus"
+        "Shiverplus",
+        "Stretch"
       ]
     },
-    "Guild Wars 2: End of Dragons (EoD)": {
-      "Rock / Paper / Scissors": [
+    "(X3) Guild Wars 2: End of Dragons (EoD)": {
+      "Rock, Paper, Scissors": [
         "Paper",
         "Rock",
         "Scissors"
       ]
     },
-    "Guild Wars 2: Secrets of the Obscure (SotO)": {
-      "Standalone: Other": [
-        "Bless",
+    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+      "Standalone Emote": [
         "Heroic",
         "Possessed"
       ]
     },
-    "Gem Store": {
+    "Wizard's Vault": {
+      "Standalone Emote": [
+        "Bless"
+      ]
+    },
+    "Black Lion Trading Company (Gem Store)": {
       "How to Dance, Volume 1": [
         "geargrind",
         "shuffle",
         "step"
       ],
-      "Standalone: Other": [
-        "Serve",
+      "Standalone Emote": [
         "Hiss",
+        "Readbook",
+        "Serve",
+        "Unleash"
+      ]
+    },
+    "Promotional Event": {
+      "Standalone Emote": [
         "MagicJuggle",
-        "Readbook"
+        "sipcoffee"
       ]
     }
-  },
-  "Promotional": {
-    "Standalone: Other": [
-      "sipcoffee"
-    ]
   }
 }

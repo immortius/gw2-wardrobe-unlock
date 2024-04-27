@@ -1,6 +1,6 @@
 {
   "topLevelCategories": {
-    "Core": {
+    "(X0) Guild Wars 2 (GW2)": {
       "Starter": [
         1,
         2,
@@ -12,23 +12,27 @@
         186,
         397
       ],
-      "Standalone: World vs. World": [
+      "Standalone Mount": [
         251
       ]
     },
-    "Guild Wars 2: Secrets of the Obscure (SotO)": {
-      "Standalone: Other": [
+    "(X4) Guild Wars 2: Secrets of the Obscure (SotO)": {
+      "Standalone Mount": [
       ]
     },
-    "Gem Store": {
-      "Spooky": [
+    "Wizard's Vault": {
+      "Standalone Mount": [
+      ]
+    },
+    "Black Lion Trading Company (Gem Store)": {
+      "Mounts Pack #001 - Spooky": [
         13,
         14,
         15,
         16,
         19
       ],
-      "Cozy Wintersday": [
+      "Mounts Pack #002 - Cozy Wintersday": [
         52,
         53,
         56,
@@ -36,7 +40,7 @@
         60,
         235
       ],
-      "Branded": [
+      "Mounts Pack #003 - Branded": [
         66,
         68,
         70,
@@ -46,7 +50,7 @@
         195,
         234
       ],
-      "Exo-Suit": [
+      "Mounts Pack #004 - Exo-Suit": [
         92,
         93,
         94,
@@ -55,7 +59,7 @@
         303,
         371
       ],
-      "Awakened": [
+      "Mounts Pack #005 - Awakened": [
         98,
         99,
         100,
@@ -63,7 +67,7 @@
         102,
         278
       ],
-      "Mad Realm": [
+      "Mounts Pack #006 - Mad Realm": [
         130,
         131,
         132,
@@ -71,26 +75,36 @@
         134,
         304
       ],
-      "Shiverpeaks": [
+      "Mounts Pack #007 - Shiverpeaks": [
         153,
         154,
         155,
         157,
         158
       ],
-      "Mad King": [
+      "Mounts Pack #008 - Mad King": [
         222,
         223,
         224,
         225,
         226
       ],
+      "Mounts Pack #009 - Canthan": [
+        360,
+        422,
+        431,
+        433,
+        437,
+        445
+      ],
+      "Mounts Pack #010 - Astral Ward": [
+      ],
       "Alloyed": [
         145,
         169,
         176
       ],
-      "Arctic / Glacial / Ice": [
+      "Arctic / Ice / Glacial": [
         31,
         88,
         89,
@@ -124,21 +138,8 @@
         373,
         430
       ],
-      "Blazing / Flame": [
-        23,
-        30,
-        41,
-        48,
-        116,
-        166,
-        211,
-        268,
-        365,
-        415,
-        434,
-        459,
-        487,
-        515
+      "Dark Matter": [
+        367
       ],
       "Darkmist": [
         313,
@@ -157,18 +158,21 @@
         352,
         362
       ],
-      "Heavenly Thunder / Storm": [
-        24,
-        79,
-        109,
-        142,
-        203,
-        241,
-        366,
-        423,
-        443,
-        447,
-        517
+      "Flame / Blazing / Pyroclast": [
+        23,
+        30,
+        41,
+        48,
+        116,
+        166,
+        211,
+        268,
+        365,
+        415,
+        434,
+        459,
+        487,
+        515
       ],
       "Jade Tech": [
         462
@@ -202,6 +206,8 @@
         499,
         504
       ],
+      "Primal Maguuma": [
+      ],
       "Primeval": [
         82,
         87,
@@ -214,9 +220,9 @@
         146,
         171
       ],
-      "Scaled": [
+      "Scaled Hell": [
       ],
-      "Star / Star Blessed": [
+      "Star / Star Blessed / Starlit Sky": [
         12,
         27,
         49,
@@ -228,6 +234,19 @@
         453,
         485,
         525
+      ],
+      "Storm / Heavenly Thunder / Charged": [
+        24,
+        79,
+        109,
+        142,
+        203,
+        241,
+        366,
+        423,
+        443,
+        447,
+        517
       ],
       "Super": [
         264,
@@ -243,7 +262,7 @@
         276,
         310
       ],
-      "Standalone: Raptor": [
+      "Standalone Mount -> Raptor": [
         17,
         21,
         29,
@@ -263,8 +282,6 @@
         308,
         329,
         344,
-        360,
-        367,
         450,
         456,
         496,
@@ -272,7 +289,7 @@
         505,
         514
       ],
-      "Standalone: Springer": [
+      "Standalone Mount -> Springer": [
         20,
         38,
         42,
@@ -293,13 +310,12 @@
         299,
         331,
         351,
-        422,
         426,
         457,
         481,
         526
       ],
-      "Standalone: Skimmer": [
+      "Standalone Mount -> Skimmer": [
         26,
         36,
         37,
@@ -319,7 +335,7 @@
         368,
         375
       ],
-      "Standalone: Jackal": [
+      "Standalone Mount -> Jackal": [
         22,
         28,
         33,
@@ -342,7 +358,6 @@
         372,
         406,
         429,
-        431,
         455,
         461,
         467,
@@ -350,7 +365,7 @@
         512,
         516
       ],
-      "Standalone: Griffon": [
+      "Standalone Mount -> Griffon": [
         25,
         34,
         40,
@@ -371,7 +386,6 @@
         346,
         361,
         432,
-        433,
         454,
         473,
         475,
@@ -379,7 +393,7 @@
         521,
         522
       ],
-      "Standalone: Roller Beetle": [
+      "Standalone Mount -> Roller Beetle": [
         104,
         105,
         114,
@@ -390,7 +404,7 @@
         239,
         348
       ],
-      "Standalone: Warclaw": [
+      "Standalone Mount -> Warclaw": [
         162,
         163,
         165,
@@ -403,7 +417,6 @@
         363,
         364,
         380,
-        437,
         441,
         448,
         449,
@@ -412,7 +425,7 @@
         484,
         524
       ],
-      "Standalone: Skyscale": [
+      "Standalone Mount -> Skyscale": [
         191,
         193,
         194,
@@ -429,14 +442,13 @@
         336,
         357,
         444,
-        445,
         460,
         472,
         483,
         513,
         520
       ],
-      "Standalone: Siege Turtle": [
+      "Standalone Mount -> Siege Turtle": [
         416,
         417,
         419,
