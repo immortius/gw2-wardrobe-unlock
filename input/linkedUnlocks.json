@@ -3592,6 +3592,22 @@
             12020, 12052, 12087
           ]
         }
+      },
+      {
+        "name": "Baggy Cargo",
+        "unlocks" : {
+          "armor": [
+            12012, 12037, 12072
+          ]
+        }
+      },
+      {
+        "name" : "Powered Shoulders",
+        "unlocks" : {
+          "armor": [
+            12106, 12116, 12117
+          ]
+        }
       }
     ]
   },
@@ -5070,6 +5086,17 @@
             11936,
             11956,
             11977
+          ]
+        }
+      },
+      {
+        "name": "Shattered Stone Wings Combo",
+        "unlocks": {
+          "glider": [
+            133
+          ],
+          "back": [
+            12103
           ]
         }
       }

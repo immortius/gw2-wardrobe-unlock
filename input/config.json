@@ -215,6 +215,8 @@
         "93585": [9365,9416,9369],
         // Blood Legion Soldier Helm Box
         "93653": [9429,9436,9439],
+        // Powered Gloves Box
+        "99582": [11367,11389,11406],
         // Visage of Nourys
         "100010": [11569,11658,11714]
       },
@@ -716,7 +718,35 @@
         // Rebel Long Boots
         11354,11357,
         // Bestial Tides Tattoo Chest
-        11286,11304
+        11286,11304,
+        // Side-Lace Pants
+        11842,11843,
+        // Leather Straps Cingulum
+        11522,11529,
+        // Sanctified Helm
+        11629,11709,
+        // Brawler's Silk Jacket
+        11479,11499,
+        // Sanctified Gloves
+        11643,11767,
+        // Sanctified Leggings
+        11578,11689,
+        // Artisan Zharra's Hood
+        11418,11419,
+        // Leather Straps Chestpiece
+        11523,11530,
+        // Sanctified Boots
+        11654,11713,
+        // Heretical Scholar's Hood
+        11936,11956,
+        // Visage of Nourys
+        11569,11658,
+        // Krytan Rogue Chestpiece
+        11849,11863,
+        // Sanctified Coat
+        11611,11682,
+        // Sanctified Shoulders
+        11667,11727
       ]
     },
     {
@@ -772,7 +802,9 @@
         // Sunder, same icon as dreadwing
         8776,
         // Living Water Longbow, similar icon to Saltspray Longbow
-        10590
+        10590,
+        // Eternel Blade, same icon as Royal Ascalonian Sword
+        11676
       ],
       "gwuIncludeIds": [
         10275,
