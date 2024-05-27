@@ -1,23 +1,23 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Standalone: Other": [
+      "Standalone Node": [
         "enchanted_treasure_chest"
       ]
     },
     "Living World Season 1: Scarlet's War (LW1)": {
-      "Standalone: Other": [
+      "Standalone Node": [
         "krait_obelisk",
         "sprocket_generator"
       ]
     },
     "Living World Season 2: Glint's Prophecy (LW2)": {
-      "Standalone: The Silverwastes": [
+      "Standalone Node": [
         "bandit_chest"
       ]
     },
     "Guild Wars 2: Heart of Thorns (HoT)": {
-      "Standalone: Other": [
+      "Standalone Node": [
         "airship_cargo",
         "aurilium_node",
         "crystallized_supply_cache",
@@ -25,86 +25,60 @@
       ]
     },
     "Living World Season 3: Glint's Legacy (LW3)": {
-      "Standalone: Bloodstone Fen": [
-        "bloodstone_crystals"
-      ],
-      "Standalone: Ember Bay": [
-        "petrified_stump"
-      ],
-      "Standalone: Bitterfrost Frontier": [
+      "Standalone Node": [
+        "bloodstone_crystals",
+        "jade_fragment",
+        "orrian_oyster_node",
+        "petrified_stump",
+        "primordial_orchid",
         "winterberry_bush"
-      ],
-      "Standalone: Lake Doric": [
-        "jade_fragment"
-      ],
-      "Standalone: Draconis Mons": [
-        "primordial_orchid"
-      ],
-      "Standalone: Siren's Landing": [
-        "orrian_oyster_node"
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik (LW4)": {
-      "Standalone: Domain of Istan": [
-        "brandstone_node"
-      ],
-      "Standalone: Sandswept Isles": [
-        "difluorite_crystal_cluster_node"
-      ],
-      "Standalone: Domain of Kourna": [
-        "kournan_supply_cache"
-      ],
-      "Standalone: Jahai Bluffs": [
-        "mistborn_mote"
-      ],
-      "Standalone: Thunderhead Peaks": [
-        "dragon_crystal"
-      ],
-      "Standalone: Dragonfall": [
+      "Standalone Node": [
+        "brandstone_node",
+        "difluorite_crystal_cluster_node",
+        "dragon_crystal",
+        "kournan_supply_cache",
+        "mistborn_mote",
         "mistonium_node"
       ]
     },
-    "Living World Season 5: The Icebrood Saga (LW5)": {
-      "Standalone: Grothmar Valley": [
-        "bound_hatched_chili_pepper_node"
-      ],
-      "Standalone: Bjora Marches": [
-        "eternal_ice_shard_node"
-      ],
-      "Standalone: Drizzlewood Coast": [
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
+      "Standalone Node": [
+        "bound_hatched_chili_pepper_node",
+        "eternal_ice_shard_node",
+        "prismaticite_node",
         "salvage_pile"
-      ],
-      "Standalone: Dragonstorm": [
-        "prismaticite_node"
       ]
     },
-    "Super Adventure Festival": {
-      "Standalone: Other": [
+    "Super Adventure Festival (SAB)": {
+      "Standalone Node": [
         "bauble_gathering_system"
       ]
     },
     "Dragon Bash": {
-      "Standalone: Other": [
+      "Standalone Node": [
         "commemorative_dragon_pinata"
       ]
     },
-    "Festival of the Four Winds": {
-      "Standalone: Annual Customs": [
+    "Festival of the Four Winds (FotFW)": {
+      "Standalone Node": [
         "quartz_node"
       ]
     },
-    "Halloween": {
-      "Standalone: Other": [
+    "Shadow of the Mad King (Halloween)": {
+      "Standalone Node": [
         "candy_corn_node",
         "king_sized_candy_corn"
       ]
     },
-    "Wintersday": {
-      "Standalone: Other": [
+    "A Very Merry Wintersday": {
+      "Standalone Node": [
         "wintersday_tree"
       ]
     },
-    "Gem Store": {
+    "Black Lion Trading Company (Gem Store)": {
       "Black Lion Board": [
         "black_lion_expedition_board",
         "black_lion_expedition_board_s4",
@@ -116,7 +90,13 @@
         "garden_plot_02",
         "garden_plot_03"
       ],
-      "Standalone: Harvesting": [
+      "Standalone Node": [
+        "advanced_cloth_rack",
+        "advanced_leather_rack",
+        "basic_cloth_rack",
+        "basic_leather_rack"
+      ],
+      "Standalone Node -> Harvesting": [
         "basic_harvesting_nodes",
         "flaxseed_node",
         "ghost_pepper_node",
@@ -125,26 +105,18 @@
         "orrian_truffle_node",
         "snow_truffle_node"
       ],
-      "Standalone: Logging": [
+      "Standalone Node -> Logging": [
         "ancient_wood_node",
         "basic_lumber_nodes",
         "elder_wood_node",
         "hard_wood_node"
       ],
-      "Standalone: Mining": [
+      "Standalone Node -> Mining": [
         "basic_ore_nodes",
         "iron_ore_node",
         "mithril_ore_node",
         "orichalcum_ore_node",
         "platinum_ore_node"
-      ],
-      "Standalone: Fishing": [
-      ],
-      "Standalone: Other": [
-        "advanced_cloth_rack",
-        "advanced_leather_rack",
-        "basic_cloth_rack",
-        "basic_leather_rack"
       ]
     }
   }

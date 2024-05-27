@@ -3,13 +3,15 @@
     "Core": {
       "Starter": [
         4
-      ],
-      "Standalone: Other": [
+      ]
+    },
+    "Bonus Event": {
+      "Standalone Mail Carrier": [
         15
       ]
     },
-    "Gem Store": {
-      "Standalone: Other": [
+    "Black Lion Trading Company (Gem Store)": {
+      "Standalone Mail Carrier": [
         1,
         2,
         3,

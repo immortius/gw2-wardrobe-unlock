@@ -1,36 +1,34 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Starter": [
-        3
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
-      "Standalone: Turai Ossa": [
+      "Mist Champion #01 - Turai Ossa": [
+        3,
         8,
         9,
         14
       ],
-      "Standalone: Grymm Svaard": [
+      "Mist Champion #02 - Grymm Svaard": [
         2,
         4,
         10,
         13
-      ],
-      "Standalone: Nika": [
+      ]
+    },
+    "Guild Wars 2: Heart of Thorns (HoT)": {
+      "Mist Champion #03 - Nika": [
         1,
         7,
         11,
         12
       ],
-      "Standalone: Lightbringer Tybalt Leftpaw": [
+      "Mist Champion #04 - Tybalt Leftpaw": [
         5,
         18,
         19,
         20
       ]
     },
-    "Gem Store": {
+    "Black Lion Trading Company (Gem Store)": {
       "Festive": [
         15,
         16,

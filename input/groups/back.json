@@ -1,7 +1,7 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Crafting Discipline: Armorsmith": [
+      "Crafting Discipline #01: Armorsmith": [
         2304,
         2305,
         2308,
@@ -9,39 +9,7 @@
         2301,
         2303
       ],
-      "Crafting Discipline: Artificer": [
-        2320,
-        2297,
-        2298,
-        2299,
-        2284,
-        2300
-      ],
-      "Crafting Discipline: Chef": [
-        2289,
-        2324,
-        2277,
-        2314,
-        2302,
-        2319
-      ],
-      "Crafting Discipline: Huntsman": [
-        2321,
-        2322,
-        2323,
-        2310,
-        2311,
-        2312
-      ],
-      "Crafting Discipline: Jeweler": [
-        2276,
-        2278,
-        2280,
-        2281,
-        2313,
-        2285
-      ],
-      "Crafting Discipline: Leatherworker": [
+      "Crafting Discipline #02: Leatherworker": [
         2292,
         2293,
         2294,
@@ -49,7 +17,7 @@
         2296,
         2315
       ],
-      "Crafting Discipline: Tailor": [
+      "Crafting Discipline #03: Tailor": [
         2307,
         2309,
         2282,
@@ -57,7 +25,7 @@
         2316,
         2286
       ],
-      "Crafting Discipline: Weaponsmith": [
+      "Crafting Discipline #04: Weaponsmith": [
         2288,
         2290,
         2306,
@@ -65,23 +33,37 @@
         2317,
         2287
       ],
-      "Book / Quiver": [
-        2318,
-        2325,
-        2326,
-        2341,
-        2376
+      "Crafting Discipline #05: Huntsman": [
+        2321,
+        2322,
+        2323,
+        2310,
+        2311,
+        2312
       ],
-      "Capital City": [
-        6890,
-        6892,
-        6895,
-        6898,
-        6902
+      "Crafting Discipline #06: Artificer": [
+        2320,
+        2297,
+        2298,
+        2299,
+        2284,
+        2300
       ],
-      "Decade": [
-        11025,
-        11027
+      "Crafting Discipline #07: Jeweler": [
+        2276,
+        2278,
+        2280,
+        2281,
+        2313,
+        2285
+      ],
+      "Crafting Discipline #08: Chef": [
+        2289,
+        2324,
+        2277,
+        2314,
+        2302,
+        2319
       ],
       "Fractal Capacitor": [
         2377,
@@ -94,7 +76,7 @@
         6344,
         6474
       ],
-      "Wings of Glory / The Ascension": [
+      "Wings of Glory (The Ascension)": [
         6560,
         6561,
         6562,
@@ -102,7 +84,7 @@
         6573,
         6558
       ],
-      "Wings of War / Warbringer": [
+      "Wings of War (Warbringer)": [
         7248,
         7252,
         7256,
@@ -110,25 +92,22 @@
         7276,
         7246
       ],
-      "Standalone: Guild": [
+      "Standalone Back Item": [
+        2318,
+        2325,
+        2326,
+        2340,
+        2341,
         2342,
         2343,
         2344,
-        9051
-      ],
-      "Standalone: Player vs. Player": [
-        2380
-      ],
-      "Standalone: Other": [
-        2340,
-        2358,
+        2376,
+        2380,
         5653,
-        6242,
         6253,
         6353,
-        6618,
         6621,
-        11840
+        9051
       ]
     },
     "Living World Season 1: Scarlet's War (LW1)": {
@@ -142,27 +121,25 @@
         2334,
         2335
       ],
-      "Standalone: Dungeon": [
+      "Standalone Back Item": [
         2345,
-        2357
-      ],
-      "Standalone: Other": [
         2353,
         2354,
         2356,
+        2357,
         2381,
         11118
       ]
     },
     "Living World Season 2: Glint's Prophecy (LW2)": {
-      "Vine / Mawdrey": [
+      "Vine (Mawdrey)": [
         5544,
         5545,
         5532
       ]
     },
     "Guild Wars 2: Heart of Thorns (HoT)": {
-      "Crafting Discipline: Scribe": [
+      "Crafting Discipline #09: Scribe": [
         6512,
         6402,
         6341,
@@ -170,33 +147,32 @@
         6361,
         6495
       ],
-      "Order: Durmand Priory": [
+      "Orders of Tyria #01: Durmand Priory": [
         6296,
         6170,
         6379
       ],
-      "Order: Order of Whispers": [
+      "Orders of Tyria #02: Order of Whispers": [
         6416,
         6398,
         6159
       ],
-      "Order: Vigil": [
+      "Orders of Tyria #03: Vigil": [
         6243,
         6246,
         6304
       ],
-      "Exalted": [
-        6149,
-        6279
-      ],
-      "Standalone: Raid": [
+      "Standalone Back Item": [
         6135,
+        6149,
+        6242,
+        6279,
         6809,
         7114
       ]
     },
     "Living World Season 3: Glint's Legacy (LW3)": {
-      "Druid Stone / The Wayfarer's Henge": [
+      "Druid Stone (The Wayfarer's Henge)": [
         7209,
         7216,
         7214,
@@ -210,7 +186,7 @@
         7321,
         7323
       ],
-      "Standalone: Other": [
+      "Standalone Back Item": [
         6875,
         6956,
         7017,
@@ -226,34 +202,32 @@
       ]
     },
     "Living World Season 4: Rise of Kralkatorrik (LW4)": {
-      "Inquest / Mark Y Golem": [
+      "Inquest (Mark Y Golem)": [
         8057,
         8049,
         8058,
         8052
       ],
-      "Banners of the Commander": [
+      "Standalone Back Item": [
         8149,
-        8165
-      ],
-      "Standalone: Other": [
+        8165,
         8169
       ]
     },
-    "Living World Season 5: The Icebrood Saga (IBS)": {
-      "Banners of the Charr Legions": [
+    "Living World Season 5: The Icebrood Saga (LW5, IBS)": {
+      "Banner of the High Legion": [
         8924,
         8931,
         8933,
         8937
       ],
-      "Charr Legion Backpacks": [
+      "High Legion": [
         9387,
         9407,
         9413,
         9431
       ],
-      "Standalone: Other": [
+      "Standalone Back Item": [
         9017,
         9249,
         9252,
@@ -261,29 +235,27 @@
       ]
     },
     "Guild Wars 2: End of Dragons (EoD)": {
-      "Echovald Backpieces": [
-        10457,
-        10647
+      "Club Canach": [
+        10344,
+        10426,
+        10524,
+        10675
       ],
-      "Standalone: Strike Mission": [
-        10898
-      ],
-      "Standalone: Other": [
+      "Standalone Back Item": [
         10231,
         10247,
         10271,
-        10344,
         10399,
-        10426,
+        10457,
         10458,
-        10524,
-        10675,
+        10647,
+        10898,
         11322,
         11268
       ]
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
-      "Banners of the Bastions": [
+      "Banner of the Bastion of Amnytas": [
         12032,
         12039,
         12047,
@@ -291,16 +263,12 @@
         12070,
         12073
       ],
-      "Standalone: Other": [
+      "Standalone Back Item": [
         11741,
         11804,
         11904,
-        12081
-      ]
-    },
-    "April Fools": {
-      "Heights of Glory" : [
-        12100
+        12081,
+        12163
       ]
     },
     "Lunar New Year (LNY)": {
@@ -329,15 +297,15 @@
         12007
       ]
     },
-    "Super Adventure Box (SAB)": {
-      "Backpack Covers": [
+    "Super Adventure Festival (SAB)": {
+      "Bauble": [
         2360,
         2361,
         2362,
         6668,
         7201
       ],
-      "Standalone: Other": [
+      "Standalone Back Item": [
         2359
       ]
     },
@@ -359,28 +327,26 @@
         8218,
         8223
       ],
-      "Standalone: Festival Bag": [
+      "Standalone Back Item": [
         2349,
-        2350
-      ],
-      "Standalone: Other": [
+        2350,
         5456,
         8861
       ]
     },
-    "Shadow of the Mad King": {
+    "Shadow of the Mad King (Halloween)": {
       "Mad Memoires": [
         2336,
         7760,
         2338,
         7775
       ],
-      "Standalone: Other": [
+      "Standalone Back Item": [
         9638
       ]
     },
-    "Wintersday": {
-      "Standalone: Other": [
+    "A Very Merry Wintersday": {
+      "Standalone Back Item": [
         2374,
         2375,
         2382,
@@ -388,27 +354,102 @@
         10218
       ]
     },
-    "Gem Store": {
-      "Charr": [
-        2363,
-        2364,
-        2366,
-        2368,
-        2371
+    "Bonus Event": {
+      "Capital City": [
+        6890,
+        6892,
+        6895,
+        6898,
+        6902
       ],
+      "Standalone Back Item": [
+        2358,
+        6618,
+        11025,
+        11027,
+        11840,
+        12100
+      ]
+    },
+    "Wizard's Vault": {
+      "Standalone Back Item": [
+        11903,
+        12209
+      ]
+    },
+    "Black Lion Trading Company (Gem Store)": {
       "Forest Archer": [
         10156,
         10159,
         10161
       ],
-      "Quaggan": [
+      "Mount Baby": [
+        7755,
+        7996,
+        8319
+      ],
+      "Plush Charr": [
+        2363,
+        2364,
+        2368,
+        2366,
+        2371
+      ],
+      "Plush Quaggan": [
         2355,
         2365,
         2367,
         2370,
         2372
       ],
-      "Standalone: Cape": [
+      "Standalone Back Item": [
+        1048,
+        5654,
+        5708,
+        5998,
+        6431,
+        6554,
+        6745,
+        6854,
+        7000,
+        7047,
+        7200,
+        7227,
+        7285,
+        7308,
+        7661,
+        7811,
+        8038,
+        8141,
+        8184,
+        8638,
+        8647,
+        8649,
+        8725,
+        8807,
+        8930,
+        9021,
+        9211,
+        9474,
+        9671,
+        9769,
+        9893,
+        9969,
+        10010,
+        10219,
+        10503,
+        10805,
+        10816,
+        10881,
+        10941,
+        11051,
+        11428,
+        11780,
+        11941,
+        11982,
+        11996
+      ],
+      "Standalone Back Item -> Cape": [
         9050,
         9072,
         9131,
@@ -417,6 +458,7 @@
         9272,
         9333,
         9363,
+        9732,
         9400,
         9462,
         9483,
@@ -429,33 +471,32 @@
         10104,
         10164,
         10192,
+        10888,
         10902,
-        11070,
         11116,
+        11144,
         11247,
         11257,
-        11144,
-        11435,
-        9732,
-        10888,
         11400,
+        11435,
         11716,
-        11903,
         11966,
-        12099
+        12099,
+        12113,
+        12119
       ],
-      "Standalone: Quiver": [
+      "Standalone Back Item -> Quiver": [
         2369,
         6449,
         7012,
         8021
       ],
-      "Standalone: Wings": [
+      "Standalone Back Item -> Wings": [
+        5878,
         6003,
+        6035,
         6078,
         6132,
-        5878,
-        6035,
         6527,
         6412,
         6615,
@@ -490,62 +531,13 @@
         11246,
         11253,
         12103
-      ],
-      "Standalone: Other": [
-        1048,
-        5654,
-        5708,
-        5998,
-        6554,
-        6745,
-        7047,
-        7227,
-        7755,
-        8319,
-        8649,
-        10816,
-        10881,
-        6431,
-        6854,
-        7000,
-        7200,
-        7285,
-        7308,
-        7661,
-        7811,
-        7996,
-        8038,
-        8141,
-        8184,
-        8638,
-        8647,
-        8725,
-        8807,
-        8930,
-        9021,
-        9211,
-        9474,
-        9671,
-        9769,
-        9893,
-        9969,
-        10010,
-        10219,
-        10503,
-        10805,
-        10941,
-        11051,
-        11428,
-        11780,
-        11941,
-        11982,
-        11996
       ]
     },
-    "Promotional": {
-      "Standalone: Other": [
+    "Promotional Event": {
+      "Standalone Back Item": [
         10059,
-        10084
+        10084,
+        11070
       ]
     }
   }

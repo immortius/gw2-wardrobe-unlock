@@ -24,7 +24,7 @@
         680,
         700
       ],
-      "Hue - Gray": [
+      "Unidentified Dye #01: Gray": [
         4,
         69,
         99,
@@ -54,7 +54,7 @@
         627,
         703
       ],
-      "Hue - Brown": [
+      "Unidentified Dye #02: Brown": [
         13,
         18,
         22,
@@ -99,7 +99,7 @@
         455,
         456
       ],
-      "Hue - Red": [
+      "Unidentified Dye #03: Red": [
         123,
         335,
         582,
@@ -151,7 +151,7 @@
         669,
         1153
       ],
-      "Hue - Orange": [
+      "Unidentified Dye #04: Orange": [
         12,
         21,
         32,
@@ -190,7 +190,7 @@
         111,
         434
       ],
-      "Hue - Yellow": [
+      "Unidentified Dye #05: Yellow": [
         64,
         144,
         145,
@@ -229,7 +229,7 @@
         1154,
         1155
       ],
-      "Hue - Green": [
+      "Unidentified Dye #06: Green": [
         58,
         59,
         63,
@@ -302,7 +302,7 @@
         607,
         692
       ],
-      "Hue - Blue": [
+      "Unidentified Dye #07: Blue": [
         28,
         31,
         39,
@@ -364,7 +364,7 @@
         674,
         714
       ],
-      "Hue - Purple": [
+      "Unidentified Dye #08: Purple": [
         47,
         48,
         49,
@@ -421,8 +421,10 @@
         471,
         603,
         671
-      ],
-      "Delectable Birthday": [
+      ]
+    },
+    "Bonus Event": {
+      "Delectable": [
         1673,
         1674,
         1675,
@@ -431,8 +433,8 @@
         1678
       ]
     },
-    "Gem Store": {
-      "Flame": [
+    "Black Lion Trading Company (Gem Store)": {
+      "Dye Kit Exclusive #001 - Flame": [
         1237,
         1238,
         1239,
@@ -440,7 +442,7 @@
         1241,
         1242
       ],
-      "Frost": [
+      "Dye Kit Exclusive #002 - Frost": [
         1231,
         1232,
         1233,
@@ -448,7 +450,7 @@
         1235,
         1236
       ],
-      "Deathly": [
+      "Dye Kit Exclusive #003 - Deathly": [
         1248,
         1243,
         1244,
@@ -456,7 +458,7 @@
         1246,
         1247
       ],
-      "Toxic": [
+      "Dye Kit Exclusive #004 - Toxic": [
         1249,
         1250,
         1251,
@@ -464,7 +466,7 @@
         1253,
         1254
       ],
-      "Metallurgic": [
+      "Dye Kit Exclusive #005 - Metallurgic": [
         1265,
         1266,
         1267,
@@ -472,7 +474,7 @@
         1269,
         1270
       ],
-      "Lion's Arch Survivors": [
+      "Dye Kit Exclusive #006 - Lion's Arch Survivors": [
         1271,
         1272,
         1273,
@@ -480,7 +482,7 @@
         1275,
         1276
       ],
-      "Lion's Arch Commemorative": [
+      "Dye Kit Exclusive #007 - Lion's Arch Commemorative": [
         1280,
         1281,
         1282,
@@ -488,7 +490,7 @@
         1278,
         1279
       ],
-      "Taimi": [
+      "Dye Kit Exclusive #008 - Taimi": [
         1301,
         1302,
         1303,
@@ -496,7 +498,7 @@
         1305,
         1306
       ],
-      "Glint's Winter": [
+      "Dye Kit Exclusive #009 - Glint's Winter": [
         1312,
         1307,
         1308,
@@ -504,7 +506,7 @@
         1310,
         1311
       ],
-      "Crimson Lion": [
+      "Dye Kit Exclusive #010 - Crimson Lion": [
         1333,
         1334,
         1335,
@@ -512,7 +514,7 @@
         1337,
         1338
       ],
-      "Shadow": [
+      "Dye Kit Exclusive #011 - Shadow": [
         1348,
         1349,
         1350,
@@ -524,7 +526,7 @@
         1356,
         1357
       ],
-      "Lion's Arch Rebuild": [
+      "Dye Kit Exclusive #012 - Lion's Arch Rebuild": [
         1360,
         1361,
         1362,
@@ -532,7 +534,7 @@
         1358,
         1359
       ],
-      "Mad King": [
+      "Dye Kit Exclusive #013 - Mad King": [
         1370,
         1371,
         1372,
@@ -540,7 +542,7 @@
         1374,
         1375
       ],
-      "Winter Chimes": [
+      "Dye Kit Exclusive #014 - Winter Chimes": [
         1364,
         1365,
         1366,
@@ -548,7 +550,7 @@
         1368,
         1369
       ],
-      "Blue Shift": [
+      "Dye Kit Exclusive #015 - Blue Shift": [
         1376,
         1377,
         1378,
@@ -559,7 +561,7 @@
         1383,
         1384
       ],
-      "Bloodstone": [
+      "Dye Kit Exclusive #016 - Bloodstone": [
         1456,
         1457,
         1458,
@@ -567,7 +569,7 @@
         1454,
         1455
       ],
-      "Vibrant": [
+      "Dye Kit Exclusive #017 - Vibrant": [
         1490,
         1493,
         1477,
@@ -575,7 +577,7 @@
         1497,
         1486
       ],
-      "Solar and Lunar": [
+      "Dye Kit Exclusive #018 - Solar and Lunar": [
         1489,
         1478,
         1481,
@@ -583,7 +585,7 @@
         1499,
         1485
       ],
-      "Jormag": [
+      "Dye Kit Exclusive #019 - Jormag": [
         1552,
         1553,
         1554,
@@ -591,7 +593,7 @@
         1550,
         1551
       ],
-      "Primordus": [
+      "Dye Kit Exclusive #020 - Primordus": [
         1537,
         1538,
         1539,
@@ -599,7 +601,7 @@
         1541,
         1542
       ],
-      "Elonian Landscape": [
+      "Dye Kit Exclusive #021 - Elonian Landscape": [
         1573,
         1574,
         1575,
@@ -607,7 +609,7 @@
         1577,
         1579
       ],
-      "Zhaitan": [
+      "Dye Kit Exclusive #022 - Zhaitan": [
         1584,
         1585,
         1580,
@@ -615,7 +617,7 @@
         1582,
         1583
       ],
-      "Elonian Beasts": [
+      "Dye Kit Exclusive #023 - Elonian Beasts": [
         1592,
         1593,
         1594,
@@ -623,7 +625,7 @@
         1595,
         1596
       ],
-      "Awakened": [
+      "Dye Kit Exclusive #024 - Awakened": [
         1597,
         1598,
         1599,
@@ -631,7 +633,7 @@
         1601,
         1602
       ],
-      "Mordremoth": [
+      "Dye Kit Exclusive #025 - Mordremoth": [
         1617,
         1618,
         1619,
@@ -639,7 +641,7 @@
         1621,
         1622
       ],
-      "Kralkatorrik": [
+      "Dye Kit Exclusive #026 - Kralkatorrik": [
         1623,
         1624,
         1625,
@@ -647,7 +649,7 @@
         1628,
         1629
       ],
-      "Sacred": [
+      "Dye Kit Exclusive #027 - Sacred": [
         1633,
         1634,
         1635,
@@ -655,7 +657,7 @@
         1637,
         1638
       ],
-      "Charr": [
+      "Dye Kit Exclusive #028 - Charr": [
         1639,
         1640,
         1641,
@@ -663,7 +665,7 @@
         1643,
         1644
       ],
-      "Norn": [
+      "Dye Kit Exclusive #029 - Norn": [
         1645,
         1646,
         1647,
@@ -671,7 +673,7 @@
         1649,
         1650
       ],
-      "Aurene": [
+      "Dye Kit Exclusive #030 - Aurene": [
         1667,
         1668,
         1669,
@@ -679,7 +681,7 @@
         1671,
         1672
       ],
-      "Darkest Abyss": [
+      "Dye Kit Exclusive #031 - Darkest Abyss": [
         1682,
         1683,
         1684,
@@ -687,7 +689,7 @@
         1686,
         1688
       ],
-      "Soo-Won": [
+      "Dye Kit Exclusive #032 - Soo-Won": [
         1691,
         1692,
         1693,
@@ -695,7 +697,7 @@
         1696,
         1698
       ],
-      "Jade": [
+      "Dye Kit Exclusive #033 - Jade": [
         1679,
         1680,
         1681,
@@ -703,7 +705,7 @@
         1689,
         1690
       ],
-      "Monstrous": [
+      "Dye Kit Exclusive #034 - Monstrous": [
         1699,
         1700,
         1701,
@@ -711,7 +713,7 @@
         1703,
         1704
       ],
-      "Smooth Berry": [
+      "Dye Kit Exclusive #035 - Smooth Berry": [
         1706,
         1707,
         1708,
@@ -719,25 +721,25 @@
         1710,
         1711
       ],
-      "Black Lion Dye Canister - Blue": [
+      "Black Lion Dye Canister #01: Blue": [
         1651,
         1652,
         1653,
         1654
       ],
-      "Black Lion Dye Canister - Green": [
+      "Black Lion Dye Canister #02: Green": [
         1655,
         1656,
         1657,
         1658
       ],
-      "Black Lion Dye Canister - Red": [
+      "Black Lion Dye Canister #03: Red": [
         1659,
         1660,
         1661,
         1662
       ],
-      "Black Lion Dye Canister - Yellow": [
+      "Black Lion Dye Canister #04: Yellow": [
         1663,
         1664,
         1665,

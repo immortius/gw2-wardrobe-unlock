@@ -4,17 +4,7 @@
       "Starter": [
         48
       ],
-      "Standalone: Other": [
-        62
-      ]
-    },
-    "Guild Wars 2: Path of Fire (PoF)": {
-      "Standalone: Other": [
-        72
-      ]
-    },
-    "Player vs. Player (PvP) / World vs. World (WvW)": {
-      "Rank": [
+      "Spirit Rank": [
         1,
         2,
         3,
@@ -24,8 +14,10 @@
         7,
         8,
         9
-      ],
-      "Rank > Mordrem": [
+      ]
+    },
+    "Guild Wars 2: Heart of Thorns (HoT)": {
+      "Spirit Rank > Mordrem Spirit": [
         63,
         64,
         65,
@@ -35,31 +27,32 @@
         69,
         70,
         71
-      ],
-      "Trophy": [
-        22,
-        23,
-        47
-      ],
-      "World Tournament Series": [
-        53,
-        54,
-        55,
-        56
-      ],
-      "WvW Dolyak": [
+      ]
+    },
+    "Guild Wars 2: Path of Fire (PoF)": {
+      "Standalone Finisher": [
+        72
+      ]
+    },
+    "A Very Merry Wintersday": {
+      "Standalone Finisher": [
+        20,
+        21,
+        33
+      ]
+    },
+    "Bonus Event": {
+      "WvW Rank Dolyak": [
         30,
         31,
         32
+      ],
+      "Standalone Finisher": [
+        62
       ]
     },
-    "Gem Store": {
-      "World Tournament": [
-        49,
-        50,
-        52
-      ],
-      "Standalone: Other": [
+    "Black Lion Trading Company (Gem Store)": {
+      "Standalone Finisher": [
         10,
         11,
         12,
@@ -70,15 +63,12 @@
         17,
         18,
         19,
-        20,
-        21,
         24,
         25,
         26,
         27,
         28,
         29,
-        33,
         34,
         38,
         39,
@@ -96,6 +86,24 @@
         60,
         73,
         74
+      ]
+    },
+    "Promotional Event": {
+      "Nth Place Trophy": [
+        22,
+        23,
+        47
+      ],
+      "Nth Place World Tournament Series": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "Regional World Tournament": [
+        49,
+        50,
+        52
       ]
     }
   }

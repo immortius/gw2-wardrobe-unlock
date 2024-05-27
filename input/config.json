@@ -102,6 +102,18 @@
       "cachePath": "titles",
       "bulkSupported": false,
       "stringIds": true
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/jadebots",
+      "cachePath": "jadebots",
+      "bulkSupported": false,
+      "stringIds": true
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/skiffs",
+      "cachePath": "skiffs",
+      "bulkSupported": false,
+      "stringIds": true
     }
   ],
   "prices": {
@@ -136,39 +148,35 @@
       "excludeIds": [
         1181,
         1213,
+        1499,
+        1534,
+        1542,
+        1579,
         5909,
         5910,
         5918,
         5921,
         5936,
-        5948,
-        1499,
-        1534,
-        1542,
-        1579
+        5948
       ],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Sworn Zaishen Helm
-          7225,7233,7241,
-          // Fallen Balthazar Helm
-          7782,7800,7804,
-          // Svanir Gauntlets
-          7941,7975,7985,
           // Exalted
           8115,8121,8122,8617,8618,8621,
           // Seven Reapers
           9376,9384,9447,9890,9891,9894,10098,10100,10106,10124,10129,10131,
-          // Ebon Vanguard Elite Shoulders
-          9577,9580,9581
+          // Standalone Armor -> Headgear
+          7225,7233,7241,7782,7800,7804,9789,9790,9792,10847,10849,10867,
+          // Standalone Armor -> Shoulders
+          9577,9580,9581,
+          // Standalone Armor -> Gloves
+          7941,7975,7985,8967,8986,8989
         ],
         // Fused Gauntlet Ticket
-        "42417" : [
-          2012, 2017, 2015
-        ],
-        // Fallen Balthazar Package
-        "85383" : [7782, 7800, 7804],
+        "42417": [2012,2015,2017],
+        // Nightfury Skin
+        "74491": [6161,6252,6306],
         // Southsun Remembrance Package
         "84207": [996,997,998,1137,1143,1141],
         // Visage of the Khan-Ur
@@ -207,10 +215,10 @@
         "93585": [9365,9416,9369],
         // Blood Legion Soldier Helm Box
         "93653": [9429,9436,9439],
+        // Powered Gloves Box
+        "99582": [11367,11389,11406],
         // Visage of Nourys
-        "100010": [11569, 11658, 11714],
-        // Powered Glove Box
-        "99582": [11367, 11389, 11406]
+        "100010": [11569,11658,11714]
       },
       "gwuIncludeIds": [
         1,
@@ -660,85 +668,85 @@
         // Water Dragon Legguards
         10950,10952,
         // Battlelord's Hood Helm
-        11151, 11162,
+        11151,11162,
         // Reality Rig Mk2
-        10781, 10782,
+        10781,10782,
         // Minister's Hat
-        11261, 11276,
+        11261,11276,
         // Lambent Battlelord's Hood Helm
-        11143, 11150,
+        11143,11150,
         // Royal Pointed Ears
-        11039, 11044,
+        11039,11044,
         // Etherbound Helm
-        10987, 10997,
+        10987,10997,
         // Processing Line Control Bracers
-        11275, 11317,
+        11275,11317,
         // Elegant Silk Scarf
-        11199, 11223,
+        11199,11223,
         // Noble Pointed Ears
-        11038, 11040,
+        11038,11040,
         // Lunar Rabbit Helm
-        11216, 11221,
+        11216,11221,
         // Replica Oni Arms
-        11288, 11293,
+        11288,11293,
         // Grinning Tahkayun Mask
-        11266, 11290,
+        11266,11290,
         // Reality Rig Mk3
-        10770, 10778,
+        10770,10778,
         // Savage Scale Chest
-        11106, 11129,
+        11106,11129,
         // Reality Rig Mk1
-        10790, 10795,
+        10790,10795,
         // Pointed Ears
-        11032, 11035,
+        11032,11035,
         // Aurene's Crystalline Pauldrons
-        11182, 11188,
+        11182,11188,
         // Lunar Rabbit Stompers
-        11200, 11224,
+        11200,11224,
         // Savage Scale Loincloth
-        11100, 11124,
+        11100,11124,
         // Rift Warden Helm
-        11063, 11078,
+        11063,11078,
         // Holographic Dragon Greaves
-        10851, 10866,
+        10851,10866,
         // Zephyrite Shawl
-        10923, 10930,
+        10923,10930,
         // Serpentine Tattoo Chest
-        11267, 11308,
+        11267,11308,
         // Fire Bloom Tattoo Chest
-        11270, 11314,
+        11270,11314,
         // Rebel Long Boots
-        11354, 11357,
+        11354,11357,
         // Bestial Tides Tattoo Chest
-        11286, 11304,
+        11286,11304,
         // Side-Lace Pants
-        11842, 11843,
+        11842,11843,
         // Leather Straps Cingulum
-        11522, 11529,
+        11522,11529,
         // Sanctified Helm
-        11629, 11709,
+        11629,11709,
         // Brawler's Silk Jacket
-        11479, 11499,
+        11479,11499,
         // Sanctified Gloves
-        11643, 11767,
+        11643,11767,
         // Sanctified Leggings
-        11578, 11689,
+        11578,11689,
         // Artisan Zharra's Hood
-        11418, 11419,
+        11418,11419,
         // Leather Straps Chestpiece
-        11523, 11530,
+        11523,11530,
         // Sanctified Boots
-        11654, 11713,
+        11654,11713,
         // Heretical Scholar's Hood
-        11936, 11956,
+        11936,11956,
         // Visage of Nourys
-        11569, 11658,
+        11569,11658,
         // Krytan Rogue Chestpiece
-        11849, 11863,
+        11849,11863,
         // Sanctified Coat
-        11611, 11682,
+        11611,11682,
         // Sanctified Shoulders
-        11667, 11727
+        11667,11727
       ]
     },
     {
@@ -754,10 +762,8 @@
         "82450": [
           // Vermilion
           9347,9701,10072,10078,
-          // Standalone: Other
-          6937,6978,7739,8098,8197,8457,8529,8945,9027,9553,9956,10040,10162,10510,
-          // Standalone: Other + Back Item Combo - Quiver
-          8010
+          // Standalone Weapon
+          6937,6978,7739,8010,8098,8197,8457,8529,8945,9027,9553,9956,10040,10162,10510
         ],
         // Southsun Remembrance Package
         "84207": [3764,3782,3805,3832],
@@ -766,10 +772,13 @@
         // Rimed Verdant Wintersday Gift
         "92586": [9052,9053,9058,9060,9065,9066,9067,9069,9074,9075,9077,9079,9080,9088,9091,9092],
         // Luxon Hunter's Weapon Cache
-        "97435": [11271, 11278, 11283, 11292, 11295, 11296, 11298, 11303, 11306, 11311, 11312, 11313, 11320, 11321, 11333, 11339],
-        "99666" : [11440, 11441, 11442, 11443, 11444, 11446, 11450, 11452, 11454, 11455, 11456, 11457, 11463, 11464, 11466, 11468],
+        "97435": [11271,11278,11283,11292,11295,11296,11298,11303,11306,11311,11312,11313,11320,11321,11333,11339],
+        // Trader's Generation One Chest
+        "99575": [11364,11366,11368,11372,11375,11377,11378,11383,11385,11386,11387,11388,11394,11396,11401,11402],
+        // Energized Luxon Hunter's Weapon Cache
+        "99666": [11440,11441,11442,11443,11444,11446,11450,11452,11454,11455,11456,11457,11463,11464,11466,11468],
         // Officer's Remnant Cache
-        "99792" : [11470, 11471, 11472, 11473, 11478, 11480, 11485, 11489, 11491, 11495, 11501, 11502, 11506, 11509, 11512, 11513]
+        "99792": [11470,11471,11472,11473,11478,11480,11485,11489,11491,11495,11501,11502,11506,11509,11512,11513]
       },
       "excludeIds": [
         5898,
@@ -797,7 +806,11 @@
         // Eternel Blade, same icon as Royal Ascalonian Sword
         11676
       ],
-      "gwuIncludeIds": [10275, 11196, 11180]
+      "gwuIncludeIds": [
+        10275,
+        11180,
+        11196
+      ]
     },
     {
       "id": "back",
@@ -815,17 +828,13 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
-          7755,8319,10881,
-          // Standalone: Other + Glider Combo
-          7308,7811,7996,8141,8638,8725,8807,10219,10941,
-          // Standalone: Other - Cape
-          9240,9462,9597,10005,
-          // Standalone: Other - Cape + Glider Combo
-          9732,
-          // Standalone: Other - Quiver
+          // Standalone Back Item
+          7308,7755,7811,7996,8141,8319,8638,8725,8807,10219,10881,10941,
+          // Standalone Back Item -> Cape
+          9240,9462,9597,9732,10005,
+          // Standalone Back Item -> Quiver
           8021,
-          // Standalone: Other - Wings + Glider Combo
+          // Standalone Back Item -> Wings
           8915,9061,9298,9481,9992,10045,10823
         ],
         // Pink Quaggan Backpack Set
@@ -869,12 +878,8 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
-          87,
-          // Standalone: Other + Armor Combo - Head
-          57,
-          // Standalone: Other + Armor Combo - Shoulder
-          101
+          // Standalone Outfit
+          57,87,101
         ],
         // Endless Riding Clothes Tonic
         "36176": [65],
@@ -956,8 +961,8 @@
         1704
       ],
       "gwuIncludeIds": [
-        1456,
         119,
+        1456,
         1623
       ]
     },
@@ -973,15 +978,15 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
+          // Standalone Glider
           32,35,54,66,84,
-          // Standalone: Other + Back Item Combo
+          // Standalone Glider -> Back Item
           47,56,60,68,70,72,109,116,
-          // Standalone: Other + Back Item Combo - Cape
+          // Standalone Glider -> Back Item -> Cape
           96,
-          // Standalone: Other + Back Item Combo - Wings
+          // Standalone Glider -> Back Item -> Wings
           77,83,86,91,100,103,112,
-          // Standalone: Other + Novelty Combo - Chair
+          // Standalone Glider -> Novelty -> Chair
           97
         ]
       }
@@ -1003,6 +1008,12 @@
       }
     },
     {
+      "id": "skiff",
+      "name": "Skiff Skins",
+      "source": "skiffs",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/skiffs"
+    },
+    {
       "id": "novelty",
       "name": "Novelties",
       "source": "novelties",
@@ -1014,10 +1025,8 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other - Chair
-          269,309,
-          // Standalone: Other - Chair + Glider Combo
-          311
+          // Standalone Novelty -> Chair
+          269,309,311
         ],
         // Unbreakable Choir Bell
         "38129": [42],
@@ -1090,8 +1099,18 @@
         // Replica of the Jade Throne
         "97424": [317],
         // Mining Rig Operator's Seat
-        "99419": [330]
+        "99419": [330],
+        // Oni Lord's Throne
+        "99681": [332],
+        // Storm Lord's Throne
+        "100336": [342]
       }
+    },
+    {
+      "id": "jadebot",
+      "name": "Jade Bot Skins",
+      "source": "jadebots",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/jadebots"
     },
     {
       "id": "mini",
@@ -1105,23 +1124,19 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Awakened Mounts
-          689,691,693,694,699,
-          // Branded Mounts
-          657,660,661,662,663,
-          // Cozy Wintersday Mounts
-          627,629,631,633,635,
-          // Exo-Suit Mounts
-          709,713,714,715,717,
-          // Spooky Mounts
+          // Spooky Mount
           599,605,609,610,611,
-          // Standalone: Other
+          // Cozy Wintersday Mount
+          627,629,631,633,635,
+          // Branded Mount
+          657,660,661,662,663,
+          // Awakened Mount
+          689,691,693,694,699,
+          // Exo-Suit Mount
+          709,713,714,715,717,
+          // Standalone Miniature
           435,493
-        ],
-        // Southsun Beach Mini Container
-        "82553": [137,138],
-        // Prototype Assault Knight
-        "99154": [877,878,879]
+        ]
       },
       "excludeIds": [
         153
@@ -1132,13 +1147,10 @@
       "name": "Finishers",
       "source": "finishers",
       "unlockUrl": "https://api.guildwars2.com/v2/account/finishers",
-      "mapItemsToUnlocksForVendor": true,
-      "vendorItemTypes": ["Consumable"],
       "chatcodeType": 2,
       "useItemForChatcode": true,
-      "excludeIds": [
-        48
-      ]
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": ["Consumable"]
     },
     {
       "id": "mail",
@@ -1152,7 +1164,7 @@
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
-          // Standalone: Other
+          // Standalone Mail Carrier
           16
         ]
       }
@@ -1182,6 +1194,12 @@
       "mapItemsToUnlocksForVendor": true,
       "vendorItemTypes": ["Consumable"]
     }//,
+//    {
+//      "id": "recipe",
+//      "name": "Other: Recipes",
+//      "source": "recipes",
+//      "unlockUrl": "https://api.guildwars2.com/v2/account/recipes"
+//    }//,
 //    {
 //      "id": "title",
 //      "name": "Other: Titles",
