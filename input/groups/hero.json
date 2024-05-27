@@ -1,28 +1,30 @@
 {
   "topLevelCategories": {
     "Core": {
-      "Starter": [
-        1,
+      "Mist Champion #01 - Turai Ossa": [
         3,
-        2,
-        5
-      ],
-      "Stronghold #01": [
         8,
-        10,
-        12,
-        18
-      ],
-      "Stronghold #02": [
-        11,
-        13,
-        14,
-        19
-      ],
-      "Stronghold #03": [
-        4,
-        7,
         9,
+        14
+      ],
+      "Mist Champion #02 - Grymm Svaard": [
+        2,
+        4,
+        10,
+        13
+      ]
+    },
+    "Guild Wars 2: Heart of Thorns (HoT)": {
+      "Mist Champion #03 - Nika": [
+        1,
+        7,
+        11,
+        12
+      ],
+      "Mist Champion #04 - Tybalt Leftpaw": [
+        5,
+        18,
+        19,
         20
       ]
     },

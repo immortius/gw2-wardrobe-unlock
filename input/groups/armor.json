@@ -646,7 +646,7 @@
         138,
         140
       ],
-      "Ascended Armor Default - Illustrious": [
+      "Ascended Armor Default #01 - Illustrious": [
         107,
         108,
         109,
@@ -2081,7 +2081,43 @@
         12093,
         12098
       ],
-      "Rift Hunter / Astral Ward / Oneiros-Spun > Obsidian > ????": [
+      "Rift Hunter / Astral Ward / Oneiros-Spun > Obsidian > Suffused Obsidian / Slumbering Suffused Obsidian": [
+        12136,
+        12139,
+        12141,
+        12142,
+        12143,
+        12145,
+        12151,
+        12154,
+        12155,
+        12156,
+        12161,
+        12162,
+        12164,
+        12166,
+        12167,
+        12168,
+        12171,
+        12172,
+        12174,
+        12176,
+        12177,
+        12178,
+        12182,
+        12186,
+        12190,
+        12196,
+        12197,
+        12198,
+        12200,
+        12201,
+        12202,
+        12205,
+        12212,
+        12213,
+        12214,
+        12215
       ],
       "Standalone Armor": [
         11569,
@@ -2868,7 +2904,13 @@
         10212,
         12105,
         12118,
-        12127
+        12127,
+        12148,
+        12170,
+        12181,
+        12191,
+        12193,
+        12194
       ],
       "Salvaged Forged": [
         7827,

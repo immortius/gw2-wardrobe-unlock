@@ -8,18 +8,13 @@
         231
       ],
       "Standalone Novelty": [
-        12,
         41,
-        115,
         121,
         122,
-        141,
         147,
         219,
         222,
-        237,
-        307,
-        332
+        237
       ]
     },
     "Living World Season 1: Scarlet's War (LW1)": {
@@ -79,6 +74,8 @@
         34,
         106,
         110,
+        115,
+        141,
         186,
         198,
         228,
@@ -152,12 +149,14 @@
         341
       ],
       "Standalone Novelty": [
+        307,
         316,
         317,
         318,
         319,
         320,
-        330
+        330,
+        332
       ]
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
@@ -208,7 +207,7 @@
         133,
         217
       ],
-      "Toy Tonic": [
+      "Toymaker Tonic": [
         119,
         136,
         145,
@@ -234,6 +233,7 @@
         304
       ],
       "Standalone Novelty": [
+        12,
         289,
         308
       ]

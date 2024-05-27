@@ -35,6 +35,7 @@
       ],
       "Standalone Emote": [
         "Hiss",
+        "MagicJuggle",
         "Readbook",
         "Serve",
         "Unleash"
@@ -42,7 +43,6 @@
     },
     "Promotional Event": {
       "Standalone Emote": [
-        "MagicJuggle",
         "sipcoffee"
       ]
     }
