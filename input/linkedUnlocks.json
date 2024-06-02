@@ -3608,6 +3608,198 @@
             12106, 12116, 12117
           ]
         }
+      },
+      {
+        "name": "Skysage's Coat",
+        "unlocks" : {
+          "armor": [
+            12013, 12074, 12075
+          ]
+        }
+      },
+      {
+        "name": "Skysage's Shoulders",
+        "unlocks" : {
+          "armor": [
+            12014, 12018, 12088
+          ]
+        }
+      },
+      {
+        "name": "Skysage's Leggings",
+        "unlocks" : {
+          "armor": [
+            12044, 12050, 12079
+          ]
+        }
+      },
+      {
+        "name": "Raven Greaves",
+        "unlocks" : {
+          "armor": [
+            12105, 12118, 12127
+          ]
+        }
+      },
+      {
+        "name": "Raven Leggings",
+        "unlocks" : {
+          "armor": [
+            12148, 12170, 12191
+          ]
+        }
+      },
+      {
+        "name": "Raven Vest",
+        "unlocks" : {
+          "armor": [
+            12181, 12193, 12194
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Light Mantle",
+        "unlocks" : {
+          "armor": [
+            12136, 12177
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Heavy Gauntlet",
+        "unlocks": {
+          "armor": [
+            12139, 12214
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Medium Gloves",
+        "unlocks" : {
+          "armor": [
+            12141, 12154
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Medium Shoulders",
+        "unlocks" : {
+          "armor": [
+            12142, 12202
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Light Regalia",
+        "unlocks" : {
+          "armor": [
+            12143, 12172
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Light Gloves",
+        "unlocks" : {
+          "armor": [
+            12145, 12205
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Light Crown",
+        "unlocks" : {
+          "armor": [
+            12151, 12171
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Heavy Pauldrons",
+        "unlocks" : {
+          "armor": [
+            12155, 12174
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Heavy Breastplate",
+        "unlocks" : {
+          "armor": [
+            12156, 12182
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Light Pants",
+        "unlocks" : {
+          "armor": [
+            12161, 12162
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Heavy Cuisses",
+        "unlocks" : {
+          "armor": [
+            12164, 12212
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Heavy Greaves",
+        "unlocks" : {
+          "armor": [
+            12166, 12190
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Medium Mask",
+        "unlocks" : {
+          "armor": [
+            12167, 12176
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Medium Jacket",
+        "unlocks" : {
+          "armor": [
+            12168, 12215
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Heavy Helmet",
+        "unlocks" : {
+          "armor": [
+            12178, 12200
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Medium Boots",
+        "unlocks" : {
+          "armor": [
+            12186, 12198
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Medium Leggings",
+        "unlocks" : {
+          "armor": [
+            12196, 12213
+          ]
+        }
+      },
+      {
+        "name": "Suffused and Slumbering Light Shoes",
+        "unlocks" : {
+          "armor": [
+            12197, 12201
+          ]
+        }
       }
     ]
   },
@@ -6006,6 +6198,17 @@
             11996
           ]
         }
+      },
+      {
+        "name": "Abyss Hunter Glider Combo",
+        "unlocks": {
+          "glider" : [
+            134
+          ],
+          "back": [
+            12113
+          ]
+        }
       }
     ]
   },
@@ -6430,6 +6633,14 @@
           "mount": [],
           "mini": [
             905
+          ]
+        }
+      },
+      {
+        "name": "Wintersday Mounts",
+        "unlocks": {
+          "mini": [
+            635, 633, 627, 631, 629
           ]
         }
       }

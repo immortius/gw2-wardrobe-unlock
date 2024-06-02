@@ -1263,7 +1263,8 @@
       "/wiki/Category:Services",
       "/wiki/Category:Guild_Initiative",
       "/wiki/Category:Lunatic_Court",
-      "/wiki/Category:The_Icebrood_Saga_content"
+      "/wiki/Category:The_Icebrood_Saga_content",
+      "/wiki/Category:NPC_stubs"
     ],
     "vendorPages": [
       "/wiki/Skirmish_Supervisor",
@@ -1433,7 +1434,11 @@
     "peachesinbulk",
     "pouchofblackpigment",
     "giftoftotems",
-    "giftofblood"
+    "giftofblood",
+    "calcifiedgasp",
+    "pinchofstardust",
+    "staticcharge",
+    "imbuedruneofsuffusion"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -1491,7 +1496,10 @@
     "unboundmagicminingbeam",
     "luckydogharvestingtool",
     "unboundmagicharvestingblast",
-    "geode"
+    "geode",
+    "innernayos:heroschoicechest",
+    "amnytas:heroschoicechest",
+    "skywatcharchipelago:heroschoicechest"
   ],
   "ignoreContainers": [
     "/wiki/Toy_Mini_Egg",

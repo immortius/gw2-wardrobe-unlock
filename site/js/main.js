@@ -127,11 +127,15 @@ var acquisitionMethods = [
 
     { id: "unusualcoin", name: "Unusual Coin", category: "Secrets of the Obscure"},
     { id: "greenprophetshard", name: "Green Prophet Shard", category: "Secrets of the Obscure"},
+    { id: "staticcharge", name: "Static Charge", category: "Secrets of the Obscure"},
     { id: "caseofcapturedlightning", name: "Case of Captured Lightning", category: "Secrets of the Obscure"},
+    { id: "pinchofstardust", name: "Pinch of Stardust", category: "Secrets of the Obscure"},
     { id: "pouchofstardust", name: "Pouch of Stardust", category: "Secrets of the Obscure"},
     { id: "purifiedkryptisessence", name: "Purified Kryptis Essence", category: "Secrets of the Obscure"},
     { id: "amalgamatedkryptisessence", name: "Amalgamated Kryptis Essence", category: "Secrets of the Obscure"},
     { id: "clotofcongealedscreams", name: "Clot of Congealed Screams", category: "Secrets of the Obscure"},
+    { id: "calcifiedgasp", name: "Calcified Gasps", category: "Secrets of the Obscure"},
+    { id: "imbuedruneofsuffusion", name: "Imbued Rune of Suffusion", category: "Secrets of the Obscure"},
 
     { id: "fragmentofprismaticpersuasion", name: "Fragment of Prismatic Persuasion", category: "Facet of Aurene"},
     { id: "fragmentofprismaticfury", name: "Fragment of Prismatic Fury", category: "Facet of Aurene"},

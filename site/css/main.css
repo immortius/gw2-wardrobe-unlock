@@ -998,7 +998,22 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1224px -18px;
 }
-
+.calcifiedgasp-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1242px -18px;
+}
+.pinchofstardust-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1260px -18px;
+}
+.staticcharge-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1278px -18px;
+}
+.imbuedruneofsuffusion-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1296px -18px;
+}
 
 /* ==========================================================================
    Media Queries
