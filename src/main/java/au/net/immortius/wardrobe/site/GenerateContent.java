@@ -4,10 +4,7 @@ import au.net.immortius.wardrobe.config.CategoryDefinitions;
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.Grouping;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
-import au.net.immortius.wardrobe.gw2api.Chatcode;
-import au.net.immortius.wardrobe.gw2api.Emotes;
-import au.net.immortius.wardrobe.gw2api.Rarity;
-import au.net.immortius.wardrobe.gw2api.Unlocks;
+import au.net.immortius.wardrobe.gw2api.*;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.imagemap.IconDetails;
 import au.net.immortius.wardrobe.imagemap.ImageMap;
@@ -15,6 +12,7 @@ import au.net.immortius.wardrobe.linkedunlocks.LinkedUnlocks;
 import au.net.immortius.wardrobe.linkedunlocks.LinkedUnlocksGroup;
 import au.net.immortius.wardrobe.site.entities.*;
 import au.net.immortius.wardrobe.util.ColorUtil;
+import au.net.immortius.wardrobe.util.GsonUtils;
 import au.net.immortius.wardrobe.vendors.entities.VendorData;
 import au.net.immortius.wardrobe.vendors.entities.VendorItem;
 import com.google.common.base.Strings;
@@ -64,6 +62,7 @@ public class GenerateContent {
     private final Config config;
     private final Unlocks unlocks;
     private final Emotes emotes;
+    private final Items items;
     private final SetMultimap<UnlockLink, UnlockLink> linkedUnlocks = HashMultimap.create();
 
     public GenerateContent() throws IOException {
@@ -72,9 +71,10 @@ public class GenerateContent {
 
     public GenerateContent(Config config) {
         this.config = config;
-        this.gson = new GsonFireBuilder().createGson();
+        this.gson = GsonUtils.createGson();
         this.unlocks = new Unlocks(config, gson);
         this.emotes = new Emotes(config, gson);
+        this.items = new Items(config, gson);
     }
 
 
@@ -472,14 +472,14 @@ public class GenerateContent {
                 }
                 if (itemData.baseRGB != null) {
                     unlock.color = ColorUtil.rgbToHex(itemData.cloth.rgb);
-                } else if (itemData.icon != null) {
-                    IconDetails iconDetails = iconLookup.get(itemData.getIconName());
+                } else if (itemData.getIcon(items) != null) {
+                    IconDetails iconDetails = iconLookup.get(itemData.getIconName(items));
                     if (iconDetails != null) {
                         unlock.xOffset = iconDetails.getXOffset();
                         unlock.yOffset = iconDetails.getYOffset();
                         unlock.image = iconDetails.getImageId();
                     } else {
-                        logger.warn("Unable to resolve icon {} for {} ({}) - excluding", itemData.icon, itemData.getName(), itemData.id);
+                        logger.warn("Unable to resolve icon {} for {} ({}) - excluding", itemData.getIcon(items), itemData.getName(), itemData.id);
                         result.remove(itemData.id);
                     }
                 }
@@ -508,14 +508,14 @@ public class GenerateContent {
                 }
                 if (itemData.baseRGB != null) {
                     unlock.color = ColorUtil.rgbToHex(itemData.cloth.rgb);
-                } else if (itemData.icon != null) {
-                    IconDetails iconDetails = iconLookup.get(itemData.getIconName());
+                } else if (itemData.getIcon(items) != null) {
+                    IconDetails iconDetails = iconLookup.get(itemData.getIconName(items));
                     if (iconDetails != null) {
                         unlock.xOffset = iconDetails.getXOffset();
                         unlock.yOffset = iconDetails.getYOffset();
                         unlock.image = iconDetails.getImageId();
                     } else {
-                        logger.warn("Unable to resolve icon {} for {} ({}) - excluding", itemData.icon, itemData.getName(), itemData.id);
+                        logger.warn("Unable to resolve icon {} for {} ({}) - excluding", itemData.getIcon(items), itemData.getName(), itemData.id);
                         result.remove(itemData.id);
                     }
                 }

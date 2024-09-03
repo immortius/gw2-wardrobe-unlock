@@ -3573,7 +3573,9 @@
         "name": "Skysage's Boots",
         "unlocks": {
           "armor": [
-            12029, 12054, 12091
+            12029,
+            12054,
+            12091
           ]
         }
       },
@@ -3581,7 +3583,9 @@
         "name": "Skysage's Gloves",
         "unlocks": {
           "armor": [
-            12036, 12076, 12094
+            12036,
+            12076,
+            12094
           ]
         }
       },
@@ -3589,79 +3593,98 @@
         "name": "Fashionable Kilt",
         "unlocks": {
           "armor": [
-            12020, 12052, 12087
+            12020,
+            12052,
+            12087
           ]
         }
       },
       {
         "name": "Baggy Cargo",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12012, 12037, 12072
+            12012,
+            12037,
+            12072
           ]
         }
       },
       {
-        "name" : "Powered Shoulders",
-        "unlocks" : {
+        "name": "Powered Shoulders",
+        "unlocks": {
           "armor": [
-            12106, 12116, 12117
+            12106,
+            12116,
+            12117
           ]
         }
       },
       {
         "name": "Skysage's Coat",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12013, 12074, 12075
+            12013,
+            12074,
+            12075
           ]
         }
       },
       {
         "name": "Skysage's Shoulders",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12014, 12018, 12088
+            12014,
+            12018,
+            12088
           ]
         }
       },
       {
         "name": "Skysage's Leggings",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12044, 12050, 12079
+            12044,
+            12050,
+            12079
           ]
         }
       },
       {
         "name": "Raven Greaves",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12105, 12118, 12127
+            12105,
+            12118,
+            12127
           ]
         }
       },
       {
         "name": "Raven Leggings",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12148, 12170, 12191
+            12148,
+            12170,
+            12191
           ]
         }
       },
       {
         "name": "Raven Vest",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12181, 12193, 12194
+            12181,
+            12193,
+            12194
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Light Mantle",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12136, 12177
+            12136,
+            12177
           ]
         }
       },
@@ -3669,135 +3692,192 @@
         "name": "Suffused and Slumbering Heavy Gauntlet",
         "unlocks": {
           "armor": [
-            12139, 12214
+            12139,
+            12214
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Medium Gloves",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12141, 12154
+            12141,
+            12154
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Medium Shoulders",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12142, 12202
+            12142,
+            12202
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Light Regalia",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12143, 12172
+            12143,
+            12172
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Light Gloves",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12145, 12205
+            12145,
+            12205
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Light Crown",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12151, 12171
+            12151,
+            12171
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Heavy Pauldrons",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12155, 12174
+            12155,
+            12174
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Heavy Breastplate",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12156, 12182
+            12156,
+            12182
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Light Pants",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12161, 12162
+            12161,
+            12162
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Heavy Cuisses",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12164, 12212
+            12164,
+            12212
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Heavy Greaves",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12166, 12190
+            12166,
+            12190
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Medium Mask",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12167, 12176
+            12167,
+            12176
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Medium Jacket",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12168, 12215
+            12168,
+            12215
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Heavy Helmet",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12178, 12200
+            12178,
+            12200
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Medium Boots",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12186, 12198
+            12186,
+            12198
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Medium Leggings",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12196, 12213
+            12196,
+            12213
           ]
         }
       },
       {
         "name": "Suffused and Slumbering Light Shoes",
-        "unlocks" : {
+        "unlocks": {
           "armor": [
-            12197, 12201
+            12197,
+            12201
+          ]
+        }
+      },
+      {
+        "name": "Holographic Dragon Cuisses",
+        "unlocks": {
+          "armor": [
+            12216,
+            12245,
+            12262
+          ]
+        }
+      },
+      {
+        "name": "Neon Demon Mask",
+        "unlocks": {
+          "armor": [
+            12287,
+            12299,
+            12301
+          ]
+        }
+      },
+      {
+        "name": "Meteor-Wielder's Glove",
+        "unlocks": {
+          "armor": [
+            12365,
+            12426,
+            12431
+          ]
+        }
+      },
+      {
+        "name": "Bearkin War Helm",
+        "unlocks": {
+          "armor": [
+            12439,
+            12501,
+            12574
           ]
         }
       }
@@ -4564,11 +4644,53 @@
         "name": "Skysage Spectacles",
         "unlocks": {
           "armor": [
-            12016, 12066, 12092, 12017, 12062, 12095
+            12016,
+            12066,
+            12092,
+            12017,
+            12062,
+            12095
+          ]
+        }
+      },
+      {
+        "name": "Breezy Swim Pack",
+        "unlocks": {
+          "armor": [
+            12282,
+            12288,
+            12293,
+            12295,
+            12297,
+            12304
+          ]
+        }
+      },
+      {
+        "name": "Tropical Beach Pack",
+        "unlocks": {
+          "armor": [
+            12281,
+            12283,
+            12285,
+            12289,
+            12290,
+            12292,
+            12294,
+            12300,
+            12308,
+            12310,
+            12321,
+            12347,
+            12291,
+            12296,
+            12298,
+            12303,
+            12305,
+            12307
           ]
         }
       }
-
     ]
   },
   {
@@ -5203,6 +5325,19 @@
             10824
           ]
         }
+      },
+      {
+        "name": "Skysteel Package",
+        "unlocks": {
+          "weapon": [
+            12508
+          ],
+          "glider": [
+            136
+          ],
+          "novelty": [
+          ]
+        }
       }
     ]
   },
@@ -5289,6 +5424,20 @@
           ],
           "back": [
             12103
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "name": "outfitcombo",
+    "contents": [
+      {
+        "name": "Dueling Elements Outfit Package",
+        "unlocks": {
+          "outfit": [
+            131,
+            132
           ]
         }
       }
@@ -6202,11 +6351,33 @@
       {
         "name": "Abyss Hunter Glider Combo",
         "unlocks": {
-          "glider" : [
+          "glider": [
             134
           ],
           "back": [
             12113
+          ]
+        }
+      },
+      {
+        "name": "Gentle Garden Swing Chair Glider Combo",
+        "unlocks": {
+          "novelty": [
+            346
+          ],
+          "glider": [
+            127
+          ]
+        }
+      },
+      {
+        "name": "Personal Gyrocopter Chair Glider Combo",
+        "unlocks": {
+          "novelty": [
+            346
+          ],
+          "glider": [
+            128
           ]
         }
       }
@@ -6313,7 +6484,11 @@
       },
       {
         "name": "Amnytas Feathered Raptors Mounts Pack",
-        "mount": []
+        "mount": [
+          550,
+          566,
+          569
+        ]
       },
       {
         "name": "Canthan Cuckoo Springer Mounts Pack",
@@ -6398,6 +6573,16 @@
             417,
             418,
             419
+          ]
+        }
+      },
+      {
+        "name": "Astral Manticore Skyscale Mounts Pack",
+        "unlocks": {
+          "mount": [
+            589,
+            591,
+            595
           ]
         }
       }
@@ -6640,7 +6825,11 @@
         "name": "Wintersday Mounts",
         "unlocks": {
           "mini": [
-            635, 633, 627, 631, 629
+            635,
+            633,
+            627,
+            631,
+            629
           ]
         }
       }

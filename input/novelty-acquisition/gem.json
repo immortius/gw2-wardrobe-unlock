@@ -16,6 +16,16 @@
     // Other - Toy + Glider Combo
     16,27,33,
     // Other - Toy + Emote Combo
-    44
+    44,
+    // Quiet Woods Chair
+    331,
+    // Restful Hammock
+    333,
+    // Comfortable Reading Chair
+    338,
+    // Gentle Garden Swing
+    346,
+    // Peaceful Shrine Chair
+    349
   ]
 }

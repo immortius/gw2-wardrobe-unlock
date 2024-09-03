@@ -22,7 +22,8 @@
         121,
         141,
         307,
-        332
+        332,
+        354
       ],
       "Standalone: Racing": [
         271,
@@ -191,7 +192,16 @@
       ],
       "Standalone: Other": [
         342,
-        343
+        343,
+        350,
+        355
+      ]
+    },
+    "Guild Wars 2: Janthir Wilds (JW)": {
+      "Standalone: Other": [
+        357,
+        360,
+        362
       ]
     },
     "Super Adventure Festival (SAB)": {
@@ -288,7 +298,15 @@
         323,
         326,
         327,
-        329
+        329,
+        331,
+        333,
+        338,
+        346,
+        347,
+        348,
+        349,
+        353
       ],
       "Standalone: Musical Instrument": [
         2,

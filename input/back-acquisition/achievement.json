@@ -44,6 +44,8 @@
     // Banners of the Bastions
     12032, 12039, 12047, 12065, 12070, 12073,
     // Celestial Invisible Cat Cape
-    12100
+    12100,
+    // Standing Stones Timepiece
+    12543
   ]
 }

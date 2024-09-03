@@ -34,17 +34,19 @@
     // Canthan Noble Skyscale
     443,444,445,
     // Amnytas Feathered Raptor
-
+    550,566,569,
+    // Astral Manticore Skyscale
+    589,591,595,
     // Jade Tech
-    462,
+    462,548,
     // Plush
-    330,403,499,504,
+    330,403,499,504,622,624,
     // Super
     264,528,
     // Synergetics
-    293,391,396,
+    293,391,396,628,
     // Other - Raptor
-    17,126,200,294,329,360,505,
+    17,126,200,294,329,360,505,547,
     // Other - Springer
     61,152,231,331,
     // Other - Skimmer
@@ -52,14 +54,16 @@
     // Other - Jackal
     46,97,220,287,332,359,406,467,512,
     // Other - Griffon
-    62,129,250,473,
+    62,129,250,473,599,653,
     // Other - Roller Beetle
     104,
     // Other - Warclaw
-    252,316,380,484,
+    252,316,380,484,537,
     // Other - Skyscale
     191,292,336,472,
     // Other - Siege Turtle
-    471
+    471,
+    // Regal Moth
+    626
   ]
 }

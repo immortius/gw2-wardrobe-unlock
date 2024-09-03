@@ -362,6 +362,11 @@
         897
       ]
     },
+    "Guild Wars 2: Janthir Wilds (JW)" : {
+      "Standalone" : [
+        927, 928, 930, 931, 932, 935, 926, 929
+      ]
+    },
     "Fractals of the Mists": {
       "Old Tom": [
         344,
@@ -529,7 +534,9 @@
         870,
         871,
         888,
-        889
+        889,
+        924,
+        925
       ]
     },
     "Festival of the Four Winds (FotFW)": {

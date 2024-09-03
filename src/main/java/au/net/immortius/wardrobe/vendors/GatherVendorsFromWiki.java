@@ -6,6 +6,7 @@ import au.net.immortius.wardrobe.gw2api.Items;
 import au.net.immortius.wardrobe.gw2api.Skins;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.site.entities.CostComponent;
+import au.net.immortius.wardrobe.util.GsonUtils;
 import au.net.immortius.wardrobe.util.REST;
 import au.net.immortius.wardrobe.vendors.entities.VendorData;
 import au.net.immortius.wardrobe.vendors.entities.VendorItem;
@@ -105,6 +106,7 @@ public class GatherVendorsFromWiki {
             .put("essenceofluck(legendary)", "legendaryluck")
             .put("talesofdungeondelving", "taleofdungeondelving")
             .put("swim-speedinfusion10", "swimspeedinfusion")
+            .put("amalgamatedkryptisessence", "amalgamatedriftessence")
             .build();
 
     public GatherVendorsFromWiki() throws IOException {
@@ -114,7 +116,7 @@ public class GatherVendorsFromWiki {
     public GatherVendorsFromWiki(Config config) {
         this.config = config;
         this.client = ClientBuilder.newClient();
-        this.gson = new GsonFireBuilder().createGson();
+        this.gson = GsonUtils.createGson();
         this.skins = new Skins(config, gson);
         this.items = new Items(config, gson);
     }

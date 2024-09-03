@@ -102,6 +102,16 @@
       "cachePath": "titles",
       "bulkSupported": false,
       "stringIds": true
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/jadebots",
+      "cachePath": "jadebots",
+      "bulkSupported": true
+    },
+    {
+      "baseUrl": "https://api.guildwars2.com/v2/skiffs",
+      "cachePath": "skiffs",
+      "bulkSupported": true
     }
   ],
   "prices": {
@@ -151,66 +161,183 @@
         // Black Lion Exclusives Chest
         "82450": [
           // Sworn Zaishen Helm
-          7225,7233,7241,
+          7225,
+          7233,
+          7241,
           // Fallen Balthazar Helm
-          7782,7800,7804,
+          7782,
+          7800,
+          7804,
           // Svanir Gauntlets
-          7941,7975,7985,
+          7941,
+          7975,
+          7985,
           // Exalted
-          8115,8121,8122,8617,8618,8621,
+          8115,
+          8121,
+          8122,
+          8617,
+          8618,
+          8621,
           // Seven Reapers
-          9376,9384,9447,9890,9891,9894,10098,10100,10106,10124,10129,10131,
+          9376,
+          9384,
+          9447,
+          9890,
+          9891,
+          9894,
+          10098,
+          10100,
+          10106,
+          10124,
+          10129,
+          10131,
           // Ebon Vanguard Elite Shoulders
-          9577,9580,9581
+          9577,
+          9580,
+          9581
         ],
         // Fused Gauntlet Ticket
-        "42417" : [
-          2012, 2017, 2015
+        "42417": [
+          2012,
+          2017,
+          2015
         ],
         // Fallen Balthazar Package
-        "85383" : [7782, 7800, 7804],
+        "85383": [
+          7782,
+          7800,
+          7804
+        ],
         // Southsun Remembrance Package
-        "84207": [996,997,998,1137,1143,1141],
+        "84207": [
+          996,
+          997,
+          998,
+          1137,
+          1143,
+          1141
+        ],
         // Visage of the Khan-Ur
-        "91924": [8921,8925,8941],
+        "91924": [
+          8921,
+          8925,
+          8941
+        ],
         // Reliquary of the Raven Ceremonial Sandals
-        "92739": [9154,9170,9181],
+        "92739": [
+          9154,
+          9170,
+          9181
+        ],
         // Reliquary of the Raven Ceremonial Bracers
-        "92743": [9139,9180,9186],
+        "92743": [
+          9139,
+          9180,
+          9186
+        ],
         // Shoulders of the Ebon Vanguard Choice Chest
-        "91945": [8928,8944,8946],
+        "91945": [
+          8928,
+          8944,
+          8946
+        ],
         // Reliquary of the Raven Ceremonial Hood
-        "92766": [9158,9162,9177],
+        "92766": [
+          9158,
+          9162,
+          9177
+        ],
         // Ice Golem's Maw Box
-        "92785": [9146,9149,9184],
+        "92785": [
+          9146,
+          9149,
+          9184
+        ],
         // Reliquary of the Raven Ceremonial Gown
-        "92786": [9143,9148,9164],
+        "92786": [
+          9143,
+          9148,
+          9164
+        ],
         // Reliquary of the Raven Ceremonial Garb
-        "92790": [9168,9182,9193],
+        "92790": [
+          9168,
+          9182,
+          9193
+        ],
         // Stone Summit Helm Box
-        "93080": [9248,9258,9277],
+        "93080": [
+          9248,
+          9258,
+          9277
+        ],
         // Stone Summit Shoulder Box
-        "93182": [9284,9259,9311],
+        "93182": [
+          9284,
+          9259,
+          9311
+        ],
         // Stone Summit Glove Box
-        "93202": [9262,9276,9279],
+        "93202": [
+          9262,
+          9276,
+          9279
+        ],
         // Stone Summit Boot Box
-        "93259": [9307,9316,9327],
+        "93259": [
+          9307,
+          9316,
+          9327
+        ],
         // Reliquary of the Bear Ceremonial Sandals
-        "93395": [9385,9390,9433],
+        "93395": [
+          9385,
+          9390,
+          9433
+        ],
         // Charr War Mask Box
-        "93487": [9421,9428,9443],
+        "93487": [
+          9421,
+          9428,
+          9443
+        ],
         // Reliquary of the Bear Ceremonial Gown
-        "93506": [9368,9389,9408],
+        "93506": [
+          9368,
+          9389,
+          9408
+        ],
         // Reliquary of the Bear Ceremonial Hood
-        "93569": [9382,9401,9412],
+        "93569": [
+          9382,
+          9401,
+          9412
+        ],
         // Reliquary of the Bear Ceremonial Garb
-        "93585": [9365,9416,9369],
+        "93585": [
+          9365,
+          9416,
+          9369
+        ],
         // Blood Legion Soldier Helm Box
-        "93653": [9429,9436,9439],
+        "93653": [
+          9429,
+          9436,
+          9439
+        ],
         // Visage of Nourys
-        "100010": [11569, 11658, 11714],
+        "100010": [
+          11569,
+          11658,
+          11714
+        ],
         // Powered Glove Box
-        "99582": [11367, 11389, 11406]
+        "99582": [
+          11367,
+          11389,
+          11406
+        ]
       },
       "gwuIncludeIds": [
         1,
@@ -220,525 +347,789 @@
       ],
       "gwuIgnoreIds": [
         // Guild Defender bits,share icon with others
-        1561,1824,1675,1830,1671,1714,
+        1561,
+        1824,
+        1675,
+        1830,
+        1671,
+        1714,
         // Air Filtration Device
-        2021,2022,
+        2021,
+        2022,
         // Scarlet's Grasp
-        792,790,
+        792,
+        790,
         // Fuzzy Leopard Hat
-        968,970,
+        968,
+        970,
         // Fuzzy Cat Hat
-        976,978,
+        976,
+        978,
         // Fuzzy Hylek Hat
-        972,974,
+        972,
+        974,
         // Ringmaster's Hat
-        1007,1009,
+        1007,
+        1009,
         // Wide Rim Glasses
-        982,987,
+        982,
+        987,
         // Southsun Mask
-        996,998,
+        996,
+        998,
         // Fuzzy Panda Hat
-        1039,1040,
+        1039,
+        1040,
         // Wizard's Hat
-        1035,1037,
+        1035,
+        1037,
         // Bunny Ears
-        984,985,
+        984,
+        985,
         // Festive Hat
-        1021,975,
+        1021,
+        975,
         // Fuzzy Quaggan Hat
-        1016,966,
+        1016,
+        966,
         // Fuzzy Quaggan Hat with Bow
-        1004,1005,
+        1004,
+        1005,
         // Twisted Watchwork Shoulders
-        1072,1077,
+        1072,
+        1077,
         // Reading Glasses
-        1011,1014,
+        1011,
+        1014,
         // Magnus's Left Eye Patch
-        839,841,
+        839,
+        841,
         // Magnus's Right Eye Patch
-        842,843,
+        842,
+        843,
         // Heavy Island Shoulder
-        1141,1143,
+        1141,
+        1143,
         // Mask of the Jubilee
-        1185,1186,
+        1185,
+        1186,
         // Witch's Hat
-        980,981,
+        980,
+        981,
         // Aviator Cap
-        1023,1030,
+        1023,
+        1030,
         // Toxic Gauntlets
-        1328,1329,
+        1328,
+        1329,
         // Zephyrite Sun Helm
-        1205,1206,
+        1205,
+        1206,
         // Zephyrite Wind Helm
-        1202,1203,
+        1202,
+        1203,
         // Zephyrite Lightning Helm
-        1208,1210,
+        1208,
+        1210,
         // Aviator Sunglasses
-        992,994,
+        992,
+        994,
         // Glowing Crimson Mask
-        826,832,
+        826,
+        832,
         // Wintersday Earmuffs
-        1022,1024,
+        1022,
+        1024,
         // Scarlet's Veil
-        827,838,
+        827,
+        838,
         // Mask of the Crown
-        1191,1192,
+        1191,
+        1192,
         // Mask of the Queen
-        1188,1189,
+        1188,
+        1189,
         // Lawless Boots
-        1361,1369,
+        1361,
+        1369,
         // Inventor's Sunglasses
-        967,971,
+        967,
+        971,
         // Phantom's Hood
-        1026,995,
+        1026,
+        995,
         // Mask of the Wanderer
-        1250,1252,
+        1250,
+        1252,
         // Sailor's Beanie
-        1008,1028,
+        1008,
+        1028,
         // Gas Mask
-        2024,2026,
+        2024,
+        2026,
         // Horns of the Dragon
-        2013,2016,
+        2013,
+        2016,
         // Monocle
-        2018,2020,
+        2018,
+        2020,
         // Scarlet's Spaulders
-        2032,2035,
+        2032,
+        2035,
         // Lawless Shoulders
-        1368,1371,
+        1368,
+        1371,
         // Toxic Pauldron
-        1325,1327,
+        1325,
+        1327,
         // Stag Helm
-        1225,1227,
+        1225,
+        1227,
         // Lawless Helmet
-        1364,1367,
+        1364,
+        1367,
         // Mask of the Silent
-        1049,1050,
+        1049,
+        1050,
         // Fuzzy Bear Hat
-        1017,1032,
+        1017,
+        1032,
         // Devil Horns
-        1027,999,
+        1027,
+        999,
         // Top Hat
-        1001,1003,
+        1001,
+        1003,
         // Grenth Hood
-        1222,1224,
+        1222,
+        1224,
         // Lawless Gloves
-        1366,1372,
+        1366,
+        1372,
         // Lion's Mask
-        5851,5854,
+        5851,
+        5854,
         // Shadow of the Dragon Shoulders
-        5815,5820,
+        5815,
+        5820,
         // Ice Crown
-        7038,7040,
+        7038,
+        7040,
         // Furrocious Cat Ears
-        6972,6974,
+        6972,
+        6974,
         // Xera's Mask
-        6841,6845,
+        6841,
+        6845,
         // Abaddon's Mask
-        7309,7326,
+        7309,
+        7326,
         // Pirate Hook
-        6903,6943,
+        6903,
+        6943,
         // Braham's Wolfblood Pauldrons
-        7064,7066,
+        7064,
+        7066,
         // Glowing Green Mask
-        5698,5700,
+        5698,
+        5700,
         // Foefire Mantle
-        7258,7263,
+        7258,
+        7263,
         // Shadow of the Dragon Gloves
-        5817,5822,
+        5817,
+        5822,
         // Wreath of Cooperation
-        5541,5543,
+        5541,
+        5543,
         // Shattered Bloodstone Circlet
-        6888,6900,
+        6888,
+        6900,
         // Sworn Zaishen Helm Skin
-        7225,7241,
+        7225,
+        7241,
         // Fuzzy Aurene Hat
-        7280,7283,
+        7280,
+        7283,
         // Foefire Wraps
-        7251,7262,
+        7251,
+        7262,
         // Foefire Greaves
-        7725,7726,
+        7725,
+        7726,
         // Swaggering Hat
-        7358,7625,
+        7358,
+        7625,
         // Salvaged Forged Helm
-        7806,7814,
+        7806,
+        7814,
         // Pirate Corsair Hat
-        6915,6931,
+        6915,
+        6931,
         // Salvaged Forged Gloves
-        7819,7827,
+        7819,
+        7827,
         // Glint's Gaze Mask
-        5747,5748,
+        5747,
+        5748,
         // Shoulder Scarf
-        5794,5795,
+        5794,
+        5795,
         // Dragon's Mask
-        5852,5853,
+        5852,
+        5853,
         // Fallen Balthazar Helm
-        7800,7804,
+        7800,
+        7804,
         // Shadow of the Dragon Helmet
-        5819,5821,
+        5819,
+        5821,
         // Chaos Gloves
-        6727,6732,
+        6727,
+        6732,
         // Peg-Leg Boots
-        6909,6916,
+        6909,
+        6916,
         // Jackal Rune Greaves
-        8002,8003,
+        8002,
+        8003,
         // Svanir Gauntlets
-        7975,7985,
+        7975,
+        7985,
         // Dragon Horns
-        8277,8297,
+        8277,
+        8297,
         // Exalted Gloves
-        8121,8122,
+        8121,
+        8122,
         // Winged Headpiece
-        8071,8072,
+        8071,
+        8072,
         // Enchanted Winter Antlers
-        8524,8545,
+        8524,
+        8545,
         // Iron's Tailpipe Bandana
-        1992,2011,
+        1992,
+        2011,
         // Raven Mantle
-        8491,8500,
+        8491,
+        8500,
         // Heavy Houndskin Mantle
-        7211,7213,
+        7211,
+        7213,
         // Raven Helm
-        8488,8497,
+        8488,
+        8497,
         // Jackal Rune Gauntlets
-        7999,8001,
+        7999,
+        8001,
         // Heavy Dragonscale Epaulets
-        6964,6970,
+        6964,
+        6970,
         // Medium Mursaat Brogans
-        7299,7316,
+        7299,
+        7316,
         // Lightning Aspect Eye
-        8205,8217,
+        8205,
+        8217,
         // Sport Sunglasses
-        990,991,
+        990,
+        991,
         // Light Dragonscale Headdress
-        6968,6969,
+        6968,
+        6969,
         // Wind Aspect Eye
-        8213,8222,
+        8213,
+        8222,
         // Heavy Glacial Gauntlets
-        7028,7032,
+        7028,
+        7032,
         // Winter Antlers
-        8543,8544,
+        8543,
+        8544,
         // Storm Gloves
-        8186,8187,
+        8186,
+        8187,
         // Sun Aspect Eye
-        8228,8230,
+        8228,
+        8230,
         // Skyscale Horns
-        8822,8841,
+        8822,
+        8841,
         // Enchanted Dragon Crown
-        8238,8253,
+        8238,
+        8253,
         // Pyre Gloves
-        8866,8873,
+        8866,
+        8873,
         // Dragon's Eye Circlet
-        8289,8296,
+        8289,
+        8296,
         // Olmakhan Mantle
-        8032,8028,
+        8032,
+        8028,
         // Etherbound Greaves
-        8659,8672,
+        8659,
+        8672,
         // Etherbound Pauldrons
-        8960,8961,
+        8960,
+        8961,
         // Luminous Skyscale Horns
-        8834,8837,
+        8834,
+        8837,
         // Freezie Crown
-        7979,7994,
+        7979,
+        7994,
         // Racing Helmet
-        8513,8515,
+        8513,
+        8515,
         // Shrine Guardian Ears
-        8727,8741,
+        8727,
+        8741,
         // Racing Goggles
-        8510,8514,
+        8510,
+        8514,
         // Revered Shrine Guardian Ears
-        8743,8751,
+        8743,
+        8751,
         // Etherbound Gauntlets
-        8669,8678,
+        8669,
+        8678,
         // Pumpkin Crown
-        8968,8966,
+        8968,
+        8966,
         // Exalted Shoulders
-        8618,8621,
+        8618,
+        8621,
         // Searing Chain Gloves
-        8986,8989,
+        8986,
+        8989,
         // Light Corsair Turban
-        7836,7844,
+        7836,
+        7844,
         // Festive Sweater
-        9087,9089,
+        9087,
+        9089,
         // Dragonrender Medium Helm
-        9037,9016,
+        9037,
+        9016,
         // Raven Ceremonial Sandals
-        9181,9170,
+        9181,
+        9170,
         // Raven Ceremonial Garb
-        9168,9182,
+        9168,
+        9182,
         // Raven Ceremonial Hood
-        9158,9162,
+        9158,
+        9162,
         // Holographic Dragon Helm
-        8817,8826,
+        8817,
+        8826,
         // Raven Ceremonial Bracers
-        9139,9180,
+        9139,
+        9180,
         // Maguuma's Mantle
-        9222,9224,
+        9222,
+        9224,
         // Maguuma's Grasp
-        9219,9228,
+        9219,
+        9228,
         // Raven Ceremonial Gown
-        9143,9148,
+        9143,
+        9148,
         // Toxic Boots
-        9334,9332,
+        9334,
+        9332,
         // Ice Golem's Cowl
-        9184,9146,
+        9184,
+        9146,
         // Seven Reapers Grasps
-        9376,9384,
+        9376,
+        9384,
         // Immortal Fire Halo
-        9578,9582,
+        9578,
+        9582,
         // Bear Ceremonial Sandals
-        9385,9390,
+        9385,
+        9390,
         // Bear Ceremonial Leggings
-        9408,9368,
+        9408,
+        9368,
         // Aurene's Crystalline Diadem
-        9452,9458,
+        9452,
+        9458,
         // Blood Legion Soldier Helm
-        9429,9436,
+        9429,
+        9436,
         // Charr War Mask
-        9421,9428,
+        9421,
+        9428,
         // Stone Summit Pauldrons
-        9284,9311,
+        9284,
+        9311,
         // Bear Ceremonial Hood
-        9412,9401,
+        9412,
+        9401,
         // Immortal Light Halo
-        9570,9574,
+        9570,
+        9574,
         // Stone Summit Gauntlets
-        9262,9279,
+        9262,
+        9279,
         // Maguuma's Treads
-        9339,9343,
+        9339,
+        9343,
         // Stone Summit Helmet
-        9277,9248,
+        9277,
+        9248,
         // Ice Reaver Pauldrons
-        9551,9554,
+        9551,
+        9554,
         // Ebon Vanguard Elite Shoulders Skin
-        9577,9580,
+        9577,
+        9580,
         // Stone Summit Boots
-        9327,9316,
+        9327,
+        9316,
         // Bear Ceremonial Garb
-        9369,9365,
+        9369,
+        9365,
         // Fireworks Spaulders
-        9101,9108,
+        9101,
+        9108,
         // Conjured Starlight Hat
-        9695,9699,
+        9695,
+        9699,
         // Ice Reaver Gauntlets
-        9655,9657,
+        9655,
+        9657,
         // Bat Wings Headpiece
-        9640,9649,
+        9640,
+        9649,
         // Cat-Ear Hood
-        9613,9614,
+        9613,
+        9614,
         // Holographic Dragon Shoulders
-        9457,9460,
+        9457,
+        9460,
         // Seven Reapers Pauldrons
-        9890,9891,
+        9890,
+        9891,
         // Virtual Box
-        9349,9355,
+        9349,
+        9355,
         // Aurene's Crystalline Claws
-        9954,9960,
+        9954,
+        9960,
         // Tempest Gaze
-        9789,9790,
+        9789,
+        9790,
         // Ice Reaver Greaves
-        9794,9823,
+        9794,
+        9823,
         // Stylish Shoes
-        9733,9757,
+        9733,
+        9757,
         // Dusk and Dawn Shoulders
-        9796,9817,
+        9796,
+        9817,
         // Ice Reaver Chestguard 
-        10002,10004,
+        10002,
+        10004,
         // Ice Reaver Legguards 
-        10000,10001,
+        10000,
+        10001,
         // Shatterspark Shoulders 
-        10006,10007,
+        10006,
+        10007,
         // Sun-Blessed Vision 
-        9544,9546,
+        9544,
+        9546,
         // Pyre Horns 
-        10019,10020,
+        10019,
+        10020,
         // Festive Winter Hood 
-        9731,9742,
+        9731,
+        9742,
         // Ice Reaver Helm 
-        9989,9996,
+        9989,
+        9996,
         // Shatterspark Gloves 
-        10016,10018,
+        10016,
+        10018,
         // Aetherblade Blindfold
-        10330,10357,
+        10330,
+        10357,
         // Aether Visor
-        10836,10841,
+        10836,
+        10841,
         // Swaggering Boots
-        10052,10055,
+        10052,
+        10055,
         // Ghost of the Deep Spaulders
-        10043,10044,
+        10043,
+        10044,
         // Immortal Light Ring
-        10109,10111,
+        10109,
+        10111,
         // Medium Monastery Coat
-        10695,10703,
+        10695,
+        10703,
         // Angler Hat
-        10255,10312,
+        10255,
+        10312,
         // Raven Gloves
-        10167,10193,
+        10167,
+        10193,
         // Heavy Monastery Shoulderpads
-        10243,10492,
+        10243,
+        10492,
         // Prayer Bead Wraps
-        10454,10584,
+        10454,
+        10584,
         // Vermilion Pauldrons
-        10814,10817,
+        10814,
+        10817,
         // Holographic Dragon Gloves
-        10021,10026,
+        10021,
+        10026,
         // Heavy Monastery Leggings
-        10237,10314,
+        10237,
+        10314,
         // Immortal Light Nimbus
-        10080,10086,
+        10080,
+        10086,
         // Martial Artist's Handwraps
-        10299,10386,
+        10299,
+        10386,
         // Seven Reapers Greaves
-        10098,10100,
+        10098,
+        10100,
         // Saltspray Dragon Scarf
-        10261,10500,
+        10261,
+        10500,
         // Foefire Chestguard
-        10123,10125,
+        10123,
+        10125,
         // Icy Demon Horns
-        10173,10201,
+        10173,
+        10201,
         // Pyre Circlet
-        10155,10157,
+        10155,
+        10157,
         // Fused Shoulders
-        10811,10815,
+        10811,
+        10815,
         // Jade Tech Eye Piece
-        10833,10834,
+        10833,
+        10834,
         // Canthan Sun Hat
-        10761,10764,
+        10761,
+        10764,
         // Right Oni Arm
-        10290,10488,
+        10290,
+        10488,
         // Martial Artist's Headband
-        10292,10565,
+        10292,
+        10565,
         // Foefire Legwraps
-        10120,10127,
+        10120,
+        10127,
         // Light Monastery Gloves
-        10293,10338,
+        10293,
+        10338,
         // Kuunavang Festival Mask
-        10455,10549,
+        10455,
+        10549,
         // Medium Monastery Headband
-        10483,10530,
+        10483,
+        10530,
         // Medium Monastery Shoes
-        10365,10419,
+        10365,
+        10419,
         // Immortal Fire Nimbus
-        10074,10081,
+        10074,
+        10081,
         // Seven Reapers Helm
-        10124,10129,
+        10124,
+        10129,
         // Martial Artist's Footwraps
-        10300,10404,
+        10300,
+        10404,
         // Watchknight Greaves
-        10901,10904,
+        10901,
+        10904,
         // Foefire Mask
-        10182,10198,
+        10182,
+        10198,
         // Angler Vest
-        10291,10484,
+        10291,
+        10484,
         // Immortal Fire Ring
-        10115,10116,
+        10115,
+        10116,
         // Water Dragon Pauldrons
-        10916,10925,
+        10916,
+        10925,
         // Etherbound Chestplate
-        11029,11030,
+        11029,
+        11030,
         // Zephyrite Traveling Boots
-        10102,10103,
+        10102,
+        10103,
         // Water Dragon Crest
-        10969,10992,
+        10969,
+        10992,
         // Magical Unicorn Horn
-        10854,10862,
+        10854,
+        10862,
         // Water Dragon Greaves
-        10927,10932,
+        10927,
+        10932,
         // Water Dragon Chestguard
-        10920,10928,
+        10920,
+        10928,
         // Grasping Gaze Shoulders
-        10122,10128,
+        10122,
+        10128,
         // Vermilion Vambraces
-        10838,10839,
+        10838,
+        10839,
         // Etherbound Legguard
-        11001,11010,
+        11001,
+        11010,
         // Jade Prosthesis Gauntlet
-        10880,10896,
+        10880,
+        10896,
         // Water Dragon Gauntlets
-        10907,10943,
+        10907,
+        10943,
         // Water Dragon Helm
-        10918,10924,
+        10918,
+        10924,
         // Water Dragon Legguards
-        10950,10952,
+        10950,
+        10952,
         // Battlelord's Hood Helm
-        11151, 11162,
+        11151,
+        11162,
         // Reality Rig Mk2
-        10781, 10782,
+        10781,
+        10782,
         // Minister's Hat
-        11261, 11276,
+        11261,
+        11276,
         // Lambent Battlelord's Hood Helm
-        11143, 11150,
+        11143,
+        11150,
         // Royal Pointed Ears
-        11039, 11044,
+        11039,
+        11044,
         // Etherbound Helm
-        10987, 10997,
+        10987,
+        10997,
         // Processing Line Control Bracers
-        11275, 11317,
+        11275,
+        11317,
         // Elegant Silk Scarf
-        11199, 11223,
+        11199,
+        11223,
         // Noble Pointed Ears
-        11038, 11040,
+        11038,
+        11040,
         // Lunar Rabbit Helm
-        11216, 11221,
+        11216,
+        11221,
         // Replica Oni Arms
-        11288, 11293,
+        11288,
+        11293,
         // Grinning Tahkayun Mask
-        11266, 11290,
+        11266,
+        11290,
         // Reality Rig Mk3
-        10770, 10778,
+        10770,
+        10778,
         // Savage Scale Chest
-        11106, 11129,
+        11106,
+        11129,
         // Reality Rig Mk1
-        10790, 10795,
+        10790,
+        10795,
         // Pointed Ears
-        11032, 11035,
+        11032,
+        11035,
         // Aurene's Crystalline Pauldrons
-        11182, 11188,
+        11182,
+        11188,
         // Lunar Rabbit Stompers
-        11200, 11224,
+        11200,
+        11224,
         // Savage Scale Loincloth
-        11100, 11124,
+        11100,
+        11124,
         // Rift Warden Helm
-        11063, 11078,
+        11063,
+        11078,
         // Holographic Dragon Greaves
-        10851, 10866,
+        10851,
+        10866,
         // Zephyrite Shawl
-        10923, 10930,
+        10923,
+        10930,
         // Serpentine Tattoo Chest
-        11267, 11308,
+        11267,
+        11308,
         // Fire Bloom Tattoo Chest
-        11270, 11314,
+        11270,
+        11314,
         // Rebel Long Boots
-        11354, 11357,
+        11354,
+        11357,
         // Bestial Tides Tattoo Chest
-        11286, 11304,
+        11286,
+        11304,
         // Side-Lace Pants
-        11842, 11843,
+        11842,
+        11843,
         // Leather Straps Cingulum
-        11522, 11529,
+        11522,
+        11529,
         // Sanctified Helm
-        11629, 11709,
+        11629,
+        11709,
         // Brawler's Silk Jacket
-        11479, 11499,
+        11479,
+        11499,
         // Sanctified Gloves
-        11643, 11767,
+        11643,
+        11767,
         // Sanctified Leggings
-        11578, 11689,
+        11578,
+        11689,
         // Artisan Zharra's Hood
-        11418, 11419,
+        11418,
+        11419,
         // Leather Straps Chestpiece
-        11523, 11530,
+        11523,
+        11530,
         // Sanctified Boots
-        11654, 11713,
+        11654,
+        11713,
         // Heretical Scholar's Hood
-        11936, 11956,
+        11936,
+        11956,
         // Visage of Nourys
-        11569, 11658,
+        11569,
+        11658,
         // Krytan Rogue Chestpiece
-        11849, 11863,
+        11849,
+        11863,
         // Sanctified Coat
-        11611, 11682,
+        11611,
+        11682,
         // Sanctified Shoulders
-        11667, 11727
+        11667,
+        11727
       ]
     },
     {
@@ -753,23 +1144,129 @@
         // Black Lion Exclusives Chest
         "82450": [
           // Vermilion
-          9347,9701,10072,10078,
+          9347,
+          9701,
+          10072,
+          10078,
           // Standalone: Other
-          6937,6978,7739,8098,8197,8457,8529,8945,9027,9553,9956,10040,10162,10510,
+          6937,
+          6978,
+          7739,
+          8098,
+          8197,
+          8457,
+          8529,
+          8945,
+          9027,
+          9553,
+          9956,
+          10040,
+          10162,
+          10510,
           // Standalone: Other + Back Item Combo - Quiver
           8010
         ],
         // Southsun Remembrance Package
-        "84207": [3764,3782,3805,3832],
+        "84207": [
+          3764,
+          3782,
+          3805,
+          3832
+        ],
         // Royal Flame Weapon Coffer
-        "92128": [8973,8974,8975,8976,8977,8980,8983,8990,8992,8994,8996,8998,9001,9002,9003,9004],
+        "92128": [
+          8973,
+          8974,
+          8975,
+          8976,
+          8977,
+          8980,
+          8983,
+          8990,
+          8992,
+          8994,
+          8996,
+          8998,
+          9001,
+          9002,
+          9003,
+          9004
+        ],
         // Rimed Verdant Wintersday Gift
-        "92586": [9052,9053,9058,9060,9065,9066,9067,9069,9074,9075,9077,9079,9080,9088,9091,9092],
+        "92586": [
+          9052,
+          9053,
+          9058,
+          9060,
+          9065,
+          9066,
+          9067,
+          9069,
+          9074,
+          9075,
+          9077,
+          9079,
+          9080,
+          9088,
+          9091,
+          9092
+        ],
         // Luxon Hunter's Weapon Cache
-        "97435": [11271, 11278, 11283, 11292, 11295, 11296, 11298, 11303, 11306, 11311, 11312, 11313, 11320, 11321, 11333, 11339],
-        "99666" : [11440, 11441, 11442, 11443, 11444, 11446, 11450, 11452, 11454, 11455, 11456, 11457, 11463, 11464, 11466, 11468],
+        "97435": [
+          11271,
+          11278,
+          11283,
+          11292,
+          11295,
+          11296,
+          11298,
+          11303,
+          11306,
+          11311,
+          11312,
+          11313,
+          11320,
+          11321,
+          11333,
+          11339
+        ],
+        "99666": [
+          11440,
+          11441,
+          11442,
+          11443,
+          11444,
+          11446,
+          11450,
+          11452,
+          11454,
+          11455,
+          11456,
+          11457,
+          11463,
+          11464,
+          11466,
+          11468
+        ],
         // Officer's Remnant Cache
-        "99792" : [11470, 11471, 11472, 11473, 11478, 11480, 11485, 11489, 11491, 11495, 11501, 11502, 11506, 11509, 11512, 11513]
+        "99792": [
+          11470,
+          11471,
+          11472,
+          11473,
+          11478,
+          11480,
+          11485,
+          11489,
+          11491,
+          11495,
+          11501,
+          11502,
+          11506,
+          11509,
+          11512,
+          11513
+        ]
       },
       "excludeIds": [
         5898,
@@ -777,7 +1274,22 @@
       ],
       "gwuIgnoreIds": [
         // Guild Cavalier varients
-        6773,6781,6769,6755,6761,6748,6766,6762,6750,6782,6778,6771,6763,6770,6776,6754,
+        6773,
+        6781,
+        6769,
+        6755,
+        6761,
+        6748,
+        6766,
+        6762,
+        6750,
+        6782,
+        6778,
+        6771,
+        6763,
+        6770,
+        6776,
+        6754,
         // Godskill missing skins
         4986,
         // Guild Rifle
@@ -789,7 +1301,8 @@
         // Flame Rifle
         5173,
         // Gladium Trident
-        5167,8355,
+        5167,
+        8355,
         // Sunder, same icon as dreadwing
         8776,
         // Living Water Longbow, similar icon to Saltspray Longbow
@@ -797,7 +1310,11 @@
         // Eternel Blade, same icon as Royal Ascalonian Sword
         11676
       ],
-      "gwuIncludeIds": [10275, 11196, 11180]
+      "gwuIncludeIds": [
+        10275,
+        11196,
+        11180
+      ]
     },
     {
       "id": "back",
@@ -816,30 +1333,63 @@
         // Black Lion Exclusives Chest
         "82450": [
           // Standalone: Other
-          7755,8319,10881,
+          7755,
+          8319,
+          10881,
           // Standalone: Other + Glider Combo
-          7308,7811,7996,8141,8638,8725,8807,10219,10941,
+          7308,
+          7811,
+          7996,
+          8141,
+          8638,
+          8725,
+          8807,
+          10219,
+          10941,
           // Standalone: Other - Cape
-          9240,9462,9597,10005,
+          9240,
+          9462,
+          9597,
+          10005,
           // Standalone: Other - Cape + Glider Combo
           9732,
           // Standalone: Other - Quiver
           8021,
           // Standalone: Other - Wings + Glider Combo
-          8915,9061,9298,9481,9992,10045,10823
+          8915,
+          9061,
+          9298,
+          9481,
+          9992,
+          10045,
+          10823
         ],
         // Pink Quaggan Backpack Set
-        "39495": [2365],
+        "39495": [
+          2365
+        ],
         // Cheetah Charr Backpack Set
-        "39503": [2366],
+        "39503": [
+          2366
+        ],
         // Tiger Charr Backpack Set
-        "39507": [2364],
+        "39507": [
+          2364
+        ],
         // Quaggan Killer Whale Backpack Set
-        "39524": [2367],
+        "39524": [
+          2367
+        ],
         // Plush Tybalt Backpack Set
-        "39527": [2368],
+        "39527": [
+          2368
+        ],
         // Zephyrite Box of Dreams
-        "82562": [2346,2347,2348]
+        "82562": [
+          2346,
+          2347,
+          2348
+        ]
       }
     },
     {
@@ -865,7 +1415,10 @@
       "chatcodeType": 11,
       "useItemForChatcode": false,
       "mapItemsToUnlocksForVendor": true,
-      "vendorItemTypes": ["Consumable","Container"],
+      "vendorItemTypes": [
+        "Consumable",
+        "Container"
+      ],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -877,31 +1430,57 @@
           101
         ],
         // Endless Riding Clothes Tonic
-        "36176": [65],
+        "36176": [
+          65
+        ],
         // Endless Common Clothing Tonic
-        "36179": [60],
+        "36179": [
+          60
+        ],
         // Endless Khaki Clothing Tonic
-        "36180": [71],
+        "36180": [
+          71
+        ],
         // Endless Designer Hoodie Clothing Tonic
-        "36183": [70],
+        "36183": [
+          70
+        ],
         // Endless Leather Hoodie Clothing Tonic
-        "36184": [62],
+        "36184": [
+          62
+        ],
         // Endless Silk Brocade Clothing Tonic
-        "36185": [61],
+        "36185": [
+          61
+        ],
         // Endless Layered Vest Clothing Tonic
-        "36186": [68],
+        "36186": [
+          68
+        ],
         // Endless Casual Clothing Tonic
-        "36187": [63],
+        "36187": [
+          63
+        ],
         // Endless Striped Silk Clothing Tonic
-        "36188": [69],
+        "36188": [
+          69
+        ],
         // Endless Cherry Blossom Clothing Tonic
-        "36189": [59],
+        "36189": [
+          59
+        ],
         // Endless Country Lace Clothing Tonic
-        "36190": [64],
+        "36190": [
+          64
+        ],
         // Endless Ornate Clothing Tonic
-        "36191": [67],
+        "36191": [
+          67
+        ],
         // Endless Casual Hoodie Clothing Tonic
-        "36200": [66]
+        "36200": [
+          66
+        ]
       }
     },
     {
@@ -913,37 +1492,69 @@
       "useItemForChatcode": true,
       "itemMappings": {
         // Fine Black Lion Dye Canister—Blue
-        "92312": [1651],
+        "92312": [
+          1651
+        ],
         // Masterwork Black Lion Dye Canister—Blue
-        "92313": [1652],
+        "92313": [
+          1652
+        ],
         // Rare Black Lion Dye Canister—Blue
-        "92347": [1654],
+        "92347": [
+          1654
+        ],
         // Exotic Black Lion Dye Canister—Blue
-        "92388": [1653],
+        "92388": [
+          1653
+        ],
         // Fine Black Lion Dye Canister—Green
-        "92711": [1658],
+        "92711": [
+          1658
+        ],
         // Masterwork Black Lion Dye Canister—Green
-        "92727": [1656],
+        "92727": [
+          1656
+        ],
         // Exotic Black Lion Dye Canister—Green
-        "92748": [1657],
+        "92748": [
+          1657
+        ],
         // Rare Black Lion Dye Canister—Green
-        "92762": [1655],
+        "92762": [
+          1655
+        ],
         // Masterwork Black Lion Dye Canister—Red
-        "93298": [1662],
+        "93298": [
+          1662
+        ],
         // Exotic Black Lion Dye Canister—Red
-        "93308": [1659],
+        "93308": [
+          1659
+        ],
         // Rare Black Lion Dye Canister—Red
-        "93320": [1660],
+        "93320": [
+          1660
+        ],
         // Fine Black Lion Dye Canister—Red
-        "93326": [1661],
+        "93326": [
+          1661
+        ],
         // Exotic Black Lion Dye Canister—Yellow
-        "94023": [1664],
+        "94023": [
+          1664
+        ],
         // Fine Black Lion Dye Canister—Yellow
-        "94026": [1663],
+        "94026": [
+          1663
+        ],
         // Masterwork Black Lion Dye Canister—Yellow
-        "94045": [1666],
+        "94045": [
+          1666
+        ],
         // Rare Black Lion Dye Canister—Yellow
-        "94086": [1665]
+        "94086": [
+          1665
+        ]
       },
       "excludeIds": [
         1
@@ -969,18 +1580,40 @@
       "chatcodeType": 2,
       "useItemForChatcode": true,
       "mapItemsToUnlocksForVendor": true,
-      "vendorItemTypes": ["Container","Consumable","Gizmo, Novelty","Novelty, Gizmo"],
+      "vendorItemTypes": [
+        "Container",
+        "Consumable",
+        "Gizmo, Novelty",
+        "Novelty, Gizmo"
+      ],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
           // Standalone: Other
-          32,35,54,66,84,
+          32,
+          35,
+          54,
+          66,
+          84,
           // Standalone: Other + Back Item Combo
-          47,56,60,68,70,72,109,116,
+          47,
+          56,
+          60,
+          68,
+          70,
+          72,
+          109,
+          116,
           // Standalone: Other + Back Item Combo - Cape
           96,
           // Standalone: Other + Back Item Combo - Wings
-          77,83,86,91,100,103,112,
+          77,
+          83,
+          86,
+          91,
+          100,
+          103,
+          112,
           // Standalone: Other + Novelty Combo - Chair
           97
         ]
@@ -992,14 +1625,65 @@
       "source": "mounts",
       "unlockUrl": "https://api.guildwars2.com/v2/account/mounts/skins",
       "mapItemsToUnlocksForVendor": true,
-      "vendorItemTypes": ["Service"],
+      "vendorItemTypes": [
+        "Consumable",
+        "Service"
+      ],
       "itemMappings": {
         // Springer
-        "82235": [3],
+        "82235": [
+          3
+        ],
         // Jackal
-        "83938": [6],
+        "83938": [
+          6
+        ],
         // Skimmer
-        "83968": [2]
+        "83968": [
+          2
+        ],
+        // Enchanted Griffon
+        "100663": [
+          585
+        ],
+        // Enchanted Skimmer
+        "101828": [
+          651
+        ]
+      }
+    },
+    {
+      "id": "skiff",
+      "name": "Skiffs",
+      "source": "skiffs",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/skiffs",
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": [
+        "Service",
+        "Consumable"
+      ],
+      "itemMappings": {
+        // Fishing Skiff
+        "96232": [
+          410
+        ],
+        // Winged Reverie
+        "97920": [
+          428
+        ],
+        // Black Lion Exclusives Chest
+        "82450": [
+          428,
+          502
+        ],
+        // Festive Iceberg
+        "99288": [
+          502
+        ],
+        // Toymaker's Party Skiff
+        "101668": [
+          649
+        ]
       }
     },
     {
@@ -1010,87 +1694,195 @@
       "unlockUrl": "https://api.guildwars2.com/v2/account/novelties",
       "chatcodeType": 2,
       "useItemForChatcode": true,
-      "vendorItemTypes": ["Novelty","Tonic","Gizmo","Tonic, Novelty","Gizmo, Novelty","Novelty, Gizmo"],
+      "vendorItemTypes": [
+        "Novelty",
+        "Tonic",
+        "Gizmo",
+        "Tonic, Novelty",
+        "Gizmo, Novelty",
+        "Novelty, Gizmo",
+        "Container"
+      ],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
           // Standalone: Other - Chair
-          269,309,
+          269,
+          309,
           // Standalone: Other - Chair + Glider Combo
           311
         ],
         // Unbreakable Choir Bell
-        "38129": [42],
+        "38129": [
+          42
+        ],
         // Unopened Endless Mystery Animal Tonic
-        "49145": [159],
+        "49145": [
+          159
+        ],
         // Unopened Endless Mystery Furniture Tonic
-        "49146": [172],
+        "49146": [
+          172
+        ],
         // Unopened Endless Mystery Plant Tonic
-        "49147": [80],
+        "49147": [
+          80
+        ],
         // Unopened Prosperity Mine Kite
-        "66893": [14],
+        "66893": [
+          14
+        ],
         // Unopened Crystal Shard Kite
-        "66895": [48],
+        "66895": [
+          48
+        ],
         // Unopened Ventari Follower Kite
-        "66896": [11],
+        "66896": [
+          11
+        ],
         // Endless Monkey King Tonic
-        "66926": [195],
+        "66926": [
+          195
+        ],
         // Unopened Endless Bottle of Batwing Brew
-        "67386": [170],
+        "67386": [
+          170
+        ],
         // Endless Arid Devourer Tonic
-        "67783": [117],
+        "67783": [
+          117
+        ],
         // Endless Mordrem Thrasher Tonic
-        "68065": [201],
+        "68065": [
+          201
+        ],
         // Wintersday Red Musical Bell Case
-        "68362": [38],
+        "68362": [
+          38
+        ],
         // Endless Mordrem Teragriff Tonic
-        "68512": [81],
+        "68512": [
+          81
+        ],
         // Endless Mushroom Queen Tonic
-        "72072": [135],
+        "72072": [
+          135
+        ],
         // Endless Chak Zapper Tonic
-        "72203": [102],
+        "72203": [
+          102
+        ],
         // Endless Exalted Bastion Tonic
-        "73150": [228],
+        "73150": [
+          228
+        ],
         // Endless Nuhoch Crusher Tonic
-        "73194": [198],
+        "73194": [
+          198
+        ],
         // Endless Chak Drone Tonic
-        "73663": [214],
+        "73663": [
+          214
+        ],
         // Endless Mushroom King Tonic
-        "73677": [96],
+        "73677": [
+          96
+        ],
         // Endless Mushroom Tonic
-        "75214": [267],
+        "75214": [
+          267
+        ],
         // Endless Chak Slinger Tonic
-        "75615": [234],
+        "75615": [
+          234
+        ],
         // Enchanted Snowball Box
-        "77637": [93],
+        "77637": [
+          93
+        ],
         // Endless Ley-Line Anomaly Tonic
-        "79034": [191],
+        "79034": [
+          191
+        ],
         // Endless Fury Combat Tonic
-        "81823": [115],
+        "81823": [
+          115
+        ],
         // Unopened Endless Choya Piñata Tonic
-        "85137": [218],
+        "85137": [
+          218
+        ],
         // Shrouded Bench of the Final Judge
-        "85653": [50],
+        "85653": [
+          50
+        ],
         // Enchanted Snow Diamond Box
-        "86645": [75],
+        "86645": [
+          75
+        ],
         // Enchanted Smiling Snowball Box
-        "86723": [133],
+        "86723": [
+          133
+        ],
         // Unopened Endless Branded Tonic
-        "87126": [103],
+        "87126": [
+          103
+        ],
         // Endless Multicolored Ooze Tonic
-        "88148": [223],
+        "88148": [
+          223
+        ],
         // Unopened Endless Desert Mystery Tonic
-        "90008": [185],
+        "90008": [
+          185
+        ],
         // Seal of the Chilly Chaise
-        "91910": [293],
+        "91910": [
+          293
+        ],
         // Endless Smoke Shaman Tonic
-        "91971": [292],
+        "91971": [
+          292
+        ],
         // Endless Cloudseeker Tonic Container
-        "92773": [299],
+        "92773": [
+          299
+        ],
         // Replica of the Jade Throne
-        "97424": [317],
+        "97424": [
+          317
+        ],
         // Mining Rig Operator's Seat
-        "99419": [330]
+        "99419": [
+          330
+        ]
+      }
+    },
+    {
+      "id": "jadebot",
+      "name": "Jade Bots",
+      "source": "jadebots",
+      "unlockUrl": "https://api.guildwars2.com/v2/account/jadebots",
+      "mapItemsToUnlocksForVendor": true,
+      "vendorItemTypes": [
+        "Consumable"
+      ],
+      "itemMappings": {
+        "98882": [
+          3
+        ],
+        "99005": [
+          4
+        ],
+        "99879": [
+          6
+        ],
+        // Black Lion Exclusives Chest
+        "82450": [
+          3,
+          4,
+          6
+        ]
       }
     },
     {
@@ -1101,27 +1893,59 @@
       "chatcodeType": 2,
       "useItemForChatcode": true,
       "mapItemsToUnlocksForVendor": true,
-      "vendorItemTypes": ["Miniature","Container","Consumable"],
+      "vendorItemTypes": [
+        "Miniature",
+        "Container",
+        "Consumable"
+      ],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
           // Awakened Mounts
-          689,691,693,694,699,
+          689,
+          691,
+          693,
+          694,
+          699,
           // Branded Mounts
-          657,660,661,662,663,
+          657,
+          660,
+          661,
+          662,
+          663,
           // Cozy Wintersday Mounts
-          627,629,631,633,635,
+          627,
+          629,
+          631,
+          633,
+          635,
           // Exo-Suit Mounts
-          709,713,714,715,717,
+          709,
+          713,
+          714,
+          715,
+          717,
           // Spooky Mounts
-          599,605,609,610,611,
+          599,
+          605,
+          609,
+          610,
+          611,
           // Standalone: Other
-          435,493
+          435,
+          493
         ],
         // Southsun Beach Mini Container
-        "82553": [137,138],
+        "82553": [
+          137,
+          138
+        ],
         // Prototype Assault Knight
-        "99154": [877,878,879]
+        "99154": [
+          877,
+          878,
+          879
+        ]
       },
       "excludeIds": [
         153
@@ -1133,7 +1957,9 @@
       "source": "finishers",
       "unlockUrl": "https://api.guildwars2.com/v2/account/finishers",
       "mapItemsToUnlocksForVendor": true,
-      "vendorItemTypes": ["Consumable"],
+      "vendorItemTypes": [
+        "Consumable"
+      ],
       "chatcodeType": 2,
       "useItemForChatcode": true,
       "excludeIds": [
@@ -1148,7 +1974,9 @@
       "chatcodeType": 2,
       "useItemForChatcode": true,
       "mapItemsToUnlocksForVendor": true,
-      "vendorItemTypes": ["Consumable"],
+      "vendorItemTypes": [
+        "Consumable"
+      ],
       "itemMappings": {
         // Black Lion Exclusives Chest
         "82450": [
@@ -1168,26 +1996,28 @@
       "nonStandardId": true,
       "chatcodeType": 2
     },
-//    {
-//      "id": "node",
-//      "name": "Other: Home Instance Nodes",
-//      "source": "nodes",
-//      "unlockUrl": "https://api.guildwars2.com/v2/account/home/nodes"
-//    },
+    //    {
+    //      "id": "node",
+    //      "name": "Other: Home Instance Nodes",
+    //      "source": "nodes",
+    //      "unlockUrl": "https://api.guildwars2.com/v2/account/home/nodes"
+    //    },
     {
       "id": "hero",
       "name": "Other: Mist Champion Skins",
       "source": "heroes",
       "unlockUrl": "https://api.guildwars2.com/v2/account/pvp/heroes",
       "mapItemsToUnlocksForVendor": true,
-      "vendorItemTypes": ["Consumable"]
-    }//,
-//    {
-//      "id": "title",
-//      "name": "Other: Titles",
-//      "source": "titles",
-//      "unlockUrl": "https://api.guildwars2.com/v2/account/titles"
-//    }
+      "vendorItemTypes": [
+        "Consumable"
+      ]
+    }
+    //    {
+    //      "id": "title",
+    //      "name": "Other: Titles",
+    //      "source": "titles",
+    //      "unlockUrl": "https://api.guildwars2.com/v2/account/titles"
+    //    }
   ],
   "gwuAnalyser": {
     "iconSize": 48,
@@ -1277,7 +2107,9 @@
       "/wiki/Black_Lion_Commemorative_Sprocket",
       "/wiki/Black_Lion_Miniature_Claim_Ticket",
       "/wiki/Black_Lion_Statuette",
-      "/wiki/Wizard's_Vault"
+      "/wiki/Wizard's_Vault",
+      "/wiki/Wizard%27s_Vault/Legacy_Rewards",
+      "/wiki/Deft_Lahar"
     ],
     "ignorePages": [
       "/wiki/List_of_karma_merchant_items",
@@ -1417,7 +2249,7 @@
     "orderofshadowsseal",
     "potionofascalonianmages",
     "pouchofstardust",
-    "purifiedkryptisessence",
+    "purifiedriftessence",
     "caseofcapturedlightning",
     "giftofbones",
     "giftoffangs",
@@ -1426,7 +2258,7 @@
     "giftofscales",
     "giftofclaws",
     "astralacclaim",
-    "amalgamatedkryptisessence",
+    "amalgamatedriftessence",
     "clotofcongealedscreams",
     "cherriesinbulk",
     "pinenutsinbulk",
@@ -1438,7 +2270,10 @@
     "calcifiedgasp",
     "pinchofstardust",
     "staticcharge",
-    "imbuedruneofsuffusion"
+    "imbuedruneofsuffusion",
+    "curiouslowlandhoneycomb",
+    "curiousmursaatcurrency",
+    "ursusoblige"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -1499,7 +2334,10 @@
     "geode",
     "innernayos:heroschoicechest",
     "amnytas:heroschoicechest",
-    "skywatcharchipelago:heroschoicechest"
+    "skywatcharchipelago:heroschoicechest",
+    "windkite",
+    "sunkite",
+    "lightningkite"
   ],
   "ignoreContainers": [
     "/wiki/Toy_Mini_Egg",

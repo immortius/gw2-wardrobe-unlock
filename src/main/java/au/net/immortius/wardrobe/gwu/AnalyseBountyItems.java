@@ -2,9 +2,11 @@ package au.net.immortius.wardrobe.gwu;
 
 import au.net.immortius.wardrobe.config.Config;
 import au.net.immortius.wardrobe.config.UnlockCategoryConfig;
+import au.net.immortius.wardrobe.gw2api.Items;
 import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
 import au.net.immortius.wardrobe.util.ColorUtil;
+import au.net.immortius.wardrobe.util.GsonUtils;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;
 import com.google.common.collect.Multiset;
@@ -28,6 +30,7 @@ public class AnalyseBountyItems {
     private final Config config;
     private final Gson gson;
     private final Unlocks unlocks;
+    private final Items items;
 
     public AnalyseBountyItems() throws IOException {
         this(Config.loadConfig());
@@ -35,8 +38,9 @@ public class AnalyseBountyItems {
 
     public AnalyseBountyItems(Config config) {
         this.config = config;
-        this.gson = new GsonFireBuilder().createGson();
+        this.gson = GsonUtils.createGson();
         unlocks = new Unlocks(config, gson);
+        items = new Items(config, gson);
     }
 
     public static void main(String... args) throws Exception {
@@ -55,7 +59,7 @@ public class AnalyseBountyItems {
             if (unlockCategory.colorBased) {
                 unlocks.addAll(determineUnlocks(unlockCategory, x -> ColorUtil.rgbToHex(x.cloth.rgb), colorMatcher));
             } else {
-                unlocks.addAll(determineUnlocks(unlockCategory, x -> config.paths.getThumbnailPath().resolve(x.getIconName()), iconMatcher));
+                unlocks.addAll(determineUnlocks(unlockCategory, x -> config.paths.getThumbnailPath().resolve(x.getIconName(items)), iconMatcher));
             }
             //unlocks.addAll(unlockCategory.getGwuIncludeIds());
             List<String> sortedUnlocks = unlocks.stream().sorted().collect(Collectors.toList());

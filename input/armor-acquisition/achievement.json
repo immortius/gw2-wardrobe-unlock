@@ -72,6 +72,10 @@
     // Festival: Halloween
     8984,8995,9005,
     // Festival: Wintersday
-    6577,6583,6586
+    6577,6583,6586,
+    // Meteor Wielder's Glove
+    12365, 12426, 12431,
+    // Bearkin War Helm
+    12439, 12501, 12574
   ]
 }

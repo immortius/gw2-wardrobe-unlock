@@ -7,6 +7,7 @@ import au.net.immortius.wardrobe.gw2api.Emotes;
 import au.net.immortius.wardrobe.gw2api.Skins;
 import au.net.immortius.wardrobe.gw2api.Unlocks;
 import au.net.immortius.wardrobe.gw2api.entities.ItemData;
+import au.net.immortius.wardrobe.util.GsonUtils;
 import com.google.common.base.Strings;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;
@@ -44,7 +45,7 @@ public class MapItemsToUnlocks {
     }
 
     public MapItemsToUnlocks(Config config) {
-        this.gson = new GsonFireBuilder().createGson();
+        this.gson = GsonUtils.createGson();
         this.config = config;
         this.unlocks = new Unlocks(config, gson);
         this.skins = new Skins(config, gson);

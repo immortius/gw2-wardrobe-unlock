@@ -1,5 +1,6 @@
 package au.net.immortius.wardrobe.gw2api.entities;
 
+import au.net.immortius.wardrobe.gw2api.Items;
 import au.net.immortius.wardrobe.gw2api.Rarity;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
@@ -67,7 +68,7 @@ public class ItemData extends CommonData {
             .build();
 
     private String name;
-    public String icon;
+    private String icon;
     public Rarity rarity;
 
     @SerializedName("game_types")
@@ -87,7 +88,7 @@ public class ItemData extends CommonData {
     @SerializedName("unlock_items")
     private String[] unlockItems;
     @SerializedName("unlock_item")
-    private String[] unlockItem;
+    private UnlockItemData unlockItem;
     @SerializedName("item_id")
     private String itemId;
 
@@ -106,9 +107,25 @@ public class ItemData extends CommonData {
     /**
      * @return Converts icon path into a file name that can be used locally for caching
      */
-    public String getIconName() {
-        String[] pathParts = icon.split("/");
-        return pathParts[pathParts.length - 2] + "-" + pathParts[pathParts.length - 1];
+    public String getIconName(Items items) {
+        String icon = getIcon(items);
+        if (icon != null) {
+            String[] pathParts = icon.split("/");
+            return pathParts[pathParts.length - 2] + "-" + pathParts[pathParts.length - 1];
+        } else {
+            return null;
+        }
+    }
+
+    public String getIcon(Items items) {
+        if (icon == null) {
+            List<String> unlockItems = getUnlockItems();
+            if (!unlockItems.isEmpty()) {
+                Optional<ItemData> itemData = items.get(unlockItems.get(0));
+                itemData.ifPresent(data -> icon = data.getIcon(items));
+            }
+        }
+        return icon;
     }
 
     /**
@@ -124,7 +141,7 @@ public class ItemData extends CommonData {
     public List<String> getUnlockItems() {
         List<String> unlockItems = Lists.newArrayList();
         if (unlockItem != null) {
-            unlockItems.addAll(Arrays.asList(unlockItem));
+            unlockItems.addAll(unlockItem.unlockItems);
         }
         if (this.unlockItems != null) {
             unlockItems.addAll(Arrays.asList(this.unlockItems));
@@ -158,5 +175,9 @@ public class ItemData extends CommonData {
             case "Hero" -> details.type;
             default -> "";
         };
+    }
+
+    public static class UnlockItemData {
+        public List<String> unlockItems = new ArrayList<>();
     }
 }

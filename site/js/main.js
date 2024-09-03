@@ -131,11 +131,15 @@ var acquisitionMethods = [
     { id: "caseofcapturedlightning", name: "Case of Captured Lightning", category: "Secrets of the Obscure"},
     { id: "pinchofstardust", name: "Pinch of Stardust", category: "Secrets of the Obscure"},
     { id: "pouchofstardust", name: "Pouch of Stardust", category: "Secrets of the Obscure"},
-    { id: "purifiedkryptisessence", name: "Purified Kryptis Essence", category: "Secrets of the Obscure"},
-    { id: "amalgamatedkryptisessence", name: "Amalgamated Kryptis Essence", category: "Secrets of the Obscure"},
+    { id: "purifiedriftessence", name: "Purified Rift Essence", category: "Secrets of the Obscure"},
+    { id: "amalgamatedriftessence", name: "Amalgamated Rift Essence", category: "Secrets of the Obscure"},
     { id: "clotofcongealedscreams", name: "Clot of Congealed Screams", category: "Secrets of the Obscure"},
     { id: "calcifiedgasp", name: "Calcified Gasps", category: "Secrets of the Obscure"},
     { id: "imbuedruneofsuffusion", name: "Imbued Rune of Suffusion", category: "Secrets of the Obscure"},
+
+    { id: "ursusoblige", name: "Ursus Oblige", category: "Janthir Wilds"},
+    { id: "curiouslowlandhoneycomb", name: "Curious Lowland Honeycomb", category: "Janthir Wilds"},
+    { id: "curiousmursaatcurrency", name: "Curious Mursaat Currency", category: "Janthir Wilds"},
 
     { id: "fragmentofprismaticpersuasion", name: "Fragment of Prismatic Persuasion", category: "Facet of Aurene"},
     { id: "fragmentofprismaticfury", name: "Fragment of Prismatic Fury", category: "Facet of Aurene"},
@@ -203,7 +207,9 @@ var acquisitionMethods = [
     { id: "mountlicense12", name: "Canthan Menagerie Mount License", category: "Gem Store - Mount License"},
     { id: "mountlicense13", name: "Imperial Wonders Mount License", category: "Gem Store - Mount License"},
     { id: "mountlicense14", name: "Eternal Crossings Mount License", category: "Gem Store - Mount License"},
-    //{ id: "mountlicense15", name: "Kaineng Lights Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense15", name: "Kaineng Lights Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense16", name: "Arcane Delights Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense17", name: "Reclaimed Bonds Mount License", category: "Gem Store - Mount License"},
 
     { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true},
     { id: "soto", name: "Secrets of the Obscure", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
