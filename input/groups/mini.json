@@ -78,6 +78,37 @@
         364,
         365
       ],
+      "Standalone: Spirit Vale": [
+        368,
+        370,
+        371,
+        372,
+        373,
+        375,
+        376,
+        377
+      ],
+      "Standalone: Salvation Pass": [
+        389,
+        390,
+        391,
+        392,
+        393,
+        394
+      ],
+      "Standalone: Stronghold of the Faithful": [
+        401,
+        402,
+        403
+      ],
+      "Standalone: Bastion of the Penitent": [
+        436,
+        438,
+        440,
+        441,
+        442,
+        447
+      ],
       "Standalone: Other": [
         341,
         343,
@@ -211,6 +242,22 @@
         568,
         577,
         581
+      ],
+      "Standalone: Hall of Chains": [
+        621,
+        622,
+        623
+      ],
+      "Standalone: Mythwright Gambit": [
+        721,
+        722,
+        723,
+        725
+      ],
+      "Standalone: The Key of Ahdashim": [
+        763,
+        764,
+        765
       ],
       "Standalone: Other": [
         500,
@@ -352,19 +399,64 @@
       ]
     },
     "Guild Wars 2: Secrets of the Obscure (SotO)": {
-      "Kryptis" : [
-        892, 894, 898, 900, 905, 906, 907, 908, 911, 913, 915, 919, 920, 921
+      "Kryptis": [
+        892,
+        894,
+        898,
+        900,
+        905,
+        906,
+        907,
+        908,
+        911,
+        913,
+        915,
+        919,
+        920,
+        921
       ],
       "Astral Ward": [
-        893, 895, 896, 899, 901, 902, 903, 904, 909, 912, 914, 923
+        893,
+        895,
+        896,
+        899,
+        901,
+        902,
+        903,
+        904,
+        909,
+        912,
+        914,
+        923
       ],
       "Standalone: Other": [
         897
       ]
     },
-    "Guild Wars 2: Janthir Wilds (JW)" : {
-      "Standalone" : [
-        927, 928, 930, 931, 932, 935, 926, 929
+    "Guild Wars 2: Janthir Wilds (JW)": {
+      "Warclaw Cub": [
+        947,
+        948,
+        949
+      ],
+      "Standalone: Mount Balrior": [
+        951,
+        953,
+        954
+      ],
+      "Standalone: Other": [
+        927,
+        928,
+        930,
+        931,
+        932,
+        935,
+        926,
+        929,
+        950,
+        952,
+        955,
+        956
       ]
     },
     "Fractals of the Mists": {
@@ -378,55 +470,6 @@
       "Standalone: Other": [
         494,
         890
-      ]
-    },
-    "Raid": {
-      "Standalone: Spirit Vale": [
-        368,
-        370,
-        371,
-        372,
-        373,
-        375,
-        376,
-        377
-      ],
-      "Standalone: Salvation Pass": [
-        389,
-        390,
-        391,
-        392,
-        393,
-        394
-      ],
-      "Standalone: Stronghold of the Faithful": [
-        401,
-        402,
-        403
-      ],
-      "Standalone: Bastion of the Penitent": [
-        436,
-        438,
-        440,
-        441,
-        442,
-        447
-      ],
-      "Standalone: Hall of Chains": [
-        621,
-        622,
-        623
-      ],
-      "Standalone: Mythwright Gambit": [
-        721,
-        722,
-        723,
-        725
-      ],
-      "Standalone: The Key of Ahdashim": [
-        763,
-        764,
-        765
       ]
     },
     "Player vs. Player / World vs. World": {
@@ -595,7 +638,8 @@
         834,
         874,
         876,
-        910
+        910,
+        936
       ]
     },
     "Wintersday": {
@@ -905,6 +949,17 @@
         867,
         868,
         869
+      ],
+      "Cuckoo Hatchling": [
+        937,
+        938,
+        939,
+        940,
+        941,
+        942,
+        943,
+        944,
+        945
       ],
       "Avian": [
         237,

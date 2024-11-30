@@ -3880,6 +3880,133 @@
             12574
           ]
         }
+      },
+      {
+        "name": "Rot Stalker Boots",
+        "unlocks": {
+          "armor": [
+            12463,
+            12498,
+            12540
+          ]
+        }
+      },
+      {
+        "name": "Rot Stalker Leggings",
+        "unlocks": {
+          "armor": [
+            12389,
+            12471,
+            12519
+          ]
+        }
+      },
+      {
+        "name": "Rot Stalker Coat",
+        "unlocks": {
+          "armor": [
+            12399,
+            12499,
+            12502
+          ]
+        }
+      },
+      {
+        "name": "Rot Stalker Gloves",
+        "unlocks": {
+          "armor": [
+            12381,
+            12460,
+            12511
+          ]
+        }
+      },
+      {
+        "name": "Rot Stalker Helm",
+        "unlocks": {
+          "armor": [
+            12377,
+            12525,
+            12546
+          ]
+        }
+      },
+      {
+        "name": "Rot Stalker Shoulders",
+        "unlocks": {
+          "armor": [
+            12366,
+            12400,
+            12401
+          ]
+        }
+      },
+      {
+        "name": "Flower Diadem",
+        "unlocks": {
+          "armor": [
+            12419,
+            12455,
+            12495
+          ]
+        }
+      },
+      {
+        "name": "Acclaimed Militia",
+        "unlocks": {
+          "armor": [
+            12583,
+            12587,
+            12596
+          ]
+        }
+      },
+      {
+        "name": "Woodland Kodan Boots",
+        "unlocks": {
+          "armor": [
+            12676,
+            12680,
+            12711
+          ]
+        }
+      },
+      {
+        "name": "Clawing Shadow Plate",
+        "unlocks": {
+          "armor": [
+            12601,
+            12616,
+            12617
+          ]
+        }
+      },
+      {
+        "name": "Handguards of Decima",
+        "unlocks": {
+          "armor": [
+            12699,
+            12726
+          ]
+        }
+      },
+      {
+        "name": "Gauntlets of Decima",
+        "unlocks": {
+          "armor": [
+            12685,
+            12712
+          ]
+        }
+      },
+      {
+        "name": "Gloves of Decima",
+        "unlocks": {
+          "armor": [
+            12717,
+            12728
+          ]
+        }
       }
     ]
   },
@@ -4295,11 +4422,18 @@
         "name": "Winter Antlers Set",
         "unlocks": {
           "armor": [
-            8518,
-            8524,
             8538,
             8543,
-            8544,
+            8544
+          ]
+        }
+      },
+      {
+        "name": "Enchanted Winter Antlers Set",
+        "unlocks": {
+          "armor": [
+            8518,
+            8524,
             8545
           ]
         }
@@ -4321,12 +4455,19 @@
         "name": "Skyscale Horns Package",
         "unlocks": {
           "armor": [
-            8814,
             8816,
             8822,
-            8834,
-            8837,
             8841
+          ]
+        }
+      },
+      {
+        "name": "Luminous Skyscale Horns",
+        "unlocks": {
+          "armor": [
+            8814,
+            8834,
+            8837
           ]
         }
       },
@@ -4688,6 +4829,35 @@
             12303,
             12305,
             12307
+          ]
+        }
+      },
+      {
+        "name": "Blissful Skirt and Boots",
+        "unlocks": {
+          "armor": [
+            12582,
+            12584,
+            12585,
+            12591,
+            12593,
+            12597
+          ]
+        }
+      },
+      {
+        "name": "Dapper Package",
+        "unlocks": {
+          "armor": [
+            12647,
+            12648,
+            12651,
+            12652,
+            12656,
+            12657,
+            12659,
+            12660,
+            12664
           ]
         }
       }
@@ -5338,6 +5508,46 @@
           "novelty": [
           ]
         }
+      },
+      {
+        "name": "Klobjarne",
+        "unlocks": {
+          "weapon": [
+            12683,
+            12691,
+            12703,
+            12708,
+            12719,
+            12730
+          ]
+        }
+      },
+      {
+        "name": "Ura's",
+        "unlocks": {
+          "weapon": [
+            12722,
+            12684
+          ]
+        }
+      },
+      {
+        "name": "Sunspear",
+        "unlocks": {
+          "weapon": [
+            7862,
+            12595
+          ]
+        }
+      },
+      {
+        "name": "Darkspear",
+        "unlocks": {
+          "weapon": [
+            7888,
+            12594
+          ]
+        }
       }
     ]
   },
@@ -5493,6 +5703,16 @@
             11597,
             11720,
             11802
+          ]
+        }
+      },
+      {
+        "name": "Infinite Holy Barrage Gathering Tools",
+        "unlocks": {
+          "tool": [
+            12586,
+            12588,
+            12592
           ]
         }
       }
@@ -6380,6 +6600,43 @@
             128
           ]
         }
+      },
+      {
+        "name": "Graceful Bladed Glider Combo",
+        "unlocks": {
+          "glider": [
+            137,
+            139,
+            140
+          ],
+          "back": [
+            12630,
+            12639,
+            12644
+          ]
+        }
+      },
+      {
+        "name": "Flowing Silk Glider Combo",
+        "unlocks": {
+          "glider": [
+            138
+          ],
+          "back": [
+            12625
+          ]
+        }
+      },
+      {
+        "name": "Naga Spirit Glider Combo",
+        "unlocks": {
+          "glider": [
+            141
+          ],
+          "back": [
+            12692
+          ]
+        }
       }
     ]
   },
@@ -6583,6 +6840,16 @@
             589,
             591,
             595
+          ]
+        }
+      },
+      {
+        "name": "Caprine Warclaw Mounts Pack",
+        "unlocks": {
+          "mount": [
+            654,
+            656,
+            657
           ]
         }
       }

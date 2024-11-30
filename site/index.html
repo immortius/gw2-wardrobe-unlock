@@ -9,7 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css?45">
+        <link rel="stylesheet" href="css/main.css?46">
         <link id="rendering-mode" rel="stylesheet"  href="css/icon-mode.css">
         <link id="rendering-theme" rel="stylesheet"  href="css/light-theme.css">
 
@@ -468,26 +468,7 @@
         </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
         <script src="js/plugins.js"></script>
-        <script src="js/main.js?86"></script>
-
-        <script type="text/javascript">
-            if ($(window.location.hash).length) {
-                $('.page').toggleClass('hidden', true);
-                $(window.location.hash).toggleClass('hidden', false);
-                $('.nav a').toggleClass('active', false);
-                $(window.location.hash + "-menu-item").toggleClass('active', true);
-            }
-
-            $(function() {
-        loadTheme();
-                $.get('./data/content.json', function(responseText) {
-                    buildSite(responseText);
-                });
-            });
-        </script>
-
+        <script src="js/main.js?87"></script>
     </body>
 </html>

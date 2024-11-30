@@ -337,6 +337,24 @@
           11367,
           11389,
           11406
+        ],
+        // Rot Stalker Leggings
+        "103589": [
+          12389,
+          12471,
+          12519
+        ],
+        // Rot Stalker Coat
+        "102554": [
+          12399,
+          12499,
+          12502
+        ],
+        // Rot Stalker Boots
+        "102358": [
+          12463,
+          12498,
+          12540
         ]
       },
       "gwuIncludeIds": [
@@ -1129,7 +1147,41 @@
         11682,
         // Sanctified Shoulders
         11667,
-        11727
+        11727,
+        // Skysage's Spectacles
+        12016, 12066,
+        // Holographic Dragon Plate
+        11484, 11486,
+        // Oneiros-Spun Light Shoulders
+        11876, 11877,
+        // Zephyrite Headband
+        11559, 11562,
+        // Heretical Scholar's Pauldrons
+        11978, 11980,
+        // Raven Leggings
+        12148, 12170,
+        // Embellished Rabbit Vest
+        11205, 11212,
+        // Skysage's Gloves
+        12036, 12076,
+        // Clawing Shadow Gloves
+        11053, 11065,
+        // Powered Gloves
+        11367, 11389,
+        // Oneiros-Spun Medium Gloves
+        11874, 11885,
+        // Oneiros-Spun Medium Helm
+        11897, 11905,
+        // Skysage's Boots
+        12029, 12054,
+        // Wintersday Snow Boots
+        11171, 11179,
+        // Oneiros-Spun Heavy Boots
+        11888, 11898,
+        // Oneiros-Spun Light Coat
+        11875, 11892,
+        // Clawing Shadow Greaves
+        11857, 11865
       ]
     },
     {
@@ -1266,6 +1318,26 @@
           11509,
           11512,
           11513
+        ],
+        // Onyx Spider's
+        "102269" : [
+          12364,
+          12380,
+          12407,
+          12423,
+          12441,
+          12443,
+          12450,
+          12452,
+          12461,
+          12500,
+          12505,
+          12520,
+          12522,
+          12548,
+          12559,
+          12562,
+          12563
         ]
       },
       "excludeIds": [

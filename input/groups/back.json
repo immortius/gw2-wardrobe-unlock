@@ -301,8 +301,11 @@
       ]
     },
     "Guild Wars 2: Janthir Wilds (JW)": {
-      "Standing Stones" : [
+      "Legendary Components" : [
         12543
+      ],
+      "Standalone: Raid" : [
+        12720
       ]
     },
     "April Fools": {
@@ -453,7 +456,8 @@
         12113,
         12119,
         12226,
-        12324
+        12324,
+        12646
       ],
       "Standalone: Quiver": [
         2369,
@@ -500,7 +504,10 @@
         11125,
         11246,
         11253,
-        12103
+        12103,
+        12630,
+        12639,
+        12644
       ],
       "Standalone: Other": [
         1048,
@@ -550,7 +557,9 @@
         11780,
         11941,
         11982,
-        11996
+        11996,
+        12625,
+        12692
       ]
     },
     "Promotional": {

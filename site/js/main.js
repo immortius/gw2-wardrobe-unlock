@@ -1,3 +1,4 @@
+window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js" integrity="sha384-vDbs9bPM8xdcxghqSBpIvrVltZDzgbNR8ic2lgTFlMhOPghmXgCwVJ9LiTzwuCGu"><\/script>')
 jQuery.fn.exists = function(){return this.length>0;}
 
 var metadata;
@@ -156,6 +157,7 @@ var acquisitionMethods = [
     { id: "integratedmatrix", name: "Integrated Fractal Matrix", category: "Cooperative"},
     { id: "unstablefractalessence", name: "Unstable Fractal Essence", category: "Cooperative"},
     { id: "magnetiteshard", name: "Magnetite Shard", category: "Cooperative"},
+    { id: "gaeting", name: "Gaeting Crystal", category: "Cooperative"},
     { id: "blueprophetshard", name: "Blue Prophet Shard", category: "Cooperative"},
 
     { id: "pvp", name: "Reward Track", category: "Competitive"},
@@ -210,6 +212,7 @@ var acquisitionMethods = [
     { id: "mountlicense15", name: "Kaineng Lights Mount License", category: "Gem Store - Mount License"},
     { id: "mountlicense16", name: "Arcane Delights Mount License", category: "Gem Store - Mount License"},
     { id: "mountlicense17", name: "Reclaimed Bonds Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense18", name: "Wild Roar Mount License", category: "Gem Store - Mount License"},
 
     { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true},
     { id: "soto", name: "Secrets of the Obscure", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
@@ -1294,3 +1297,17 @@ function showDetails(item, prefix) {
 function htmlEscape(text) {
     return text.replace('<', '&lt;');
 }
+
+if ($(window.location.hash).length) {
+      $('.page').toggleClass('hidden', true);
+      $(window.location.hash).toggleClass('hidden', false);
+      $('.nav a').toggleClass('active', false);
+      $(window.location.hash + "-menu-item").toggleClass('active', true);
+  }
+
+  $(function() {
+loadTheme();
+      $.get('./data/content.json', function(responseText) {
+          buildSite(responseText);
+      });
+  });
