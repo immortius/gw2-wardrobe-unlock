@@ -17,6 +17,11 @@
         132
       ]
     },
+    "Guild Wars 2: Janthir Wilds (JW)": {
+      "Standalone: Other" : [
+        144
+      ]
+    },
     "Gem Store": {
       "Standalone: Cape": [
         96,
@@ -64,7 +69,8 @@
         133,
         137,
         139,
-        140
+        140,
+        143
       ],
       "Standalone: Other": [
         4,
@@ -155,7 +161,13 @@
         135,
         136,
         138,
-        141
+        141,
+        145
+      ]
+    },
+    "Promotional": {
+      "Standalone: Other": [
+       146
       ]
     }
   }

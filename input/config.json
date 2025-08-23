@@ -132,6 +132,9 @@
         "detailTypeFilter": "Transmutation",
         "resolveUnlockTypeFromSkin": true
       }
+    ],
+    "ignoreItems": [
+      "104981"
     ]
   },
   "unlockCategories": [
@@ -155,7 +158,9 @@
         1499,
         1534,
         1542,
-        1579
+        1579,
+        5455,
+        7322
       ],
       "itemMappings": {
         // Black Lion Exclusives Chest
@@ -355,6 +360,47 @@
           12463,
           12498,
           12540
+        ],
+        // Woad Headgear
+        "103287": [
+          12535,
+          12504,
+          12513
+        ],
+        // Woad Shoulders
+        "103189": [
+          12549,
+          12521,
+          12469
+        ],
+        // Woad Coat
+        "103403": [
+          12370,
+          12459,
+          12572
+        ],
+        // Woad Glove
+        "103284": [
+          12477,
+          12425,
+          12367
+        ],
+        // Woad Leggings
+        "103332": [
+          12538,
+          12497,
+          12372
+        ],
+        // Woad Boot
+        "103071": [
+          12524,
+          12486,
+          12449
+        ],
+        "105031": [
+          13111,
+          13120,
+          13124
         ]
       },
       "gwuIncludeIds": [
@@ -542,6 +588,7 @@
         // Abaddon's Mask
         7309,
         7326,
+        7322,
         // Pirate Hook
         6903,
         6943,
@@ -1149,39 +1196,218 @@
         11667,
         11727,
         // Skysage's Spectacles
-        12016, 12066,
+        12016,
+        12066,
         // Holographic Dragon Plate
-        11484, 11486,
+        11484,
+        11486,
         // Oneiros-Spun Light Shoulders
-        11876, 11877,
+        11876,
+        11877,
         // Zephyrite Headband
-        11559, 11562,
+        11559,
+        11562,
         // Heretical Scholar's Pauldrons
-        11978, 11980,
+        11978,
+        11980,
         // Raven Leggings
-        12148, 12170,
+        12148,
+        12170,
         // Embellished Rabbit Vest
-        11205, 11212,
+        11205,
+        11212,
         // Skysage's Gloves
-        12036, 12076,
+        12036,
+        12076,
         // Clawing Shadow Gloves
-        11053, 11065,
+        11053,
+        11065,
         // Powered Gloves
-        11367, 11389,
+        11367,
+        11389,
         // Oneiros-Spun Medium Gloves
-        11874, 11885,
+        11874,
+        11885,
         // Oneiros-Spun Medium Helm
-        11897, 11905,
+        11897,
+        11905,
         // Skysage's Boots
-        12029, 12054,
+        12029,
+        12054,
         // Wintersday Snow Boots
-        11171, 11179,
+        11171,
+        11179,
         // Oneiros-Spun Heavy Boots
-        11888, 11898,
+        11888,
+        11898,
         // Oneiros-Spun Light Coat
-        11875, 11892,
+        11875,
+        11892,
         // Clawing Shadow Greaves
-        11857, 11865
+        11857,
+        11865,
+        // Polychromatic Light Mantle
+        12514,
+        12569,
+        // Polychromatic Light Gloves
+        12395,
+        12429,
+        // Titanplate Light Crown
+        12392,
+        12451,
+        // Breezy Swim Bottoms
+        12293,
+        12295,
+        // Rot Stalker Gloves
+        12460,
+        12511,
+        // Rot Stalker Leggings
+        12471,
+        12519,
+        // Rot Stalker Shoulders
+        12400,
+        12401,
+        // Rot Stalker Boots
+        12498,
+        12540,
+        // Skysage's Leggings
+        12050,
+        12079,
+        // Winter Fur Shoulders
+        11957,
+        11961,
+        // Beach Hat
+        12292,
+        12308,
+        // Dapper Pants
+        12656,
+        12660,
+        // Polychromatic Light Crown
+        12530,
+        12553,
+        // Titanplate Heavy Pauldrons
+        12485,
+        12510,
+        // Polychromatic Light Shoes
+        12528,
+        12556,
+        // Rot Stalker Helm
+        12525,
+        12546,
+        // Titanplate Medium Jacket
+        12518,
+        12531,
+        // Tropical Chest
+        12303,
+        12305,
+        // Blissful Skirt
+        12591,
+        12593,
+        // Breezy Swim Top
+        12297,
+        12304,
+        // Titanplate Medium Gloves
+        12434,
+        12496,
+        // Blissful Boots
+        12584,
+        12597,
+        // Baggy Cargo Pants
+        12037,
+        12072,
+        // Dragon Descendant's Helm
+        11992,
+        11995,
+        // Flower Diadem
+        12455,
+        12495,
+        // Dapper Coat
+        12657,
+        12664,
+        // Beach Sandals
+        12285,
+        12294,
+        // Skysage's Shoulders
+        12018,
+        12088,
+        // Tropical Legwear
+        12298,
+        12307,
+        // Tiny Royal Crown Helm
+        12787,
+        12788,
+        // Skysage's Coat
+        12074,
+        12075,
+        // Dapper Wingtips
+        12648,
+        12659,
+        // Titanplate Light Pants
+        12470,
+        12527,
+        // Raven Vest
+        12193,
+        12194,
+        // Powered Shoulders
+        12116,
+        12117,
+        // Polychromatic Light Regalia
+        12490,
+        12512,
+        // Fashionable Kilt
+        12052,
+        12087,
+        // Titanplate Heavy Greaves
+        12534,
+        12545,
+        // Beach Bracelet
+        12289,
+        12300,
+        // Rot Stalker Coat
+        12499,
+        12502,
+        // Raven Greaves
+        12118,
+        12127,
+        // Polychromatic Heavy Cuisses
+        12402,
+        12416,
+        // True Sight Light Boots
+        12920,
+        12939,
+        // Avian Aspect Helm
+        12967,
+        12969,
+        // True Sight Light Coat
+        12875,
+        12877,
+        // Hooded Windbreaker (Down)
+        12800,
+        12802,
+        // Ward Knight's Shoulders
+        12914,
+        12918,
+        // True Sight Medium Shoulders
+        12881,
+        12906,
+        // Ward Knight's Boots
+        12892,
+        12917,
+        // Beach Trunks
+        12321,
+        12347,
+        // True Sight Heavy Mask
+        12908,
+        12922,
+        // Ward Knight's Gloves
+        12936,
+        12938,
+        // Holographic Dragon Cuisses
+        12245,
+        12262,
+        // True Sight Heavy Gloves
+        12890,
+        12921
       ]
     },
     {
@@ -1320,7 +1546,7 @@
           11513
         ],
         // Onyx Spider's
-        "102269" : [
+        "102269": [
           12364,
           12380,
           12407,
@@ -1338,11 +1564,90 @@
           12559,
           12562,
           12563
+        ],
+        // Kurzick Weapon Chest
+        "104519": [
+          12945,
+          12947,
+          12948,
+          12949,
+          12950,
+          12951,
+          12954,
+          12955,
+          12957,
+          12958,
+          12961,
+          12962,
+          12963,
+          12964,
+          12965,
+          12970,
+          12971
+        ],
+        //Alabaster Spider's Selection Box
+        "103961": [
+          12672,
+          12682,
+          12686,
+          12688,
+          12689,
+          12695,
+          12696,
+          12698,
+          12707,
+          12709,
+          12715,
+          12716,
+          12729,
+          12731,
+          12733,
+          12735,
+          12740
+        ],
+        // Trader's Golem-Buster Weapons Locker
+        "104633": [
+          12108,
+          12109,
+          12110,
+          12111,
+          12112,
+          12114,
+          12115,
+          12120,
+          12121,
+          12122,
+          12123,
+          12124,
+          12125,
+          12126,
+          12128,
+          12131
+        ],
+        "104312": [
+          12857,
+          12860,
+          12864,
+          12866,
+          12874,
+          12876,
+          12885,
+          12887,
+          12891,
+          12895,
+          12897,
+          12909,
+          12912,
+          12916,
+          12930,
+          12931,
+          12933
         ]
       },
       "excludeIds": [
         5898,
-        8350
+        8350,
+        6072
       ],
       "gwuIgnoreIds": [
         // Guild Cavalier varients
@@ -1380,7 +1685,9 @@
         // Living Water Longbow, similar icon to Saltspray Longbow
         10590,
         // Eternel Blade, same icon as Royal Ascalonian Sword
-        11676
+        11676,
+        // Shadow Assassin's Shortbow
+        6072
       ],
       "gwuIncludeIds": [
         10275,
@@ -2181,7 +2488,9 @@
       "/wiki/Black_Lion_Statuette",
       "/wiki/Wizard's_Vault",
       "/wiki/Wizard%27s_Vault/Legacy_Rewards",
-      "/wiki/Deft_Lahar"
+      "/wiki/Deft_Lahar",
+      "/wiki/Professor_Smoll",
+      "/wiki/Rift_Researcher_Adam"
     ],
     "ignorePages": [
       "/wiki/List_of_karma_merchant_items",
@@ -2204,6 +2513,32 @@
       "/wiki/Eternal_Ice_Shard",
       "/wiki/Black_Lion_Exchange_Specialist",
       "/wiki/Black_Lion_Representative_(Exchange_Specialist)"
+    ],
+    "noCacheVendors": [
+      "Festival_Rewards_Vendor_(Festival_Rewards)-.html",
+      "Festival_Rewards_Vendor_(Weekly)-.html",
+      "Four_Winds_Vendor-.html",
+      "Dragon_Bash_Merchant_(Weapons)-.html",
+      "Dragon_Bash_Merchant_(Weekly)-.html",
+      "Dragon_Bash_Merchant_(Prizes)-.html",
+      "Black_Lion_Chest_Merchant-.html",
+      "Black_Lion_Claim_Ticket-.html",
+      "Black_Lion_Commemorative_Sprocket-.html",
+      "Black_Lion_Merchant-.html",
+      "Black_Lion_Miniature_Claim_Ticket-.html",
+      "Black_Lion_Representative_(Black_Lion_Chest_Merchant)-.html",
+      "Black_Lion_Representative_(Makeover_Preview)-.html",
+      "Black_Lion_Representative_(Weapons_Specialist)-.html",
+      "Black_Lion_Requisition_Officer-.html",
+      "Black_Lion_Statuette-.html",
+      "Black_Lion_Trader_(Armorsmith)-.html",
+      "Black_Lion_Trader_(Merchant)-.html",
+      "Black_Lion_Weapons_Specialist-.html",
+      "Black_Lion_Weapons_Specialist_(Halloween)-.html",
+      "Black_Lion_Weapons_Specialist_(Privateer_Weapons)-.html",
+      "BLING-9009-.html",
+      "Legacy_Rewards-.html",
+      "Sparking_Stone-.html"
     ]
   },
   "supportedCurrencies": [
@@ -2345,7 +2680,12 @@
     "imbuedruneofsuffusion",
     "curiouslowlandhoneycomb",
     "curiousmursaatcurrency",
-    "ursusoblige"
+    "ursusoblige",
+    "curiousmursaatruinshard",
+    "chatoyantelixir",
+    "curiousmursaatremnants",
+    "plateoforriansteakfrittes",
+    "mistsgateresidue"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -2409,7 +2749,15 @@
     "skywatcharchipelago:heroschoicechest",
     "windkite",
     "sunkite",
-    "lightningkite"
+    "lightningkite",
+    "endlessyagontonic",
+    "minijanthirwarg",
+    "minibarbedvale",
+    "caladbolgastera",
+    "caladbolgiridi",
+    "caladbolgorchida",
+    "caladbolgsolana",
+    "caladbolgrosa"
   ],
   "ignoreContainers": [
     "/wiki/Toy_Mini_Egg",

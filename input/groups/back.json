@@ -301,11 +301,20 @@
       ]
     },
     "Guild Wars 2: Janthir Wilds (JW)": {
+      "Orrax": [
+        13081,
+        13090,
+        13095
+      ],
       "Legendary Components" : [
         12543
       ],
       "Standalone: Raid" : [
         12720
+      ],
+      "Standalone: Other": [
+        12476,
+        12942
       ]
     },
     "April Fools": {
@@ -324,7 +333,8 @@
         9883,
         10206,
         11209,
-        12003
+        12003,
+        12821
       ],
       "Lucky Celestial Lantern > Lucky Great Celestial Lantern": [
         5857,
@@ -336,7 +346,8 @@
         9838,
         10183,
         11206,
-        12007
+        12007,
+        12828
       ]
     },
     "Super Adventure Box (SAB)": {
@@ -457,7 +468,11 @@
         12119,
         12226,
         12324,
-        12646
+        12646,
+        12804,
+        12856,
+        12982,
+        13128
       ],
       "Standalone: Quiver": [
         2369,
@@ -507,7 +522,9 @@
         12103,
         12630,
         12639,
-        12644
+        12644,
+        12834,
+        13040
       ],
       "Standalone: Other": [
         1048,
@@ -565,7 +582,8 @@
     "Promotional": {
       "Standalone: Other": [
         10059,
-        10084
+        10084,
+        13019
       ]
     }
   }

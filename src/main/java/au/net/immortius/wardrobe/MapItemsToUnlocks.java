@@ -102,6 +102,9 @@ public class MapItemsToUnlocks {
             for (Path itemFile : ds) {
                 try (Reader reader = Files.newBufferedReader(itemFile)) {
                     ItemData itemData = gson.fromJson(reader, ItemData.class);
+                    if (config.itemUnlockMapper.ignoreItems.contains(itemData.id)) {
+                        continue;
+                    }
                     if (!Strings.isNullOrEmpty(itemData.defaultSkin)) {
                         itemMappings.get(skinTypeMapping.get(itemData.type)).put(itemData.defaultSkin, itemData.id);
                     } else if (itemData.details != null) {

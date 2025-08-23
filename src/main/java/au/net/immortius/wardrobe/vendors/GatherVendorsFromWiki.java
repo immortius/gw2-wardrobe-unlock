@@ -133,6 +133,10 @@ public class GatherVendorsFromWiki {
             Files.createDirectories(config.paths.getWikiCachePath().resolve(value.getPath()));
         }
         Files.createDirectories(config.paths.getWikiCachePath());
+        for (String location : config.vendorCrawler.noCacheVendors) {
+            Path pagePath = config.paths.getWikiCachePath().resolve(PageType.VENDOR.getPath()).resolve(location);
+            Files.deleteIfExists(pagePath);
+        }
 
         scanVendorPage(new WikiUrl("/wiki/League_Vendor"));
 

@@ -4007,7 +4007,370 @@
             12728
           ]
         }
+      },
+      {
+        "name": "Winter Mittens",
+        "unlocks": {
+          "armor": [
+            12748,
+            12765,
+            12786
+          ]
+        }
+      },
+      {
+        "name": "Vengeful Wolf Rider",
+        "unlocks": {
+          "armor": [
+            12749,
+            12752,
+            12784
+          ]
+        }
+      },
+      {
+        "name": "Tiny Royal Crown",
+        "unlocks": {
+          "armor": [
+            12775,
+            12787,
+            12788
+          ]
+        }
+      },
+      {
+        "name": "Vagabond's Hood",
+        "unlocks": {
+          "armor": [
+            12796,
+            12806,
+            12808
+          ]
+        }
+      },
+      {
+        "name": "Vagabond's Shoulders",
+        "unlocks": {
+          "armor": [
+            12797,
+            12801,
+            12803
+          ]
+        }
+      },
+      {
+        "name": "Hooded Windbreaker",
+        "unlocks": {
+          "armor": [
+            12798,
+            12799,
+            12800,
+            12802,
+            12805,
+            12807
+          ]
+        }
+      },
+      {
+        "name": "Snaketail Breeches",
+        "unlocks": {
+          "armor": [
+            12814,
+            12819,
+            12820
+          ]
+        }
+      },
+      {
+        "name": "Infused Aurora Leggings",
+        "unlocks": {
+          "armor": [
+            12861,
+            12896,
+            12932
+          ]
+        }
+      },
+      {
+        "name": "Synergetics Headset",
+        "unlocks": {
+          "armor": [
+            12944,
+            12952,
+            12953,
+            12959,
+            12972,
+            12973
+          ]
+        }
+      },
+      {
+        "name": "Woodland Kodan Leather Gloves",
+        "unlocks": {
+          "armor": [
+            12865,
+            12907,
+            12940
+          ]
+        }
+      },
+      {
+        "name": "Ward Knight's Shoulders",
+        "unlocks": {
+          "armor": [
+            12903,
+            12914,
+            12918
+          ]
+        }
+      },
+      {
+        "name": "Ward Knight's Helm",
+        "unlocks": {
+          "armor": [
+            12862,
+            12880,
+            12941
+          ]
+        }
+      },
+      {
+        "name": "Ward Knight's Coat",
+        "unlocks": {
+          "armor": [
+            12869,
+            12910,
+            12924
+          ]
+        }
+      },
+      {
+        "name": "Ward Knight's Leggings",
+        "unlocks": {
+          "armor": [
+            12878,
+            12884,
+            12902
+          ]
+        }
+      },
+      {
+        "name": "Ward Knight's Boots",
+        "unlocks": {
+          "armor": [
+            12888,
+            12892,
+            12917
+          ]
+        }
+      },
+      {
+        "name": "Ward Knight's Gloves",
+        "unlocks": {
+          "armor": [
+            12870,
+            12936,
+            12938
+          ]
+        }
+      },
+      {
+        "name": "Avian Aspect Helm",
+        "unlocks": {
+          "armor": [
+            12956,
+            12967,
+            12969
+          ]
+        }
+      },
+      {
+        "name": "Cloaked Cat Mantle",
+        "unlocks": {
+          "armor": [
+            12960,
+            12968,
+            12974
+          ]
+        }
+      },
+      {
+        "name": "Powered Boots",
+        "unlocks": {
+          "armor": [
+            12988,
+            12993,
+            12996
+          ]
+        }
+      },
+      {
+        "name": "Fresh Swim Top",
+        "unlocks": {
+          "armor": [
+            13102,
+            13123,
+            13116
+          ]
+        }
+      },
+      {
+        "name": "Fresh Swim Bottoms",
+        "unlocks": {
+          "armor": [
+            13107,
+            13114,
+            13118
+          ]
+        }
+      },
+      {
+        "name": "Sunshine Flower",
+        "unlocks": {
+          "armor": [
+            13100,
+            13115,
+            13131
+          ]
+        }
+      },
+      {
+        "name": "Sunshine Shirt",
+        "unlocks": {
+          "armor": [
+            13099,
+            13108,
+            13121
+          ]
+        }
+      },
+      {
+        "name": "Sunshine Bracelet",
+        "unlocks": {
+          "armor": [
+            13103,
+            13129,
+            13119
+          ]
+        }
+      },
+      {
+        "name": "Sunshine Shorts",
+        "unlocks": {
+          "armor": [
+            13117,
+            13125,
+            13130
+          ]
+        }
+      },
+      {
+        "name": "Sunshine Sandals",
+        "unlocks": {
+          "armor": [
+            13106,
+            13110,
+            13127
+          ]
+        }
+      },
+      {
+        "name": "Patterned Scarf",
+        "unlocks": {
+          "armor": [
+            13001, 13002, 13009
+          ]
+        }
+      },
+      {
+        "name": "Rebel Jacket",
+        "unlocks": {
+          "armor": [
+            13005, 13006, 13010
+          ]
+        }
+      },
+      {
+        "name": "Woodland Kodan Leather Shoulders",
+        "unlocks": {
+          "armor": [
+            13021, 13065, 13067
+          ]
+        }
+      },
+      {
+        "name": "Raven-Blessed Visage",
+        "unlocks": {
+          "armor": [
+            13051, 13064, 13069
+          ]
+        }
+      },
+      {
+        "name": "Buoyant Chestpiece",
+        "unlocks": {
+          "armor": [
+            13101, 13104, 13113
+          ]
+        }
+      },
+      {
+        "name": "Snorkel Mask",
+        "unlocks": {
+          "armor": [
+            13105, 13122, 13133
+          ]
+        }
+      },
+      {
+        "name": "Valkyrie's Champion",
+        "unlocks": {
+          "armor": [
+            13111, 13120, 13124
+          ]
+        }
+      },
+      {
+        "name": "Round Boatsman",
+        "unlocks": {
+          "armor": [
+            13136, 13171, 13180
+          ]
+        }
+      },
+      {
+        "name": "Flat Boatsman",
+        "unlocks": {
+          "armor": [
+            13141, 13144, 13151
+          ]
+        }
+      },
+      {
+        "name": "Plumed Commodore",
+        "unlocks": {
+          "armor": [
+            13148, 13173, 13183
+          ]
+        }
+      },
+      {
+        "name": "Explosive Turbo Greaves",
+        "unlocks": {
+          "armor": [
+            13150, 13154, 13193
+          ]
+        }
+      },
+      {
+        "name": "Cloud Cuirass",
+        "unlocks": {
+          "armor": [
+            13169, 13177, 13186
+          ]
+        }
       }
+
     ]
   },
   {
@@ -5532,20 +5895,29 @@
         }
       },
       {
-        "name": "Sunspear",
+        "name": "Icy Dragon",
         "unlocks": {
           "weapon": [
-            7862,
-            12595
+            4903,
+            13003
           ]
         }
       },
       {
-        "name": "Darkspear",
+        "name": "Infinite Light",
         "unlocks": {
           "weapon": [
-            7888,
-            12594
+            4714,
+            13004
+          ]
+        }
+      },
+      {
+        "name": "Fiery Dragon",
+        "unlocks": {
+          "weapon": [
+            4584,
+            13007
           ]
         }
       }
@@ -5636,6 +6008,19 @@
             12103
           ]
         }
+      },
+      {
+        "name": "Villainous Cape and Hood",
+        "unlocks": {
+          "armor": [
+            13109,
+            13126,
+            13132
+          ],
+          "back": [
+            13128
+          ]
+        }
       }
     ]
   },
@@ -5650,72 +6035,23 @@
             132
           ]
         }
+      },
+      {
+        "name": "Rose Masquerade Appearance Package",
+        "unlocks": {
+          "outfit": [
+            135
+          ],
+          "back": [
+            12856
+          ]
+        }
       }
     ]
   },
   {
     "name": "toolcombo",
     "contents": [
-      {
-        "name": "Infinite Unbound Magic Gathering Tools",
-        "unlocks": {
-          "tool": [
-            8087,
-            8093,
-            8097
-          ]
-        }
-      },
-      {
-        "name": "Infinite Volatile Magic Gathering Tools",
-        "unlocks": {
-          "tool": [
-            8142,
-            8156,
-            8161
-          ]
-        }
-      },
-      {
-        "name": "Infinite Spirits of the Wild Gathering Tools",
-        "unlocks": {
-          "tool": [
-            9718,
-            9720,
-            9721
-          ]
-        }
-      },
-      {
-        "name": "Infinite Herald of Aurene Gathering Tools",
-        "unlocks": {
-          "tool": [
-            11410,
-            11412,
-            11414
-          ]
-        }
-      },
-      {
-        "name": "Infinite Vermilion Gathering Tools",
-        "unlocks": {
-          "tool": [
-            11597,
-            11720,
-            11802
-          ]
-        }
-      },
-      {
-        "name": "Infinite Holy Barrage Gathering Tools",
-        "unlocks": {
-          "tool": [
-            12586,
-            12588,
-            12592
-          ]
-        }
-      }
     ]
   },
   {
@@ -6635,6 +6971,50 @@
           ],
           "back": [
             12692
+          ]
+        }
+      },
+      {
+        "name": "Dainty Bee Wings Glider Combo",
+        "unlocks": {
+          "glider": [
+            143
+          ],
+          "back": [
+            12834
+          ]
+        }
+      },
+      {
+        "name": "Orrax Manifested",
+        "unlocks": {
+          "glider": [
+            144
+          ],
+          "back": [
+            13090
+          ]
+        }
+      },
+      {
+        "name": "Stellar Dragon Wings",
+        "unlocks": {
+          "glider": [
+            145
+          ],
+          "back": [
+            13040
+          ]
+        }
+      },
+      {
+        "name": "Vibrant Wings",
+        "unlocks": {
+          "glider": [
+            146
+          ],
+          "back": [
+            13019
           ]
         }
       }

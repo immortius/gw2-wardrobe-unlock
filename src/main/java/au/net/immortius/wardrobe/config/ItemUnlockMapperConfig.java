@@ -9,6 +9,7 @@ import java.util.List;
  */
 public class ItemUnlockMapperConfig {
     private List<ItemDetailUnlockMapping> unlockDetailsMappings;
+    public List<String> ignoreItems;
 
     public List<ItemDetailUnlockMapping> getUnlockDetailsMappings() {
         if (unlockDetailsMappings == null) {

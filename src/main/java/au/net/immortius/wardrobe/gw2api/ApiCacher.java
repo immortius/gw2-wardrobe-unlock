@@ -117,7 +117,7 @@ public class ApiCacher {
             int downloadCounter = 0;
             if (allSupported) {
                 logger.info("Updating cache for {}", toPath);
-                String json = client.target(apiUrl + "?ids=all").request().get(String.class);
+                String json = client.target(apiUrl + "?ids=all&v=2022-03-09T02:00:00.000Z").request().get(String.class);
                 JsonParser parser = new JsonParser();
                 JsonElement root = parser.parse(json);
                 JsonArray rootArray = root.getAsJsonArray();
@@ -156,7 +156,7 @@ public class ApiCacher {
     public Set<String> availableIds(String apiUrl) {
         try {
             applyRateLimit();
-            return client.target(apiUrl).request().get(ID_COLLECTION_TYPE);
+            return client.target(apiUrl + "?v=2022-03-09T02:00:00.000Z").request().get(ID_COLLECTION_TYPE);
         }  catch (InternalServerErrorException e) {
             throw new RuntimeException("Failed to download api ids for '" + apiUrl + "'", e);
         } catch (InterruptedException e) {
@@ -178,7 +178,7 @@ public class ApiCacher {
     public Set<String> availableStringIds(String apiUrl) {
         try {
             applyRateLimit();
-            return client.target(apiUrl).request().get(STRING_ID_COLLECTION_TYPE);
+            return client.target(apiUrl + "?v=2022-03-09T02:00:00.000Z").request().get(STRING_ID_COLLECTION_TYPE);
         }  catch (InternalServerErrorException e) {
             throw new RuntimeException("Failed to download api ids for '" + apiUrl + "'", e);
         } catch (InterruptedException e) {
@@ -261,7 +261,7 @@ public class ApiCacher {
     }
 
     private void retrieveAndSave(String baseUrl, List<Object> fetchPage, Path baseSavePath, AtomicInteger downloadCounter) {
-        String url = baseUrl + "?ids=" + COMMA_JOINER.join(fetchPage);
+        String url = baseUrl + "?ids=" + COMMA_JOINER.join(fetchPage) + "&v=2022-03-09T02:00:00.000Z";
         retrieveAndSave(url, baseSavePath, downloadCounter);
     }
 

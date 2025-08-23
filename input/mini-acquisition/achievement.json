@@ -24,7 +24,7 @@
     // Festival: Lunar New Year
     650,651,
     // Festival: Super Adventure Festival
-    887,918,
+    887,918,962,
     // Festival: Festival of the Four Winds
     170,
     // Festival: Halloween - Pumpkin Jack
@@ -44,7 +44,7 @@
     // Ribbington
     931,
     // JW
-    926, 929
+    926, 929, 922, 959
 
   ]
 }

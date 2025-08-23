@@ -17,6 +17,8 @@ public class VendorCrawlerConfig {
 
     private Set<String> ignorePages;
 
+    public List<String> noCacheVendors;
+
     public List<String> getCategoryPages() {
         if (categoryPages == null) {
             categoryPages = Lists.newArrayList();

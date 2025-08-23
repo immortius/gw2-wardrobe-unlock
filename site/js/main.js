@@ -66,6 +66,8 @@ var acquisitionMethods = [
     { id: "almondsinbulk", name: "Almonds In Bulk", category: "Crafting Component"},
     { id: "peachesinbulk", name: "Peaches In Bulk", category: "Crafting Component"},
     { id: "pouchofblackpigment", name: "Pouch of Black Pigment", category: "Crafting Component"},
+    { id: "plateoforriansteakfrittes", name: "Plate of Orrian Steak Frittes", category: "Crafting Component"},
+    { id: "mistsgateresidue", name: "Mists Gate Residue", category: "Crafting Component"},
 
     { id: "taleofdungeondelving", name: "Tales of Dungeon Delving", category: "Core / Season 1 / Season 2"},
     { id: "karkashell", name: "Karka Shell", category: "Core / Season 1 / Season 2"},
@@ -141,6 +143,9 @@ var acquisitionMethods = [
     { id: "ursusoblige", name: "Ursus Oblige", category: "Janthir Wilds"},
     { id: "curiouslowlandhoneycomb", name: "Curious Lowland Honeycomb", category: "Janthir Wilds"},
     { id: "curiousmursaatcurrency", name: "Curious Mursaat Currency", category: "Janthir Wilds"},
+    { id: "curiousmursaatruinshard", name: "Curious Mursaat Ruin Shard", category: "Janthir Wilds"},
+    { id: "curiousmursaatremnants", name: "Curious Mursaat Remnants", category: "Janthir Wilds"},
+
 
     { id: "fragmentofprismaticpersuasion", name: "Fragment of Prismatic Persuasion", category: "Facet of Aurene"},
     { id: "fragmentofprismaticfury", name: "Fragment of Prismatic Fury", category: "Facet of Aurene"},
@@ -184,6 +189,7 @@ var acquisitionMethods = [
     { id: "snowflake", name: "Snowflake", category: "Festival"},
     { id: "snowdiamond", name: "Snow Diamond", category: "Festival"},
     { id: "enchantedsnowball", name: "Enchanted Snowball", category: "Festival"},
+    { id: "chatoyantelixir", name: "Chatoyant Elixer", category: "Festival"},
 
     { id: "gem", name: "Gems", category: "Gem Store"},
     { id: "deluxe", name: "Purchase Bonus", category: "Gem Store"},
