@@ -1062,6 +1062,60 @@ padding-right: 10px;
   background-image: url('../img/currencies.png');
   background-position: -1512px -18px;
 }
+.chromaticsap-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1530px -18px;
+}
+.rawenchantingstone-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1548px -18px;
+}
+.mountlicense19-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1566px -18px;
+}
+.mountlicense20-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1584px -18px;
+}
+.gibberingskull-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1602px -18px;
+}
+.tyriasbestnougatcenter-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1620px -18px;
+}
+.high-qualityplasticfangs-icon {
+   background-image: url('../img/currencies.png');
+   background-position: -1638px -18px;
+ }
+ .mysticcoin-icon {
+   background-image: url('../img/currencies.png');
+   background-position: -1656px -18px;
+ }
+ .aether-richsap-icon {
+   background-image: url('../img/currencies.png');
+   background-position: -1674px -18px;
+ }
+ .antiquatedducat-icon {
+  background-image: url('../img/currencies.png');
+  background-position: -1692px -18px;
+ }
+ .legendaryinsight-icon {
+   background-image: url('../img/currencies.png');
+   background-position: -1710px -18px;
+ }
+ .blacklionsealofapproval-icon {
+    background-image: url('../img/currencies.png');
+    background-position: -1728px -18px;
+  }
+  .vialofpotentblood-icon {
+      background-image: url('../img/currencies.png');
+      background-position: -1746px -18px;
+    }
+
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */

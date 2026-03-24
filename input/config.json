@@ -1407,7 +1407,79 @@
         12262,
         // True Sight Heavy Gloves
         12890,
-        12921
+        12921,
+        // Ward Knight's Coat
+        12910,
+        12924,
+        // Traveling Knight's Hooded Helm
+        13213,
+        13226,
+        // Rebel Jacket
+        13006,
+        13010,
+        // Ward Knight's Helm
+        12880,
+        12941,
+        // Buoyant Chestpiece
+        13104,
+        13113,
+        // Ward Knight's Leggings
+        12884,
+        12902,
+        // Flat Boatsman Hat
+        13144,
+        13151,
+        // Villainous Hood
+        13126,
+        13132,
+        // Fresh Swim Top
+        13116,
+        13123,
+        // Austral Mantle
+        13218,
+        13229,
+        // Sunshine Shirt
+        13108,
+        13121,
+        // Clawing Shadow Plate
+        12616,
+        12617,
+        // Winter Mittens
+        12765,
+        12786,
+        // Explosive Turbo Greaves
+        13154,
+        13193,
+        // Extremis Medium Gloves
+        13413, 13416,
+        // Extremis Light Boots
+        13343, 13412,
+        // Extremis Heavy Coat
+        13298, 13443,
+        // Snaketail Breeches
+        12814, 12819,
+        // Extremis Heavy Leggings
+        13321, 13370,
+        // Restless Captain's Heavy Boots
+        13408, 13507,
+        // Extremis Medium Mantle
+        13378, 13380,
+        // Extremis Medium Hood
+        13281, 13466,
+        // Restless Captain's Heavy Coat
+        13431, 13481,
+        // Restless Captain's Medium Gloves
+        13272, 13558,
+        // Restless Captain's Medium Veil
+        13323, 13472,
+        // Restless Captain's Medium Mantle
+        13294, 13557,
+        // Feathered Inquest Breastplate
+        13365, 13469,
+        // Restless Captain's Light Leggings
+        13266, 13426,
+        // Janthir Outdoors T-Shirt
+        13644, 13645
       ]
     },
     {
@@ -1642,12 +1714,112 @@
           12930,
           12931,
           12933
+        ],
+        // Arms of the People
+        "105794": [
+          13270,
+          13280,
+          13292,
+          13319,
+          13348,
+          13384,
+          13395,
+          13399,
+          13465,
+          13497,
+          13498,
+          13527,
+          13559,
+          13566,
+          13585,
+          13590,
+          13634
+        ],
+        // Recovered tool box
+        "106159": [
+          13276,
+          13286,
+          13312,
+          13329,
+          13353,
+          13411,
+          13428,
+          13445,
+          13448,
+          13453,
+          13463,
+          13495,
+          13533,
+          13552,
+          13565,
+          13593,
+          13606
+        ],
+        // Glowing Strelitzia Sprout
+        "105584": [
+          13291,
+          13297,
+          13303,
+          13318,
+          13346,
+          13355,
+          13368,
+          13387,
+          13392,
+          13419,
+          13460,
+          13467,
+          13485,
+          13500,
+          13549,
+          13550,
+          13555
+        ],
+        "106732": [
+          13134,
+          13143,
+          13146,
+          13155,
+          13156,
+          13157,
+          13158,
+          13160,
+          13161,
+          13163,
+          13166,
+          13170,
+          13176,
+          13179,
+          13182,
+          13188,
+          13194
+        ],
+        "106991": [
+          12809,
+          12810,
+          12811,
+          12812,
+          12813,
+          12815,
+          12816,
+          12817,
+          12818,
+          12822,
+          12823,
+          12825,
+          12826,
+          12829,
+          12830,
+          12832,
+          12833
         ]
       },
       "excludeIds": [
         5898,
         8350,
-        6072
+        6072,
+        8396,
+        8417
       ],
       "gwuIgnoreIds": [
         // Guild Cavalier varients
@@ -1687,7 +1859,17 @@
         // Eternel Blade, same icon as Royal Ascalonian Sword
         11676,
         // Shadow Assassin's Shortbow
-        6072
+        6072,
+        // Plush Spear [12776,
+        13667,
+        // Firework Spear
+        13766,
+        // Living-Water Staff
+        10575,
+        // Bronze something
+        4156,
+        // Spire of the Forgotten
+        11729
       ],
       "gwuIncludeIds": [
         10275,
@@ -2028,6 +2210,14 @@
         // Enchanted Skimmer
         "101828": [
           651
+        ],
+        // Enchanted Warclaw
+        "103789": [
+          706
+        ],
+        // Enchanted Rollerbeetle
+        "104760": [
+          751
         ]
       }
     },
@@ -2476,6 +2666,7 @@
       "/wiki/Category:NPC_stubs"
     ],
     "vendorPages": [
+      "/wiki/Alliance_Field_Quartermaster",
       "/wiki/Skirmish_Supervisor",
       "/wiki/Black_Lion_Weapons_Specialist/historical",
       "/wiki/Charity_Corps_Seraph",
@@ -2490,7 +2681,9 @@
       "/wiki/Wizard%27s_Vault/Legacy_Rewards",
       "/wiki/Deft_Lahar",
       "/wiki/Professor_Smoll",
-      "/wiki/Rift_Researcher_Adam"
+      "/wiki/Rift_Researcher_Adam",
+      "/wiki/Black_Lion_%22Birthday%22_Manager",
+      "/wiki/Tyrian_Alliance_Representative_Sharpwhisker"
     ],
     "ignorePages": [
       "/wiki/List_of_karma_merchant_items",
@@ -2512,7 +2705,11 @@
       "/wiki/Sarettokk",
       "/wiki/Eternal_Ice_Shard",
       "/wiki/Black_Lion_Exchange_Specialist",
-      "/wiki/Black_Lion_Representative_(Exchange_Specialist)"
+      "/wiki/Black_Lion_Representative_(Exchange_Specialist)",
+      "/wiki/Sunspear_Redemption_Wish",
+      "/wiki/Gunk-Covered_Pellet",
+      "/wiki/Wizard's_Gobbler/Gobbler_Exchanges",
+      "/wiki/List_of_karma_merchant_items/Miniatures"
     ],
     "noCacheVendors": [
       "Festival_Rewards_Vendor_(Festival_Rewards)-.html",
@@ -2538,7 +2735,25 @@
       "Black_Lion_Weapons_Specialist_(Privateer_Weapons)-.html",
       "BLING-9009-.html",
       "Legacy_Rewards-.html",
-      "Sparking_Stone-.html"
+      "Sparking_Stone-.html",
+      "Candy_Corn_Vendor-.html",
+      "Candy_Corn_Vendor_(Weekly)-.html",
+      "Halloween_Vendor-.html",
+      "Charity_Corps_Seraph-.html",
+      "Charity_Corps_Seraph_(Gift_Wrapping)-.html",
+      "Charity_Corps_Seraph_(Snowflake_Trader)-.html",
+      "Charity_Corps_Seraph_(Wintersday_Gifts)-.html",
+      "Charity_Corps_Seraph_(Wintersday_Rewards)-.html",
+      "Charity_Corps_Seraph_(Wintersday_Skins)-.html",
+      "Sven-.html",
+      "Sven_Edson-.html",
+      "Wintersday_Vendor-.html",
+      "Wizard's_Vault-.html",
+      "Legacy_Rewards-.html",
+      "Zotturrikk-.html",
+      "Lunar_New_Year_Vendor-.html",
+      "New_Year_Vendor-.html",
+      "New_Year_Weapons-.html"
     ]
   },
   "supportedCurrencies": [
@@ -2685,7 +2900,18 @@
     "chatoyantelixir",
     "curiousmursaatremnants",
     "plateoforriansteakfrittes",
-    "mistsgateresidue"
+    "mistsgateresidue",
+    "chromaticsap",
+    "rawenchantingstone",
+    "gibberingskull",
+    "tyriasbestnougatcenter",
+    "high-qualityplasticfangs",
+    "mysticcoin",
+    "aether-richsap",
+    "antiquatedducat",
+    "legendaryinsight",
+    "blacklionsealofapproval",
+    "vialofpotentblood"
   ],
   "ignoreCurrencies": [
     "ascaloniantear",
@@ -2757,7 +2983,11 @@
     "caladbolgiridi",
     "caladbolgorchida",
     "caladbolgsolana",
-    "caladbolgrosa"
+    "caladbolgrosa",
+    "amnytas:commanderschoicechest",
+    "skywatcharchipelago:commanderschoicechest",
+    "innernayos:commanderschoicechest",
+    "janthirsyntri:commanderschoicechest"
   ],
   "ignoreContainers": [
     "/wiki/Toy_Mini_Egg",
@@ -2868,6 +3098,8 @@
     "/wiki/House_of_Daoud_Wood_Crate",
     "/wiki/House_of_Daoud_Cloth_Crate",
     "/wiki/House_of_Daoud_Trophy_Crate",
-    "/wiki/House_of_Daoud_Leather_Crate"
+    "/wiki/House_of_Daoud_Leather_Crate",
+    "/wiki/Generosity's_Reward",
+    "/wiki/Fluctuating_Mass"
   ]
 }

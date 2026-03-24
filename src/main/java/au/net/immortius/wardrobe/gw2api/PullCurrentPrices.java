@@ -82,10 +82,10 @@ public class PullCurrentPrices {
                     for (String itemId : value) {
                         if (prices.get(itemId).isPresent()) {
                             PriceData x = prices.get(itemId).get();
-                            if (x.buys != null && (minBuyPrice == null || x.buys.unitPrice < minBuyPrice.getPrice())) {
+                            if (x.buys != null && x.buys.unitPrice > 0 && x.buys.quantity > 0 && (minBuyPrice == null || x.buys.unitPrice < minBuyPrice.getPrice())) {
                                 minBuyPrice = new PriceEntry(itemId, x.buys.unitPrice);
                             }
-                            if (x.sells != null && (minSellPrice == null || x.sells.unitPrice < minSellPrice.getPrice())) {
+                            if (x.sells != null && x.sells.unitPrice > 0 && x.sells.quantity > 0 && (minSellPrice == null || x.sells.unitPrice < minSellPrice.getPrice())) {
                                 minSellPrice = new PriceEntry(itemId, x.sells.unitPrice);
                             }
                         }

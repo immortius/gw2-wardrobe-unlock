@@ -434,11 +434,15 @@ public class GenerateContent {
                     } else {
                         TradingPostEntry tpEntry = entry.getValue();
                         PriceEntry bestBuyPrice = tpEntry.getBestBuyPrice();
-                        readItem(bestBuyPrice.getItemId())
-                                .ifPresent(i -> bestBuyPrice.setItemName(i.getName()));
+                        if (bestBuyPrice != null) {
+                            readItem(bestBuyPrice.getItemId())
+                                    .ifPresent(i -> bestBuyPrice.setItemName(i.getName()));
+                        }
                         PriceEntry bestSellPrice = tpEntry.getBestSellPrice();
-                        readItem(bestSellPrice.getItemId())
-                                .ifPresent(i -> bestSellPrice.setItemName(i.getName()));
+                        if (bestSellPrice != null) {
+                            readItem(bestSellPrice.getItemId())
+                                    .ifPresent(i -> bestSellPrice.setItemName(i.getName()));
+                        }
                         unlockData.priceData = tpEntry;
                         unlockData.sources.add(TRADINGPOST);
                         unlockData.sources.add(GOLD);

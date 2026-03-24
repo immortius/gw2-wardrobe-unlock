@@ -204,6 +204,11 @@
         362
       ]
     },
+    "Guild Wars 2: Visions of Eternity (VoE)": {
+      "Raid: Guardian's Glade" : [
+        379
+      ]
+    },
     "Super Adventure Festival (SAB)": {
       "Super Boom Box": [
         3,
@@ -306,7 +311,10 @@
         347,
         348,
         349,
-        353
+        353,
+        372,
+        374,
+        380
       ],
       "Standalone: Musical Instrument": [
         2,

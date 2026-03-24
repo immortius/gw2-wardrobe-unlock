@@ -4278,7 +4278,9 @@
         "name": "Patterned Scarf",
         "unlocks": {
           "armor": [
-            13001, 13002, 13009
+            13001,
+            13002,
+            13009
           ]
         }
       },
@@ -4286,7 +4288,9 @@
         "name": "Rebel Jacket",
         "unlocks": {
           "armor": [
-            13005, 13006, 13010
+            13005,
+            13006,
+            13010
           ]
         }
       },
@@ -4294,7 +4298,9 @@
         "name": "Woodland Kodan Leather Shoulders",
         "unlocks": {
           "armor": [
-            13021, 13065, 13067
+            13021,
+            13065,
+            13067
           ]
         }
       },
@@ -4302,7 +4308,9 @@
         "name": "Raven-Blessed Visage",
         "unlocks": {
           "armor": [
-            13051, 13064, 13069
+            13051,
+            13064,
+            13069
           ]
         }
       },
@@ -4310,7 +4318,9 @@
         "name": "Buoyant Chestpiece",
         "unlocks": {
           "armor": [
-            13101, 13104, 13113
+            13101,
+            13104,
+            13113
           ]
         }
       },
@@ -4318,7 +4328,9 @@
         "name": "Snorkel Mask",
         "unlocks": {
           "armor": [
-            13105, 13122, 13133
+            13105,
+            13122,
+            13133
           ]
         }
       },
@@ -4326,7 +4338,9 @@
         "name": "Valkyrie's Champion",
         "unlocks": {
           "armor": [
-            13111, 13120, 13124
+            13111,
+            13120,
+            13124
           ]
         }
       },
@@ -4334,7 +4348,9 @@
         "name": "Round Boatsman",
         "unlocks": {
           "armor": [
-            13136, 13171, 13180
+            13136,
+            13171,
+            13180
           ]
         }
       },
@@ -4342,7 +4358,9 @@
         "name": "Flat Boatsman",
         "unlocks": {
           "armor": [
-            13141, 13144, 13151
+            13141,
+            13144,
+            13151
           ]
         }
       },
@@ -4350,7 +4368,9 @@
         "name": "Plumed Commodore",
         "unlocks": {
           "armor": [
-            13148, 13173, 13183
+            13148,
+            13173,
+            13183
           ]
         }
       },
@@ -4358,7 +4378,9 @@
         "name": "Explosive Turbo Greaves",
         "unlocks": {
           "armor": [
-            13150, 13154, 13193
+            13150,
+            13154,
+            13193
           ]
         }
       },
@@ -4366,11 +4388,433 @@
         "name": "Cloud Cuirass",
         "unlocks": {
           "armor": [
-            13169, 13177, 13186
+            13169,
+            13177,
+            13186
+          ]
+        }
+      },
+      {
+        "name": "Austral Mantle",
+        "unlocks": {
+          "armor": [
+            13205,
+            13218,
+            13229
+          ]
+        }
+      },
+      {
+        "name": "Mists-grasper gloves",
+        "unlocks": {
+          "armor": [
+            13212,
+            13227,
+            13228
+          ]
+        }
+      },
+      {
+        "name": "Eikasia, Mists-Grasper",
+        "unlocks": {
+          "armor": [
+            13222,
+            13224,
+            13230
+          ]
+        }
+      },
+      {
+        "name": "Vigilant Physician's Mask",
+        "unlocks": {
+          "armor": [
+            13244,
+            13250,
+            13254
+          ]
+        }
+      },
+      {
+        "name": "Selachimorpha",
+        "unlocks": {
+          "armor": [
+            13275,
+            13335,
+            13349,
+            13432,
+            13617,
+            13636
+          ]
+        }
+      },
+      {
+        "name": "Alliance Field Operative's Mantle",
+        "unlocks": {
+          "armor": [
+            13278,
+            13305,
+            13600
+          ]
+        }
+      },
+      {
+        "name": "Alliance Field Operative's Boots",
+        "unlocks": {
+          "armor": [
+            13338,
+            13409,
+            13459
+          ]
+        }
+      },
+      {
+        "name": "Alliance Field Operative's Leggings",
+        "unlocks": {
+          "armor": [
+            13341,
+            13627,
+            13629
+          ]
+        }
+      },
+      {
+        "name": "Alliance Field Operative's Jacket",
+        "unlocks": {
+          "armor": [
+            13362,
+            13369,
+            13615
+          ]
+        }
+      },
+      {
+        "name": "Alliance Field Operative's Helmet",
+        "unlocks": {
+          "armor": [
+            13372,
+            13494,
+            13499
+          ]
+        }
+      },
+      {
+        "name": "Alliance Field Operative's Gloves",
+        "unlocks": {
+          "armor": [
+            13425,
+            13468,
+            13539
+          ]
+        }
+      },
+      {
+        "name": "Extremis Hood",
+        "unlocks": {
+          "armor": [
+            13281,
+            13466,
+            13568
+          ]
+        }
+      },
+      {
+        "name": "Extremis Coat",
+        "unlocks": {
+          "armor": [
+            13298,
+            13443,
+            13520
+          ]
+        }
+      },
+      {
+        "name": "Extremis Leggings",
+        "unlocks": {
+          "armor": [
+            13321,
+            13370,
+            13478
+          ]
+        }
+      },
+      {
+        "name": "Extremis Boots",
+        "unlocks": {
+          "armor": [
+            13343,
+            13412,
+            13601
+          ]
+        }
+      },
+      {
+        "name": "Extremis Mantle",
+        "unlocks": {
+          "armor": [
+            13378,
+            13380,
+            13576
+          ]
+        }
+      },
+      {
+        "name": "Extremis Gloves",
+        "unlocks": {
+          "armor": [
+            13413,
+            13416,
+            13635
+          ]
+        }
+      },
+      {
+        "name": "Seaside Scholar's Hat/Glasses",
+        "unlocks": {
+          "armor": [
+            13283,
+            13289,
+            13381,
+            13386,
+            13621,
+            13631
+          ]
+        }
+      },
+      {
+        "name": "Seaside Scholar's Shorts",
+        "unlocks": {
+          "armor": [
+            13314,
+            13531,
+            13610
+          ]
+        }
+      },
+      {
+        "name": "Seaside Scholar's Sandals",
+        "unlocks": {
+          "armor": [
+            13317,
+            13377,
+            13618
+          ]
+        }
+      },
+      {
+        "name": "Feathered Inquest Leggings",
+        "unlocks": {
+          "armor": [
+            13359,
+            13504,
+            13570
+          ]
+        }
+      },
+      {
+        "name": "Feathered Inquest Breastplate",
+        "unlocks": {
+          "armor": [
+            13365,
+            13469,
+            13476
+          ]
+        }
+      },
+      {
+        "name": "Feathered Inquest Mantle",
+        "unlocks": {
+          "armor": [
+            13390,
+            13405,
+            13487
+          ]
+        }
+      },
+      {
+        "name": "Feathered Inquest Helm",
+        "unlocks": {
+          "armor": [
+            13434,
+            13532,
+            13583
+          ]
+        }
+      },
+      {
+        "name": "Metrica Sports",
+        "unlocks": {
+          "armor": [
+            13638,
+            13640,
+            13643
+          ]
+        }
+      },
+      {
+        "name": "Southsun Waves",
+        "unlocks": {
+          "armor": [
+            13642,
+            13646,
+            13647
+          ]
+        }
+      },
+      {
+        "name": "Janthir Outdoors",
+        "unlocks": {
+          "armor": [
+            13644,
+            13645,
+            13648
+          ]
+        }
+      },
+      {
+        "name": "Steam-Powered Legwear (Left)",
+        "unlocks": {
+          "armor": [
+            13650,
+            13663,
+            13676
+          ]
+        }
+      },
+      {
+        "name": "Steam-Powered Legwear (Right)",
+        "unlocks": {
+          "armor": [
+            13656,
+            13657,
+            13672
+          ]
+        }
+      },
+      {
+        "name": "Winter Snow Goggles",
+        "unlocks": {
+          "armor": [
+            13669,
+            13670,
+            13673
+          ]
+        }
+      },
+      {
+        "name": "Seaside Scholar's Bracelets",
+        "unlocks": {
+          "armor": [
+            13285,
+            13564,
+            13613
+          ]
+        }
+      },
+      {
+        "name": "Seaside Scholar's Robes",
+        "unlocks": {
+          "armor": [
+            13307,
+            13540,
+            13561,
+            13436,
+            13480,
+            13602
+          ]
+        }
+      },
+      {
+        "name": "Seaside Scholar's Sash",
+        "unlocks": {
+          "armor": [
+            13442,
+            13530,
+            13562
+          ]
+        }
+      },
+      {
+        "name": "Party Hat",
+        "unlocks": {
+          "armor": [
+            13637,
+            13639,
+            13641
+          ]
+        }
+      },
+      {
+        "name": "Classic Leather Boots",
+        "unlocks": {
+          "armor": [
+            13680, 13682, 13683
+          ]
+        }
+      },
+      {
+        "name": "Hoofed Shoes",
+        "unlocks": {
+          "armor": [
+            13691, 13705, 13724
+          ]
+        }
+      },
+      {
+        "name": "Spiked Inquest Gloves",
+        "unlocks": {
+          "armor": [
+            13702, 13711, 13759
+          ]
+        }
+      },
+      {
+        "name": "Spiked Inquest Greaves",
+        "unlocks": {
+          "armor": [
+            13714, 13780, 13782
+          ]
+        }
+      },
+      {
+        "name": "Spiked Inquest Helm",
+        "unlocks": {
+          "armor": [
+            13760, 13768, 13775
+          ]
+        }
+      },
+      {
+        "name": "Acclaimed Militia Leggings",
+        "unlocks": {
+          "armor": [
+            13789, 13792, 13793
+          ]
+        }
+      },
+      {
+        "name": "Boxing Gloves",
+        "unlocks": {
+          "armor": [
+            13795, 13800, 13803
+          ]
+        }
+      },
+      {
+        "name": "Flower Eyepatch",
+        "unlocks": {
+          "armor": [
+            13796, 13809, 13810
+          ]
+        }
+      },
+      {
+        "name": "Flower Corsage",
+        "unlocks": {
+          "armor": [
+            13798, 13799, 13804
           ]
         }
       }
-
     ]
   },
   {
@@ -5920,6 +6364,15 @@
             13007
           ]
         }
+      },
+      {
+        "name": "Ancora Bellum",
+        "unlocks": {
+          "weapon": [
+            13306,
+            13397
+          ]
+        }
       }
     ]
   },
@@ -6019,6 +6472,32 @@
           ],
           "back": [
             13128
+          ]
+        }
+      },
+      {
+        "name": "Traveling Knight Cape and Hood",
+        "unlocks": {
+          "armor": [
+            13208,
+            13213,
+            13226
+          ],
+          "back": [
+            13215
+          ]
+        }
+      },
+      {
+        "name": "Tropical Leaf",
+        "unlocks": {
+          "armor": [
+            13697,
+            13736,
+            13740
+          ],
+          "back": [
+            13788
           ]
         }
       }
@@ -7015,6 +7494,61 @@
           ],
           "back": [
             13019
+          ]
+        }
+      },
+      {
+        "name": "Slender Fairy Wings",
+        "unlocks": {
+          "glider": [
+            147
+          ],
+          "back": [
+            13197
+          ]
+        }
+      },
+      {
+        "name": "Painter's Brilliance Glider",
+        "unlocks": {
+          "glider": [
+            148
+          ],
+          "back": [
+            13548
+          ]
+        }
+      },
+      {
+        "name": "Blazing Glider",
+        "unlocks": {
+          "back": [
+            13407
+          ],
+          "glider": [
+            150
+          ]
+        }
+      },
+      {
+        "name": "Dance Platform",
+        "unlocks": {
+          "novelty": [
+            380
+          ],
+          "glider": [
+            151
+          ]
+        }
+      },
+      {
+        "name": "Inverted Blade",
+        "unlocks": {
+          "glider": [
+            152
+          ],
+          "back": [
+            13790
           ]
         }
       }

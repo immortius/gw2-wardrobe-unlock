@@ -128,7 +128,8 @@
         6353,
         6618,
         6621,
-        11840
+        11840,
+        13233
       ]
     },
     "Living World Season 1: Scarlet's War (LW1)": {
@@ -317,6 +318,14 @@
         12942
       ]
     },
+    "Guild Wars 2: Visions of Eternity (VoE)": {
+      "Metamorphosis": [
+        13287, 13452
+      ],
+      "Standalone: Other": [
+        13546, 13788
+      ]
+    },
     "April Fools": {
       "Heights of Glory" : [
         12100
@@ -334,7 +343,8 @@
         10206,
         11209,
         12003,
-        12821
+        12821,
+        13729
       ],
       "Lucky Celestial Lantern > Lucky Great Celestial Lantern": [
         5857,
@@ -347,7 +357,11 @@
         10183,
         11206,
         12007,
-        12828
+        12828,
+        13725
+      ],
+      "Standalone: Other": [
+        13257
       ]
     },
     "Super Adventure Box (SAB)": {
@@ -397,7 +411,8 @@
         7775
       ],
       "Standalone: Other": [
-        9638
+        9638,
+        13255
       ]
     },
     "Wintersday": {
@@ -406,7 +421,8 @@
         2375,
         2382,
         2383,
-        10218
+        10218,
+        13243
       ]
     },
     "Gem Store": {
@@ -472,7 +488,9 @@
         12804,
         12856,
         12982,
-        13128
+        13128,
+        13215,
+        13407
       ],
       "Standalone: Quiver": [
         2369,
@@ -524,7 +542,9 @@
         12639,
         12644,
         12834,
-        13040
+        13040,
+        13197,
+        13790
       ],
       "Standalone: Other": [
         1048,
@@ -576,7 +596,9 @@
         11982,
         11996,
         12625,
-        12692
+        12692,
+        13548,
+        13797
       ]
     },
     "Promotional": {

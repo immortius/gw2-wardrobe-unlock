@@ -25,26 +25,27 @@ dependencies {
 	implementation 'org.glassfish.jersey.inject:jersey-hk2:2.35'
 
     // Html handling
-    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'org.jsoup:jsoup:1.15.3'
 
     // Ftp handling
-    implementation 'commons-net:commons-net:3.6'
+    implementation 'commons-net:commons-net:3.9.0'
     implementation 'com.googlecode.gentyref:gentyref:1.2.0'
 
     // Guava for delicious fruity utility
-    implementation 'com.google.guava:guava:26.0-jre'
+    implementation 'com.google.guava:guava:33.5.0-jre'
+    implementation 'com.google.code.findbugs:jsr305:3.0.2'
 
     // Command line argument handling
     implementation 'commons-cli:commons-cli:1.4'
 
     // Logging
-    implementation 'ch.qos.logback:logback-classic:1.2.3'
+    implementation 'ch.qos.logback:logback-classic:1.5.13'
 	
 	// For Java 9+
 	runtimeOnly 'javax.activation:activation:1.1.1'
 
     // Unit Testing (I don't do enough)
-    testImplementation 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.13.1'
 }
 
 tasks.withType(com.github.spotbugs.SpotBugsTask) {

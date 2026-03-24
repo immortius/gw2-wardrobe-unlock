@@ -107,6 +107,8 @@ public class GatherVendorsFromWiki {
             .put("talesofdungeondelving", "taleofdungeondelving")
             .put("swim-speedinfusion10", "swimspeedinfusion")
             .put("amalgamatedkryptisessence", "amalgamatedriftessence")
+            .put("exoticessenceofluck", "exoticluck")
+            .put("legendaryessenceofluck", "legendaryluck")
             .build();
 
     public GatherVendorsFromWiki() throws IOException {
@@ -477,6 +479,9 @@ public class GatherVendorsFromWiki {
     }
 
     private String getPage(PageType type, WikiUrl page) throws IOException {
+        if (config.vendorCrawler.getIgnorePages().contains(page.getBaseUrl())) {
+            return "";
+        }
         Path pagePath = config.paths.getWikiCachePath().resolve(type.getPath()).resolve(page.getFilename());
         if (!Files.exists(pagePath)) {
             String url = config.vendorCrawler.rootUrl + page.getUrl();

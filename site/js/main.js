@@ -43,6 +43,7 @@ var acquisitionMethods = [
     { id: "globofectoplasm", name: "Glob of Ectoplasm", category: "Common"},
     { id: "guildcommendation", name: "Guild Commendation", category: "Common"},
     { id: "provisionertoken", name: "Provisioner Token", category: "Common"},
+    { id: "mysticcoin", name: "Mystic Coin", category: "Common"},
 
     { id: "grandmasterarmorsmithsmark", name: "Grandmaster Armorsmith's Mark", category: "Crafting Component"},
     { id: "grandmasterleatherworkersmark", name: "Grandmaster Leatherworker's Mark", category: "Crafting Component"},
@@ -68,6 +69,7 @@ var acquisitionMethods = [
     { id: "pouchofblackpigment", name: "Pouch of Black Pigment", category: "Crafting Component"},
     { id: "plateoforriansteakfrittes", name: "Plate of Orrian Steak Frittes", category: "Crafting Component"},
     { id: "mistsgateresidue", name: "Mists Gate Residue", category: "Crafting Component"},
+    { id: "vialofpotentblood", name: "Vial of Potent Blood", category: "Crafting Component"},
 
     { id: "taleofdungeondelving", name: "Tales of Dungeon Delving", category: "Core / Season 1 / Season 2"},
     { id: "karkashell", name: "Karka Shell", category: "Core / Season 1 / Season 2"},
@@ -146,6 +148,10 @@ var acquisitionMethods = [
     { id: "curiousmursaatruinshard", name: "Curious Mursaat Ruin Shard", category: "Janthir Wilds"},
     { id: "curiousmursaatremnants", name: "Curious Mursaat Remnants", category: "Janthir Wilds"},
 
+    { id: "chromaticsap", name: "Chromatic Sap", category: "Visions of Eternity"},
+    { id: "aether-richsap", name: "Aether-rich Sap", category: "Visions of Eternity"},
+    { id: "rawenchantingstone", name: "Raw Enchanting Stone", category: "Visions of Eternity"},
+    { id: "antiquatedducat", name: "Antiquated Ducat", category: "Visions of Eternity"},
 
     { id: "fragmentofprismaticpersuasion", name: "Fragment of Prismatic Persuasion", category: "Facet of Aurene"},
     { id: "fragmentofprismaticfury", name: "Fragment of Prismatic Fury", category: "Facet of Aurene"},
@@ -163,6 +169,7 @@ var acquisitionMethods = [
     { id: "unstablefractalessence", name: "Unstable Fractal Essence", category: "Cooperative"},
     { id: "magnetiteshard", name: "Magnetite Shard", category: "Cooperative"},
     { id: "gaeting", name: "Gaeting Crystal", category: "Cooperative"},
+    { id: "legendaryinsight", name: "Legendary Insight", category: "Cooperative"},
     { id: "blueprophetshard", name: "Blue Prophet Shard", category: "Cooperative"},
 
     { id: "pvp", name: "Reward Track", category: "Competitive"},
@@ -186,10 +193,14 @@ var acquisitionMethods = [
     { id: "favorofthefestival", name: "Favor of the Festival", category: "Festival"},
     { id: "bundleofloot", name: "Bundle of Loot", category: "Festival"},
     { id: "candycorncob", name: "Candy Corn Cob", category: "Festival"},
+    { id: "gibberingskull", name: "Gibbering Skill", category: "Festival"},
+    { id: "tyriasbestnougatcenter", name: "Tyria's Best Nougat Center", category: "Festival"},
+    { id: "high-qualityplasticfangs", name: "High-quality Plastic Fangs", category: "Festival"},
     { id: "snowflake", name: "Snowflake", category: "Festival"},
     { id: "snowdiamond", name: "Snow Diamond", category: "Festival"},
     { id: "enchantedsnowball", name: "Enchanted Snowball", category: "Festival"},
     { id: "chatoyantelixir", name: "Chatoyant Elixer", category: "Festival"},
+    { id: "blacklionsealofapproval", name: "Black Lion Seal of Approval", category: "Festival"},
 
     { id: "gem", name: "Gems", category: "Gem Store"},
     { id: "deluxe", name: "Purchase Bonus", category: "Gem Store"},
@@ -219,6 +230,8 @@ var acquisitionMethods = [
     { id: "mountlicense16", name: "Arcane Delights Mount License", category: "Gem Store - Mount License"},
     { id: "mountlicense17", name: "Reclaimed Bonds Mount License", category: "Gem Store - Mount License"},
     { id: "mountlicense18", name: "Wild Roar Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense19", name: "Ferocious Fusions Mount License", category: "Gem Store - Mount License"},
+    { id: "mountlicense20", name: "Vibrant Companions Mount License", category: "Gem Store - Mount License"},
 
     { id: "eod", name: "End of Dragons", category: "Highlights", hideOnIcon: true, hideOnDetails: true},
     { id: "soto", name: "Secrets of the Obscure", category: "Highlights", hideOnIcon: true, hideOnDetails: true}
@@ -462,7 +475,7 @@ function updateThresholdCalculation() {
             for (var itemId in sectionItems) {
                 if (sectionItems.hasOwnProperty(itemId) && !isUnlocked(section, itemId)) {
                     var data = sectionItems[itemId];
-                    if (!isNaN(data.price) && data.price < threshold && filter(data)) {
+                    if (!isNaN(data.price) && data.price < threshold && data.price > 0 && filter(data)) {
                         data.section = section;
                         totalCost += data.price;
                         total++;
@@ -869,7 +882,7 @@ function calculateTotalValue(tpItems, priceFunc) {
 
 function getSellPrice(item) {
     var itemValue = NaN;
-    if (item.priceData != null) {
+    if (item.priceData != null && item.priceData.bestSellPrice != null) {
         itemValue = item.priceData.bestSellPrice.price;
         if (isNaN(itemValue)) {
             itemValue = item.priceData.bestBuyPrice.price;
@@ -884,7 +897,7 @@ function getSellPrice(item) {
 
 function getBuyPrice(item) {
     var itemValue = NaN;
-    if (item.priceData != null) {
+    if (item.priceData != null && item.priceData.bestBuyPrice != null) {
         itemValue = item.priceData.bestBuyPrice.price;
         if (isNaN(itemValue)) {
             itemValue = item.priceData.bestSellPrice.price;
@@ -1269,7 +1282,7 @@ function showDetails(item, prefix) {
     }
 
     if (item.priceData) {
-        if (item.priceData.bestBuyPrice.price) {
+        if (item.priceData.bestBuyPrice && item.priceData.bestBuyPrice.price) {
           if(item.priceData.bestBuyPrice.itemName != item.name) {
             $('#' + prefix + 'selection-buy-name').text("(" + item.priceData.bestBuyPrice.itemName + ")");
           } else {
@@ -1279,20 +1292,22 @@ function showDetails(item, prefix) {
             $('#' + prefix + 'selection-buy-silver').text(Math.floor(item.priceData.bestBuyPrice.price / 100) % 100);
             $('#' + prefix + 'selection-buy-copper').text(item.priceData.bestBuyPrice.price % 100);
         } else {
-            $('#' + prefix + 'selection-buy-gold').text('0');
-            $('#' + prefix + 'selection-buy-silver').text('0');
-            $('#' + prefix + 'selection-buy-copper').text('0');
+            $('#' + prefix + 'selection-buy-name').text("");
+            $('#' + prefix + 'selection-buy-gold').text('-');
+            $('#' + prefix + 'selection-buy-silver').text('-');
+            $('#' + prefix + 'selection-buy-copper').text('-');
         }
-        if (item.priceData.bestSellPrice.price) {
+        if (item.priceData.bestSellPrice && item.priceData.bestSellPrice.price) {
            if(item.priceData.bestSellPrice.itemName != item.name) {
              $('#' + prefix + 'selection-sell-name').text("(" + item.priceData.bestSellPrice.itemName + ")");
-       } else {
-           $('#' + prefix + 'selection-sell-name').text("");
-       }
+           } else {
+               $('#' + prefix + 'selection-sell-name').text("");
+           }
             $('#' + prefix + 'selection-sell-gold').text(Math.floor(item.priceData.bestSellPrice.price / 10000));
             $('#' + prefix + 'selection-sell-silver').text(Math.floor(item.priceData.bestSellPrice.price / 100) % 100);
             $('#' + prefix + 'selection-sell-copper').text(item.priceData.bestSellPrice.price % 100);
         } else {
+            $('#' + prefix + 'selection-sell-name').text("");
             $('#' + prefix + 'selection-sell-gold').text('-');
             $('#' + prefix + 'selection-sell-silver').text('-');
             $('#' + prefix + 'selection-sell-copper').text('-');

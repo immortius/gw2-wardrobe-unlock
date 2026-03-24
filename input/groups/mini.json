@@ -94,12 +94,14 @@
         391,
         392,
         393,
-        394
+        394,
+        1004
       ],
       "Standalone: Stronghold of the Faithful": [
         401,
         402,
-        403
+        403,
+        1006
       ],
       "Standalone: Bastion of the Penitent": [
         436,
@@ -246,7 +248,13 @@
       "Standalone: Hall of Chains": [
         621,
         622,
-        623
+        623,
+        999,
+        1000,
+        1002,
+        1003,
+        1005,
+        1007
       ],
       "Standalone: Mythwright Gambit": [
         721,
@@ -475,6 +483,14 @@
         967
       ]
     },
+    "Guild Wars 2: Visions of Eternity (VoE)": {
+      "Raid: Guardian's Glade": [
+        997
+      ],
+      "Standalone: Other": [
+        986, 987, 988, 990, 991, 992, 993, 994, 995, 985
+      ]
+    },
     "Fractals of the Mists": {
       "Old Tom": [
         344,
@@ -559,7 +575,8 @@
         882,
         883,
         917,
-        958
+        958,
+        1001
       ]
     },
     "Super Adventure Festival (SAB)": {
@@ -659,7 +676,8 @@
         874,
         876,
         910,
-        936
+        936,
+        982
       ]
     },
     "Wintersday": {
@@ -712,7 +730,8 @@
         880,
         881,
         916,
-        957
+        957,
+        998
       ]
     },
     "Gem Store": {
@@ -983,6 +1002,18 @@
         945,
         946
       ],
+      "Turtle Hatchling": [
+        972,
+        973,
+        974,
+        975,
+        976,
+        977,
+        978,
+        979,
+        980,
+        981
+      ],
       "Avian": [
         237,
         238,
@@ -1211,7 +1242,8 @@
         654,
         781,
         796,
-        815
+        815,
+        984
       ]
     }
   }
