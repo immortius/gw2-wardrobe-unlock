@@ -4601,39 +4601,18 @@
         }
       },
       {
-        "name": "Feathered Inquest Leggings",
+        "name": "Feathered Inquest",
         "unlocks": {
           "armor": [
             13359,
             13504,
-            13570
-          ]
-        }
-      },
-      {
-        "name": "Feathered Inquest Breastplate",
-        "unlocks": {
-          "armor": [
+            13570,
             13365,
             13469,
-            13476
-          ]
-        }
-      },
-      {
-        "name": "Feathered Inquest Mantle",
-        "unlocks": {
-          "armor": [
+            13476,
             13390,
             13405,
-            13487
-          ]
-        }
-      },
-      {
-        "name": "Feathered Inquest Helm",
-        "unlocks": {
-          "armor": [
+            13487,
             13434,
             13532,
             13583
@@ -4641,29 +4620,15 @@
         }
       },
       {
-        "name": "Metrica Sports",
+        "name": "T-Shirts",
         "unlocks": {
           "armor": [
             13638,
             13640,
-            13643
-          ]
-        }
-      },
-      {
-        "name": "Southsun Waves",
-        "unlocks": {
-          "armor": [
+            13643,
             13642,
             13646,
-            13647
-          ]
-        }
-      },
-      {
-        "name": "Janthir Outdoors",
-        "unlocks": {
-          "armor": [
+            13647,
             13644,
             13645,
             13648

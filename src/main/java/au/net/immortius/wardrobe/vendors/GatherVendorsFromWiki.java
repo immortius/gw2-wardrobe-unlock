@@ -32,6 +32,7 @@ import java.nio.file.DirectoryStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -61,6 +62,9 @@ public class GatherVendorsFromWiki {
     private final SetMultimap<String, String> itemToSkinMappings = HashMultimap.create();
     private final SetMultimap<WikiUrl, String> containerSkinsContentsCache = HashMultimap.create();
 
+    private final Map<WikiUrl, Set<String>> mappedItemCache = new ConcurrentHashMap<>();
+    private final Map<WikiUrl, Set<String>> cachedSkinIds = new ConcurrentHashMap<>();
+
     private static class MappedItemConfig {
         String id;
         SetMultimap<String, String> itemMapping = HashMultimap.create();
@@ -81,25 +85,25 @@ public class GatherVendorsFromWiki {
             .put("flamelegioncharrcarvings", "charrcarving")
             .put("freshwinterberry", "winterberries")
             .put("baublebubble", "bauble")
-            .put("difluoritecrystal","difluorite")
+            .put("difluoritecrystal", "difluorite")
             .put("gaetingcrystal", "gaeting")
             .put("integratedfractalmatrix", "integratedmatrix")
-            .put("lumpofaurillium","aurillium")
+            .put("lumpofaurillium", "aurillium")
             .put("lumpofmistonium", "mistonium")
             .put("wvwskirmishclaimticket", "wvwsct")
             .put("tradecontracts", "tradecontract")
             .put("blacklionclaimticket", "blt")
-            .put("manifestoofthemoletariate","manifesto")
-            .put("reclaimedmetalplate","reclaimedplate")
+            .put("manifestoofthemoletariate", "manifesto")
+            .put("reclaimedmetalplate", "reclaimedplate")
             .put("grandmasterartificersmark", "grandmasterartifactmark")
-            .put("grandmasterhuntsmansmark","grandmasterhuntsmanmark")
+            .put("grandmasterhuntsmansmark", "grandmasterhuntsmanmark")
             .put("grandmasterweaponsmithsmark", "grandmasterweaponmark")
             .put("knowledgecrystals", "knowledgecrystal")
             .put("manifestosofthemoletariate", "manifesto")
             .put("sealsofbeetletun", "sealofbeetletun")
             .put("shardsofzhaitan", "shardofzhaitan")
             .put("symbolsofkoda", "symbolofkoda")
-            .put("ectoplasm","globofectoplasm")
+            .put("ectoplasm", "globofectoplasm")
             .put("blacklioncommemorativesprocket", "blsprocket")
             .put("blacklionminiatureclaimticket", "blmt")
             .put("essenceofluck(exotic)", "exoticluck")
@@ -140,7 +144,7 @@ public class GatherVendorsFromWiki {
             Files.deleteIfExists(pagePath);
         }
 
-        scanVendorPage(new WikiUrl("/wiki/League_Vendor"));
+        scanVendorPage(new WikiUrl("/wiki/Alliance_Field_Quartermaster"));
 
         for (String categoryPage : config.vendorCrawler.getCategoryPages()) {
             scanCategory(new WikiUrl(categoryPage));
@@ -314,6 +318,11 @@ public class GatherVendorsFromWiki {
     }
 
     private Set<String> getMappedItemIds(MappedItemConfig typeConfig, WikiUrl itemUrl) throws IOException {
+        Set<String> cachedResult = mappedItemCache.get(itemUrl);
+        if (cachedResult != null) {
+            return cachedResult;
+        }
+
         Set<String> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
         Elements itemIds = doc.select("span.gamelink[data-type='item']");
@@ -333,6 +342,7 @@ public class GatherVendorsFromWiki {
         if (!itemType.isEmpty() && (CONTAINER_TYPES.contains(itemType.next().text())) && !config.ignoreContainers.contains(itemUrl.getUrl())) {
             result.addAll(getContainerItems(typeConfig, itemUrl, doc));
         }
+        mappedItemCache.put(itemUrl, result);
         return result;
     }
 
@@ -360,11 +370,16 @@ public class GatherVendorsFromWiki {
         return result;
     }
 
-
     private Set<String> getSkinId(WikiUrl itemUrl) throws IOException {
         if (itemUrl.isInvalid()) {
             return Collections.emptySet();
         }
+
+        Set<String> cachedResult = cachedSkinIds.get(itemUrl);
+        if (cachedResult != null) {
+            return cachedResult;
+        }
+
         Set<String> result = Sets.newLinkedHashSet();
         Document doc = Jsoup.parse(getPage(PageType.ITEM, itemUrl));
 
@@ -398,6 +413,7 @@ public class GatherVendorsFromWiki {
             }
         }
 
+        cachedSkinIds.put(itemUrl, result);
         return result;
     }
 
