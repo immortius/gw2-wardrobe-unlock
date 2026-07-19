@@ -325,6 +325,13 @@ function buildSite(data) {
         updateFilter($('#filter-by-acquisition')[0].value, this.value);
     });
 
+    $("#download-browse-csv").click(function () {
+      downloadBrowseCsv(
+        $("#filter-by-acquisition")[0].value,
+        $("#filter-by-container")[0].value,
+      );
+    });
+
     $('#rendering-mode-selection')[0].value = 'icon';
     $('#rendering-mode-selection').change(function() {
         if (this.value == 'icon') {
@@ -647,6 +654,73 @@ function processAdvancedFilter() {
   }
 }
 
+function getBrowseItemsForExport(displayMode) {
+  if (displayMode == "tp-buy" || displayMode == "buy") {
+    return $(".tp-buy-sorted .item:not(.hidden, .unlocked)");
+  }
+  if (displayMode == "tp-sell" || displayMode == "sell") {
+    return $(".tp-sell-sorted .item:not(.hidden, .unlocked)");
+  }
+  return $(".section-groups .item:not(.hidden, .unlocked)");
+}
+
+function getLookupItemFromElementId(elementId) {
+  var tpIdMatch = elementId.match(/^(.*)-(buy|sell)-tp-(\d+)$/);
+  if (tpIdMatch) {
+    if (lookup[tpIdMatch[1]]) {
+      return lookup[tpIdMatch[1]][tpIdMatch[3]];
+    }
+    return null;
+  }
+
+  var defaultMatch = elementId.match(/^(.*)-(\d+)$/);
+  if (defaultMatch && lookup[defaultMatch[1]]) {
+    return lookup[defaultMatch[1]][defaultMatch[2]];
+  }
+  return null;
+}
+
+function csvValue(value) {
+  return '"' + String(value).replace(/"/g, '""') + '"';
+}
+
+function downloadBrowseCsv(displayMode, container) {
+  var rows = ["Type,Category,Group,Skin ID,Skin Name,Linked To Count"];
+  getBrowseItemsForExport(displayMode).each(function (index, itemElement) {
+    var item = getLookupItemFromElementId(itemElement.id);
+    if (item != null) {
+      rows.push(
+        csvValue(item.sectionName) +
+          "," +
+          csvValue(item.categoryName) +
+          "," +
+          csvValue(item.groupName) +
+          "," +
+          csvValue(item.id) +
+          "," +
+          csvValue(item.name) +
+          "," +
+          csvValue(item.linkedUnlocks.length),
+      );
+    }
+  });
+
+  var csv = rows.join("\n");
+  var blob = new Blob([csv], { type: "text/csv;charset=utf-8;" });
+  var fileName = "Unlock-Analyzer-" + displayMode + "-" + container + ".csv";
+  if (window.navigator.msSaveOrOpenBlob) {
+    window.navigator.msSaveOrOpenBlob(blob, fileName);
+    return;
+  }
+  var link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = fileName;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(link.href);
+}
+
 function filterWithApiKey(key) {
     for (var sectionIndex = 0; sectionIndex < metadata.items.length; ++sectionIndex) {
         var sectionData = metadata.items[sectionIndex];
@@ -856,11 +930,19 @@ function buildSections() {
 }
 
 function populateGroupNames(sectionData) {
+    var sectionName = sectionData.name;
+    var sectionId = sectionData.id;
     for (var categoryIndex = 0; categoryIndex < sectionData.categories.length; ++categoryIndex) {
         var categoryName = sectionData.categories[categoryIndex].name;
         for (var groupIndex = 0; groupIndex < sectionData.categories[categoryIndex].groups.length; ++groupIndex) {
             var groupName = sectionData.categories[categoryIndex].groups[groupIndex].groupName;
             for (var itemIndex = 0; itemIndex < sectionData.categories[categoryIndex].groups[groupIndex].content.length; ++itemIndex) {
+                sectionData.categories[categoryIndex].groups[
+                  groupIndex
+                ].content[itemIndex].sectionName = sectionName;
+                sectionData.categories[categoryIndex].groups[
+                  groupIndex
+                ].content[itemIndex].sectionId = sectionId;
                 sectionData.categories[categoryIndex].groups[groupIndex].content[itemIndex].categoryName = categoryName;
                 sectionData.categories[categoryIndex].groups[groupIndex].content[itemIndex].groupName = groupName;
             }
